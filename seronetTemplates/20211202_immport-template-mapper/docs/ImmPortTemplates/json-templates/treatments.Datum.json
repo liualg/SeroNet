@@ -1,0 +1,39 @@
+{
+  "$schema":"http://json-schema.org/draft-04/schema",
+  "title":"treatments.json template schema",
+  "description":"The treatment template defines and annotates the in vitro modifications (molecule added, temperature, duration) made to a sample. Treatments are required to be referenced by experiment samples and optionally by biologic samples.",
+  "type":"object",
+  "properties":{
+    "userDefinedId":{
+    "type":"string","maxLength":100
+    },
+    "name":{
+    "type":"string","maxLength":100
+    },
+    "useTreatment":{
+    "type":"string","enum":["No","Yes"]
+    },
+    "amountValue":{
+    "type":"string","maxLength":50
+    },
+    "amountUnit":{
+    "type":"string","enum":["AI","DK units/ml","gm","HAU","IU","IU/ml","M","mg","mg/ml","ml","mM","MOI","ng","ng/ml","ng/nl","ng/ul","nl","nM","Not Specified","optical density","pg","pg/ml","pg/nl","pg/ul","pl","pM","TCID50","ug","ug/ml","ug/ul","ul","uM","units/ml"]
+    },
+    "durationValue":{
+    "type":"string","maxLength":200
+    },
+    "durationUnit":{
+    "type":"string","enum":["d.p.c.","Days","Hours","Minutes","Months","Not Specified","Seconds","Weeks","Years"]
+    },
+    "temperatureValue":{
+    "type":"string","maxLength":50
+    },
+    "temperatureUnit":{
+    "type":"string","enum":["C","F","K","Not Specified"]
+    },
+    "comments":{
+    "type":"string","maxLength":500
+    }
+    },
+  "required":["userDefinedId","name","useTreatment"]
+}
