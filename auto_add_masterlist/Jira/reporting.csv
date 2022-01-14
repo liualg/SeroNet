@@ -1,107 +1,36 @@
-,Percent done,PMID,2021-12-17
-0,,PMID_33547084,POC Request Reminders
-1,,PMID_34546094,Data Request sent
-2,,PMID_34767812,Protocol Template
-3,,PMID_34861167,Protocol Template
-4,,PMID_34250518,Populate Study and Protocol Template
-5,,PMID_34086877,Populate Study and Protocol Template
-6,,PMID_34835041,Data Request sent
-7,,PMID_34485950,POC Requested
-8,,PMID_34523968,Data Request sent
-9,,PMID_34648703,Data Request sent
-10,,PMID_34469363,Populate Study and Protocol Template
-11,,PMID_33119738,Populate Study and Protocol Template
-12,,PMID_34705477,Data Request sent
-13,,PMID_34320281,Data Request sent
-14,,PMID_34587763,POC Requested
-15,,PMID_34687733,POC Request Reminders
-16,,PMID_34607452,Data Review by primary curator
-17,,PMID_34802457,Data Review by primary curator
-18,,PMID_34624208,POC Request Reminders
-19,,PMID_34452006,Data Request sent
-20,,PMID_34368647,Data Request sent
-21,,PMID_34425179,Data Request sent
-22,,PMID_34696403,Data Review by primary curator
-23,,PMID_34652783,Protocol Template
-24,,PMID_34664972,Data Request Reminders
-25,,PMID_34521836,POC Request Reminders
-26,,PMID_34594341,POC Request Reminders
-27,,PMID_33292895,POC Request Reminders
-28,,PMID_34584899,POC Request Reminders
-29,,PMID_34253053,POC Request Reminders
-30,,PMID_33798476,POC Request Reminders
-31,,PMID_33622794,Data Request sent
-32,,PMID_34739850,Data Request sent
-33,,PMID_34797899,Protocol Template
-34,,PMID_34730254,POC Requested
-35,,PMID_34652962,POC Requested
-36,,PMID_34647593,POC Requested
-37,,PMID_33035201,ImmPort Informed
-38,,PMID_34824251,POC Requested
-39,,PMID_34835131,Protocol Template
-40,,PMID_33065030,Data Review by primary curator
-41,,PMID_33115920,POC Request Reminders
-42,,PMID_33142304,POC Request Reminders
-43,,PMID_33169014,Data Feedback Requested
-44,,PMID_33184236,POC Request Reminders
-45,,PMID_32941787,Data Review by secondary curator
-46,,PMID_33211672,ImmPort Informed
-47,,PMID_33276369,Data Request sent
-48,,PMID_33408181,Data Request Reminders
-49,,PMID_33427208,Data Request sent
-50,,PMID_33440148,POC Request Reminders
-51,,PMID_33472939,Data Review by primary curator
-52,,PMID_33476549,Data Review by primary curator
-53,,PMID_33478949,Data Feedback Reminders
-54,,PMID_33495307,POC Request Reminders
-55,,PMID_33509841,Exception Requested
-56,,PMID_33521695,Data Request Reminders
-57,,PMID_33571162,Data Request Reminders
-58,,PMID_33579769,ImmPort Informed
-59,,PMID_33589636,Data Review by primary curator
-60,,PMID_33589825,Data Review by primary curator
-61,,PMID_33688034,Exception Requested
-62,,PMID_33704352,Data Request Reminders
-63,,PMID_33727331,Data Request Reminders
-64,,PMID_33735607,Review and Approval Requested
-65,,PMID_33743211,Review and Approval Request Reminders
-66,,PMID_33775692,Data Review by primary curator
-67,,PMID_33795870,POC Request Reminders
-68,,PMID_33830946,ImmPort Informed
-69,,PMID_33846272,ImmPort Informed
-70,,PMID_33915337,Data Request Reminders
-71,,PMID_33932848,Data Request Reminders
-72,,PMID_33947773,Data Review by primary curator
-73,,PMID_33961839,POC Request Reminders
-74,,PMID_34056628,POC Request Reminders
-75,,PMID_33893169,Data Review by primary curator
-76,,PMID_33971664,POC Request Reminders
-77,,PMID_33983379,Data Request sent
-78,,PMID_34047304,POC Request Reminders
-79,,PMID_34075366,POC Request Reminders
-80,,PMID_34131024,POC Request Reminders
-81,,PMID_34133941,Data Request Reminders
-82,,PMID_34145263,POC Request Reminders
-83,,PMID_34151306,Review and Approval Requested
-84,,PMID_33479118,Data Request sent
-85,,PMID_33666169,Data Request sent
-86,,PMID_34003112,Data Request sent
-87,,PMID_34270939,POC Request Reminders
-88,,PMID_33720347,Data Request Reminders
-89,,PMID_34115964,Data Review by primary curator
-90,,PMID_33767426,POC Request Reminders
-91,,PMID_34250512,Data Feedback Reminders
-92,,PMID_33822097,Data Request Reminders
-93,,PMID_34083451,Data Request sent
-94,,PMID_34107529,Data Request sent
-95,,PMID_34161961,Data Request sent
-96,,PMID_34214046,POC Request Reminders
-97,,PMID_34233096,Review and Approval Requested
-98,,PMID_34242577,POC Request Reminders
-99,,PMID_34812429,POC Requested
-100,,PMID_34308390,Data Feedback Requested
-101,,PMID_34431693,POC Request Reminders
-102,,PMID_34260834,Data Request sent
-103,,PMID_34353890,ImmPort Informed
-104,,PMID_34230917,Determine other templates needed
-105,,PMID_33207184,Data Request sent
+,Percent done,PMID,2022-01-13
+0,,Liu_Preprint_34100011,ImmPort Informed
+1,,PMID_34314495,Protocol Template
+2,,PMID_34605900,Institutional Certification Request Sent
+3,,PMID_34605900,POC Requested
+4,,PMID_34605900,Protocol Template
+5,,PMID_33993265,Data Request Reminders
+6,,PMID_33993265,Institutional Certification Request Sent
+7,,PMID_33993265,Data Request sent
+8,,PMID_34652783,Institutional Certification Request Sent
+9,,PMID_34652783,Data Request sent
+10,,PMID_33622794,Institutional Certification Request Sent
+11,,PMID_34739850,Data Request Reminders
+12,,PMID_34739850,Institutional Certification Request Sent
+13,,PMID_34835131,Institutional Certification Request Sent
+14,,PMID_34835131,POC Requested
+15,,PMID_33142304,Institutional Certification Request Sent
+16,,PMID_33169014,Institutional Certification Request Sent
+17,,PMID_33571162,Data Review by primary curator
+18,,PMID_33795870,Data Request sent
+19,,PMID_33830946,Review and Approval Requested
+20,,PMID_33830946,Institutional Certification Request Sent
+21,,PMID_33846272,Institutional Certification Request Sent
+22,,PMID_33915337,Institutional Certification Request Sent
+23,,PMID_33932848,Institutional Certification Request Sent
+24,,PMID_33983379,Data Request Reminders
+25,,PMID_34047304,Data Request sent
+26,,PMID_34075366,Data Request sent
+27,,PMID_34095338,Institutional Certification Request Sent
+28,,PMID_34151306,Data Review by secondary curator
+29,,PMID_33720347,Institutional Certification Request Sent
+30,,PMID_33767426,Data Request sent
+31,,PMID_34083451,Data Request Reminders
+32,,PMID_34107529,Data Review by primary curator
+33,,PMID_34260834,Data Review by primary curator
+34,,PMID_33207184,Institutional Certification Request Sent
