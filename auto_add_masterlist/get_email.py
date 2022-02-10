@@ -13,8 +13,8 @@ args = parser.parse_args()
 PI_name = args.PI[0]
 print("Input:", PI_name)
 
-masterlist_dir = "~/National Institutes of Health/NCI-FNL SeroNet Team - Curation channel/Master List Publications_2021-PMIDS and authors.xlsx"
-masterlist = pd.read_excel(masterlist_dir, sheet_name = 'curatorGrantMapping')
+masterlist_dir = "~/National Institutes of Health/NCI-FNL SeroNet Team - Curation channel/Award to curator and all contacts mapping.xlsx"
+masterlist = pd.read_excel(masterlist_dir, sheet_name = 'contact&curatorGrantMapping')
 # print(masterlist.columns)
 try:
 	df = masterlist[masterlist['PI'].astype(str).str.contains(
@@ -24,10 +24,12 @@ try:
 
 	print("PI:\n",
 		df['PI'].reset_index(drop=True)[0].title(),"\n",
-		df['PI-Email'].reset_index(drop=True)[0],"\n")
+		df['PI-Email'].reset_index(drop=True)[0],"\n",
+		df['Grant'].reset_index(drop=True)[0],"\n")
 	print("Co-author:\n",
 		df['Co-Investigator(s)'].reset_index(drop=True)[0].title(), "\n",
-		df['Co-Email'].reset_index(drop=True)[0])
+		df['Co-Email'].reset_index(drop=True)[0],"\n",
+		df['Grant'].reset_index(drop=True)[0],"\n")
 	check += 1
 except:
 	print(" ~~ PI does not exist, will try Co-author ~~ \n")
@@ -41,10 +43,12 @@ if check == 0:
 
 		print("PI:\n",
 			df['PI'].reset_index(drop=True)[0].title(),"\n",
-			df['PI-Email'].reset_index(drop=True)[0],"\n")
+			df['PI-Email'].reset_index(drop=True)[0],"\n",
+			df['Grant'].reset_index(drop=True)[0],"\n")
 		print("Co-author:\n",
 			df['Co-Investigator(s)'].reset_index(drop=True)[0].title(),"\n", 
-			df['Co-Email'].reset_index(drop=True)[0])
+			df['Co-Email'].reset_index(drop=True)[0],"\n",
+			df['Grant'].reset_index(drop=True)[0],"\n")
 	except:
 		print("\n~~ Name is not a Co-Auther. Please check or add ~~")
 
