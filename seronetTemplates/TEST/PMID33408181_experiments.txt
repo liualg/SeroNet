@@ -1,0 +1,4 @@
+experiments	Schema Version 3.34					
+Please do not delete or edit this column						
+Column Name	User Defined ID	Name	Description	Measurement Technique	Study ID	Protocol ID(s)
+	PMID33408181_exp-01	PCR	Study has reported results from PCR assays.	PCR	PMID33408181	PMID33408181_protocol-01

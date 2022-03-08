@@ -1,0 +1,60 @@
+basic_study_design	Schema Version 3.34									
+Please do not delete or edit this column	The basic study design template defines and annotates key elements of a study including the purpose, subject grouping, schedule of events, personnel, and references (weblinks, publications). Use the study_design_edit template to add additional information for a study after a study is defined in ImmPort. The basic study design template consists of several sections or compound templates. Some compound templates are required: study, arm_or_cohort, inclusion_exclusion, planned_visit, study_2_condition_or_disease, study_2_protocol, study_categorization, study_personnel.  Other compound templates are optional: study_file, study_link, and study_pubmed.									
+Column Name										
+										
+study										
+User Defined ID	PMID33408181									
+Brief Title	Immunological memory to SARS-CoV-2 assessed for up to 8 months after infection									
+Official Title	Immunological memory to SARS-CoV-2 assessed for up to 8 months after infection									
+Brief Description	Understanding immune memory to SARS-CoV-2 has implica- tions for understanding protective immunity against COVID-19 and assessing the likely future course of the COVID-19 pandemic.									
+Description	INTRODUCTION: Immunological memory is the basis for durable protective immunity after infections or vaccinations. Duration of immuno- logical memory after severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection and COVID-19 is unclear. Immunological mem- ory can consist of memory B cells, antibodies, memory CD4+ T cells, and/or memory CD8+ T cells. Knowledge of the kinetics and inter- relationships among those four types of mem- ory in humans is limited. Understanding immune memory to SARS-CoV-2 has implica- tions for understanding protective immunity against COVID-19 and assessing the likely future course of the COVID-19 pandemic.RATIONALE: Assessing virus-specific immune memory over at least a 6-month period is likely necessary to ascertain the durability of immune memory to SARS-CoV-2. Given the evidence that antibodies, CD4+ T cells, and CD8+ T cells can all participate in protective immunity to SARS-CoV-2, we measured antigen-specific anti- bodies, memory B cells, CD4+ T cells, and CD8+ T cells in the blood from subjects who recovered from COVID-19, up to 8 months after infection.									
+Intervention Agent										
+Endpoints	Antibodies, NeutralizingAntibodies, ViralSpike Glycoprotein, Coronavirusspike protein, SARS-CoV-2									
+Sponsoring Organization	La Jolla Institute for Immunology									
+Age Unit	Years									
+Actual Start Date	n/a									
+Hypothesis	n/a									
+Objectives										
+Target Enrollment	n/a									
+Minimum Age	n/a									
+Maximum Age	n/a									
+										
+study_categorization										
+Research Focus	Immune Response									
+										
+study_2_condition_or_disease										
+Condition Reported	Covid-19									
+										
+arm_or_cohort										
+User Defined ID	Name	Description	Type							
+PMID33408181_aoc-01	Patients recovered with SARS-CoV-2	New York City, California and at least seven other states	No Intervention Arm							
+										
+study_personnel										
+User Defined ID	Honorific	Last Name	First Name	Suffixes	Organization	ORCID ID	Email	Title In Study	Role In Study	Site Name
+PMID33408181_weiskopf		Weiskopf	Daniela 		La Jolla Institute for Immunology		daniela@lji.org	Corresponding Author	Other	La Jolla Institute for Immunology
+PMID33408181_sariol		Sariol	Carlos		University of Puerto Rico		carlos.sariol1@upr.edu	SeroNet Principal Investigator	Other	University of Puerto Rico
+										
+planned_visit										
+User Defined ID	Name	Order Number	Min Start Day	Max Start Day	Start Rule					
+PMID33408181_pv-01	Group: Single time blood drawn	1	6	n/a	n/a					
+PMID33408181_pv-02	Group: 2-4 times blood drawn	2	6	n/a	n/a					
+										
+inclusion_exclusion										
+User Defined ID	Criterion	Criterion Category								
+PMID33408181_ic-01	SARS-CoV-2 Antibodies Measured	inclusion								
+PMID33408181_ic-02	SARS-CoV-2 Antibodies Measured	exclusion								
+										
+study_2_protocol										
+Protocol ID	PMID33408181_protocol-01									
+										
+study_file										
+File Name	Description	Study File Type								
+2021. Immunological Memory to SARSCoV2 IMPORT SDY1870.docx	data	Study Data								
+2021. Supplemental Materials. Immunological Memory to SARSCoV2 IMPORT SDY1870.docx	data	Study Data								
+										
+study_link										
+Name	Value									
+										
+study_pubmed										
+Pubmed ID	DOI	Title	Journal	Year	Month	Issue	Pages	Authors		
+33408181										

@@ -2,9 +2,9 @@
 Brief Title,Study Name
 Official Title,Publication Title
 Brief Description,Study Objective
-Description,Description
-Intervention Agent,SARS-CoV-2 Vaccine Type 
-Endpoints,Assay Type
+Description,Study Description
+Intervention Agent,SARS-CoV-2 Vaccine Type
+Endpoints,Keywords
 Sponsoring Organization,Primary Institution Name
 Age Unit,Age Unit
 Actual Start Date,Enrollment Start Date
@@ -13,5 +13,9 @@ Objectives,Study Type
 Target Enrollment,Number of Study Subjects
 Minimum Age,Minimum Age
 Maximum Age,Maximum Age
+Condition Reported,Reported Health Condition* 
 Research Focus,Research Focus
-Condition Reported,Reported Health Condition
+,
+,
+,
+,
