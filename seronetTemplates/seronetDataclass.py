@@ -104,13 +104,20 @@ class study_details:
     Maximum_Age: int = None
     ImmPortNAME : str = 'study'
 
+    def __post_init__(self):
+        if self.Maximum_Age is None:
+            object.__setattr__(self, 'Maximum_Age', 89)
+            
+        if self.Minimum_Age is None:
+            object.__setattr__(self, 'Minimum_Age', 0)
+
 @dataclass
 class arm_or_cohort: #these can be a list, or we can do multiple ones 
     """1 row below, 4 Columns"""
     User_Defined_ID: list = None
     Name: list = None
     Description: list = None
-    Type: list = None
+    Type_Reported: list = None
     ImmPortNAME : str = 'arm_or_cohort'
 
 
@@ -124,6 +131,11 @@ class planned_visit:
     Max_Start_Day: list = None
     Start_Rule: list = None
     ImmPortNAME : str = 'planned_visit'
+
+    # def __post__init__(self):
+    #     for i in range(len(self.User_Defined_ID)):
+    #         if self.Max_Start_Day[i] == None or np.isnan(self.Max_Start_Day[i]):
+    #             self.Max_Start_Day[i] = 
 
 @dataclass
 class inclusion_exclusion:
@@ -173,6 +185,11 @@ class subject_type_human:
     Race_Specify: list = field(default_factory=list)
     Description: list = field(default_factory=list)
     ImmPortNAME: str = 'n/a'
+
+    def __post_init__(self):
+        for i in self.Race:
+            if i == 'Not Specified':
+                object.__setattr__(self, 'Race', 'Unknown')
 
     def __len__(self):
         return len(self.Ethnicity) + len(self.Race) + len(self.Race_Specify) + len(self.Description)

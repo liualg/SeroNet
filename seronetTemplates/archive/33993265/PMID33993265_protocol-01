@@ -1,0 +1,16 @@
+PMID33993265_protocol-01
+
+This protocol is derived from the publication, available at:   doi: 10.1093/cid/ciab447
+
+EXPERIMENTAL MODEL AND SUBJECT DETAILS
+
+Regulatory Approval and Study Subjects
+We obtained New England Independent Review Board study approval and consented subjects per protocol. We approached nursing home leadership to gain entry to 4 NH buildings and recruit residents for vaccination with and without prior SARS-CoV-2 infection and healthcare workers as controls. Controls included vaccinated individuals with and without prior SARS-CoV-2 infection, and unvaccinated individuals convalescent from prior SARS-CoV-2 infection. Prior SARS-CoV-2 infection was determined by polymerase chain reaction, antigen test, and/or high antibody titer to SARS-CoV-2 spike and receptor-binding domain (RBD).
+
+Anti-Spike and Anti-RDB Assay
+Stabilized full-length S protein (aa 16–1230, with furin site mutated) and RBD (aa 319–541) were conjugated to magnetic microbeads (Luminex). Antigen-specific immunoglobulin G (IgG) is detected in patient serum/plasma using Phycoerythrin-conjugated Donkey F(ab)2 anti-human IgG, with Fcγ (Jackson Immunological) added. Using the Magpix assay system (BioRad), the mean fluorescent index (MFI) is recorded. To provide an internal standard and control for plate-to-plate variation, a pool of convalescent plasma was generated from people with known prior SARS-CoV-2 infection and ran a standard curve of half log-dilutions starting at a 1:100 dilution on each plate. A relative antibody unit (AU) value of 4000 was ascribed to the 1:100 dilution. MFI values were interpolated from this curve to generate the AU values presented. A receiver operating curve was generated using 167 pre–SARS-CoV-2 serum control samples and 66 SARS-CoV-2 convalescent samples to determine cutoff values for a convalescent antibody levels with a specificity of 99% and sensitivity of 98% using antibodies to both S and RBD.
+
+SARS-CoV-2 Pseudovirus Neutralization Assay
+To compare the neutralizing activity of vaccine recipients’ sera against coronaviruses, we produced lentiviral particles pseudotyped with vaccine strain spike protein as previously described [5]. Neutralization assays and readout were performed on a Fluent Automated Workstation (Tecan) liquid handler using 384-well plates (Grenier) [6]. Three-fold serial dilutions ranging from 1:12 to 1:8748 were performed for each serum sample before adding 50–250 infectious units of pseudovirus for 1 hour. Percentage neutralization was determined by subtracting background luminescence measured in cell control wells (cells only) from sample wells and dividing by virus control wells (virus and cells only). pseudovirus neutralization titers (pNT50) values were calculated by taking the inverse of the 50% inhibitory concentration value for all samples with a pseudovirus neutralization value of 80% or higher at the highest concentration of serum.
+
+We used R version 4.0.3 software for all statistical analyses. Unless otherwise specified, presented P values are unadjusted.

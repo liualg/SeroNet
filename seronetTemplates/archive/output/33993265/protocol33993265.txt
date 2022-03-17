@@ -1,0 +1,4 @@
+protocols	Schema Version 3.34				
+Please do not delete or edit this column					
+Column Name	User Defined ID	File Name	Name	Description	Type
+PMID34188786_protocol-01	PMID34188786_protocol-01.txt	PMID34188786_protocol-01	protocol	Study Protocol	

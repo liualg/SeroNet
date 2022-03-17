@@ -1,0 +1,22 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6744).
+The validation report was generated on 2022-02-04-10:07:21.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220204_31024___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+PMID33993265_study.txt		Parsing		Template: basic_study_design.txt, Size:4977 bytes
+PMID33993265_study.txt		Information		Validation Level = Standard
+PMID33993265_study.txt	3	Stored in:file_info		Size:4977 bytes
+PMID33993265_study.txt	6	Error	Missing required value	The Rule check "Required Column" for Field "Intervention Agent".  The row has ID field(s) "User Defined ID" and value "PMID34188786_study".
+PMID33993265_study.txt	23	Information		Adding User Defined ID "Infection Response:SDY1000569407" for table "study_categorization"
+PMID33993265_study.txt	26	Information		Adding User Defined ID "COVID-19:SDY1000569407" for table "study_2_condition_or_disease"
+PMID33993265_study.txt	44	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "user_defined_id" with value "File Name" in the Table protocol.  The row has ID field(s) "Protocol ID" and value "File Name".
+PMID33993265_study.txt	44	Information		Adding User Defined ID ":SDY1000569407" for table "study_2_protocol"
+PMID33993265_study.txt	49	Error	Value reported in template does not match preferred vocabulary. See template documentation for preferred vocabulary terms.	The Lookup Table check "lk_study_file_type" in field "Study File Type" "Other".  The row has ID field(s) "File Name" and value "".
+PMID33993265_study.txt	49	Error	The path expression for the file could not be generated due to missing data.	The Path Expression for "STUDY_FILE" generation with Parameters [workspaceId, fileName, studyAccession] and corresponding Values [6744, NULL, SDY1000569407]  The row has ID field(s) "File Name" and value "".
+PMID33993265_study.txt	49	Information		Adding User Defined ID "SDY1000569407:" for table "study_file"
+PMID33993265_study.txt	49	Error	Missing required value	The Rule check "Required Column" for Field "File Name".  The row has ID field(s) "File Name" and value "".
+PMID33993265_study.txt	49	Error	Missing required value	The Rule check "Required Column" for Field "Description".  The row has ID field(s) "File Name" and value "".
+PMID33993265_study.txt	55	Information		Adding User Defined ID "SDY1000569407:34188786" for table "study_pubmed"
+PMID33993265_study.txt		Error	Required compound template is missing	The Compound Template has value "inclusion_exclusion".
+PMID33993265_study.txt		Failed		Template: basic_study_design.txt, Size:4977 bytes
+nobody_20220204_1000000152___aleliu_20220204_31024___TEST		Rejected		

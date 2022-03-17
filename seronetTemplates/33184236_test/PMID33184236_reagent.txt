@@ -1,0 +1,5 @@
+other_reagents	Schema Version 3.34							
+Please do not delete or edit this column								
+Column Name	User Defined ID	Name	Description	Manufacturer	Catalog Number	Lot Number	Weblink	Contact
+	SARS-CoV-2 WA1 strain 	Full Length Spike Trimer						
+	?							

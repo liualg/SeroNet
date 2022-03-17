@@ -1,0 +1,21 @@
+{
+  "$schema":"http://json-schema.org/draft-04/schema",
+  "title":" template schema",
+  "description":"",
+  "type":"object",
+  "properties":{
+    "userDefinedId":{
+    "type":"string","maxLength":100
+    },
+    "name":{
+    "type":"string","maxLength":126
+    },
+    "description":{
+    "type":"string","maxLength":4000
+    },
+    "type":{
+    "type":"string","maxLength":20
+    }
+    },
+  "required":["userDefinedId","name","description"]
+}

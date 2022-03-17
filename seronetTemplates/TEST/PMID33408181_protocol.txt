@@ -1,4 +1,0 @@
-protocols	Schema Version 3.34				
-Please do not delete or edit this column					
-Column Name	User Defined ID	File Name	Name	Description	Type
-	PMID33408181_protocol-01	PMID33408181_protocol-01.txt	PMID33408181_protocol-01		Not Specified

@@ -1,0 +1,9 @@
+subjectanimals	Schema Version 3.34																			
+Please do not delete or edit this column																				
+Column Name	Subject ID	Arm Or Cohort ID	Gender	Min Subject Age	Max Subject Age	Age Unit	Age Event	Age Event Specify	Subject Phenotype	Subject Location	Species	Strain	Strain Characteristics	Result Separator Column	Exposure Process Reported	Exposure Material Reported	Exposure Material ID	Disease Reported	Disease Ontology ID	Disease Stage Reported
+	PMID33184236_organism_subject-01	PMID33184236_aoc-01	Not Speciied 	0	89	Years	Not Specified			NC	Human	Cell Line						Covid-19		
+	PMID33184236_organism_subject-02	PMID33184236_aoc-02	Not Speciied 	0	89	Years	Not Specified			NC	Human	Cell Line						Covid-19		
+	PMID33184236_organism_subject-03	PMID33184236_aoc-03	Not Speciied 	0	89	Years	Not Specified			NC	Human	Cell Line						Covid-19		
+	PMID33184236_organism_subject-04	PMID33184236_aoc-04	Not Speciied 	0	89	Years	Not Specified			NC	Human	Cell Line						Covid-19		
+	PMID33184236_organism_subject-05	PMID33184236_aoc-04	Not Speciied 	0	89	Years	Not Specified			NC	Mice	Animal			Infected			Covid-19		Mild
+	PMID33184236_organism_subject-06	PMID33184236_aoc-04	Not Speciied 	0	89	Years	Not Speciied 			NC	Syrian hamsters	Animal			Infected			Covid-19		Mild

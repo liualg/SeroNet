@@ -1,0 +1,7 @@
+experiments	Schema Version 3.34					
+Please do not delete or edit this column						
+Column Name	User Defined ID	Name	Description	Measurement Technique	Study ID	Protocol ID(s)
+	PMID33993265_exp-00	PCR	Study has reported results from PCR assays.	PCR	PMID34188786_study	PMID34188786_protocol-01
+	PMID33993265_exp-01	Microscopy	Study has shared microscopy images.	Microscopy	PMID34188786_study	PMID34188786_protocol-01
+	PMID33993265_exp-02	Virus Neutralization Assay	Study has reported results from one or more Virus Neutralization assays.	Virus Neutralization Assay	PMID34188786_study	PMID34188786_protocol-01
+	PMID33993265_exp-03	Other	Other	Other	PMID34188786_study	PMID34188786_protocol-01

@@ -1,0 +1,6 @@
+experiments	Schema Version 3.34					
+Please do not delete or edit this column						
+Column Name	User Defined ID	Name	Description	Measurement Technique	Study ID	Protocol ID(s)
+	PMID33184236_exp-01	neutralization assay		neutralization assay	PMID33184236_study	PMID33184236_protocol-01
+	PMID33184236_exp-02	competition assay		competition assay	PMID33184236_study	PMID33184236_protocol-01
+	PMID33184236_exp-03	Western blot		Western blot	PMID33184236_study	PMID33184236_protocol-01

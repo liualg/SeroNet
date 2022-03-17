@@ -1,0 +1,5 @@
+subjecthumans	Schema Version 3.34																				
+Please do not delete or edit this column																					
+Column Name	Subject ID	Arm Or Cohort ID	Gender	Min Subject Age	Max Subject Age	Age Unit	Age Event	Age Event Specify	Subject Phenotype	Subject Location	Ethnicity	Race	Race Specify	Description	Result Separator Column	Exposure Process Reported	Exposure Material Reported	Exposure Material ID	Disease Reported	Disease Ontology ID	Disease Stage Reported
+	PMIDTEST_human_subject-01	PMIDTEST_human_aoc-01	Not Specified	0	89	Years	Age at initial treatment			United States of America	Not Hispanic or Latino	Native Hawaiian or Other Pacific Islander				no exposure					
+	PMIDTEST_human_subject-02	PMIDTEST_human_aoc-02	Male	0	89	Years	Age at initial treatment			United States of America	Not Specified	Not Specified				no exposure					
