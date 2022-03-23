@@ -1,0 +1,43 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6744).
+The validation report was generated on 2022-03-12-10:14:16.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220312_31603___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+PMIDTEST_protocol.txt		Parsing		Template: protocols.txt, Size:223 bytes
+PMIDTEST_protocol.txt		Information		Validation Level = Standard
+PMIDTEST_protocol.txt	3	Stored in:file_info		Size:223 bytes
+PMIDTEST_protocol-01.txt	4	Stored in:protocols		Size:15731 bytes
+PMIDTEST_protocol.txt		Parsed		Template: protocols.txt, Size:223 bytes
+PMIDTEST_reagent.txt		Parsing		Template: reagents.other.txt, Size:257 bytes
+PMIDTEST_reagent.txt		Information		Validation Level = Standard
+PMIDTEST_reagent.txt	3	Stored in:file_info		Size:257 bytes
+PMIDTEST_reagent.txt		Parsed		Template: reagents.other.txt, Size:257 bytes
+PMIDTEST_basic.txt		Parsing		Template: basic_study_design.txt, Size:4533 bytes
+PMIDTEST_basic.txt		Information		Validation Level = Standard
+PMIDTEST_basic.txt	3	Stored in:file_info		Size:4533 bytes
+PMIDTEST_basic.txt	23	Information		Adding User Defined ID "Immune Response:SDY1004065924" for table "study_categorization"
+PMIDTEST_basic.txt	26	Information		Adding User Defined ID "COVID-19:SDY1004065924" for table "study_2_condition_or_disease"
+PMIDTEST_basic.txt	48	Information		Adding User Defined ID "PTL1004065912:SDY1004065924" for table "study_2_protocol"
+2021. Immunological Memory to SARSCoV2 IMPORT SDY1870.docx	52	Stored in:study_file		Size:128894 bytes
+PMIDTEST_basic.txt	52	Information		Adding User Defined ID "SDY1004065924:2021. Immunological Memory to SARSCoV2 IMPORT SDY1870.docx" for table "study_file"
+2021. Supplemental Materials. Immunological Memory to SARSCoV2 IMPORT SDY1870.docx	53	Stored in:study_file		Size:6042265 bytes
+PMIDTEST_basic.txt	53	Information		Adding User Defined ID "SDY1004065924:2021. Supplemental Materials. Immunological Memory to SARSCoV2 IMPORT SDY1870.docx" for table "study_file"
+PMIDTEST_basic.txt	60	Information		Adding User Defined ID "SDY1004065924:TEST" for table "study_pubmed"
+PMIDTEST_basic.txt		Parsed		Template: basic_study_design.txt, Size:4533 bytes
+panel01_PMIDTEST_assessment.txt		Parsing		Template: assessments.txt, Size:981 bytes
+panel01_PMIDTEST_assessment.txt		Information		Validation Level = Standard
+panel01_PMIDTEST_assessment.txt	3	Stored in:file_info		Size:981 bytes
+panel01_PMIDTEST_assessment.txt	4	Information		The combined status for subject_id (PMIDTEST_subject-01) and table subject has values:  subject_required (yes), subject_user_defined_id (PMIDTEST_subject-01), and subject_accession ().
+panel01_PMIDTEST_assessment.txt	4	Information		The combined status for assessment_panel_id (PMIDTEST_assess-01) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMIDTEST_assess-01), and assessment_panel_accession ().
+panel01_PMIDTEST_assessment.txt	4	Error	The subject ID must always be for a predefined subject	The check uses fields ["subject_required_value", "subject_required"] whose values are [no, yes].  The row has ID field(s) "subject_user_defined_id" and value "PMIDTEST_subject-01".
+panel01_PMIDTEST_assessment.txt	4	Error	assessment_component study_accession "SDY1004065924" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "SDY1004065924" in field "subject_accession" "SUB1004065950".  The row has ID field(s) "subject_user_defined_id" and value "PMIDTEST_subject-01".
+panel01_PMIDTEST_assessment.txt	5	Information		The combined status for subject_id (PMIDTEST_subject-01) and table subject has values:  subject_required (no), subject_user_defined_id (PMIDTEST_subject-01), and subject_accession (SUB1004065950).
+panel01_PMIDTEST_assessment.txt	5	Information		The combined status for assessment_panel_id (PMIDTEST_assess-02) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMIDTEST_assess-02), and assessment_panel_accession ().
+panel01_PMIDTEST_assessment.txt	5	Error	Duplicate data row	The check uses entity "Template File" whose value is "assessments.txt".  The row has ID field(s) "subject_user_defined_id" and value "PMIDTEST_subject-01".
+panel01_PMIDTEST_assessment.txt	5	Error	assessment_component study_accession "SDY1004065924" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "SDY1004065924" in field "subject_accession" "SUB1004065950".  The row has ID field(s) "subject_user_defined_id" and value "PMIDTEST_subject-01".
+panel01_PMIDTEST_assessment.txt		Failed		Template: assessments.txt, Size:981 bytes
+PMIDTEST_experiments.txt		Parsing		Template: experiments.txt, Size:274 bytes
+PMIDTEST_experiments.txt		Information		Validation Level = Standard
+PMIDTEST_experiments.txt	3	Stored in:file_info		Size:274 bytes
+PMIDTEST_experiments.txt		Parsed		Template: experiments.txt, Size:274 bytes
+nobody_20220312_1000000198___aleliu_20220312_31603___TEST		Rejected		

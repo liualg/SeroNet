@@ -1,0 +1,7 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2022-03-11-23:13:23.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220311_31593___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+nobody_20220311_1000000188___aleliu_20220311_31593___TEST		Error	Duplicate template file based on case-insensitive spelling	The Template File "assessments.txt" has Duplicates "[PMID33408181_v2_panel1_assessment.txt, PMID33408181_v2_panel2_assessment.txt]".
+nobody_20220311_1000000188___aleliu_20220311_31593___TEST		Rejected		

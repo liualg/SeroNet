@@ -1,0 +1,150 @@
+﻿BATCH DATA UPLOAD DATABASE REPORT
+=================================
+
+REPORT DATE:                 17-FEB-2022 12:00:12
+WORKSPACE_ID:                [6661, NAME: SeroNet]
+STUDY_ACCESSION:             [--None--, TITLE: --None--]
+SUBMISSION TICKET NUMBER:    aleliu_20220217_31194
+SUBMITTER:                   Liu, Alex 
+SUBMITTER USERNAME:          aleliu
+SUBMISSION DATE/TIME:        17-FEB-2022 11:58:22
+UPLOAD PACKAGE ZIP FILENAME: TEST
+UPLOAD PACKAGE ZIP FILESIZE: 8644091
+UPLOAD METHOD:               Secure Web
+
+
+==============
+BASE META-DATA
+==============
+
+
+==============
+FILE_INFO DATA
+==============
+
+
+FILE_INFO(S)
+============
+	TOTAL RECORDS: 14
+--------------------------------------------------------------------------------
+FILE_INFO_ID	DETAIL	FILE_SIZE (BYTES)	ORIGINAL_FILE_NAME	PATH
+849723	Archived	8644091	abe4782_sm.docx	workspace/6661/file_info/archived/abe4782_sm.849723.docx
+849724	Archived	109	abe4782_table_s1 (4).xlsx	workspace/6661/file_info/archived/abe4782_table_s1 (4).849724.xlsx
+849734	Archived	19060	abe4782_table_s1 (5).xlsx	workspace/6661/file_info/archived/abe4782_table_s1 (5).849734.xlsx
+849732	Archived	19343	abe4782_table_s1-2_v2.xlsx	workspace/6661/file_info/archived/abe4782_table_s1-2_v2.849732.xlsx
+849730	Archived	157461	abe4782_table_s10 (2).xlsx	workspace/6661/file_info/archived/abe4782_table_s10 (2).849730.xlsx
+849736	Archived	22893	abe4782_table_s11 (2).xlsx	workspace/6661/file_info/archived/abe4782_table_s11 (2).849736.xlsx
+849725	Archived	14917	abe4782_table_s2 (2).xlsx	workspace/6661/file_info/archived/abe4782_table_s2 (2).849725.xlsx
+849726	Archived	476611	abe4782_table_s3_v2.xlsx	workspace/6661/file_info/archived/abe4782_table_s3_v2.849726.xlsx
+849735	Archived	408312	abe4782_table_s5_v2.xlsx	workspace/6661/file_info/archived/abe4782_table_s5_v2.849735.xlsx
+849733	Archived	3779835	abe4782_table_s6_v2.xlsx	workspace/6661/file_info/archived/abe4782_table_s6_v2.849733.xlsx
+849729	Archived	1999023	abe4782_table_s7_v2.xlsx	workspace/6661/file_info/archived/abe4782_table_s7_v2.849729.xlsx
+849727	Archived	398875	abe4782_table_s8 (2).xlsx	workspace/6661/file_info/archived/abe4782_table_s8 (2).849727.xlsx
+849728	Archived	18383	abe4782_table_s9 (2).xlsx	workspace/6661/file_info/archived/abe4782_table_s9 (2).849728.xlsx
+849731	Archived	2995	studydesignedit_PMID33478949.txt	workspace/6661/file_info/archived/studydesignedit_PMID33478949.849731.txt
+
+
+====================
+EXPERIMENT META-DATA
+====================
+
+
+=============
+CLINICAL DATA
+=============
+
+Count Report (uploadTicketNumber = aleliu_20220217_31194):
+
+upload_registration = 1
+upload_registration_result = 17
+
+Workspace_2_* Counts
+workspace_2_assessment_panel = 0
+workspace_2_biosample = 0
+workspace_2_control_sample = 0
+workspace_2_experiment = 0
+workspace_2_expsample = 0
+workspace_2_file_info = 14
+workspace_2_lab_test_panel = 0
+workspace_2_protocol = 0
+workspace_2_reagent = 0
+workspace_2_standard_curve = 0
+workspace_2_study = 0
+workspace_2_subject = 0
+workspace_2_treatment = 0
+
+Non-Study Table Counts
+protocol = 0
+reagent = 0
+reagent_set_2_reagent = 0
+treatment = 0
+
+Study Table Counts
+study = 0
+study_2_condition_or_disease = 0
+study_2_panel = 0
+study_2_protocol = 0
+contract_grant_2_study = 0
+arm_or_cohort = 0
+inclusion_exclusion = 0
+planned_visit = 0
+study_categorization = 0
+study_file = 0
+study_image = 0
+study_link = 0
+study_personnel = 0
+study_pubmed = 0
+adverse_event = 0
+assessment_panel = 0
+assessment_2_file_info = 0
+assessment_component = 0
+intervention = 0
+lab_test_panel = 0
+lab_test_panel_2_protocol = 0
+lab_test = 0
+
+Study Meta-Data Table Counts
+subject = 0
+arm_2_subject = 0
+biosample = 0
+biosample_2_treatment = 0
+experiment = 0
+experiment_2_protocol = 0
+file_info = 14
+expsample = 0
+expsample_mbaa_detail = 0
+expsample_public_repository = 0
+immune_exposure = 0
+expsample_2_biosample = 0
+expsample_2_file_info = 0
+expsample_2_reagent = 0
+expsample_2_treatment = 0
+control_sample = 0
+control_sample_2_file_info = 0
+standard_curve = 0
+standard_curve_2_file_info = 0
+fcs_header = 0
+fcs_header_marker = 0
+fcs_analyzed_result_marker = 0
+
+Result Table Counts
+mbaa_result = 0
+fcs_analyzed_result = 0
+elisa_result = 0
+elispot_result = 0
+hai_result = 0
+hla_typing_result = 0
+kir_typing_result = 0
+neut_ab_titer_result = 0
+mass_spectrometry_result = 0
+pcr_result = 0
+rna_seq_result = 0
+
+Other Non-Upload Table Counts
+protocol_deviation = 0
+fcs_header_marker_2_reagent = 0
+reference_range = 0
+reported_early_termination = 0
+study_data_release = 0
+subject_measure_definition = 0
+subject_measure_result = 0

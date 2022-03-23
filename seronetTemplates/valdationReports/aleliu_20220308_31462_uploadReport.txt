@@ -1,0 +1,61 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6744).
+The validation report was generated on 2022-03-08-00:46:48.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220308_31462___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+PMID33408181_protocol.txt		Parsing		Template: protocols.txt, Size:235 bytes
+PMID33408181_protocol.txt		Information		Validation Level = Standard
+PMID33408181_protocol.txt	3	Stored in:file_info		Size:235 bytes
+PMID33408181_protocol-01.txt	4	Stored in:protocols		Size:15731 bytes
+PMID33408181_protocol.txt		Parsed		Template: protocols.txt, Size:235 bytes
+PMID33408181_reagent.txt		Parsing		Template: reagents.other.txt, Size:261 bytes
+PMID33408181_reagent.txt		Information		Validation Level = Standard
+PMID33408181_reagent.txt	3	Stored in:file_info		Size:261 bytes
+PMID33408181_reagent.txt		Parsed		Template: reagents.other.txt, Size:261 bytes
+PMID33408181_basic.txt		Parsing		Template: basic_study_design.txt, Size:4628 bytes
+PMID33408181_basic.txt		Information		Validation Level = Standard
+PMID33408181_basic.txt	3	Stored in:file_info		Size:4628 bytes
+PMID33408181_basic.txt	6	Error	The date format is either DD-MMM-YY or DD-MMM-YYYY where day (DD) is one or two digits 01..31 appropriate to the month, month (MMM) is case-insensitive value (Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec), and year is either (YY) two digits, for example 05 means 2005, and 96 means 1996, or (YYYY) is four digit year, for example 2005.RULES_ERROR_CHECK_EMPTY_VALUE=Expecting no values	The check-date-format check "Date Format = dd-MMM-yy or dd-MMM-yyyy" in field "Actual Start Date" "n/a".  The row has ID field(s) "User Defined ID" and value "PMID33408181".
+PMID33408181_basic.txt	6	Error	Missing required value	The Rule check "Required Column" for Field "Intervention Agent".  The row has ID field(s) "User Defined ID" and value "PMID33408181".
+PMID33408181_basic.txt	6	Error	Not an integer	The Numeric Type check "positive" in field "Target Enrollment" "n/a".  The row has ID field(s) "User Defined ID" and value "PMID33408181".
+PMID33408181_basic.txt	23	Information		Adding User Defined ID "Immune Response:SDY1003373922" for table "study_categorization"
+PMID33408181_basic.txt	26	Information		Adding User Defined ID "COVID-19:SDY1003373922" for table "study_2_condition_or_disease"
+PMID33408181_basic.txt	29	Error	Missing required column in column header	The Header Column "Type Reported" is missing case-insensitive in the Template arm_or_cohort Header Row [user defined id, name, description, type].
+PMID33408181_basic.txt	30	Error	Missing required value	The Rule check "Required Column" for Field "Type Reported".  The row has ID field(s) "User Defined ID" and value "PMID33408181_aoc-01".
+PMID33408181_basic.txt	39	Error	Not a real number	The Numeric Type check "float" in field "Max Start Day" "n/a".  The row has ID field(s) "User Defined ID" and value "PMID33408181_pv-01".
+PMID33408181_basic.txt	40	Error	Not a real number	The Numeric Type check "float" in field "Max Start Day" "n/a".  The row has ID field(s) "User Defined ID" and value "PMID33408181_pv-02".
+PMID33408181_basic.txt	48	Information		Adding User Defined ID "PTL1003373909:SDY1003373922" for table "study_2_protocol"
+2021. Immunological Memory to SARSCoV2 IMPORT SDY1870.docx	52	Stored in:study_file		Size:128894 bytes
+PMID33408181_basic.txt	52	Information		Adding User Defined ID "SDY1003373922:2021. Immunological Memory to SARSCoV2 IMPORT SDY1870.docx" for table "study_file"
+2021. Supplemental Materials. Immunological Memory to SARSCoV2 IMPORT SDY1870.docx	53	Stored in:study_file		Size:6042265 bytes
+PMID33408181_basic.txt	53	Information		Adding User Defined ID "SDY1003373922:2021. Supplemental Materials. Immunological Memory to SARSCoV2 IMPORT SDY1870.docx" for table "study_file"
+PMID33408181_basic.txt	60	Information		Adding User Defined ID "SDY1003373922:33408181" for table "study_pubmed"
+PMID33408181_basic.txt		Failed		Template: basic_study_design.txt, Size:4628 bytes
+PMID33408181_subject_human.txt		Parsing		Template: subjecthumans.txt, Size:581 bytes
+PMID33408181_subject_human.txt		Information		Validation Level = Standard
+PMID33408181_subject_human.txt	3	Stored in:file_info		Size:581 bytes
+PMID33408181_subject_human.txt	4	Information		The combined status for subject_id (PMID33408181_subject-01) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID33408181_subject-01), and subject_accession ().
+PMID33408181_subject_human.txt	4	Information		The combined status for arm_or_cohort_id (PMID33408181_aoc-01) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID33408181_aoc-01), and arm_accession (ARM1003373929).
+PMID33408181_subject_human.txt	4	Error	Value reported in template does not match preferred vocabulary. See template documentation for preferred vocabulary terms.	The Lookup Table check "lk_subject_location" in field "Subject Location" "Other, CA, NY".  The row has ID field(s) "subject_user_defined_id" and value "PMID33408181_subject-01".
+PMID33408181_subject_human.txt	4	Error	Missing conditional required value	The Rule check "Required Column" for Field "Min Subject Age".  The row has ID field(s) "subject_user_defined_id" and value "PMID33408181_subject-01".
+PMID33408181_subject_human.txt	4	Error	Missing conditional required value	The Rule check "Required Column" for Field "Race".  The row has ID field(s) "subject_user_defined_id" and value "PMID33408181_subject-01".
+PMID33408181_subject_human.txt	4	Error	Data row is missing results	The check uses entity "Template File" whose value is "subjectHumans.txt".  The row has ID field(s) "subject_user_defined_id" and value "PMID33408181_subject-01".
+PMID33408181_subject_human.txt		Failed		Template: subjecthumans.txt, Size:581 bytes
+PMID33408181_assessment.txt		Parsing		Template: assessments.txt, Size:930 bytes
+PMID33408181_assessment.txt		Information		Validation Level = Standard
+PMID33408181_assessment.txt	3	Stored in:file_info		Size:930 bytes
+PMID33408181_assessment.txt	4	Information		The combined status for subject_id (PMID33408181_subject-01) and table subject has values:  subject_required (no), subject_user_defined_id (PMID33408181_subject-01), and subject_accession (SUB1003373954).
+PMID33408181_assessment.txt	4	Information		The combined status for assessment_panel_id (PMID33408181_assess-01) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID33408181_assess-01), and assessment_panel_accession ().
+PMID33408181_assessment.txt	5	Error	Missing required value	The Rule check "Required Column" for Field "Name Reported".  The row has ID field(s) "User Defined ID" and value "PMID33408181_assess-01".
+PMID33408181_assessment.txt	5	Error	Missing required value	The Rule check "Required Column" for Field "Study Day".  The row has ID field(s) "User Defined ID" and value "PMID33408181_assess-01".
+PMID33408181_assessment.txt	5	Information		The combined status for subject_id (PMID33408181_subject-01) and table subject has values:  subject_required (no), subject_user_defined_id (PMID33408181_subject-01), and subject_accession (SUB1003373954).
+PMID33408181_assessment.txt	5	Information		The combined status for assessment_panel_id (PMID33408181_assess-02) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID33408181_assess-02), and assessment_panel_accession ().
+PMID33408181_assessment.txt	5	Error	Duplicate data row	The check uses entity "Template File" whose value is "assessments.txt".  The row has ID field(s) "subject_user_defined_id" and value "PMID33408181_subject-01".
+PMID33408181_assessment.txt	5	Error	Missing required value	The Rule check "Required Column" for Field "Name Reported".  The row has ID field(s) "User Defined ID" and value "PMID33408181_assess-02".
+PMID33408181_assessment.txt	5	Error	Missing required value	The Rule check "Required Column" for Field "Study Day".  The row has ID field(s) "User Defined ID" and value "PMID33408181_assess-02".
+PMID33408181_assessment.txt		Failed		Template: assessments.txt, Size:930 bytes
+PMID33408181_experiments.txt		Parsing		Template: experiments.txt, Size:286 bytes
+PMID33408181_experiments.txt		Information		Validation Level = Standard
+PMID33408181_experiments.txt	3	Stored in:file_info		Size:286 bytes
+PMID33408181_experiments.txt		Parsed		Template: experiments.txt, Size:286 bytes
+nobody_20220308_1000000098___aleliu_20220308_31462___TEST		Rejected		

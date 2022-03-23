@@ -1,0 +1,9 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6744).
+The validation report was generated on 2022-02-07-11:06:00.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220207_31065___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+protocols.txt		Parsing		Template: protocols.txt, Size:1624 bytes
+protocols.txt	1	Error	The template with schema version (3.32) is older than the code schema version (3.34).  You are using a older version of the template than the code will accept, please use the template with schema version 3.34.	The Template File "protocols.txt" experienced an error during File Operation "Parse Header".
+protocols.txt		Failed		Template: protocols.txt, Size:1624 bytes
+nobody_20220207_1000000177___aleliu_20220207_31065___TEST		Rejected		

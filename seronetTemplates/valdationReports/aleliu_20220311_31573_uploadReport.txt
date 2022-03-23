@@ -1,0 +1,10 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2022-03-11-12:35:13.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220311_31573___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+PMID33408181_reagent.txt		Parsing		Template: reagents.other.txt, Size:261 bytes
+PMID33408181_reagent.txt		Information		Validation Level = Standard
+PMID33408181_reagent.txt	3	Stored in:file_info		Size:261 bytes
+PMID33408181_reagent.txt		Parsed		Template: reagents.other.txt, Size:261 bytes
+nobody_20220311_1000000180___aleliu_20220311_31573___TEST		Completed		

@@ -101,8 +101,12 @@ class protocols:
 @dataclass
 class condition_or_disease:
     """1 Column to the right"""
-    Reported_Health_Condition: list = None
+    Reported_Health_Condition: str = None
     ImmPortNAME : str = 'study_2_condition_or_disease'
+
+    def __post_init__(self):
+        for i, k in enumerate(self.Reported_Health_Condition):
+            self.Reported_Health_Condition[i] = k.replace('|',',').replace(':',',')
         
 @dataclass
 class Intervention_Agent:
@@ -167,7 +171,7 @@ class arm_or_cohort:
             self.Description[i] = k.replace('\n','').replace('\t','')
 
 
-        temp = self.User_Defined_ID[1][:-1]
+        temp = self.User_Defined_ID[0][:-1]
         object.__setattr__(self, "User_Defined_ID", [temp+str(i+1) for i in range(len(self.User_Defined_ID))])
 
 @dataclass
@@ -195,8 +199,11 @@ class subject_type_human:
     COVID_19_Disease_Severity: list = field(default_factory=list)
     ImmPortNAME: str = 'n/a'
 
-    def __len__(self):
-        return len(self.User_Defined_ID) 
+    def __bool__(self):
+        if len(set(self.User_Defined_ID).intersection([None])) == 1:
+            return False
+        else:
+            return True
 
     def __post_init__(self):
         self.SARS_CoV_2_Vaccine_Type = [x for x in self.SARS_CoV_2_Vaccine_Type if x not in VARS_TO_CLEAN]
@@ -234,34 +241,39 @@ class subject_type_mode_organism:
     COVID_19_Disease_Severity: list = field(default_factory=list)
     ImmPortNAME: str = 'n/a'
 
-    def __len__(self):
-        return len(self.User_Defined_ID) 
+    def __bool__(self):
+        if len(set(self.User_Defined_ID).intersection([None])) == 1:
+            return False
+        else:
+            return True
 
     def __post_init__(self):
 
-        # shorting vaccine type to non-hidden characters  
-        self.SARS_CoV_2_Vaccine_Type = [x for x in self.SARS_CoV_2_Vaccine_Type if x not in VARS_TO_CLEAN]
-        
-        # changing SeroNet species terms to ImmPort specific terms 
-        for i, k in enumerate(self.Species):
-            if k.lower() == "human":
-                self.Species[i+1] = 'Homo Sapiens'
+        if len(self.User_Defined_ID):
+            # shorting vaccine type to non-hidden characters  
+            self.SARS_CoV_2_Vaccine_Type = [x for x in self.SARS_CoV_2_Vaccine_Type if x not in VARS_TO_CLEAN]
+            
+            # changing SeroNet species terms to ImmPort specific terms 
+            for i, k in enumerate(self.Species):
+                if k is not None:
+                    if k.lower() == "human":
+                        self.Species[i+1] = 'Homo Sapiens'
 
-            if k.lower() in ["syrian hamster", "syrian hamsters", "golden hampster", "golden hampsters"]:
-                self.Species[i+1] == "Mesocricetus auratus"
-
-
-        # changing SeroNet terms to ImmPort specific terms 
-        for i, k in enumerate(self.Study_Location):
-            if isinstance(k, list) and len():
-                if len(set(k).intersection(STATES)) < len(k):
-                    self.Study_Location[i+1] = 'Other'
-                else:
-                    self.Study_Location[i+1] = 'United States of America'
+                    if k.lower() in ["syrian hamster", "syrian hamsters", "golden hampster", "golden hampsters"]:
+                        self.Species[i+1] == "Mesocricetus auratus"
 
 
-            elif k in STATES:
-                self.Study_Location[i+1] = f"US: {STATES.get(k)}"
+            # changing SeroNet terms to ImmPort specific terms 
+            for i, k in enumerate(self.Study_Location):
+                if isinstance(k, list) and len():
+                    if len(set(k).intersection(STATES)) < len(k):
+                        self.Study_Location[i+1] = 'Other'
+                    else:
+                        self.Study_Location[i+1] = 'United States of America'
+
+
+                elif k in STATES:
+                    self.Study_Location[i+1] = f"US: {STATES.get(k)}"
 
 
 # @dataclass
@@ -302,6 +314,7 @@ class study_experiment:
     Experiment_Name: list = field(default_factory=list)
     Experiment_Assay_Type: list = field(default_factory=list)
     Experiment_Results_File_Name: str = None
+
         
 @dataclass 
 class reagent_per_experiment:

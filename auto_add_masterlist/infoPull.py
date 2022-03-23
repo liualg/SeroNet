@@ -8,6 +8,7 @@ from datetime import datetime
 from tqdm import tqdm
 from datetime import date
 import itertools
+import glob
 
 import argparse
 
@@ -75,6 +76,14 @@ def get_PI(grantDict, grantNumber):
 
     return(a)
 
+def get_box_dir(box_dir, pmid):
+    box_base = os.path.abspath(os.path.expanduser(os.path.expandvars(box_dir)))
+    depth = 3
+
+    for dirpath, dirnames, filenames in os.walk(box_base):
+        if dirpath[len(box_base):].count(os.sep) < depth:
+            if "PMID_"+pmid in dirnames:
+                return(os.path.join(dirpath,"PMID_"+pmid))
     
 def get_df_info(pubmed_url, ids, grant_names_1):
     url = pubmed_url + ids
@@ -213,6 +222,9 @@ paper_citation = []
 curator = []
 
 for ids in tqdm(PMID_list):
+
+    # get_box_dir(box_base)
+
     title, author_name, journal, seroNet_grant, base_grant, print_type, citation = get_df_info(search_url, ids, grant_names)
     
     PMID.append(ids)
@@ -313,6 +325,18 @@ for i,o in enumerate(temp.PMID):
             print(temp[SERONET_PI][i].capitalize())
             print(temp[BASE_PROJ_1][i])
             print("\n")
+
+            # # File creator now
+            # try:
+            #     box_base = "/Users/liualg/Library/CloudStorage/Box-Box/SeroNet Public Data"
+            #     file = box_base+f"/{temp[BASE_PROJ_1][i]}_*"
+            #     PMID = temp[NUMBER][i]
+            #     PI_PATH = glob.glob(file)[0]
+            #     os.makedirs(os.path.join(PI_PATH,f"PMID_{PMID}_TEST","submitted_data"))
+            #     os.makedirs(os.path.join(PI_PATH,f"PMID_{PMID}_TEST","templated_data"))
+            # except:
+            #      print(f"{temp[PMID_NUMBER][i]} not created")
+
 
 if args.test != True:
     print("\n")

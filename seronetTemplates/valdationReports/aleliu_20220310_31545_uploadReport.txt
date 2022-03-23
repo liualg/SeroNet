@@ -1,0 +1,7 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2022-03-10-15:18:02.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220310_31545___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+nobody_20220310_1000000158___aleliu_20220310_31545___TEST		Error	The Excel file name has same prefix as a template file name	The Excel SpreadSheet "protocols.xlsx" has Template File Prefix "protocols".
+nobody_20220310_1000000158___aleliu_20220310_31545___TEST		Rejected		

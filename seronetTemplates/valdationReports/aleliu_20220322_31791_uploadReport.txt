@@ -1,0 +1,59 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6744).
+The validation report was generated on 2022-03-22-15:20:40.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220322_31791___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+PMID33184236_protocol.txt		Parsing		Template: protocols.txt, Size:260 bytes
+PMID33184236_protocol.txt		Information		Validation Level = Standard
+PMID33184236_protocol.txt	3	Stored in:file_info		Size:260 bytes
+PMID33184236_protocol-01.txt	4	Stored in:protocols		Size:12837 bytes
+PMID33184236_protocol.txt		Parsed		Template: protocols.txt, Size:260 bytes
+PMID33184236_reagent.txt		Parsing		Template: reagents.other.txt, Size:253 bytes
+PMID33184236_reagent.txt		Information		Validation Level = Standard
+PMID33184236_reagent.txt	3	Stored in:file_info		Size:253 bytes
+PMID33184236_reagent.txt		Parsed		Template: reagents.other.txt, Size:253 bytes
+PMID33184236_basic.txt		Parsing		Template: basic_study_design.txt, Size:5649 bytes
+PMID33184236_basic.txt		Information		Validation Level = Standard
+PMID33184236_basic.txt	3	Stored in:file_info		Size:5649 bytes
+PMID33184236_basic.txt	23	Information		Adding User Defined ID "Immune Response:SDY1000024163" for table "study_categorization"
+PMID33184236_basic.txt	26	Information		Adding User Defined ID "COVID-19:SDY1000024163" for table "study_2_condition_or_disease"
+PMID33184236_basic.txt	59	Information		Adding User Defined ID "PTL1000024151:SDY1000024163" for table "study_2_protocol"
+PMID33184236_basic.txt	66	Information		Adding User Defined ID "SDY1000024163:Supplementary Materials:science.sciencemag.org/content/370/6523/1464/suppl/DC1" for table "study_link"
+PMID33184236_basic.txt	67	Information		Adding User Defined ID "SDY1000024163:Genomic sequence of the WT recombinant SARS-CoV-2 WA1 strain:https://www.ncbi.nlm.nih.gov/nuccore/MT461669" for table "study_link"
+PMID33184236_basic.txt	71	Information		Adding User Defined ID "SDY1000024163:33184236" for table "study_pubmed"
+PMID33184236_basic.txt		Parsed		Template: basic_study_design.txt, Size:5649 bytes
+PMID33184236_subject_organism.txt		Parsing		Template: subjectanimals.txt, Size:1393 bytes
+PMID33184236_subject_organism.txt		Information		Validation Level = Standard
+PMID33184236_subject_organism.txt	3	Stored in:file_info		Size:1393 bytes
+PMID33184236_subject_organism.txt	4	Information		The combined status for subject_id (PMID33184236_organism_subject-01) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID33184236_organism_subject-01), and subject_accession ().
+PMID33184236_subject_organism.txt	4	Information		The combined status for arm_or_cohort_id (PMID33184236_aoc-01) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID33184236_aoc-01), and arm_accession (ARM1000024167).
+PMID33184236_subject_organism.txt	9	Information		Adding User Defined ID "SUB1000024198:ARM1000024167::::COVID-19:DOID:0080600:" for table "immune_exposure"
+PMID33184236_subject_organism.txt	9	Error	Missing required value	The Rule check "Required Column" for Field "Exposure Process Reported".  The row has ID field(s) ["subject_accession", "arm_accession", "Exposure Process Reported", "Exposure Material Reported", "Exposure Material ID", "Disease Reported", "Disease Ontology ID", "Disease Stage Reported"] and value ["SUB1000024198", "ARM1000024167", "", "", "", "COVID-19", "DOID:0080600", ""].
+PMID33184236_subject_organism.txt	5	Information		The combined status for subject_id (PMID33184236_organism_subject-02) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID33184236_organism_subject-02), and subject_accession ().
+PMID33184236_subject_organism.txt	5	Information		The combined status for arm_or_cohort_id (PMID33184236_aoc-02) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID33184236_aoc-02), and arm_accession (ARM1000024168).
+PMID33184236_subject_organism.txt	9	Information		Adding User Defined ID "SUB1000024204:ARM1000024168::::COVID-19:DOID:0080600:" for table "immune_exposure"
+PMID33184236_subject_organism.txt	9	Error	Missing required value	The Rule check "Required Column" for Field "Exposure Process Reported".  The row has ID field(s) ["subject_accession", "arm_accession", "Exposure Process Reported", "Exposure Material Reported", "Exposure Material ID", "Disease Reported", "Disease Ontology ID", "Disease Stage Reported"] and value ["SUB1000024204", "ARM1000024168", "", "", "", "COVID-19", "DOID:0080600", ""].
+PMID33184236_subject_organism.txt	6	Information		The combined status for subject_id (PMID33184236_organism_subject-03) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID33184236_organism_subject-03), and subject_accession ().
+PMID33184236_subject_organism.txt	6	Information		The combined status for arm_or_cohort_id (PMID33184236_aoc-03) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID33184236_aoc-03), and arm_accession (ARM1000024169).
+PMID33184236_subject_organism.txt	9	Information		Adding User Defined ID "SUB1000024210:ARM1000024169::::COVID-19:DOID:0080600:" for table "immune_exposure"
+PMID33184236_subject_organism.txt	9	Error	Missing required value	The Rule check "Required Column" for Field "Exposure Process Reported".  The row has ID field(s) ["subject_accession", "arm_accession", "Exposure Process Reported", "Exposure Material Reported", "Exposure Material ID", "Disease Reported", "Disease Ontology ID", "Disease Stage Reported"] and value ["SUB1000024210", "ARM1000024169", "", "", "", "COVID-19", "DOID:0080600", ""].
+PMID33184236_subject_organism.txt	7	Information		The combined status for subject_id (PMID33184236_organism_subject-04) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID33184236_organism_subject-04), and subject_accession ().
+PMID33184236_subject_organism.txt	7	Information		The combined status for arm_or_cohort_id (PMID33184236_aoc-04) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID33184236_aoc-04), and arm_accession (ARM1000024170).
+PMID33184236_subject_organism.txt	9	Information		Adding User Defined ID "SUB1000024216:ARM1000024170::::COVID-19:DOID:0080600:" for table "immune_exposure"
+PMID33184236_subject_organism.txt	9	Error	Missing required value	The Rule check "Required Column" for Field "Exposure Process Reported".  The row has ID field(s) ["subject_accession", "arm_accession", "Exposure Process Reported", "Exposure Material Reported", "Exposure Material ID", "Disease Reported", "Disease Ontology ID", "Disease Stage Reported"] and value ["SUB1000024216", "ARM1000024170", "", "", "", "COVID-19", "DOID:0080600", ""].
+PMID33184236_subject_organism.txt	8	Information		The combined status for subject_id (PMID33184236_organism_subject-05) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID33184236_organism_subject-05), and subject_accession ().
+PMID33184236_subject_organism.txt	8	Information		The combined status for arm_or_cohort_id (PMID33184236_aoc-04) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID33184236_aoc-04), and arm_accession (ARM1000024170).
+PMID33184236_subject_organism.txt	8	Error	Value reported in template does not match preferred vocabulary. See template documentation for preferred vocabulary terms.	The Lookup Table check "lk_species" in field "Species" "Mice".  The row has ID field(s) "subject_user_defined_id" and value "PMID33184236_organism_subject-05".
+PMID33184236_subject_organism.txt	9	Information		Adding User Defined ID "SUB1000024222:ARM1000024170:Infected:::COVID-19:DOID:0080600:Mild" for table "immune_exposure"
+PMID33184236_subject_organism.txt	9	Information		The combined status for subject_id (PMID33184236_organism_subject-06) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID33184236_organism_subject-06), and subject_accession ().
+PMID33184236_subject_organism.txt	9	Information		The combined status for arm_or_cohort_id (PMID33184236_aoc-04) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID33184236_aoc-04), and arm_accession (ARM1000024170).
+PMID33184236_subject_organism.txt	9	Error	Value reported in template does not match preferred vocabulary. See template documentation for preferred vocabulary terms.	The Lookup Table check "lk_species" in field "Species" "Syrian hamsters".  The row has ID field(s) "subject_user_defined_id" and value "PMID33184236_organism_subject-06".
+PMID33184236_subject_organism.txt	9	Information		Adding User Defined ID "SUB1000024228:ARM1000024170:Infected:::COVID-19:DOID:0080600:Mild" for table "immune_exposure"
+PMID33184236_subject_organism.txt		Failed		Template: subjectanimals.txt, Size:1393 bytes
+PMID33184236_experiments.txt		Parsing		Template: experiments.txt, Size:477 bytes
+PMID33184236_experiments.txt		Information		Validation Level = Standard
+PMID33184236_experiments.txt	3	Stored in:file_info		Size:477 bytes
+PMID33184236_experiments.txt	4	Error	Value reported in template does not match preferred vocabulary. See template documentation for preferred vocabulary terms.	The Lookup Table check "lk_exp_measurement_tech" in field "Measurement Technique" "neutralization assay".  The row has ID field(s) "User Defined ID" and value "PMID33184236_exp-01".
+PMID33184236_experiments.txt	5	Error	Value reported in template does not match preferred vocabulary. See template documentation for preferred vocabulary terms.	The Lookup Table check "lk_exp_measurement_tech" in field "Measurement Technique" "competition assay".  The row has ID field(s) "User Defined ID" and value "PMID33184236_exp-02".
+PMID33184236_experiments.txt		Failed		Template: experiments.txt, Size:477 bytes
+nobody_20220322_1000000045___aleliu_20220322_31791___TEST		Rejected		

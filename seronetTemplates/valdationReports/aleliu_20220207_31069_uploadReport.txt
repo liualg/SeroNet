@@ -1,0 +1,20 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6744).
+The validation report was generated on 2022-02-07-13:15:28.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220207_31069___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+PMID34188786_study.txt		Parsing		Template: basic_study_design.txt, Size:4689 bytes
+PMID34188786_study.txt		Information		Validation Level = Standard
+PMID34188786_study.txt	3	Stored in:file_info		Size:4689 bytes
+PMID34188786_study.txt	6	Error	Missing required value	The Rule check "Required Column" for Field "Intervention Agent".  The row has ID field(s) "User Defined ID" and value "PMID34188786_study".
+PMID34188786_study.txt	23	Information		Adding User Defined ID "Infection Response:SDY1000606287" for table "study_categorization"
+PMID34188786_study.txt	26	Information		Adding User Defined ID "COVID-19:SDY1000606287" for table "study_2_condition_or_disease"
+PMID34188786_study.txt	40	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "user_defined_id" with value "PMID34188786_protocol-01.txt" in the Table protocol.  The row has ID field(s) "Protocol ID" and value "PMID34188786_protocol-01.txt".
+PMID34188786_study.txt	40	Information		Adding User Defined ID ":SDY1000606287" for table "study_2_protocol"
+PMID34188786_study.txt	50	Information		Adding User Defined ID "SDY1000606287:34188786" for table "study_pubmed"
+PMID34188786_study.txt		Error	Required compound template is missing	The Compound Template has value "arm_or_cohort".
+PMID34188786_study.txt		Error	Required compound template is missing	The Compound Template has value "inclusion_exclusion".
+PMID34188786_study.txt		Failed		Template: basic_study_design.txt, Size:4689 bytes
+protocol.txt		Stored in:file_info	WARNING: File is not used in upload and is being archived only	Size:244 bytes
+PMID34188786_protocol-01.txt		Stored in:file_info	WARNING: File is not used in upload and is being archived only	Size:19399 bytes
+nobody_20220207_1000000181___aleliu_20220207_31069___TEST		Rejected		

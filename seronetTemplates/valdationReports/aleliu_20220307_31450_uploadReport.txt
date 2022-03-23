@@ -1,0 +1,62 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6744).
+The validation report was generated on 2022-03-07-11:46:12.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220307_31450___test.
+
+File Name	Line Number	Status	Error Message	Description
+PMID33408181_protocol.txt		Parsing		Template: protocols.txt, Size:235 bytes
+PMID33408181_protocol.txt		Information		Validation Level = Standard
+PMID33408181_protocol.txt	3	Stored in:file_info		Size:235 bytes
+PMID33408181_protocol-01.txt	4	Stored in:protocols		Size:15731 bytes
+PMID33408181_protocol.txt		Parsed		Template: protocols.txt, Size:235 bytes
+PMID33408181_basic.txt		Parsing		Template: basic_study_design.txt, Size:4425 bytes
+PMID33408181_basic.txt		Information		Validation Level = Standard
+PMID33408181_basic.txt	3	Stored in:file_info		Size:4425 bytes
+PMID33408181_basic.txt	6	Error	Missing required value	The Rule check "Required Column" for Field "Intervention Agent".  The row has ID field(s) "User Defined ID" and value "PMID33408181".
+PMID33408181_basic.txt	23	Information		Adding User Defined ID ":SDY1003242882" for table "study_categorization"
+PMID33408181_basic.txt	23	Error	Missing required value	The Rule check "Required Column" for Field "Research Focus".  The row has ID field(s) "Research Focus" and value "".
+PMID33408181_basic.txt	26	Information		Adding User Defined ID "COVID-19:SDY1003242882" for table "study_2_condition_or_disease"
+PMID33408181_basic.txt	29	Error	Cannot find header row in compound template	The Compound Template has value "study_personnel".
+PMID33408181_basic.txt	30	Error	Cannot find header row in compound template	The Compound Template has value "study_personnel".
+PMID33408181_basic.txt	31	Error	Cannot find header row in compound template	The Compound Template has value "study_personnel".
+PMID33408181_basic.txt	34	Error	Cannot find header row in compound template	The Compound Template has value "planned_visit".
+PMID33408181_basic.txt	35	Error	Cannot find header row in compound template	The Compound Template has value "planned_visit".
+PMID33408181_basic.txt	36	Error	Cannot find header row in compound template	The Compound Template has value "planned_visit".
+PMID33408181_basic.txt	39	Error	Cannot find header row in compound template	The Compound Template has value "inclusion_exclusion".
+PMID33408181_basic.txt	40	Error	Cannot find header row in compound template	The Compound Template has value "inclusion_exclusion".
+PMID33408181_basic.txt	41	Error	Cannot find header row in compound template	The Compound Template has value "inclusion_exclusion".
+PMID33408181_basic.txt	44	Information		Adding User Defined ID "PTL1003242876:SDY1003242882" for table "study_2_protocol"
+PMID33408181_basic.txt	47	Error	Cannot find header row in compound template	The Compound Template has value "study_file".
+PMID33408181_basic.txt	48	Error	Cannot find header row in compound template	The Compound Template has value "study_file".
+PMID33408181_basic.txt	49	Error	Cannot find header row in compound template	The Compound Template has value "study_file".
+PMID33408181_basic.txt	52	Error	Cannot find header row in compound template	The Compound Template has value "study_link".
+PMID33408181_basic.txt	56	Information		Adding User Defined ID "SDY1003242882:33408181" for table "study_pubmed"
+PMID33408181_basic.txt		Error	Required compound template is missing	The Compound Template has value "arm_or_cohort".
+PMID33408181_basic.txt		Error	Required compound template is missing	The Compound Template has value "study_personnel".
+PMID33408181_basic.txt		Error	Required compound template is missing	The Compound Template has value "planned_visit".
+PMID33408181_basic.txt		Error	Required compound template is missing	The Compound Template has value "inclusion_exclusion".
+PMID33408181_basic.txt		Failed		Template: basic_study_design.txt, Size:4425 bytes
+PMID33408181_assessment.txt		Parsing		Template: assessments.txt, Size:930 bytes
+PMID33408181_assessment.txt		Information		Validation Level = Standard
+PMID33408181_assessment.txt	3	Stored in:file_info		Size:930 bytes
+PMID33408181_assessment.txt	4	Information		The combined status for subject_id (PMID33408181_subject-01) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID33408181_subject-01), and subject_accession ().
+PMID33408181_assessment.txt	4	Information		The combined status for assessment_panel_id (PMID33408181_assess-01) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID33408181_assess-01), and assessment_panel_accession ().
+PMID33408181_assessment.txt	4	Error	The subject ID must always be for a predefined subject	The check uses fields ["subject_required_value", "subject_required"] whose values are [no, yes].  The row has ID field(s) "subject_user_defined_id" and value "PMID33408181_subject-01".
+PMID33408181_assessment.txt	4	Error	assessment_component study_accession "SDY1003242882" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "SDY1003242882" in field "subject_accession" "SUB1003242914".  The row has ID field(s) "subject_user_defined_id" and value "PMID33408181_subject-01".
+PMID33408181_assessment.txt	5	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "User Defined ID" with value "PMID33408181_pv-01" in the Table planned_visit.  The row has ID field(s) "User Defined ID" and value "PMID33408181_assess-01".
+PMID33408181_assessment.txt	5	Error	The study_accession for the assessment component is not same as for the planned visit	The check uses fields ["study_accession", "planned_visit_study_accession"] whose values are [SDY1003242882, ].  The row has ID field(s) "User Defined ID" and value "PMID33408181_assess-01".
+PMID33408181_assessment.txt	5	Error	Missing required value	The Rule check "Required Column" for Field "Name Reported".  The row has ID field(s) "User Defined ID" and value "PMID33408181_assess-01".
+PMID33408181_assessment.txt	5	Error	Missing required value	The Rule check "Required Column" for Field "Study Day".  The row has ID field(s) "User Defined ID" and value "PMID33408181_assess-01".
+PMID33408181_assessment.txt	5	Information		The combined status for subject_id (PMID33408181_subject-01) and table subject has values:  subject_required (no), subject_user_defined_id (PMID33408181_subject-01), and subject_accession (SUB1003242914).
+PMID33408181_assessment.txt	5	Information		The combined status for assessment_panel_id (PMID33408181_assess-02) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID33408181_assess-02), and assessment_panel_accession ().
+PMID33408181_assessment.txt	5	Error	Duplicate data row	The check uses entity "Template File" whose value is "assessments.txt".  The row has ID field(s) "subject_user_defined_id" and value "PMID33408181_subject-01".
+PMID33408181_assessment.txt	5	Error	assessment_component study_accession "SDY1003242882" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "SDY1003242882" in field "subject_accession" "SUB1003242914".  The row has ID field(s) "subject_user_defined_id" and value "PMID33408181_subject-01".
+PMID33408181_assessment.txt	5	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "User Defined ID" with value "PMID33408181_pv-02" in the Table planned_visit.  The row has ID field(s) "User Defined ID" and value "PMID33408181_assess-02".
+PMID33408181_assessment.txt	5	Error	The study_accession for the assessment component is not same as for the planned visit	The check uses fields ["study_accession", "planned_visit_study_accession"] whose values are [SDY1003242882, ].  The row has ID field(s) "User Defined ID" and value "PMID33408181_assess-02".
+PMID33408181_assessment.txt	5	Error	Missing required value	The Rule check "Required Column" for Field "Name Reported".  The row has ID field(s) "User Defined ID" and value "PMID33408181_assess-02".
+PMID33408181_assessment.txt	5	Error	Missing required value	The Rule check "Required Column" for Field "Study Day".  The row has ID field(s) "User Defined ID" and value "PMID33408181_assess-02".
+PMID33408181_assessment.txt		Failed		Template: assessments.txt, Size:930 bytes
+PMID33408181_experiments.txt		Parsing		Template: experiments.txt, Size:286 bytes
+PMID33408181_experiments.txt		Information		Validation Level = Standard
+PMID33408181_experiments.txt	3	Stored in:file_info		Size:286 bytes
+PMID33408181_experiments.txt		Parsed		Template: experiments.txt, Size:286 bytes
+nobody_20220307_1000000091___aleliu_20220307_31450___test		Rejected		

@@ -1,0 +1,20 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2022-03-14-10:55:32.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220314_31673___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+PMIDTEST_protocol.txt		Parsing		Template: protocols.txt, Size:223 bytes
+PMIDTEST_protocol.txt		Information		Validation Level = Standard
+PMIDTEST_protocol.txt	3	Stored in:file_info		Size:223 bytes
+PMIDTEST_protocol-01.txt	4	Stored in:protocols		Size:15731 bytes
+PMIDTEST_protocol.txt		Parsed		Template: protocols.txt, Size:223 bytes
+PMIDTEST_reagent.txt		Parsing		Template: reagents.other.txt, Size:257 bytes
+PMIDTEST_reagent.txt		Information		Validation Level = Standard
+PMIDTEST_reagent.txt	3	Stored in:file_info		Size:257 bytes
+PMIDTEST_reagent.txt		Parsed		Template: reagents.other.txt, Size:257 bytes
+2021. Supplemental Materials. Immunological Memory to SARSCoV2 IMPORT SDY1870.docx		Stored in:file_info	WARNING: File is not used in upload and is being archived only	Size:6042265 bytes
+2021. Immunological Memory to SARSCoV2 IMPORT SDY1870.docx		Stored in:file_info	WARNING: File is not used in upload and is being archived only	Size:128894 bytes
+human.xlsx		Stored in:file_info	WARNING: File is not used in upload and is being archived only	Size:40397 bytes
+Animals.xlsx		Stored in:file_info	WARNING: File is not used in upload and is being archived only	Size:40119 bytes
+basic.xlsx		Stored in:file_info	WARNING: File is not used in upload and is being archived only	Size:28303 bytes
+nobody_20220314_1000000011___aleliu_20220314_31673___TEST		Completed		
