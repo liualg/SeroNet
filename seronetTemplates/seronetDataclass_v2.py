@@ -290,11 +290,11 @@ class planned_visit:
     #         if self.Max_Start_Day[i] == None or np.isnan(self.Max_Start_Day[i]):
     #             self.Max_Start_Day[i] = 
         
-# @dataclass
-# class study_experiment_samples:
-#     Expt_Sample_User_Defined_ID: list = field(default_factory=list)
-#     Expt_Sample_Biospecimen_Type: list = field(default_factory=list)
-#     Expt_Sample_Biospecimen_Collection_Point: list = field(default_factory=list)
+@dataclass
+class study_experiment_samples:
+    Expt_Sample_User_Defined_ID: list = field(default_factory=list)
+    Expt_Sample_Biospecimen_Type: list = field(default_factory=list)
+    Expt_Sample_Biospecimen_Collection_Point: list = field(default_factory=list)
 
 @dataclass
 class study_experiment:
@@ -302,8 +302,6 @@ class study_experiment:
     Experiment_Name: list = field(default_factory=list)
     Experiment_Assay_Type: list = field(default_factory=list)
     Experiment_Results_File_Name: str = None
-    Expt_Sample_Biospecimen_Type: list = field(default_factory=list)
-    Expt_Sample_Biospecimen_Collection_Point: list = field(default_factory=list)
         
 @dataclass 
 class reagent_per_experiment:
