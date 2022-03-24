@@ -51,7 +51,8 @@ class study_personnel:
     Title_In_Study: list = field(default_factory=list)
     Role_In_Study: list = field(default_factory=list)
     Site_Name: list = field(default_factory=list)
-    ImmPortNAME : str = 'study_personnel'      
+    ImmPortNAME : str = 'study_personnel'   
+
         
 @dataclass
 class study_file:
@@ -171,8 +172,8 @@ class arm_or_cohort:
             self.Description[i] = k.replace('\n','').replace('\t','')
 
 
-        temp = self.User_Defined_ID[0][:-1]
-        object.__setattr__(self, "User_Defined_ID", [temp+str(i+1) for i in range(len(self.User_Defined_ID))])
+        # temp = self.User_Defined_ID[0][:-1]
+        # object.__setattr__(self, "User_Defined_ID", [temp+str(i+1) for i in range(len(self.User_Defined_ID))])
 
 @dataclass
 class subject_type_human:
@@ -259,7 +260,7 @@ class subject_type_mode_organism:
                     if k.lower() == "human":
                         self.Species[i+1] = 'Homo Sapiens'
 
-                    if k.lower() in ["syrian hamster", "syrian hamsters", "golden hampster", "golden hampsters"]:
+                    if k.lower() in ["syrian hamster", "syrian hamsters", "golden hampster", "golden syrian hampsters","golden syrian hampster", "golden hampsters"]:
                         self.Species[i+1] == "Mesocricetus auratus"
 
 
@@ -296,6 +297,9 @@ class planned_visit:
     Start_Rule: list = None
     ImmPortNAME : str = 'planned_visit'
 
+    def __post_init__(self):
+        temp = self.User_Defined_ID[1][:-1]
+        object.__setattr__(self, "User_Defined_ID", [temp+str(i+1) for i in range(len(self.User_Defined_ID))])
 
     # def __post__init__(self):
     #     for i in range(len(self.User_Defined_ID)):
@@ -308,12 +312,22 @@ class study_experiment_samples:
     Expt_Sample_Biospecimen_Type: list = field(default_factory=list)
     Expt_Sample_Biospecimen_Collection_Point: list = field(default_factory=list)
 
+    def __post_init__(self):
+        temp = self.Expt_Sample_User_Defined_ID[1][:-1]
+        object.__setattr__(self, "Expt_Sample_User_Defined_ID", [temp+str(i+1) for i in range(len(self.Expt_Sample_User_Defined_ID))])
+
+
 @dataclass
 class study_experiment:
     Experiment_ID: str = None
     Experiment_Name: list = field(default_factory=list)
     Experiment_Assay_Type: list = field(default_factory=list)
     Experiment_Results_File_Name: str = None
+
+    def __post_init__(self):
+        temp = self.Experiment_ID[1][:-1]
+        object.__setattr__(self, "Experiment_ID", [temp+str(i+1) for i in range(len(self.Experiment_ID))])
+
 
         
 @dataclass 
@@ -324,10 +338,17 @@ class reagent_per_experiment:
     Manufacturer: list = field(default_factory=list)
     Catalog: list = field(default_factory=list)
 
+    # def __bool__(self):
+        # if self.Reagent_ID == ""
+
     def __post_init__(self):
         if not len(self.Manufacturer):
             object.__setattr__(self, 'Manufacturer', 0)
-        
+
+        temp = self.Reagent_ID[1][:-1]
+        object.__setattr__(self, "Reagent_ID", [temp+str(i+1) for i in range(len(self.Reagent_ID))])
+
+  
 @dataclass 
 class results:
     Results_Virus_Target: list = field(default_factory=list)
