@@ -1,9 +1,13 @@
 from dataclasses import dataclass, field
+import datetime as dt 
 import numpy as np
 import pandas as pd
 import os 
 
 ####
+'''
+https://docs.python.org/3/library/logging.html
+'''
 
 VARS_TO_CLEAN = ['', 'N/A', 'n/a', np.nan, None]
 
@@ -16,7 +20,15 @@ STATES = pd.read_csv(os.path.join("dictionary","States.csv"),
 # Creating a class for each part in the Excel Doc. 
 # have a defult NA
 # Check for PMIDXXXX
+###
+# ERROR LOGS
+import logging
+today = dt.datetime.today().strftime('%Y_%m_%d')
+logging.basicConfig(filename=f'./Registry_{today}.log', level=logging.DEBUG,
+    format='%(asctime)s %(message)s',  datefmt='%m/%d/%Y %I:%M:%S %p')
 
+
+###
 @dataclass
 class study:
     """1 Column to the right"""
@@ -61,9 +73,17 @@ class study_file:
     Study_File_Type: list = field(default_factory=list)
     ImmPortNAME : str = 'study_file'
 
+    # def __bool__(self):
+    #     print(len(list(self.Study_File_Type)) == len(list(set(self.Study_File_Type))))
+
+
     def __post_init__(self):
         for i, k in enumerate(self.Description):
-            self.Description[i] = k.replace('\n','').replace('\t','')
+            object.__setattr__(self, 'Description', [k.replace('\n','').replace('\t','') for i, k in enumerate(self.Description)])
+            # self.Description[i] = k.replace('\n','').replace('\t','')
+
+        if len(list(self.Study_File_Type)) != len(list(set(self.Study_File_Type))):
+            logging.warning("Please check study file names")
 
 @dataclass
 class study_link:
@@ -107,7 +127,8 @@ class condition_or_disease:
 
     def __post_init__(self):
         for i, k in enumerate(self.Reported_Health_Condition):
-            self.Reported_Health_Condition[i] = k.replace('|',',').replace(':',',')
+            object.__setattr__(self, 'Reported_Health_Condition', [k.replace('\n','').replace('\t','') for i, k in enumerate(self.Reported_Health_Condition)])
+            # self.Reported_Health_Condition[i] = k.replace('|',',').replace(':',',')
         
 @dataclass
 class Intervention_Agent:
@@ -169,7 +190,8 @@ class arm_or_cohort:
 
     def __post_init__(self):
         for i, k in enumerate(self.Description):
-            self.Description[i] = k.replace('\n','').replace('\t','')
+            object.__setattr__(self, 'Description', [k.replace('\n','').replace('\t','') for i, k in enumerate(self.Description)])
+            # self.Description[i] = k.replace('\n','').replace('\t','')
 
 
         # temp = self.User_Defined_ID[0][:-1]
@@ -324,9 +346,13 @@ class study_experiment:
     Experiment_Assay_Type: list = field(default_factory=list)
     Experiment_Results_File_Name: str = None
 
+    def __bool__(self):
+        return(len(list(self.Experiment_Results_File_Name)) == len(list(set(self.Experiment_Results_File_Name))))
+
     def __post_init__(self):
         temp = self.Experiment_ID[1][:-1]
         object.__setattr__(self, "Experiment_ID", [temp+str(i+1) for i in range(len(self.Experiment_ID))])
+
 
 
         
