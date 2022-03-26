@@ -84,6 +84,7 @@ class study_file:
 
         if len(list(self.Study_File_Type)) != len(list(set(self.Study_File_Type))):
             logging.warning("Please check study file names")
+            raise ValueError("Check Values for files")
 
 @dataclass
 class study_link:
