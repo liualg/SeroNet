@@ -1,0 +1,67 @@
+03/28/2022 03:01:54 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.8/site-packages/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi
+03/28/2022 03:01:54 PM diff parser start
+03/28/2022 03:01:54 PM line_lengths old: 1; new: 1
+03/28/2022 03:01:54 PM -> code[replace] old[1:1] new[1:1]
+03/28/2022 03:01:54 PM parse_part from 1 to 1 (to 0 in part parser)
+03/28/2022 03:01:54 PM diff parser end
+03/28/2022 03:35:40 PM diff parser start
+03/28/2022 03:35:40 PM line_lengths old: 1; new: 6
+03/28/2022 03:35:40 PM -> code[replace] old[1:1] new[1:6]
+03/28/2022 03:35:40 PM parse_part from 1 to 6 (to 5 in part parser)
+03/28/2022 03:35:40 PM diff parser end
+03/28/2022 03:35:40 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.8/typing.py
+03/28/2022 03:35:40 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.8/site-packages/jedi/third_party/typeshed/stdlib/3/typing.pyi
+03/28/2022 03:35:40 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.8/site-packages/jedi/third_party/typeshed/stdlib/3/sys.pyi
+03/28/2022 03:35:41 PM diff parser start
+03/28/2022 03:35:41 PM line_lengths old: 6; new: 6
+03/28/2022 03:35:41 PM -> code[equal] old[1:5] new[1:5]
+03/28/2022 03:35:41 PM parse_part from 1 to 6 (to 5 in part parser)
+03/28/2022 03:35:41 PM -> code[replace] old[6:6] new[6:6]
+03/28/2022 03:35:41 PM diff parser end
+03/28/2022 03:35:47 PM diff parser start
+03/28/2022 03:35:47 PM line_lengths old: 6; new: 6
+03/28/2022 03:35:47 PM -> code[equal] old[1:5] new[1:5]
+03/28/2022 03:35:47 PM parse_part from 1 to 6 (to 5 in part parser)
+03/28/2022 03:35:47 PM -> code[replace] old[6:6] new[6:6]
+03/28/2022 03:35:47 PM diff parser end
+03/28/2022 03:35:48 PM diff parser start
+03/28/2022 03:35:48 PM line_lengths old: 6; new: 6
+03/28/2022 03:35:48 PM -> code[equal] old[1:5] new[1:5]
+03/28/2022 03:35:48 PM parse_part from 1 to 6 (to 5 in part parser)
+03/28/2022 03:35:48 PM -> code[replace] old[6:6] new[6:6]
+03/28/2022 03:35:48 PM diff parser end
+03/28/2022 03:40:43 PM diff parser start
+03/28/2022 03:40:43 PM line_lengths old: 6; new: 1
+03/28/2022 03:40:43 PM -> code[replace] old[1:6] new[1:1]
+03/28/2022 03:40:43 PM parse_part from 1 to 1 (to 0 in part parser)
+03/28/2022 03:40:43 PM diff parser end
+03/28/2022 03:40:43 PM diff parser start
+03/28/2022 03:40:43 PM line_lengths old: 1; new: 1
+03/28/2022 03:40:43 PM -> code[replace] old[1:1] new[1:1]
+03/28/2022 03:40:43 PM parse_part from 1 to 1 (to 0 in part parser)
+03/28/2022 03:40:43 PM diff parser end
+03/28/2022 03:40:44 PM diff parser start
+03/28/2022 03:40:44 PM line_lengths old: 1; new: 1
+03/28/2022 03:40:44 PM -> code[replace] old[1:1] new[1:1]
+03/28/2022 03:40:44 PM parse_part from 1 to 1 (to 0 in part parser)
+03/28/2022 03:40:44 PM diff parser end
+03/28/2022 03:47:08 PM diff parser start
+03/28/2022 03:47:08 PM line_lengths old: 1; new: 1
+03/28/2022 03:47:08 PM -> code[replace] old[1:1] new[1:1]
+03/28/2022 03:47:08 PM parse_part from 1 to 1 (to 0 in part parser)
+03/28/2022 03:47:08 PM diff parser end
+03/28/2022 03:47:14 PM diff parser start
+03/28/2022 03:47:14 PM line_lengths old: 1; new: 1
+03/28/2022 03:47:14 PM -> code[replace] old[1:1] new[1:1]
+03/28/2022 03:47:14 PM parse_part from 1 to 1 (to 0 in part parser)
+03/28/2022 03:47:14 PM diff parser end
+03/28/2022 03:47:16 PM diff parser start
+03/28/2022 03:47:16 PM line_lengths old: 1; new: 1
+03/28/2022 03:47:16 PM -> code[replace] old[1:1] new[1:1]
+03/28/2022 03:47:16 PM parse_part from 1 to 1 (to 0 in part parser)
+03/28/2022 03:47:16 PM diff parser end
+03/28/2022 03:47:20 PM diff parser start
+03/28/2022 03:47:20 PM line_lengths old: 1; new: 1
+03/28/2022 03:47:20 PM -> code[replace] old[1:1] new[1:1]
+03/28/2022 03:47:20 PM parse_part from 1 to 1 (to 0 in part parser)
+03/28/2022 03:47:20 PM diff parser end
