@@ -1,6 +1,7 @@
 import pandas as pd 
 import argparse 
 import re
+import os
 
 check = 0
 
@@ -13,7 +14,12 @@ args = parser.parse_args()
 PI_name = args.PI[0]
 print("Input:", PI_name)
 
-masterlist_dir = "~/National Institutes of Health/NCI-FNL SeroNet Team - Curation channel/Award to curator and all contacts mapping.xlsx"
+CURATION_DIR = '~/National Institutes of Health/NCI-FNL SeroNet Team - Curation channel/Investigator Lists/'
+FILE_NAME = 'Award to curator and all contacts mapping.xlsx'
+masterlist_dir = os.path.join(CURATION_DIR, FILE_NAME)
+
+
+
 masterlist = pd.read_excel(masterlist_dir, sheet_name = 'contact&curatorGrantMapping')
 # print(masterlist.columns)
 try:

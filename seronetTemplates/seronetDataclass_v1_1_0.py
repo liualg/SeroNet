@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-import seronetDataclass_v2 as seroClass
+# import seronetDataclass_v2 as seroClass
 import datetime as dt 
 import numpy as np
 import pandas as pd

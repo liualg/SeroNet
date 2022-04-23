@@ -32,8 +32,15 @@ ROOT = tk.Tk()
 ROOT.withdraw()
 # the input dialog
 USER_INP = simpledialog.askstring(title="Test",
-                                  prompt="What's your Name?:")
-email_list = USER_INP.split('\n')
+                                  prompt="Enter PMIDs?:")
+
+try:
+    email_list = USER_INP.split('\n')
+except:
+    email_list = USER_INP.split(',')
+
+
+
 r = re.compile("[\d]{8}")
 PMID_list = list(filter(r.match, email_list)) # Read Note below
 
@@ -188,7 +195,7 @@ PUBMED_SEARCH = 'https://pubmed.ncbi.nlm.nih.gov/?term=CA260508+OR+CA260476+OR+C
 'CA260517+OR+CA260563+OR+CA260560+OR+21X089+OR+21X090+OR+21X091+OR+21X092%5BGrant+Number%5'\
 'D&format=pubmed&sort=date&size=200'
 
-CURATION_DIR = '~/National Institutes of Health/NCI-FNL SeroNet Team - Curation channel/'
+CURATION_DIR = '~/National Institutes of Health/NCI-FNL SeroNet Team - Curation channel/Investigator Lists/'
 FILE_NAME = 'Award to curator and all contacts mapping.xlsx'
 grant_map = pd.read_excel(os.path.join(CURATION_DIR, FILE_NAME))
 
