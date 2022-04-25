@@ -234,6 +234,9 @@ class subject_type_human:
     SARS_CoV2_History: list = field(default_factory=list)
     SARS_CoV_2_Vaccine_Type: list = field(default_factory=list)
     COVID_19_Disease_Severity: list = field(default_factory=list)
+    Post_COVID_19_Symptoms: list = field(default_factory=list)
+    COVID_19_Complications: list = field(default_factory=list)
+
     ImmPortNAME: str = 'n/a'
 
     def __bool__(self):
@@ -280,6 +283,8 @@ class subject_type_mode_organism:
     SARS_CoV2_History: list = field(default_factory=list)
     SARS_CoV_2_Vaccine_Type: list = field(default_factory=list)
     COVID_19_Disease_Severity: list = field(default_factory=list)
+    Post_COVID_19_Symptoms: list = field(default_factory=list)
+    COVID_19_Complications: list = field(default_factory=list)
     ImmPortNAME: str = 'n/a'
 
     def __bool__(self):

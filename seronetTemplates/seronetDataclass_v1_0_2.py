@@ -112,7 +112,10 @@ class study_categorization:
     ImmPortNAME : str = 'study_categorization'
 
     def __post_init__(self):
-    	self.Keywords = self.Keywords.replace('\n','').replace('\t','').replace(';',',').replace('|',',')
+        try:
+            self.Keywords = self.Keywords.replace('\n','').replace('\t','').replace(';',',').replace('|',',')
+        except:
+            logging.warning("[study_categorization]: Keywords are empty")
 
 @dataclass
 class study_design:
