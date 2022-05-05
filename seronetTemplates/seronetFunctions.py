@@ -9,8 +9,20 @@ from dataclasses import dataclass, field
 import openpyxl
 from openpyxl import load_workbook, Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
-# find file dir to save files base off PMID
 
+# find file dir to save files base off PMID
+def check_input(pmid):
+    if len(pmid) == 8:
+        return pmid
+    
+    else:
+        try:
+            return check_PMID(pmid.split("_")[1])
+        except:
+            print('PMID format invalid')
+            return False
+
+    
 def get_box_dir(box_dir, pmid):
     box_base = os.path.abspath(os.path.expanduser(os.path.expandvars(box_dir)))
     depth = 3

@@ -4,6 +4,8 @@ import datetime as dt
 import numpy as np
 import pandas as pd
 import os 
+import path
+import re
 
 ####
 '''
@@ -24,8 +26,14 @@ STATES = pd.read_csv(os.path.join("dictionary","States.csv"),
 ###
 # ERROR LOGS
 import logging
+
+CD = os.getcwd()
+
+if not os.path.exists(os.path.join(CD,"log")):
+    os.mkdir(os.path.join(CD,"log"))
+
 today = dt.datetime.today().strftime('%Y_%m_%d')
-logging.basicConfig(filename=f'./log/Registry_{today}.log', level=logging.DEBUG,
+logging.basicConfig(filename=os.path.join(CD,"log",f"Registry_{today}.log"), level=logging.DEBUG,
     format='%(asctime)s %(message)s', filemode='w', datefmt='%m/%d/%Y %I:%M:%S %p')
 
 
@@ -407,7 +415,11 @@ class reagent_per_experiment:
         temp = self.Reagent_ID[1][:-1]
         object.__setattr__(self, "Reagent_ID", [temp+str(i+1) for i in range(len(self.Reagent_ID))])
 
-  
+        for IDS in self.Reagent_ID:
+            if not re.match('pmid[\d]{8}_\w*?-[\d]{2}', IDS, re.IGNORECASE):
+                logging.error("[Reagent]: Reagent_ID is wrong")
+
+
 @dataclass 
 class results:
     Results_Virus_Target: list = field(default_factory=list)
