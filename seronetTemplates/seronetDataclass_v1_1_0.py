@@ -1,11 +1,12 @@
 from dataclasses import dataclass, field
 # import seronetDataclass_v2 as seroClass
-import datetime as dt 
+import datetime as dt
 import numpy as np
 import pandas as pd
-import os 
+import os
 import path
 import re
+import logging
 
 ####
 '''
@@ -14,10 +15,10 @@ https://docs.python.org/3/library/logging.html
 
 VARS_TO_CLEAN = ['', 'N/A', 'n/a', np.nan, None]
 
-STATES = pd.read_csv(os.path.join("dictionary","States.csv"),
-    header=None,
-    index_col=0,
-    squeeze=True).to_dict()
+STATES = pd.read_csv(os.path.join("dictionary", "States.csv"),
+                     header=None,
+                     index_col=0,
+                     squeeze=True).to_dict()
 ###
 
 # Creating a class for each part in the Excel Doc. 
@@ -25,16 +26,16 @@ STATES = pd.read_csv(os.path.join("dictionary","States.csv"),
 # Check for PMIDXXXX
 ###
 # ERROR LOGS
-import logging
+
 
 CD = os.getcwd()
 
-if not os.path.exists(os.path.join(CD,"log")):
-    os.mkdir(os.path.join(CD,"log"))
+if not os.path.exists(os.path.join(CD, "log")):
+    os.mkdir(os.path.join(CD, "log"))
 
 today = dt.datetime.today().strftime('%Y_%m_%d')
-logging.basicConfig(filename=os.path.join(CD,"log",f"Registry_{today}.log"), level=logging.DEBUG,
-    format='%(asctime)s %(message)s', filemode='w', datefmt='%m/%d/%Y %I:%M:%S %p')
+logging.basicConfig(filename=os.path.join(CD, "log", f"Registry_{today}.log"), level=logging.DEBUG,
+                    format='%(asctime)s %(message)s', filemode='w', datefmt='%m/%d/%Y %I:%M:%S %p')
 
 
 ###
@@ -46,22 +47,21 @@ class study:
     Publication_Title: str = None
     Study_Objective: str = None
     Study_Description: str = None
-    Primary_Institution_Name: str = None  
-    NAME : str = 'study'
+    Primary_Institution_Name: str = None
+    NAME: str = 'study'
 
     def __post_init__(self):
-
-    	self.Study_Identifier = self.Study_Identifier.replace('\n','').replace('\t','')
-    	self.Study_Name = self.Study_Name.replace('\n','').replace('\t','')
-    	self.Publication_Title = self.Publication_Title.replace('\n','').replace('\t','')
-    	self.Study_Objective = self.Study_Objective.replace('\n','').replace('\t','')
-    	self.Study_Description = self.Study_Description.replace('\n','').replace('\t','')
+        self.Study_Identifier = self.Study_Identifier.replace('\n', '').replace('\t', '')
+        self.Study_Name = self.Study_Name.replace('\n', '').replace('\t', '')
+        self.Publication_Title = self.Publication_Title.replace('\n', '').replace('\t', '')
+        self.Study_Objective = self.Study_Objective.replace('\n', '').replace('\t', '')
+        self.Study_Description = self.Study_Description.replace('\n', '').replace('\t', '')
 
 
 @dataclass
 class study_personnel:
     """1 row below, 11 Columns"""
-    User_Defined_ID: list = None 
+    User_Defined_ID: list = None
     Honorific: list = None
     Last_Name: list = None
     First_Name: list = None
@@ -72,28 +72,29 @@ class study_personnel:
     Title_In_Study: list = field(default_factory=list)
     Role_In_Study: list = field(default_factory=list)
     Site_Name: list = field(default_factory=list)
-    ImmPortNAME : str = 'study_personnel'
+    ImmPortNAME: str = 'study_personnel'
 
     def __post_init__(self):
-        if len(self.Role_In_Study) != len(self.User_Defined_ID) != len(self.Last_Name) != len(self.First_Name) != len(self.Organization) != len(self.Email) != len(self.Title_In_Study):
+        if len(self.Role_In_Study) != len(self.User_Defined_ID) != len(self.Last_Name) != len(self.First_Name) != len(
+                self.Organization) != len(self.Email) != len(self.Title_In_Study):
             logging.error("[study personnel]: Lengths of personnel is wrong")
             print("[study personnel]: Check Study Personnel")
 
-        
+
 @dataclass
 class study_file:
     File_Name: list = field(default_factory=list)
     Description: list = field(default_factory=list)
     Study_File_Type: list = field(default_factory=list)
-    ImmPortNAME : str = 'study_file'
+    ImmPortNAME: str = 'study_file'
 
     # def __bool__(self):
     #     print(len(list(self.Study_File_Type)) == len(list(set(self.Study_File_Type))))
 
-
     def __post_init__(self):
         for i, k in enumerate(self.Description):
-            object.__setattr__(self, 'Description', [k.replace('\n','').replace('\t','') for i, k in enumerate(self.Description)])
+            object.__setattr__(self, 'Description',
+                               [k.replace('\n', '').replace('\t', '') for i, k in enumerate(self.Description)])
             # self.Description[i] = k.replace('\n','').replace('\t','')
 
         if len(list(self.File_Name)) != len(list(set(self.File_Name))):
@@ -104,12 +105,13 @@ class study_file:
             logging.warning("[file names]: Missing value")
             print("[file names]: Check for missing values")
 
+
 @dataclass
 class study_link:
     Name: list = field(default_factory=list)
     Value: list = field(default_factory=list)
-    ImmPortNAME : str = 'study_link'        
-        
+    ImmPortNAME: str = 'study_link'
+
 
 @dataclass
 class study_categorization:
@@ -117,18 +119,21 @@ class study_categorization:
     Research_Focus: str = None
     Study_Type: str = None
     Keywords: list = None
-    ImmPortNAME : str = 'study_categorization'
+    ImmPortNAME: str = 'study_categorization'
 
     def __post_init__(self):
-    	self.Keywords = self.Keywords.replace('\n','').replace('\t','').replace(';',',').replace('|',',')
+        if self.Keywords:
+            self.Keywords = self.Keywords.replace('\n', '').replace('\t', '').replace(';', ',').replace('|', ',')
+
 
 @dataclass
 class study_design:
     """1 Column to the right"""
     Clinical_Study_Design: str = None
-    in_silico_Model_Type: str = None 
-    ImmPortNAME : str = 'NA'
-        
+    in_silico_Model_Type: str = None
+    ImmPortNAME: str = 'NA'
+
+
 @dataclass
 class protocols:
     Protocol_ID: str
@@ -136,39 +141,43 @@ class protocols:
     Protocol_Name: str
     Protocol_Description: str = None
     Protocol_Type: str = None
-    ImmPortNAME : str = 'study_2_protocol'
-        
+    ImmPortNAME: str = 'study_2_protocol'
+
+
 @dataclass
 class condition_or_disease:
     """1 Column to the right"""
     Reported_Health_Condition: str = None
-    ImmPortNAME : str = 'study_2_condition_or_disease'
+    ImmPortNAME: str = 'study_2_condition_or_disease'
 
     def __post_init__(self):
         for i, k in enumerate(self.Reported_Health_Condition):
-            object.__setattr__(self, 'Reported_Health_Condition', [k.replace('\n','').replace('\t','') for i, k in enumerate(self.Reported_Health_Condition)])
+            object.__setattr__(self, 'Reported_Health_Condition', [k.replace('\n', '').replace('\t', '') for i, k in
+                                                                   enumerate(self.Reported_Health_Condition)])
             # self.Reported_Health_Condition[i] = k.replace('|',',').replace(':',',')
-        
+
+
 @dataclass
 class Intervention_Agent:
     SARS_CoV_2_Vaccine_Type: list = None
-    ImmPortNAME : str = 'NA'
-        
+    ImmPortNAME: str = 'NA'
+
+
 @dataclass
 class study_details:
     Clinical_Outcome_Measure: str = None
-    Enrollment_Start_Date: str = None #this is a datetime object
-    Enrollment_End_Date: str = None #this is a datetime object
-    Number_of_Study_Subjects: str = None    
+    Enrollment_Start_Date: str = None  # this is a datetime object
+    Enrollment_End_Date: str = None  # this is a datetime object
+    Number_of_Study_Subjects: str = None
     Age_Unit: str = 'Years'
     Minimum_Age: int = None
     Maximum_Age: int = None
-    ImmPortNAME : str = 'study'
+    ImmPortNAME: str = 'study'
 
     def __post_init__(self):
         if self.Maximum_Age is None:
             object.__setattr__(self, 'Maximum_Age', 89)
-            
+
         if self.Minimum_Age is None:
             object.__setattr__(self, 'Minimum_Age', 0)
 
@@ -182,9 +191,10 @@ class inclusion_exclusion:
     User_Defined_ID: list = None
     Criterion: list = field(default_factory=list)
     Criterion_Category: list = field(default_factory=list)
-    ImmPortNAME : str = 'inclusion_exclusion'
+    ImmPortNAME: str = 'inclusion_exclusion'
 
-# confused on why this doesnt work 
+
+# confused on why this doesnt work
 @dataclass
 class study_pubmed:
     Pubmed_ID: str = None
@@ -197,34 +207,36 @@ class study_pubmed:
     Pages: str = None
     Authors: str = None
 
-    ImmPortNAME : str = 'study_pubmed'
+    ImmPortNAME: str = 'study_pubmed'
 
     def __any__(self):
-    	return bool(self.Pubmed_ID)
- 
+        return bool(self.Pubmed_ID)
+
+
 @dataclass
 class arm_or_cohort:
     User_Defined_ID: list = field(default_factory=list),
-    Name:  list = field(default_factory=list),
-    Description:  list = field(default_factory=list),
-    Type_Reported:  list = field(default_factory=list),
-    ImmPortNAME: str  = 'arm_or_cohort'
+    Name: list = field(default_factory=list),
+    Description: list = field(default_factory=list),
+    Type_Reported: list = field(default_factory=list),
+    ImmPortNAME: str = 'arm_or_cohort'
 
     def __post_init__(self):
         for i, k in enumerate(self.Description):
-            object.__setattr__(self, 'Description', [k.replace('\n','').replace('\t','') for i, k in enumerate(self.Description)])
+            object.__setattr__(self, 'Description',
+                               [k.replace('\n', '').replace('\t', '') for i, k in enumerate(self.Description)])
             # self.Description[i] = k.replace('\n','').replace('\t','')
-
 
         # temp = self.User_Defined_ID[0][:-1]
         # object.__setattr__(self, "User_Defined_ID", [temp+str(i+1) for i in range(len(self.User_Defined_ID))])
 
+
 @dataclass
 class subject_type_human:
-    User_Defined_ID: list = None # might need to change
-    Name: list = None #arm
-    Description: list = None #arm
-    Type_Reported: list = None #arm type
+    User_Defined_ID: list = field(default_factory=list) # might need to change
+    Name: list = None  # arm
+    Description: list = None  # arm
+    Type_Reported: list = None  # arm type
     Ethnicity: list = field(default_factory=list)
     Race: list = field(default_factory=list)
     Race_Specify: list = field(default_factory=list)
@@ -232,7 +244,7 @@ class subject_type_human:
     Sex_at_Birth: list = field(default_factory=list)
     Age_Event: list = field(default_factory=list)
     Subject_Phenotype: list = field(default_factory=list)
-    Study_Location: list = field(default_factory=list) # Add something to make north west or check?
+    Study_Location: list = field(default_factory=list)  # Add something to make north west or check?
     Assessment_Name: list = field(default_factory=list)
     Measured_Behavioral_or_Psychological_Factor: list = field(default_factory=list)
     Measured_Social_Factor: list = field(default_factory=list)
@@ -250,8 +262,8 @@ class subject_type_human:
     def __bool__(self):
         if len(set(self.User_Defined_ID).intersection([None])) == 1:
             return False
-        else:
-            return True
+        # return True
+        return bool(len(self.User_Defined_ID))
 
     def __post_init__(self):
         self.SARS_CoV_2_Vaccine_Type = [x for x in self.SARS_CoV_2_Vaccine_Type if x not in VARS_TO_CLEAN]
@@ -260,23 +272,22 @@ class subject_type_human:
         for i, k in enumerate(self.Study_Location):
             if isinstance(k, list) and len():
                 if len(set(k).intersection(STATES)) < len(k):
-                    self.Study_Location[i+1] = 'Other'
+                    self.Study_Location[i + 1] = 'Other'
                 else:
-                    self.Study_Location[i+1] = 'United States of America'
+                    self.Study_Location[i + 1] = 'United States of America'
 
 
             elif k in STATES:
-                self.Study_Location[i+1] = f"US: {STATES.get(k)}"
+                self.Study_Location[i + 1] = f"US: {STATES.get(k)}"
 
         if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
             logging.error("[human AOC]: Check for repeat User Defined IDs")
             print("Error [human AOC]: Check User Defined ID")
 
 
-
 @dataclass
 class subject_type_mode_organism:
-    User_Defined_ID: list = None #might need to change
+    User_Defined_ID: list = field(default_factory=list)  # might need to change
     Name: list = None
     Description: list = None
     Type_Reported: list = None
@@ -295,39 +306,40 @@ class subject_type_mode_organism:
     COVID_19_Complications: list = field(default_factory=list)
     ImmPortNAME: str = 'n/a'
 
-    def __bool__(self):
+    def __len__(self):
         if len(set(self.User_Defined_ID).intersection([None])) == 1:
             return False
-        else:
-            return True
+        # if not self.User_Defined_ID:
+        return bool(len(self.User_Defined_ID))
+        # return True
 
     def __post_init__(self):
 
         if len(self.User_Defined_ID):
             # shorting vaccine type to non-hidden characters  
             self.SARS_CoV_2_Vaccine_Type = [x for x in self.SARS_CoV_2_Vaccine_Type if x not in VARS_TO_CLEAN]
-            
+
             # changing SeroNet species terms to ImmPort specific terms 
             for i, k in enumerate(self.Species):
                 if k is not None:
                     if k.lower() == "human":
-                        self.Species[i+1] = 'Homo Sapiens'
+                        self.Species[i + 1] = 'Homo Sapiens'
 
-                    if k.lower() in ["syrian hamster", "syrian hamsters", "golden hampster", "golden syrian hampsters","golden syrian hampster", "golden hampsters"]:
-                        self.Species[i+1] == "Mesocricetus auratus"
+                    if k.lower() in ["syrian hamster", "syrian hamsters", "golden hampster", "golden syrian hampsters",
+                                     "golden syrian hampster", "golden hampsters"]:
+                        self.Species[i + 1] == "Mesocricetus auratus"
 
-
-            # changing SeroNet terms to ImmPort specific terms 
+            # changing SeroNet terms to ImmPort specific terms
             for i, k in enumerate(self.Study_Location):
                 if isinstance(k, list) and len():
                     if len(set(k).intersection(STATES)) < len(k):
-                        self.Study_Location[i+1] = 'Other'
+                        self.Study_Location[i + 1] = 'Other'
                     else:
-                        self.Study_Location[i+1] = 'United States of America'
+                        self.Study_Location[i + 1] = 'United States of America'
 
 
                 elif k in STATES:
-                    self.Study_Location[i+1] = f"US: {STATES.get(k)}"
+                    self.Study_Location[i + 1] = f"US: {STATES.get(k)}"
 
         if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
             logging.error("[organism AOC]: Check for repeat User Defined IDs")
@@ -352,7 +364,7 @@ class planned_visit:
     Min_Start_Day: list = field(default_factory=list)
     Max_Start_Day: list = None
     Start_Rule: list = None
-    ImmPortNAME : str = 'planned_visit'
+    ImmPortNAME: str = 'planned_visit'
 
     def __post_init__(self):
 
@@ -369,7 +381,6 @@ class planned_visit:
             print("Same order number used more than once")
 
 
-
 @dataclass
 class study_experiment_samples:
     Expt_Sample_User_Defined_ID: list = field(default_factory=list)
@@ -378,7 +389,9 @@ class study_experiment_samples:
 
     def __post_init__(self):
         temp = self.Expt_Sample_User_Defined_ID[1][:-1]
-        object.__setattr__(self, "Expt_Sample_User_Defined_ID", [temp+str(i+1) for i in range(len(self.Expt_Sample_User_Defined_ID))])
+        object.__setattr__(self, "Expt_Sample_User_Defined_ID",
+                           [temp + str(i + 1) for i in range(len(self.Expt_Sample_User_Defined_ID))])
+
 
 @dataclass
 class study_experiment:
@@ -388,16 +401,14 @@ class study_experiment:
     Experiment_Results_File_Name: str = None
 
     def __bool__(self):
-        return(len(list(self.Experiment_Results_File_Name)) == len(list(set(self.Experiment_Results_File_Name))))
+        return (len(list(self.Experiment_Results_File_Name)) == len(list(set(self.Experiment_Results_File_Name))))
 
     def __post_init__(self):
         temp = self.Experiment_ID[1][:-1]
-        object.__setattr__(self, "Experiment_ID", [temp+str(i+1) for i in range(len(self.Experiment_ID))])
+        object.__setattr__(self, "Experiment_ID", [temp + str(i + 1) for i in range(len(self.Experiment_ID))])
 
 
-
-        
-@dataclass 
+@dataclass
 class reagent_per_experiment:
     Reagent_ID: list = field(default_factory=list)
     SARS_CoV_2_Antigen: list = field(default_factory=list)
@@ -406,25 +417,23 @@ class reagent_per_experiment:
     Catalog: list = field(default_factory=list)
 
     # def __bool__(self):
-        # if self.Reagent_ID == ""
+    # if self.Reagent_ID == ""
 
     def __post_init__(self):
         if not len(self.Manufacturer):
             object.__setattr__(self, 'Manufacturer', 0)
 
         temp = self.Reagent_ID[1][:-1]
-        object.__setattr__(self, "Reagent_ID", [temp+str(i+1) for i in range(len(self.Reagent_ID))])
+        object.__setattr__(self, "Reagent_ID", [temp + str(i + 1) for i in range(len(self.Reagent_ID))])
 
         for IDS in self.Reagent_ID:
             if not re.match('pmid[\d]{8}_\w*?-[\d]{2}', IDS, re.IGNORECASE):
                 logging.error("[Reagent]: Reagent_ID is wrong")
 
 
-@dataclass 
+@dataclass
 class results:
     Results_Virus_Target: list = field(default_factory=list)
     Results_Antibody_Isotype: list = field(default_factory=list)
     Results_Reporting_Units: list = field(default_factory=list)
     Results_Reporting_Format: list = field(default_factory=list)
-        
-        

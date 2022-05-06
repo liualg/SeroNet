@@ -42,7 +42,7 @@ except:
 
 
 r = re.compile("[\d]{8}")
-PMID_list = list(filter(r.match, email_list)) # Read Note below
+PMID_list = list(filter(r.match, email_list)) 
 
 if len(PMID_list) < 1:
     print('Please enter PMIDS seperated by rows')

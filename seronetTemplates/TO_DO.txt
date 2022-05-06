@@ -1,0 +1,12 @@
+These are the basic curations.... they do not work with the script 
+
+35068405
+34910927
+34130883
+34086877
+34003112
+33666169
+33479118
+
+inclusion_exclusion	- change to N/a if empty
+'Study Day': i, # Not sure, we dont capture study day 

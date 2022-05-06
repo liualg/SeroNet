@@ -39,10 +39,14 @@ except:
 
 ROOT = tk.Tk()
 
+
+ROOT.tk.eval(f'tk::PlaceWindow {ROOT._w} center')
 ROOT.withdraw()
+
 # the input dialog
 USER_INP = simpledialog.askstring(title="PMID",
-                                  prompt="Enter PMID:")
+                                  prompt="Enter PMID:",
+                                  parent = ROOT)
 
 #TEST PMIDS
 # PMID = "33184236"
@@ -76,6 +80,7 @@ except:
     
     
 df_path = os.path.join(BASE_DIR,'templated_data', file + ".xlsm")
+print("file path: {}".format(df_path))
 # df_path = os.path.join(BASE_DIR,'templated_data', "PMID34431693_registry.xlsm")
 
 # dictionary info
@@ -122,6 +127,7 @@ book = load_workbook(df_path)
 registry = book[sheet_name]
 registry.delete_cols(1)
 
+print("\n~~ File Information ~~")
 
 # In[3]:
 
@@ -466,8 +472,6 @@ else:
     vaccine_type = []
 
 
-# In[11]:
-
 
 if SUBJECT_HUMAN and SUBJECT_ORGANISM:
     print('Both human and model organism are used')
@@ -477,7 +481,7 @@ if SUBJECT_HUMAN and SUBJECT_ORGANISM:
     type_report = list(SUBJECT_HUMAN.Type_Reported) + list(SUBJECT_ORGANISM.Type_Reported)
     
     if set(SUBJECT_HUMAN.User_Defined_ID).intersection(SUBJECT_ORGANISM.User_Defined_ID):
-        print("Cannot have same User Defined ID's for AOCs:")
+        print("\n*** ERROR: Cannot have same User Defined ID's for AOCs:")
         print(set(SUBJECT_HUMAN.User_Defined_ID).intersection(SUBJECT_ORGANISM.User_Defined_ID))
         
 if SUBJECT_HUMAN and not SUBJECT_ORGANISM:
@@ -541,7 +545,7 @@ seroFxn.add_df(temp_ws, STUDY_LINK)
 
 seroFxn.add_df(temp_ws, STUDY_PUBMED)
 
-pd.DataFrame(temp_ws.values).to_csv('./temp_mar6.csv', index=None)
+# pd.DataFrame(temp_ws.values).to_csv('./TEST.csv', index=None)
 
 
 # #### Filling in Study Info Sections 
@@ -725,7 +729,7 @@ reagent_df
 
 
 """
-# # SUBJECTS
+# # SUBJECT: HUMAN
 
 # - if human, use human
 # - if animal, use animal sheet 
@@ -737,13 +741,28 @@ HUMAN SHOULD BE FOR HUMAN CELLS LINES. DO NOT PUT IN ORGANISM
 
 
 if SUBJECT_HUMAN:
-    print ("SUBJECT_human data")
     species = SUBJECT_HUMAN.User_Defined_ID
     empty = ['']*len(species)
     
-    if len(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type):
-        vaccine_name = [i.split('; ')[0] for i in SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type]
-        vaccine_type = [i.split('; ')[1] for i in SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type]
+    if len(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type): #splitting correctly
+        try: #check if there are multiple vaccine names in this section
+            vaccine_type = []
+            vaccine_name = []
+
+            for vaccines_per_sub in SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type:
+                v_type = []
+                v_name = []
+
+                for each in vaccines_per_sub.split('|'):
+                    v_type.append(each.split(";")[1].strip())
+                    v_name.append(each.split(";")[0].strip())
+
+                vaccine_type.append(' | '.join(v_type))
+                vaccine_name.append(' | '.join(v_name))
+        except:
+            vaccine_name = [i.split('; ')[1] for i in vaccines]
+            vaccine_type = [i.split('; ')[0] for i in vaccines]
+        
     else:
         vaccine_name = empty
         vaccine_type = empty
@@ -754,13 +773,13 @@ if SUBJECT_HUMAN:
         'Subject ID': [f"PMID{PMID}_human_subject-0{int(i+1)}" for i in range(len(species))],
         'Arm Or Cohort ID': SUBJECT_HUMAN.User_Defined_ID, #I feel like this needs to be defined
         'Gender': SUBJECT_HUMAN.Sex_at_Birth, 
-        'Min Subject Age': STUDY_DETAILS.Minimum_Age, # add this to validator in dataclass 
-        'Max Subject Age': STUDY_DETAILS.Maximum_Age, # add this to validator in dataclass 
+        'Min Subject Age': 0, # add this to validator in dataclass 
+        'Max Subject Age': 89, # add this to validator in dataclass 
         'Age Unit': [STUDY_DETAILS.Age_Unit]*len(species),
         'Age Event': SUBJECT_HUMAN.Age_Event, 
         'Age Event Specify': empty,
         'Subject Phenotype': empty, 
-        'Subject Location': 'United States of America', # This needs to be changed
+        'Subject Location': SUBJECT_HUMAN.Study_Location,
         'Ethnicity': SUBJECT_HUMAN.Ethnicity,
         'Race': SUBJECT_HUMAN.Race, 
         'Race Specify': empty,
@@ -789,15 +808,15 @@ if SUBJECT_HUMAN:
                        sep = '\t')
 
 #     print(SUBJECT_human_df)
+    print ("SUBJECT: human data created")
+# else:
+#     print('no human data')
     
-else:
-    print('no human data')
-    
+
 
 
 """
-# ## Organism
-
+# SUBJECT: ORGANISM
 
 For Syrain Hamster: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Syrian+hamsters 
 
@@ -853,10 +872,10 @@ if SUBJECT_ORGANISM:  # Not sure how this plays out. Might need to do a mock one
             vaccine_name = empty
             vaccine_type = empty
 
-    print ("SUBJECT_organism data")
+    # print ("SUBJECT_organism data")
     SUBJECT_organism_df = pd.DataFrame({
         'Column Name':empty,
-        'Subject ID': SUBJECT_ORGANISM.User_Defined_ID, #[f"PMID{PMID}_organism_subject-0{int(i+1)}" for i in range(len(species))], 
+        'Subject ID': [f"PMID{PMID}_organism_subject-0{int(i+1)}" for i in range(len(species))], #SUBJECT_ORGANISM.User_Defined_ID, #
         'Arm Or Cohort ID': SUBJECT_ORGANISM.User_Defined_ID, #I feel like this needs to be defined
         'Gender': SUBJECT_ORGANISM.Sex_at_Birth,
         'Min Subject Age': [STUDY_DETAILS.Minimum_Age]*len(species),
@@ -895,8 +914,7 @@ if SUBJECT_ORGANISM:  # Not sure how this plays out. Might need to do a mock one
     SUBJECT_organism_df
     
 #     subjectAnimals
-else:
-    print("no data")
+
 
 
 # # ASSESSMENT 
@@ -910,6 +928,7 @@ else:
 
 
 if SUBJECT_HUMAN:
+    print("Assays Used")
     allCovSymtoms = list(SUBJECT_HUMAN.Measured_Behavioral_or_Psychological_Factor) + list(SUBJECT_HUMAN.Measured_Social_Factor) + list(SUBJECT_HUMAN.SARS_CoV_2_Symptoms)
  
     NumAssessments = len(SUBJECT_HUMAN.User_Defined_ID)
@@ -936,7 +955,7 @@ if SUBJECT_HUMAN:
                     assessmet_type.append(SUBJECT_HUMAN.SARS_CoV_2_Symptoms[i])
                     status.append(SUBJECT_HUMAN.Assessment_Demographic_Data_Types_Collected[i])
                 else:
-                    print('No assessment')
+                    print('No assessment found')
 
             empty = ['']*len(assessmet_type) 
             # need to figure out named report 
@@ -955,7 +974,7 @@ if SUBJECT_HUMAN:
                 'User Defined ID': [f"PMID{PMID}assessment-0{int(i+1)}" for i in range(len(assessmet_type))], #
                 'Planned Visit ID': empty, # IM going to make this empty for now PLANNED_VISIT.User_Defined_ID[i],
                 'Name Reported ': [f"component_{assessment_name}"]*len(assessmet_type), # space might not work
-                'Study Day': i, # Not sure, this says assessment component study day
+                'Study Day': i-1, # Not sure, we dont capture study day 
                 'Age At Onset Reported': empty,
                 'Age At Onset Unit Reported': empty,
                 'Is Clinically Significant': empty,
@@ -994,7 +1013,7 @@ if SUBJECT_HUMAN:
                                sep = '\t')
             # #     print(assessment_df.head())
 else:
-    print("No Human subject. No assessments recorded")
+    print("No Human Subjects: assessments not recorded")
 
 
 # In[57]:
@@ -1002,101 +1021,13 @@ else:
 
 CD = os.getcwd()
 today = dt.datetime.today().strftime('%Y_%m_%d')
-shutil.copyfile(os.path.join(CD,"log",f"Registry_{today}.log"), os.path.join(CD,BASE_DIR,f"Registry_{today}.log"))
-# 
-# if os.path.join(".","log",f"Registry_{today}.log")
 
-# In[58]:
+try:
+    os.mkdir(os.path.join(CD,BASE_DIR,"log"))
+    print(f'Creating log')
+except FileExistsError:
+    print('Will not create log - already exists')
+    pass
 
-
-# if SUBJECT_HUMAN:
-#     NumAssessments = len(allCovSymtoms)
-#     empty = [''] 
-#     for i, k in enumerate(NumAssessments): ### THIS NEEDS TO BE 1 cell to the right. So the actual vaules 
-
-#         assessment_df = pd.DataFrame({
-#             'Column Name': empty,
-#             'Subject ID': SUBJECT.Subject_ID,  #assuming 1 subj per study .. treat as a study id
-#             'Assessment Panel ID': ASSESSMENT.Assessment_ID[i],
-#             'Study ID': STUDY.Study_Identifier,
-#             'Name Reported': assessment_name,
-#             'Assessment Type': ASSESSMENT.Assessment_Clinical_and_Demographic_Data_Provenance[i],
-#             'Status': ASSESSMENT.Assessment_Demographic_Data_Types_Collected[i],
-#             'CRF File Names': empty,
-#             'Result Separator Column': empty,
-#             'User Defined ID': ASSESSMENT.Assessment_ID[i], #
-#             'Planned Visit ID': PLANNED_VISIT.User_Defined_ID[i],
-#             'Name Reported ': f"component_{assessment_name}", # space might not work
-#             'Study Day': i, # Not sure, this says assessment component study day
-#             'Age At Onset Reported': empty,
-#             'Age At Onset Unit Reported': empty,
-#             'Is Clinically Significant': empty,
-#             'Location Of Finding Reported': empty,
-#             'Organ Or Body System Reported': empty,
-#             'Result Value Reported': 'NA',
-#             'Result Unit Reported': empty,
-#             'Result Value Category': empty,
-#             'Subject Position Reported': empty,
-#             'Time Of Day': empty,
-#             'Verbatim Question': empty,
-#             'Who Is Assessed': empty
-#         })
-
-#         # loading experiment template and removing excess rows and columns
-#         assessment_ws = load_workbook(PATH_assessment)['assessments.txt']
-#         assessment_ws = seroFxn.remove_excess(assessment_ws)
-
-#         # adding df to bottom of ws
-#         seroFxn.add_df(assessment_ws, assessment_df, add_header = False)
-#         assessment_df = pd.DataFrame(assessment_ws.values).replace({None: '', 'None': ''})
-#     #     assessment_df.rename(columns=lambda x: x.strip())
-
-#         # saving file
-#         assessment_df.to_csv(os.path.join(OUT_DIR,f'panel0{i}_{ASSESSMENT_TEMPLATE}.txt'),
-#                            header = False, 
-#                            index = False,
-#                            sep = '\t')
-#     #     print(assessment_df.head())
-
-
-# In[ ]:
-
-
-# class my_class(object):
-#     def __init__(self):
-#         self.lis1 = []
-#         self.dict1 = []
-
-# #     def __nonzero__(self):
-# #         return bool(self.lis1 or self.dict1)
-    
-#     def __len__(self):
-#         for field in self.fields():
-#             print(field.name, getattr(self, field.name))
-            
-#         return len(self.lis1) + len(self.dict1)
-    
-#     def __post_init__(self):
-#         for field in self.__dataclass_fields__:
-#             value = getattr(self, field)
-#             print(field, value)
-
-
-# In[ ]:
-
-
-# obj = my_class()
-# # obj.lis1 = [1,2,3,4]
-# # obj.dict1 = [1,2,3,4]
-
-# if obj:
-#     print ("Available")
-# else:
-#     print ("Not available")
-
-
-# In[ ]:
-
-
-
+shutil.copyfile(os.path.join(CD,"log",f"Registry_{today}.log"), os.path.join(CD,BASE_DIR,"log",f"Registry_{today}.log"))
 
