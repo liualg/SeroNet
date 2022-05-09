@@ -1,0 +1,20 @@
+Activating Script:
+
+1. install pip via command line / powershell
+
+MacOs [Command Line]:
+ curl https://bootstrap.pypa.io/get-pip.py | python
+
+{more help: https://stackoverflow.com/questions/17271319/how-do-i-install-pip-on-macos-or-os-x}
+
+Windows [Bash / Powershell]: 
+ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+ python get-pip.py 
+
+{more help: https://phoenixnap.com/kb/install-pip-windows}
+
+2.  install requirements.txt
+ pip install -r requirements.txt 
+
+3. Run script"
+ python Registry2ImmPort_final_v1.1.0.py

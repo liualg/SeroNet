@@ -1,0 +1,5 @@
+numpy==1.19.5
+openpyxl==3.0.7
+pandas==1.2.4
+path.py==12.5.0
+tqdm==4.62.2

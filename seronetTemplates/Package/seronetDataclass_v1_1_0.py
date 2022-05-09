@@ -1,5 +1,4 @@
 from dataclasses import dataclass, field
-import seronetFunctions as seroFxn
 # import seronetDataclass_v2 as seroClass
 import datetime as dt
 import numpy as np
@@ -8,7 +7,6 @@ import os
 import path
 import re
 import logging
-import sys
 
 ####
 '''
@@ -21,8 +19,7 @@ STATES = pd.read_csv(os.path.join("dictionary", "States.csv"),
                      header=None,
                      index_col=0,
                      squeeze=True).to_dict()
-#### FUNCTIONS ###
-
+###
 
 # Creating a class for each part in the Excel Doc. 
 # have a defult NA
@@ -81,7 +78,7 @@ class study_personnel:
         if len(self.Role_In_Study) != len(self.User_Defined_ID) != len(self.Last_Name) != len(self.First_Name) != len(
                 self.Organization) != len(self.Email) != len(self.Title_In_Study):
             logging.error("[study personnel]: Lengths of personnel is wrong")
-            sys.exit("ERROR:: [study personnel]: Check Study Personnel")
+            print("[study personnel]: Check Study Personnel")
 
 
 @dataclass
@@ -102,11 +99,11 @@ class study_file:
 
         if len(list(self.File_Name)) != len(list(set(self.File_Name))):
             logging.warning("[file names]: Redudant names: file names")
-            sys.exit("ERROR:: [file names]: Check file names")
+            print("[file names]: Check file names")
 
         if len(self.File_Name) != len(self.Study_File_Type):
             logging.warning("[file names]: Missing value")
-            sys.exit("ERROR:: [file names]: Check for missing values")
+            print("[file names]: Check for missing values")
 
 
 @dataclass
@@ -225,10 +222,6 @@ class arm_or_cohort:
     ImmPortNAME: str = 'arm_or_cohort'
 
     def __post_init__(self):
-        if len(self.Type_Reported) < len(self.User_Defined_ID):
-            logging.error("[arm_or_cohort]: Arm type missing")
-            sys.exit("ERROR:: [arm_or_cohort]: Arm type missing")
-
         for i, k in enumerate(self.Description):
             object.__setattr__(self, 'Description',
                                [k.replace('\n', '').replace('\t', '') for i, k in enumerate(self.Description)])
@@ -273,49 +266,23 @@ class subject_type_human:
         return bool(len(self.User_Defined_ID))
 
     def __post_init__(self):
-        # Checking to make sure everying is the same length (taking into acount that None are Empty Spaces)
-        largest_val = 0
-        for field in self.__dataclass_fields__:
-            if field != "ImmPortNAME":
-#                 field = [x for x in getattr(self, field) if x not in VARS_TO_CLEAN]
-                field = seroFxn.clean_array(getattr(self,field), [None])
-                
-                if len(field) != 0:
-                    value = len(field)
-                    if value > largest_val:
-                        largest_val = value
-
-        for field in self.__dataclass_fields__:
-            if isinstance(getattr(self,field), list):
-                
-                cell = seroFxn.clean_array(getattr(self,field), [None])
-                
-                if len(cell) != largest_val:
-    #                 logging.error("[planned visit]: check Order Numer")
-                    sys.exit(f"ERROR:: Error [Subject Human]: Check {field}")
-
-
-        # Cleaning out characters in Vaccine Typpe
         self.SARS_CoV_2_Vaccine_Type = [x for x in self.SARS_CoV_2_Vaccine_Type if x not in VARS_TO_CLEAN]
 
         # changing SeroNet terms to ImmPort specific terms 
         for i, k in enumerate(self.Study_Location):
-            k = k.split(' | ')
-            if isinstance(k , list) and len(k ) > 1:
-                if len(set(k ).intersection(STATES)) < len(k ):
+            if isinstance(k, list) and len():
+                if len(set(k).intersection(STATES)) < len(k):
                     self.Study_Location[i + 1] = 'Other'
                 else:
                     self.Study_Location[i + 1] = 'United States of America'
-            
-            elif k[0] in STATES.keys():
-                self.Study_Location[i + 1] = f"US: {STATES.get(k[0])}"
-
-        # if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
-        #     logging.error("[human AOC]: Check for repeat User Defined IDs")
-        #     sys.exit("ERROR:: Error [human AOC]: Check User Defined ID")
 
 
+            elif k in STATES:
+                self.Study_Location[i + 1] = f"US: {STATES.get(k)}"
 
+        if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
+            logging.error("[human AOC]: Check for repeat User Defined IDs")
+            print("Error [human AOC]: Check User Defined ID")
 
 
 @dataclass
@@ -349,29 +316,6 @@ class subject_type_mode_organism:
     def __post_init__(self):
 
         if len(self.User_Defined_ID):
-            # Checking to make sure everying is the same length (taking into acount that None are Empty Spaces)
-            largest_val = 0
-
-            for field in self.__dataclass_fields__:
-                # print(field)
-                if field != "ImmPortNAME":
-    #                 field = [x for x in getattr(self, field) if x not in VARS_TO_CLEAN]
-                    cell = seroFxn.clean_array(getattr(self,field), [None])
-                    if len(cell) != 0:
-                        value = len(cell)
-                        if value > largest_val:
-                            largest_val = value
-
-            for field in self.__dataclass_fields__:
-                # print(field, type(field))
-                if field != "ImmPortNAME":
-                    
-                    cell = seroFxn.clean_array(getattr(self,field), [None])
-                    
-                    if len(cell) != largest_val:
-        #                 logging.error("[planned visit]: check Order Numer")
-                        sys.exit(f"ERROR:: Error [Subject organism]: Check {field}")
-                        
             # shorting vaccine type to non-hidden characters  
             self.SARS_CoV_2_Vaccine_Type = [x for x in self.SARS_CoV_2_Vaccine_Type if x not in VARS_TO_CLEAN]
 
@@ -387,18 +331,19 @@ class subject_type_mode_organism:
 
             # changing SeroNet terms to ImmPort specific terms
             for i, k in enumerate(self.Study_Location):
-                k = k.split(' | ')
-                if isinstance(k , list) and len(k ) > 1:
-                    if len(set(k ).intersection(STATES)) < len(k ):
+                if isinstance(k, list) and len():
+                    if len(set(k).intersection(STATES)) < len(k):
                         self.Study_Location[i + 1] = 'Other'
                     else:
                         self.Study_Location[i + 1] = 'United States of America'
-                
-                elif k[0] in STATES.keys():
-                    self.Study_Location[i + 1] = f"US: {STATES.get(k[0])}"
 
 
+                elif k in STATES:
+                    self.Study_Location[i + 1] = f"US: {STATES.get(k)}"
 
+        if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
+            logging.error("[organism AOC]: Check for repeat User Defined IDs")
+            print("Error [organism AOC]: Check User Defined ID")
 
 
 # @dataclass
@@ -425,7 +370,7 @@ class planned_visit:
 
         if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
             logging.error("[planned visit]: check user defined ID")
-            sys.exit("ERROR:: [planned visit]: check user defined ID")
+            print("[planned visit]: check user defined ID")
 
             # Script to auto change user defined ID. Not sure if this is smart to have
             # temp = self.User_Defined_ID[1][:-1]
@@ -433,7 +378,7 @@ class planned_visit:
 
         if len(set(self.Order_Number)) != len(self.Order_Number):
             logging.error("[planned visit]: check Order Numer")
-            sys.exit("ERROR:: Same order number used more than once")
+            print("Same order number used more than once")
 
 
 @dataclass

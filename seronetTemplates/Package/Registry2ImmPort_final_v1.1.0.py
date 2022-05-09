@@ -66,7 +66,7 @@ if platform == "darwin":
     box_base = "~/Library/CloudStorage/Box-Box/SeroNet Public Data"
 else: 
     print("User has windows")
-    box_base = os.path.join("Users",os.getlogin(), "Box")
+    box_base = os.path.join( "Users",os.getlogin(), "Box")
 
 
 #File Paths
@@ -406,9 +406,33 @@ for section_number in range(len(sp)-1):
         print(sub_section, ': does not exist')
 
 
+# In[6]:
+
+
+@dataclass
+class TEST:
+    """1 Column to the right"""
+    Study_Identifier: str = None
+    Study_Name: str = None
+    Publication_Title: str = None
+    Study_Objective: str = None
+        
+    def __post_init__(self):
+
+        self.Study_Identifier = self.Study_Identifier.replace('\n','').replace('\t','')
+        self.Study_Name = self.Study_Name.replace('\n','').replace('\t','')
+        self.Publication_Title = self.Publication_Title.replace('\n','').replace('\t','')
+
+        for attr in self.fields():
+            print(attr)
+
+
+# In[7]:
+
 
 # # Sending back to ImmPort Template #
 
+# In[8]:
 
 
 ImmPortClassNames = ['study', 'study_categorization', 'study_2_condition_or_disease',
@@ -735,7 +759,6 @@ if SUBJECT_HUMAN:
 
                 vaccine_type.append(' | '.join(v_type))
                 vaccine_name.append(' | '.join(v_name))
-        
         except:
             vaccine_name = [i.split('; ')[1] for i in vaccines]
             vaccine_type = [i.split('; ')[0] for i in vaccines]
@@ -804,23 +827,23 @@ https://www.immport.org/shared/templateDocumentation?tab=2&table=lk_species
 """
 
 
-# if len(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type):
-#     for i,k in enumerate(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type):
-#         print(i)
-#         if k.strip().lower() not in VARS_TO_CLEAN and k != 'n/a': 
-#             try:
-#                 vaccine_name.append(k.split('; ')[0])
-#                 vaccine_type.append(k.split('; ')[1])
-#             except:
-#                 vaccine_name.append(k)
-#                 vaccine_type.append('')
+if len(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type):
+    for i,k in enumerate(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type):
+        print(i)
+        if k.strip().lower() not in VARS_TO_CLEAN and k != 'n/a': 
+            try:
+                vaccine_name.append(k.split('; ')[0])
+                vaccine_type.append(k.split('; ')[1])
+            except:
+                vaccine_name.append(k)
+                vaccine_type.append('')
 
-#         else:
-#             vaccine_name = empty
-#             vaccine_type = empty
-# else:
-#             vaccine_name = empty
-#             vaccine_type = empty
+        else:
+            vaccine_name = empty
+            vaccine_type = empty
+else:
+            vaccine_name = empty
+            vaccine_type = empty
 
 
 

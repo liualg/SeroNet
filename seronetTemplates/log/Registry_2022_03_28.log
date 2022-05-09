@@ -1,6 +1,0 @@
-03/28/2022 02:43:08 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.8/site-packages/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi
-03/28/2022 02:43:08 PM diff parser start
-03/28/2022 02:43:08 PM line_lengths old: 1; new: 1
-03/28/2022 02:43:08 PM -> code[replace] old[1:1] new[1:1]
-03/28/2022 02:43:08 PM parse_part from 1 to 1 (to 0 in part parser)
-03/28/2022 02:43:08 PM diff parser end

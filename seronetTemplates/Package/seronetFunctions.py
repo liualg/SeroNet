@@ -73,8 +73,6 @@ def edit_df(df_temp):
     df_temp.columns = df_temp.iloc[0]
     return(df_temp.drop(df_temp.index[0]))
 
-def clean_array(the_array, VARS_TO_CLEAN):
-    return [x for x in the_array if x not in VARS_TO_CLEAN]
 
 #################  Adding sections back to dataframes  ##################
 
