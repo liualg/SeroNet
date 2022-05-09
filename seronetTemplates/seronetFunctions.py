@@ -76,6 +76,40 @@ def edit_df(df_temp):
 def clean_array(the_array, VARS_TO_CLEAN):
     return [x for x in the_array if x not in VARS_TO_CLEAN]
 
+def get_vaccine(arrays, VARS_TO_CLEAN):
+    if len(arrays): #splitting correctly
+        try: #check if there are multiple vaccine names in this section
+            vaccine_type = []
+            vaccine_name = []
+
+            for vaccines_per_sub in arrays:
+                v_type = []
+                v_name = []
+                
+#                 print(vaccines_per_sub)
+                if vaccines_per_sub not in VARS_TO_CLEAN: #checking to see if there is NA
+                    for each in vaccines_per_sub.split('|'):
+                        v_type.append(each.split(";")[1].strip())
+                        v_name.append(each.split(";")[0].strip())
+
+                    vaccine_type.append(' | '.join(v_type))
+                    vaccine_name.append(' | '.join(v_name))
+                
+                else:
+#                     print(vaccines_per_sub)
+                    vaccine_type.append(vaccines_per_sub)
+                    vaccine_name.append(vaccines_per_sub)
+        except:
+            vaccine_name = [i.split('; ')[1] for i in arrays]
+            vaccine_type = [i.split('; ')[0] for i in arrays]
+        
+    else:
+        vaccine_name = empty
+        vaccine_type = empty
+        
+    return vaccine_name, vaccine_type
+
+
 #################  Adding sections back to dataframes  ##################
 
 def add_df(ws, input_df_class, add_header = True, stagger = 0):

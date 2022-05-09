@@ -21,6 +21,7 @@ STATES = pd.read_csv(os.path.join("dictionary", "States.csv"),
                      header=None,
                      index_col=0,
                      squeeze=True).to_dict()
+
 #### FUNCTIONS ###
 
 
@@ -273,46 +274,50 @@ class subject_type_human:
         return bool(len(self.User_Defined_ID))
 
     def __post_init__(self):
-        # Checking to make sure everying is the same length (taking into acount that None are Empty Spaces)
-        largest_val = 0
-        for field in self.__dataclass_fields__:
-            if field != "ImmPortNAME":
-#                 field = [x for x in getattr(self, field) if x not in VARS_TO_CLEAN]
-                field = seroFxn.clean_array(getattr(self,field), [None])
-                
-                if len(field) != 0:
-                    value = len(field)
-                    if value > largest_val:
-                        largest_val = value
+        if len(self.User_Defined_ID):
+            # Checking to make sure everying is the same length (taking into acount that None are Empty Spaces)
+            # IMMPORT_REQUIRED = ['User_Defined_ID', 'Name','Description','Type_Reported','Species','Biosample_Types',
+            # 'Sex_at_Birth', 'Age_Event', 'Study_Location']
 
-        for field in self.__dataclass_fields__:
-            if isinstance(getattr(self,field), list):
-                
+            largest_val = 0
+            for field in self.__dataclass_fields__:
+                if field != "ImmPortNAME":
+    #                 field = [x for x in getattr(self, field) if x not in VARS_TO_CLEAN]
+                    field = seroFxn.clean_array(getattr(self,field), [None])
+                    
+                    if len(field) != 0:
+                        value = len(field)
+                        if value > largest_val:
+                            largest_val = value
+
+            for field in self.__dataclass_fields__:
+                # if isinstance(getattr(self,field), list): #THIS
+                    
                 cell = seroFxn.clean_array(getattr(self,field), [None])
+                if len(cell) > 0 and field != "ImmPortNAME":
+                    if len(cell) != largest_val:
+        #                 logging.error("[planned visit]: check Order Numer")
+                        sys.exit(f"ERROR:: Error [Subject Human]: Check {field}")
+
+
+            # Cleaning out characters in Vaccine Typpe
+            # self.SARS_CoV_2_Vaccine_Type = [x for x in self.SARS_CoV_2_Vaccine_Type if x not in VARS_TO_CLEAN]
+
+            # changing SeroNet terms to ImmPort specific terms 
+            for i, k in enumerate(self.Study_Location):
+                k = k.split(' | ')
+                if isinstance(k , list) and len(k ) > 1:
+                    if len(set(k ).intersection(STATES)) < len(k ):
+                        self.Study_Location[i + 1] = 'Other'
+                    else:
+                        self.Study_Location[i + 1] = 'United States of America'
                 
-                if len(cell) != largest_val:
-    #                 logging.error("[planned visit]: check Order Numer")
-                    sys.exit(f"ERROR:: Error [Subject Human]: Check {field}")
+                elif k[0] in STATES.keys():
+                    self.Study_Location[i + 1] = f"US: {STATES.get(k[0])}"
 
-
-        # Cleaning out characters in Vaccine Typpe
-        self.SARS_CoV_2_Vaccine_Type = [x for x in self.SARS_CoV_2_Vaccine_Type if x not in VARS_TO_CLEAN]
-
-        # changing SeroNet terms to ImmPort specific terms 
-        for i, k in enumerate(self.Study_Location):
-            k = k.split(' | ')
-            if isinstance(k , list) and len(k ) > 1:
-                if len(set(k ).intersection(STATES)) < len(k ):
-                    self.Study_Location[i + 1] = 'Other'
-                else:
-                    self.Study_Location[i + 1] = 'United States of America'
-            
-            elif k[0] in STATES.keys():
-                self.Study_Location[i + 1] = f"US: {STATES.get(k[0])}"
-
-        # if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
-        #     logging.error("[human AOC]: Check for repeat User Defined IDs")
-        #     sys.exit("ERROR:: Error [human AOC]: Check User Defined ID")
+            # if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
+            #     logging.error("[human AOC]: Check for repeat User Defined IDs")
+            #     sys.exit("ERROR:: Error [human AOC]: Check User Defined ID")
 
 
 
@@ -349,13 +354,14 @@ class subject_type_mode_organism:
     def __post_init__(self):
 
         if len(self.User_Defined_ID):
+            # IMMPORT_REQUIRED = ['User_Defined_ID', 'Name','Description','Type_Reported',
+            # 'Species','Biosample_Types', 'Sex_at_Birth', 'Age_Event', 'Study_Location']
+
             # Checking to make sure everying is the same length (taking into acount that None are Empty Spaces)
             largest_val = 0
 
             for field in self.__dataclass_fields__:
-                # print(field)
                 if field != "ImmPortNAME":
-    #                 field = [x for x in getattr(self, field) if x not in VARS_TO_CLEAN]
                     cell = seroFxn.clean_array(getattr(self,field), [None])
                     if len(cell) != 0:
                         value = len(cell)
@@ -363,17 +369,16 @@ class subject_type_mode_organism:
                             largest_val = value
 
             for field in self.__dataclass_fields__:
-                # print(field, type(field))
-                if field != "ImmPortNAME":
+                # if field in IMMPORT_REQUIRED:
                     
-                    cell = seroFxn.clean_array(getattr(self,field), [None])
-                    
+                cell = seroFxn.clean_array(getattr(self,field), [None])
+                if len(cell) > 0 and field != "ImmPortNAME":
                     if len(cell) != largest_val:
         #                 logging.error("[planned visit]: check Order Numer")
                         sys.exit(f"ERROR:: Error [Subject organism]: Check {field}")
-                        
+
             # shorting vaccine type to non-hidden characters  
-            self.SARS_CoV_2_Vaccine_Type = [x for x in self.SARS_CoV_2_Vaccine_Type if x not in VARS_TO_CLEAN]
+            # self.SARS_CoV_2_Vaccine_Type = [x for x in self.SARS_CoV_2_Vaccine_Type if x not in VARS_TO_CLEAN]
 
             # changing SeroNet species terms to ImmPort specific terms 
             for i, k in enumerate(self.Species):

@@ -430,6 +430,9 @@ se = seroFxn.get_sections(bst_ws, ImmPortClassNames)
 
 # In[10]:
 
+# ACCOUNT FOR N/A (LIU)
+
+# THIS IS FOR BOTH
 
 if len(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type) + len(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type):
     
@@ -719,31 +722,8 @@ HUMAN SHOULD BE FOR HUMAN CELLS LINES. DO NOT PUT IN ORGANISM
 if SUBJECT_HUMAN:
     species = SUBJECT_HUMAN.User_Defined_ID
     empty = ['']*len(species)
-    
-    if len(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type): #splitting correctly
-        try: #check if there are multiple vaccine names in this section
-            vaccine_type = []
-            vaccine_name = []
 
-            for vaccines_per_sub in SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type:
-                v_type = []
-                v_name = []
-
-                for each in vaccines_per_sub.split('|'):
-                    v_type.append(each.split(";")[1].strip())
-                    v_name.append(each.split(";")[0].strip())
-
-                vaccine_type.append(' | '.join(v_type))
-                vaccine_name.append(' | '.join(v_name))
-        
-        except:
-            vaccine_name = [i.split('; ')[1] for i in vaccines]
-            vaccine_type = [i.split('; ')[0] for i in vaccines]
-        
-    else:
-        vaccine_name = empty
-        vaccine_type = empty
-        
+    vaccine_name, vaccine_type = seroFxn.get_vaccine(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type, VARS_TO_CLEAN)
     
     SUBJECT_human_df = pd.DataFrame({
         'Column Name': empty,
@@ -804,50 +784,14 @@ https://www.immport.org/shared/templateDocumentation?tab=2&table=lk_species
 """
 
 
-# if len(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type):
-#     for i,k in enumerate(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type):
-#         print(i)
-#         if k.strip().lower() not in VARS_TO_CLEAN and k != 'n/a': 
-#             try:
-#                 vaccine_name.append(k.split('; ')[0])
-#                 vaccine_type.append(k.split('; ')[1])
-#             except:
-#                 vaccine_name.append(k)
-#                 vaccine_type.append('')
-
-#         else:
-#             vaccine_name = empty
-#             vaccine_type = empty
-# else:
-#             vaccine_name = empty
-#             vaccine_type = empty
-
-
-
-
 if SUBJECT_ORGANISM:  # Not sure how this plays out. Might need to do a mock one. Will it be 1 subject per study?
     species = SUBJECT_ORGANISM.User_Defined_ID
     empty = ['']*len(species)
-    vaccine_name = []
-    vaccine_type = []
-    
-    if len(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type):
-        for i,k in enumerate(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type):
-            if k.strip().lower() not in VARS_TO_CLEAN and k != 'n/a': 
-                try:
-                    vaccine_name.append(k.split('; ')[0])
-                    vaccine_type.append(k.split('; ')[1])
-                except:
-                    vaccine_name.append(k)
-                    vaccine_type.append('')
-                    
-            else:
-                vaccine_name = empty
-                vaccine_type = empty
 
-    else:
-            vaccine_name = empty
-            vaccine_type = empty
+
+    vaccine_name, vaccine_type = seroFxn.get_vaccine(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type, VARS_TO_CLEAN)
+
+    print(vaccine_name)
 
     # print ("SUBJECT_organism data")
     SUBJECT_organism_df = pd.DataFrame({
