@@ -77,6 +77,7 @@ def clean_array(the_array, VARS_TO_CLEAN):
     return [x for x in the_array if x not in VARS_TO_CLEAN]
 
 def get_vaccine(arrays, VARS_TO_CLEAN):
+    empty = ['']
     if len(arrays): #splitting correctly
         try: #check if there are multiple vaccine names in this section
             vaccine_type = []
@@ -100,9 +101,14 @@ def get_vaccine(arrays, VARS_TO_CLEAN):
                     vaccine_type.append(vaccines_per_sub)
                     vaccine_name.append(vaccines_per_sub)
         except:
-            vaccine_name = [i.split('; ')[1] for i in arrays]
-            vaccine_type = [i.split('; ')[0] for i in arrays]
-        
+            for i in arrays:
+                if i.lower().strip() == "sputnik v" or i.lower().strip() == "other" or i.lower().strip() == "n/a":
+                    vaccine_name = i
+                    vaccine_type = i
+
+                else:
+                    vaccine_name = [i.split('; ')[1] for i in arrays]
+                    vaccine_type = [i.split('; ')[0] for i in arrays]
     else:
         vaccine_name = empty
         vaccine_type = empty

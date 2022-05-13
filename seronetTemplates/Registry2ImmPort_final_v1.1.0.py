@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# This script is compatibale with Registy Version v.1.1.0
+# This script is compatibale with Registry Version v.1.1.0
 
 import pandas as pd
 import numpy as np
@@ -34,7 +34,7 @@ except:
     os.system('cls')
 
 
-# In[2]:
+#########################################
 
 
 ROOT = tk.Tk()
@@ -97,7 +97,7 @@ PATH_protocols = os.path.join("template", "protocols.xlsx")
 PATH_experiments = os.path.join("template", "experiments.xlsx")
 PATH_reagent = os.path.join("template", "reagents.Other.xlsx")
 PATH_assessment = os.path.join("template", "assessments.xlsx")
-PATH_subject_human = os.path.join("template", "subjectHuman.xlsx")
+PATH_subject_human = os.path.join("template", "subjectHumans.xlsx")
 PATH_subject_organism = os.path.join("template", "subjectAnimals.xlsx")
 
 
@@ -151,11 +151,9 @@ VARS_TO_CLEAN = ['', 'N/A', 'n/a', np.nan, None]
 
 sp = seroFxn.get_sections(registry, class_names)
 
-
-# ### Main Loop
-
-# In[5]:
-
+#########################################
+######        Main Loop       ###########
+#########################################
 
 # Looping through each section in the Registy template
 for section_number in range(len(sp)-1):
@@ -191,7 +189,8 @@ for section_number in range(len(sp)-1):
         df = seroFxn.edit_df(df)
         
         STUDY_PUBMED = seroClass.study_pubmed(
-            df['Pubmed ID'][1]
+            # df['Pubmed ID'][1]
+            PMID
         )
         
     elif sub_section == 'study_personnel':
@@ -425,30 +424,30 @@ bst_ws = basic_stdy_template['basic_study_design.txt']
 
 se = seroFxn.get_sections(bst_ws, ImmPortClassNames)
 
-
-# # Basic Study Template
-
-# In[10]:
-
-# ACCOUNT FOR N/A (LIU)
-
-# THIS IS FOR BOTH
+#########################################
+######### Basic Study Template ##########
+#########################################
+clean_vaccine = VARS_TO_CLEAN + ['Other', 'Sputnik V']
 
 if len(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type) + len(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type):
     
-    vaccine_type = list(set([i.split(';')[0] for i in SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type] + [i.split(';')[0] for i in SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type]))
+    vaccine_name, vaccine_type = seroFxn.get_vaccine(set(list(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type) + list(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type)),
+                    clean_vaccine)
+    
     
 elif len(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type):
     
-    vaccine_type = list(set([i.split(';')[0] for i in SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type]))
+    vaccine_name, vaccine_type = seroFxn.get_vaccine(set(list(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type)),
+                    clean_vaccine)
                             
 elif len(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type):
     
-    vaccine_type = list(set([i.split(';')[0] for i in SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type]))
+    vaccine_name, vaccine_type = seroFxn.get_vaccine(set(list(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type)),
+                    clean_vaccine)
     
 else:
     
-    vaccine_type = []
+    vaccine_name = []
 
 
 
@@ -469,7 +468,6 @@ if SUBJECT_HUMAN and not SUBJECT_ORGANISM:
     name = list(SUBJECT_HUMAN.Name)
     description = list(SUBJECT_HUMAN.Description)
     type_report = list(SUBJECT_HUMAN.Type_Reported)
-    vaccine_type = [i.split(';')[0] for i in list(set(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type))]
     
 if SUBJECT_ORGANISM and not SUBJECT_HUMAN:
     print('Only organism is used')
@@ -477,13 +475,7 @@ if SUBJECT_ORGANISM and not SUBJECT_HUMAN:
     name = list(SUBJECT_ORGANISM.Name)
     description = list(SUBJECT_ORGANISM.Description)
     type_report = list(SUBJECT_ORGANISM.Type_Reported)
-    vaccine_type = [i.split(';')[0] for i in list(set(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type))]
 
-
-# In[12]:
-
-
-# In[13]:
 
 
 temp_wb = Workbook()
@@ -497,8 +489,6 @@ for i in bst_ws.iter_rows(values_only = True,
     temp_ws.append(i)
     
 # Starting at Arm or Cohort  
-
-
 
 AOC = seroClass.arm_or_cohort(
     list(filter(None, usr_id)),
@@ -524,12 +514,9 @@ seroFxn.add_df(temp_ws, STUDY_LINK)
 
 seroFxn.add_df(temp_ws, STUDY_PUBMED)
 
-# pd.DataFrame(temp_ws.values).to_csv('./TEST.csv', index=None)
-
 
 # #### Filling in Study Info Sections 
 
-# In[14]:
 
 
 registryToImmportDict = pd.read_csv(registryToImmportDict_file, 
@@ -545,23 +532,19 @@ registryDict = {**vars(STUDY),
                 **vars(STUDY_PUBMED),
                 **vars(COD)}
 
-if len(''.join(vaccine_type)) != 0:
-    registryDict['SARS-CoV-2_Vaccine_Type'] = vaccine_type
-else:
-    registryDict['SARS-CoV-2_Vaccine_Type'] = ['NA']
+registryDict['SARS-CoV-2_Vaccine_Type'] = ['N/A']
 
+if len([x for x in vaccine_name if x not in VARS_TO_CLEAN]) != 0:
+        registryDict['SARS-CoV-2_Vaccine_Type'] = [x for x in vaccine_name if x not in VARS_TO_CLEAN]
 
 
 # Looping through ImmPort Template to get the correct order of the 'study' section
 for se_number in range(se[0],se[3]):    
  
     if temp_ws["A"][se_number].value != None and registryToImmportDict.get(temp_ws["A"][se_number].value) != None:
-#         print(temp_ws["A"][se_number].value)
         
         # Using a mapping key + using info in our classes to map the data
-#         print(temp_ws["A"][se_number].value)
         reg_key = registryToImmportDict.get(temp_ws["A"][se_number].value).strip().replace(' ',"_").replace('*',"")
-#         print(registryDict.get(reg_key))
         try:
             # If input is a list, we will turn it into a string (since it cant be a list)
             if type(registryDict.get(reg_key)) == list:
@@ -572,11 +555,6 @@ for se_number in range(se[0],se[3]):
         except:
             print(f"{reg_key} did not work")
             
-#     else:
-#         print('blank')
-
-
-# In[15]:
 
 
 bsd = pd.DataFrame(temp_ws.values).replace({None: '', 'None': ''})
@@ -587,25 +565,15 @@ bsd.to_csv(os.path.join(OUT_DIR,f'{BASIC_STUDY_TEMPLATE}.txt'),
            sep = '\t')
 
 
-# In[16]:
+#########################################
+############## Protocol #################
+#########################################
 
-
-bsd.head(60)
-
-
-# ### errors: None
-
-# # Protocol 
-
-# In[17]:
-
-
+#Load Protocol
 protocol_ws = load_workbook(PATH_protocols)['protocols.txt']
 protocol_ws = seroFxn.remove_excess(protocol_ws)
 seroFxn.add_df(protocol_ws, PROTOCOLS, add_header = False, stagger = 1)
 
-
-# In[18]:
 
 
 protocol_df = pd.DataFrame(protocol_ws.values).replace({None: '', 'None': ''})
@@ -661,9 +629,9 @@ experiments_df.to_csv(os.path.join(OUT_DIR,f'{EXP_TEMPLATE}.txt'),
 experiments_df
 
 
-
-# # REAGENT
-
+#########################################
+#############   REAGENT   ###############
+#########################################
 # This is creating the template even if it is filled with the defaults
 
 
@@ -708,8 +676,9 @@ reagent_df
 
 
 """
-# # SUBJECT: HUMAN
-
+#########################################
+###         SUBJECT: HUMAN       ########
+#########################################
 # - if human, use human
 # - if animal, use animal sheet 
 # - use length as a predictor
@@ -720,6 +689,14 @@ HUMAN SHOULD BE FOR HUMAN CELLS LINES. DO NOT PUT IN ORGANISM
 
 
 if SUBJECT_HUMAN:
+    race_specificty =[]
+    for i in SUBJECT_HUMAN.Race:
+        if i == 'Other':
+            race_specificty.append("Other")
+        else:
+            race_specificty.append("")
+
+
     species = SUBJECT_HUMAN.User_Defined_ID
     empty = ['']*len(species)
 
@@ -739,7 +716,7 @@ if SUBJECT_HUMAN:
         'Subject Location': SUBJECT_HUMAN.Study_Location,
         'Ethnicity': SUBJECT_HUMAN.Ethnicity,
         'Race': SUBJECT_HUMAN.Race, 
-        'Race Specify': empty,
+        'Race Specify': race_specificty,
         'Description': empty, 
         'Result Separator Column': empty, 
         'Exposure Process Reported': ['unknown']*len(species) , #not sure 
@@ -773,8 +750,9 @@ if SUBJECT_HUMAN:
 
 
 """
-# SUBJECT: ORGANISM
-
+#########################################
+#####       SUBJECT: ORGANISM    ########
+#########################################
 For Syrain Hamster: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Syrian+hamsters 
 
 Use latin name -- or look at lk species
@@ -790,8 +768,6 @@ if SUBJECT_ORGANISM:  # Not sure how this plays out. Might need to do a mock one
 
 
     vaccine_name, vaccine_type = seroFxn.get_vaccine(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type, VARS_TO_CLEAN)
-
-    print(vaccine_name)
 
     # print ("SUBJECT_organism data")
     SUBJECT_organism_df = pd.DataFrame({
@@ -833,20 +809,17 @@ if SUBJECT_ORGANISM:  # Not sure how this plays out. Might need to do a mock one
                        sep = '\t')
 
     SUBJECT_organism_df
-    
-#     subjectAnimals
 
 
+#########################################
+######       ASSESSMENT        ##########
+#########################################
 
-# # ASSESSMENT 
 # There will be 1 excel document produced per assesment. (wide format) <br>
 #     - 1 subj with multiple panels -> seperate 
 #     - 1 panel with multiple subject -> 1 row per, long format
 # assesment doc. need to be uploaded one at a time
 # 
-
-# In[55]:
-
 
 if SUBJECT_HUMAN:
     print("Assays Used")
@@ -887,7 +860,7 @@ if SUBJECT_HUMAN:
                 'Subject ID': [f"PMID{PMID}subject-0{int(i+1)}" for i in range(len(assessmet_type))],  
                 'Assessment Panel ID': [f"PMID{PMID}assessment_{assessment_name}-0{int(i+1)}" for i in range(len(assessmet_type))],
                 'Study ID': [STUDY.Study_Identifier]*len(assessmet_type),
-                'Name Reported': assessment_name*len(assessmet_type),
+                'Name Reported': assessment_name,
                 'Assessment Type': assessmet_type,
                 'Status': status,
                 'CRF File Names': empty,
@@ -937,8 +910,9 @@ else:
     print("No Human Subjects: assessments not recorded")
 
 
-# In[57]:
-### POST: copy log to folder
+#########################################
+#####    POST: copy log to folder   #####
+#########################################
 
 CD = os.getcwd()
 today = dt.datetime.today().strftime('%Y_%m_%d')
@@ -951,4 +925,4 @@ except FileExistsError:
     pass
 
 shutil.copyfile(os.path.join(CD,"log",f"Registry_{today}.log"), os.path.join(CD,BASE_DIR,"log",f"Registry_{today}.log"))
-
+os.remove(PATH_pmid_basic_stdy_template)

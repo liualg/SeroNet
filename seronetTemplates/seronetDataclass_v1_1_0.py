@@ -10,10 +10,6 @@ import re
 import logging
 import sys
 
-####
-'''
-https://docs.python.org/3/library/logging.html
-'''
 
 VARS_TO_CLEAN = ['', 'N/A', 'n/a', np.nan, None]
 
@@ -21,15 +17,6 @@ STATES = pd.read_csv(os.path.join("dictionary", "States.csv"),
                      header=None,
                      index_col=0,
                      squeeze=True).to_dict()
-
-#### FUNCTIONS ###
-
-
-# Creating a class for each part in the Excel Doc. 
-# have a defult NA
-# Check for PMIDXXXX
-###
-# ERROR LOGS
 
 
 CD = os.getcwd()
@@ -84,6 +71,10 @@ class study_personnel:
             logging.error("[study personnel]: Lengths of personnel is wrong")
             sys.exit("ERROR:: [study personnel]: Check Study Personnel")
 
+        if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
+            logging.error("[study personnel]: Same Personnel ID used")
+            sys.exit("ERROR:: [study personnel]: Check Study ID used")
+
 
 @dataclass
 class study_file:
@@ -128,6 +119,9 @@ class study_categorization:
     def __post_init__(self):
         if self.Keywords:
             self.Keywords = self.Keywords.replace('\n', '').replace('\t', '').replace(';', ',').replace('|', ',')
+        else:
+            logging.error("ERROR:: [study_categorization]: Keywords missing")
+            sys.exit("ERROR:: [study_categorization]: Keywords missing")
 
 
 @dataclass
@@ -170,25 +164,41 @@ class Intervention_Agent:
 @dataclass
 class study_details:
     Clinical_Outcome_Measure: str = None
-    Enrollment_Start_Date: str = None  # this is a datetime object
-    Enrollment_End_Date: str = None  # this is a datetime object
+    Enrollment_Start_Date: str = None  # dd-MMM-yy
+    Enrollment_End_Date: str = None  # dd-MMM-yy
     Number_of_Study_Subjects: str = None
     Age_Unit: str = 'Years'
     Minimum_Age: int = None
     Maximum_Age: int = None
     ImmPortNAME: str = 'study'
 
+
+
+
     def __post_init__(self):
+        def get_correct_datetime(date_to_check):
+            if isinstance(date_to_check, str):
+                return dt.datetime.strptime(date_to_check, '%m/%d/%y %H:%M').strftime('%d/%B/%y')
+            else:
+                return date_to_check.strftime('%d-%b-%Y')
+
+
         if self.Maximum_Age is None:
             object.__setattr__(self, 'Maximum_Age', 89)
 
         if self.Minimum_Age is None:
             object.__setattr__(self, 'Minimum_Age', 0)
 
+        # Checking the Datetime Format
         if self.Enrollment_End_Date in VARS_TO_CLEAN:
+            object.__setattr__(self, 'Enrollment_End_Date', '')
+        else:
+            object.__setattr__(self, "Enrollment_End_Date", get_correct_datetime(self.Enrollment_End_Date))
+
+        if self.Enrollment_Start_Date in VARS_TO_CLEAN:
             object.__setattr__(self, 'Enrollment_Start_Date', '')
-
-
+        else:
+            object.__setattr__(self, "Enrollment_Start_Date", get_correct_datetime(self.Enrollment_Start_Date))
 @dataclass
 class inclusion_exclusion:
     """1 row below, 3 Columns"""
@@ -196,6 +206,12 @@ class inclusion_exclusion:
     Criterion: list = field(default_factory=list)
     Criterion_Category: list = field(default_factory=list)
     ImmPortNAME: str = 'inclusion_exclusion'
+
+    def __post_init__(self):
+        if len(self.User_Defined_ID) == 1: #change n/a to other / inclusion  
+            if (self.Criterion[1] in VARS_TO_CLEAN):
+                object.__setattr__(self, "Criterion", "Other") 
+                object.__setattr__(self, "Criterion_Category", "Inclusion")
 
 
 # confused on why this doesnt work
@@ -299,6 +315,15 @@ class subject_type_human:
         #                 logging.error("[planned visit]: check Order Numer")
                         sys.exit(f"ERROR:: Error [Subject Human]: Check {field}")
 
+            for i, k in enumerate(self.Sex_at_Birth):
+                MoF = ["male | female", "female | male", "female i male", "male i female"]
+                if k is not None:
+                    if k.lower().strip() == "n/a":
+                        self.Sex_at_Birth[i + 1] = 'Not Specified'
+
+                    if k.lower().strip() in MoF:
+                        logging.warning("Changing male | female to other")
+                        self.Sex_at_Birth[i + 1] = 'Other'
 
             # Cleaning out characters in Vaccine Typpe
             # self.SARS_CoV_2_Vaccine_Type = [x for x in self.SARS_CoV_2_Vaccine_Type if x not in VARS_TO_CLEAN]
@@ -312,8 +337,8 @@ class subject_type_human:
                     else:
                         self.Study_Location[i + 1] = 'United States of America'
                 
-                elif k[0] in STATES.keys():
-                    self.Study_Location[i + 1] = f"US: {STATES.get(k[0])}"
+                elif k[0].strip().upper() in STATES.keys():
+                    self.Study_Location[i + 1] = f"US: {STATES.get(k[0].strip().upper())}"
 
             # if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
             #     logging.error("[human AOC]: Check for repeat User Defined IDs")
@@ -383,27 +408,50 @@ class subject_type_mode_organism:
             # changing SeroNet species terms to ImmPort specific terms 
             for i, k in enumerate(self.Species):
                 if k is not None:
-                    if k.lower() == "human":
-                        self.Species[i + 1] = 'Homo Sapiens'
+                    if k.lower().strip() == "human":
+                        self.Species[i + 1] = 'Homo sapiens'
 
-                    if k.lower() in ["syrian hamster", "syrian hamsters", "golden hampster", "golden syrian hampsters",
+                    if k.lower().strip() == "mice":
+                        self.Species[i + 1] = "Mus musculus"
+
+                    if k.lower().strip() == "cynomolgus macaques":
+                        self.Species[i + 1] = "macaca fascicularis"
+
+                    if k.lower().strip() == "african green monkey":
+                        self.Species[i + 1] = "Chlorocebus sabaeus"
+                        # Chlorocebus aethiops. Change when added to immport
+
+                    if k.lower().strip() in ["syrian hamster", "syrian hamsters", "golden hampster", "golden syrian hampsters",
                                      "golden syrian hampster", "golden hampsters"]:
                         self.Species[i + 1] == "Mesocricetus auratus"
 
-            # changing SeroNet terms to ImmPort specific terms
+            #cells are n/a. Changing to Not Specified. 
+            for i, k in enumerate(self.Age_Event):
+                if k is not None:
+                    if k.lower().strip() == "n/a":
+                        self.Age_Event[i + 1] = 'Not Specified'
+
+            #cells are n/a. Changing to Not Specified. 
+            for i, k in enumerate(self.Sex_at_Birth):
+                MoF = ["male | female", "female | male", "female i male", "male i female"]
+                if k is not None:
+                    if k.lower().strip() == "n/a":
+                        self.Sex_at_Birth[i + 1] = 'Not Specified'
+
+                    if k.lower().strip() in MoF:
+                        self.Sex_at_Birth[i + 1] = 'Other'
+
+            # changing SeroNet terms to ImmPort specific terms 
             for i, k in enumerate(self.Study_Location):
                 k = k.split(' | ')
                 if isinstance(k , list) and len(k ) > 1:
-                    if len(set(k ).intersection(STATES)) < len(k ):
+                    if len(set(k).intersection(STATES)) < len(k ):
                         self.Study_Location[i + 1] = 'Other'
                     else:
                         self.Study_Location[i + 1] = 'United States of America'
                 
-                elif k[0] in STATES.keys():
-                    self.Study_Location[i + 1] = f"US: {STATES.get(k[0])}"
-
-
-
+                elif k[0].strip().upper() in STATES.keys():
+                    self.Study_Location[i + 1] = f"US: {STATES.get(k[0].strip().upper())}"
 
 
 # @dataclass
@@ -480,15 +528,40 @@ class reagent_per_experiment:
     # if self.Reagent_ID == ""
 
     def __post_init__(self):
-        if not len(self.Manufacturer):
-            object.__setattr__(self, 'Manufacturer', 0)
+        if len(self.Reagent_ID):
+            largest_val = 0
 
-        temp = self.Reagent_ID[1][:-1]
-        object.__setattr__(self, "Reagent_ID", [temp + str(i + 1) for i in range(len(self.Reagent_ID))])
+            for field in self.__dataclass_fields__:
+                if field != "ImmPortNAME":
+                    cell = seroFxn.clean_array(getattr(self,field), [None])
+                    if len(cell) != 0:
+                        value = len(cell)
+                        if value > largest_val:
+                            largest_val = value
 
-        for IDS in self.Reagent_ID:
-            if not re.match('pmid[\d]{8}_\w*?-[\d]{2}', IDS, re.IGNORECASE):
-                logging.error("[Reagent]: Reagent_ID is wrong")
+            for field in self.__dataclass_fields__:
+                # if field in IMMPORT_REQUIRED:
+                    
+                cell = seroFxn.clean_array(getattr(self,field), [None])
+                if len(cell) > 0 and field != "ImmPortNAME":
+                    if len(cell) != largest_val:
+        #                 logging.error("[planned visit]: check Order Numer")
+                        sys.exit(f"ERROR:: Error [Reagent]: Check {field}")
+
+            if not len(self.Manufacturer):
+                object.__setattr__(self, 'Manufacturer', 0)
+
+            
+            if len(self.Reagent_ID):
+                if self.Reagent_ID[1] not in VARS_TO_CLEAN:
+                    temp = self.Reagent_ID[1][:-1]
+                    object.__setattr__(self, "Reagent_ID", [temp + str(i + 1) for i in range(len(self.Reagent_ID))])
+
+                    for IDS in self.Reagent_ID:
+                        if not re.match('pmid[\d]{8}_\w*?-[\d]{2}', IDS, re.IGNORECASE):
+                            logging.error("[Reagent]: Reagent_ID is wrong")
+                else:
+                    sys.exit(f"ERROR:: Error [Reagent_ID]: Missing value in Reagent ID")
 
 
 @dataclass
