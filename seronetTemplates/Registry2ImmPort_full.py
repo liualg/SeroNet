@@ -128,9 +128,6 @@ def create_full(PMID):
     VARS_TO_CLEAN = ['', 'N/A', 'n/a', np.nan, None]
 
 
-    # In[4]:
-
-
     sp = seroFxn.get_sections(registry, class_names)
 
     #########################################
@@ -671,12 +668,12 @@ def create_full(PMID):
 
 
     if SUBJECT_HUMAN:
-        race_specificty =[]
-        for i in SUBJECT_HUMAN.Race:
-            if i == 'Other':
-                race_specificty.append("Other")
-            else:
-                race_specificty.append("")
+        # race_specificty =[]
+        # for i in SUBJECT_HUMAN.Race: RACE OTHER
+        #     if i == 'Other':
+        #         race_specificty.append("Other")
+        #     else:
+        #         race_specificty.append("")
 
 
         species = SUBJECT_HUMAN.User_Defined_ID
@@ -689,8 +686,8 @@ def create_full(PMID):
             'Subject ID': [f"PMID{PMID}_human_subject-0{int(i+1)}" for i in range(len(species))],
             'Arm Or Cohort ID': SUBJECT_HUMAN.User_Defined_ID, #I feel like this needs to be defined
             'Gender': SUBJECT_HUMAN.Sex_at_Birth, 
-            'Min Subject Age': 0, # add this to validator in dataclass 
-            'Max Subject Age': 89, # add this to validator in dataclass 
+            'Min Subject Age': [STUDY_DETAILS.Minimum_Age]*len(species), # add this to validator in dataclass 
+            'Max Subject Age': [STUDY_DETAILS.Maximum_Age]*len(species), # add this to validator in dataclass 
             'Age Unit': [STUDY_DETAILS.Age_Unit]*len(species),
             'Age Event': SUBJECT_HUMAN.Age_Event, 
             'Age Event Specify': empty,
@@ -698,7 +695,7 @@ def create_full(PMID):
             'Subject Location': SUBJECT_HUMAN.Study_Location,
             'Ethnicity': SUBJECT_HUMAN.Ethnicity,
             'Race': SUBJECT_HUMAN.Race, 
-            'Race Specify': race_specificty,
+            'Race Specify': SUBJECT_HUMAN.Race_Specify,
             'Description': empty, 
             'Result Separator Column': empty, 
             'Exposure Process Reported': ['unknown']*len(species) , #not sure 

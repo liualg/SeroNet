@@ -10,7 +10,6 @@ root= tk.Tk()
 root.eval('tk::PlaceWindow . center')
 root.title("Creating a new Template")
 
-
 CANVAS_W = int(950/2)
 CANVAS_H = int(713/2)
 
@@ -28,10 +27,15 @@ label.pack()
 
 Hcolor = "Black"
 
+
+def select_on_focus(event):
+    event.widget.select_range(0, tk.END) # Select all the text in the widget.
+
 entry1 = tk.Entry(root, highlightthickness=.7, bg= "#E8F4F3", 
                       highlightcolor=Hcolor, 
                       highlightbackground=Hcolor, 
                       borderwidth=.7) 
+entry1.focus_set()
 entry1.bind("<Button-1>", lambda e: entry1.delete(0, tk.END))
 entry1.insert(0, "Enter PMID here")
 
@@ -43,13 +47,13 @@ def runFullCuration():
    x1 = entry1.get()
    print(f"Doing Full Curation for: {x1}")
    root.destroy()
-   create_full(x1)
+   create_full(x1.strip())
 
 def runBasicCuration():
    x1 = entry1.get()
    print(f"Doing Basic Curation for: {x1}")
    root.destroy()
-   create_basic(x1)
+   create_basic(x1.strip())
    
 borderColor = "White"
     
@@ -73,6 +77,9 @@ button2 = tk.Button(text='Basic Curation', command=runBasicCuration,fg = 'Black'
 
 canvas1.create_window(100, 140, window=button2)
 button2.place(x=CANVAS_W/2-130, y=CANVAS_H-50)
+
+# root.bind('<Return>', runFullCuration)
+
 
 root.mainloop()
 

@@ -115,6 +115,29 @@ def get_vaccine(arrays, VARS_TO_CLEAN):
         
     return vaccine_name, vaccine_type
 
+def capitalize_proper(original_str, filler_words):
+
+    result = ""
+    # Split the string and get all words in a list
+    list_of_words = original_str.split()
+    # Iterate over all elements in list
+    for elem in list_of_words:
+        # capitalize first letter of each word and add to a string
+        if len(result) > 0:
+            if elem.strip().lower() not in filler_words:
+                result = result + " " + elem.strip().capitalize()
+            else:
+                result = result + " " + elem.lower().strip()
+        else:
+            if elem.strip().lower() not in filler_words:
+                result = elem.capitalize()
+            else:
+                result = result + " " + elem.lower().strip()
+    # If result is still empty then return original string else returned capitalized.
+    if not result:
+        return original_str
+    else:
+        return result
 
 #################  Adding sections back to dataframes  ##################
 

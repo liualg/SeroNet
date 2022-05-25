@@ -1,0 +1,111 @@
+Orginal 13:
+
+Not working:
+- 34759001 - NEW - ? - script doesnt work (keywords) ?? 
+
+
+Confused: 
+34729566
+
+===============================================
+33035201 - uploaded -  Script Good (subjet id?) 
+	- Pseudovirus Neutralization Assay
+	- date: 4/1/20 0:00 should be dd-MMM-yy (Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec) ** FIXED
+
+33276369 - uploaded - Script Good
+	- ** Female | Male %%CHANGE TO OTHER
+	- Pseudovirus Neutralization Assay
+
+33830946 - uploaded - Script Good ** Zip file
+	- ** Female | Male %%CHANGE TO OTHER
+	- should be able to upload
+
+34095338 - uploaded - Script Good 
+	- (Female | male) (Inclusion Exclusion doesnt make sense)
+
+34696403 - uploaded - Script Good - wrong prefered vocab
+	- "Subject Location" "US: Puerto Rico".
+	- CovIgM-Assay
+	- CovIgG-Assay
+	- Virus Neutralization Assay
+
+
+34921308 - uploaded - Script Good (cell paper)
+	- "Subject Location" "Other"
+
+
+33993265 - NEW - Script Good 
+	- Neutralizing Neutralizing Antibody Titer Assay
+	- inclusion/exclusion: other, inclusion 
+	- assessment NOT loaded
+
+34652783 - New - Script Good (protocol does not exist) 
+	- inclusion/exclusion: other, inclusion 
+	- male | female ** CHANGE TO OTHER
+	- Multiplex Bead Array Assay +> Cytometric Bead Array Assay
+	- Pseudovirus Neutralization Assay +> Virus Neutralization
+
+
+33440148 - uploaded - ? - script doesnt work (Post COVID-19 Symptoms) ??? 
+	- note: seronet assays do not work (Virus Nutrialization assay)
+	- "Measurement Technique" "Immunoblotting" => Immunoblot ***
+
+
+34794169 - NEW - ? - script doesnt work (keywords)
+	- Need Renuka to Check my retrofit
+	- "Measurement Technique" "Pseudovirus Neutralization
+	- "Measurement Technique" "Virus Neutralization Assay". 
+	- "Measurement Technique" "ELISpot Assay". => ELISPOT
+
+33961839 - uploaded - Script Good 
+	- Female I Male
+	- Immunohistochemistry +> 
+	- Immunofluorescence +> 
+
+33472939 - old upload - script doesnt work (vaccine Name)
+	- Does not like others / sputnik V
+	- lk_subject_location" in field "Subject Location" "Other".
+
+34161961 - New - script caught - validated. 
+	- Virus Neutralization Assay  ***???
+	- Gender (male | female) %%CHANGE TO OTHER
+	- "Age Event" "n/a" => Not Specified %%FIXED
+	- gender (n/a) => Not Specified %%FIXED
+
+
+=========================================================
+Ready for upload:
+
+
+
+
+==================== DO NOT DO =============================
+Uploaded Sucessfully to Main:
+34687893 - New - ? - aleliu_20220516_32280
+	- Endpoints (Keywords) - are needed (added)
+	- do NOT upload experiment section *****
+	- do NOT upload Reagent section *****
+
+
+34230917 - old - Script Good  !!! GOOD FOR UPLOAD !!! (UPLOADED TO SAND BOX)
+	- Female I Male %%CHANGE TO OTHER
+	** uploaded Experiments, reagent, subject human
+	** manuel change of Experiements Study Id to "PMID34230917"
+	- aleliu_20220516_32282
+
+33846272 - old - !!! GOOD FOR UPLOAD !!! (UPLOADED TO SAND BOX)
+	- ASSESSMENT NOT UPLOADED
+	** manuel change of Experiements Study Id to "PMID33846272"
+	- aleliu_20220516_32283
+
+
+34877479 - uploaded - Script Good (Check Vaccine type) 
+	- African green monkey => "Chlorocebus aethiops" not "chlorocebus sabaeus"%%FIXED
+	- aleliu_20220518_32323
+
+
+
+-----Summary of Papers Ready for ImmPort-------
+Orginal: 13
+New: 4
+Total: 17

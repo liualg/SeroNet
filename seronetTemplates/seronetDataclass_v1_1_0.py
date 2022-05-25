@@ -12,8 +12,9 @@ import sys
 
 
 VARS_TO_CLEAN = ['', 'N/A', 'n/a', np.nan, None]
+filler_words = ['of', 'a', 'at']
 
-STATES = pd.read_csv(os.path.join("dictionary", "States.csv"),
+STATES = pd.read_csv(os.path.join(".","dictionary", "States.csv"),
                      header=None,
                      index_col=0,
                      squeeze=True).to_dict()
@@ -47,7 +48,8 @@ class study:
         self.Publication_Title = self.Publication_Title.replace('\n', '').replace('\t', '')
         self.Study_Objective = self.Study_Objective.replace('\n', '').replace('\t', '')
         self.Study_Description = self.Study_Description.replace('\n', '').replace('\t', '')
-
+        object.__setattr__(self, 
+            'Primary_Institution_Name', seroFxn.capitalize_proper(self.Primary_Institution_Name, filler_words))
 
 @dataclass
 class study_personnel:
@@ -74,6 +76,12 @@ class study_personnel:
         if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
             logging.error("[study personnel]: Same Personnel ID used")
             sys.exit("ERROR:: [study personnel]: Check Study ID used")
+
+        
+        object.__setattr__(self, 'Last_Name', [seroFxn.capitalize_proper(k, filler_words) for k in self.Last_Name])
+        object.__setattr__(self, 'First_Name', [seroFxn.capitalize_proper(k, filler_words) for k in self.First_Name])
+        object.__setattr__(self, 'Site_Name', [seroFxn.capitalize_proper(k, filler_words) for k in self.Site_Name])
+        object.__setattr__(self, 'Organization', [seroFxn.capitalize_proper(k, filler_words) for k in self.Organization])
 
 
 @dataclass
@@ -118,7 +126,7 @@ class study_categorization:
 
     def __post_init__(self):
         if self.Keywords:
-            self.Keywords = self.Keywords.replace('\n', '').replace('\t', '').replace(';', ',').replace('|', ',')
+            self.Keywords = self.Keywords.replace('\n', '').replace('\t', '').replace(';', ',').replace('|', ',').replace('.', '')
         else:
             logging.error("ERROR:: [study_categorization]: Keywords missing")
             sys.exit("ERROR:: [study_categorization]: Keywords missing")
@@ -140,6 +148,11 @@ class protocols:
     Protocol_Description: str = None
     Protocol_Type: str = None
     ImmPortNAME: str = 'study_2_protocol'
+
+    def __post_init__(self):
+        for i, k in enumerate(self.Protocol_File_Name):
+            object.__setattr__(self, 'Protocol_File_Name',
+             [k.strip() for i, k in enumerate(self.Protocol_File_Name)])
 
 
 @dataclass
@@ -294,6 +307,9 @@ class subject_type_human:
             # Checking to make sure everying is the same length (taking into acount that None are Empty Spaces)
             # IMMPORT_REQUIRED = ['User_Defined_ID', 'Name','Description','Type_Reported','Species','Biosample_Types',
             # 'Sex_at_Birth', 'Age_Event', 'Study_Location']
+            if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
+                logging.error("[Subject organism]: check user defined ID")
+                sys.exit("ERROR:: [Subject organism]: check user defined ID")
 
             largest_val = 0
             for field in self.__dataclass_fields__:
@@ -310,7 +326,7 @@ class subject_type_human:
                 # if isinstance(getattr(self,field), list): #THIS
                     
                 cell = seroFxn.clean_array(getattr(self,field), [None])
-                if len(cell) > 0 and field != "ImmPortNAME":
+                if len(cell) > 0 and field != "ImmPortNAME" and field != "Race_Specify":
                     if len(cell) != largest_val:
         #                 logging.error("[planned visit]: check Order Numer")
                         sys.exit(f"ERROR:: Error [Subject Human]: Check {field}")
@@ -330,7 +346,9 @@ class subject_type_human:
 
             # changing SeroNet terms to ImmPort specific terms 
             for i, k in enumerate(self.Study_Location):
+                # if '|' in k:
                 k = k.split(' | ')
+
                 if isinstance(k , list) and len(k ) > 1:
                     if len(set(k ).intersection(STATES)) < len(k ):
                         self.Study_Location[i + 1] = 'Other'
@@ -383,6 +401,11 @@ class subject_type_mode_organism:
             # 'Species','Biosample_Types', 'Sex_at_Birth', 'Age_Event', 'Study_Location']
 
             # Checking to make sure everying is the same length (taking into acount that None are Empty Spaces)
+            if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
+                logging.error("[Subject organism]: check user defined ID")
+                sys.exit("ERROR:: [Subject organism]: check user defined ID")
+
+
             largest_val = 0
 
             for field in self.__dataclass_fields__:
@@ -394,12 +417,14 @@ class subject_type_mode_organism:
                             largest_val = value
 
             for field in self.__dataclass_fields__:
+                # print(field)
                 # if field in IMMPORT_REQUIRED:
                     
                 cell = seroFxn.clean_array(getattr(self,field), [None])
-                if len(cell) > 0 and field != "ImmPortNAME":
+                # print(len(cell))
+                if len(cell) > 0 and field != "ImmPortNAME" and field != "Race_Specify":
                     if len(cell) != largest_val:
-        #                 logging.error("[planned visit]: check Order Numer")
+                        logging.error("ERROR:: Error [Subject organism]: Check {field}")
                         sys.exit(f"ERROR:: Error [Subject organism]: Check {field}")
 
             # shorting vaccine type to non-hidden characters  
@@ -443,7 +468,9 @@ class subject_type_mode_organism:
 
             # changing SeroNet terms to ImmPort specific terms 
             for i, k in enumerate(self.Study_Location):
+                # if '|' in k:
                 k = k.split(' | ')
+
                 if isinstance(k , list) and len(k ) > 1:
                     if len(set(k).intersection(STATES)) < len(k ):
                         self.Study_Location[i + 1] = 'Other'
@@ -496,9 +523,10 @@ class study_experiment_samples:
     Expt_Sample_Biospecimen_Collection_Point: list = field(default_factory=list)
 
     def __post_init__(self):
-        temp = self.Expt_Sample_User_Defined_ID[1][:-1]
-        object.__setattr__(self, "Expt_Sample_User_Defined_ID",
-                           [temp + str(i + 1) for i in range(len(self.Expt_Sample_User_Defined_ID))])
+        if len(self.Expt_Sample_User_Defined_ID):
+            temp = self.Expt_Sample_User_Defined_ID[1][:-1]
+            object.__setattr__(self, "Expt_Sample_User_Defined_ID",
+                               [temp + str(i + 1) for i in range(len(self.Expt_Sample_User_Defined_ID))])
 
 
 @dataclass

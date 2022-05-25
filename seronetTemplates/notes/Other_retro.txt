@@ -1,0 +1,143 @@
+
++++++++++++++++++++++++++++   ATTEMPT TO UPLOAD  +++++++++++++++++++++++++++++
+
+
+
++++++++++++++++++++++++++++  MINOR EDITS ++++++++++++++++++++++++++++++++++++
+
+33160316 - Script Good - **
+	- IMMPORT: 
+		- "Subject Location" "Other".
+		_ Do not upload reagent 
+
+33602725 - Script Good - **
+	- Immport 
+		- Subject:
+			- "Ethnicity" "Hispanic or Latino | Other".
+			- "Gender" "Male I Other". 
+			- "Race" "Black or African American | Other". 
+			- "Subject Location" "Other".
+
+33408181 - Script Good -**
+	- IMMPORT:
+		- "Ethnicity" "Not Hispanic or Latino | Hispanic or Latino | Other".
+		- "Race" "Black or African American | American Indian or Alaska Native | Asian | Native Hawaiian or Other Pacific Islander | Oth
+		- "Subject Location" "Other".
+		- "Measurement Technique" "Pseudovirus Neutralization Assay". 
+
+
+33521695 - Script Good - **
+	_ Immport:
+		- "Subject Location" "Other"
+		- "Race" "Asian | American Indian or Alaska Native | Native Hawaiian or Other Pacific Islander | Black or African American | Other".
+		- "Ethnicity" "Hispanic or Latino | Not Hispanic or Latino".
+
+34802457 - Script Good - 
+	- Immport
+		Subject
+			- "Race" "Black or African American | Asian | White | Other". 
+			- "Subject Location" "Other".
+		Experiments:
+			- "Measurement Technique" "Pseudovirus Neutralization Assay"
+
+
+34151306
+	- ERROR:: Error [Subject Human]: Check COVID_19_Disease_Severity %%fixed
+	- "Subject Location" "Other"
+	 "Measurement Technique" "Plaque Reduction Neutralization Test"
+
+
+34730254 - old - 
+	- ERROR:: [planned visit]: check user defined ID %%fixed
+	- "Subject Location" "Other"
+	- ** reagaent NOT uploaded
+
+
+34937699 - old 
+	- ERROR:: Error [Subject Human]: Check SARS_CoV_2_Vaccine_Type % fixed
+	- "Measurement Technique" "Virus Neutralization Assay"
+
+
++++++++++++++++++++++++++ more edits +++++++++++++++++++++++++++++++++++++++++++++
+33571162 - Script Good - 
+	- Immport 
+		- Basic 
+			- "Research Focus" "Durable SARS-CoV-2 B cell immunity"
+			- "User Defined ID" and value "PMID33571162_ie_02". (44)
+			- "Criterion Category" (45)
+			- ["Name", "Value"] and value ["NCBI", ""].
+		- SUBJECT:
+			- "Race" "Black or African American I White I Other".
+			= "Ethnicity" "Hispanic or Latino | Not Hispanic or Latino".
+			- "Gender" "FemaleI Male".
+			- "Subject Location" "Other". (5)
+
+34145263
+	- AttributeError: 'NoneType' object has no attribute 'split'
+	- Added other to Study Location (E6 Cells)
+
+
+34353890 
+	- ERROR:: Error [Subject Human]: Check SARS_CoV_2_Vaccine_Type %% FIxed
+	- more checks
+
+34100011
+	- ERROR:: Error [Subject Human]: Check SARS_CoV2_History %% FIxed
+	- "Species" "Homo sapien" %% FIXED (Homo sapiens)
+	- "Subject Location" "Other"
+	- "Required Column" for Field "Age Event". %%FIXED (at time of enrollment)
+	- "Measurement Technique" "Virus Neutralization Assay"
+
+34835131 - uploaded previous 
+	- Check Ethnicity
+	- "Subject Location" "Other"
+	- "Measurement Technique" "Pseudovirus Neutralization Assay"
+
+
++++++++++++++++++++++++++ Models (uploaded and need to CHECK) ++++++++++++++++++++++++++++++
+These are the basic curations.... they do not work with the script (add validator for aoc stuff. .. .)
+
+
+
+34130883 - script ran
+	- in database (MANI)
+
+34003112 - script ran
+	- in database (MANI)
+
+33666169 - script ran
+	- in database (MANI)
+
+33479118 - script ran
+	- in database (MANI)
+
+
+========================      READY TO UPLOAD     ==========================
+33478949 - Script Good - 
+	- fixed naming scheme
+	- ERROR:: Error [Subject Human]: Check Ethnicity  %% FIXED> added not Specified
+	-  "Subject Location" "Other"
+
+
+33169014 - Script Good - old
+	- ERROR:: Error [Subject Human]: Check Ethnicity  %% fixxex
+	subject locaiton - other => CA %% FIXED
+
+33727353- old
+	- ERROR:: Error [Subject organism]: Check Biosample_Types  %% fixxed
+	DO NOT UPLOAD PMID33727353_experiments.txt
+	"Subject Location" "Other" %% FIXED, cell line => moved to CA
+
+33743211 - old upload 
+	- ERROR:: Error [Subject organism]: Check SARS_CoV_2_Vaccine_Type  %% fixxed
+	- "Subject Location" "Other" %% FIXED< cell, caned to CA
+	*** Do not uploade Experiments 
+
+35068405 - script ran
+	- Ready to upload (planned visit: model )
+
+34910927 - script ran
+	- - Ready to upload (planned visit: model )
+
+34086877 - script ran
+	- Ready to upload (planned visit: model )
