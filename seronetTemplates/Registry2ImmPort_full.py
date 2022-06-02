@@ -27,9 +27,9 @@ import warnings
 
 warnings.simplefilter("ignore")
 
-try:
+if platform == "darwin":
     os.system('clear')
-except:
+else:
     os.system('cls')
 
 
@@ -878,7 +878,7 @@ def create_full(PMID):
                 if len(assessment_name) > 44:
                     outname = "combined"
                 else:
-                    outname = assessment_name[:5]
+                    outname = assessment_name[3:6]
 
                 assessment_df.to_csv(os.path.join(OUT_DIR,f'panel_{outname}_{ASSESSMENT_TEMPLATE}.txt'),
                                    header = False, 

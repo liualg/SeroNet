@@ -150,9 +150,13 @@ class protocols:
     ImmPortNAME: str = 'study_2_protocol'
 
     def __post_init__(self):
-        for i, k in enumerate(self.Protocol_File_Name):
-            object.__setattr__(self, 'Protocol_File_Name',
-             [k.strip() for i, k in enumerate(self.Protocol_File_Name)])
+        if not len(set(self.Protocol_ID).intersection(VARS_TO_CLEAN)) == 1:
+            for i, k in enumerate(self.Protocol_File_Name):
+                object.__setattr__(self, 'Protocol_File_Name',
+                 [k.strip() for i, k in enumerate(self.Protocol_File_Name)])
+        else:
+            logging.error("ERROR:: [protocols]: Protocol information is missing")
+            sys.exit("ERROR:: [protocols]: Protocol information is missing")
 
 
 @dataclass
@@ -303,7 +307,7 @@ class subject_type_human:
         return bool(len(self.User_Defined_ID))
 
     def __post_init__(self):
-        if len(self.User_Defined_ID):
+        if not len(set(self.User_Defined_ID).intersection(VARS_TO_CLEAN)) == 1:
             # Checking to make sure everying is the same length (taking into acount that None are Empty Spaces)
             # IMMPORT_REQUIRED = ['User_Defined_ID', 'Name','Description','Type_Reported','Species','Biosample_Types',
             # 'Sex_at_Birth', 'Age_Event', 'Study_Location']
@@ -396,7 +400,8 @@ class subject_type_mode_organism:
 
     def __post_init__(self):
 
-        if len(self.User_Defined_ID):
+        # if len(self.User_Defined_ID):
+        if not len(set(self.User_Defined_ID).intersection(VARS_TO_CLEAN)) == 1:
             # IMMPORT_REQUIRED = ['User_Defined_ID', 'Name','Description','Type_Reported',
             # 'Species','Biosample_Types', 'Sex_at_Birth', 'Age_Event', 'Study_Location']
 
@@ -441,6 +446,9 @@ class subject_type_mode_organism:
 
                     if k.lower().strip() == "cynomolgus macaques":
                         self.Species[i + 1] = "macaca fascicularis"
+
+                    if k.lower().strip() == "rhesus macaques":
+                        self.Study_Location[i +1] = 'Macaca mulatta'
 
                     if k.lower().strip() == "african green monkey":
                         self.Species[i + 1] = "Chlorocebus sabaeus"
@@ -523,7 +531,7 @@ class study_experiment_samples:
     Expt_Sample_Biospecimen_Collection_Point: list = field(default_factory=list)
 
     def __post_init__(self):
-        if len(self.Expt_Sample_User_Defined_ID):
+        if not len(set(self.Expt_Sample_User_Defined_ID).intersection(VARS_TO_CLEAN)) == 1:
             temp = self.Expt_Sample_User_Defined_ID[1][:-1]
             object.__setattr__(self, "Expt_Sample_User_Defined_ID",
                                [temp + str(i + 1) for i in range(len(self.Expt_Sample_User_Defined_ID))])
@@ -540,8 +548,9 @@ class study_experiment:
         return (len(list(self.Experiment_Results_File_Name)) == len(list(set(self.Experiment_Results_File_Name))))
 
     def __post_init__(self):
-        temp = self.Experiment_ID[1][:-1]
-        object.__setattr__(self, "Experiment_ID", [temp + str(i + 1) for i in range(len(self.Experiment_ID))])
+        if not len(set(self.Experiment_ID).intersection(VARS_TO_CLEAN)) == 1:
+            temp = self.Experiment_ID[1][:-1]
+            object.__setattr__(self, "Experiment_ID", [temp + str(i + 1) for i in range(len(self.Experiment_ID))])
 
 
 @dataclass
@@ -556,7 +565,8 @@ class reagent_per_experiment:
     # if self.Reagent_ID == ""
 
     def __post_init__(self):
-        if len(self.Reagent_ID):
+        # if len(self.Reagent_ID):
+        if not len(set(self.Reagent_ID).intersection(VARS_TO_CLEAN)) == 1:
             largest_val = 0
 
             for field in self.__dataclass_fields__:
