@@ -1,7 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# This script is compatibale with Registry Version v.1.1.0
+'''
+This script is compatibale with Registry Version v.1.1.0
+This script is NOT compatibale with Registry Version v.1.2.0
+    - Please look at other template 
+    - Added '*' to SARS-CoV-2 Antigen* (row 163, column B)
+
+
+'''
+
 
 import pandas as pd
 import numpy as np
@@ -20,16 +28,16 @@ from openpyxl import load_workbook, Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
 
 ## Importing Functions and Dataclass
-import seronetDataclass as seroClass
+import seronetDataclass_v1_1_0 as seroClass
 import seronetFunctions as seroFxn
 
 import warnings
 
 warnings.simplefilter("ignore")
 
-try:
+if platform == "darwin":
     os.system('clear')
-except:
+else:
     os.system('cls')
 
 
@@ -37,7 +45,7 @@ except:
 ######### Taking in Inputs ##############
 #########################################
 
-def create_basic(PMID):
+def create_full(PMID):
 # Registry
     sheet_name = 'SeroNet Registry Template'
     map_sheet = 'Registry Definitions'
@@ -56,9 +64,12 @@ def create_basic(PMID):
 
 
     try: 
-        file = f"PMID{PMID}_v1.1.0"
+        file = f"PMID{PMID}_v1.2.1"
+        switch = 0
     except:
-        file = f"PMID{PMID}_Registry"
+        print("using older version of the template")
+        file = f"PMID{PMID}_v1.1.0"
+        switch = 1
         
         
     df_path = os.path.join(BASE_DIR,'templated_data', file + ".xlsm")
@@ -76,7 +87,11 @@ def create_basic(PMID):
     # ImmPort Templates (link to web?)
     PATH_basic_stdy_template = os.path.join("template", "basic_study_design.xlsx")
     PATH_protocols = os.path.join("template", "protocols.xlsx")
-
+    PATH_experiments = os.path.join("template", "experiments.xlsx") # should be tied to EXP sample + bio sample + subject
+    PATH_reagent = os.path.join("template", "reagents.Other.xlsx") #limited to serology
+    PATH_assessment = os.path.join("template", "assessments.xlsx")
+    PATH_subject_human = os.path.join("template", "subjectHumans.xlsx")
+    PATH_subject_organism = os.path.join("template", "subjectAnimals.xlsx")
 
 
     # Automate output... 
@@ -85,8 +100,12 @@ def create_basic(PMID):
     PATH_pmid_basic_stdy_template = f'PMID{PMID}_study.xlsx'
 
     BASIC_STUDY_TEMPLATE = f'PMID{PMID}_basic'
+    EXP_TEMPLATE = f'PMID{PMID}_experiments'
     PROTOCOL_TEMPLATE = f'PMID{PMID}_protocol'
-
+    REAGENT_TEMPLATE = f'PMID{PMID}_reagent'
+    ASSESSMENT_TEMPLATE =  f'PMID{PMID}_assessment'
+    SUBJ_HUMAN_TEMPLATE =  f'PMID{PMID}_subject_human'
+    SUBJ_ORGANISM_TEMPLATE =  f'PMID{PMID}_subject_organism'
 
     # Make Dir if it does not exist
     try:
@@ -118,9 +137,6 @@ def create_basic(PMID):
 
 
     VARS_TO_CLEAN = ['', 'N/A', 'n/a', np.nan, None]
-
-
-    # In[4]:
 
 
     sp = seroFxn.get_sections(registry, class_names)
@@ -335,9 +351,57 @@ def create_basic(PMID):
                 df['Visit Start Rule']                                
         )
         
-      
+        elif sub_section == 'Study Experiment Samples':
+            df = seroFxn.edit_df(df)
+
+            EXPERIMENT_SAMPLES = seroClass.study_experiment_samples(
+                df['Expt Sample User Defined ID'],
+                df['Biospecimen Type*'],
+                df['Biospecimen Collection Point*']                             
+        )
+        
+        elif sub_section == 'Study Experiments':
+            df = seroFxn.edit_df(df)
+
+            STUDY_EXPERIMENTS = seroClass.study_experiment(
+                df['Experiment ID'],
+                df['Experiment Name'],
+                df['Assay Type'],
+                df['Experiment Results File Name']
+        )
+            
+        elif sub_section == 'Reagent':
+            df = seroFxn.edit_df(df)
+
+            if switch == 1:
+                REAGENTS = seroClass.reagent_per_experiment(
+                    df['Reagent ID'],
+                    df['SARS-CoV-2 Antigen'],
+                    df['Assay Use'],
+                    df['Manufacturer'],
+                    df['Catalog #']
+                    )  
+            # else:
+            #     REAGENTS = seroClass.reagent_per_experiment(
+            #         df['Reagent ID'],
+            #         df['SARS-CoV-2 Antigen*'],
+            #         df['Assay Use'],
+            #         df['Manufacturer'],
+            #         df['Catalog #']
+            #         )  
+            
+        elif sub_section == 'Results for Serology Assays':
+            df = seroFxn.edit_df(df)
+
+            RESULTS = seroClass.results(
+                df['Virus Target'],
+                df['Antibody Isotype'],
+                df['Reporting Units'],
+                df['Assay Reporting Format']
+        )  
+            
         else:
-            print(sub_section, ':: Will not be used')
+            print(sub_section, ': does not exist')
 
 
 
@@ -522,6 +586,328 @@ def create_basic(PMID):
     except:
         print(f'File: {PROTOCOLS.Protocol_Name[1]}.txt does not exist')
 
+
+     #########################################
+     ############## Experiment  ##############
+     #########################################
+
+    # creating a map of the assay types to the SeroNet descriptors 
+    reg_description = pd.read_excel(df_path, sheet_name = map_sheet)
+    descriptions = dict(zip(reg_description['Unnamed: 1'][4:], reg_description['Unnamed: 2'][4:]))
+
+    #creating a df to add into the worksheet
+    Assay_used = STUDY_EXPERIMENTS.Experiment_Assay_Type
+
+    experiments_df = pd.DataFrame({
+        'Column Name': ['']*len(Assay_used),
+        'User Defined ID': [f'PMID{PMID}_exp-0'+str(i+1) for i,k in enumerate(Assay_used)],
+        'Name': [Assay_used[i+1] for i, k in enumerate(Assay_used)],
+        'Description': [descriptions.get(k) for i, k in enumerate(Assay_used)],
+        'Measurement Technique': [STUDY_EXPERIMENTS.Experiment_Assay_Type[i+1] for i, k in enumerate(Assay_used)],
+        'Study ID': [STUDY.Study_Identifier]*len(Assay_used),
+        'Protocol ID(s)': [PROTOCOLS.Protocol_ID[1]]*len(Assay_used)
+    })
+
+
+    # loading experiment template and removing excess rows and columns
+    experiment_ws = load_workbook(PATH_experiments)['experiments.txt']
+    experiment_ws = seroFxn.remove_excess(experiment_ws)
+
+    # adding df to bottom of ws
+    seroFxn.add_df(experiment_ws, experiments_df, add_header = False)
+
+
+    # In[21]:
+
+
+    experiments_df = pd.DataFrame(experiment_ws.values).replace({None: '', 'None': ''})
+    experiments_df.to_csv(os.path.join(OUT_DIR,f'{EXP_TEMPLATE}.txt'),
+                          header = False, 
+                          index = False,
+                          sep = '\t')
+
+    experiments_df
+
+
+    #########################################
+    #############   REAGENT   ###############
+    #########################################
+    # This is creating the template even if it is filled with the defaults
+
+
+    if REAGENTS:
+        NumReagents = len(REAGENTS.Reagent_ID)
+        empty = [''] * NumReagents
+
+        reagent_df = pd.DataFrame({
+            'Column Name': empty,
+            'User Defined ID': REAGENTS.Reagent_ID,
+            'Name': REAGENTS.SARS_CoV_2_Antigen,
+            'Description': REAGENTS.Assay_Use,
+            'Manufacturer': REAGENTS.Manufacturer,
+            'Catalog Number': REAGENTS.Catalog,
+            'Lot Number': empty,
+            'Weblink': empty,
+            'Contact': empty
+
+        })
+
+        # loading experiment template and removing excess rows and columns
+        reagent_ws = load_workbook(PATH_reagent)['reagents.Other.txt']
+        reagent_ws = seroFxn.remove_excess(reagent_ws)
+
+        # adding df to bottom of ws
+        seroFxn.add_df(reagent_ws, reagent_df, add_header = False)
+        reagent_df = pd.DataFrame(reagent_ws.values).replace({None: '', 'None': ''})
+
+        # saving df
+        reagent_df.to_csv(os.path.join(OUT_DIR,f'{REAGENT_TEMPLATE}.txt'),
+                           header = False, 
+                           index = False,
+                           sep = '\t')
+
+        reagent_df
+
+
+    # In[23]:
+
+
+    reagent_df
+
+
+    """
+    #########################################
+    ###         SUBJECT: HUMAN       ########
+    #########################################
+    # - if human, use human
+    # - if animal, use animal sheet 
+    # - use length as a predictor
+
+    HUMAN SHOULD BE FOR HUMAN CELLS LINES. DO NOT PUT IN ORGANISM
+
+    """
+
+
+    if SUBJECT_HUMAN:
+        # race_specificty =[]
+        # for i in SUBJECT_HUMAN.Race: RACE OTHER
+        #     if i == 'Other':
+        #         race_specificty.append("Other")
+        #     else:
+        #         race_specificty.append("")
+
+
+        species = SUBJECT_HUMAN.User_Defined_ID
+        empty = ['']*len(species)
+
+        vaccine_name, vaccine_type = seroFxn.get_vaccine(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type, VARS_TO_CLEAN)
+        
+        SUBJECT_human_df = pd.DataFrame({
+            'Column Name': empty,
+            'Subject ID': [f"PMID{PMID}_human_subject-0{int(i+1)}" for i in range(len(species))],
+            'Arm Or Cohort ID': SUBJECT_HUMAN.User_Defined_ID, #I feel like this needs to be defined
+            'Gender': SUBJECT_HUMAN.Sex_at_Birth, 
+            'Min Subject Age': [STUDY_DETAILS.Minimum_Age]*len(species), # add this to validator in dataclass 
+            'Max Subject Age': [STUDY_DETAILS.Maximum_Age]*len(species), # add this to validator in dataclass 
+            'Age Unit': [STUDY_DETAILS.Age_Unit]*len(species),
+            'Age Event': SUBJECT_HUMAN.Age_Event, 
+            'Age Event Specify': empty,
+            'Subject Phenotype': empty, 
+            'Subject Location': SUBJECT_HUMAN.Study_Location,
+            'Ethnicity': SUBJECT_HUMAN.Ethnicity,
+            'Race': SUBJECT_HUMAN.Race, 
+            'Race Specify': SUBJECT_HUMAN.Race_Specify,
+            'Description': empty, 
+            'Result Separator Column': empty, 
+            'Exposure Process Reported': ['unknown']*len(species) , #not sure 
+            'Exposure Material Reported': vaccine_name, # change this
+            'Exposure Material ID': vaccine_type,
+            'Disease Reported': [COD.Reported_Health_Condition[0]]*len(species), # This was not correct
+            'Disease Ontology ID': empty,
+            'Disease Stage Reported': SUBJECT_HUMAN.COVID_19_Disease_Severity #CHANGE
+        })
+        
+        # loading experiment template and removing excess rows and columns
+        human_ws = load_workbook(PATH_subject_human)['subjectHumans.txt']
+        human_ws = seroFxn.remove_excess(human_ws)
+
+        # adding df to bottom of ws
+        seroFxn.add_df(human_ws, SUBJECT_human_df, add_header = False)
+        SUBJECT_human_df = pd.DataFrame(human_ws.values).replace({None: '', 'None': ''})
+
+    #     # saving df
+        SUBJECT_human_df.to_csv(os.path.join(OUT_DIR,f'{SUBJ_HUMAN_TEMPLATE}.txt'),
+                           header = False, 
+                           index = False,
+                           sep = '\t')
+
+    #     print(SUBJECT_human_df)
+        print ("SUBJECT: human data created")
+    # else:
+    #     print('no human data')
+        
+
+
+
+    """
+    #########################################
+    #####       SUBJECT: ORGANISM    ########
+    #########################################
+    For Syrain Hamster: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Syrian+hamsters 
+
+    Use latin name -- or look at lk species
+    https://www.immport.org/shared/templateDocumentation?tab=2&table=lk_species
+
+
+    """
+
+
+    if SUBJECT_ORGANISM:  # Not sure how this plays out. Might need to do a mock one. Will it be 1 subject per study?
+        species = SUBJECT_ORGANISM.User_Defined_ID
+        empty = ['']*len(species)
+
+
+        vaccine_name, vaccine_type = seroFxn.get_vaccine(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type, VARS_TO_CLEAN)
+
+        # print ("SUBJECT_organism data")
+        SUBJECT_organism_df = pd.DataFrame({
+            'Column Name':empty,
+            'Subject ID': [f"PMID{PMID}_organism_subject-0{int(i+1)}" for i in range(len(species))], #SUBJECT_ORGANISM.User_Defined_ID, #
+            'Arm Or Cohort ID': SUBJECT_ORGANISM.User_Defined_ID, #I feel like this needs to be defined
+            'Gender': SUBJECT_ORGANISM.Sex_at_Birth,
+            'Min Subject Age': [STUDY_DETAILS.Minimum_Age]*len(species),
+            'Max Subject Age': [STUDY_DETAILS.Maximum_Age]*len(species),
+            'Age Unit': [STUDY_DETAILS.Age_Unit] * len(species),
+            'Age Event': SUBJECT_ORGANISM.Age_Event,
+            'Age Event Specify': empty,
+            'Subject Phenotype': empty, ## This does not exist
+            'Subject Location': SUBJECT_ORGANISM.Study_Location, # This needs to be changed. SUBJECT.Study_Location,
+            'Species': SUBJECT_ORGANISM.Species,
+            'Strain': SUBJECT_ORGANISM.Biosample_Types,
+            'Strain Characteristics': SUBJECT_ORGANISM.Strain_Characteristics,
+            'Result Separator Column': empty,
+            'Exposure Process Reported': ['unknown']*len(species),
+            'Exposure Material Reported': vaccine_name,
+            'Exposure Material ID': vaccine_type, 
+            'Disease Reported': [COD.Reported_Health_Condition[0]]*len(species), # also maybe not...
+            'Disease Ontology ID': empty,
+            'Disease Stage Reported': SUBJECT_ORGANISM.COVID_19_Disease_Severity
+        })
+        
+            # loading experiment template and removing excess rows and columns
+        organism_ws = load_workbook(PATH_subject_organism)['subjectAnimals.txt']
+        organism_ws = seroFxn.remove_excess(organism_ws)
+
+        # adding df to bottom of ws
+        seroFxn.add_df(organism_ws, SUBJECT_organism_df, add_header = False)
+        SUBJECT_organism_df = pd.DataFrame(organism_ws.values).replace({None: '', 'None': ''})
+
+        # saving df
+        SUBJECT_organism_df.to_csv(os.path.join(OUT_DIR,f'{SUBJ_ORGANISM_TEMPLATE}.txt'),
+                           header = False, 
+                           index = False,
+                           sep = '\t')
+
+        SUBJECT_organism_df
+
+
+    #########################################
+    ######       ASSESSMENT        ##########
+    #########################################
+
+    # There will be 1 excel document produced per assesment. (wide format) <br>
+    #     - 1 subj with multiple panels -> seperate 
+    #     - 1 panel with multiple subject -> 1 row per, long format
+    # assesment doc. need to be uploaded one at a time
+    # 
+
+    if SUBJECT_HUMAN:
+        print("Assays Used")
+        allCovSymtoms = list(SUBJECT_HUMAN.Measured_Behavioral_or_Psychological_Factor) + list(SUBJECT_HUMAN.Measured_Social_Factor) + list(SUBJECT_HUMAN.SARS_CoV_2_Symptoms)
+     
+        NumAssessments = len(SUBJECT_HUMAN.User_Defined_ID)
+        assessmet_type = []
+        status = []
+
+        for symptom in list(set(allCovSymtoms)):
+            if symptom:
+                assessment_name = symptom
+
+                for i in range(NumAssessments): ### THIS NEEDS TO BE 1 cell to the right. So the actual vaules 
+
+                    i += 1
+                    if SUBJECT_HUMAN.Measured_Behavioral_or_Psychological_Factor[i] == assessment_name:
+                        # 'Measured Behavioral or Psychological Factor'
+                        assessmet_type.append(SUBJECT_HUMAN.Measured_Behavioral_or_Psychological_Factor[i])
+                        status.append(SUBJECT_HUMAN.Assessment_Demographic_Data_Types_Collected[i])
+                    elif SUBJECT_HUMAN.Measured_Social_Factor[i] == assessment_name:
+                        # 'Measured Social Factor'
+                        assessmet_type.append(SUBJECT_HUMAN.Measured_Social_Factor[i])
+                        status.append(SUBJECT_HUMAN.Assessment_Demographic_Data_Types_Collected[i])
+                    elif SUBJECT_HUMAN.SARS_CoV_2_Symptoms[i] == assessment_name:
+                        # 'SARS-CoV-2 Symptoms'
+                        assessmet_type.append(SUBJECT_HUMAN.SARS_CoV_2_Symptoms[i])
+                        status.append(SUBJECT_HUMAN.Assessment_Demographic_Data_Types_Collected[i])
+                    else:
+                        print('No assessment found')
+
+                empty = ['']*len(assessmet_type) 
+                # need to figure out named report 
+                # not sure where the data goes for the assessments
+
+                assessment_df = pd.DataFrame({
+                    'Column Name': empty,
+                    'Subject ID': [f"PMID{PMID}subject-0{int(i+1)}" for i in range(len(assessmet_type))],  
+                    'Assessment Panel ID': [f"PMID{PMID}assessment_{assessment_name}-0{int(i+1)}" for i in range(len(assessmet_type))],
+                    'Study ID': [STUDY.Study_Identifier]*len(assessmet_type),
+                    'Name Reported': assessment_name,
+                    'Assessment Type': assessmet_type,
+                    'Status': status,
+                    'CRF File Names': empty,
+                    'Result Separator Column': empty,
+                    'User Defined ID': [f"PMID{PMID}assessment-0{int(i+1)}" for i in range(len(assessmet_type))], #
+                    'Planned Visit ID': empty, # IM going to make this empty for now PLANNED_VISIT.User_Defined_ID[i],
+                    'Name Reported ': [f"component_{assessment_name}"]*len(assessmet_type), # space might not work
+                    'Study Day': i-1, # Not sure, we dont capture study day 
+                    'Age At Onset Reported': empty,
+                    'Age At Onset Unit Reported': empty,
+                    'Is Clinically Significant': empty,
+                    'Location Of Finding Reported': empty,
+                    'Organ Or Body System Reported': empty,
+                    'Result Value Reported': 'NA',
+                    'Result Unit Reported': empty,
+                    'Result Value Category': empty,
+                    'Subject Position Reported': empty,
+                    'Time Of Day': empty,
+                    'Verbatim Question': empty,
+                    'Who Is Assessed': empty
+                })
+
+                # loading experiment template and removing excess rows and columns
+                assessment_ws = load_workbook(PATH_assessment)['assessments.txt']
+                assessment_ws = seroFxn.remove_excess(assessment_ws)
+
+                # adding df to bottom of ws
+                seroFxn.add_df(assessment_ws, assessment_df, add_header = False)
+                assessment_df = pd.DataFrame(assessment_ws.values).replace({None: '', 'None': ''})
+            #     assessment_df.rename(columns=lambda x: x.strip())
+        #         print(assessment_df)
+                    # saving file
+
+                if len(assessment_name) < 7:
+                    outname = assessment_name
+                if len(assessment_name) > 44:
+                    outname = "combined"
+                else:
+                    outname = assessment_name[3:6]
+
+                assessment_df.to_csv(os.path.join(OUT_DIR,f'panel_{outname}_{ASSESSMENT_TEMPLATE}.txt'),
+                                   header = False, 
+                                   index = False,
+                                   sep = '\t')
+                # #     print(assessment_df.head())
+    else:
+        print("No Human Subjects: assessments not recorded")
 
 
     #########################################

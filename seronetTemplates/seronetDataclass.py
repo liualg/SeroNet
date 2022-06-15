@@ -1,3 +1,17 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+'''
+This script is compatibale with Registry Version v.1.1.0
+This script is compatibale with Registry Version v.1.2.2
+    - Please look at other template 
+    - Added '*' to SARS-CoV-2 Antigen* (row 163, column B)
+This script is compatibale with Registry Version v.1.2.3
+
+'''
+
+
+
 from dataclasses import dataclass, field
 import seronetFunctions as seroFxn
 # import seronetDataclass_v2 as seroClass
@@ -9,7 +23,6 @@ import path
 import re
 import logging
 import sys
-
 
 VARS_TO_CLEAN = ['', 'N/A', 'n/a', np.nan, None]
 filler_words = ['of', 'a', 'at']
@@ -312,8 +325,8 @@ class subject_type_human:
             # IMMPORT_REQUIRED = ['User_Defined_ID', 'Name','Description','Type_Reported','Species','Biosample_Types',
             # 'Sex_at_Birth', 'Age_Event', 'Study_Location']
             if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
-                logging.error("[Subject organism]: check user defined ID")
-                sys.exit("ERROR:: [Subject organism]: check user defined ID")
+                logging.error("[Subject human]: check user defined ID")
+                sys.exit("ERROR:: [Subject human]: check user defined ID")
 
             largest_val = 0
             for field in self.__dataclass_fields__:
@@ -399,38 +412,33 @@ class subject_type_mode_organism:
         # return True
 
     def __post_init__(self):
-
-        # if len(self.User_Defined_ID):
         if not len(set(self.User_Defined_ID).intersection(VARS_TO_CLEAN)) == 1:
-            # IMMPORT_REQUIRED = ['User_Defined_ID', 'Name','Description','Type_Reported',
-            # 'Species','Biosample_Types', 'Sex_at_Birth', 'Age_Event', 'Study_Location']
-
             # Checking to make sure everying is the same length (taking into acount that None are Empty Spaces)
+            # IMMPORT_REQUIRED = ['User_Defined_ID', 'Name','Description','Type_Reported','Species','Biosample_Types',
+            # 'Sex_at_Birth', 'Age_Event', 'Study_Location']
             if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
-                logging.error("[Subject organism]: check user defined ID")
-                sys.exit("ERROR:: [Subject organism]: check user defined ID")
-
+                logging.error("[Subject human]: check user defined ID")
+                sys.exit("ERROR:: [Subject human]: check user defined ID")
 
             largest_val = 0
-
             for field in self.__dataclass_fields__:
                 if field != "ImmPortNAME":
-                    cell = seroFxn.clean_array(getattr(self,field), [None])
-                    if len(cell) != 0:
-                        value = len(cell)
+    #                 field = [x for x in getattr(self, field) if x not in VARS_TO_CLEAN]
+                    field = seroFxn.clean_array(getattr(self,field), [None])
+                    
+                    if len(field) != 0:
+                        value = len(field)
                         if value > largest_val:
                             largest_val = value
 
             for field in self.__dataclass_fields__:
-                # print(field)
-                # if field in IMMPORT_REQUIRED:
+                # if isinstance(getattr(self,field), list): #THIS
                     
                 cell = seroFxn.clean_array(getattr(self,field), [None])
-                # print(len(cell))
                 if len(cell) > 0 and field != "ImmPortNAME" and field != "Race_Specify":
                     if len(cell) != largest_val:
-                        logging.error("ERROR:: Error [Subject organism]: Check {field}")
-                        sys.exit(f"ERROR:: Error [Subject organism]: Check {field}")
+        #                 logging.error("[planned visit]: check Order Numer")
+                        sys.exit(f"ERROR:: Error [Subject Human]: Check {field}")
 
             # shorting vaccine type to non-hidden characters  
             # self.SARS_CoV_2_Vaccine_Type = [x for x in self.SARS_CoV_2_Vaccine_Type if x not in VARS_TO_CLEAN]
@@ -521,7 +529,7 @@ class planned_visit:
 
         if len(set(self.Order_Number)) != len(self.Order_Number):
             logging.error("[planned visit]: check Order Numer")
-            sys.exit("ERROR:: Same order number used more than once")
+            sys.exit("ERROR:: [planned visit] Same order number used more than once")
 
 
 @dataclass
@@ -600,6 +608,45 @@ class reagent_per_experiment:
                             logging.error("[Reagent]: Reagent_ID is wrong")
                 else:
                     sys.exit(f"ERROR:: Error [Reagent_ID]: Missing value in Reagent ID")
+
+@dataclass #only found in v1.2.2
+class experiments: 
+    Associated_Arm_ID: list = field(default_factory=list)
+    Associated_Planned_Visit_ID: list = field(default_factory=list)
+    Assay_Type: list = field(default_factory=list)
+    Experiment_Name: list = field(default_factory=list)
+    Results_File_Name: str = None
+    Biospecimen_Type: list = field(default_factory=list)
+    Biospecimen_Collection_Point: list = field(default_factory=list)
+    SARS_CoV_2_Antigen: list = field(default_factory=list)
+    Assay_Use: list = field(default_factory=list)
+    Manufacturer: list = field(default_factory=list)
+    Catalog: list = field(default_factory=list)
+    Virus_Target: list = field(default_factory=list)
+    Antibody_Isotype: list = field(default_factory=list)
+    Reporting_Units: list = field(default_factory=list)
+    Reporting_Format: list = field(default_factory=list)
+
+    def __len__(self):
+        if len(set(self.Assay_Type).intersection([None])) == 1:
+            return False
+        # if not self.User_Defined_ID:
+        return bool(len(self.Assay_Type))
+        # return True
+
+    def __post_init__(self):
+        for i, k in enumerate(self.Associated_Arm_ID):
+            if k not in VARS_TO_CLEAN:
+                self.Associated_Arm_ID[i + 1] = k.replace("|","I")
+            
+        for i, k in enumerate(self.Associated_Planned_Visit_ID):
+            if k not in VARS_TO_CLEAN:
+                self.Associated_Planned_Visit_ID[i + 1] = k.replace("|","I")
+            
+        for i, k in enumerate(self.Biospecimen_Type):
+            if k not in VARS_TO_CLEAN:
+                self.Biospecimen_Type[i + 1] = k.replace("|","I")
+
 
 
 @dataclass
