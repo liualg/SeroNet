@@ -9,6 +9,7 @@ import os, shutil
 import inspect
 import datetime as dt
 from sys import platform
+from glob import glob
 
 from tqdm import tqdm
 
@@ -55,13 +56,13 @@ def create_basic(PMID):
     BASE_DIR = seroFxn.get_box_dir(box_base, PMID)
 
 
-    try: 
-        file = f"PMID{PMID}_v1.1.0"
-    except:
-        file = f"PMID{PMID}_Registry"
+    try:
+        df_path = glob(os.path.join(BASE_DIR,'templated_data',f'PMID{PMID}*.xlsm'))[0]
+    except FileNotFoundError:
+        sys.exit("ERROR:: Incorrect Template format. Cannot Find File")
         
         
-    df_path = os.path.join(BASE_DIR,'templated_data', file + ".xlsm")
+    # df_path = os.path.join(BASE_DIR,'templated_data', file + ".xlsm")
     print("file path: {}".format(df_path))
     # df_path = os.path.join(BASE_DIR,'templated_data', "PMID34431693_registry.xlsm")
 
@@ -112,8 +113,7 @@ def create_basic(PMID):
                    'protocol', 'condition_or_disease', 'Intervention Agent',
                    'study_details', 'inclusion_exclusion',
                    'Subject Type: human', 'Subject Type: model organism', 'planned_visit',
-                   'Study Experiments', 'Study Experiment Samples', 'Reagent', 
-                   'Results for Serology Assays'
+                   'Experiments', 'Experiment Samples'
                   ]
 
 
@@ -124,7 +124,7 @@ def create_basic(PMID):
 
 
     sp = seroFxn.get_sections(registry, class_names)
-
+    sp.append(200)
     #########################################
     ######        Main Loop       ###########
     #########################################

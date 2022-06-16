@@ -43,6 +43,7 @@ canvas1.create_window(100, 140, window=entry1)
 entry1.place(x = CANVAS_W/2 - 90, y = CANVAS_H - 75)
 
 
+
 def runFullCuration():
    x1 = entry1.get()
    print(f"Doing Full Curation for: {x1}")
@@ -54,6 +55,9 @@ def runBasicCuration():
    print(f"Doing Basic Curation for: {x1}")
    root.destroy()
    create_basic(x1.strip())
+
+def onclick(event):
+   runFullCuration()
    
 borderColor = "White"
     
@@ -78,8 +82,7 @@ button2 = tk.Button(text='Basic Curation', command=runBasicCuration,fg = 'Black'
 canvas1.create_window(100, 140, window=button2)
 button2.place(x=CANVAS_W/2-130, y=CANVAS_H-50)
 
-# root.bind('<Return>', runFullCuration)
-
+root.bind('<Return>', onclick)
 
 root.mainloop()
 

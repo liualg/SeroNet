@@ -103,14 +103,14 @@ def create_full(PMID):
     ASSESSMENT_TEMPLATE =  f'PMID{PMID}_assessment'
     SUBJ_HUMAN_TEMPLATE =  f'PMID{PMID}_subject_human'
     SUBJ_ORGANISM_TEMPLATE =  f'PMID{PMID}_subject_organism'
-    EXPERIMENT_SAMPLES_TEMPLATE = f'PMID{PMID}_sexperiment_samples'
+    EXPERIMENT_SAMPLES_TEMPLATE = f'PMID{PMID}_experiment_samples'
 
     # Make Dir if it does not exist
     try:
         os.mkdir(OUT_DIR)
-        print(f'Creating output directory - {OUT_DIR}')
+        print(f'\nCreating output directory - {OUT_DIR}')
     except FileExistsError:
-        print('Will not create directory - already exists')
+        print('\nWill not create directory - already exists')
         pass
 
     # import file
@@ -135,7 +135,7 @@ def create_full(PMID):
 
 
     VARS_TO_CLEAN = ['', 'N/A', 'n/a', np.nan, None]
-
+    clean_other = VARS_TO_CLEAN + ['Other']
 
     sp = seroFxn.get_sections(registry, class_names)
     sp.append(200)
@@ -411,23 +411,23 @@ def create_full(PMID):
     #########################################
     ######### Basic Study Template ##########
     #########################################
-    clean_vaccine = VARS_TO_CLEAN + ['Other']
+    
 
     if len(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type) + len(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type):
         
         vaccine_name, vaccine_type = seroFxn.get_vaccine(set(list(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type) + list(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type)),
-                        clean_vaccine)
+                        clean_other)
         
         
     elif len(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type):
         
         vaccine_name, vaccine_type = seroFxn.get_vaccine(set(list(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type)),
-                        clean_vaccine)
+                        clean_other)
                                 
     elif len(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type):
         
         vaccine_name, vaccine_type = seroFxn.get_vaccine(set(list(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type)),
-                        clean_vaccine)
+                        clean_other)
         
     else:
         
@@ -631,11 +631,15 @@ def create_full(PMID):
 
     # StudyTimeCollected should link back to the planned_visit.User_Defined_ID + planned_visit.Min_Start_Day
     '''
-    # creating a map of the assay types to the SeroNet descriptors
+    
     if  EXPERIMENTS:
+        # creating a map of the assay types to the SeroNet descriptors
         reg_description = pd.read_excel(df_path, sheet_name = map_sheet)
         descriptions = dict(zip(reg_description['Unnamed: 1'][4:], reg_description['Unnamed: 2'][4:]))
         
+        #dictionary created for visit ID and min day
+        studyTime = dict(zip(PLANNED_VISIT.User_Defined_ID, PLANNED_VISIT.Min_Start_Day))
+
         total_len = 0
         biosampleID = []
         experimentID = []
@@ -643,9 +647,11 @@ def create_full(PMID):
         subjectID = []
         plannedVisitID = []
         bioSampleType = []
-        StudyTimeCollected = []
+        studyTimeCollected = []
         experimentName = []
         experimentDescription = [] 
+        bioSampleCollectPoint = []
+
 
         for i in range(len(EXPERIMENTS.Assay_Type)):
             
@@ -658,14 +664,16 @@ def create_full(PMID):
             
             biosampleID += [f'PMID{PMID}_biosampleID-0{i+1}']*subLen
             experimentID += [f'PMID{PMID}_experimentID-0{i+1}']*subLen
-            plannedVisitID += [min(EXPERIMENTS.Biospecimen_Type[i+1].split(" I "))]*subLen
+            plannedVisitID += [min(EXPERIMENTS.Associated_Planned_Visit_ID[i+1].split(" I "))]*subLen
             experimentDescription += [EXPERIMENTS.Experiment_Name[i+1]]*subLen
             experimentName += [EXPERIMENTS.Assay_Type[i+1]]*subLen
-            studyTimeCollected += [studyTime.get(min([EXPERIMENTS.Biospecimen_Type[i+1]]))]*subLen
+            # print(min(EXPERIMENTS.Associated_Planned_Visit_ID[i+1].split(" I ")))
+            studyTimeCollected += [studyTime.get(plannedVisitID[0].strip())]*subLen
+            bioSampleCollectPoint += [EXPERIMENTS.Biospecimen_Collection_Point[i+1]]*subLen
             
                 
-            if EXPERIMENTS.SARS_CoV_2_Antigen[i+1]:
-                reagentID += [f'PMID{PMID}_biosampleID-0{i+1}']*subLen
+            if EXPERIMENTS.SARS_CoV_2_Antigen[i+1] not in clean_other:
+                reagentID += [f'PMID{PMID}_reagentID-0{i+1}']*subLen
             else:
                 reagentID += ['no_reagents']*subLen
             
@@ -689,10 +697,15 @@ def create_full(PMID):
             subjectID += total_arms#these are variable
             bioSampleType += total_sample #these are variable
             
+            total_len += subLen
 
-        total_len += subLen
         empty = ['']*total_len
 
+        # print(len([descriptions.get(k) for i, k in enumerate(experimentName)]))
+        # print(len([f'PMID{PMID}_expSample-0{n+1}' for n in range(total_len)]))
+        # print(len(empty), len(biosampleID), len(experimentID), len(reagentID))
+
+        
         experimentSamples_df = pd.DataFrame({
             'Column Name':empty,
             'Expsample ID':[f'PMID{PMID}_expSample-0{n+1}' for n in range(total_len)],
@@ -705,7 +718,7 @@ def create_full(PMID):
             'Expsample Description':[descriptions.get(k) for i, k in enumerate(experimentName)],
             'Additional Result File Names':empty,
             'Study ID':[STUDY.Study_Identifier]*total_len,
-            'Protocol ID(s)':[STUDY.Protocol_ID[1]]*total_len,
+            'Protocol ID(s)':[PROTOCOLS.Protocol_ID[1]]*total_len,
             'Subject ID':subjectID,
             'Planned Visit ID':plannedVisitID,
             'Type':bioSampleType,
@@ -715,7 +728,7 @@ def create_full(PMID):
             'Study Time Collected':studyTimeCollected,
             'Study Time Collected Unit':['Days']*total_len,
             'Study Time T0 Event':['Other']*total_len,
-            'Study Time T0 Event Specify':StudyTimeCollected,
+            'Study Time T0 Event Specify':bioSampleCollectPoint,
             'Experiment Name':experimentName,
             'Experiment Description':experimentDescription, # This should be Experiment Name 
             'Measurement Technique':experimentName
@@ -735,43 +748,46 @@ def create_full(PMID):
                            sep = '\t')
 
 
-
     #########################################
     #############   REAGENT   ###############
     #########################################
     # This is creating the template even if it is filled with the defaults
 
+    reagentsIndex = []
+    for i, k in enumerate(EXPERIMENTS.SARS_CoV_2_Antigen):
+        if k not in clean_other:
+            reagentsIndex.append(i+1)
 
-  
-    NumReagents = len(EXPERIMENTS.SARS_CoV_2_Antigen)
-    empty = [''] * NumReagents
+    if len(reagentsIndex) > 0: 
 
-    reagent_df = pd.DataFrame({
-        'Column Name': empty,
-        'User Defined ID': [f'PMID{PMID}_reagent-0{n+1}' for n in range(NumReagents)], #create
-        'Name': EXPERIMENTS.SARS_CoV_2_Antigen,
-        'Description': EXPERIMENTS.Assay_Use,
-        'Manufacturer': EXPERIMENTS.Manufacturer,
-        'Catalog Number': EXPERIMENTS.Catalog,
-        'Lot Number': empty,
-        'Weblink': empty,
-        'Contact': empty
+        empty = [''] * len(reagentsIndex)
 
-    })
+        reagent_df = pd.DataFrame({
+            'Column Name': empty,
+            'User Defined ID': [f'PMID{PMID}_reagentID-0{n+1}' for n in range(len(reagentsIndex))], #create
+            'Name': EXPERIMENTS.SARS_CoV_2_Antigen[reagentsIndex],
+            'Description': EXPERIMENTS.Assay_Use[reagentsIndex],
+            'Manufacturer': EXPERIMENTS.Manufacturer[reagentsIndex],
+            'Catalog Number': EXPERIMENTS.Catalog[reagentsIndex],
+            'Lot Number': empty,
+            'Weblink': empty,
+            'Contact': empty
 
-    # loading experiment template and removing excess rows and columns
-    reagent_ws = load_workbook(PATH_reagent)['reagents.Other.txt']
-    reagent_ws = seroFxn.remove_excess(reagent_ws)
+        })
 
-    # adding df to bottom of ws
-    seroFxn.add_df(reagent_ws, reagent_df, add_header = False)
-    reagent_df = pd.DataFrame(reagent_ws.values).replace({None: '', 'None': ''})
+        # loading experiment template and removing excess rows and columns
+        reagent_ws = load_workbook(PATH_reagent)['reagents.Other.txt']
+        reagent_ws = seroFxn.remove_excess(reagent_ws)
 
-    # saving df
-    reagent_df.to_csv(os.path.join(OUT_DIR,f'{REAGENT_TEMPLATE}.txt'),
-                       header = False, 
-                       index = False,
-                       sep = '\t')
+        # adding df to bottom of ws
+        seroFxn.add_df(reagent_ws, reagent_df, add_header = False)
+        reagent_df = pd.DataFrame(reagent_ws.values).replace({None: '', 'None': ''})
+
+        # saving df
+        reagent_df.to_csv(os.path.join(OUT_DIR,f'{REAGENT_TEMPLATE}.txt'),
+                           header = False, 
+                           index = False,
+                           sep = '\t')
 
 
 
