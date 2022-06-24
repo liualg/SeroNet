@@ -5,6 +5,7 @@
 This script is compatibale with Registry Version v.1.2.3 + 
     - Please look at other template 
     - Added '*' to SARS-CoV-2 Antigen* (row 163, column B)
+    - Title in study => SeroNet Title In Study
 
 
 '''
@@ -193,7 +194,7 @@ def create_full(PMID):
                 df['Organization'],
                 df['ORCID ID'],
                 df['Email'],
-                df['Title In Study'],
+                df['SeroNet Title In Study'],
                 df['Role In Study'],
                 df['Site Name']
             )

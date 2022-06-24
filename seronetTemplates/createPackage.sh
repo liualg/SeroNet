@@ -10,15 +10,16 @@ cp ./seronetDataclass.py ./Package/seronetDataclass.py
 cp ./seronetFunctions.py ./Package/seronetFunctions.py
 
 # SeroNET
-cp ./Registry2ImmPort_fullv1.1.0.py ./Package/Registry2ImmPort_fullv1.1.0.py
-cp ./Registry2ImmPort_fullv1.2.0.py ./Package/Registry2ImmPort_fullv1.2.0.py
+cp ./Registry2ImmPort_full.py ./Package/Registry2ImmPort_full.py
+cp ./Registry2ImmPort_full.py ./Package/Registry2ImmPort_full.py
 cp ./Registry2ImmPort_basic.py ./Package/Registry2ImmPort_basic.py
 cp ./createTemplates.py ./Package/createTemplates.py
 cp ./instructions.txt ./Package/instructions.txt
 cp ./1_0000_SeroNet_Diagram-3x4.jpg ./Package/1_0000_SeroNet_Diagram-3x4.jpg
+cp ./README.txt ./Package/README.txt
 pipreqs ./Package/
 
-zip -r ./Package_v1.2.zip ./Package
+zip -r ./Package_v1.2.3.zip ./Package
 rm -r ./Package
 
 
