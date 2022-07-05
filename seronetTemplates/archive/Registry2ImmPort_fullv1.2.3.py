@@ -2,7 +2,7 @@
 # coding: utf-8
 
 '''
-This script is compatibale with Registry Version v.1.2.3 - 1.2.4
+This script is compatibale with Registry Version v.1.2.3 + 
     - Please look at other template 
     - Added '*' to SARS-CoV-2 Antigen* (row 163, column B)
     - Title in study => SeroNet Title In Study
@@ -614,7 +614,7 @@ def create_full(PMID):
 
     # experiments_df
     #########################################
-    ##########  EXPERIMENT SAMPLE   #########
+    ##########  EXPERIMENT sample   ###############
     #########################################
     '''
     # biosample should depend on the Planned Visit 
@@ -652,164 +652,74 @@ def create_full(PMID):
         experimentName = []
         experimentDescription = [] 
         bioSampleCollectPoint = []
-        expSample = []
-        empty = []
 
-        biosampleDict = {}
-        dictiter = 0
 
         for i in range(len(EXPERIMENTS.Assay_Type)):
             
             arms = EXPERIMENTS.Associated_Arm_ID[i+1].split(" I ")
             assay = EXPERIMENTS.Assay_Type[i+1].split(" I ") #this should always be 1
             sample = EXPERIMENTS.Biospecimen_Type[i+1].split(" I ")
-            pvID = EXPERIMENTS.Associated_Planned_Visit_ID[i+1].split(" I ")
-
-            #creating a minidictionary to match the biosample IDs correctly 
-            for biosample in sample:
-                if biosample not in biosampleDict.keys():
-                    biosampleDict[biosample] = f'PMID{PMID}_biosampleID-0{dictiter+1}'
-                    dictiter += 1
-
-
-            total_len= len(arms)*len(sample)*len(pvID) #possible combinations 
             
-            # biosampleID += [f'PMID{PMID}_biosampleID-0{i+1}']*total_len
-            experimentID += [f'PMID{PMID}_experimentID-0{i+1}']*total_len
-            experimentDescription += [EXPERIMENTS.Experiment_Name[i+1]]*total_len
-
-
-            experimentName += [EXPERIMENTS.Assay_Type[i+1]]*int(total_len/len(assay))
-            bioSampleCollectPoint += [EXPERIMENTS.Biospecimen_Collection_Point[i+1]]*total_len
+            subLen = len(arms) * len(assay) * len(sample) #possible combinations 
+        #     print(subLen)
             
-            # Only with 2 versions
-            # if EXPERIMENTS.SARS_CoV_2_Antigen[i+1] not in clean_other:
-            #     reagentID += [f'PMID{PMID}_reagentID-0{i+1}']*subLen
-            # else:
-            #     reagentID += ['no_reagents']*subLen
+            biosampleID += [f'PMID{PMID}_biosampleID-0{i+1}']*subLen
+            experimentID += [f'PMID{PMID}_experimentID-0{i+1}']*subLen
+            plannedVisitID += [min(EXPERIMENTS.Associated_Planned_Visit_ID[i+1].split(" I "))]*subLen
+            experimentDescription += [EXPERIMENTS.Experiment_Name[i+1]]*subLen
+            experimentName += [EXPERIMENTS.Assay_Type[i+1]]*subLen
+            # print(min(EXPERIMENTS.Associated_Planned_Visit_ID[i+1].split(" I ")))
+            studyTimeCollected += [studyTime.get(plannedVisitID[0].strip())]*subLen
+            bioSampleCollectPoint += [EXPERIMENTS.Biospecimen_Collection_Point[i+1]]*subLen
             
-            # if len(arms) > 1 and len(sample) > 1:
-            #     total_arms = arms*len(sample)
-            #     total_sample = sample*len(arms)
                 
-            # elif len(arms) > 1 and len(sample) == 1:
-            #     total_arms = arms
-            #     total_sample = sample*len(arms)
-                
-            # elif len(arms) == 1 and len(sample) > 1:
-            #     total_arms = arms*len(sample)
-            #     total_sample = sample
-            # else:
-            #     total_arms = arms
-            #     total_sample = sample
-            
-            # The idea behind sorting would be to create a unifrom distribution of total arms and samples 
-            # for the input we get. Ie. 
-            # 1 2 3 1 2 3 1 2 3 [arms] (unsorted)
-            # a b c a b c a b c [samples] (unsorted)
-
-            # 1 2 3 1 2 3 1 2 3 [arms] (unsorted)
-            # a a a b b b c c c [samples] (sorted) -- giving all permutations 
-
-            # BUT, now I need to add multiple Planned Visit IDs ....
-            # --- logic easy (should have 3)
-            # 1 [arm]
-            # 1 [sample]
-            # 1 2 3 [planned visit IDs]
-
-            # 1 [arm]                1 [arm]                1 [arm]        
-            # 1 [sample]             1 [sample]             1 [sample]
-            # 1 [planned visit IDs]  2 [planned visit IDs]  3 [planned visit IDs]
-
-            # --- logic harder (should have 6)
-            # 1 2 [arm]
-            # 1 [sample]
-            # 1 2 3 [planned visit IDs]
-
-            # 1 [arm]                1 [arm]                1 [arm]                2 [arm]                2 [arm]                2 [arm]       
-            # 1 [sample]             1 [sample]             1 [sample]             1 [sample]             1 [sample]             1 [sample]
-            # 1 [planned visit IDs]  2 [planned visit IDs]  3 [planned visit IDs]  1 [planned visit IDs]  2 [planned visit IDs]  3 [planned visit IDs]
-
-
-            # --- logic hardest (should have 12)
-            # 1 2 [arm]
-            # 1 2 [sample]
-            # 1 2 3 [planned visit IDs]
-
-            # 1 [arm]                1 [arm]                1 [arm]                2 [arm]                2 [arm]                2 [arm]       
-            # 1 [sample]             1 [sample]             1 [sample]             1 [sample]             1 [sample]             1 [sample]
-            # 1 [planned visit IDs]  2 [planned visit IDs]  3 [planned visit IDs]  1 [planned visit IDs]  2 [planned visit IDs]  3 [planned visit IDs]
-
-            # 1 [arm]                1 [arm]                1 [arm]                2 [arm]                2 [arm]                2 [arm]       
-            # 2 [sample]             2 [sample]             2 [sample]             2 [sample]             2 [sample]             2 [sample]
-            # 1 [planned visit IDs]  2 [planned visit IDs]  3 [planned visit IDs]  1 [planned visit IDs]  2 [planned visit IDs]  3 [planned visit IDs]
-
-            # seems like I can keep the same logic. It should be:
-            # 1 field times the other field, and then there is one filed that is exluded 
-            
             if EXPERIMENTS.SARS_CoV_2_Antigen[i+1] not in clean_other:
-                reagentID += [f'PMID{PMID}_reagentID-0{i+1}']*total_len
+                reagentID += [f'PMID{PMID}_reagentID-0{i+1}']*subLen
             else:
-                reagentID += ['no_reagents']*total_len
+                reagentID += ['no_reagents']*subLen
             
-            
-            # print(arms)
-            # print(total_len)
-            # print(total_len/len(arms))
-            total_arms = arms*int(total_len/len(arms))
-            total_sample = sample*int(total_len/len(sample))
-            total_pvID = pvID*int(total_len/len(pvID)
-            )
-            if len(arms) > 1:
-                total_arms.sort()
-            elif len(sample) > 1:
-                total_sample.sort()
+            if len(arms) > 1 and len(sample) > 1:
+                total_arms = arms*len(sample)
+                total_sample = sample*len(arms)
+                
+            elif len(arms) > 1 and len(sample) == 1:
+                total_arms = arms
+                total_sample = sample*len(arms)
+                
+            elif len(arms) == 1 and len(sample) > 1:
+                total_arms = arms*len(sample)
+                total_sample = sample
             else:
-                total_pvID.sort()
-
-
-
-
-
+                total_arms = arms
+                total_sample = sample
+                
             total_arms.sort()
             
-            subjectID += total_arms # these are variable
+            subjectID += total_arms#these are variable
             bioSampleType += total_sample #these are variable
-            plannedVisitID += total_pvID
-
-
-            # print(total_len)
-            # print('experimentName', len([descriptions.get(k) for i, k in enumerate(experimentName)]))
-            # print('_expSample', len(expSample))
-            # # print('empty', len(empty))
-            # print('biosampleID', len(biosampleID),'experimentID', len(experimentID),'reagentID', len(reagentID))
-
-
             
+            total_len += subLen
 
+        empty = ['']*total_len
 
-            empty += ['']*total_len
-        # print(total_len)
-        # print('experimentName', len([descriptions.get(k) for i, k in enumerate(experimentName)]))
-        # print('_expSample', len(expSample))
-        # print('empty', len(empty))
-        # print('biosampleID', len(biosampleID),'experimentID', len(experimentID),'reagentID', len(reagentID))
-        studyTimeCollected = [studyTime.get(visit_day.strip()) for visit_day in plannedVisitID]
-        fillLen=len(empty)
+        # print(len([descriptions.get(k) for i, k in enumerate(experimentName)]))
+        # print(len([f'PMID{PMID}_expSample-0{n+1}' for n in range(total_len)]))
+        # print(len(empty), len(biosampleID), len(experimentID), len(reagentID))
 
+        
         experimentSamples_df = pd.DataFrame({
             'Column Name':empty,
-            'Expsample ID': [f'PMID{PMID}_expSample-0{n+1}' for n in range(fillLen)],
-            'Biosample ID': [biosampleDict.get(k) for k in bioSampleType],
+            'Expsample ID':[f'PMID{PMID}_expSample-0{n+1}' for n in range(total_len)],
+            'Biosample ID':biosampleID,
             'Experiment ID':experimentID,
             'Reagent ID(s)':reagentID,
-            'Treatment ID(s)':['no_sars-cov-2_treatments']*fillLen,
-            'Result File Name':['resultsNotCurated.txt'] * fillLen,
+            'Treatment ID(s)':['no_sars-cov-2_treatments']*total_len,
+            'Result File Name':['resultsNotCurated.txt'] * total_len,
             'Expsample Name':empty,
             'Expsample Description':[descriptions.get(k) for i, k in enumerate(experimentName)],
             'Additional Result File Names':empty,
-            'Study ID':[STUDY.Study_Identifier]*fillLen,
-            'Protocol ID(s)':[PROTOCOLS.Protocol_ID[1]]*fillLen,
+            'Study ID':[STUDY.Study_Identifier]*total_len,
+            'Protocol ID(s)':[PROTOCOLS.Protocol_ID[1]]*total_len,
             'Subject ID':subjectID,
             'Planned Visit ID':plannedVisitID,
             'Type':bioSampleType,
@@ -817,8 +727,8 @@ def create_full(PMID):
             'Biosample Name':empty,
             'Biosample Description':empty,
             'Study Time Collected':studyTimeCollected,
-            'Study Time Collected Unit':['Days']*fillLen,
-            'Study Time T0 Event':['Other']*fillLen,
+            'Study Time Collected Unit':['Days']*total_len,
+            'Study Time T0 Event':['Other']*total_len,
             'Study Time T0 Event Specify':bioSampleCollectPoint,
             'Experiment Name':experimentName,
             'Experiment Description':experimentDescription, # This should be Experiment Name 

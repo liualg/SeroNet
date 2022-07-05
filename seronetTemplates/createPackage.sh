@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# v1.1.0 => Package.zipac
+# v1.1.0 => Package.zip
 # v1.2.0 => Package_v1.2.zip
  #getting new requirements
 
@@ -18,6 +18,7 @@ cp ./instructions.txt ./Package/instructions.txt
 cp ./1_0000_SeroNet_Diagram-3x4.jpg ./Package/1_0000_SeroNet_Diagram-3x4.jpg
 cp ./README.txt ./Package/README.txt
 pipreqs ./Package/
+mv ./Package/requirements.txt ./Package/software.txt
 
 zip -r ./Package_v1.2.3.zip ./Package
 rm -r ./Package
