@@ -17,6 +17,7 @@ import inspect
 import datetime as dt
 from sys import platform
 from glob import glob
+import sys
 
 from tqdm import tqdm
 
@@ -194,7 +195,7 @@ def create_full(PMID):
                 df['Organization'],
                 df['ORCID ID'],
                 df['Email'],
-                df['SeroNet Title In Study'],
+                df['Title In Study'],
                 df['Role In Study'],
                 df['Site Name']
             )
@@ -1019,6 +1020,7 @@ def create_full(PMID):
 
 
     #########################################
+    #########################################
     ######       ASSESSMENT        ##########
     #########################################
 
@@ -1026,93 +1028,114 @@ def create_full(PMID):
     #     - 1 subj with multiple panels -> seperate 
     #     - 1 panel with multiple subject -> 1 row per, long format
     # assesment doc. need to be uploaded one at a time
-    # 
+    # 1 subject per arm, seperated by row
+    # in each file, it is based off of the 'Name Reported [E]'
+    # Same Panel [E] per-file, but you can add on different components in a single file [L]
+    # new file per Panel
 
+    SUBJECT_HUMAN.SARS_CoV_2_Symptoms
     if SUBJECT_HUMAN:
         print("Assays Used")
-        allCovSymtoms = list(SUBJECT_HUMAN.Measured_Behavioral_or_Psychological_Factor) + list(SUBJECT_HUMAN.Measured_Social_Factor) + list(SUBJECT_HUMAN.SARS_CoV_2_Symptoms)
-     
-        NumAssessments = len(SUBJECT_HUMAN.User_Defined_ID)
-        assessmet_type = []
-        status = []
+        
+        
+        @dataclass
+        class sepAssessment:
+            user_ID: list = field(default_factory=list) 
+            assessment_name: list = field(default_factory=list) 
+            assessmet_type: list = field(default_factory=list) 
+            status: list = field(default_factory=list)
+            assessment_component: list = field(default_factory=list) 
 
-        for symptom in list(set(allCovSymtoms)):
-            if symptom:
-                assessment_name = symptom
 
-                for i in range(NumAssessments): ### THIS NEEDS TO BE 1 cell to the right. So the actual vaules 
+        def updateObject(obj,obj2,i,field):
+            obj.user_ID.append(obj2.User_Defined_ID[i])
+            obj.assessment_name.append(field) #Field
+            obj.assessmet_type.append(obj2.Assessment_Clinical_and_Demographic_Data_Provenance[i])
+            obj.status.append(obj2.Assessment_Demographic_Data_Types_Collected[i])
+            
+            if field == "MBPF":
+                obj.assessment_component.append(obj2.Measured_Behavioral_or_Psychological_Factor[i])
+            elif field == "MSF":
+                obj.assessment_component.append(obj2.Measured_Social_Factor[i])
+            elif field == "SCS":
+                obj.assessment_component.append(obj2.SARS_CoV_2_Symptoms[i])
+            else:
+                sys.exit("ERROR:: Undefined field for assessment component")
+                
+                
+        def makeAssessmentDF(obj,obj2,PMIDs,field):
+            empty = ['']*len(obj.user_ID)
+            
+            assessment_df = pd.DataFrame({
+                'Column Name': empty,
+                'Subject ID': obj.user_ID,  
+                'Assessment Panel ID': [f"PMID{PMIDs}assessment_{field}-0{int(i+1)}" for i in range(len(obj.user_ID))],
+                'Study ID': [obj2.Study_Identifier]*len(obj.user_ID),
+                'Name Reported': obj.assessment_name,
+                'Assessment Type': obj.assessmet_type,
+                'Status': obj.status,
+                'CRF File Names': empty,
+                'Result Separator Column': empty,
+                'User Defined ID': obj.user_ID, #
+                'Planned Visit ID': empty, # IM going to make this empty for now PLANNED_VISIT.User_Defined_ID[i],
+                'Name Reported ': obj.assessment_component,
+                'Study Day': ['0']*len(obj.user_ID), # Not sure, we dont capture study day 
+                'Age At Onset Reported': empty,
+                'Age At Onset Unit Reported': empty,
+                'Is Clinically Significant': empty,
+                'Location Of Finding Reported': empty,
+                'Organ Or Body System Reported': empty,
+                'Result Value Reported': 'NA',
+                'Result Unit Reported': empty,
+                'Result Value Category': empty,
+                'Subject Position Reported': empty,
+                'Time Of Day': empty,
+                'Verbatim Question': empty,
+                'Who Is Assessed': empty
+            })
+            
+            return assessment_df
+            
+            
+        MBPF = sepAssessment()
+        MSF = sepAssessment()
+        SCS = sepAssessment()
+        
+        for n, subject in enumerate(SUBJECT_HUMAN.User_Defined_ID):
+            n += 1
+            
+            if SUBJECT_HUMAN.Measured_Behavioral_or_Psychological_Factor[n]:
+                print('Measured Behavioral or Psychological Factor') #MBPF
+                updateObject(MBPF,SUBJECT_HUMAN,n, 'Measured Behavioral or Psychological Factor',)
+                MBPF_df = makeAssessmentDF(SCS,STUDY,PMID,'MBPF')
+                MBPF_df.to_csv(os.path.join(OUT_DIR,f'panel_MBPF.txt'),
+                           header = False,
+                           index = False,
+                           sep = '\t')
+                
+            elif SUBJECT_HUMAN.Measured_Social_Factor[n]:
+                print('Measured_Social_Factor') #MSF
+                updateObject(MSF,SUBJECT_HUMAN,n, 'Measured Social Factor')
+                MSF_df = makeAssessmentDF(SCS,STUDY,PMID,'MSF')
+                MSF_df.to_csv(os.path.join(OUT_DIR,f'panel_MSF.txt'),
+                           header = False,
+                           index = False,
+                           sep = '\t')
+                
+                assessmet_type
+            elif SUBJECT_HUMAN.SARS_CoV_2_Symptoms[n]:
+                print('SARS_CoV_2_Symptoms') #SCS
+                updateObject(SCS,SUBJECT_HUMAN,n,'SARS CoV-2 Symptoms')
+                SCS_df = makeAssessmentDF(SCS,STUDY,PMID,'SCS')
+                SCS_df.to_csv(os.path.join(OUT_DIR,f'panel_SCS.txt'),
+                           header = False,
+                           index = False,
+                           sep = '\t')
+                
+                
+            else:
+                print(f'No assessments found for {subject}')
 
-                    i += 1
-                    if SUBJECT_HUMAN.Measured_Behavioral_or_Psychological_Factor[i] == assessment_name:
-                        # 'Measured Behavioral or Psychological Factor'
-                        assessmet_type.append(SUBJECT_HUMAN.Measured_Behavioral_or_Psychological_Factor[i])
-                        status.append(SUBJECT_HUMAN.Assessment_Demographic_Data_Types_Collected[i])
-                    elif SUBJECT_HUMAN.Measured_Social_Factor[i] == assessment_name:
-                        # 'Measured Social Factor'
-                        assessmet_type.append(SUBJECT_HUMAN.Measured_Social_Factor[i])
-                        status.append(SUBJECT_HUMAN.Assessment_Demographic_Data_Types_Collected[i])
-                    elif SUBJECT_HUMAN.SARS_CoV_2_Symptoms[i] == assessment_name:
-                        # 'SARS-CoV-2 Symptoms'
-                        assessmet_type.append(SUBJECT_HUMAN.SARS_CoV_2_Symptoms[i])
-                        status.append(SUBJECT_HUMAN.Assessment_Demographic_Data_Types_Collected[i])
-                    else:
-                        print('No assessment found')
-
-                empty = ['']*len(assessmet_type) 
-                # need to figure out named report 
-                # not sure where the data goes for the assessments
-
-                assessment_df = pd.DataFrame({
-                    'Column Name': empty,
-                    'Subject ID': [f"PMID{PMID}subject-0{int(i+1)}" for i in range(len(assessmet_type))],  
-                    'Assessment Panel ID': [f"PMID{PMID}assessment_{assessment_name}-0{int(i+1)}" for i in range(len(assessmet_type))],
-                    'Study ID': [STUDY.Study_Identifier]*len(assessmet_type),
-                    'Name Reported': assessment_name,
-                    'Assessment Type': assessmet_type,
-                    'Status': status,
-                    'CRF File Names': empty,
-                    'Result Separator Column': empty,
-                    'User Defined ID': [f"PMID{PMID}assessment-0{int(i+1)}" for i in range(len(assessmet_type))], #
-                    'Planned Visit ID': empty, # IM going to make this empty for now PLANNED_VISIT.User_Defined_ID[i],
-                    'Name Reported ': [f"component_{assessment_name}"]*len(assessmet_type), # space might not work
-                    'Study Day': i-1, # Not sure, we dont capture study day 
-                    'Age At Onset Reported': empty,
-                    'Age At Onset Unit Reported': empty,
-                    'Is Clinically Significant': empty,
-                    'Location Of Finding Reported': empty,
-                    'Organ Or Body System Reported': empty,
-                    'Result Value Reported': 'NA',
-                    'Result Unit Reported': empty,
-                    'Result Value Category': empty,
-                    'Subject Position Reported': empty,
-                    'Time Of Day': empty,
-                    'Verbatim Question': empty,
-                    'Who Is Assessed': empty
-                })
-
-                # loading experiment template and removing excess rows and columns
-                assessment_ws = load_workbook(PATH_assessment)['assessments.txt']
-                assessment_ws = seroFxn.remove_excess(assessment_ws)
-
-                # adding df to bottom of ws
-                seroFxn.add_df(assessment_ws, assessment_df, add_header = False)
-                assessment_df = pd.DataFrame(assessment_ws.values).replace({None: '', 'None': ''})
-            #     assessment_df.rename(columns=lambda x: x.strip())
-        #         print(assessment_df)
-                    # saving file
-
-                if len(assessment_name) < 7:
-                    outname = assessment_name
-                if len(assessment_name) > 44:
-                    outname = "combined"
-                else:
-                    outname = assessment_name[3:6]
-
-                assessment_df.to_csv(os.path.join(OUT_DIR,f'panel_{outname}_{ASSESSMENT_TEMPLATE}.txt'),
-                                   header = False, 
-                                   index = False,
-                                   sep = '\t')
-                # #     print(assessment_df.head())
     else:
         print("No Human Subjects: assessments not recorded")
 
