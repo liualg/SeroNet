@@ -6,7 +6,7 @@ This script is compatibale with Registry Version v.1.1.0
 This script is compatibale with Registry Version v.1.2.2
     - Please look at other template 
     - Added '*' to SARS-CoV-2 Antigen* (row 163, column B)
-This script is compatibale with Registry Version v.1.2.3
+This script is compatibale with Registry Version v.1.2.5
 
 '''
 

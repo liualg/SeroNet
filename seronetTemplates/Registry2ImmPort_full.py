@@ -2,10 +2,9 @@
 # coding: utf-8
 
 '''
-This script is compatibale with Registry Version v.1.2.3 - 1.2.4
+This script is compatibale with Registry Version v.1.2.3 - 1.2.5
     - Please look at other template 
     - Added '*' to SARS-CoV-2 Antigen* (row 163, column B)
-    - Title in study => SeroNet Title In Study
 
 
 '''
