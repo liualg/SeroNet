@@ -89,7 +89,7 @@ def create_full(PMID):
     PATH_assessment = os.path.join("template", "assessments.xlsx")
     PATH_subject_human = os.path.join("template", "subjectHumans.xlsx")
     PATH_subject_organism = os.path.join("template", "subjectAnimals.xlsx")
-    PATH_experiment_sample = os.path.join("template", "experimentSamples.xlsx")
+    PATH_experiment_sample = os.path.join("template", "experimentSamples.Other.xlsx")
 
 
     # Automate output... 
@@ -194,7 +194,7 @@ def create_full(PMID):
                 df['Organization'],
                 df['ORCID ID'],
                 df['Email'],
-                df['Title In Study'],
+                df['SeroNet Title In Study'],
                 df['Role In Study'],
                 df['Site Name']
             )
@@ -628,7 +628,7 @@ def create_full(PMID):
 
     # Treatment ID should be "no_sars-cov-2_treatments"
 
-    # Result File Name: resultsNotCurated.txt
+    # Result File Name: resultsNotCurated.txt => pointerToExperimentalData.txt
 
     # StudyTimeCollected should link back to the planned_visit.User_Defined_ID + planned_visit.Min_Start_Day
     '''
@@ -804,7 +804,7 @@ def create_full(PMID):
             'Experiment ID':experimentID,
             'Reagent ID(s)':reagentID,
             'Treatment ID(s)':['no_sars-cov-2_treatments']*fillLen,
-            'Result File Name':['resultsNotCurated.txt'] * fillLen,
+            'Result File Name':['pointerToExperimentalData.txt'] * fillLen,
             'Expsample Name':empty,
             'Expsample Description':[descriptions.get(k) for i, k in enumerate(experimentName)],
             'Additional Result File Names':empty,
@@ -1052,20 +1052,22 @@ def create_full(PMID):
             obj.assessmet_type.append(obj2.Assessment_Clinical_and_Demographic_Data_Provenance[i])
             obj.status.append(obj2.Assessment_Demographic_Data_Types_Collected[i])
             
-            if field == "MBPF":
+            if field == "Measured Behavioral or Psychological Factor":
                 obj.assessment_component.append(obj2.Measured_Behavioral_or_Psychological_Factor[i])
-            elif field == "MSF":
+            elif field == "Measured Social Factor":
                 obj.assessment_component.append(obj2.Measured_Social_Factor[i])
-            elif field == "SCS":
+            elif field == "SARS CoV2 Symptoms":
                 obj.assessment_component.append(obj2.SARS_CoV_2_Symptoms[i])
+            elif field == "SARS CoV2 History":
+                obj.assessment_component.append(obj2.SARS_CoV2_History[i])
             else:
                 sys.exit("ERROR:: Undefined field for assessment component")
                 
-                
+            
         def makeAssessmentDF(obj,obj2,PMIDs,field):
             empty = ['']*len(obj.user_ID)
             
-            assessment_df = pd.DataFrame({
+            ASSESSMENT_df = pd.DataFrame({
                 'Column Name': empty,
                 'Subject ID': obj.user_ID,  
                 'Assessment Panel ID': [f"PMID{PMIDs}assessment_{field}-0{int(i+1)}" for i in range(len(obj.user_ID))],
@@ -1093,40 +1095,61 @@ def create_full(PMID):
                 'Who Is Assessed': empty
             })
             
-            return assessment_df
+            assessment_ws = load_workbook(PATH_assessment)['assessments.txt']
+            assessment_ws = seroFxn.remove_excess(assessment_ws)
+
+            # adding df to bottom of ws
+            seroFxn.add_df(assessment_ws, ASSESSMENT_df, add_header = False)
+            ASSESSMENT_df = pd.DataFrame(assessment_ws.values).replace({None: '', 'None': ''})
+            
+            return ASSESSMENT_df
             
             
         MBPF = sepAssessment()
         MSF = sepAssessment()
         SCS = sepAssessment()
+        SCH = sepAssessment()
         
         for n, subject in enumerate(SUBJECT_HUMAN.User_Defined_ID):
             n += 1
             
             if SUBJECT_HUMAN.Measured_Behavioral_or_Psychological_Factor[n]:
                 print('Measured Behavioral or Psychological Factor') #MBPF
-                updateObject(MBPF,SUBJECT_HUMAN,n, 'Measured Behavioral or Psychological Factor',)
+                # updateObject(MBPF,SUBJECT_HUMAN,n, 'MBPF')
+                updateObject(MBPF,SUBJECT_HUMAN,n,'Measured Behavioral or Psychological Factor')
                 MBPF_df = makeAssessmentDF(SCS,STUDY,PMID,'MBPF')
-                MBPF_df.to_csv(os.path.join(OUT_DIR,f'panel_MBPF.txt'),
+                MBPF_df.to_csv(os.path.join(OUT_DIR,f'PMID{PMID}_panel_MBPF.txt'),
                            header = False,
                            index = False,
                            sep = '\t')
                 
             elif SUBJECT_HUMAN.Measured_Social_Factor[n]:
                 print('Measured_Social_Factor') #MSF
+                # updateObject(MSF,SUBJECT_HUMAN,n, 'MSF')
                 updateObject(MSF,SUBJECT_HUMAN,n, 'Measured Social Factor')
                 MSF_df = makeAssessmentDF(SCS,STUDY,PMID,'MSF')
-                MSF_df.to_csv(os.path.join(OUT_DIR,f'panel_MSF.txt'),
+                MSF_df.to_csv(os.path.join(OUT_DIR,f'PMID{PMID}_panel_MSF.txt'),
                            header = False,
                            index = False,
                            sep = '\t')
                 
-                assessmet_type
+                
             elif SUBJECT_HUMAN.SARS_CoV_2_Symptoms[n]:
                 print('SARS_CoV_2_Symptoms') #SCS
-                updateObject(SCS,SUBJECT_HUMAN,n,'SARS CoV-2 Symptoms')
+                # updateObject(SCS,SUBJECT_HUMAN,n,'SCS')
+                updateObject(SCS,SUBJECT_HUMAN,n,'SARS CoV2 Symptoms')
                 SCS_df = makeAssessmentDF(SCS,STUDY,PMID,'SCS')
-                SCS_df.to_csv(os.path.join(OUT_DIR,f'panel_SCS.txt'),
+                SCS_df.to_csv(os.path.join(OUT_DIR,f'PMID{PMID}_panel_SCS.txt'),
+                           header = False,
+                           index = False,
+                           sep = '\t')
+
+            elif SUBJECT_HUMAN.SARS_CoV2_History[n]:
+                print('SARS_CoV2_History') #SCH
+                # updateObject(SCH,SUBJECT_HUMAN,n,'SCH')
+                updateObject(SCH,SUBJECT_HUMAN,n,'SARS CoV2 History')
+                SCH_df = makeAssessmentDF(SCH,STUDY,PMID,'SCH')
+                SCH_df.to_csv(os.path.join(OUT_DIR,f'PMID{PMID}_panel_SCH.txt'),
                            header = False,
                            index = False,
                            sep = '\t')
