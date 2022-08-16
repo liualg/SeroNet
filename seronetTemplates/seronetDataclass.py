@@ -349,12 +349,12 @@ class subject_type_human:
                         sys.exit(f"ERROR:: Error [Subject Human]: Check {field}")
 
             for i, k in enumerate(self.Sex_at_Birth):
-                MoF = ["male | female", "female | male", "female i male", "male i female"]
+                # MoF = ["male | female", "female | male", "female i male", "male i female"]
                 if k is not None:
                     if k.lower().strip() == "n/a":
                         self.Sex_at_Birth[i + 1] = 'Not Specified'
 
-                    if k.lower().strip() in MoF:
+                    if "|" in k.lower().strip() or "i" in k.lower().strip():
                         logging.warning("Changing male | female to other")
                         self.Sex_at_Birth[i + 1] = 'Other'
 
@@ -379,6 +379,27 @@ class subject_type_human:
             #     logging.error("[human AOC]: Check for repeat User Defined IDs")
             #     sys.exit("ERROR:: Error [human AOC]: Check User Defined ID")
 
+            for i, k in enumerate(self.Race):
+                # MoF = ["male | female", "female | male", "female i male", "male i female"]
+                if k is not None:
+                    if k.lower().strip() == "n/a":
+                        self.Race[i + 1] = 'Not Specified'
+
+                    if "|" in k.lower().strip() or "i" in k.lower().strip():
+                        logging.warning("Changing Race to other and moving data to Race Specify")
+                        self.Race[i + 1] = 'Other'
+                        self.Race_Specify[i + 1] = k.lower().strip()
+
+
+            for i, k in enumerate(self.Ethnicity):
+                # MoF = ["male | female", "female | male", "female i male", "male i female"]
+                if k is not None:
+                    if k.lower().strip() == "n/a":
+                        self.Ethnicity[i + 1] = 'Not Specified'
+
+                    if "|" in k.lower().strip() or "i" in k.lower().strip():
+                        logging.warning("Changing Ethnicity to Other")
+                        self.Ethnicity[i + 1] = 'Other'
 
 
 
@@ -474,12 +495,12 @@ class subject_type_mode_organism:
 
             #cells are n/a. Changing to Not Specified. 
             for i, k in enumerate(self.Sex_at_Birth):
-                MoF = ["male | female", "female | male", "female i male", "male i female"]
+                # MoF = ["male | female", "female | male", "female i male", "male i female"]
                 if k is not None:
                     if k.lower().strip() == "n/a":
                         self.Sex_at_Birth[i + 1] = 'Not Specified'
 
-                    if k.lower().strip() in MoF:
+                    if "|" in k.lower().strip() or "i" in k.lower().strip():
                         self.Sex_at_Birth[i + 1] = 'Other'
 
             # changing SeroNet terms to ImmPort specific terms 
@@ -647,6 +668,10 @@ class experiments:
             if k not in VARS_TO_CLEAN:
                 self.Biospecimen_Type[i + 1] = k.replace("|","I")
 
+        ## adding a part that adds no_reagent to the field if it is empty
+        for i, k in enumerate(self.Assay_Use):
+                if k == None or k == '' and self.SARS_CoV_2_Antigen[i + 1] == 'n/a':
+                    self.Assay_Use[i + 1] = 'no_reagents'
 
 
 @dataclass

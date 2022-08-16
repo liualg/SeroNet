@@ -90,10 +90,11 @@ def create_full(PMID):
     PATH_subject_human = os.path.join("template", "subjectHumans.xlsx")
     PATH_subject_organism = os.path.join("template", "subjectAnimals.xlsx")
     PATH_experiment_sample = os.path.join("template", "experimentSamples.Other.xlsx")
+    PATH_treatment = os.path.join("template", "treatments.xlsx")
 
 
     # Automate output... 
-    OUT_DIR = os.path.join(BASE_DIR, 'ImmPort_templates') 
+    OUT_DIR = os.path.join(BASE_DIR, 'ImmPort_templates-DR45') 
     # OUT_DIR = './33184236_test/'
     PATH_pmid_basic_stdy_template = f'PMID{PMID}_study.xlsx'
 
@@ -105,6 +106,7 @@ def create_full(PMID):
     SUBJ_HUMAN_TEMPLATE =  f'PMID{PMID}_subject_human'
     SUBJ_ORGANISM_TEMPLATE =  f'PMID{PMID}_subject_organism'
     EXPERIMENT_SAMPLES_TEMPLATE = f'PMID{PMID}_experiment_samples'
+    TREATMENT_TEMPALTE = f'PMID{PMID}_treatment'
 
     # Make Dir if it does not exist
     try:
@@ -650,7 +652,7 @@ def create_full(PMID):
         bioSampleType = []
         studyTimeCollected = []
         experimentName = []
-        experimentDescription = [] 
+        experimentReportingFormat = [] 
         bioSampleCollectPoint = []
         expSample = []
         empty = []
@@ -676,7 +678,7 @@ def create_full(PMID):
             
             # biosampleID += [f'PMID{PMID}_biosampleID-0{i+1}']*total_len
             experimentID += [f'PMID{PMID}_experimentID-0{i+1}']*total_len
-            experimentDescription += [EXPERIMENTS.Experiment_Name[i+1]]*total_len
+            experimentReportingFormat += [EXPERIMENTS.Reporting_Format[i+1]]*total_len
 
 
             experimentName += [EXPERIMENTS.Assay_Type[i+1]]*int(total_len/len(assay))
@@ -821,7 +823,7 @@ def create_full(PMID):
             'Study Time T0 Event':['Other']*fillLen,
             'Study Time T0 Event Specify':bioSampleCollectPoint,
             'Experiment Name':experimentName,
-            'Experiment Description':experimentDescription, # This should be Experiment Name 
+            'Experiment Description':experimentReportingFormat, # This should be Experiment Name 
             'Measurement Technique':experimentName
         })
 
@@ -1032,9 +1034,12 @@ def create_full(PMID):
     # Same Panel [E] per-file, but you can add on different components in a single file [L]
     # new file per Panel
 
+    # if Assessment is used, we create a treatment template to link to the assessments
+
     SUBJECT_HUMAN.SARS_CoV_2_Symptoms
     if SUBJECT_HUMAN:
         print("Assays Used")
+
         
         
         @dataclass
@@ -1162,9 +1167,9 @@ def create_full(PMID):
         print("No Human Subjects: assessments not recorded")
 
 
-    #########################################
-    #####    POST: copy log to folder   #####
-    #########################################
+    #######################################################
+    #####    POST: copy log + other files to folder   #####
+    #######################################################
 
     CD = os.getcwd()
     today = dt.datetime.today().strftime('%Y_%m_%d')
@@ -1177,4 +1182,6 @@ def create_full(PMID):
         pass
 
     shutil.copyfile(os.path.join(CD,"log",f"Registry_{today}.log"), os.path.join(CD,BASE_DIR,"log",f"Registry_{today}.log"))
+    shutil.copyfile(os.path.join(CD,"template","xImmPortFillerDocuments","pointerToExperimentalData.txt"), os.path.join(OUT_DIR,"pointerToExperimentalData.txt"))
+
     os.remove(PATH_pmid_basic_stdy_template)
