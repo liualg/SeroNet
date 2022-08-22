@@ -44,13 +44,13 @@ entry1.place(x = CANVAS_W/2 - 90, y = CANVAS_H - 75)
 
 
 
-def runFullCuration():
+def runFullCuration(multiple=False):
    x1 = entry1.get()
    print(f"Doing Full Curation for: {x1}")
    root.destroy()
    create_full(x1.strip())
 
-def runBasicCuration():
+def runBasicCuration(multiple=False):
    x1 = entry1.get()
    print(f"Doing Basic Curation for: {x1}")
    root.destroy()
@@ -60,6 +60,18 @@ def onclick(event):
    runFullCuration()
    
 borderColor = "White"
+
+
+CheckVar1 = tk.BooleanVar()
+# print(CheckVar1)
+C1 = tk.Checkbutton(root, text = "Multiple", variable = CheckVar1,
+   highlightcolor=borderColor, 
+   highlightbackground=borderColor,
+   bg = borderColor,
+   bd =  1, 
+   onvalue = 1, offvalue = 0, height=2,
+   width = 10)
+# print(CheckVar1)
     
 button1 = tk.Button(text='Full Curation', command=runFullCuration, fg = 'Black',
                       bg = '#001d26',
@@ -79,8 +91,15 @@ button2 = tk.Button(text='Basic Curation', command=runBasicCuration,fg = 'Black'
                       highlightbackground=borderColor, 
                       borderwidth=4)
 
+
+
+
 canvas1.create_window(100, 140, window=button2)
 button2.place(x=CANVAS_W/2-130, y=CANVAS_H-50)
+
+
+
+C1.place(x=CANVAS_W/2+128, y=CANVAS_H-49)
 
 root.bind('<Return>', onclick)
 

@@ -113,14 +113,19 @@ def get_vaccine(arrays, VARS_TO_CLEAN):
                     vaccine_type.append(vaccines_per_sub)
                     vaccine_name.append(vaccines_per_sub)
         except:
+            # print('############')
+            # print(arrays)
             for i in arrays:
-                if i.lower().strip() == "sputnik v" or i.lower().strip() == "other" or i.lower().strip() == "n/a":
-                    vaccine_name = i
-                    vaccine_type = i
+                # print('############')
+                # print(i)
+                if i.lower().strip() == "other" or i.lower().strip() == "n/a":
+                    vaccine_name.append(i.lower().strip())
+                    vaccine_type.append(i.lower().strip())
 
                 else:
-                    vaccine_name = [i.split('; ')[1] for i in arrays]
-                    vaccine_type = [i.split('; ')[0] for i in arrays]
+                    # print(i.split(';'))
+                    vaccine_name.append(i.strip().split(';')[0])
+                    vaccine_type.append(i.strip().split(';')[1])
     else:
         vaccine_name = empty
         vaccine_type = empty
@@ -151,6 +156,18 @@ def capitalize_proper(original_str, filler_words):
     else:
         return result
 
+
+def replace_delimiter(original_str, new_delimiter = " | "):
+    # print(original_str)
+    if isinstance(original_str, list):
+        for i, k in enumerate(original_str):
+            # print("########## ASdAS")
+            # print(i,k)
+            original_str[i] = k.replace(" I ", new_delimiter).replace(" i ", new_delimiter).replace(",", new_delimiter).replace(";", new_delimiter).replace(".", "").replace("  ", " ")
+    else:
+        original_str = original_str.replace(" I ", new_delimiter).replace(" i ", new_delimiter).replace(",", new_delimiter).replace(";", new_delimiter).replace(".", "").replace("  ", " ")
+
+    return original_str 
 #################  Adding sections back to dataframes  ##################
 
 def add_df(ws, input_df_class, add_header = True, stagger = 0):

@@ -1,0 +1,54 @@
+	REAGENT_ACCESSION	ANALYTE_PREFERRED	ANALYTE_REPORTED	ANTIBODY_REGISTRY_ID	CATALOG_NUMBER	CLONE_NAME	CONTACT	DESCRIPTION	IS_SET	LOT_NUMBER	MANUFACTURER	NAME	REPORTER_NAME	TYPE	UPLOAD_TICKET_NUMBER	USER_DEFINED_ID	WEBLINK	WORKSPACE_ID	DATE_CREATED	CREATED_BY	DATE_LAST_UPDATED	LAST_UPDATED_BY
+0	ESR29838				Full Length Spike Trimer			Full Length Spike Trimer	N		Full Length Spike Trimer	Full Length Spike Trimer		Other	aleliu_20220817_33720	PMID35504289_reagentID-01		6661	2022-08-17 14:23:10.0	aleliu	2022-08-17 14:23:10.0	aleliu
+1	ESR29839				na			Reagents not curated for this experiment	N		na	Reagents not curated		Other	aleliu_20220817_33720	PMID35504289_reagents_not_curated		6661	2022-08-17 14:23:10.0	aleliu	2022-08-17 14:23:10.0	aleliu
+2	ESR26226				Cat#MS-102-2003, Cat#MS-102-3003, Cat#MS-102-3001				N		Illumina			Sequencing	heschaefer_20210415_28453	PMID32941787_Illumina MiSeq		6661	2021-04-15 12:05:05.0	heschaefer	2021-04-15 12:05:05.0	heschaefer
+3	ESR26230		Antibodies					antigens: RBD, S1, and N proteins isolated from expression vectors in Expi293F cells, HEK293 cells, and E. coli, respectively	N		collaborating labs	Plate96w coated RBD_S1_N		ELISA	Zhiping.gu_20210426_28532	plate96w_RBD_S1_N		6661	2021-04-26 15:20:05.0	Zhiping.gu	2021-04-26 15:20:05.0	Zhiping.gu
+4	ESR26231		Human IgGγ		62-8420			horseradish peroxidase conjugated goat anti-human IgG (γ-chain specific), 1:6,000 dilution	N		Thermo Fisher	HRP_antiHum_IgG		ELISA	Zhiping.gu_20210426_28532	HRP_antiHum_IgG		6661	2021-04-26 15:20:05.0	Zhiping.gu	2021-04-26 15:20:05.0	Zhiping.gu
+5	ESR26232		Human IgMμ		A6907			horseradish peroxidase conjugated goat anti-human IgM (μ-chain specific), 1:6,000 dilution	N		Sigma	HRP_antiHum_IgM		ELISA	Zhiping.gu_20210426_28532	HRP_antiHum_IgM		6661	2021-04-26 15:20:05.0	Zhiping.gu	2021-04-26 15:20:05.0	Zhiping.gu
+6	ESR26233		Human IgAα		P0216			horseradish peroxidase conjugated goat anti-human IgA (α-chain specific), 1:5,000 dilution	N		Agilent	HRP_antiHum_IgA		ELISA	Zhiping.gu_20210426_28532	HRP_antiHum_IgA		6661	2021-04-26 15:20:05.0	Zhiping.gu	2021-04-26 15:20:05.0	Zhiping.gu
+7	ESR26234		RBD					ACE2 (residues 1-615) joined by a (G4S)x2 linker to mouse IgG2a Fc under CMV promoter expressed in HEK293 cells	N		the lab	ACE2-mFc protein		ELISA	Zhiping.gu_20210426_28532	ACE2-mFc		6661	2021-04-26 15:20:05.0	Zhiping.gu	2021-04-26 15:20:05.0	Zhiping.gu
+8	ESR26235		mouse IgG (Fc )		31439			horseradish peroxidase conjugated goat anti-mouse IgG (Fc specific), 1:10’000 dilution	N		Invitrogen	HRP_antiMus_IgG		ELISA	Zhiping.gu_20210426_28532	HRP_antiMus_IgG		6661	2021-04-26 15:20:05.0	Zhiping.gu	2021-04-26 15:20:05.0	Zhiping.gu
+9	ESR26236				na				N		Qiagen Germantown	Qiagen EZ1 Virus Mini Kit v2.0		PCR	Zhiping.gu_20210426_28532	PCR_sample_prep		6661	2021-04-26 15:20:05.0	Zhiping.gu	2021-04-26 15:20:05.0	Zhiping.gu
+10	ESR26237				na			produced in HEK293T cells by the lentiviral packaging vector (pHAGE_Luc2_IRES_ZsGreen), the SARS-CoV-2 spike (NC_045512), and lentiviral helper plasmids (HDM-Hgpm2, HDM-Tat1b, and pRC-CMV_Rev1b)	N		Lab	SARS-CoV-2 spike pseudotyped lentivirus		Virus Neutralization	Zhiping.gu_20210426_28532	Cov2_Lenti_RVP	https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7457616/	6661	2021-04-26 15:20:05.0	Zhiping.gu	2021-04-26 15:20:05.0	Zhiping.gu
+11	ESR26238				na			a HeLa cell line that stably expressed the cell surface ACE2 receptor	N		Lab	HeLa-ACE2 target cells		Virus Neutralization	Zhiping.gu_20210426_28532	ACE2/HeLa cells	https://science.sciencemag.org/content/369/6506/956	6661	2021-04-26 15:20:05.0	Zhiping.gu	2021-04-26 15:20:05.0	Zhiping.gu
+12	ESR26239				na			BriteLite assay readout solution	N		Perkin Elmer	BriteLite assay readout solution		Virus Neutralization	Zhiping.gu_20210426_28532	Cell_Lysation_buffer		6661	2021-04-26 15:20:05.0	Zhiping.gu	2021-04-26 15:20:05.0	Zhiping.gu
+13	ESR26240							ELISA setup to detect anti-SARS-CoV-2 Spike/RBD/N antibodies in human plasma samples	Y			33288645_ELISA		ELISA	Zhiping.gu_20210426_28532	33288645_ELISA		6661	2021-04-26 15:20:05.0	Zhiping.gu	2021-04-26 15:20:05.0	Zhiping.gu
+14	ESR26241							Competition ELISA to detect antibodies blocking binding of ACE2 to RBD	Y			33288645_compELISA		ELISA	Zhiping.gu_20210426_28532	33288645_comptELISA		6661	2021-04-26 15:20:05.0	Zhiping.gu	2021-04-26 15:20:05.0	Zhiping.gu
+15	ESR26242							Spike SARS-CoV-2 pseudotyped lentiviral neutralization assays	Y			CoV2-Lenti  pseudovirus neutralization assay		Virus Neutralization	Zhiping.gu_20210426_28532	33288645_neutralization		6661	2021-04-26 15:20:05.0	Zhiping.gu	2021-04-26 15:20:05.0	Zhiping.gu
+16	ESR29451								N			Receptor Binding Domain (RBD) | Full Length Spike Trimer		Other	aleliu_20220524_32503	PMID34652783_study_reagent-01		6661	2022-05-24 13:40:11.0	aleliu	2022-05-24 13:40:11.0	aleliu
+17	ESR29452							FDA EUA	N			Receptor Binding Domain (RBD) | S2		Other	aleliu_20220524_32504	PMID34696403_reagent-01		6661	2022-05-24 13:40:18.0	aleliu	2022-05-24 13:40:18.0	aleliu
+18	ESR29453							FDA EUA	N			Receptor Binding Domain (RBD) | S2		Other	aleliu_20220524_32504	PMID34696403_reagent-02		6661	2022-05-24 13:40:18.0	aleliu	2022-05-24 13:40:18.0	aleliu
+19	ESR29454								N			Receptor Binding Domain (RBD)		Other	aleliu_20220524_32505	PMID34095338_reagent-01		6661	2022-05-24 13:40:20.0	aleliu	2022-05-24 13:40:20.0	aleliu
+20	ESR29455								N			Receptor Binding Domain (RBD)		Other	aleliu_20220524_32506	PMID33276369_reagent-01		6661	2022-05-24 13:50:11.0	aleliu	2022-05-24 13:50:11.0	aleliu
+21	ESR29456								N			Receptor Binding Domain (RBD)		Other	aleliu_20220524_32507	PMID34161961_reagent-01		6661	2022-05-24 13:50:13.0	aleliu	2022-05-24 13:50:13.0	aleliu
+22	ESR29457								N		Sino Biological	Receptor Binding Domain (RBD)		Other	aleliu_20220524_32512	PMID34794169_reagent-01		6661	2022-05-24 14:10:11.0	aleliu	2022-05-24 14:10:11.0	aleliu
+23	ESR29458								N					Other	aleliu_20220524_32519	PMID33622794_reagent-01		6661	2022-05-24 14:20:12.0	aleliu	2022-05-24 14:20:12.0	aleliu
+24	ESR29459								N			Receptor Binding Domain (RBD)		Other	aleliu_20220524_32524	PMID35132398_reagent-01		6661	2022-05-24 14:25:12.0	aleliu	2022-05-24 14:25:12.0	aleliu
+25	ESR29460								N			S1		Other	aleliu_20220524_32528	PMID34151306_reagent-01		6661	2022-05-24 14:25:16.0	aleliu	2022-05-24 14:25:16.0	aleliu
+26	ESR29461								N			S2		Other	aleliu_20220524_32528	PMID34151306_reagent-02		6661	2022-05-24 14:25:16.0	aleliu	2022-05-24 14:25:16.0	aleliu
+27	ESR29462								N			Nucleocapsid		Other	aleliu_20220524_32528	PMID34151306_reagent-03		6661	2022-05-24 14:25:16.0	aleliu	2022-05-24 14:25:16.0	aleliu
+28	ESR29463								N			Receptor Binding Domain (RBD)		Other	aleliu_20220524_32528	PMID34151306_reagent-04		6661	2022-05-24 14:25:16.0	aleliu	2022-05-24 14:25:16.0	aleliu
+29	ESR29464								N			S1		Other	aleliu_20220524_32528	PMID34151306_reagent-05		6661	2022-05-24 14:25:16.0	aleliu	2022-05-24 14:25:16.0	aleliu
+30	ESR29465								N			S2		Other	aleliu_20220524_32528	PMID34151306_reagent-06		6661	2022-05-24 14:25:16.0	aleliu	2022-05-24 14:25:16.0	aleliu
+31	ESR29466								N			Nucleocapsid		Other	aleliu_20220524_32528	PMID34151306_reagent-07		6661	2022-05-24 14:25:16.0	aleliu	2022-05-24 14:25:16.0	aleliu
+32	ESR29467								N			Receptor Binding Domain (RBD)		Other	aleliu_20220524_32528	PMID34151306_reagent-08		6661	2022-05-24 14:25:16.0	aleliu	2022-05-24 14:25:16.0	aleliu
+33	ESR29468								N			S1		Other	aleliu_20220524_32528	PMID34151306_reagent-09		6661	2022-05-24 14:25:16.0	aleliu	2022-05-24 14:25:16.0	aleliu
+34	ESR29469								N			S2		Other	aleliu_20220524_32528	PMID34151306_reagent-010		6661	2022-05-24 14:25:16.0	aleliu	2022-05-24 14:25:16.0	aleliu
+35	ESR29470								N			Nucleocapsid		Other	aleliu_20220524_32528	PMID34151306_reagent-011		6661	2022-05-24 14:25:16.0	aleliu	2022-05-24 14:25:16.0	aleliu
+36	ESR29471								N			Receptor Binding Domain (RBD)		Other	aleliu_20220524_32528	PMID34151306_reagent-012		6661	2022-05-24 14:25:16.0	aleliu	2022-05-24 14:25:16.0	aleliu
+37	ESR29482							FDA EUA	N		Abbott Diagnostics	S1		Other	aleliu_20220524_32539	PMID34759001_study_reagent-01		6661	2022-05-24 16:05:12.0	aleliu	2022-05-24 16:05:12.0	aleliu
+38	ESR29483							FDA EUA	N		Abbott Diagnostics	N-terminal Domain (NTD)		Other	aleliu_20220524_32539	PMID34759001_study_reagent-02		6661	2022-05-24 16:05:12.0	aleliu	2022-05-24 16:05:12.0	aleliu
+39	ESR29486							FDA EUA	N			Full Length Spike Trimer		Other	aleliu_20220526_32585	PMID33142304_reagent-01		6661	2022-05-26 11:35:11.0	aleliu	2022-05-26 11:35:11.0	aleliu
+40	ESR29487								N			Receptor Binding Domain (RBD)		Other	aleliu_20220526_32589	PMID33993265_reagent-01		6661	2022-05-26 11:45:11.0	aleliu	2022-05-26 11:45:11.0	aleliu
+41	ESR29488								N		Luminex	Full Length Spike Trimer		Other	aleliu_20220526_32589	PMID33993265_reagent-02		6661	2022-05-26 11:45:11.0	aleliu	2022-05-26 11:45:11.0	aleliu
+42	ESR29489								N			S1		Other	aleliu_20220526_32622	PMID34100011_reagent-01		6661	2022-05-26 14:05:11.0	aleliu	2022-05-26 14:05:11.0	aleliu
+43	ESR29490								N					Other	aleliu_20220526_32653	PMIDXXX_reagent-01		6661	2022-05-26 16:25:12.0	aleliu	2022-05-26 16:25:12.0	aleliu
+44	ESR29491								N			Receptor Binding Domain (RBD)		Other	aleliu_20220526_32675	PMID33169014_reagent-01		6661	2022-05-26 18:00:13.0	aleliu	2022-05-26 18:00:13.0	aleliu
+45	ESR29492								N			Receptor Binding Domain (RBD)		Other	aleliu_20220526_32682	PMID33571162_reagent-01		6661	2022-05-26 18:20:12.0	aleliu	2022-05-26 18:20:12.0	aleliu
+46	ESR29493								N			Full Length Spike Trimer		Other	aleliu_20220527_32699	PMID34452006_reagent-01		6661	2022-05-27 11:00:12.0	aleliu	2022-05-27 11:00:12.0	aleliu
+47	ESR29494								N			Receptor Binding Domain (RBD)		Other	aleliu_20220527_32717	PMID34730254_reagent-01		6661	2022-05-27 13:25:11.0	aleliu	2022-05-27 13:25:11.0	aleliu
+48	ESR29495								N			Full Length Spike Trimer | Receptor Binding Domain (RBD)  |  N-terminal Domain (NTD) | S1 | S2		Other	aleliu_20220527_32725	PMID34145263_study_reagent-01		6661	2022-05-27 13:45:12.0	aleliu	2022-05-27 13:45:12.0	aleliu
+49	ESR29443								N			Receptor Binding Domain (RBD)		Other	aleliu_20220516_32282	PMID34230917_reagent-01		6661	2022-05-16 09:35:11.0	aleliu	2022-05-16 09:35:11.0	aleliu
+50	ESR29444								N					Other	aleliu_20220516_32283	PMID33846272_reagent-01		6661	2022-05-16 09:40:11.0	aleliu	2022-05-16 09:40:11.0	aleliu
+51	ESR29450								N					Other	aleliu_20220518_32323	PMID34877479_reagent-01		6661	2022-05-18 15:50:12.0	aleliu	2022-05-18 15:50:12.0	aleliu
+52	ESR29516								N			Receptor Binding Domain (RBD)		Other	aleliu_20220616_32930	PMID34835131_reagent-01		6661	2022-06-16 17:04:15.0	aleliu	2022-06-16 17:04:15.0	aleliu

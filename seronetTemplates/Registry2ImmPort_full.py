@@ -5,6 +5,61 @@
 This script is compatibale with Registry Version v.1.2.3 - 1.2.5
     - Please look at other template 
     - Added '*' to SARS-CoV-2 Antigen* (row 163, column B)
+    - new assumptions from 1.2.5
+    Assumptions:
+- pointerToExperimentalData.txt (Elaine Approve)
+    - This file name is seen in Experiment Samples template 
+    - A file that contains the following text: 
+        - The SeroNet curation team does not curate individual results. Please refer to the study files that are in the study files download tab. 
+
+- no_reagents (Elaine Approve)
+    - Unique ID is seen in ImmPort’s Reagent template and linked to Experiment Samples template
+    - Created an ID called ‘PMIDXXXX_no_reagents’ 
+    - This field contains the following information: 
+        - ID = ‘PMIDXXXX_reagents_not_curated’
+        - Name = reagents not curated
+        - Description = 'reagents not curated for this experiment'
+        - Manufacturer = ‘na’
+        - Catalog = ‘na’
+
+- Male | Female (Elaine Approve)
+    - Gender is seen in Subjects template 
+    - Changed to ‘Other’ in code (to Avoid errors and creating multiple versions of the template) 
+
+- Race (Elaine Approve)
+    - Race is seen in Subjects template 
+    - Changed to other in code (to Avoid errors and creating multiple versions of the template) 
+    - Moved information in Race field into Race Specify field
+
+- Planned visit ID (Elaine Approve)
+    - Seen in Assessment template and linked to Basic Study Design template 
+    - Created a Unique ID for a visit date where assessments were done 
+        - ASSUMPTION: All assessments are done on the same day 
+    - This field contains the following information: 
+        - ID = ‘PMIDXXXXXXX_assessment_recorded_pv’
+        - Name = ‘Visit where an assessment is recorded’
+        - Order Number = %  the previous order number + 1
+        - Min start date = ‘0’
+        - Max start date = ‘’
+        - Start rule = ‘’
+
+- Treatment File (Elaine Approve) ** add to v1.3.0 post release 
+    - Seen in Treatment template and linked to Experiment Samples template 
+    - Create a Treatment template if Experiments are used 
+        - ASSUMPTION: There are no treatments done
+    - This field contains the following information: 
+        - Column Name = ‘’
+        - User Defined ID = ‘PMIDXXXXXX_treatment’
+        - Name = ‘SARs CoV-2 Related Treatments’
+        - Use Treatment? = no
+        - Amount Value = ‘’
+        - Amount Unit = ‘’
+        - Duration Value = ‘’
+        - Duration Unit = ‘’
+        - Temperature Value = ‘’
+        - Temperature Unit = ‘’
+        - Comments = ‘’
+
 
 
 '''
@@ -186,20 +241,35 @@ def create_full(PMID):
             
         elif sub_section == 'study_personnel':
             df = seroFxn.edit_df(df)
-
-            STUDY_PERSONNEL = seroClass.study_personnel(
-                df['Personnel ID'],
-                df['Honorific'],
-                df['Last Name'],
-                df['First Name'],
-                df['Suffixes'],
-                df['Organization'],
-                df['ORCID ID'],
-                df['Email'],
-                df['SeroNet Title In Study'],
-                df['Role In Study'],
-                df['Site Name']
-            )
+            try:
+                STUDY_PERSONNEL = seroClass.study_personnel(
+                    df['Personnel ID'],
+                    df['Honorific'],
+                    df['Last Name'],
+                    df['First Name'],
+                    df['Suffixes'],
+                    df['Organization'],
+                    df['ORCID ID'],
+                    df['Email'],
+                    df['SeroNet Title In Study'],
+                    df['Role In Study'],
+                    df['Site Name']
+                )
+            except:
+                print("trying older format: Title in Study")
+                STUDY_PERSONNEL = seroClass.study_personnel(
+                    df['Personnel ID'],
+                    df['Honorific'],
+                    df['Last Name'],
+                    df['First Name'],
+                    df['Suffixes'],
+                    df['Organization'],
+                    df['ORCID ID'],
+                    df['Email'],
+                    df['Title In Study'],
+                    df['Role In Study'],
+                    df['Site Name']
+                )
 
 
         elif sub_section == 'study_file':
@@ -292,31 +362,59 @@ def create_full(PMID):
             df = seroFxn.edit_df(df)
             tem_was_here = df
 
-            SUBJECT_HUMAN = seroClass.subject_type_human(
-                df['Arm ID'],
-                df['Arm Name'],
-                df['Study Population Description'],
-                df['Arm Type'],
-                df['Ethnicity*'],
-                df['Race*'],
-                df['Race Specify'],
-                df['Description'],
-                df['Sex at Birth*'],
-                df['Age Event'],
-                df['Subject Phenotype'],
-                df['Study Location*'],
-                df['Assessment Name'],
-                df['Measured Behavioral or Psychological Factor*'],
-                df['Measured Social Factor*'],
-                df['SARS-CoV-2 Symptoms*'],
-                df['Assessment_Clinical  and Demographic Data Provenance'],
-                df['Assessment_Demographic Data Types Collected'],
-                df['SARS-CoV2 History*'],
-                df['SARS-CoV-2 Vaccine Type*'],
-                df['COVID-19 Disease Severity*'],
-                df['Post COVID-19 Symptoms'],
-                df['COVID-19 Complications']
-                )
+            try:
+                SUBJECT_HUMAN = seroClass.subject_type_human(
+                    df['Arm ID'],
+                    df['Arm Name'],
+                    df['Study Population Description'],
+                    df['Arm Type'],
+                    df['Ethnicity*'],
+                    df['Race*'],
+                    df['Race Specify'],
+                    df['Description'],
+                    df['Sex at Birth*'],
+                    df['Age Event'],
+                    df['Subject Phenotype'],
+                    df['Study Location*'],
+                    df['Assessment Name'],
+                    df['Measured Behavioral or Psychological Factor*'],
+                    df['Measured Social Factor*'],
+                    df['SARS-CoV-2 Symptoms*'],
+                    df['Assessment_Clinical  and Demographic Data Provenance'],
+                    df['Assessment_Demographic Data Types Collected'],
+                    df['SARS-CoV2 History*'],
+                    df['SARS-CoV-2 Vaccine Type*'],
+                    df['COVID-19 Disease Severity*'],
+                    df['Post COVID-19 Symptoms'],
+                    df['COVID-19 Complications']
+                    )
+            except:
+                print("using older version of subject human")
+                SUBJECT_HUMAN = seroClass.subject_type_human(
+                    df['Arm ID'],
+                    df['Arm Name'],
+                    df['Study Population Description'],
+                    df['Arm Type'],
+                    df['Ethnicity*'],
+                    df['Race*'],
+                    df['Race Specify'],
+                    df['Description'],
+                    df['Sex at Birth*'],
+                    df['Age Event'],
+                    df['Subject Phenotype'],
+                    df['Study Location*'],
+                    df['Assessment Name'],
+                    df['Measured Behavioral or Psychological Factor*'],
+                    df['Measured Social Factor*'],
+                    df['SARS-CoV-2 Symptoms*'],
+                    df['Assessment_Clinical  and Demographic Data Provenance'],
+                    df['Assessment_Demographic Data Types Collected'],
+                    df['SARS-CoV2 History*'],
+                    df['SARS-CoV-2 Vaccine Type*'],
+                    df['COVID-19 Disease Severity*'],
+                    df['Post COVID-19 Symptoms'],
+                    df['COVID-19 Complications']
+                    )
 
         elif sub_section == 'Subject Type: model organism':
             df = seroFxn.edit_df(df)
@@ -437,6 +535,7 @@ def create_full(PMID):
         vaccine_name = []
 
 
+    vaccine_name = list(set([x.strip() for x in vaccine_name]))
 
     if SUBJECT_HUMAN and SUBJECT_ORGANISM:
         print('Both human and model organism are used')
@@ -488,6 +587,27 @@ def create_full(PMID):
     seroFxn.add_df(temp_ws, AOC)
 
     seroFxn.add_df(temp_ws, STUDY_PERSONNEL)
+
+    # Checking to see if assessment is used. If it is, then we will add another planned visit ID to 
+    # The planned visit section 
+    if SUBJECT_HUMAN.Assessment_Name.any() or \
+    SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type.any() or \
+    SUBJECT_HUMAN.SARS_CoV2_History.any() or \
+    SUBJECT_HUMAN.SARS_CoV_2_Symptoms.any() or \
+    SUBJECT_HUMAN.Measured_Social_Factor.any() or \
+    SUBJECT_HUMAN.Measured_Behavioral_or_Psychological_Factor.any() or \
+    SUBJECT_HUMAN.Assessment_Demographic_Data_Types_Collected.any() or \
+    SUBJECT_HUMAN.Assessment_Clinical_and_Demographic_Data_Provenance.any():
+
+        add_index = len(PLANNED_VISIT.Name) + 1
+
+        PLANNED_VISIT.User_Defined_ID[add_index] = f'PMID{PMID}_assessment_recorded_pv'
+        PLANNED_VISIT.Name[add_index] = 'Visit where an assessment is recorded'
+        PLANNED_VISIT.Order_Number[add_index] = PLANNED_VISIT.Order_Number[add_index-1] + 1
+        PLANNED_VISIT.Min_Start_Day[add_index] = 0
+        PLANNED_VISIT.Max_Start_Day[add_index] = ''
+        PLANNED_VISIT.Start_Rule[add_index] = ''
+
     seroFxn.add_df(temp_ws, PLANNED_VISIT)
     seroFxn.add_df(temp_ws, INCLUSION_EXCLUSION)
 
@@ -510,7 +630,6 @@ def create_full(PMID):
                                         header=None, 
                                         index_col=0, 
                                         squeeze=True).to_dict()
-
     # registryToImmportDict
     registryDict = {**vars(STUDY),
                     **vars(STUDY_CATEGORIZATION),
@@ -523,7 +642,7 @@ def create_full(PMID):
 
     if len([x for x in vaccine_name if x not in VARS_TO_CLEAN]) != 0:
             registryDict['SARS-CoV-2_Vaccine_Type'] = [x for x in vaccine_name if x not in VARS_TO_CLEAN]
-
+            print('########',"\n",registryDict['SARS-CoV-2_Vaccine_Type'])
 
     # Looping through ImmPort Template to get the correct order of the 'study' section
     for se_number in range(se[0],se[3]):    
@@ -752,7 +871,7 @@ def create_full(PMID):
             if EXPERIMENTS.SARS_CoV_2_Antigen[i+1] not in clean_other:
                 reagentID += [f'PMID{PMID}_reagentID-0{i+1}']*total_len
             else:
-                reagentID += ['no_reagents']*total_len
+                reagentID += [f'PMID{PMID}_reagents_not_curated']*total_len
             
             
             # print(arms)
@@ -805,7 +924,7 @@ def create_full(PMID):
             'Biosample ID': [biosampleDict.get(k) for k in bioSampleType],
             'Experiment ID':experimentID,
             'Reagent ID(s)':reagentID,
-            'Treatment ID(s)':['no_sars-cov-2_treatments']*fillLen,
+            'Treatment ID(s)':[f'PMID{PMID}_treatment' for n in range(fillLen)],
             'Result File Name':['pointerToExperimentalData.txt'] * fillLen,
             'Expsample Name':empty,
             'Expsample Description':[descriptions.get(k) for i, k in enumerate(experimentName)],
@@ -816,7 +935,7 @@ def create_full(PMID):
             'Planned Visit ID':plannedVisitID,
             'Type':bioSampleType,
             'Subtype':empty,
-            'Biosample Name':empty,
+            'Biosample Name':empty, ## WHAT SHOULD THIS BE
             'Biosample Description':empty,
             'Study Time Collected':studyTimeCollected,
             'Study Time Collected Unit':['Days']*fillLen,
@@ -840,47 +959,96 @@ def create_full(PMID):
                            index = False,
                            sep = '\t')
 
+        ##########################
+        ###     TREATMENT      ###
+        ##########################
+        # only created if experiment samples are made
+        empty = ['']
+        TREATMENT_df = pd.DataFrame({
+            'Column Name': empty,
+            'User Defined ID': f'PMID{PMID}_treatment',
+            'Name': 'SARs CoV-2 Related Treatments',
+            'Use Treatment?': 'no',
+            'Amount Value': empty,
+            'Amount Unit': empty,
+            'Duration Value': empty,
+            'Duration Unit': empty,
+            'Temperature Value': empty,
+            'Temperature Unit': empty,
+            'Comments': empty
+        })
+
+        treatment_ws = load_workbook(PATH_treatment)['treatments.txt']
+        treatment_ws = seroFxn.remove_excess(treatment_ws)
+
+        # adding df to bottom of ws
+        seroFxn.add_df(treatment_ws, TREATMENT_df, add_header = False)
+        TREATMENT_df = pd.DataFrame(treatment_ws.values).replace({None: '', 'None': ''})
+
+
+        TREATMENT_df.to_csv(os.path.join(OUT_DIR,f'{TREATMENT_TEMPALTE}.txt'),
+                           header = False, 
+                           index = False,
+                           sep = '\t')
 
     #########################################
     #############   REAGENT   ###############
     #########################################
-    # This is creating the template even if it is filled with the defaults
+    if EXPERIMENTS.SARS_CoV_2_Antigen.any() or EXPERIMENTS.Antibody_Isotype.any():
+        ID = []
+        Name = []
+        Description = []
+        Manufacturer = []
+        Catalog = []
 
-    reagentsIndex = []
-    for i, k in enumerate(EXPERIMENTS.SARS_CoV_2_Antigen):
-        if k not in clean_other:
-            reagentsIndex.append(i+1)
+        counter = 0
+        # picking out the Indexs that contain data 
+        for i, k in enumerate(EXPERIMENTS.SARS_CoV_2_Antigen):
+            if k not in clean_other:
+                ID.append(f'PMID{PMID}_reagentID-0{i+1}')
+                Name.append(EXPERIMENTS.SARS_CoV_2_Antigen[i+1])
+                Description.append(EXPERIMENTS.SARS_CoV_2_Antigen[i+1])
+                Manufacturer.append(EXPERIMENTS.SARS_CoV_2_Antigen[i+1])
+                Catalog.append(EXPERIMENTS.SARS_CoV_2_Antigen[i+1])
 
-    if len(reagentsIndex) > 0: 
+            elif counter == 0:
+                ID.append(f'PMID{PMID}_reagents_not_curated')
+                Name.append(f'Reagents not curated')
+                Description.append('Reagents not curated for this experiment')
+                Manufacturer.append('na')
+                Catalog.append('na')
+                counter += 1
 
-        empty = [''] * len(reagentsIndex)
 
-        reagent_df = pd.DataFrame({
-            'Column Name': empty,
-            'User Defined ID': [f'PMID{PMID}_reagentID-0{n+1}' for n in range(len(reagentsIndex))], #create
-            'Name': EXPERIMENTS.SARS_CoV_2_Antigen[reagentsIndex],
-            'Description': EXPERIMENTS.Assay_Use[reagentsIndex],
-            'Manufacturer': EXPERIMENTS.Manufacturer[reagentsIndex],
-            'Catalog Number': EXPERIMENTS.Catalog[reagentsIndex],
-            'Lot Number': empty,
-            'Weblink': empty,
-            'Contact': empty
+        if len(ID) > 0: 
 
-        })
+            empty = [''] * len(ID)
 
-        # loading experiment template and removing excess rows and columns
-        reagent_ws = load_workbook(PATH_reagent)['reagents.Other.txt']
-        reagent_ws = seroFxn.remove_excess(reagent_ws)
+            reagent_df = pd.DataFrame({
+                'Column Name': empty,
+                'User Defined ID': ID,
+                'Name': Name,
+                'Description': Description,
+                'Manufacturer': Manufacturer,
+                'Catalog Number': Catalog,
+                'Weblink': empty,
+                'Contact': empty
 
-        # adding df to bottom of ws
-        seroFxn.add_df(reagent_ws, reagent_df, add_header = False)
-        reagent_df = pd.DataFrame(reagent_ws.values).replace({None: '', 'None': ''})
+            })
 
-        # saving df
-        reagent_df.to_csv(os.path.join(OUT_DIR,f'{REAGENT_TEMPLATE}.txt'),
-                           header = False, 
-                           index = False,
-                           sep = '\t')
+            # loading experiment template and removing excess rows and columns
+            reagent_ws = load_workbook(PATH_reagent)['reagents.Other.txt']
+            reagent_ws = seroFxn.remove_excess(reagent_ws)
+
+            # adding df to bottom of ws
+            seroFxn.add_df(reagent_ws, reagent_df, add_header = False)
+            reagent_df = pd.DataFrame(reagent_ws.values).replace({None: '', 'None': ''})
+
+            # saving df
+            reagent_df.to_csv(os.path.join(OUT_DIR,f'{REAGENT_TEMPLATE}.txt'),
+                               header = False, 
+                               index = False,
+                               sep = '\t')
 
 
 
@@ -1037,7 +1205,15 @@ def create_full(PMID):
     # if Assessment is used, we create a treatment template to link to the assessments
 
     SUBJECT_HUMAN.SARS_CoV_2_Symptoms
-    if SUBJECT_HUMAN:
+    if SUBJECT_HUMAN.Assessment_Name.any() or \
+    SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type.any() or \
+    SUBJECT_HUMAN.SARS_CoV2_History.any() or \
+    SUBJECT_HUMAN.SARS_CoV_2_Symptoms.any() or \
+    SUBJECT_HUMAN.Measured_Social_Factor.any() or \
+    SUBJECT_HUMAN.Measured_Behavioral_or_Psychological_Factor.any() or \
+    SUBJECT_HUMAN.Assessment_Demographic_Data_Types_Collected.any() or \
+    SUBJECT_HUMAN.Assessment_Clinical_and_Demographic_Data_Provenance.any():
+
         print("Assays Used")
 
         
@@ -1075,7 +1251,7 @@ def create_full(PMID):
             ASSESSMENT_df = pd.DataFrame({
                 'Column Name': empty,
                 'Subject ID': obj.user_ID,  
-                'Assessment Panel ID': [f"PMID{PMIDs}assessment_{field}-0{int(i+1)}" for i in range(len(obj.user_ID))],
+                'Assessment Panel ID': [f"PMID{PMIDs}_assessment_{field}-0{int(i+1)}" for i in range(len(obj.user_ID))],
                 'Study ID': [obj2.Study_Identifier]*len(obj.user_ID),
                 'Name Reported': obj.assessment_name,
                 'Assessment Type': obj.assessmet_type,
@@ -1083,7 +1259,7 @@ def create_full(PMID):
                 'CRF File Names': empty,
                 'Result Separator Column': empty,
                 'User Defined ID': obj.user_ID, #
-                'Planned Visit ID': empty, # IM going to make this empty for now PLANNED_VISIT.User_Defined_ID[i],
+                'Planned Visit ID': [f'PMID{PMID}_assessment_recorded_pv']*len(obj.user_ID), 
                 'Name Reported ': obj.assessment_component,
                 'Study Day': ['0']*len(obj.user_ID), # Not sure, we dont capture study day 
                 'Age At Onset Reported': empty,
@@ -1183,5 +1359,12 @@ def create_full(PMID):
 
     shutil.copyfile(os.path.join(CD,"log",f"Registry_{today}.log"), os.path.join(CD,BASE_DIR,"log",f"Registry_{today}.log"))
     shutil.copyfile(os.path.join(CD,"template","xImmPortFillerDocuments","pointerToExperimentalData.txt"), os.path.join(OUT_DIR,"pointerToExperimentalData.txt"))
+    shutil.copy(df_path, OUT_DIR)
 
+    for filename in glob(os.path.join(CD,BASE_DIR,"submitted_data", '*.*')):
+        shutil.copy(filename, OUT_DIR)
+
+    print("\n")
+    for i in glob(os.path.join(OUT_DIR,"*.txt")):
+        print(os.path.basename(i))
     os.remove(PATH_pmid_basic_stdy_template)

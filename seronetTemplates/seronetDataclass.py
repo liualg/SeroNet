@@ -42,7 +42,6 @@ today = dt.datetime.today().strftime('%Y_%m_%d')
 logging.basicConfig(filename=os.path.join(CD, "log", f"Registry_{today}.log"), level=logging.DEBUG,
                     format='%(asctime)s %(message)s', filemode='w', datefmt='%m/%d/%Y %I:%M:%S %p')
 
-
 ###
 @dataclass
 class study:
@@ -139,7 +138,8 @@ class study_categorization:
 
     def __post_init__(self):
         if self.Keywords:
-            self.Keywords = self.Keywords.replace('\n', '').replace('\t', '').replace(';', ',').replace('|', ',').replace('.', '')
+            self.Keywords = seroFxn.replace_delimiter(self.Keywords)
+            # self.Keywords = self.Keywords.replace('\n', '').replace('\t', '').replace(';', '|').replace(',', '|').replace('.', '')
         else:
             logging.error("ERROR:: [study_categorization]: Keywords missing")
             sys.exit("ERROR:: [study_categorization]: Keywords missing")
@@ -182,6 +182,8 @@ class condition_or_disease:
         for i, k in enumerate(self.Reported_Health_Condition):
             object.__setattr__(self, 'Reported_Health_Condition', [k.replace('\n', '').replace('\t', '') for i, k in
                                                                    enumerate(self.Reported_Health_Condition)])
+        if self.Reported_Health_Condition:
+            self.Reported_Health_Condition = seroFxn.replace_delimiter(self.Reported_Health_Condition)
             # self.Reported_Health_Condition[i] = k.replace('|',',').replace(':',',')
 
 
@@ -189,6 +191,14 @@ class condition_or_disease:
 class Intervention_Agent:
     SARS_CoV_2_Vaccine_Type: list = None
     ImmPortNAME: str = 'NA'
+
+    # def __post_init__(self):
+    #     for i, k in enumerate(self.Intervention_Agent):
+    #         object.__setattr__(self, 'Reported_Health_Condition', [k.replace('\n', '').replace('\t', '') for i, k in
+    #                                                                enumerate(self.Reported_Health_Condition)])
+    #         # self.Reported_Health_Condition[i] = k.replace('|',',').replace(':',',')
+
+
 
 
 @dataclass
@@ -328,6 +338,12 @@ class subject_type_human:
                 logging.error("[Subject human]: check user defined ID")
                 sys.exit("ERROR:: [Subject human]: check user defined ID")
 
+
+            self.Race = seroFxn.replace_delimiter(self.Race)
+            self.Sex_at_Birth = seroFxn.replace_delimiter(self.Sex_at_Birth)
+            self.Race_Specify = seroFxn.replace_delimiter(self.Race_Specify)
+
+
             largest_val = 0
             for field in self.__dataclass_fields__:
                 if field != "ImmPortNAME":
@@ -359,7 +375,8 @@ class subject_type_human:
                         self.Sex_at_Birth[i + 1] = 'Other'
 
             # Cleaning out characters in Vaccine Typpe
-            # self.SARS_CoV_2_Vaccine_Type = [x for x in self.SARS_CoV_2_Vaccine_Type if x not in VARS_TO_CLEAN]
+            for i, k in enumerate(self.SARS_CoV_2_Vaccine_Type):
+                self.SARS_CoV_2_Vaccine_Type[i + 1] = k.strip()
 
             # changing SeroNet terms to ImmPort specific terms 
             for i, k in enumerate(self.Study_Location):
@@ -401,6 +418,9 @@ class subject_type_human:
                         logging.warning("Changing Ethnicity to Other")
                         self.Ethnicity[i + 1] = 'Other'
 
+            # if self.Reported_Health_Condition:
+
+            # self.Reported_Health_Condition[i] = k.replace('|',',').replace(':',',')
 
 
 
@@ -551,6 +571,13 @@ class planned_visit:
         if len(set(self.Order_Number)) != len(self.Order_Number):
             logging.error("[planned visit]: check Order Numer")
             sys.exit("ERROR:: [planned visit] Same order number used more than once")
+
+        for i, k in enumerate(self.Name):
+            if len(k) > 125:
+                logging.error(f"[planned visit]: {self.User_Defined_ID[i+1]} has reached character limit ({len(k)} > 125)")
+                sys.exit(f"[planned visit]: {self.User_Defined_ID[i+1]} has reached character limit ({len(k)} > 125)")
+
+
 
 
 @dataclass
