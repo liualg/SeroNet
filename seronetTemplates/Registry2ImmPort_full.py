@@ -117,11 +117,14 @@ def create_full(PMID):
     #File Paths
     BASE_DIR = seroFxn.get_box_dir(box_base, PMID)
 
-
     try:
-        df_path = glob(os.path.join(BASE_DIR,'templated_data',f'PMID{PMID}*.xlsm'))[0]
-    except FileNotFoundError:
-        sys.exit("ERROR:: Incorrect Template format. Cannot Find File")
+        df_path = glob(os.path.join(BASE_DIR,'templated_data',f'PMID{PMID}*eviewed.xlsm'))[0]
+    except:
+        print("** NOT using reviewed files **")
+        try:
+            df_path = glob(os.path.join(BASE_DIR,'templated_data',f'PMID{PMID}*.xlsm'))[0]
+        except FileNotFoundError:
+            sys.exit("ERROR:: Incorrect Template format. Cannot Find File")
         
         
     # df_path = os.path.join(BASE_DIR,'templated_data', file + ".xlsm")
@@ -149,7 +152,7 @@ def create_full(PMID):
 
 
     # Automate output... 
-    OUT_DIR = os.path.join(BASE_DIR, 'ImmPort_templates-DR45') 
+    OUT_DIR = os.path.join(BASE_DIR, 'ImmPort_templates-DR45.5') 
     # OUT_DIR = './33184236_test/'
     PATH_pmid_basic_stdy_template = f'PMID{PMID}_study.xlsx'
 
@@ -380,7 +383,7 @@ def create_full(PMID):
                     df['Measured Behavioral or Psychological Factor*'],
                     df['Measured Social Factor*'],
                     df['SARS-CoV-2 Symptoms*'],
-                    df['Assessment_Clinical  and Demographic Data Provenance'],
+                    df['Assessment_Clinical  and Demographic Data Provenance*'],
                     df['Assessment_Demographic Data Types Collected'],
                     df['SARS-CoV2 History*'],
                     df['SARS-CoV-2 Vaccine Type*'],
@@ -389,7 +392,7 @@ def create_full(PMID):
                     df['COVID-19 Complications']
                     )
             except:
-                print("using older version of subject human")
+                print("** using older version of subject human **")
                 SUBJECT_HUMAN = seroClass.subject_type_human(
                     df['Arm ID'],
                     df['Arm Name'],
@@ -512,20 +515,21 @@ def create_full(PMID):
     #########################################
     ######### Basic Study Template ##########
     #########################################
-    
+    vaccine_name = []
+    # print("*****",SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type)
 
-    if len(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type) + len(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type):
+    if SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type.any() and SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type.any():
         
         vaccine_name, vaccine_type = seroFxn.get_vaccine(set(list(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type) + list(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type)),
                         clean_other)
         
         
-    elif len(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type):
+    elif SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type.any():
         
         vaccine_name, vaccine_type = seroFxn.get_vaccine(set(list(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type)),
                         clean_other)
                                 
-    elif len(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type):
+    elif SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type.any():
         
         vaccine_name, vaccine_type = seroFxn.get_vaccine(set(list(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type)),
                         clean_other)
@@ -534,8 +538,9 @@ def create_full(PMID):
         
         vaccine_name = []
 
-
-    vaccine_name = list(set([x.strip() for x in vaccine_name]))
+    # print(bool(vaccine_name), vaccine_name)
+    if len(vaccine_name):
+        vaccine_name = list(set([x.strip() for x in vaccine_name]))
 
     if SUBJECT_HUMAN and SUBJECT_ORGANISM:
         print('Both human and model organism are used')
@@ -642,6 +647,11 @@ def create_full(PMID):
 
     if len([x for x in vaccine_name if x not in VARS_TO_CLEAN]) != 0:
             registryDict['SARS-CoV-2_Vaccine_Type'] = [x for x in vaccine_name if x not in VARS_TO_CLEAN]
+
+
+            registryDict['SARS-CoV-2_Vaccine_Type'] = list(set((' | '.join(registryDict['SARS-CoV-2_Vaccine_Type'])).split(' | ')))
+
+
             print('########',"\n",registryDict['SARS-CoV-2_Vaccine_Type'])
 
     # Looping through ImmPort Template to get the correct order of the 'study' section
@@ -691,7 +701,7 @@ def create_full(PMID):
         shutil.copy(os.path.join(BASE_DIR,'templated_data', f'{PROTOCOLS.Protocol_Name[1]}.txt'),
                     os.path.join(OUT_DIR,f'{PROTOCOLS.Protocol_Name[1]}.txt'))
     except:
-        print(f'File: {PROTOCOLS.Protocol_Name[1]}.txt does not exist')
+        print(f'** File:: {PROTOCOLS.Protocol_Name[1]}.txt does not exist **')
 
 
      #########################################
@@ -753,7 +763,8 @@ def create_full(PMID):
 
     # StudyTimeCollected should link back to the planned_visit.User_Defined_ID + planned_visit.Min_Start_Day
     '''
-    
+    reagentID = []
+
     if  EXPERIMENTS:
         # creating a map of the assay types to the SeroNet descriptors
         reg_description = pd.read_excel(df_path, sheet_name = map_sheet)
@@ -765,7 +776,6 @@ def create_full(PMID):
         total_len = 0
         biosampleID = []
         experimentID = []
-        reagentID = []
         subjectID = []
         plannedVisitID = []
         bioSampleType = []
@@ -933,8 +943,8 @@ def create_full(PMID):
             'Protocol ID(s)':[PROTOCOLS.Protocol_ID[1]]*fillLen,
             'Subject ID':subjectID,
             'Planned Visit ID':plannedVisitID,
-            'Type':bioSampleType,
-            'Subtype':empty,
+            'Type':['Other']*fillLen,
+            'Subtype':bioSampleType,
             'Biosample Name':empty, ## WHAT SHOULD THIS BE
             'Biosample Description':empty,
             'Study Time Collected':studyTimeCollected,
@@ -994,7 +1004,7 @@ def create_full(PMID):
     #########################################
     #############   REAGENT   ###############
     #########################################
-    if EXPERIMENTS.SARS_CoV_2_Antigen.any() or EXPERIMENTS.Antibody_Isotype.any():
+    if reagentID:
         ID = []
         Name = []
         Description = []
@@ -1077,8 +1087,13 @@ def create_full(PMID):
         species = SUBJECT_HUMAN.User_Defined_ID
         empty = ['']*len(species)
 
-        vaccine_name, vaccine_type = seroFxn.get_vaccine(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type, VARS_TO_CLEAN)
-        
+        if SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type.any():
+            vaccine_name, vaccine_type = seroFxn.get_vaccine(SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type, VARS_TO_CLEAN)
+
+        else:
+            vaccine_name = empty
+            vaccine_type = empty
+
         SUBJECT_human_df = pd.DataFrame({
             'Column Name': empty,
             'Subject ID': [f"PMID{PMID}_human_subject-0{int(i+1)}" for i in range(len(species))],
@@ -1143,8 +1158,12 @@ def create_full(PMID):
         species = SUBJECT_ORGANISM.User_Defined_ID
         empty = ['']*len(species)
 
+        if SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type.any():
+            vaccine_name, vaccine_type = seroFxn.get_vaccine(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type, VARS_TO_CLEAN)
 
-        vaccine_name, vaccine_type = seroFxn.get_vaccine(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type, VARS_TO_CLEAN)
+        else:
+            vaccine_name = empty
+            vaccine_type = empty
 
         # print ("SUBJECT_organism data")
         SUBJECT_organism_df = pd.DataFrame({
@@ -1204,7 +1223,8 @@ def create_full(PMID):
 
     # if Assessment is used, we create a treatment template to link to the assessments
 
-    SUBJECT_HUMAN.SARS_CoV_2_Symptoms
+    # print(SUBJECT_HUMAN.Assessment_Clinical_and_Demographic_Data_Provenance)
+
     if SUBJECT_HUMAN.Assessment_Name.any() or \
     SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type.any() or \
     SUBJECT_HUMAN.SARS_CoV2_History.any() or \
@@ -1258,7 +1278,7 @@ def create_full(PMID):
                 'Status': obj.status,
                 'CRF File Names': empty,
                 'Result Separator Column': empty,
-                'User Defined ID': obj.user_ID, #
+                'User Defined ID': [f"PMID{PMIDs}_component_{field}-0{int(i+1)}" for i in range(len(obj.user_ID))], # this is the component ID
                 'Planned Visit ID': [f'PMID{PMID}_assessment_recorded_pv']*len(obj.user_ID), 
                 'Name Reported ': obj.assessment_component,
                 'Study Day': ['0']*len(obj.user_ID), # Not sure, we dont capture study day 
@@ -1304,7 +1324,7 @@ def create_full(PMID):
                            index = False,
                            sep = '\t')
                 
-            elif SUBJECT_HUMAN.Measured_Social_Factor[n]:
+            if SUBJECT_HUMAN.Measured_Social_Factor[n]:
                 print('Measured_Social_Factor') #MSF
                 # updateObject(MSF,SUBJECT_HUMAN,n, 'MSF')
                 updateObject(MSF,SUBJECT_HUMAN,n, 'Measured Social Factor')
@@ -1315,7 +1335,7 @@ def create_full(PMID):
                            sep = '\t')
                 
                 
-            elif SUBJECT_HUMAN.SARS_CoV_2_Symptoms[n]:
+            if SUBJECT_HUMAN.SARS_CoV_2_Symptoms[n]:
                 print('SARS_CoV_2_Symptoms') #SCS
                 # updateObject(SCS,SUBJECT_HUMAN,n,'SCS')
                 updateObject(SCS,SUBJECT_HUMAN,n,'SARS CoV2 Symptoms')
@@ -1325,7 +1345,7 @@ def create_full(PMID):
                            index = False,
                            sep = '\t')
 
-            elif SUBJECT_HUMAN.SARS_CoV2_History[n]:
+            if SUBJECT_HUMAN.SARS_CoV2_History[n]:
                 print('SARS_CoV2_History') #SCH
                 # updateObject(SCH,SUBJECT_HUMAN,n,'SCH')
                 updateObject(SCH,SUBJECT_HUMAN,n,'SARS CoV2 History')

@@ -248,6 +248,10 @@ class inclusion_exclusion:
     ImmPortNAME: str = 'inclusion_exclusion'
 
     def __post_init__(self):
+        if len(list(self.User_Defined_ID)) != len(list(set(self.User_Defined_ID))):
+            logging.warning("[inclusion exclusion]: Redudant Unique ID")
+            sys.exit("ERROR:: [inclusion exclusion]: Redudant Unique ID")
+
         if len(self.User_Defined_ID) == 1: #change n/a to other / inclusion  
             if (self.Criterion[1] in VARS_TO_CLEAN):
                 object.__setattr__(self, "Criterion", "Other") 
@@ -342,6 +346,10 @@ class subject_type_human:
             self.Race = seroFxn.replace_delimiter(self.Race)
             self.Sex_at_Birth = seroFxn.replace_delimiter(self.Sex_at_Birth)
             self.Race_Specify = seroFxn.replace_delimiter(self.Race_Specify)
+            self.Study_Location = seroFxn.replace_delimiter(self.Study_Location)
+            self.SARS_CoV2_History = seroFxn.replace_delimiter(self.SARS_CoV2_History)
+            self.SARS_CoV_2_Vaccine_Type = seroFxn.replace_delimiter(self.SARS_CoV_2_Vaccine_Type)
+            self.COVID_19_Disease_Severity = seroFxn.replace_delimiter(self.COVID_19_Disease_Severity)
 
 
             largest_val = 0
@@ -374,9 +382,18 @@ class subject_type_human:
                         logging.warning("Changing male | female to other")
                         self.Sex_at_Birth[i + 1] = 'Other'
 
+            for i, k in enumerate(self.Name):
+                # MoF = ["male | female", "female | male", "female i male", "male i female"]
+                if k is not None:
+                    self.Name[i + 1] = self.Name[i + 1].strip()
+
+
+
+
             # Cleaning out characters in Vaccine Typpe
-            for i, k in enumerate(self.SARS_CoV_2_Vaccine_Type):
-                self.SARS_CoV_2_Vaccine_Type[i + 1] = k.strip()
+            if self.SARS_CoV_2_Vaccine_Type.any():
+                for i, k in enumerate(self.SARS_CoV_2_Vaccine_Type):
+                    self.SARS_CoV_2_Vaccine_Type[i + 1] = k.strip()
 
             # changing SeroNet terms to ImmPort specific terms 
             for i, k in enumerate(self.Study_Location):
@@ -391,6 +408,8 @@ class subject_type_human:
                 
                 elif k[0].strip().upper() in STATES.keys():
                     self.Study_Location[i + 1] = f"US: {STATES.get(k[0].strip().upper())}"
+
+
 
             # if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
             #     logging.error("[human AOC]: Check for repeat User Defined IDs")
@@ -461,6 +480,8 @@ class subject_type_mode_organism:
                 logging.error("[Subject human]: check user defined ID")
                 sys.exit("ERROR:: [Subject human]: check user defined ID")
 
+            self.SARS_CoV_2_Vaccine_Type = seroFxn.replace_delimiter(self.SARS_CoV_2_Vaccine_Type)
+            
             largest_val = 0
             for field in self.__dataclass_fields__:
                 if field != "ImmPortNAME":
@@ -512,6 +533,11 @@ class subject_type_mode_organism:
                 if k is not None:
                     if k.lower().strip() == "n/a":
                         self.Age_Event[i + 1] = 'Not Specified'
+
+            for i, k in enumerate(self.Name):
+                # MoF = ["male | female", "female | male", "female i male", "male i female"]
+                if k is not None:
+                    self.Name[i + 1] = self.Name[i + 1].strip()
 
             #cells are n/a. Changing to Not Specified. 
             for i, k in enumerate(self.Sex_at_Birth):
@@ -685,15 +711,15 @@ class experiments:
     def __post_init__(self):
         for i, k in enumerate(self.Associated_Arm_ID):
             if k not in VARS_TO_CLEAN:
-                self.Associated_Arm_ID[i + 1] = k.replace("|","I")
+                self.Associated_Arm_ID[i + 1] = k.replace("|","I").replace(","," I ").replace("  "," ")
             
         for i, k in enumerate(self.Associated_Planned_Visit_ID):
             if k not in VARS_TO_CLEAN:
-                self.Associated_Planned_Visit_ID[i + 1] = k.replace("|","I")
+                self.Associated_Planned_Visit_ID[i + 1] = k.replace("|","I").replace(","," I ").replace("  "," ")
             
         for i, k in enumerate(self.Biospecimen_Type):
             if k not in VARS_TO_CLEAN:
-                self.Biospecimen_Type[i + 1] = k.replace("|","I")
+                self.Biospecimen_Type[i + 1] = k.replace("|","I").replace(","," I ").replace("  "," ")
 
         ## adding a part that adds no_reagent to the field if it is empty
         for i, k in enumerate(self.Assay_Use):

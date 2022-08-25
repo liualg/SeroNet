@@ -90,17 +90,21 @@ def clean_array(the_array, VARS_TO_CLEAN):
 
 def get_vaccine(arrays, VARS_TO_CLEAN):
     empty = ['']
+    vaccine_type = []
+    vaccine_name = []
     if len(arrays): #splitting correctly
-        try: #check if there are multiple vaccine names in this section
-            vaccine_type = []
-            vaccine_name = []
-
+        # try: #check if there are multiple vaccine names in this section
+        # print("&&&&",type(arrays.astype("string")), arrays.astype("string"))
+        # print(" ".join(list(arrays)))
+        if "|" in " ".join(arrays):
+        
             for vaccines_per_sub in arrays:
                 v_type = []
                 v_name = []
                 
 #                 print(vaccines_per_sub)
-                if vaccines_per_sub not in VARS_TO_CLEAN: #checking to see if there is NA
+                if vaccines_per_sub.lower() not in VARS_TO_CLEAN: #checking to see if there is NA
+                    # print(vaccines_per_sub)
                     for each in vaccines_per_sub.split('|'):
                         v_type.append(each.split(";")[1].strip())
                         v_name.append(each.split(";")[0].strip())
@@ -112,7 +116,8 @@ def get_vaccine(arrays, VARS_TO_CLEAN):
 #                     print(vaccines_per_sub)
                     vaccine_type.append(vaccines_per_sub)
                     vaccine_name.append(vaccines_per_sub)
-        except:
+        # except:
+        else:
             # print('############')
             # print(arrays)
             for i in arrays:
@@ -124,12 +129,12 @@ def get_vaccine(arrays, VARS_TO_CLEAN):
 
                 else:
                     # print(i.split(';'))
-                    vaccine_name.append(i.strip().split(';')[0])
-                    vaccine_type.append(i.strip().split(';')[1])
+                    vaccine_name.append(i.split(';')[0].strip())
+                    vaccine_type.append(i.split(';')[1].strip())
     else:
-        vaccine_name = empty
-        vaccine_type = empty
-        
+        vaccine_name = []
+        vaccine_type = []
+
     return vaccine_name, vaccine_type
 
 def capitalize_proper(original_str, filler_words):
@@ -163,9 +168,9 @@ def replace_delimiter(original_str, new_delimiter = " | "):
         for i, k in enumerate(original_str):
             # print("########## ASdAS")
             # print(i,k)
-            original_str[i] = k.replace(" I ", new_delimiter).replace(" i ", new_delimiter).replace(",", new_delimiter).replace(";", new_delimiter).replace(".", "").replace("  ", " ")
-    else:
-        original_str = original_str.replace(" I ", new_delimiter).replace(" i ", new_delimiter).replace(",", new_delimiter).replace(";", new_delimiter).replace(".", "").replace("  ", " ")
+            original_str[i] = k.replace(" I ", new_delimiter).replace(" i ", new_delimiter).replace(",", new_delimiter).replace("  ", " ") #replace(" ; ", new_delimiter).replace(".", "")
+    else: # .replace(" ; ", new_delimiter)
+        original_str = original_str.replace(" I ", new_delimiter).replace(" i ", new_delimiter).replace(",", new_delimiter).replace("  ", " ")
 
     return original_str 
 #################  Adding sections back to dataframes  ##################
