@@ -1,0 +1,273 @@
+{
+  "templateType":"compound",
+  "fileName":"basic_study_design.json",
+  "name":"basic_study_design",
+  "schemaVersion":"3.33",
+  "validationLevel":"",
+
+  "study":
+  {
+    "userDefinedId":"example human study"
+    ,"briefTitle":"example human study title"
+    ,"officialTitle":"example human study official"
+    ,"briefDescription":"example human study"
+    ,"description":"Study column (detailed) description now required as per ClinicalTrials.gov!"
+    ,"hypothesis":"example human study hypothesis"
+    ,"objectives":"example human study objectives"
+    ,"endpoints":"example human study endpoints"
+    ,"sponsoringOrganization":"university"
+    ,"targetEnrollment":2
+    ,"minimumAge":"0"
+    ,"maximumAge":"100"
+    ,"ageUnit":"Years"
+    ,"interventionAgent":"example human study"
+    ,"actualStartDate":"06-Feb-2005"
+  }
+  ,  "studyCategorization":
+  {
+    "researchFocus":"Immune Response"
+  }
+  ,  "study2ConditionOrDisease":
+  [
+  {
+    "conditionReported":"Lyme disease"
+  }
+  ,
+  {
+    "conditionReported":"chronic spontaneous urticaria"
+  }
+  ,
+  {
+    "conditionReported":"clinically isolated syndrome"
+  }
+  ]
+  ,  "armOrCohort":
+  [
+  {
+    "description":"vaccine type 001"
+    ,"name":"example human study vaccine 1"
+    ,"type":"Intervention"
+    ,"userDefinedId":"example arm vaccine 1"
+  }
+  ,
+  {
+    "description":"vaccine type 002"
+    ,"name":"example human study vaccine 2"
+    ,"type":"Intervention"
+    ,"userDefinedId":"example arm vaccine 2"
+  }
+  ]
+  ,  "inclusionExclusion":
+  [
+  {
+    "criterion":"Question asked"
+    ,"criterionCategory":"Inclusion"
+    ,"userDefinedId":"example human study.Question 1"
+  }
+  ,
+  {
+    "criterion":"Question asked"
+    ,"criterionCategory":"Exclusion"
+    ,"userDefinedId":"example human study.Question 2"
+  }
+  ]
+  ,  "studyPersonnel":
+  [
+  {
+    "email":"first.name@address.org"
+    ,"firstName":"first"
+    ,"honorific":"Dr."
+    ,"lastName":"last"
+    ,"orcidId":"https://orcid.org/0000-0003-1868-9689"
+    ,"organization":"college"
+    ,"roleInStudy":"Principal Investigator"
+    ,"siteName":"college"
+    ,"suffixes":"jr"
+    ,"titleInStudy":"Principal Investigator"
+    ,"userDefinedId":"example human study 1"
+  }
+  ]
+  ,  "plannedVisit":
+  [
+  {
+    "minStartDay":1
+    ,"name":"example human study v1"
+    ,"orderNumber":1
+    ,"userDefinedId":"example human study v1"
+  }
+  ,
+  {
+    "minStartDay":10
+    ,"name":"example human study v2"
+    ,"orderNumber":2
+    ,"userDefinedId":"example human study v2"
+  }
+  ]
+  ,  "study2Protocol":
+  [
+  {
+    "protocolId":"example human study protocol"
+  }
+  ]
+  ,  "studyFile":
+  [
+  {
+    "description":"Adverse Events"
+    ,"fileName":"cn01adv.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"Transplantation baseline"
+    ,"fileName":"cn01bas.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"Concomitant medication"
+    ,"fileName":"cn01cmd.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"Demographics"
+    ,"fileName":"cn01dem.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"Deviation"
+    ,"fileName":"cn01dev.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"Pre-transplant enrollment"
+    ,"fileName":"cn01enr.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"Graft rejection"
+    ,"fileName":"cn01gfr.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"Graft failure"
+    ,"fileName":"cn01gft.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"Hematology"
+    ,"fileName":"cn01hem.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"Hospitalization"
+    ,"fileName":"cn01hos.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"Immunosuppression medication"
+    ,"fileName":"cn01imed.txt"
+    ,"studyFileType":"Study Summary Description"
+  }
+  ,
+  {
+    "description":"Mycophenolate mofetil"
+    ,"fileName":"cn01mmf.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"cn01pex"
+    ,"fileName":"cn01pex.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"Pathology"
+    ,"fileName":"cn01pth.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"Transplant rejection"
+    ,"fileName":"cn01rej.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"Enrollment"
+    ,"fileName":"cn01roll.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"cn01scf"
+    ,"fileName":"cn01scf.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"Local Sirolimus treatment"
+    ,"fileName":"cn01srl.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"cn01sub."
+    ,"fileName":"cn01sub.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"cn01tpt"
+    ,"fileName":"cn01tpt.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"Termination"
+    ,"fileName":"cn01tst.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"Urinalysis"
+    ,"fileName":"cn01uri.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ,
+  {
+    "description":"Visits"
+    ,"fileName":"cn01vst.txt"
+    ,"studyFileType":"Study Data"
+  }
+  ]
+  ,  "studyLink":
+  [
+  {
+    "name":"ClinicalTrials.gov"
+    ,"value":"http://clinicaltrials.gov/ct2/show/record/NCT00023231"
+  }
+  ]
+  ,  "studyPubmed":
+  [
+  {
+    "authors":"William Harmon, Kevin Meyers,Julie Ingelfinger,Ruth McDonald,Matthew McIntosh,Martin Ho,Leslie Spaneas,Jo Ann Palmer,Marena Hawk,Chris Geehan,Kathryn Tinckam,Wayne W. Hancock, Mohamed H. Sayegh"
+    ,"doi":"abc123"
+    ,"issue":"17"
+    ,"journal":"Journal of the American Society of Nephrology"
+    ,"month":"6"
+    ,"pages":"1735-1745"
+    ,"pubmedId":"16687625"
+    ,"title":"Safety and efficacy of a calcineurin inhibitor avoidance regimen in pediatric renal transplantation"
+    ,"year":"2006"
+  }
+  ]
+}

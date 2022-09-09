@@ -1,0 +1,5 @@
+subjecthumans	Schema Version 3.36																				
+Please do not delete or edit this column																					
+Column Name	Subject ID	Arm Or Cohort ID	Gender	Min Subject Age	Max Subject Age	Age Unit	Age Event	Age Event Specify	Subject Phenotype	Subject Location	Ethnicity	Race	Race Specify	Description	Result Separator Column	Exposure Process Reported	Exposure Material Reported	Exposure Material ID	Disease Reported	Disease Ontology ID	Disease Stage Reported
+	PMID35129576_human_subject-01	PMID35129576_human_subject-01	Female	31	37	Years	Age at enrollment			US: Massachusetts	Other	Other	not specified			unknown	Pfizer BioNTech COVID-19 vaccine | Moderna COVID-19 vaccine	VO:0004987 | VO:0005157	Covid-19  		n/a
+	PMID35129576_human_subject-02	PMID35129576_human_subject-02	Female	31	37	Years	Age at enrollment			US: Massachusetts	Other	Other	not specified			unknown	n/a	n/a	Covid-19  		Mild I Moderate I Severe

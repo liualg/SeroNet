@@ -1,0 +1,63 @@
+basic_study_design	Schema Version 3.36									
+Please do not delete or edit this column	The basic study design template defines and annotates key elements of a study including the purpose, subject grouping, schedule of events, personnel, and references (weblinks, publications). Use the study_design_edit template to add additional information for a study after a study is defined in ImmPort. The basic study design template consists of several sections or compound templates. Some compound templates are required: study, arm_or_cohort, inclusion_exclusion, planned_visit, study_2_condition_or_disease, study_2_protocol, study_categorization, study_personnel.  Other compound templates are optional: study_file, study_link, and study_pubmed.									
+Column Name										
+										
+study										
+User Defined ID	PMID35129576_study-01									
+Brief Title	Durability of Anti-Spike Antibodies in Infants After Maternal COVID-19 Vaccination or Natural Infection									
+Official Title	Durability of Anti-Spike Antibodies in Infants After Maternal COVID-19 Vaccination or Natural Infection									
+Brief Description	To evaluate the persistence of vaccine-induced maternal anti-S IgG in infant blood and compared persistence of infant anti-S IgG after maternal vaccination vs natural infection.									
+Description	Understanding the persistence of maternal antibody levels in infants is important because COVID-19 infections in this age group account for a disproportionate burden of pediatric SARS-CoV-2–associated morbidity6 and because COVID-19 vaccines are not currently planned for administration to infants younger than 6 months. Study limitations include the small number of infants, the longer mean time to follow-up in the infected group (due to pragmatic constraints related to timing of COVID-19 surges in Boston and the availability of participants for timely follow-up), and the reporting of antibody titers rather than clinical outcomes. Although the antibody titer known to be protective against COVID-19 in infants isunknown, these findings provide further incentive for pregnant individuals to pursue COVID-19 vaccination.									
+Intervention Agent	Pfizer BioNTech COVID-19 vaccine, Moderna COVID-19 vaccine									
+Endpoints	Antibodies Viral blood | COVID-19 blood | COVID-19 immunology | COVID-19 Vaccines | Female | Humans | Infant | Pregnancy | Spike Glycoprotein |  Coronavirus immunology | Time Factors									
+Sponsoring Organization	Harvard University									
+Age Unit	Years									
+Actual Start Date	21-Jul-2021									
+Hypothesis	Persistence of anti-spike antibodies in infants									
+Objectives	Clinical Research									
+Target Enrollment	89									
+Minimum Age	31									
+Maximum Age	37									
+										
+study_categorization										
+Research Focus	Immune Response									
+										
+study_2_condition_or_disease										
+Condition Reported	Covid-19  									
+										
+arm_or_cohort										
+User Defined ID	Name	Description	Type Reported							
+PMID35129576_human_subject-01	Vaccinated pregnant women	77 vaccinated pregnant women	Observational							
+PMID35129576_human_subject-02	SARS-CoV-2 Infected pregnant women	12 Infected symptomatic pregnant women	Observational							
+										
+study_personnel										
+User Defined ID	Honorific	Last Name	First Name	Suffixes	Organization	ORCID ID	Email	Title In Study	Role In Study	Site Name
+PMID35129576_personnel-01		Alter	Galit		Harvard University		galter@mgh.harvard.edu	SeroNet Investigator	Co-Principal Investigator	Harvard University
+PMID35129576_personnel-02		Atyeo	Caroline		Harvard University		catyeo@mgh.harvard.edu	SeroNet Investigator	Investigator	Harvard University
+										
+planned_visit										
+User Defined ID	Name	Order Number	Min Start Day	Max Start Day	Start Rule					
+PMID35129576_visit-01	Capillary serum samples collected from 49 infants of vaccinated mothers	1	60							
+PMID35129576_visit-02	At 6 months, serum samples collected from 28 infants of vaccinated mothers (mean, 170 days after birth)	2	170							
+PMID35129576_visit-03	Serum samples collected from 12 infants of infected mothers on mean 207 days after birth	3	207							
+PMID35129576_assessment_recorded_pv	Visit where an assessment is recorded	4	0							
+										
+inclusion_exclusion										
+User Defined ID	Criterion	Criterion Category								
+PMID35129576_inexcl-01	Geriatric subjects	exclusion								
+PMID35129576_inexcl-02	Pediatric subjects	inclusion								
+PMID35129576_inexcl-03	Pregnant subjects	inclusion								
+										
+study_2_protocol										
+Protocol ID	PMID35129576_protocol-01									
+										
+study_file										
+File Name	Description	Study File Type								
+PMID35129576_v1.2.4.xlsm	Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors. 	Study Summary Description								
+										
+study_link										
+Name	Value									
+										
+study_pubmed										
+Pubmed ID	DOI	Title	Journal	Year	Month	Issue	Pages	Authors		
+35129576										

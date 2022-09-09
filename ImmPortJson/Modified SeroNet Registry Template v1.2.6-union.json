@@ -1,0 +1,178 @@
+{
+    "study_pubmed": [{
+            "pubmed_id": "",
+            "publication_title": ""
+        },
+        {
+            "pubmed_id": "",
+            "publication_title": ""
+        }
+
+    ],
+    "study": {
+        "study_identifier": "",
+        "study_name": "",
+        "publication_title": "",
+        "study_objective": "",
+        "study_description": "",
+        "primary_institution_name": "",
+        "controlled_access": "",
+        "dbgap_registration_number": "",
+        "study_data_repository": [],
+        "seronet_award_number": [],
+        "enrollment_start_date": "",
+        "enrollment_end_date": "",
+        "study_location": [],
+        "clinical_outcome_measure": [],
+        "study_design": [],
+        "keyword": [],
+        "study_type": [],
+        "research_focus": [],
+        "survey_instruments_shared": "",
+        "collaborating_institution_name": [],
+        "in_silico_model_type": [],
+        "sARS-CoV-2_virus_variant": [],
+        "animal_model_species": []
+
+    },
+    "study_personnel": [{
+        "user_defined_id": "personnel_1534_1",
+        "honorific": "",
+        "first_name": "",
+        "last_name": "",
+        "suffixes": "",
+        "organization": "",
+        "orcid_id": "",
+        "email": "",
+        "title_in_study": "",
+        "role_in_study": "",
+        "site_name": ""
+    }],
+    "study_file": [{
+        "description": "",
+        "file_name": "",
+        "study_file_type": ""
+    }],
+    "study_link": [{
+        "name": "",
+        "value": ""
+    }],
+    "protocol": [{
+        "protocol_id": "",
+        "protocol_file_name": "",
+        "protocol_name": "",
+        "protocol_description": "",
+        "protocol_type": ""
+    }],
+    "study_cohort_human": [{
+        "arm_id": "Match our arm user defined id",
+        "arm_name": "Cohort_1 - Nice to match it to the arms created in the immport basic study design template",
+        "study_population": [],
+        "arm_type": "",
+        "ethnicity": ["Hispanic or Latino"],
+        "race": ["Multiracial", "White"],
+        "sex_at_birth": [""],
+        "age_event": "",
+        "subject_phenotype": [],
+        "measured_behavioral_or_psychological_factor": [],
+        "measured_social_factor": [],
+        "sars-cov-2_symptoms": [],
+        "clinical_and_demographic_data_provenance": [],
+        "demographic_data_type_collected": [],
+        "sars-cov-2_History": [],
+        "sars-cov-2_vaccine_type": [],
+        "covid-19_disease_severity": ["Moderate", "Severe"],
+        "post_covid-19_symptoms": [],
+        "covid-19_complications": [],
+        "number_of_study_subjects": "",
+        "minimum_age": 5,
+        "maximum_age": 78,
+        "age_unit": "",
+        "pediatric_study_subjects_included": "",
+        "geriatric_study_subjects_included": "",
+        "pregnant_study_subjects_included": "",
+        "who_disease_severity_scale": "",
+        "sars-cov-2_antibodies_measured": "",
+        "reported_health_condition": []
+
+
+
+
+    }],
+    "study_cohort_model_organism": [{
+        "arm_id": "Match our arm user defined id",
+        "arm_name": "Cohort_1 - Nice to match it to the arms created in the immport basic study design template",
+        "study_population": ["Physician", "Nurse"],
+        "arm_type": "",
+        "genus_and_species": "",
+        "biosample_type": [],
+        "strain_chracteristics": [],
+        "sex_at_birth": [""],
+        "age_event": "",
+        "subject_phenotype": [],
+        "sars-cov-2_history": [],
+        "sars-cov-2_vaccine_type": [],
+        "covid-19_disease_severity": ["Moderate", "Severe"],
+        "post_covid-19_symptoms": [],
+        "covid-19_complications": []
+    }],
+    "planned_visit": [{
+        "user_defined_id": "dummy_planned_visit_1534_1",
+        "name": "",
+        "order_number": 1,
+        "min_start_day": 1,
+        "max_start_day": 1,
+        "start_rule": "",
+        "end_rule": ""
+    }],
+    "assay": [{
+            "associated_arm_id": "arm1",
+            "associated_first_planned_visit_id": "",
+            "assay_type": ["Virus Neutralization Assay", "Lateral Flow Assay"],
+            "experiment_name": "?????",
+            "experiment_results_file_name": "?????",
+            "sars-cov-2_antigen": [],
+            "assay_use": [],
+            "manufacturer": "?????",
+            "catalog_number": "?????",
+            "virus_target": "",
+            "antibody_isotype": [],
+            "reporting_units": [],
+            "assay_reporting_format": [],
+            "performance_metrics_included": "Yes",
+            "fnl-sars-cov-2_antigen_used": ""
+
+        },
+        {
+            "associated_arm_id": "arm2",
+            "associated_first_planned_visit_id": "",
+            "assay_type": ["Virus Neutralization Assay"],
+            "experiment_name": "?????",
+            "experiment_results_file_name": "?????",
+            "sars-cov-2_antigen": [],
+            "assay_use": [],
+            "manufacturer": "?????",
+            "catalog_number": "?????",
+            "virus_target": "",
+            "antibody_isotype": [],
+            "reporting_units": [],
+            "assay_reporting_format": [],
+            "performance_metrics_included": "Yes",
+            "fnl-sars-cov-2_antigen_used": ""
+
+        }
+
+    ],
+    "biospecimen": [{
+        "biospecimen_type": ["do we add this field to the assay object - ?????"],
+        "biospecimen_collection_point": ["do we add this field to the assay object - ?????"]
+    }],
+    "in_vitro_model": [{
+        "organoid_model": [],
+        "cell_line": []
+
+    }]
+
+
+
+}

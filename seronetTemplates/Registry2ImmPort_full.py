@@ -2,66 +2,15 @@
 # coding: utf-8
 
 '''
-This script is compatibale with Registry Version v.1.2.3 - 1.2.5
+This script is compatibale with Registry Version v1.2.3 - 1.2.5
     - Please look at other template 
     - Added '*' to SARS-CoV-2 Antigen* (row 163, column B)
     - new assumptions from 1.2.5
     Assumptions:
-- pointerToExperimentalData.txt (Elaine Approve)
-    - This file name is seen in Experiment Samples template 
-    - A file that contains the following text: 
-        - The SeroNet curation team does not curate individual results. Please refer to the study files that are in the study files download tab. 
-
-- no_reagents (Elaine Approve)
-    - Unique ID is seen in ImmPort’s Reagent template and linked to Experiment Samples template
-    - Created an ID called ‘PMIDXXXX_no_reagents’ 
-    - This field contains the following information: 
-        - ID = ‘PMIDXXXX_reagents_not_curated’
-        - Name = reagents not curated
-        - Description = 'reagents not curated for this experiment'
-        - Manufacturer = ‘na’
-        - Catalog = ‘na’
-
-- Male | Female (Elaine Approve)
-    - Gender is seen in Subjects template 
-    - Changed to ‘Other’ in code (to Avoid errors and creating multiple versions of the template) 
-
-- Race (Elaine Approve)
-    - Race is seen in Subjects template 
-    - Changed to other in code (to Avoid errors and creating multiple versions of the template) 
-    - Moved information in Race field into Race Specify field
-
-- Planned visit ID (Elaine Approve)
-    - Seen in Assessment template and linked to Basic Study Design template 
-    - Created a Unique ID for a visit date where assessments were done 
-        - ASSUMPTION: All assessments are done on the same day 
-    - This field contains the following information: 
-        - ID = ‘PMIDXXXXXXX_assessment_recorded_pv’
-        - Name = ‘Visit where an assessment is recorded’
-        - Order Number = %  the previous order number + 1
-        - Min start date = ‘0’
-        - Max start date = ‘’
-        - Start rule = ‘’
-
-- Treatment File (Elaine Approve) ** add to v1.3.0 post release 
-    - Seen in Treatment template and linked to Experiment Samples template 
-    - Create a Treatment template if Experiments are used 
-        - ASSUMPTION: There are no treatments done
-    - This field contains the following information: 
-        - Column Name = ‘’
-        - User Defined ID = ‘PMIDXXXXXX_treatment’
-        - Name = ‘SARs CoV-2 Related Treatments’
-        - Use Treatment? = no
-        - Amount Value = ‘’
-        - Amount Unit = ‘’
-        - Duration Value = ‘’
-        - Duration Unit = ‘’
-        - Temperature Value = ‘’
-        - Temperature Unit = ‘’
-        - Comments = ‘’
-
-
-
+        - specfiy over actaul fields 
+        - loose query for v1.2.3 - 1.2.5
+        - Assessments planned visit day 
+        - Treatment 
 '''
 
 import pandas as pd
@@ -704,46 +653,6 @@ def create_full(PMID):
         print(f'** File:: {PROTOCOLS.Protocol_Name[1]}.txt does not exist **')
 
 
-     #########################################
-     ############## Experiment  ##############
-    #  #########################################
-
-    # # creating a map of the assay types to the SeroNet descriptors 
-    # reg_description = pd.read_excel(df_path, sheet_name = map_sheet)
-    # descriptions = dict(zip(reg_description['Unnamed: 1'][4:], reg_description['Unnamed: 2'][4:]))
-
-    # #creating a df to add into the worksheet
-    # Assay_used = STUDY_EXPERIMENTS.Experiment_Assay_Type
-
-    # experiments_df = pd.DataFrame({
-    #     'Column Name': ['']*len(Assay_used),
-    #     'User Defined ID': [f'PMID{PMID}_exp-0'+str(i+1) for i,k in enumerate(Assay_used)],
-    #     'Name': [Assay_used[i+1] for i, k in enumerate(Assay_used)],
-    #     'Description': [descriptions.get(k) for i, k in enumerate(Assay_used)],
-    #     'Measurement Technique': [STUDY_EXPERIMENTS.Experiment_Assay_Type[i+1] for i, k in enumerate(Assay_used)],
-    #     'Study ID': [STUDY.Study_Identifier]*len(Assay_used),
-    #     'Protocol ID(s)': [PROTOCOLS.Protocol_ID[1]]*len(Assay_used)
-    # })
-
-
-    # # loading experiment template and removing excess rows and columns
-    # experiment_ws = load_workbook(PATH_experiments)['experiments.txt']
-    # experiment_ws = seroFxn.remove_excess(experiment_ws)
-
-    # # adding df to bottom of ws
-    # seroFxn.add_df(experiment_ws, experiments_df, add_header = False)
-
-
-    # # In[21]:
-
-
-    # experiments_df = pd.DataFrame(experiment_ws.values).replace({None: '', 'None': ''})
-    # experiments_df.to_csv(os.path.join(OUT_DIR,f'{EXP_TEMPLATE}.txt'),
-    #                       header = False, 
-    #                       index = False,
-    #                       sep = '\t')
-
-    # experiments_df
     #########################################
     ##########  EXPERIMENT SAMPLE   #########
     #########################################
@@ -970,7 +879,7 @@ def create_full(PMID):
                            sep = '\t')
 
         ##########################
-        ###     TREATMENT      ###
+        ###     TREATMENT      ###    #ASSUMPTION
         ##########################
         # only created if experiment samples are made
         empty = ['']
@@ -1017,9 +926,9 @@ def create_full(PMID):
             if k not in clean_other:
                 ID.append(f'PMID{PMID}_reagentID-0{i+1}')
                 Name.append(EXPERIMENTS.SARS_CoV_2_Antigen[i+1])
-                Description.append(EXPERIMENTS.SARS_CoV_2_Antigen[i+1])
-                Manufacturer.append(EXPERIMENTS.SARS_CoV_2_Antigen[i+1])
-                Catalog.append(EXPERIMENTS.SARS_CoV_2_Antigen[i+1])
+                Description.append(EXPERIMENTS.Assay_Use[i+1])
+                Manufacturer.append(EXPERIMENTS.Manufacturer[i+1])
+                Catalog.append(EXPERIMENTS.Catalog[i+1])
 
             elif counter == 0:
                 ID.append(f'PMID{PMID}_reagents_not_curated')
@@ -1099,8 +1008,8 @@ def create_full(PMID):
             'Subject ID': [f"PMID{PMID}_human_subject-0{int(i+1)}" for i in range(len(species))],
             'Arm Or Cohort ID': SUBJECT_HUMAN.User_Defined_ID, #I feel like this needs to be defined
             'Gender': SUBJECT_HUMAN.Sex_at_Birth, 
-            'Min Subject Age': [STUDY_DETAILS.Minimum_Age]*len(species), # add this to validator in dataclass 
-            'Max Subject Age': [STUDY_DETAILS.Maximum_Age]*len(species), # add this to validator in dataclass 
+            'Min Subject Age': [STUDY_DETAILS.Minimum_Age]*len(species), # #ASSUMPTION - defualts to 0
+            'Max Subject Age': [STUDY_DETAILS.Maximum_Age]*len(species), # #ASSUMPTION - defaults to 89
             'Age Unit': [STUDY_DETAILS.Age_Unit]*len(species),
             'Age Event': SUBJECT_HUMAN.Age_Event, 
             'Age Event Specify': empty,
@@ -1177,7 +1086,7 @@ def create_full(PMID):
             'Age Event': SUBJECT_ORGANISM.Age_Event,
             'Age Event Specify': empty,
             'Subject Phenotype': empty, ## This does not exist
-            'Subject Location': SUBJECT_ORGANISM.Study_Location, # This needs to be changed. SUBJECT.Study_Location,
+            'Subject Location': SUBJECT_ORGANISM.Study_Location,
             'Species': SUBJECT_ORGANISM.Species,
             'Strain': SUBJECT_ORGANISM.Biosample_Types,
             'Strain Characteristics': SUBJECT_ORGANISM.Strain_Characteristics,
@@ -1279,7 +1188,7 @@ def create_full(PMID):
                 'CRF File Names': empty,
                 'Result Separator Column': empty,
                 'User Defined ID': [f"PMID{PMIDs}_component_{field}-0{int(i+1)}" for i in range(len(obj.user_ID))], # this is the component ID
-                'Planned Visit ID': [f'PMID{PMID}_assessment_recorded_pv']*len(obj.user_ID), 
+                'Planned Visit ID': [f'PMID{PMID}_assessment_recorded_pv']*len(obj.user_ID), #ASSUMPTION
                 'Name Reported ': obj.assessment_component,
                 'Study Day': ['0']*len(obj.user_ID), # Not sure, we dont capture study day 
                 'Age At Onset Reported': empty,

@@ -1,0 +1,16 @@
+PMID35129576_protocol-01
+Excerpted DOI: 10.1001/jama.2022.1206
+
+Methods
+
+The study included individuals who had received an mRNA COVID-19 vaccine in pregnancy or were infected with SARS-CoV-2 at 20 to 32 weeks’ gestation, had 
+enrolled in a prospective study at 2 academic medical centers in Boston, and had enrolled their infants in this follow-up study conducted from July 21, 2021, 
+to October 22, 2021. Individuals vaccinated or infected at 20 to 32 weeks’ gestation were enrolled because previous studies have demonstrated superior 
+transplacental transfer of antibodies during this window compared with vaccination closer to delivery.4,5 Those infected before vaccination were excluded. 
+Matched maternal and umbilical cord serum samples were collected at birth. Infant capillary serum samples were collected via microneedle device at 2 months 
+after birth for infants of vaccinated mothers and at 6 months for infants of mothers who were vaccinated and mothers who had been infected with SARS-CoV-2. 
+Antibody titers against the SARS-CoV-2 spike protein were quantified using an enzyme-linked immunosorbent assay (eMethods in the Supplement). Differences 
+in titers between vaccinated and infected groups at delivery and 6-month infant age were assessed by the Mann-Whitney U test. Differences in proportions of 
+infants with detectable antibodies at 6 months were assessed by the Fisher exact test. Correlation between delivery titers and infant antibody was assessed 
+via the Spearman rank test. Analyses were conducted using Prism version 9.0. Significance was defined as a 2-sided P < .05. The study was approved by the Mass General
+Brigham institutional review board, and all participants provided written informed consent.

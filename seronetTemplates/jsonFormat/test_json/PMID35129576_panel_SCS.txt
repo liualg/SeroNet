@@ -1,0 +1,5 @@
+assessments	Schema Version 3.36																							
+Please do not delete or edit this column																								
+Column Name	Subject ID	Assessment Panel ID	Study ID	Name Reported	Assessment Type	Status	CRF File Names	Result Separator Column	User Defined ID	Planned Visit ID	Name Reported	Study Day	Age At Onset Reported	Age At Onset Unit Reported	Is Clinically Significant	Location Of Finding Reported	Organ Or Body System Reported	Result Value Reported	Result Unit Reported	Result Value Category	Subject Position Reported	Time Of Day	Verbatim Question	Who Is Assessed
+	PMID35129576_human_subject-01	PMID35129576_assessment_SCS-01	PMID35129576_study-01	SARS CoV2 Symptoms					PMID35129576_component_SCS-01	PMID35129576_assessment_recorded_pv	n/a	0						NA						
+	PMID35129576_human_subject-02	PMID35129576_assessment_SCS-02	PMID35129576_study-01	SARS CoV2 Symptoms					PMID35129576_component_SCS-02	PMID35129576_assessment_recorded_pv	Acute COVID-19 (< 4 weeks)	0						NA						

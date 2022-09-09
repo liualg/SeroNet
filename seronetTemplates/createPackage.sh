@@ -20,7 +20,7 @@ cp ./README.txt ./Package/README.txt
 pipreqs ./Package/
 mv ./Package/requirements.txt ./Package/software.txt
 
-zip -r ./Package_v1.2.3.zip ./Package
+zip -r ./Package_v1.3.zip ./Package
 rm -r ./Package
 
 
