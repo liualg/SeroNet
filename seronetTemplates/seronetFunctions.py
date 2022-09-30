@@ -88,6 +88,9 @@ def edit_df(df_temp):
 def clean_array(the_array, VARS_TO_CLEAN):
     return [x for x in the_array if x not in VARS_TO_CLEAN]
 
+def remove_whitespace(obj):
+    return obj.replace('\n', '').replace('\t', '')
+
 def get_vaccine(arrays, VARS_TO_CLEAN):
     empty = ['']
     vaccine_type = []

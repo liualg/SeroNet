@@ -1,0 +1,7 @@
+other_reagents	Schema Version 3.36							
+Please do not delete or edit this column								
+Column Name	User Defined ID	Name	Description	Manufacturer	Catalog Number	Lot Number	Weblink	Contact
+	PMID34952892_reagentID-01	n/a  	n/a	components from multiple manufacturers	n/a			
+	PMID34952892_reagentID-02	n/a  	n/a	components from multiple manufacturers	n/a			
+	PMID34952892_reagentID-03	n/a  	n/a	components from multiple manufacturers	n/a			
+	PMID34952892_reagentID-04	n/a  	n/a	components from multiple manufacturers	n/a			

@@ -1,0 +1,6 @@
+other_reagents	Schema Version 3.36							
+Please do not delete or edit this column								
+Column Name	User Defined ID	Name	Description	Manufacturer	Catalog Number	Lot Number	Weblink	Contact
+	PMID33704352_reagentID-01	Receptor Binding Domain (RBD) | Full Length Spike Trimer	Research Use Only	n/a	n/a			
+	PMID33704352_reagents_not_curated	Reagents not curated	Reagents not curated for this experiment	na	na			
+	PMID33704352_reagentID-03	S1 | S2	Research Use Only	n/a	n/a			

@@ -1,0 +1,6 @@
+other_reagents	Schema Version 3.36							
+Please do not delete or edit this column								
+Column Name	User Defined ID	Name	Description	Manufacturer	Catalog Number	Lot Number	Weblink	Contact
+	PMID34250512_reagentID-01	Full Length Spike Trimer | N-terminal Domain (NTD) | S1	n/a	Mesoscale Discovery	n/a			
+	PMID34250512_reagents_not_curated	Reagents not curated	Reagents not curated for this experiment	na	na			
+	PMID34250512_reagentID-03	Full Length Spike Trimer | Receptor Binding Domain (RBD)	n/a	components from multiple manufacturers	n/a			

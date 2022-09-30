@@ -7,12 +7,16 @@ This script is compatibale with Registry Version v.1.2.2
     - Please look at other template 
     - Added '*' to SARS-CoV-2 Antigen* (row 163, column B)
 This script is compatibale with Registry Version v.1.2.5
+1.2.6 
+- added (DataClassJsonMixin) to dataclass names.
+This allows the transfer to .json files 
 
 '''
 
 
 
 from dataclasses import dataclass, field
+from dataclasses_json import DataClassJsonMixin
 import seronetFunctions as seroFxn
 # import seronetDataclass_v2 as seroClass
 import datetime as dt
@@ -44,7 +48,7 @@ logging.basicConfig(filename=os.path.join(CD, "log", f"Registry_{today}.log"), l
 
 ###
 @dataclass
-class study:
+class study(DataClassJsonMixin):
     """1 Column to the right"""
     Study_Identifier: str = None
     Study_Name: str = None
@@ -55,16 +59,16 @@ class study:
     NAME: str = 'study'
 
     def __post_init__(self):
-        self.Study_Identifier = self.Study_Identifier.replace('\n', '').replace('\t', '')
-        self.Study_Name = self.Study_Name.replace('\n', '').replace('\t', '')
-        self.Publication_Title = self.Publication_Title.replace('\n', '').replace('\t', '')
-        self.Study_Objective = self.Study_Objective.replace('\n', '').replace('\t', '')
-        self.Study_Description = self.Study_Description.replace('\n', '').replace('\t', '')
+        self.Study_Identifier = seroFxn.remove_whitespace(self.Study_Identifier)
+        self.Study_Name = seroFxn.remove_whitespace(self.Study_Name)
+        self.Publication_Title = seroFxn.remove_whitespace(self.Publication_Title)
+        self.Study_Objective = seroFxn.remove_whitespace(self.Study_Objective)
+        self.Study_Description = seroFxn.remove_whitespace(self.Study_Description)
         object.__setattr__(self, 
             'Primary_Institution_Name', seroFxn.capitalize_proper(self.Primary_Institution_Name, filler_words))
 
 @dataclass
-class study_personnel:
+class study_personnel(DataClassJsonMixin):
     """1 row below, 11 Columns"""
     User_Defined_ID: list = None
     Honorific: list = None
@@ -97,7 +101,7 @@ class study_personnel:
 
 
 @dataclass
-class study_file:
+class study_file(DataClassJsonMixin):
     File_Name: list = field(default_factory=list)
     Description: list = field(default_factory=list)
     Study_File_Type: list = field(default_factory=list)
@@ -122,14 +126,14 @@ class study_file:
 
 
 @dataclass
-class study_link:
+class study_link(DataClassJsonMixin):
     Name: list = field(default_factory=list)
     Value: list = field(default_factory=list)
     ImmPortNAME: str = 'study_link'
 
 
 @dataclass
-class study_categorization:
+class study_categorization(DataClassJsonMixin):
     """1 Column to the right"""
     Research_Focus: str = None
     Study_Type: str = None
@@ -146,7 +150,7 @@ class study_categorization:
 
 
 @dataclass
-class study_design:
+class study_design(DataClassJsonMixin):
     """1 Column to the right"""
     Clinical_Study_Design: str = None
     in_silico_Model_Type: str = None
@@ -154,7 +158,7 @@ class study_design:
 
 
 @dataclass
-class protocols:
+class protocols(DataClassJsonMixin):
     Protocol_ID: str
     Protocol_File_Name: str
     Protocol_Name: str
@@ -173,7 +177,7 @@ class protocols:
 
 
 @dataclass
-class condition_or_disease:
+class condition_or_disease(DataClassJsonMixin):
     """1 Column to the right"""
     Reported_Health_Condition: str = None
     ImmPortNAME: str = 'study_2_condition_or_disease'
@@ -188,7 +192,7 @@ class condition_or_disease:
 
 
 @dataclass
-class Intervention_Agent:
+class Intervention_Agent(DataClassJsonMixin):
     SARS_CoV_2_Vaccine_Type: list = None
     ImmPortNAME: str = 'NA'
 
@@ -202,7 +206,7 @@ class Intervention_Agent:
 
 
 @dataclass
-class study_details:
+class study_details(DataClassJsonMixin):
     Clinical_Outcome_Measure: str = None
     Enrollment_Start_Date: str = None  # dd-MMM-yy
     Enrollment_End_Date: str = None  # dd-MMM-yy
@@ -240,11 +244,20 @@ class study_details:
         else:
             object.__setattr__(self, "Enrollment_Start_Date", get_correct_datetime(self.Enrollment_Start_Date))
 @dataclass
-class inclusion_exclusion:
+class inclusion_exclusion(DataClassJsonMixin):
     """1 row below, 3 Columns"""
     User_Defined_ID: list = None
     Criterion: list = field(default_factory=list)
     Criterion_Category: list = field(default_factory=list)
+    # changed V
+    Geriatric_subjects: str = "No"
+    Pediatric_subjects: str = "No"
+    Pregnant_subjects: str = "No"
+    SARS_CoV_2_Antibodies_Measured: str = "No"
+    Performance_metrics_included: str = "No"
+    Survey_instrument_shared: str = "No"
+    WHO_disease_severity_scale_used: str = "No"
+
     ImmPortNAME: str = 'inclusion_exclusion'
 
     def __post_init__(self):
@@ -257,10 +270,42 @@ class inclusion_exclusion:
                 object.__setattr__(self, "Criterion", "Other") 
                 object.__setattr__(self, "Criterion_Category", "Inclusion")
 
+        for i, k in enumerate(self.Criterion):
+            i = i + 1
+            include = ['inclusion', 'yes']
+
+            if k == "Geriatric subjects":
+                if self.Criterion_Category[i].lower() in include:
+                    self.Geriatric_subjects = "Yes"
+
+            if k == "Pediatric subjects":
+                if self.Criterion_Category[i].lower() in include:
+                    self.Pediatric_subjects = "Yes"
+
+            if k == "Pregnant subjects": 
+                if self.Criterion_Category[i].lower() in include:
+                    self.Pregnant_subjects = "Yes"
+
+            if k == "SARS-CoV-2 Antibodies Measured":
+                if  self.Criterion_Category[i].lower() in include:
+                    self.SARS_CoV_2_Antibodies_Measured = "Yes"
+
+            if k == "Performance metrics included":
+                if self.Criterion_Category[i].lower() in include:
+                    self.Performance_metrics_included = "Yes"
+
+            if k == "Survey instrument shared": 
+                if self.Criterion_Category[i].lower() in include:
+                    self.Survey_instrument_shared = "Yes"
+
+            if k == "WHO disease severity scale used":
+                if self.Criterion_Category[i].lower() in include:
+                    self.WHO_disease_severity_scale_used = "Yes"
+
 
 # confused on why this doesnt work
 @dataclass
-class study_pubmed:
+class study_pubmed(DataClassJsonMixin):
     Pubmed_ID: str = None
     DOI: int = None
     Title: str = None
@@ -278,7 +323,7 @@ class study_pubmed:
 
 
 @dataclass
-class arm_or_cohort:
+class arm_or_cohort(DataClassJsonMixin):
     User_Defined_ID: list = field(default_factory=list),
     Name: list = field(default_factory=list),
     Description: list = field(default_factory=list),
@@ -300,7 +345,7 @@ class arm_or_cohort:
 
 
 @dataclass
-class subject_type_human:
+class subject_type_human(DataClassJsonMixin):
     User_Defined_ID: list = field(default_factory=list) # might need to change
     Name: list = None  # arm
     Description: list = None  # arm
@@ -444,7 +489,7 @@ class subject_type_human:
 
 
 @dataclass
-class subject_type_mode_organism:
+class subject_type_mode_organism(DataClassJsonMixin):
     User_Defined_ID: list = field(default_factory=list)  # might need to change
     Name: list = None
     Description: list = None
@@ -574,7 +619,7 @@ class subject_type_mode_organism:
 #         # COVID-19 Disease Severity
 
 @dataclass
-class planned_visit:
+class planned_visit(DataClassJsonMixin):
     """1 row below, 7 Columns"""
     User_Defined_ID: list = field(default_factory=list)
     Name: list = field(default_factory=list)
@@ -607,7 +652,7 @@ class planned_visit:
 
 
 @dataclass
-class study_experiment_samples:
+class study_experiment_samples(DataClassJsonMixin):
     Expt_Sample_User_Defined_ID: list = field(default_factory=list)
     Expt_Sample_Biospecimen_Type: list = field(default_factory=list)
     Expt_Sample_Biospecimen_Collection_Point: list = field(default_factory=list)
@@ -620,7 +665,7 @@ class study_experiment_samples:
 
 
 @dataclass
-class study_experiment:
+class study_experiment(DataClassJsonMixin):
     Experiment_ID: str = None
     Experiment_Name: list = field(default_factory=list)
     Experiment_Assay_Type: list = field(default_factory=list)
@@ -636,7 +681,7 @@ class study_experiment:
 
 
 @dataclass
-class reagent_per_experiment:
+class reagent_per_experiment(DataClassJsonMixin):
     Reagent_ID: list = field(default_factory=list)
     SARS_CoV_2_Antigen: list = field(default_factory=list)
     Assay_Use: list = field(default_factory=list)
@@ -684,7 +729,7 @@ class reagent_per_experiment:
                     sys.exit(f"ERROR:: Error [Reagent_ID]: Missing value in Reagent ID")
 
 @dataclass #only found in v1.2.2
-class experiments: 
+class experiments(DataClassJsonMixin): 
     Associated_Arm_ID: list = field(default_factory=list)
     Associated_Planned_Visit_ID: list = field(default_factory=list)
     Assay_Type: list = field(default_factory=list)
@@ -711,15 +756,16 @@ class experiments:
     def __post_init__(self):
         for i, k in enumerate(self.Associated_Arm_ID):
             if k not in VARS_TO_CLEAN:
-                self.Associated_Arm_ID[i + 1] = k.replace("|","I").replace(","," I ").replace("  "," ")
+                self.Associated_Arm_ID[i + 1] = seroFxn.replace_delimiter(k)
+                # .replace("|","I").replace(","," I ").replace("  "," ")
             
         for i, k in enumerate(self.Associated_Planned_Visit_ID):
             if k not in VARS_TO_CLEAN:
-                self.Associated_Planned_Visit_ID[i + 1] = k.replace("|","I").replace(","," I ").replace("  "," ")
+                self.Associated_Planned_Visit_ID[i + 1] = seroFxn.replace_delimiter(k)
             
         for i, k in enumerate(self.Biospecimen_Type):
             if k not in VARS_TO_CLEAN:
-                self.Biospecimen_Type[i + 1] = k.replace("|","I").replace(","," I ").replace("  "," ")
+                self.Biospecimen_Type[i + 1] = seroFxn.replace_delimiter(k)
 
         ## adding a part that adds no_reagent to the field if it is empty
         for i, k in enumerate(self.Assay_Use):
@@ -728,8 +774,44 @@ class experiments:
 
 
 @dataclass
-class results:
+class results(DataClassJsonMixin):
     Results_Virus_Target: list = field(default_factory=list)
     Results_Antibody_Isotype: list = field(default_factory=list)
     Results_Reporting_Units: list = field(default_factory=list)
     Results_Reporting_Format: list = field(default_factory=list)
+
+@dataclass
+class studySearch(DataClassJsonMixin):
+    Study_Identifier: str = None
+    Study_Name: str = None
+    Publication_Title: str = None
+    Study_Objective: str = None
+    Study_Description: str = None
+    Primary_Institution_Name: str = None
+    Geriatric_subjects: str = "No"
+    Pediatric_subjects: str = "No"
+    Pregnant_subjects: str = "No"
+    SARS_CoV_2_Antibodies_Measured: str = "No"
+    Performance_metrics_included: str = "No"
+    Survey_instrument_shared: str = "No"
+    WHO_disease_severity_scale_used: str = "No"
+    
+
+@dataclass
+class Template(DataClassJsonMixin):
+    study: list = None
+    study_pubmed: list = None
+    study_personnel: list = None
+    study_file: list = None
+    study_link: list = None
+    study_categorization: list = None
+    study_design: list = None
+    protocols: list = None
+    cod: list = None
+    intervention_agent: list = None
+    study_details: list = None
+    inclusion_exclusion: list = None
+    subject_human: list = None
+    subject_organism: list = None
+    planned_visit: list = None
+    experiments: list = None

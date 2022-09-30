@@ -1,0 +1,6 @@
+other_reagents	Schema Version 3.36							
+Please do not delete or edit this column								
+Column Name	User Defined ID	Name	Description	Manufacturer	Catalog Number	Lot Number	Weblink	Contact
+	PMID34652783_reagentID-01	Receptor Binding Domain (RBD) | Full Length Spike Trimer	n/a	Milliplex®	32161000			
+	PMID34652783_reagentID-02	Receptor Binding Domain (RBD) | Full Length Spike Trimer	n/a	Milliplex®	32161000			
+	PMID34652783_reagents_not_curated	Reagents not curated	Reagents not curated for this experiment	na	na			
