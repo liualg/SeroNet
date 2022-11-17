@@ -1,0 +1,401 @@
+{
+    "pubmed_id": 35289637,
+    "study_identifier": "PMID35289637_study-01",
+    "study_name": "Omicron variant Spike-specific antibody binding and Fc activity are preserved in recipients of mRNA or inactivated COVID-19 vaccines",
+    "publication_title": "Omicron variant Spike-specific antibody binding and Fc activity are preserved in recipients of mRNA or inactivated COVID-19 vaccines",
+    "study_objective": "Probed the ability of vaccine-induced antibodies to drive Fc effector activity against the Omicron variant using samples from individuals receiving one of three SARS-CoV-2 vaccines",
+    "study_description": "The Omicron variant of SARS-CoV-2 has been shown to evade neutralizing antibodies elicited by vaccination or infection. Despite the global spread of the Omicron variant, even among highly vaccinated populations, death rates have not increased concomitantly. These data suggest that immune mechanisms beyond antibody-mediated virus neutralization may protect against severe disease. In addition to neutralizing pathogens, antibodies contribute to control and clearance of infections through Fc effector mechanisms. Here, we probed the ability of vaccine-induced antibodies to drive Fc effector activity against the Omicron variant using samples from individuals receiving one of three SARS-CoV-2 vaccines. Despite a substantial loss of IgM, IgA, and IgG binding to the Omicron variant receptor binding domain (RBD) in samples from individuals receiving BNT162b2, mRNA-1273, and CoronaVac vaccines, stable binding was maintained against the full-length Omicron Spike protein. Compromised RBD binding IgG was accompanied by a loss of RBD-specific antibody Fc\u03b3 receptor (Fc\u03b3R) binding in samples from individuals who received the CoronaVac vaccine, but RBD-specific Fc\u03b3R2a and Fc\u03b3R3a binding was preserved in recipients of mRNA vaccines. Conversely, Spike protein-specific antibodies exhibited persistent but reduced binding to Fc\u03b3Rs across all three vaccines, although higher binding was observed in samples from recipients of mRNA vaccines. This was associated with preservation of Fc\u03b3R2a and Fc\u03b3R3a binding antibodies and maintenance of Spike protein-specific antibody-dependent natural killer cell activation. Thus, despite the loss of Omicron neutralization, vaccine-induced Spike protein-specific antibodies continue to drive Fc effector functions, suggesting a capacity for extraneutralizing antibodies to contribute to disease control.",
+    "primary_institution_name": "Harvard University",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID35289637_personnel-01",
+            "honorific": "",
+            "last_name": "Barouch",
+            "first_name": "Dan",
+            "suffixes": "",
+            "organization": "Harvard University",
+            "orchid_id": "",
+            "email": "dbarouch@bidmc.harvard.edu",
+            "seronet_title_in_study": "SeroNet Principal Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Harvard University"
+        },
+        {
+            "personnel_id": "PMID35289637_personnel-02",
+            "honorific": "",
+            "last_name": "Galit",
+            "first_name": "Alter",
+            "suffixes": "",
+            "organization": "Harvard University",
+            "orchid_id": "",
+            "email": "galter@mgh.harvard.edu",
+            "seronet_title_in_study": "Co-Principal Investigator",
+            "role_in_study": "Corresponding Author",
+            "site_name": "Harvard University"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "scitranslmed.abn9243_sm.pdf",
+            "study_file_description": "Supplementary Materials",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "scitranslmed.abn9243_reproducibility_checklist.docx",
+            "study_file_description": "Reproducibility Checklist",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "scitranslmed.abn9243_data_file_s1.xlsx",
+            "study_file_description": "Subject Level Study Data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35289637_v1.2.3.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.",
+            "study_file_type": "Study Summary Description"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Vaccine Response",
+    "study_type": "Clinical Research",
+    "keyword": [
+        "Antibodies Neutralizing",
+        "Antibodies Viral",
+        "BNT162 Vaccine",
+        "COVID-19 Vaccines",
+        "COVID-19 prevention & control",
+        "Humans",
+        "Immunoglobulin G",
+        "RNA Messenger genetics",
+        "SARS-CoV-2",
+        "Spike Glycoprotein Coronavirus",
+        "mRNA Vaccines."
+    ],
+    "clinical_study_design": "Prospective Cohort",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID35289637_protocol-01",
+        "protocol_file_name": "PMID35289637_protocol-01.txt",
+        "protocol_name": "PMID35289637_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "Pfizer-BioNTech",
+        "Moderna",
+        "Other"
+    ],
+    "clinical_outcome_measure": "Fc effector activity against the Omicron variants",
+    "enrollment_start_date": "",
+    "enrollment_end_date": "",
+    "number_of_study_subjects": 38,
+    "age_unit": "Years",
+    "minimum_age": 20,
+    "maximum_age": 53,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID35289637_human_subject-01",
+            "arm_name": "BNT162b2 vaccinated group",
+            "study_population_description": "11 participants received BNT162b2 mRNA vaccine",
+            "arm_type": "Intervention",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "Chile"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Vaccinated"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Pfizer BioNTech COVID-19 vaccine ; VO:0004987"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35289637_human_subject-02",
+            "arm_name": "mRNA-1273 vaccinated group",
+            "study_population_description": "14 participants received mRNA-1273 vaccine",
+            "arm_type": "Intervention",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Massachusetts"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Vaccinated"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Moderna COVID-19 vaccine ; VO:0005157"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35289637_human_subject-03",
+            "arm_name": "CoronaVac vaccinated group",
+            "study_population_description": "13 participants received  CoronaVa vaccine.",
+            "arm_type": "Intervention",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "Chile"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Vaccinated"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Other"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35289637_human_subject-04",
+            "arm_name": "Healthy volunteers",
+            "study_population_description": "3 different Healthy volunteers",
+            "arm_type": "Healthy Control",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Massachusetts"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Pfizer BioNTech COVID-19 vaccine ; VO:0004987"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID35289637_visit-01",
+            "visit_name": "Plasma sample collected from BNT162b2 vaccinated individuals from 13 to 19 days after second dose of vaccination",
+            "visit_order_number": 1,
+            "visit_min_start_day": 34,
+            "visit_max_start_day": 40,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35289637_visit-02",
+            "visit_name": "Plasma sample collected from mRNA-1273 vaccinated individuals from 13 to 19 days after second dose of vaccination",
+            "visit_order_number": 2,
+            "visit_min_start_day": 41,
+            "visit_max_start_day": 47,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35289637_visit-03",
+            "visit_name": "Plasma sample collected from CoronaVac vaccinated individuals from 13 to 19 days after second dose of vaccination",
+            "visit_order_number": 3,
+            "visit_min_start_day": 41,
+            "visit_max_start_day": 47,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35289637_visit-04",
+            "visit_name": "NK cells were isolated from buffy coats from healthy donors",
+            "visit_order_number": 4,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": 1,
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID35289637_human_subject-01",
+                "PMID35289637_human_subject-02",
+                "PMID35289637_human_subject-03"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35289637_visit-01",
+                "PMID35289637_visit-02",
+                "PMID35289637_visit-03"
+            ],
+            "assay_type": "Multiplex Bead Array Assay",
+            "experiment_name": "Luminex assay",
+            "experiment_results_file_name": "scitranslmed.abn9243_data_file_s1.xlsm",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer",
+                "Receptor Binding Domain (RBD)",
+                "N-terminal Domain (NTD)"
+            ],
+            "assay_use": "",
+            "manufacture": "Southern Biotech",
+            "catalog_number": "A14527",
+            "virus_target": [
+                "SARS-CoV-2 WA1/2020 (D614 variant)",
+                "SARS-CoV-2 Alpha; B.1.1.7",
+                "SARS-CoV-2 Beta; B.1.351",
+                "SARS-CoV-2 Delta; B.1.617.2",
+                "SARS-CoV-2 Omicron; B.1.1.529; BA.1"
+            ],
+            "antibody_isotype": [
+                "IgG",
+                "IgA",
+                "IgM"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Qualitative"
+        },
+        {
+            "arm_id": [
+                "PMID35289637_human_subject-01",
+                "PMID35289637_human_subject-02",
+                "PMID35289637_human_subject-03",
+                "PMID35289637_human_subject-04"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35289637_visit-01",
+                "PMID35289637_visit-02",
+                "PMID35289637_visit-03",
+                "PMID35289637_visit-04"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "ADNKA assay",
+            "experiment_results_file_name": "scitranslmed.abn9243_data_file_s1.xlsm",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Receptor Binding Domain (RBD)"
+            ],
+            "assay_use": "",
+            "manufacture": "BioLegend",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2 WA1/2020 (D614 variant)",
+                "SARS-CoV-2 Alpha; B.1.1.7",
+                "SARS-CoV-2 Beta; B.1.351",
+                "SARS-CoV-2 Delta; B.1.617.2",
+                "SARS-CoV-2 Omicron; B.1.1.529; BA.1"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Qualitative"
+        }
+    ],
+    "geriatric_subjects": "No",
+    "pediatric_subjects": "No",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "Yes",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID35289637_inexcl-01",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35289637_inexcl-02",
+            "inclusion_criterion": "Pediatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35289637_inexcl-03",
+            "inclusion_criterion": "Vaccine recipients",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35289637_inexcl-04",
+            "inclusion_criterion": "SARS-CoV-2 Antibodies Measured",
+            "inclusion_criterion_category": "inclusion"
+        }
+    ]
+}

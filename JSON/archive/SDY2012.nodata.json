@@ -1,0 +1,144 @@
+{
+    "pubmed_id":
+    "study_identifier":
+    "study_name":
+    "publication_title":
+    "study_objective":
+    "study_description":
+    "primary_institution_name":
+    "study_personnel": [
+        {
+            "personnel_id":
+            "honorific":
+            "last_name":
+            "first_name":
+            "suffixes":
+            "organization":
+            "orchid_id":
+            "email":
+            "seronet_title_in_study":
+            "role_in_study":
+            "site_name":
+        },
+        {
+            "personnel_id":
+            "honorific":
+            "last_name":
+            "first_name":
+            "suffixes":
+            "organization":
+            "orchid_id":
+            "email":
+            "seronet_title_in_study":
+            "role_in_study":
+            "site_name":
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name":
+            "study_file_description":
+            "study_file_type":
+        },
+        {
+            "study_file_name":
+            "study_file_description":
+            "study_file_type":
+        }
+    ],
+    "study_link": [],
+    "research_focus":
+    "study_type":
+    "keyword": [],
+    "clinical_study_design":
+    "in_silico_model_type":
+    "protocol": {
+        "protocol_id":
+        "protocol_file_name":
+        "protocol_name":
+        "protocol_description":
+        "protocol_type":
+    },
+    "reported_health_condition": [],
+    "sars_cov_2_vaccine_type": [],
+    "clinical_outcome_measure":
+    "enrollment_start_date":
+    "enrollment_end_date":
+    "number_of_study_subjects":
+    "age_unit":
+    "minimum_age":
+    "maximum_age":
+    "study_human_cohort": [
+        {
+            "arm_id":
+            "arm_name":
+            "study_population_description":
+            "arm_type":
+            "ethnicity": [],
+            "race": [],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [],
+            "age_event":
+            "subject_phenotype": [],
+            "assessment_name":
+            "study_location": [],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id":
+            "visit_name":
+            "visit_order_number":
+            "visit_min_start_day":
+            "visit_max_start_day":
+            "visit_start_rule":
+        },
+        {
+            "visit_id":
+            "visit_name":
+            "visit_order_number":
+            "visit_min_start_day":
+            "visit_max_start_day":
+            "visit_start_rule":
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [],
+            "associated_first_planned_visit_id": [],
+            "assay_type": [],
+            "experiment_name": [],
+            "experiment_results_file_name": [],
+            "biospecimen_type": [],
+            "sars_cov_2_antigen": [],
+            "assay_use": [],
+            "manufacture": [],
+            "catalog_number": [],
+            "virus_target": [],
+            "antibody_isotype": [],
+            "reporting_units": [],
+            "assay_reporting_format": []
+        }
+    ],
+    "geriatric_subjects":
+    "pediatric_subjects":
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id":
+            "inclusion_criterion":
+            "inclusion_criterion_category":
+        }
+    ]
+}

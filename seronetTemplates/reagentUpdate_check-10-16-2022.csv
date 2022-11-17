@@ -1,0 +1,153 @@
+,USER_DEFINED_ID,REAGENT_ACCESSION,name,description,manufacturer,catalog_number
+0,PMID35504289_reagentID-01,ESR29838,Full Length Spike Trimer,,,
+1,PMID35504289_reagents_not_curated,ESR29839,Reagents not curated,Reagents not curated for this experiment,na,na
+2,PMID35455241_reagentID-01,ESR30061,Wild type Spike I Wild type RBD I Omicron RBD,,,
+3,PMID35455241_reagentID-02,ESR30062,Wild type Spike I Wild type RBD I Omicron RBD,,,
+4,PMID35455241_reagentID-03,ESR30063,Wild type Spike I Wild type RBD I Omicron RBD,,,
+5,PMID35455241_reagentID-04,ESR30064,Wild type Spike I Wild type RBD I Omicron RBD,,,
+6,PMID35455241_reagentID-05,ESR30065,Wild type Spike I Wild type RBD I Omicron RBD,,,
+7,PMID35427477_reagentID-01,ESR30090,Reagents not curated,Reagents not curated for this experiment,na,na
+8,PMID33440148_reagents_not_curated,ESR30086,Reagents not curated,Reagents not curated for this experiment,na,na
+9,PMID34696403_reagentID-01,ESR30087,Receptor Binding Domain (RBD) | S2,FDA EUA,,
+10,PMID34696403_reagentID-02,ESR30088,Reagents not curated,Reagents not curated for this experiment,na,na
+11,PMID34696403_reagentID-03,ESR30089,Reagents not curated,Reagents not curated for this experiment,na,na
+12,PMID35427477_reagentID-02,ESR30091,Receptor Binding Domain (RBD),,components from multiple manufacturers,
+13,PMID35427477_reagentID-03,ESR30092,Receptor Binding Domain (RBD) | Full Length Spike Trimer,,components from multiple manufacturers,
+14,PMID35427477_reagentID-04,ESR30093,Receptor Binding Domain (RBD) | Full Length Spike Trimer,,components from multiple manufacturers,
+15,PMID35427477_reagents_not_curated,ESR30094,Reagents not curated,Reagents not curated for this experiment,na,na
+16,PMID35348368_reagentID-01,ESR30095,S1 | S2 | Full Length Spike Trimer | Receptor Binding Domain (RBD) | N-terminal Domain (NTD),,components from multiple manufacturers,
+17,PMID35348368_reagentID-02,ESR30096,S1 | S2 | Full Length Spike Trimer | Receptor Binding Domain (RBD) | N-terminal Domain (NTD),,components from multiple manufacturers,
+18,PMID35348368_reagentID-03,ESR30097,S1 | S2 | Full Length Spike Trimer | Receptor Binding Domain (RBD) | N-terminal Domain (NTD),,components from multiple manufacturers,
+19,PMID35348368_reagents_not_curated,ESR30098,Reagents not curated,Reagents not curated for this experiment,na,na
+20,PMID35143473_reagents_not_curated,ESR30099,Reagents not curated,Reagents not curated for this experiment,na,na
+21,PMID35129576_reagentID-01,ESR30100,Full Length Spike Trimer,,,
+22,PMID35129576_reagentID-02,ESR30101,Full Length Spike Trimer,,,
+23,PMID35013325_reagentID-01,ESR30102,Receptor Binding Domain (RBD) | Full Length Spike Trimer,,,
+24,PMID35013325_reagentID-02,ESR30103,Full Length Spike Trimer,,,
+25,PMID34921308_reagentID-01,ESR30104,Reagents not curated,Reagents not curated for this experiment,na,na
+26,PMID34921308_reagentID-02,ESR30105,Reagents not curated,Reagents not curated for this experiment,na,na
+27,PMID33830946_reagents_not_curated,ESR30106,Reagents not curated,Reagents not curated for this experiment,na,na
+28,PMID33993265_reagents_not_curated,ESR30116,Reagents not curated,Reagents not curated for this experiment,na,na
+29,PMID35040666_reagentID-01,ESR30117,Reagents not curated,Reagents not curated for this experiment,na,na
+30,PMID35040666_reagents_not_curated,ESR30118,Reagents not curated,Reagents not curated for this experiment,na,na
+31,PMID35040666_reagentID-03,ESR30119,Full Length Spike Trimer,,components from multiple manufacturers,
+32,PMID35040666_reagentID-04,ESR30120,Receptor Binding Domain (RBD) I Full Length Spike Trimer,,components from multiple manufacturers,
+33,PMID33993265_reagentID-01,ESR30112,Reagents not curated,Reagents not curated for this experiment,na,na
+34,PMID33993265_reagentID-02,ESR30113,Reagents not curated,Reagents not curated for this experiment,na,na
+35,PMID33993265_reagentID-03,ESR30114,Full Length Spike Trimer | Receptor Binding Domain (RBD),,components from multiple manufacturers,
+36,PMID33993265_reagentID-04,ESR30115,Full Length Spike Trimer | Receptor Binding Domain (RBD),,components from multiple manufacturers,
+37,PMID35025672_reagentID-01,ESR30121,Full Length Spike Trimer,,components from multiple manufacturers,
+38,PMID35025672_reagents_not_curated,ESR30122,Reagents not curated,Reagents not curated for this experiment,na,na
+39,PMID34260834_reagentID-01,ESR30123,Receptor Binding Domain (RBD),,,
+40,PMID34260834_reagentID-02,ESR30124,Receptor Binding Domain (RBD),,,
+41,PMID34260834_reagentID-03,ESR30125,Receptor Binding Domain (RBD),,,
+42,PMID34107529_reagentID-01,ESR30126,Reagents not curated,Reagents not curated for this experiment,na,na
+43,PMID34107529_reagentID-02,ESR30127,Reagents not curated,Reagents not curated for this experiment,na,na
+44,PMID34107529_reagentID-03,ESR30128,Receptor Binding Domain (RBD),,,
+45,PMID34107529_reagentID-04,ESR30129,Full Length Spike Trimer I Receptor Binding Domain (RBD),,,
+46,PMID34107529_reagentID-05,ESR30130,Receptor Binding Domain (RBD),,,
+47,PMID34107529_reagents_not_curated,ESR30131,Reagents not curated,Reagents not curated for this experiment,na,na
+48,PMID35289637_reagentID-01,ESR30132,Full Length Spike Trimer | Receptor Binding Domain (RBD) | N-terminal Domain (NTD),,Southern Biotech,A14527
+49,PMID35289637_reagentID-02,ESR30133,Receptor Binding Domain (RBD),,BioLegend,
+50,PMID34001652_reagentID-01,ESR30134,nucleocapsid | S1 | Receptor Binding Domain (RBD) | N-terminal Domain (NTD),Research Use Only,,
+51,PMID34001652_reagentID-02,ESR30135,nucleocapsid | S1 | Receptor Binding Domain (RBD) | N-terminal Domain (NTD),Research Use Only,,
+52,PMID34250512_reagentID-01,ESR30136,Full Length Spike Trimer | N-terminal Domain (NTD) | S1,,Mesoscale Discovery,
+53,PMID34250512_reagents_not_curated,ESR30137,Reagents not curated,Reagents not curated for this experiment,na,na
+54,PMID34250512_reagentID-03,ESR30138,Full Length Spike Trimer | Receptor Binding Domain (RBD),,components from multiple manufacturers,
+55,PMID35764643_reagentID-01,ESR30139,Full Length Spike Trimer,Research Use Only,Intellicyt,
+56,PMID35764643_reagentID-02,ESR30140,Reagents not curated,Reagents not curated for this experiment,na,na
+57,PMID35764643_reagentID-03,ESR30141,Full Length Spike Trimer,Research Use Only,Intellicyt,
+58,PMID35764643_reagents_not_curated,ESR30142,Reagents not curated,Reagents not curated for this experiment,na,na
+59,PMID35764643_reagentID-05,ESR30143,Full Length Spike Trimer,Research Use Only,components from multiple manufacturers,
+60,PMID34523968_reagentID-01,ESR30144,Receptor Binding Domain (RBD) | Full Length Spike Trimer,,components from multiple manufacturers,
+61,PMID34523968_reagents_not_curated,ESR30145,Reagents not curated,Reagents not curated for this experiment,na,na
+62,PMID33961839_reagents_not_curated,ESR30157,Reagents not curated,Reagents not curated for this experiment,na,na
+63,PMID33961839_reagentID-02,ESR30158,Full Length Spike Trimer,,components from multiple manufacturers,
+64,PMID33961839_reagentID-04,ESR30159,Nucleocapsid,,components from multiple manufacturers,
+65,PMID34095338_reagentID-01,ESR30152,Receptor Binding Domain (RBD),,,
+66,PMID34095338_reagents_not_curated,ESR30153,Reagents not curated,Reagents not curated for this experiment,na,na
+67,PMID34652783_reagentID-01,ESR30154,Receptor Binding Domain (RBD) | Full Length Spike Trimer,,Milliplex®,[]
+68,PMID34652783_reagentID-02,ESR30155,Receptor Binding Domain (RBD) | Full Length Spike Trimer,,Milliplex®,[]
+69,PMID34652783_reagents_not_curated,ESR30156,Reagents not curated,Reagents not curated for this experiment,na,na
+70,PMID33472939_reagents_not_curated,ESR30170,Reagents not curated,Reagents not curated for this experiment,na,na
+71,PMID34952892_reagentID-01,ESR30171,Reagents not curated,Reagents not curated for this experiment,na,na
+72,PMID34161961_reagentID-01,ESR30162,Receptor Binding Domain (RBD),,,
+73,PMID34161961_reagentID-02,ESR30163,Reagents not curated,Reagents not curated for this experiment,na,na
+74,PMID34161961_reagentID-03,ESR30164,Reagents not curated,Reagents not curated for this experiment,na,na
+75,PMID34161961_reagentID-04,ESR30165,Reagents not curated,Reagents not curated for this experiment,na,na
+76,PMID34161961_reagentID-05,ESR30166,Reagents not curated,Reagents not curated for this experiment,na,na
+77,PMID33276369_reagentID-01,ESR30167,Receptor Binding Domain (RBD) | Full Length Spike Trimer,,,
+78,PMID33276369_reagentID-02,ESR30168,Reagents not curated,Reagents not curated for this experiment,na,na
+79,PMID33276369_reagentID-03,ESR30169,Reagents not curated,Reagents not curated for this experiment,na,na
+80,PMID34952892_reagentID-02,ESR30172,Reagents not curated,Reagents not curated for this experiment,na,na
+81,PMID34952892_reagentID-03,ESR30173,Reagents not curated,Reagents not curated for this experiment,na,na
+82,PMID34952892_reagentID-04,ESR30174,Reagents not curated,Reagents not curated for this experiment,na,na
+83,PMID34730254_reagentID-01,ESR30175,Receptor Binding Domain (RBD),,components from multiple manufacturers,
+84,PMID34730254_reagents_not_curated,ESR30176,Reagents not curated,Reagents not curated for this experiment,na,na
+85,PMID33704352_reagentID-01,ESR30177,Receptor Binding Domain (RBD) | Full Length Spike Trimer,Research Use Only,,
+86,PMID33704352_reagents_not_curated,ESR30178,Reagents not curated,Reagents not curated for this experiment,na,na
+87,PMID33704352_reagentID-03,ESR30179,S1 | S2,Research Use Only,,
+88,PMID35148837_reagentID-01,ESR30180,Receptor Binding Domain (RBD),,Meso Scale Diagnostics,
+89,PMID35148837_reagentID-02,ESR30181,Full Length Spike Trimer,,Meso Scale Diagnostics,
+90,PMID35148837_reagentID-03,ESR30182,Nucleocapsid,,Meso Scale Diagnostics,
+91,PMID35148837_reagentID-04,ESR30183,N-terminal Domain (NTD),,Meso Scale Diagnostics,
+92,PMID35148837_reagents_not_curated,ESR30184,Reagents not curated,Reagents not curated for this experiment,na,na
+93,PMID34794169_reagents_not_curated,ESR30185,Reagents not curated,Reagents not curated for this experiment,na,na
+94,PMID34794169_reagentID-02,ESR30186,Receptor Binding Domain (RBD),,components from multiple manufacturers,
+95,PMID34794169_reagentID-03,ESR30187,Full Length Spike Trimer,,components from multiple manufacturers,
+96,PMID34794169_reagentID-04,ESR30188,Full Length Spike Trimer,,components from multiple manufacturers,
+97,PMID34794169_reagentID-05,ESR30189,S1 | S2,,components from multiple manufacturers,
+98,PMID34759001_reagentID-01,ESR30190,Receptor Binding Domain (RBD) | S1 | Nucleocapsid,FDA EUA,components from multiple manufacturers,
+99,PMID34759001_reagentID-02,ESR30191,Receptor Binding Domain (RBD) | S1 | Nucleocapsid,FDA EUA,components from multiple manufacturers,
+100,PMID34759001_reagentID-03,ESR30192,Receptor Binding Domain (RBD) | S1 | Nucleocapsid,FDA EUA,components from multiple manufacturers,
+101,PMID34759001_reagentID-04,ESR30193,Receptor Binding Domain (RBD) | S1 | Nucleocapsid,FDA EUA,components from multiple manufacturers,
+102,PMID33065030_reagents_not_curated,ESR30194,Reagents not curated,Reagents not curated for this experiment,na,na
+103,PMID34452006_reagentID-01,ESR30195,Full Length Spike Trimer,,,
+104,PMID34452006_reagentID-02,ESR30196,Full Length Spike Trimer,,,
+105,PMID34452006_reagentID-03,ESR30197,Full Length Spike Trimer | Receptor Binding Domain (RBD),,,
+106,PMID34452006_reagentID-04,ESR30198,Full Length Spike Trimer | Receptor Binding Domain (RBD),,,
+107,PMID35132398_reagents_not_curated,ESR30199,Reagents not curated,Reagents not curated for this experiment,na,na
+108,PMID33142304_reagentID-01,ESR30200,Full Length Spike Trimer | Receptor Binding Domain (RBD),FDA EUA,components from multiple manufacturers,
+109,PMID33169014_reagents_not_curated,ESR30201,Reagents not curated,Reagents not curated for this experiment,na,na
+110,PMID33169014_reagentID-02,ESR30202,Receptor Binding Domain (RBD) | Full Length Spike Trimer | ,,components from multiple manufacturers,
+111,PMID33727353_reagents_not_curated,ESR30210,Reagents not curated,Reagents not curated for this experiment,na,na
+112,PMID33035201_reagents_not_curated,ESR30211,Reagents not curated,Reagents not curated for this experiment,na,na
+113,PMID33035201_reagentID-06,ESR30212,Nucleocapsid,,components from multiple manufacturers,
+114,PMID33571162_reagentID-01,ESR30206,Receptor Binding Domain (RBD),,components from multiple manufacturers,
+115,PMID33571162_reagentID-02,ESR30207,Full Length Spike Trimer,,components from multiple manufacturers,
+116,PMID33571162_reagentID-03,ESR30208,Full Length Spike Trimer,,components from multiple manufacturers,
+117,PMID33602725_reagents_not_curated,ESR30209,Reagents not curated,Reagents not curated for this experiment,na,na
+118,PMID33893169_reagentID-01,ESR30213,Receptor Binding Domain (RBD),,Thermo Fisher,
+119,PMID33893169_reagentID-02,ESR30214,Full Length Spike Trimer | Nucleocapsid | N-terminal Domain (NTD) | Receptor Binding Domain (RBD),,Meso Scale Discovery,
+120,PMID33893169_reagents_not_curated,ESR30215,Reagents not curated,Reagents not curated for this experiment,na,na
+121,PMID33893169_reagentID-04,ESR30216,Full Length Spike Trimer | Nucleocapsid | Other,,components from multiple manufacturers,
+122,PMID34230917_reagentID-01,ESR30217,Receptor Binding Domain (RBD) | Full Length Spike Trimer,,components from multiple manufacturers,
+123,PMID34230917_reagentID-02,ESR30218,Receptor Binding Domain (RBD) | Full Length Spike Trimer,,components from multiple manufacturers,
+124,PMID34230917_reagentID-03,ESR30219,Receptor Binding Domain (RBD) | Full Length Spike Trimer,,components from multiple manufacturers,
+125,PMID34802457_reagentID-01,ESR30223,Reagents not curated,Reagents not curated for this experiment,na,na
+126,PMID34230917_reagentID-04,ESR30220,Receptor Binding Domain (RBD) | Full Length Spike Trimer,,components from multiple manufacturers,
+127,PMID34230917_reagentID-05,ESR30221,Receptor Binding Domain (RBD) | Full Length Spike Trimer,,components from multiple manufacturers,
+128,PMID34230917_reagentID-06,ESR30222,Receptor Binding Domain (RBD) | Full Length Spike Trimer,,components from multiple manufacturers,
+129,PMID34151306_reagents_not_curated,ESR30224,Reagents not curated,Reagents not curated for this experiment,na,na
+130,PMID34151306_reagentID-02,ESR30225,Full Length Spike Trimer,,components from multiple manufacturers,
+131,PMID34151306_reagentID-03,ESR30226,S1 | S2 | Nucleocapsid | Receptor Binding Domain (RBD),,components from multiple manufacturers,
+132,PMID33743211_reagents_not_curated,ESR30227,Reagents not curated,Reagents not curated for this experiment,na,na
+133,PMID34100011_reagents_not_curated,ESR30228,Reagents not curated,Reagents not curated for this experiment,na,na
+134,PMID34145263_reagentID-01,ESR30229,Reagents not curated,Reagents not curated for this experiment,na,na
+135,PMID34145263_reagentID-02,ESR30230,Reagents not curated,Reagents not curated for this experiment,na,na
+136,PMID34145263_reagentID-03,ESR30231,Full Length Spike Trimer | Receptor Binding Domain (RBD) | | N-terminal Domain (NTD),,components from multiple manufacturers,
+137,PMID34145263_reagentID-04,ESR30232,Full Length Spike Trimer | Receptor Binding Domain (RBD) | | N-terminal Domain (NTD),,components from multiple manufacturers,
+138,PMID34145263_reagentID-05,ESR30233,Full Length Spike Trimer | Receptor Binding Domain (RBD) | | N-terminal Domain (NTD),,components from multiple manufacturers,
+139,PMID34145263_reagentID-06,ESR30234,Full Length Spike Trimer | Receptor Binding Domain (RBD) | | N-terminal Domain (NTD),,components from multiple manufacturers,
+140,PMID33622794_reagents_not_curated,ESR30235,Reagents not curated,Reagents not curated for this experiment,na,na
+141,PMID33846272_reagents_not_curated,ESR30236,Reagents not curated,Reagents not curated for this experiment,na,na
+142,PMID33846272_reagentID-03,ESR30237,Nucleocapsid | Receptor Binding Domain (RBD) | Full Length Spike Trimer,,components from multiple manufacturers,
+143,PMID34877479_reagentID-01,ESR30238,Reagents not curated,Reagents not curated for this experiment,na,na
+144,PMID34877479_reagentID-02,ESR30239,Reagents not curated,Reagents not curated for this experiment,na,na
+145,PMID34835131_reagentID-01,ESR30240,Reagents not curated,Reagents not curated for this experiment,na,na
+146,PMID34835131_reagentID-02,ESR30241,Full Length Spike Trimer | Nucleocapsid | Receptor Binding Domain (RBD) | S2,,components from multiple manufacturers,
+147,PMID34835131_reagentID-03,ESR30242,Full Length Spike Trimer | Nucleocapsid | Receptor Binding Domain (RBD) | S2,,components from multiple manufacturers,
+148,PMID34353890_reagents_not_curated,ESR30243,Reagents not curated,Reagents not curated for this experiment,na,na
+149,PMID33478949_reagentID-01,ESR30244,other,,components from multiple manufacturers,
+150,PMID33478949_reagentID-02,ESR30245,other,,components from multiple manufacturers,
+151,PMID33478949_reagentID-03,ESR30246,other,,components from multiple manufacturers,

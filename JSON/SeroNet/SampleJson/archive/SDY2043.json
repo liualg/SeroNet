@@ -1,0 +1,555 @@
+{
+    "pubmed_id": 34001652,
+    "study_identifier": "PMID34001652_study-01",
+    "study_name": "One-Stop Serum Assay Identifies COVID-19 Disease Severity and Vaccination Responses",
+    "publication_title": "One-Stop Serum Assay Identifies COVID-19 Disease Severity and Vaccination Responses",
+    "study_objective": "In this study, we develop a sensitive anti\u2013SARS-CoV-2 immunoassay, using prepandemic controls and RT-PCR\u2013confirmed, SARS-CoV-2\u2013infected patients",
+    "study_description": "We developed a multiplex immunoassay from serum/plasma of acutely infected and convalescent COVID-19 patients and prepandemic and postpandemic healthy adults. We measured IgA, IgG, and/or IgM against SARS-CoV-2 nucleocapsid (N), spike domain 1 (S1), S1-receptor binding domain (RBD) and S1-N-terminal domain. For diagnosis, the combined [IgA + IgG + IgM] or IgG levels measured for N, S1, and S1-RBD yielded area under the curve values \u22650.90. Virus-specific Ig levels were higher in patients with severe/critical compared with mild/moderate infections. A strong prozone effect was observed in sera from severe/critical patients-a possible source of underestimated Ab concentrations in previous studies. Mild/moderate patients displayed a slower rise and lower peak in anti-N and anti-S1 IgG levels compared with severe/critical patients, but anti-RBD IgG and neutralization responses reached similar levels at 2-4 mo after symptom onset. Measurement of the Ab responses in sera from 18 COVID-19-vaccinated patients revealed specific responses for the S1-RBD Ag and none against the N protein. This highly sensitive, SARS-CoV-2-specific, multiplex immunoassay measures the magnitude, complexity, and kinetics of the Ab response and can distinguish serum Ab responses from natural SARS-CoV-2 infections (mild or severe) and mRNA COVID-19 vaccines.",
+    "primary_institution_name": "Emory University",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID34001652_personnel-01",
+            "honorific": "",
+            "last_name": "Sanz",
+            "first_name": "Ignacio",
+            "suffixes": "",
+            "organization": "Emory University",
+            "orchid_id": "",
+            "email": "ignacio.sanz@emory.edu",
+            "seronet_title_in_study": "SeroNet Principal Investigator",
+            "role_in_study": "Co-Principal Investigator",
+            "site_name": "EMORY UNIVERSITY"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "immunohorizon_2100011_Supplemental_1.pdf",
+            "study_file_description": "Figure S1, S2 and S3, Table S1",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "Haddad COVID-19 Luminex Serum Data 20220606.xlsx",
+            "study_file_description": "Luminex Serum Data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID34001652_v1.2.3.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.",
+            "study_file_type": "Study Summary Description"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Vaccine response",
+    "study_type": "Method Development",
+    "keyword": [
+        "Adult",
+        "Aged",
+        "Antibodies",
+        "Viral",
+        "blood",
+        "immunology",
+        "COVID-19 Vaccines",
+        "administration & dosage",
+        "prevention & control",
+        "Female",
+        "Humans",
+        "Immunoassay",
+        "Male",
+        "Middle Aged",
+        "SARS-CoV-2",
+        "metabolism",
+        "Severity of Illness Index",
+        "Vaccination"
+    ],
+    "clinical_study_design": "",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID34001652_protocol-01",
+        "protocol_file_name": "PMID34001652_protocol-01.txt",
+        "protocol_name": "PMID34001652_protocol-01",
+        "protocol_description": "study protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "Pfizer-BioNTech",
+        "Moderna"
+    ],
+    "clinical_outcome_measure": "",
+    "enrollment_start_date": "",
+    "enrollment_end_date": "",
+    "number_of_study_subjects": 366,
+    "age_unit": "Years",
+    "minimum_age": 21,
+    "maximum_age": 81,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID34001652_human_subject-01",
+            "arm_name": "Patients with Convalescent COVID-19",
+            "study_population_description": "Patients with Convalescent COVID-19 (n = 69)",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "White",
+                "Black or African American",
+                "Asian"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Georgia"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Mild",
+                "Moderate",
+                "Severe",
+                "Critical"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34001652_human_subject-02",
+            "arm_name": "Patients with Acute COVID-19 (n = 52)",
+            "study_population_description": "Patients with acute COVID-19 (n = 52)",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "White",
+                "Black or African American",
+                "Asian"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Georgia"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Mild",
+                "Severe",
+                "Critical"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34001652_human_subject-03",
+            "arm_name": "Vaccinated patients",
+            "study_population_description": "COVID-19\u2013vaccinated patients (n = 18)",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "White",
+                "Black or African American",
+                "Asian"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Georgia"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Uninfected"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Pfizer BioNTech COVID-19 vaccine ; VO:0004987",
+                "Moderna COVID-19 vaccine ; VO:0005157"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34001652_human_subject-04",
+            "arm_name": "Prepandemic Healthy Adults",
+            "study_population_description": "Prepandemic Healthy Adults (n = 106)",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "White",
+                "Black or African American",
+                "Asian"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Georgia"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Uninfected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34001652_human_subject-05",
+            "arm_name": "Postpandemic Healthy Adults",
+            "study_population_description": "Postpandemic Healthy Adults (n = 137)",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "White",
+                "Black or African American",
+                "Asian"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Georgia"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Uninfected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID34001652_visit-01",
+            "visit_name": "Blood collection patients with Convalescent COVID-19",
+            "visit_order_number": 1,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34001652_visit-02",
+            "visit_name": "Blood collection patients with Acute COVID-19",
+            "visit_order_number": 2,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34001652_visit-03",
+            "visit_name": "Blood collection vaccinated patients",
+            "visit_order_number": 3,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34001652_visit-04",
+            "visit_name": "Blood collection prepandemic Healthy Adults",
+            "visit_order_number": 4,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34001652_visit-05",
+            "visit_name": "Blood collection postpandemic Healthy Adults",
+            "visit_order_number": 5,
+            "visit_min_start_day": 910,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID34001652_human_subject-01, PMID34001652_human_subject-02, PMID34001652_human_subject-03"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34001652_visit-01, PMID34001652_visit-02, PMID34001652_visit-03"
+            ],
+            "assay_type": "Multiplex Immunoassay",
+            "experiment_name": "Serum Ab responses",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Blood"
+            ],
+            "biospecimen_collection_point": [
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [
+                "nucleocapsid",
+                "S1",
+                "Receptor Binding Domain (RBD)",
+                "N-terminal Domain (NTD)"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgA",
+                "IgG",
+                "IgM"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID34001652_human_subject-04, PMID34001652_human_subject-05"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34001652_visit-04, PMID34001652_visit-05"
+            ],
+            "assay_type": "Multiplex Immunoassay",
+            "experiment_name": "Multiplex Immunoassay",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Blood"
+            ],
+            "biospecimen_collection_point": [
+                "Na\u00efve"
+            ],
+            "sars_cov_2_antigen": [
+                "nucleocapsid",
+                "S1",
+                "Receptor Binding Domain (RBD)",
+                "N-terminal Domain (NTD)"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgA",
+                "IgG",
+                "IgM"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Quantitative"
+        }
+    ],
+    "geriatric_subjects": "Yes",
+    "pediatric_subjects": "No",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "Not Specified",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID34001652_inexcl-01",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34001652_inexcl-02",
+            "inclusion_criterion": "Pediatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        }
+    ],
+    "suggestions": [
+        "2-4",
+        "acutely",
+        "administration & dosage",
+        "adult",
+        "adults",
+        "aged",
+        "and/or",
+        "anti-n",
+        "anti-rbd",
+        "anti-s1",
+        "antibodies",
+        "anti\u2013sars-cov-2",
+        "area",
+        "assay",
+        "binding",
+        "blood",
+        "combined",
+        "compared",
+        "complexity",
+        "concentrations",
+        "controls",
+        "convalescent",
+        "covid-19",
+        "covid-19 vaccines",
+        "covid-19-vaccinated",
+        "curve",
+        "develop",
+        "developed",
+        "development",
+        "diagnosis",
+        "disease",
+        "displayed",
+        "distinguish",
+        "domain",
+        "effect",
+        "emory",
+        "female",
+        "geriatric",
+        "healthy",
+        "higher",
+        "highly",
+        "humans",
+        "identifies",
+        "iga",
+        "igg",
+        "igm",
+        "immunoassay",
+        "immunology",
+        "infected",
+        "infections",
+        "kinetics",
+        "levels",
+        "lower",
+        "magnitude",
+        "male",
+        "measured",
+        "measurement",
+        "measures",
+        "metabolism",
+        "method",
+        "middle aged",
+        "mild",
+        "mild/moderate",
+        "moderna",
+        "mrna",
+        "multiplex",
+        "natural",
+        "neutralization",
+        "none",
+        "nucleocapsid",
+        "observed",
+        "one-stop",
+        "onset",
+        "patients",
+        "patients-a",
+        "peak",
+        "pediatric",
+        "pfizer-biontech",
+        "possible",
+        "postpandemic",
+        "prepandemic",
+        "prevention & control",
+        "previous",
+        "protein",
+        "prozone",
+        "rbd",
+        "reached",
+        "response",
+        "responses",
+        "revealed",
+        "rise",
+        "rt-pcr\u2013confirmed",
+        "s1-n-terminal",
+        "s1-rbd",
+        "s1-receptor",
+        "sars-cov-2",
+        "sars-cov-2-specific",
+        "sars-cov-2\u2013infected",
+        "sensitive",
+        "sera",
+        "serum",
+        "serum/plasma",
+        "severe",
+        "severe/critical",
+        "severity",
+        "severity of illness index",
+        "similar",
+        "slower",
+        "source",
+        "specific",
+        "spike",
+        "strong",
+        "studies",
+        "study",
+        "subjects",
+        "symptom",
+        "underestimated",
+        "university",
+        "using",
+        "vaccination",
+        "vaccine",
+        "vaccines",
+        "values",
+        "viral",
+        "virus-specific",
+        "yielded",
+        "\u22650.90"
+    ]
+}

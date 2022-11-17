@@ -1,0 +1,628 @@
+{
+    "pubmed_id": 35348368,
+    "study_identifier": "PMID35348368_study-01",
+    "study_name": "mRNA-1273 and BNT162b2 COVID-19 vaccines elicit antibodies with differences in Fc-mediated effector functions",
+    "publication_title": "mRNA-1273 and BNT162b2 COVID-19 vaccines elicit antibodies with differences in Fc-mediated effector functions",
+    "study_objective": "To provide insights into potential differences in protective immunity conferred by the BNT162b2 and mRNA-1273 vaccines.",
+    "study_description": "The successful development of several coronavirus disease 2019 (COVID-19) vaccines has substantially reduced morbidity and mortality in regions of the world where the vaccines have been deployed. However, in the wake of the emergence of viral variants that are able to evade vaccine-induced neutralizing antibodies, real-world vaccine efficacy has begun to show differences across the two approved mRNA platforms, BNT162b2 and mRNA-1273; these findings suggest that subtle variation in immune responses induced by the BNT162b2 and mRNA-1273 vaccines may confer differential protection. Given our emerging appreciation for the importance of additional antibody functions beyond neutralization, we profiled the postboost binding and functional capacity of humoral immune responses induced by the BNT162b2 and mRNA-1273 vaccines in a cohort of hospital staff. Both vaccines induced robust humoral immune responses to wild-type severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) and to variants of concern. However, differences emerged across epitope-specific responses, with higher concentrations of receptor binding domain (RBD)- and N-terminal domain-specific IgA observed in recipients of mRNA-1273. Antibodies eliciting neutrophil phagocytosis and natural killer cell activation were also increased in mRNA-1273 vaccine recipients as compared to BNT162b2 recipients. RBD-specific antibody depletion highlighted the different roles of non-RBD-specific antibody effector functions induced across the mRNA vaccines. These data provide insights into potential differences in protective immunity conferred by these vaccines.",
+    "primary_institution_name": "Harvard University",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID35348368_personnel-01",
+            "honorific": "",
+            "last_name": "Barouch",
+            "first_name": "Dan",
+            "suffixes": "",
+            "organization": "Harvard University",
+            "orchid_id": "",
+            "email": "dbarouch@bidmc.harvard.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Principal Investigator",
+            "site_name": "Harvard University"
+        },
+        {
+            "personnel_id": "PMID35348368_personnel-02",
+            "honorific": "",
+            "last_name": "Galit",
+            "first_name": "Alter",
+            "suffixes": "",
+            "organization": "Harvard University",
+            "orchid_id": "",
+            "email": "galter@mgh.harvard.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Co-Principal Investigator",
+            "site_name": "Harvard University"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "scitranslmed.abm2311_sm.pdf",
+            "study_file_description": "Study Data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "scitranslmed.abm2311_reproducibility_checklist.docx",
+            "study_file_description": "Study Data",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "PMID35348368_v1.2.3.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "abm2311_data_file_s1.xlsx",
+            "study_file_description": "Supplemental Data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "abm2311_data_file_s2.xlsx",
+            "study_file_description": "Supplemental Data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "abm2311_data_file_s3.xlsx",
+            "study_file_description": "Supplemental Data",
+            "study_file_type": "Study Data"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Immune Response",
+    "study_type": "Clinical Research",
+    "keyword": [
+        "2019-nCoV Vaccine mRNA-1273",
+        "Antibodies Neutralizing",
+        "Antibodies Viral",
+        "BNT162 Vaccine",
+        "COVID-19 Vaccines",
+        "COVID-19 prevention & control",
+        "Humans",
+        "SARS-CoV-2",
+        "Spike Glycoprotein Coronavirus genetics",
+        "Vaccination",
+        "Vaccines Synthetic",
+        "mRNA Vaccines",
+        "Antibody-dependent complement deposition (ADCD) assay",
+        "Antibody-dependent cellular phagocytosis (ADCP) assay",
+        "Antibody-mediated neutrophil phagocytosis (ADNP) assay",
+        "Antibody-dependent NK cell degranulation (ADNKA)"
+    ],
+    "clinical_study_design": "Prospective Cohort",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID35348368_protocol-01",
+        "protocol_file_name": "PMID35348368_protocol-01.txt",
+        "protocol_name": "PMID35348368_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "Pfizer-BioNTech",
+        "Moderna"
+    ],
+    "clinical_outcome_measure": "Potential differences in protective immunity conferred by mRNA-1273 and BNT162b2 COVID-19 vaccines",
+    "enrollment_start_date": "2020-12-01",
+    "enrollment_end_date": "2021-02-01",
+    "number_of_study_subjects": 73,
+    "age_unit": "Years",
+    "minimum_age": "",
+    "maximum_age": "",
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID35348368_human_subject-01",
+            "arm_name": "Health care workers who received mRNA-1273 vaccination",
+            "study_population_description": "28 health care workers received  mRNA-1273 vaccination. Out of 28, 2 individuals with prior Covid-19 infection",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Hispanic or Latino",
+                "Not Hispanic or Latino"
+            ],
+            "race": [
+                "White",
+                "Asian",
+                "Multiracial",
+                "Other"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Massachusetts"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Vaccinated"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Moderna COVID-19 vaccine ; VO:0005157"
+            ],
+            "covid_19_disease_severity": [
+                "Mild"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35348368_human_subject-02",
+            "arm_name": "Health care workers who received  BNT162b2 vaccination",
+            "study_population_description": "45 health care workers received  BNT162b2 vaccination. Out of 45, 1 individual with prior Covid-19 infection",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Hispanic or Latino",
+                "Not Hispanic or Latino"
+            ],
+            "race": [
+                "White",
+                "Asian",
+                "Multiracial",
+                "Other",
+                "Black or African American"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male I Female"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Massachusetts"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Vaccinated"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Pfizer BioNTech COVID-19 vaccine ; VO:0004987"
+            ],
+            "covid_19_disease_severity": [
+                "Mild"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35348368_human_subject-03",
+            "arm_name": "Industry employees",
+            "study_population_description": "Antibody-positive Industry employees",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Hispanic or Latino",
+                "Not Hispanic or Latino"
+            ],
+            "race": [
+                "White",
+                "Asian",
+                "Multiracial",
+                "Black or African American",
+                "American Indian or Alaska Native",
+                "Unknown"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male I Female"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: California"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Mild"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID35348368_visit-01",
+            "visit_name": "Second dose of BNT162b2 (30 micrograms) was administered after 3 weeks of first dose",
+            "visit_order_number": 1,
+            "visit_min_start_day": 21,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35348368_visit-02",
+            "visit_name": "Second dose of mRNA-1273 (100 micrograms) was administered after 4 weeks of first dose",
+            "visit_order_number": 2,
+            "visit_min_start_day": 28,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35348368_visit-03",
+            "visit_name": "Serum sample was collected at 21st day (17-27) after second dose of BNT162b2 vaccine",
+            "visit_order_number": 3,
+            "visit_min_start_day": 42,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35348368_visit-04",
+            "visit_name": "Serum sample was collected at 17th day (15-20) after second dose of mRNA-1273 vaccine",
+            "visit_order_number": 4,
+            "visit_min_start_day": 45,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35348368_visit-05",
+            "visit_name": "Blood samples were collected for serology quarterly from Industry employees.",
+            "visit_order_number": 5,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID35348368_human_subject-01",
+                "PMID35348368_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35348368_visit-01",
+                "PMID35348368_visit-02",
+                "PMID35348368_visit-03",
+                "PMID35348368_visit-04"
+            ],
+            "assay_type": "Multiplex Bead Array Assay",
+            "experiment_name": "Luminex-based assay",
+            "experiment_results_file_name": "abm2311_data_file_s1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "S1",
+                "S2",
+                "Full Length Spike Trimer",
+                "Receptor Binding Domain (RBD)",
+                "N-terminal Domain (NTD)"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2 WA1/2020 (D614 variant)",
+                "SARS-CoV-2 Alpha; B.1.1.7",
+                "SARS-CoV-2 Beta; B.1.351",
+                "SARS-CoV-2 Gamma; P.1"
+            ],
+            "antibody_isotype": [
+                "IgG",
+                "IgA",
+                "IgM"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35348368_human_subject-01",
+                "PMID35348368_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35348368_visit-01",
+                "PMID35348368_visit-02",
+                "PMID35348368_visit-03",
+                "PMID35348368_visit-04"
+            ],
+            "assay_type": "Flow Cytometry",
+            "experiment_name": "Antibody-dependent complement deposition (ADCD) assay I Antibody-dependent cellular phagocytosis (ADCP) assay I Antibody-mediated neutrophil phagocytosis (ADNP) assay",
+            "experiment_results_file_name": "abm2311_data_file_s2.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "S1",
+                "S2",
+                "Full Length Spike Trimer",
+                "Receptor Binding Domain (RBD)",
+                "N-terminal Domain (NTD)"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2 WA1/2020 (D614 variant)",
+                "SARS-CoV-2 Alpha; B.1.1.7",
+                "SARS-CoV-2 Beta; B.1.351",
+                "SARS-CoV-2 Gamma; P.1"
+            ],
+            "antibody_isotype": [
+                "IgG",
+                "IgA",
+                "IgM"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35348368_human_subject-01",
+                "PMID35348368_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35348368_visit-01",
+                "PMID35348368_visit-02",
+                "PMID35348368_visit-03",
+                "PMID35348368_visit-04"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Antibody-dependent NK cell degranulation (ADNKA)",
+            "experiment_results_file_name": "abm2311_data_file_s2.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "S1",
+                "S2",
+                "Full Length Spike Trimer",
+                "Receptor Binding Domain (RBD)",
+                "N-terminal Domain (NTD)"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2 WA1/2020 (D614 variant)",
+                "SARS-CoV-2 Alpha; B.1.1.7",
+                "SARS-CoV-2 Beta; B.1.351",
+                "SARS-CoV-2 Gamma; P.1"
+            ],
+            "antibody_isotype": [
+                "IgG",
+                "IgA",
+                "IgM"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35348368_human_subject-03"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35348368_visit-05"
+            ],
+            "assay_type": "PCR",
+            "experiment_name": "PCR",
+            "experiment_results_file_name": "",
+            "biospecimen_type": [
+                "Blood"
+            ],
+            "biospecimen_collection_point": [
+                "Pre-symptom onset"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        }
+    ],
+    "geriatric_subjects": "No",
+    "pediatric_subjects": "No",
+    "pregnant_subjects": "No",
+    "sars_cov_2_antibodies_measured": "Yes",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID35348368_inexcl-01",
+            "inclusion_criterion": "Pre Covid-19 infection",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35348368_inexcl-02",
+            "inclusion_criterion": "Pediatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35348368_inexcl-03",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35348368_inexcl-04",
+            "inclusion_criterion": "Pregnant subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35348368_inexcl-05",
+            "inclusion_criterion": "SARS-CoV-2 Antibodies Measured",
+            "inclusion_criterion_category": "inclusion"
+        }
+    ],
+    "suggestions": [
+        "2019",
+        "2019-ncov vaccine mrna-1273",
+        "able",
+        "across",
+        "activation",
+        "acute",
+        "additional",
+        "also",
+        "antibodies",
+        "antibodies neutralizing",
+        "antibodies viral",
+        "antibody",
+        "antibody-dependent cellular phagocytosis (adcp) assay",
+        "antibody-dependent complement deposition (adcd) assay",
+        "antibody-dependent nk cell degranulation (adnka)",
+        "antibody-mediated neutrophil phagocytosis (adnp) assay",
+        "appreciation",
+        "approved",
+        "begun",
+        "beyond",
+        "binding",
+        "bnt162 vaccine",
+        "bnt162b2",
+        "capacity",
+        "cell",
+        "clinical",
+        "cohort",
+        "compared",
+        "concentrations",
+        "concern",
+        "confer",
+        "conferred",
+        "coronavirus",
+        "covid-19",
+        "covid-19 prevention & control",
+        "covid-19 vaccines",
+        "data",
+        "depletion",
+        "deployed",
+        "development",
+        "differences",
+        "different",
+        "differential",
+        "disease",
+        "domain",
+        "domain-specific",
+        "effector",
+        "efficacy",
+        "elicit",
+        "eliciting",
+        "emerged",
+        "emergence",
+        "emerging",
+        "epitope-specific",
+        "evade",
+        "fc-mediated",
+        "findings",
+        "functional",
+        "functions",
+        "geriatric",
+        "given",
+        "harvard",
+        "higher",
+        "highlighted",
+        "hospital",
+        "however",
+        "humans",
+        "humoral",
+        "iga",
+        "immune",
+        "immunity",
+        "importance",
+        "increased",
+        "induced",
+        "infection",
+        "insights",
+        "killer",
+        "may",
+        "measured",
+        "moderna",
+        "morbidity",
+        "mortality",
+        "mrna",
+        "mrna vaccines",
+        "mrna-1273",
+        "n-terminal",
+        "natural",
+        "neutralization",
+        "neutralizing",
+        "neutrophil",
+        "non-rbd-specific",
+        "observed",
+        "pediatric",
+        "pfizer-biontech",
+        "phagocytosis",
+        "platforms",
+        "postboost",
+        "potential",
+        "pre",
+        "pregnant",
+        "profiled",
+        "prospective",
+        "protection",
+        "protective",
+        "provide",
+        "rbd",
+        "rbd-specific",
+        "real-world",
+        "receptor",
+        "recipients",
+        "reduced",
+        "regions",
+        "research",
+        "respiratory",
+        "response",
+        "responses",
+        "robust",
+        "roles",
+        "sars-cov-2",
+        "several",
+        "severe",
+        "show",
+        "spike glycoprotein coronavirus genetics",
+        "staff",
+        "subjects",
+        "substantially",
+        "subtle",
+        "successful",
+        "suggest",
+        "syndrome",
+        "two",
+        "university",
+        "vaccination",
+        "vaccine",
+        "vaccine-induced",
+        "vaccines",
+        "vaccines synthetic",
+        "variants",
+        "variation",
+        "viral",
+        "wake",
+        "wild-type",
+        "world"
+    ]
+}

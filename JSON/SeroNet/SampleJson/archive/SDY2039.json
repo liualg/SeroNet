@@ -1,0 +1,530 @@
+{
+    "pubmed_id": 35025672,
+    "study_identifier": "PMID35025672_study-01",
+    "study_name": "Antibodies elicited by SARS-CoV-2 infection or mRNA vaccines have reduced neutralizing activity against Beta and Omicron pseudoviruses",
+    "publication_title": "Antibodies elicited by SARS-CoV-2 infection or mRNA vaccines have reduced neutralizing activity against Beta and Omicron pseudoviruses",
+    "study_objective": "To evaluate the magnitude and breadth of the neutralizing antibody response over time in individuals after infection and in mRNA-vaccinated individuals",
+    "study_description": "Multiple severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) variants that have mutations associated with increased transmission and antibody escape have arisen over the course of the current pandemic. Although the current vaccines have largely been effective against past variants, the number of mutations found on the Omicron (B.1.1.529) spike protein appear to diminish the protection conferred by preexisting immunity. Using vesicular stomatitis virus (VSV) pseudoparticles expressing the spike protein of several SARS-CoV-2 variants, we evaluated the magnitude and breadth of the neutralizing antibody response over time in individuals after infection and in mRNA-vaccinated individuals. We observed that boosting increases the magnitude of the antibody response to wild-type (D614), Beta, Delta, and Omicron variants; however, the Omicron variant was the most resistant to neutralization. We further observed that vaccinated healthy adults had robust and broad antibody responses, whereas responses may have been reduced in vaccinated pregnant women, underscoring the importance of learning how to maximize mRNA vaccine responses in pregnant populations. Findings from this study show substantial heterogeneity in the magnitude and breadth of responses after infection and mRNA vaccination and may support the addition of more conserved viral antigens to existing SARS-CoV-2 vaccines.",
+    "primary_institution_name": "Stanford University",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID35025672_personnel-01",
+            "honorific": "",
+            "last_name": "Scott",
+            "first_name": "Boyd",
+            "suffixes": "",
+            "organization": "Stanford University",
+            "orchid_id": "",
+            "email": "sboyd1@stanford.edu",
+            "seronet_title_in_study": "SeroNet Principal Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Stanford University"
+        },
+        {
+            "personnel_id": "PMID35025672_personnel-02",
+            "honorific": "",
+            "last_name": "Taia",
+            "first_name": "Wang",
+            "suffixes": "",
+            "organization": "Stanford University",
+            "orchid_id": "",
+            "email": "taiawang@stanford.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Corresponding Author",
+            "site_name": "Stanford University"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "scitranslmed.abn7842_data_file_s1.xlsx",
+            "study_file_description": "Study Data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35025672_v1.2.3.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "scitranslmed.abn7842_sm.pdf",
+            "study_file_description": "Study Data",
+            "study_file_type": "Study Data"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Immune Response",
+    "study_type": "Clinical Research",
+    "keyword": [
+        "Adult",
+        "Antibodies Neutralizing immunology",
+        "Antibodies Viral immunology",
+        "COVID-19 Vaccines immunology",
+        "COVID-19 immunology",
+        "COVID-19 prevention & control",
+        "COVID-19 virology",
+        "Female",
+        "Humans",
+        "Pregnancy",
+        "Pregnancy Complications Infectious immunology",
+        "Pregnancy Complications Infectious prevention & control",
+        "Pregnancy Complications Infectious virology",
+        "SARS-CoV-2 immunology",
+        "Spike Glycoprotein",
+        "Coronavirus immunology",
+        "Vaccines",
+        "Synthetic immunology",
+        "mRNA Vaccines immunology."
+    ],
+    "clinical_study_design": "Longitudinal Study",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID35025672_protocol-01",
+        "protocol_file_name": "PMID35025672_protocol-01.txt",
+        "protocol_name": "PMID35025672_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "Pfizer-BioNTech",
+        "Moderna"
+    ],
+    "clinical_outcome_measure": "The magnitude and breadth of the antibody response against D614, Delta, Beta, and Omicron SARS-CoV-2 pseudoparticles in serum isolated from participants after infection or mRNA vaccination during peak phase of mild COVID-19 (day 28 after study enrollment) and the convalescent periods.",
+    "enrollment_start_date": "2022-01-01",
+    "enrollment_end_date": "2022-06-01",
+    "number_of_study_subjects": 235,
+    "age_unit": "Years",
+    "minimum_age": 18,
+    "maximum_age": 79,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID35025672_human_subject-01",
+            "arm_name": "Stanford Lambda cohort",
+            "study_population_description": "120 particpiants enrolled with mild Covid-19 infection who received  single subcutaneous injection of Lambda or saline placebo",
+            "arm_type": "Placebo Comparator Arm",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: California"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Mild"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35025672_human_subject-02",
+            "arm_name": "Pregnancy vaccine cohort",
+            "study_population_description": "58 pregnant female volunteers that received either the Moderna or Pfizer vaccine",
+            "arm_type": "Vaccination",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: California"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Vaccinated"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Pfizer BioNTech COVID-19 vaccine ; VO:0004987",
+                "Moderna COVID-19 vaccine ; VO:0005157"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35025672_human_subject-03",
+            "arm_name": "Stanford adult vaccine cohort",
+            "study_population_description": "57 healthy volunteers were enrolled in the study",
+            "arm_type": "Healthy Control",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "White",
+                "Asian",
+                "Black or African American",
+                "Other"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female I Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Massachusetts"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Vaccinated"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Pfizer BioNTech COVID-19 vaccine ; VO:0004987"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID35025672_visit-01",
+            "visit_name": "Peripheral blood plasma collected from Stanford Lambda cohort on day 5 after enrollment",
+            "visit_order_number": 1,
+            "visit_min_start_day": 5,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35025672_visit-02",
+            "visit_name": "Lambda cohort Peripheral blood plasma collected. Pregnancy vaccine cohort Serum collected after second dose of Moderna",
+            "visit_order_number": 2,
+            "visit_min_start_day": 28,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35025672_visit-03",
+            "visit_name": "Stanford Lambda cohort Peripheral blood plasma. Antibody responses evaluated after second vaccine dose of Pfizer BNT162b2.",
+            "visit_order_number": 3,
+            "visit_min_start_day": 210,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35025672_visit-04",
+            "visit_name": "Peripheral blood plasma collected from Stanford Lambda cohort on day 300 after enrollment",
+            "visit_order_number": 4,
+            "visit_min_start_day": 300,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35025672_visit-05",
+            "visit_name": "Serum collected from Pregnancy vaccine cohort at baseline",
+            "visit_order_number": 5,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35025672_visit-06",
+            "visit_name": "Serum collected from pregnancy vaccine cohort after second vaccination dose of Pfizer BNT162b2",
+            "visit_order_number": 6,
+            "visit_min_start_day": 21,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35025672_visit-07",
+            "visit_name": "Antibody responses evaluated at day 7 after third vaccine dose of Pfizer BNT162b2.",
+            "visit_order_number": 7,
+            "visit_min_start_day": 185,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID35025672_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35025672_visit-01",
+                "PMID35025672_visit-02",
+                "PMID35025672_visit-03",
+                "PMID35025672_visit-04"
+            ],
+            "assay_type": "PCR",
+            "experiment_name": "PCR",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Blood"
+            ],
+            "biospecimen_collection_point": [
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "HPC, HIV, CMV"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID35025672_human_subject-01",
+                "PMID35025672_human_subject-02 IPMID35025672_human_subject-03"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35025672_visit-01",
+                "PMID35025672_visit-02",
+                "PMID35025672_visit-03",
+                "PMID35025672_visit-04",
+                "PMID35025672_visit-05",
+                "PMID35025672_visit-06",
+                "PMID35025672_visit-07"
+            ],
+            "assay_type": "Neutralizing Antibody Titer Assay",
+            "experiment_name": "Neutralization assays",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination",
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "HPC, HIV, CMV"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        }
+    ],
+    "geriatric_subjects": "Yes",
+    "pediatric_subjects": "No",
+    "pregnant_subjects": "Yes",
+    "sars_cov_2_antibodies_measured": "Yes",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID35025672_inexcl-01",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35025672_inexcl-02",
+            "inclusion_criterion": "Pediatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35025672_inexcl-03",
+            "inclusion_criterion": "Pregnant subjects",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35025672_inexcl-04",
+            "inclusion_criterion": "SARS-CoV-2 Antibodies Measured",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35025672_inexcl-05",
+            "inclusion_criterion": "Prior Covid-19 infection",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35025672_inexcl-06",
+            "inclusion_criterion": "Vaccinated individuals",
+            "inclusion_criterion_category": "inclusion"
+        }
+    ],
+    "suggestions": [
+        "activity",
+        "acute",
+        "addition",
+        "adult",
+        "adults",
+        "although",
+        "antibodies",
+        "antibodies neutralizing immunology",
+        "antibodies viral immunology",
+        "antibody",
+        "antigens",
+        "appear",
+        "arisen",
+        "associated",
+        "b.1.1.529",
+        "beta",
+        "boosting",
+        "breadth",
+        "broad",
+        "clinical",
+        "conferred",
+        "conserved",
+        "convalescent",
+        "coronavirus",
+        "coronavirus immunology",
+        "course",
+        "covid-19",
+        "covid-19 immunology",
+        "covid-19 prevention & control",
+        "covid-19 vaccines immunology",
+        "covid-19 virology",
+        "current",
+        "d614",
+        "day",
+        "delta",
+        "diminish",
+        "effective",
+        "elicited",
+        "enrollment",
+        "escape",
+        "evaluate",
+        "evaluated",
+        "existing",
+        "expressing",
+        "female",
+        "findings",
+        "found",
+        "geriatric",
+        "healthy",
+        "heterogeneity",
+        "however",
+        "humans",
+        "immune",
+        "immunity",
+        "importance",
+        "increased",
+        "increases",
+        "individuals",
+        "infection",
+        "isolated",
+        "largely",
+        "learning",
+        "longitudinal",
+        "magnitude",
+        "maximize",
+        "may",
+        "measured",
+        "mild",
+        "moderna",
+        "mrna",
+        "mrna vaccines immunology.",
+        "mrna-vaccinated",
+        "multiple",
+        "mutations",
+        "neutralization",
+        "neutralizing",
+        "number",
+        "observed",
+        "omicron",
+        "pandemic",
+        "participants",
+        "past",
+        "peak",
+        "pediatric",
+        "periods",
+        "pfizer-biontech",
+        "phase",
+        "populations",
+        "preexisting",
+        "pregnancy",
+        "pregnancy complications infectious immunology",
+        "pregnancy complications infectious prevention & control",
+        "pregnancy complications infectious virology",
+        "pregnant",
+        "prior",
+        "protection",
+        "protein",
+        "pseudoparticles",
+        "pseudoviruses",
+        "reduced",
+        "research",
+        "resistant",
+        "respiratory",
+        "response",
+        "responses",
+        "robust",
+        "sars-cov-2",
+        "sars-cov-2 immunology",
+        "serum",
+        "several",
+        "severe",
+        "show",
+        "spike",
+        "spike glycoprotein",
+        "stanford",
+        "stomatitis",
+        "study",
+        "subjects",
+        "substantial",
+        "support",
+        "syndrome",
+        "synthetic immunology",
+        "time",
+        "transmission",
+        "underscoring",
+        "university",
+        "using",
+        "vaccinated",
+        "vaccination",
+        "vaccine",
+        "vaccines",
+        "variant",
+        "variants",
+        "vesicular",
+        "viral",
+        "virus",
+        "vsv",
+        "whereas",
+        "wild-type",
+        "women"
+    ]
+}

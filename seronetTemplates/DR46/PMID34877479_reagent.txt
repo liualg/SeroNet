@@ -3,3 +3,4 @@ Please do not delete or edit this column
 Column Name	User Defined ID	Name	Description	Manufacturer	Catalog Number	Lot Number	Weblink	Contact
 	PMID34877479_reagentID-01	n/a  	n/a	components from multiple manufacturers	n/a			
 	PMID34877479_reagentID-02	n/a  	n/a	components from multiple manufacturers	n/a			
+	PMID34877479_reagentID-03	n/a  	n/a	components from multiple manufacturers	n/a			

@@ -91,6 +91,23 @@ def clean_array(the_array, VARS_TO_CLEAN):
 def remove_whitespace(obj):
     return obj.replace('\n', '').replace('\t', '')
 
+def cleanData(s):
+    """Removes characters in the input string that will corrupt the final JSON object"""
+    if pd.isna(s):
+        return ""
+    else:
+        if isinstance(s, str):
+            r1 = re.compile("\n|\t|\r")
+            r2 = re.compile('"')
+            s = r1.sub(" ", s)
+            s = r2.sub('\\"', s)
+            s = s.strip()
+        elif isinstance(s, datetime):
+            s = s.strftime('%Y-%m-%d')
+        else:
+            pass
+        return s
+
 def get_vaccine(arrays, VARS_TO_CLEAN):
     empty = ['']
     vaccine_type = []
@@ -171,9 +188,9 @@ def replace_delimiter(original_str, new_delimiter = " | "):
         for i, k in enumerate(original_str):
             # print("########## ASdAS")
             # print(i,k)
-            original_str[i] = k.replace(" I ", new_delimiter).replace("; ", new_delimiter).replace(" i ", new_delimiter).replace(",", new_delimiter).replace("  ", " ") #replace(" ; ", new_delimiter).replace(".", "")
+            original_str[i] = remove_whitespace(k).replace(" I ", new_delimiter).replace("; ", new_delimiter).replace(" i ", new_delimiter).replace(",", new_delimiter).replace("  ", " ") #replace(" ; ", new_delimiter).replace(".", "")
     else: # .replace(" ; ", new_delimiter)
-        original_str = original_str.replace(" I ", new_delimiter).replace("; ", new_delimiter).replace(" i ", new_delimiter).replace(",", new_delimiter).replace("  ", " ")
+        original_str = remove_whitespace(original_str).replace(" I ", new_delimiter).replace("; ", new_delimiter).replace(" i ", new_delimiter).replace(",", new_delimiter).replace("  ", " ")
 
     return original_str 
 #################  Adding sections back to dataframes  ##################

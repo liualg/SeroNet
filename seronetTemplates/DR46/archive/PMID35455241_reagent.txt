@@ -1,0 +1,8 @@
+other_reagents	Schema Version 3.36							
+Please do not delete or edit this column								
+Column Name	User Defined ID	Name	Description	Manufacturer	Catalog Number	Lot Number	Weblink	Contact
+	PMID35455241_reagentID-01	Wild type Spike I Wild type RBD I Omicron RBD	n/a	n/a	n/a			
+	PMID35455241_reagentID-02	Wild type Spike I Wild type RBD I Omicron RBD	n/a	n/a	n/a			
+	PMID35455241_reagentID-03	Wild type Spike I Wild type RBD I Omicron RBD	n/a	n/a	n/a			
+	PMID35455241_reagentID-04	Wild type Spike I Wild type RBD I Omicron RBD	n/a	n/a	n/a			
+	PMID35455241_reagentID-05	Wild type Spike I Wild type RBD I Omicron RBD	n/a	n/a	n/a			

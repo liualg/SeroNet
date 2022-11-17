@@ -1,0 +1,404 @@
+{
+    "pubmed_id": 35932763,
+    "study_identifier": "PMID35932763_study-01",
+    "study_name": "Immunological memory to common cold coronaviruses assessed longitudinally over a three-year period pre-COVID19 pandemic",
+    "publication_title": "Immunological memory to common cold coronaviruses assessed longitudinally over a three-year period pre-COVID19 pandemic",
+    "study_objective": "To assess CCC-specific CD4+ T cell and antibody responses in pre-COVID19-pandemic samples.",
+    "study_description": "The immune memory to common cold coronaviruses (CCCs) influences SARS-CoV-2 infection outcome, and understanding its effect is crucial for pan-coronavirus vaccine development. We performed a longitudinal analysis of pre-COVID19-pandemic samples from 2016-2019 in young adults and assessed CCC-specific CD4+ T cell and antibody responses. Notably, CCC responses were commonly detected with comparable frequencies as with other common antigens and were sustained over time. CCC-specific CD4+ T cell responses were associated with low HLA-DR+CD38+ signals, and their magnitude did not correlate with yearly CCC infection prevalence. Similarly, CCC-specific and spike RBD-specific IgG responses were stable in time. Finally, high CCC-specific CD4+ T cell reactivity, but not antibody titers, was associated with pre-existing SARS-CoV-2 immunity. These results provide a valuable reference for understanding the immune response to endemic coronaviruses and suggest that steady and sustained CCC responses are likely from a stable pool of memory CD4+ T cells due to repeated earlier exposures and possibly occasional reinfections.",
+    "primary_institution_name": "La Jolla Institute for Immunology",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID35932763_personnel-01",
+            "honorific": "",
+            "last_name": "Weiskopf",
+            "first_name": "Daniela",
+            "suffixes": "",
+            "organization": "La Jolla Institute for Immunology",
+            "orchid_id": "",
+            "email": "daniela@lji.org",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "La Jolla Institute for Immunology"
+        },
+        {
+            "personnel_id": "PMID35932763_personnel-02",
+            "honorific": "",
+            "last_name": "Alba",
+            "first_name": "Grifoni",
+            "suffixes": "",
+            "organization": "La Jolla Institute for Immunology",
+            "orchid_id": "",
+            "email": "agrifoni@lji.org",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "La Jolla Institute for Immunology"
+        },
+        {
+            "personnel_id": "PMID35932763_personnel-03",
+            "honorific": "",
+            "last_name": "Prem",
+            "first_name": "Lakshmanane",
+            "suffixes": "",
+            "organization": "University of North Carolina",
+            "orchid_id": "",
+            "email": "prem@med.unc.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "University of North Carolina"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID35932763_mmc1.pdf",
+            "study_file_description": "Supplementary material and figures",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35932763_CCC_ICS.xlsx",
+            "study_file_description": "Intra cellular staining (ICS) T cell assay values",
+            "study_file_type": "Assessment Results"
+        },
+        {
+            "study_file_name": "PMID35932763_SeroNet-HCoV-serology-data-Sep22-2022.xlsx",
+            "study_file_description": "ELISA assay values-Serology data",
+            "study_file_type": "Assessment Results"
+        },
+        {
+            "study_file_name": "PMID35932763_Copy of CCC_AIM.xlsx",
+            "study_file_description": "Activation induced cell marker (AIM) T cell assay values and demographic data",
+            "study_file_type": "Assessment Results"
+        },
+        {
+            "study_file_name": "PMID35932763_v1.2.5.xlsx",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.",
+            "study_file_type": "Study Summary Description"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Immune Response",
+    "study_type": "Epidemiological Research",
+    "keyword": [
+        "CD4",
+        "SARS-CoV-2",
+        "T cells",
+        "common cold coronaviruses",
+        "immune memory",
+        "longitudinal analysis",
+        "steady state"
+    ],
+    "clinical_study_design": "Longitudinal Study",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID35932763_protocol-01",
+        "protocol_file_name": "PMID35932763_protocol-01.txt",
+        "protocol_name": "PMID35932763_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19",
+        "Pertussis"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "N/A"
+    ],
+    "clinical_outcome_measure": "Immunological memory to common cold coronaviruses",
+    "enrollment_start_date": "2016-01-01",
+    "enrollment_end_date": "2019-01-01",
+    "number_of_study_subjects": 32,
+    "age_unit": "Years",
+    "minimum_age": 18,
+    "maximum_age": 36,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID35932763_human_subject-01",
+            "arm_name": "Donors from Bordetella Pertussis observational study",
+            "study_population_description": "Donors from Bordetella Pertussis observational study (N=32)",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Hispanic or Latino",
+                "Not Hispanic or Latino"
+            ],
+            "race": [
+                "Asian",
+                "Black or African American",
+                "White"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [
+                "assessment_recorded_pv"
+            ],
+            "study_location": [
+                "US: California"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [
+                "n/a"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID35932763_visit-01",
+            "visit_name": "Peripheral blood mononuclear cells collected from the donors",
+            "visit_order_number": 1,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID35932763_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35932763_visit-01"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "ELISA",
+            "experiment_results_file_name": "PMID35932763_SeroNet-HCoV-serology-data-Sep22-2022.xlsx",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer",
+                "Receptor Binding Domain (RBD)"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "Common cold Coronavirus (NL63",
+                "229E",
+                "HKU1",
+                "OC43)"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35932763_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35932763_visit-01"
+            ],
+            "assay_type": "Flow Cytometry",
+            "experiment_name": "Activation induced cell marker (AIM) T cell assay",
+            "experiment_results_file_name": "PMID35932763_Copy of CCC_AIM.xlsx",
+            "biospecimen_type": [
+                "Peripheral Blood Mononuclear Cell (PBMC)"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer",
+                "Receptor Binding Domain (RBD)"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "Common cold Coronavirus (NL63",
+                "229E",
+                "HKU1",
+                "OC43)"
+            ],
+            "antibody_isotype": [],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35932763_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35932763_visit-01"
+            ],
+            "assay_type": "Flow Cytometry",
+            "experiment_name": "Intra cellular staining (ICS) T cell assay",
+            "experiment_results_file_name": "PMID35932763_CCC_ICS.xlsx",
+            "biospecimen_type": [
+                "Peripheral Blood Mononuclear Cell (PBMC)"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer",
+                "Receptor Binding Domain (RBD)"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "Common cold Coronavirus (NL63",
+                "229E",
+                "HKU1",
+                "OC43)",
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        }
+    ],
+    "geriatric_subjects": "No",
+    "pediatric_subjects": "No",
+    "pregnant_subjects": "No",
+    "sars_cov_2_antibodies_measured": "Yes",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID35932763_inexcl-01",
+            "inclusion_criterion": "SARS-CoV-2 Antibodies Measured",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35932763_inexcl-02",
+            "inclusion_criterion": "Pediatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35932763_inexcl-03",
+            "inclusion_criterion": "Pregnant subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35932763_inexcl-04",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        }
+    ],
+    "suggestions": [
+        "2016-2019",
+        "adults",
+        "analysis",
+        "antibodies",
+        "antibody",
+        "antigens",
+        "assess",
+        "assessed",
+        "associated",
+        "ccc",
+        "ccc-specific",
+        "cccs",
+        "cd4",
+        "cd4+",
+        "cell",
+        "cells",
+        "cold",
+        "common",
+        "common cold coronaviruses",
+        "commonly",
+        "comparable",
+        "coronaviruses",
+        "correlate",
+        "covid-19",
+        "crucial",
+        "detected",
+        "development",
+        "due",
+        "earlier",
+        "effect",
+        "endemic",
+        "epidemiological",
+        "exposures",
+        "finally",
+        "frequencies",
+        "geriatric",
+        "high",
+        "hla-dr+cd38+",
+        "igg",
+        "immune",
+        "immune memory",
+        "immunity",
+        "immunological",
+        "immunology",
+        "infection",
+        "influences",
+        "institute",
+        "jolla",
+        "likely",
+        "longitudinal",
+        "longitudinal analysis",
+        "longitudinally",
+        "low",
+        "magnitude",
+        "measured",
+        "memory",
+        "n/a",
+        "notably",
+        "occasional",
+        "outcome",
+        "pan-coronavirus",
+        "pandemic",
+        "pediatric",
+        "performed",
+        "period",
+        "pertussis",
+        "pool",
+        "possibly",
+        "pre-covid19",
+        "pre-covid19-pandemic",
+        "pre-existing",
+        "pregnant",
+        "prevalence",
+        "provide",
+        "rbd-specific",
+        "reactivity",
+        "reference",
+        "reinfections",
+        "repeated",
+        "research",
+        "response",
+        "responses",
+        "results",
+        "samples",
+        "sars-cov-2",
+        "signals",
+        "similarly",
+        "spike",
+        "stable",
+        "steady",
+        "steady state",
+        "study",
+        "subjects",
+        "suggest",
+        "sustained",
+        "t cells",
+        "three-year",
+        "time",
+        "titers",
+        "understanding",
+        "vaccine",
+        "valuable",
+        "yearly",
+        "young"
+    ]
+}

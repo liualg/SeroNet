@@ -1,0 +1,522 @@
+{
+    "pubmed_id": "34250512",
+    "study_identifier": "PMID34250512_study-01",
+    "study_name": "Longitudinal analysis shows durable and broad immune memory after SARS-CoV-2 infection with persisting antibody responses and memory B and T cells",
+    "publication_title": "Longitudinal analysis shows durable and broad immune memory after SARS-CoV-2 infection with persisting antibody responses and memory B and T cells",
+    "study_objective": "To evaluate COVID-19 patients longitudinally up to 8 months and find durable broad-based immune responses.",
+    "study_description": "Ending the COVID-19 pandemic will require long-lived immunity to SARS-CoV-2. Here, we evaluate 254 COVID-19 patients longitudinally up to 8 months and find durable broad-based immune responses. SARS-CoV-2 spike binding and neutralizing antibodies exhibit a bi-phasic decay with an extended half-life of >200 days suggesting the generation of longer-lived plasma cells. SARS-CoV-2 infection also boosts antibody titers to SARS-CoV-1 and common betacoronaviruses. In addition, spike-specific IgG+ memory B cells persist, which bodes well for a rapid antibody response upon virus re-exposure or vaccination. Virus-specific CD4+ and CD8+ T cells are polyfunctional and maintained with an estimated half-life of 200 days. Interestingly, CD4+ T cell responses equally target several SARS-CoV-2 proteins, whereas the CD8+ T cell responses preferentially target the nucleoprotein, highlighting the potential importance of including the nucleoprotein in future vaccines. Taken together, these results suggest that broad and effective immunity may persist long-term in recovered COVID-19 patients.",
+    "primary_institution_name": "Emory University",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID34250512_sanz",
+            "honorific": "",
+            "last_name": "Sanz",
+            "first_name": "Ignacio",
+            "suffixes": "",
+            "organization": "Emory University",
+            "orchid_id": "",
+            "email": "ignacio.sanz@emory.edu",
+            "seronet_title_in_study": "SeroNet Principal Investigator",
+            "role_in_study": "Other",
+            "site_name": "Emory University"
+        },
+        {
+            "personnel_id": "PMID34250512_suthar",
+            "honorific": "",
+            "last_name": "Suthar",
+            "first_name": "Mehul",
+            "suffixes": "",
+            "organization": "Emory University",
+            "orchid_id": "",
+            "email": "mehul.s.suthar@emory.edu",
+            "seronet_title_in_study": "Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Emory University"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "Cell Reports Medicine serology and neut raw data_03032022.xlsx",
+            "study_file_description": "Serology and Nerutral Raw data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "mcelrath_cohort_covid_bcell_manuscript_export_13Sept2021.xlsx",
+            "study_file_description": "Coivd B cell",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "mcelrath_cohort_covid_bcellModel_manuscript_export_17Sept2021.xlsx",
+            "study_file_description": "Covid B cell model",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "mcelrath_cohort_covid_ics_manuscript_export_03Sept2021.xlsx",
+            "study_file_description": "Covid Ics",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "mcelrath_cohort_covid_icsModel_manuscript_export_03Sept2021.xlsx",
+            "study_file_description": "Covid Ics Model",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "mcelrath_cohort_covid_memModel_manuscript_export_03Sept2021.xlsx",
+            "study_file_description": "Memory Cells",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "mcelrath_cohort_covid_memory_manuscript_export_03Sept2021.xlsx",
+            "study_file_description": "Memory Cells",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "mmc1.pdf",
+            "study_file_description": "Supplemental information",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID34250512_v1.2.4.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.",
+            "study_file_type": "Study Summary Description"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Immune Response",
+    "study_type": "Serosurveillance",
+    "keyword": [
+        "B cells; CD4 T cells; CD8 T cells; COVID-19; SARS-CoV-2; binding antibody; coronaviruses; immune correlates; immune memory; neutralizing antibody"
+    ],
+    "clinical_study_design": "Longitudinal Study",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID34250512_protocol-02",
+        "protocol_file_name": "PMID34250512_protocol-02.txt",
+        "protocol_name": "PMID34250512_protocol-02",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19"
+    ],
+    "sars_cov_2_vaccine_type": [],
+    "clinical_outcome_measure": "SARS-CoV-2 spike binding and neutralizing antibodies half-life, half-life of virus specific memory B-cells, half-life of virus specific CD4+ and CD8+ T-cells",
+    "enrollment_start_date": "",
+    "enrollment_end_date": "2020-10-01",
+    "number_of_study_subjects": 110,
+    "age_unit": "Years",
+    "minimum_age": 18,
+    "maximum_age": 82,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID34250512_human_subject-01",
+            "arm_name": "COVID-19 positive adults",
+            "study_population_description": "COVID-19 positive adults (n = 254), Participants with a positive test prior to study enrollment or those diagnosed in study were asked to provide blood donation at approximately 7 days, 2 weeks, 1, 2, 3, 4, 6, 9- and 12-months post symptom onset",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Hispanic or Latino",
+                "Not Hispanic or Latino"
+            ],
+            "race": [
+                "Other"
+            ],
+            "race_specify": [
+                "Asian",
+                "Black or African American",
+                "White"
+            ],
+            "description": "",
+            "sex_at_birth": [
+                "Male I Female"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "GA",
+                "WA"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Mild",
+                "Moderate",
+                "Severe"
+            ],
+            "post_covid_19_symptoms": [
+                "Cough",
+                "Shortness Of Breath",
+                "Diarrhea",
+                "Fever",
+                "Headache",
+                "Fatigue"
+            ],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34250512_human_subject-02",
+            "arm_name": "Pre-pandemic controls",
+            "study_population_description": "Pre-pandemic control (n = 51), samples were from recipients of either the seasonal inactivated influenza vaccine (n = 27, collected from 2014-2018) or the live yellow fever virus (YFV-17D) vaccine (n = 24, collected from 2005\u20132007)",
+            "arm_type": "Negative Control",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Not Specified"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "GA"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Not Specified"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Not Specified"
+            ],
+            "post_covid_19_symptoms": [
+                "Not Specified"
+            ],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [
+        {
+            "arm_id": "PMID34250512_organism_subject-01",
+            "arm_name": "Vero E6 Cell lines",
+            "study_population_description": "Vero E6 Cell lines",
+            "arm_type": "Experimental Arm",
+            "genus_and_species": [
+                "African green monkey"
+            ],
+            "biosample_type": [
+                "Cell Line"
+            ],
+            "strain_characteristics": [],
+            "sex_at_birth": [
+                "Other"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "study_location": [
+                "Other"
+            ],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        }
+    ],
+    "planned_visit": [
+        {
+            "visit_id": "PMID34250512_pv-01",
+            "visit_name": "Cell lines, Vero E6",
+            "visit_order_number": 1,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34250512_pv-02",
+            "visit_name": "Blood, serology",
+            "visit_order_number": 2,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34250512_pv-03",
+            "visit_name": "Blood, serology",
+            "visit_order_number": 3,
+            "visit_min_start_day": 7,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34250512_pv-04",
+            "visit_name": "Blood, serology",
+            "visit_order_number": 4,
+            "visit_min_start_day": 14,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34250512_pv-05",
+            "visit_name": "Blood, PBMC",
+            "visit_order_number": 5,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34250512_pv-06",
+            "visit_name": "Blood, PBMC",
+            "visit_order_number": 6,
+            "visit_min_start_day": 7,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34250512_pv-07",
+            "visit_name": "Blood, PBMC",
+            "visit_order_number": 7,
+            "visit_min_start_day": 14,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34250512_pv-08",
+            "visit_name": "Blood, serology",
+            "visit_order_number": 8,
+            "visit_min_start_day": 30,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34250512_pv-09",
+            "visit_name": "Blood, serology",
+            "visit_order_number": 9,
+            "visit_min_start_day": 90,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34250512_pv-10",
+            "visit_name": "Blood, serology",
+            "visit_order_number": 10,
+            "visit_min_start_day": 180,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34250512_pv-11",
+            "visit_name": "Blood, serology",
+            "visit_order_number": 11,
+            "visit_min_start_day": 270,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34250512_pv-12",
+            "visit_name": "Blood, serology",
+            "visit_order_number": 12,
+            "visit_min_start_day": 365,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34250512_pv-13",
+            "visit_name": "Blood, PBMC",
+            "visit_order_number": 13,
+            "visit_min_start_day": 30,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34250512_pv-14",
+            "visit_name": "Blood, PBMC",
+            "visit_order_number": 14,
+            "visit_min_start_day": 90,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34250512_pv-15",
+            "visit_name": "Blood, PBMC",
+            "visit_order_number": 15,
+            "visit_min_start_day": 180,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34250512_pv-16",
+            "visit_name": "Blood, PBMC",
+            "visit_order_number": 16,
+            "visit_min_start_day": 270,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34250512_pv-17",
+            "visit_name": "Blood, PBMC",
+            "visit_order_number": 17,
+            "visit_min_start_day": 365,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID34250512_human_subject-01, PMID34250512_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34250512_pv-02, PMID34250512_pv-03, PMID34250512_pv-04, PMID34250512_pv-05, PMID34250512_pv-06, PMID34250512_pv-07, PMID34250512_pv-08, PMID34250512_pv-09, PMID34250512_pv-10, PMID34250512_pv-11, PMID34250512_pv-12, PMID34250512_pv-13, PMID34250512_pv-14, PMID34250512_pv-15, PMID34250512_pv-16, PMID34250512_pv-17"
+            ],
+            "assay_type": "Neutralizing Antibody Titer Assay",
+            "experiment_name": "Multiplex Bead Array Assay",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "serum",
+                "blood"
+            ],
+            "biospecimen_collection_point": [
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer",
+                "N-terminal Domain (NTD)",
+                "S1"
+            ],
+            "assay_use": "",
+            "manufacture": "Mesoscale Discovery",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgA, IgM, IgG"
+            ],
+            "reporting_units": "AU",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID34250512_human_subject-01, PMID34250512_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34250512_pv-02, PMID34250512_pv-03, PMID34250512_pv-04, PMID34250512_pv-05, PMID34250512_pv-06, PMID34250512_pv-07, PMID34250512_pv-08, PMID34250512_pv-09, PMID34250512_pv-10, PMID34250512_pv-11, PMID34250512_pv-12, PMID34250512_pv-13, PMID34250512_pv-14, PMID34250512_pv-15, PMID34250512_pv-16, PMID34250512_pv-17"
+            ],
+            "assay_type": "ELISPOT",
+            "experiment_name": "Neutralizing Antibody Titer Assay",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "serum",
+                "blood"
+            ],
+            "biospecimen_collection_point": [
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID34250512_human_subject-01, PMID34250512_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34250512_pv-02, PMID34250512_pv-03, PMID34250512_pv-04, PMID34250512_pv-05, PMID34250512_pv-06, PMID34250512_pv-07, PMID34250512_pv-08, PMID34250512_pv-09, PMID34250512_pv-10, PMID34250512_pv-11, PMID34250512_pv-12, PMID34250512_pv-13, PMID34250512_pv-14, PMID34250512_pv-15, PMID34250512_pv-16, PMID34250512_pv-17"
+            ],
+            "assay_type": "Flow Cytometry",
+            "experiment_name": "Spike and RBD memory B cell flow cytometry assays",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "serum",
+                "blood"
+            ],
+            "biospecimen_collection_point": [
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer",
+                "Receptor Binding Domain (RBD)"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgA, IgM, IgG"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        }
+    ],
+    "geriatric_subjects": "Not Specified",
+    "pediatric_subjects": "Not Specified",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "Not Specified",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID34250512_ie_02",
+            "inclusion_criterion": "COVID-19 positive adults",
+            "inclusion_criterion_category": "Inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34250512_ie_03",
+            "inclusion_criterion": "Pediatric",
+            "inclusion_criterion_category": "Exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34250512_ie_04",
+            "inclusion_criterion": "immunocompromised",
+            "inclusion_criterion_category": "Exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34250512_ie_05",
+            "inclusion_criterion": "HIV positive",
+            "inclusion_criterion_category": "Exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34250512_ie_06",
+            "inclusion_criterion": "active hepatitis B or C virus infection",
+            "inclusion_criterion_category": "Exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34250512_ie_07",
+            "inclusion_criterion": "used immunosuppressive drugs for 2 weeks or more in the preceding 3 months",
+            "inclusion_criterion_category": "Exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34250512_ie_08",
+            "inclusion_criterion": "received blood products or immune globulin 42\u00a0days prior to enrollment",
+            "inclusion_criterion_category": "Exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34250512_ie_09",
+            "inclusion_criterion": "received convalescent COVID-19 plasma",
+            "inclusion_criterion_category": "Exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34250512_ie_10",
+            "inclusion_criterion": "pregnant",
+            "inclusion_criterion_category": "Exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34250512_ie_11",
+            "inclusion_criterion": "breast feeding",
+            "inclusion_criterion_category": "Exclusion"
+        }
+    ]
+}

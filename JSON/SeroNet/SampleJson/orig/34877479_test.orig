@@ -1,0 +1,447 @@
+{
+    "pubmed_id": 34877479,
+    "study_identifier": "PMID34877479_study-01",
+    "study_name": "Roles of antiviral sensing and type I interferon signaling in the restriction of SARS-CoV-2 replication",
+    "publication_title": "Roles of antiviral sensing and type I interferon signaling in the restriction of SARS-CoV-2 replication",
+    "study_objective": "Severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) is the causative agent of coronavirus disease 2019. Few studies have compared replication dynamics and host responses to SARS-CoV-2 in cell lines from different tissues and species. Therefore, we investigated the role of tissue type and antiviral genes during SARS-CoV-2 infection in nonhuman primate (kidney) and human (liver, respiratory epithelial, gastric) cell lines. We report different viral growth kinetics and release among the cell lines despite comparable ACE2 expression. Transcriptomics revealed that absence of STAT1 in nonhuman primate cells appeared to enhance inflammatory responses without effecting infectious viral titer. Deletion of RL-6 in respiratory epithelial cells increased viral replication. Impaired infectious virus release was detected in Huh7 but not Huh7.5 cells, suggesting a role for RIG1. Gastric cells MKN45 exhibited robust antiviral gene expression and supported viral replication. Data here provide insight into molecular pathogenesis of and alternative cell lines for studying SARS-CoV-2 infection.",
+    "study_description": "We investigated the role of tissue type and antiviral genes during SARS-CoV-2 infection in nonhuman primate (kidney) and human (liver, respiratory epithelial, gastric) cell lines. We report different viral growth kinetics and release among the cell lines despite comparable ACE2 expression. Transcriptomics revealed that absence of STAT1 in nonhuman primate cells appeared to enhance inflammatory responses without effecting infectious viral titer. Deletion of RL-6 in respiratory epithelial cells increased viral replication. Impaired infectious virus release was detected in Huh7 but not Huh7.5 cells, suggesting a role for RIG1. Gastric cells MKN45 exhibited robust antiviral gene expression and supported viral replication. Data here provide insight into molecular pathogenesis of and alternative cell lines for studying SARS-CoV-2 infection.",
+    "primary_institution_name": "UPR-School of Medicine",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID34877479_personnel-01",
+            "honorific": "",
+            "last_name": "Messaoudi",
+            "first_name": "Ilhem",
+            "suffixes": "",
+            "organization": "University of California-Irvine",
+            "orchid_id": "",
+            "email": "imessaou@uci.edu",
+            "seronet_title_in_study": "Corresponding author",
+            "role_in_study": "Co-Principal Investigator",
+            "site_name": "Department of Molecular Biology and Biochemistry, University of California-Irvine"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID34877479_v1.2.5_reviewed.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "mmc1.pdf",
+            "study_file_description": "supplemental information",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "iScience_data_04062022.xlsx",
+            "study_file_description": "Study Data",
+            "study_file_type": "Study Data"
+        }
+    ],
+    "study_link": [
+        {
+            "link_name": "BioProject ",
+            "value": "https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA745219"
+        },
+        {
+            "link_name": "Code for RNA-Seq",
+            "value": "https://github.com/MessaoudiLab/RNA-Seq-Analysis/tree/master/SystemPipeR"
+        }
+    ],
+    "research_focus": "Immune Response",
+    "study_type": "Basic Research",
+    "keyword": [
+        "Immunology",
+        "Microbiology",
+        "Virology"
+    ],
+    "clinical_study_design": ".",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID34877479_protocol-01",
+        "protocol_file_name": "PMID34877479_protocol-01.txt",
+        "protocol_name": "PMID34877479_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "N/A"
+    ],
+    "clinical_outcome_measure": "",
+    "enrollment_start_date": "",
+    "enrollment_end_date": "",
+    "number_of_study_subjects": "",
+    "age_unit": "Years",
+    "minimum_age": "",
+    "maximum_age": "",
+    "study_human_cohort": [],
+    "study_model_cohort": [
+        {
+            "arm_id": "PMID34877479_organism_subject-01",
+            "arm_name": "Vero E6 Cell lines",
+            "study_population_description": "Vero E6 Cell line (African green monkey, Kidney epithelial)",
+            "arm_type": "Experimental Arm",
+            "genus_and_species": [
+                "Chlorocebus aethiops"
+            ],
+            "biosample_type": [
+                "Cell Line"
+            ],
+            "strain_characteristics": [],
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: California"
+            ],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34877479_organism_subject-02",
+            "arm_name": "Vero WHO Cell lines",
+            "study_population_description": "Vero WHO Cell lines",
+            "arm_type": "Experimental Arm",
+            "genus_and_species": [
+                "Chlorocebus aethiops"
+            ],
+            "biosample_type": [
+                "Cell Line"
+            ],
+            "strain_characteristics": [],
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: California"
+            ],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34877479_organism_subject-03",
+            "arm_name": "Huh7 Cell lines",
+            "study_population_description": "Huh7 Cell lines (Human, Epithelial-like hepatoma)",
+            "arm_type": "Experimental Arm",
+            "genus_and_species": [
+                "Homo sapiens"
+            ],
+            "biosample_type": [
+                "Cell Line"
+            ],
+            "strain_characteristics": [],
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: California"
+            ],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34877479_organism_subject-04",
+            "arm_name": "Huh7.5 Cell lines",
+            "study_population_description": "Huh7.5 Cell lines, (African green monkey, Kidney epithelial)",
+            "arm_type": "Experimental Arm",
+            "genus_and_species": [
+                "Homo sapiens"
+            ],
+            "biosample_type": [
+                "Cell Line"
+            ],
+            "strain_characteristics": [],
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: California"
+            ],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34877479_organism_subject-05",
+            "arm_name": "A549 Cell lines",
+            "study_population_description": "A549 Cell lines (Human, Alveolar basal epithelial adenocarcinoma)",
+            "arm_type": "Experimental Arm",
+            "genus_and_species": [
+                "Homo sapiens"
+            ],
+            "biosample_type": [
+                "Cell Line"
+            ],
+            "strain_characteristics": [],
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: California"
+            ],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34877479_organism_subject-06",
+            "arm_name": "AGS Cell lines",
+            "study_population_description": "AGS Cell lines (Human,  Gastric adenocarcinoma)",
+            "arm_type": "Experimental Arm",
+            "genus_and_species": [
+                "Homo sapiens"
+            ],
+            "biosample_type": [
+                "Cell Line"
+            ],
+            "strain_characteristics": [],
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: California"
+            ],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34877479_organism_subject-07",
+            "arm_name": "MKN45 Cell lines",
+            "study_population_description": "MKN45 Cell lines (Human, Gastric adenocarcinoma)",
+            "arm_type": "Experimental Arm",
+            "genus_and_species": [
+                "Homo sapiens"
+            ],
+            "biosample_type": [
+                "Cell Line"
+            ],
+            "strain_characteristics": [],
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: California"
+            ],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        }
+    ],
+    "planned_visit": [
+        {
+            "visit_id": "PMID34877479_visit-01",
+            "visit_name": "Cell Lines",
+            "visit_order_number": 1,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID34877479_organism_subject-01, PMID34877479_organism_subject-02, PMID34877479_organism_subject-03, PMID34877479_organism_subject-04, PMID34877479_organism_subject-05, PMID34877479_organism_subject-06, PMID34877479_organism_subject-07"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34877479_visit-01"
+            ],
+            "assay_type": "PCR",
+            "experiment_name": "PCR",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Other tissue (sorted)"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [
+                "n/a"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID34877479_organism_subject-01, PMID34877479_organism_subject-02, PMID34877479_organism_subject-03, PMID34877479_organism_subject-04, PMID34877479_organism_subject-05, PMID34877479_organism_subject-06, PMID34877479_organism_subject-07"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34877479_visit-01"
+            ],
+            "assay_type": "Western blottting",
+            "experiment_name": "Western blottting",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Other tissue (sorted)"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [
+                "n/a"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        }
+    ],
+    "geriatric_subjects": "Not Specified",
+    "pediatric_subjects": "Not Specified",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "Not Specified",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID34877479_inexcl-01",
+            "inclusion_criterion": "",
+            "inclusion_criterion_category": ""
+        }
+    ],
+    "suggestions": [
+        "2019",
+        "absence",
+        "ace2",
+        "acute",
+        "agent",
+        "alternative",
+        "among",
+        "antiviral",
+        "appeared",
+        "basic",
+        "causative",
+        "cell",
+        "cells",
+        "comparable",
+        "compared",
+        "coronavirus",
+        "coronavirus-2",
+        "covid-19",
+        "data",
+        "deletion",
+        "despite",
+        "detected",
+        "different",
+        "disease",
+        "dynamics",
+        "effecting",
+        "enhance",
+        "epithelial",
+        "exhibited",
+        "expression",
+        "gastric",
+        "gene",
+        "genes",
+        "growth",
+        "host",
+        "huh7",
+        "huh7.5",
+        "human",
+        "immune",
+        "immunology",
+        "impaired",
+        "increased",
+        "infection",
+        "infectious",
+        "inflammatory",
+        "insight",
+        "interferon",
+        "investigated",
+        "kidney",
+        "kinetics",
+        "lines",
+        "liver",
+        "medicine",
+        "microbiology",
+        "mkn45",
+        "molecular",
+        "n/a",
+        "nonhuman",
+        "pathogenesis",
+        "primate",
+        "provide",
+        "release",
+        "replication",
+        "report",
+        "research",
+        "respiratory",
+        "response",
+        "responses",
+        "restriction",
+        "revealed",
+        "rig1",
+        "rl-6",
+        "robust",
+        "role",
+        "roles",
+        "sars-cov-2",
+        "sensing",
+        "severe",
+        "signaling",
+        "species",
+        "stat1",
+        "studies",
+        "studying",
+        "suggesting",
+        "supported",
+        "syndrome",
+        "therefore",
+        "tissue",
+        "tissues",
+        "titer",
+        "transcriptomics",
+        "type",
+        "upr-school",
+        "viral",
+        "virology",
+        "virus",
+        "without"
+    ]
+}

@@ -1,0 +1,5 @@
+other_reagents	Schema Version 3.36							
+Please do not delete or edit this column								
+Column Name	User Defined ID	Name	Description	Manufacturer	Catalog Number	Lot Number	Weblink	Contact
+	PMID35289637_reagentID-01	Full Length Spike Trimer | Receptor Binding Domain (RBD) |  N-terminal Domain (NTD)	n/a	Southern Biotech	A14527			
+	PMID35289637_reagentID-02	Receptor Binding Domain (RBD)	n/a	BioLegend	n/a			

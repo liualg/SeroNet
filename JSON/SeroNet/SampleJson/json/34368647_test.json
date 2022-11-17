@@ -1,0 +1,284 @@
+{
+    "pubmed_id": 34368647,
+    "study_identifier": "PMID34368647_study-01",
+    "study_name": "Longitudinal analysis of severe acute respiratory syndrome coronavirus 2 seroprevalence using multiple serology platforms",
+    "publication_title": "Longitudinal analysis of severe acute respiratory syndrome coronavirus 2 seroprevalence using multiple serology platforms",
+    "study_objective": "To measure seroprevalence using research-grade RBD and spike based ELISA, a commercial RBD and spike-based ELISA, and a commercial NP-based immunoassay",
+    "study_description": "Current severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) serological tests are based on the full-length spike (S), the receptor-binding domain (RBD), or the nucleoprotein (NP) as substrates. Here, we used samples from healthcare workers (HCWs) to perform a longitudinal analysis of the antibody responses using a research-grade RBD and spike-based enzyme-linked immunosorbent assay (ELISA), a commercial RBD and spike-based ELISA, and a commercial NP-based chemiluminescent microparticle immunoassay. Seroprevalence ranged around 28% early during the pandemic and a good correlation was observed between RBD and spike-based ELISAs. Modest correlations were observed between NP and both RBD and spike-based assays. The antibody levels in HCWs declined over time; however, the overall seroprevalence measured by RBD and spike-based assays remained unchanged, while the seroprevalence of NP-reactive antibodies significantly declined. Moreover, RBD and spike-based assays effectively detected seroconversion in vaccinees. Overall, our results consolidate the strength of different serological assays to assess the magnitude and duration of antibodies to SARS-CoV-2.",
+    "primary_institution_name": "The Icahn School of Medicine at Mount Sinai",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID34368647_personnel-01",
+            "honorific": "",
+            "last_name": "Mendu",
+            "first_name": "Damodara Rao",
+            "suffixes": "",
+            "organization": "The Icahn School of Medicine at Mount Sinai",
+            "orchid_id": "",
+            "email": "mendu@mountsinai.org",
+            "seronet_title_in_study": "SeroNet Inestigator",
+            "role_in_study": "Investigator",
+            "site_name": "The Icahn School of Medicine at Mount Sinai"
+        },
+        {
+            "personnel_id": "PMID34368647_personnel-02",
+            "honorific": "",
+            "last_name": "Simon",
+            "first_name": "Viviana",
+            "suffixes": "",
+            "organization": "The Icahn School of Medicine at Mount Sinai",
+            "orchid_id": "",
+            "email": "viviana.simon@mssm.edu",
+            "seronet_title_in_study": "SeroNet Inestigator",
+            "role_in_study": "Investigator",
+            "site_name": "The Icahn School of Medicine at Mount Sinai"
+        },
+        {
+            "personnel_id": "PMID34368647_personnel-03",
+            "honorific": "",
+            "last_name": "Krammer",
+            "first_name": "Florian",
+            "suffixes": "",
+            "organization": "The Icahn School of Medicine at Mount Sinai",
+            "orchid_id": "",
+            "email": "florian.krammer@mssm.edu",
+            "seronet_title_in_study": "SeroNet Inestigator",
+            "role_in_study": "Investigator",
+            "site_name": "The Icahn School of Medicine at Mount Sinai"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID34368647_mmc1.pdf",
+            "study_file_description": "Supplementary data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID34368647_Longitudinal seroprevalence, Carreno et al.xlsx",
+            "study_file_description": "ELISA assessment values",
+            "study_file_type": "Assessment Results"
+        },
+        {
+            "study_file_name": "PMID34368647_Carreno et. al_demographics & Experiment values.xlsx",
+            "study_file_description": "Demographics and Experiment results",
+            "study_file_type": "Assessment Results"
+        },
+        {
+            "study_file_name": "PMID34368647_v1.2.4.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "PMID34368647_JSON.json",
+            "study_file_description": "JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "Study Summary Description"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Infection Response",
+    "study_type": "Serosurveillance",
+    "keyword": [
+        "Immunology",
+        "Virology",
+        "Chemiluminescent Microparticle Immuno Assay (CMIA)"
+    ],
+    "clinical_study_design": "Longitudinal Study",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID34368647_protocol-01",
+        "protocol_file_name": "PMID34368647_protocol-01.txt",
+        "protocol_name": "PMID34368647_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "N/A"
+    ],
+    "clinical_outcome_measure": "Measuring seroprevalence using research-grade RBD and spike based ELISA, a commercial RBD and spike-based ELISA, and a commercial NP-based immunoassay",
+    "enrollment_start_date": "2020-05-01",
+    "enrollment_end_date": "2020-10-01",
+    "number_of_study_subjects": 501,
+    "age_unit": "Years",
+    "minimum_age": "",
+    "maximum_age": "",
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID34368647_human_subject-01",
+            "arm_name": "Front line health care workers",
+            "study_population_description": "Serum samples collected from 501 health care workers in phase 1 and 178 of 501 participants provided serum sample in phase 2. Out of 501, 104 participants with pre Covid-19 infection",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: New York"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Vaccinated",
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Pfizer BioNTech COVID-19 vaccine ; VO:0004987"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID34368647_visit-01",
+            "visit_name": "Serum sample collected from health care workers",
+            "visit_order_number": 1,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID34368647_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34368647_visit-01"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Research grade ELISA",
+            "experiment_results_file_name": "PMID34368647_Carreno et. al_demographics & Experiment values.xlsx",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer",
+                "Receptor Binding Domain (RBD)"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID34368647_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34368647_visit-01"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Kantaro ELISAs",
+            "experiment_results_file_name": "PMID34368647_Carreno et. al_demographics & Experiment values.xlsx",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer",
+                "Receptor Binding Domain (RBD)"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "Kantaro Biosciences",
+            "catalog_number": "COV219",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID34368647_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34368647_visit-01"
+            ],
+            "assay_type": "Chemiluminescent Assay",
+            "experiment_name": "Abbott Architect CMIA",
+            "experiment_results_file_name": "PMID34368647_Carreno et. al_demographics & Experiment values.xlsx",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Nucleocapsid"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "Abbott Laboratories",
+            "catalog_number": "06R86",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Qualitative"
+        }
+    ],
+    "geriatric_subjects": "No",
+    "pediatric_subjects": "No",
+    "pregnant_subjects": "No",
+    "sars_cov_2_antibodies_measured": "Yes",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID34368647_inexcl-01",
+            "inclusion_criterion": "SARS-CoV-2 Antibodies Measured",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34368647_inexcl-02",
+            "inclusion_criterion": "Pediatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34368647_inexcl-03",
+            "inclusion_criterion": "Pregnant subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34368647_inexcl-04",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        }
+    ]
+}

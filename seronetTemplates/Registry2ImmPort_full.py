@@ -2,7 +2,7 @@
 # coding: utf-8
 
 '''
-This script is compatibale with Registry Version v1.2.3 - 1.2.5
+This script is compatibale with Registry Version v1.2.3 - 1.3
     - Please look at other template 
     - Added '*' to SARS-CoV-2 Antigen* (row 163, column B)
     - new assumptions from 1.2.5
@@ -11,6 +11,15 @@ This script is compatibale with Registry Version v1.2.3 - 1.2.5
         - loose query for v1.2.3 - 1.2.5
         - Assessments planned visit day 
         - Treatment 
+
+1.3.0
+    - Updated descriptors to pull from the EVS definitions 
+    - Updated mapping for reagents (to retrofit dr45)
+    - UPdated code for reagents (matching na + blanks better) ** THIS DOES NOT MAKE SENSE
+    - Cleaned up splitting of "I" vs "|""
+    - Updated JSON
+    - Updated file: pointerToExperimentalData.txt => ExperimentalDataInStudyFilesTab
+    - Updated experitment sample logiv for create reagent ids
 '''
 
 import pandas as pd
@@ -53,6 +62,8 @@ def create_full(PMID):
 # Registry
     sheet_name = 'SeroNet Registry Template'
     map_sheet = 'Registry Definitions'
+    EVS_DICT = 'Seronet_Study_Descriptors_v1.3_EVS.xlsx'
+    EVS_sheet = 'EVS Mapping'
 
 
     # finding correct Box Base
@@ -101,7 +112,7 @@ def create_full(PMID):
 
 
     # Automate output... 
-    OUT_DIR = os.path.join(BASE_DIR, 'ImmPort_templates-DR45.5') 
+    OUT_DIR = os.path.join(BASE_DIR, 'ImmPort_templates-DR46-TEST') 
     # OUT_DIR = './33184236_test/'
     PATH_pmid_basic_stdy_template = f'PMID{PMID}_study.xlsx'
 
@@ -246,10 +257,17 @@ def create_full(PMID):
         elif sub_section == 'study_categorization':
             df = seroFxn.edit_df(df)
 
-            STUDY_CATEGORIZATION = seroClass.study_categorization(
-                df['Research Focus*'][1],
-                df['Study Type'][1],
-                df['Keywords'][1],
+            try:
+                STUDY_CATEGORIZATION = seroClass.study_categorization(
+                    df['Research Focus*'][1],
+                    df['Study Type'][1],
+                    df['Keywords'][1],
+                )
+            except:
+                STUDY_CATEGORIZATION = seroClass.study_categorization(
+                    df['Research Focus'][1],
+                    df['Study Type'][1],
+                    df['Keywords'][1],
             )
         
         elif sub_section == 'study_design':
@@ -333,7 +351,7 @@ def create_full(PMID):
                     df['Measured Social Factor*'],
                     df['SARS-CoV-2 Symptoms*'],
                     df['Assessment_Clinical  and Demographic Data Provenance*'],
-                    df['Assessment_Demographic Data Types Collected'],
+                    df['Assessment_Demographic Data Types Collected*'],
                     df['SARS-CoV2 History*'],
                     df['SARS-CoV-2 Vaccine Type*'],
                     df['COVID-19 Disease Severity*'],
@@ -370,24 +388,44 @@ def create_full(PMID):
 
         elif sub_section == 'Subject Type: model organism':
             df = seroFxn.edit_df(df)
-
-            SUBJECT_ORGANISM = seroClass.subject_type_mode_organism(
-                df['Arm ID'],
-                df['Arm Name'],
-                df['Study Population Description'],
-                df['Arm Type'],
-                df['Species'],
-                df['Biosample Type'],
-                df['Strain Characteristics'],
-                df['Sex at Birth*'],
-                df['Age Event'],
-                df['Subject Phenotype'],
-                df['Study Location*'],
-                df['SARS-CoV2 History*'],
-                df['SARS-CoV-2 Vaccine Type*'],
-                df['COVID-19 Disease Severity*'],
-                df['Post COVID-19 Symptoms'],
-                df['COVID-19 Complications']
+            try:
+                SUBJECT_ORGANISM = seroClass.subject_type_mode_organism(
+                    df['Arm ID'],
+                    df['Arm Name'],
+                    df['Study Population Description'],
+                    df['Arm Type'],
+                    df['Genus and Species'],
+                    df['Biosample Type'],
+                    df['Strain Characteristics'],
+                    df['Sex at Birth*'],
+                    df['Age Event'],
+                    df['Subject Phenotype'],
+                    df['Study Location*'],
+                    df['SARS-CoV2 History*'],
+                    df['SARS-CoV-2 Vaccine Type*'],
+                    df['COVID-19 Disease Severity*'],
+                    df['Post COVID-19 Symptoms'],
+                    df['COVID-19 Complications']
+                    )
+            except:
+                print('Using older verion of organism section')
+                SUBJECT_ORGANISM = seroClass.subject_type_mode_organism(
+                    df['Arm ID'],
+                    df['Arm Name'],
+                    df['Study Population Description'],
+                    df['Arm Type'],
+                    df['Species'],
+                    df['Biosample Type'],
+                    df['Strain Characteristics'],
+                    df['Sex at Birth*'],
+                    df['Age Event'],
+                    df['Subject Phenotype'],
+                    df['Study Location*'],
+                    df['SARS-CoV2 History*'],
+                    df['SARS-CoV-2 Vaccine Type*'],
+                    df['COVID-19 Disease Severity*'],
+                    df['Post COVID-19 Symptoms'],
+                    df['COVID-19 Complications']
                 )
         
         elif sub_section == 'planned_visit':
@@ -668,7 +706,7 @@ def create_full(PMID):
 
     # Treatment ID should be "no_sars-cov-2_treatments"
 
-    # Result File Name: resultsNotCurated.txt => pointerToExperimentalData.txt
+    # Result File Name: resultsNotCurated.txt => ExperimentalDataInStudyFilesTab.txt
 
     # StudyTimeCollected should link back to the planned_visit.User_Defined_ID + planned_visit.Min_Start_Day
     '''
@@ -676,8 +714,8 @@ def create_full(PMID):
 
     if  EXPERIMENTS:
         # creating a map of the assay types to the SeroNet descriptors
-        reg_description = pd.read_excel(df_path, sheet_name = map_sheet)
-        descriptions = dict(zip(reg_description['Unnamed: 1'][4:], reg_description['Unnamed: 2'][4:]))
+        reg_description = pd.read_excel(os.path.join('.','dictionary',EVS_DICT), sheet_name = EVS_sheet)
+        descriptions = dict(zip(reg_description['NCIt PT'], reg_description['NCIt Def']))
         
         #dictionary created for visit ID and min day
         studyTime = dict(zip(PLANNED_VISIT.User_Defined_ID, PLANNED_VISIT.Min_Start_Day))
@@ -700,10 +738,10 @@ def create_full(PMID):
 
         for i in range(len(EXPERIMENTS.Assay_Type)):
             
-            arms = EXPERIMENTS.Associated_Arm_ID[i+1].split(" I ")
-            assay = EXPERIMENTS.Assay_Type[i+1].split(" I ") #this should always be 1
-            sample = EXPERIMENTS.Biospecimen_Type[i+1].split(" I ")
-            pvID = EXPERIMENTS.Associated_Planned_Visit_ID[i+1].split(" I ")
+            arms = EXPERIMENTS.Associated_Arm_ID[i+1].split(" | ")
+            assay = EXPERIMENTS.Assay_Type[i+1].split(" | ") #this should always be 1
+            sample = EXPERIMENTS.Biospecimen_Type[i+1].split(" | ")
+            pvID = EXPERIMENTS.Associated_Planned_Visit_ID[i+1].split(" | ")
 
             #creating a minidictionary to match the biosample IDs correctly 
             for biosample in sample:
@@ -786,13 +824,33 @@ def create_full(PMID):
 
             # seems like I can keep the same logic. It should be:
             # 1 field times the other field, and then there is one filed that is exluded 
+
+            # UPDATE CODE HERE
             
-            if EXPERIMENTS.SARS_CoV_2_Antigen[i+1] not in clean_other:
-                reagentID += [f'PMID{PMID}_reagentID-0{i+1}']*total_len
-            else:
+            # if EXPERIMENTS.SARS_CoV_2_Antigen[i+1] not in clean_other:
+            #     reagentID += [f'PMID{PMID}_reagentID-0{i+1}']*total_len
+            # else:
+            #     reagentID += [f'PMID{PMID}_reagents_not_curated']*total_len
+
+            if EXPERIMENTS.SARS_CoV_2_Antigen[i+1] in clean_other:
                 reagentID += [f'PMID{PMID}_reagents_not_curated']*total_len
-            
-            
+            else:
+                try:
+                    lower_exp = EXPERIMENTS.SARS_CoV_2_Antigen[i+1].lower().strip()
+
+                    if lower_exp not in clean_other: 
+                        reagentID += [f'PMID{PMID}_reagentID-0{i+1}']*total_len
+                    else:
+                        reagentID += [f'PMID{PMID}_reagents_not_curated']*total_len
+                except:
+                    if EXPERIMENTS.SARS_CoV_2_Antigen[i+1] not in clean_other:
+                        reagentID += [f'PMID{PMID}_reagentID-0{i+1}']*total_len
+                    else:
+                        print("CHECK EXPERIMENT SAMPLES REAGENT")
+                        pass
+                    
+
+
             # print(arms)
             # print(total_len)
             # print(total_len/len(arms))
@@ -844,7 +902,7 @@ def create_full(PMID):
             'Experiment ID':experimentID,
             'Reagent ID(s)':reagentID,
             'Treatment ID(s)':[f'PMID{PMID}_treatment' for n in range(fillLen)],
-            'Result File Name':['pointerToExperimentalData.txt'] * fillLen,
+            'Result File Name':['ExperimentalDataInStudyFilesTab.txt'] * fillLen,
             'Expsample Name':empty,
             'Expsample Description':[descriptions.get(k) for i, k in enumerate(experimentName)],
             'Additional Result File Names':empty,
@@ -921,22 +979,67 @@ def create_full(PMID):
         Catalog = []
 
         counter = 0
-        # picking out the Indexs that contain data 
         for i, k in enumerate(EXPERIMENTS.SARS_CoV_2_Antigen):
-            if k not in clean_other:
-                ID.append(f'PMID{PMID}_reagentID-0{i+1}')
-                Name.append(EXPERIMENTS.SARS_CoV_2_Antigen[i+1])
-                Description.append(EXPERIMENTS.Assay_Use[i+1])
-                Manufacturer.append(EXPERIMENTS.Manufacturer[i+1])
-                Catalog.append(EXPERIMENTS.Catalog[i+1])
-
-            elif counter == 0:
+            
+            if k in clean_other and counter == 0:
                 ID.append(f'PMID{PMID}_reagents_not_curated')
                 Name.append(f'Reagents not curated')
                 Description.append('Reagents not curated for this experiment')
                 Manufacturer.append('na')
                 Catalog.append('na')
                 counter += 1
+            else:
+                try:
+                    lower_k = k.lower().strip()
+                    if lower_k not in clean_other: 
+                        ID.append(f'PMID{PMID}_reagentID-0{i+1}')
+                        Name.append(EXPERIMENTS.SARS_CoV_2_Antigen[i+1])
+                        Description.append(EXPERIMENTS.Assay_Use[i+1])
+                        Manufacturer.append(EXPERIMENTS.Manufacturer[i+1])
+                        Catalog.append(EXPERIMENTS.Catalog[i+1])
+                    elif counter == 0:
+                        ID.append(f'PMID{PMID}_reagents_not_curated')
+                        Name.append(f'Reagents not curated')
+                        Description.append('Reagents not curated for this experiment')
+                        Manufacturer.append('na')
+                        Catalog.append('na')
+                        counter += 1
+                    else:
+                        pass
+                except:
+                    if k not in clean_other:
+                        ID.append(f'PMID{PMID}_reagentID-0{i+1}')
+                        Name.append(EXPERIMENTS.SARS_CoV_2_Antigen[i+1])
+                        Description.append(EXPERIMENTS.Assay_Use[i+1])
+                        Manufacturer.append(EXPERIMENTS.Manufacturer[i+1])
+                        Catalog.append(EXPERIMENTS.Catalog[i+1])
+#         # picking out the Indexs that contain data 
+#         for i, k in enumerate(EXPERIMENTS.SARS_CoV_2_Antigen):
+#             if k not in clean_other:
+#                 if k.lower().strip() not in clean_other:
+#                     ID.append(f'PMID{PMID}_reagentID-0{i+1}')
+#                     Name.append(EXPERIMENTS.SARS_CoV_2_Antigen[i+1])
+#                     Description.append(EXPERIMENTS.Assay_Use[i+1])
+#                     Manufacturer.append(EXPERIMENTS.Manufacturer[i+1])
+#                     Catalog.append(EXPERIMENTS.Catalog[i+1])
+                
+#                 else:
+#                     ID.append(f'PMID{PMID}_reagentID-0{i+1}')
+#                     Name.append(f'Reagents not curated')
+#                     Description.append('Reagents not curated for this experiment')
+#                     Manufacturer.append('na')
+#                     Catalog.append('na')
+#                     counter += 1
+                    
+
+#             else:
+# #                 ID.append(f'PMID{PMID}_reagents_not_curated')
+#                 ID.append(f'PMID{PMID}_reagentID-0{i+1}')
+#                 Name.append(f'Reagents not curated')
+#                 Description.append('Reagents not curated for this experiment')
+#                 Manufacturer.append('na')
+#                 Catalog.append('na')
+#                 counter += 1
 
 
         if len(ID) > 0: 
@@ -1287,7 +1390,7 @@ def create_full(PMID):
         pass
 
     shutil.copyfile(os.path.join(CD,"log",f"Registry_{today}.log"), os.path.join(CD,BASE_DIR,"log",f"Registry_{today}.log"))
-    shutil.copyfile(os.path.join(CD,"template","xImmPortFillerDocuments","pointerToExperimentalData.txt"), os.path.join(OUT_DIR,"pointerToExperimentalData.txt"))
+    shutil.copyfile(os.path.join(CD,"template","xImmPortFillerDocuments","ExperimentalDataInStudyFilesTab.txt"), os.path.join(OUT_DIR,"ExperimentalDataInStudyFilesTab.txt"))
     shutil.copy(df_path, OUT_DIR)
 
     for filename in glob(os.path.join(CD,BASE_DIR,"submitted_data", '*.*')):

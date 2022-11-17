@@ -1,0 +1,289 @@
+{
+    "pubmed_id": 35180044,
+    "study_identifier": "PMID35180044_study-01",
+    "study_name": "Reduced COVID-19 Vaccine Response in Patients Treated with Biologic Therapies for Asthma",
+    "publication_title": "Reduced COVID-19 Vaccine Response in Patients Treated with Biologic Therapies for Asthma",
+    "study_objective": "Despite animal studies showing decreased vaccine-induced humoral immunity   there is a paucity of literature available in asthma patient population following SARS-CoV-2 vaccination.",
+    "study_description": "It is unclear if patients with severe asthma and atopic dermatit is on biologic therapies have an adequate and durable humoral immune response after vaccination to SARS-CoV-2. To address these questions, we conducted a prospective observational trial from February 2021 to September 2021 with adults who had severe asthma or atopic dermatitis treated with benralizumab (IL-5 receptor antagonist), mepolizumab(IL-5 antagonist), or dupilumab (IL-4 receptor a antagonist).",
+    "primary_institution_name": "Emory University",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID35180044_personnel-01",
+            "honorific": "",
+            "last_name": "Lee",
+            "first_name": "F. Eun-Hyung",
+            "suffixes": "",
+            "organization": "Emory University",
+            "orchid_id": "",
+            "email": "f.e.lee@emory.edu",
+            "seronet_title_in_study": "Seronet Investigator",
+            "role_in_study": "Principal Investigator",
+            "site_name": "Emory University"
+        },
+        {
+            "personnel_id": "PMID35180044_personnel-02",
+            "honorific": "",
+            "last_name": "Sanz",
+            "first_name": "Ignacio",
+            "suffixes": "",
+            "organization": "Emory University",
+            "orchid_id": "",
+            "email": "ignacio.sanz@emory.edu",
+            "seronet_title_in_study": "SeroNet Principal Investigator",
+            "role_in_study": "other",
+            "site_name": "Emory University"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "ICMJE Disclosure Form",
+            "study_file_description": "Disclosure",
+            "study_file_type": "Other"
+        },
+        {
+            "study_file_name": "Biologic vaccine study.xlsx",
+            "study_file_description": "Study data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35180044_v1.2.6.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "Study Summary Description"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Vaccine Response",
+    "study_type": "Clinical Research",
+    "keyword": [
+        "Anti-Asthmatic Agents / therapeutic use",
+        "Asthma / drug therapy",
+        "Biological Therapy",
+        "COVID-19 Vaccines / therapeutic use",
+        "COVID-19",
+        "Humans"
+    ],
+    "clinical_study_design": "Prospective Cohort",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID35180044_protocol-01",
+        "protocol_file_name": "PMID35180044_protocol-01.txt",
+        "protocol_name": "PMID35180044_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19",
+        "Asthma",
+        "Atopic Dermatitis"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "Pfizer-BioNTech SARS-CoV-2 vaccine",
+        "Moderna SARS-CoV-2 vaccine"
+    ],
+    "clinical_outcome_measure": "",
+    "enrollment_start_date": "2021-02-01",
+    "enrollment_end_date": "2021-09-01",
+    "number_of_study_subjects": 84,
+    "age_unit": "Years",
+    "minimum_age": 18,
+    "maximum_age": 78,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID35180044_human_subject-01",
+            "arm_name": "Adults with severe asthma or atopic dermatitis",
+            "study_population_description": "Adults with severe asthma or atopic dermatitis treated with benralizumab, mepolizumab, or dupilumab",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "United States of America"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Uninfected"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Pfizer BioNTech COVID-19 vaccine ; VO:0004987",
+                "Moderna COVID-19 vaccine ; VO:0005157"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35180044_human_subject-02",
+            "arm_name": "Healthy adults",
+            "study_population_description": "Healthy Adults",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "United States of America"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Uninfected"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Pfizer BioNTech COVID-19 vaccine ; VO:0004987",
+                "Moderna COVID-19 vaccine ; VO:0005158"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID35180044_visit-01",
+            "visit_name": "1st Blood sample after second dose",
+            "visit_order_number": 1,
+            "visit_min_start_day": 25,
+            "visit_max_start_day": 49,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35180044_visit-02",
+            "visit_name": "2nd Blood sample after second dose",
+            "visit_order_number": 2,
+            "visit_min_start_day": 50,
+            "visit_max_start_day": 74,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35180044_visit-03",
+            "visit_name": "3rd Blood sample after second dose",
+            "visit_order_number": 3,
+            "visit_min_start_day": 75,
+            "visit_max_start_day": 99,
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID35180044_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35180044_visit-01"
+            ],
+            "assay_type": "Multiplex Bead Array Assay",
+            "experiment_name": "multiplex Luminex assay",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Blood"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Receptor Binding Domain (RBD)"
+            ],
+            "assay_use": "Commercial Test",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other",
+                "IgG"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35180044_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35180044_visit-02"
+            ],
+            "assay_type": "Multiplex Bead Array Assay",
+            "experiment_name": "multiplex Luminex assay",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Blood"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "N-terminal Domain (NTD)",
+                "S1",
+                "S2",
+                "Nucleocapsid",
+                "Other"
+            ],
+            "assay_use": "Commercial Test",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Quantitative"
+        }
+    ],
+    "geriatric_subjects": "No",
+    "pediatric_subjects": "No",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "No",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID35180044_inexcl-01",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "Yes"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35180044_inexcl-02",
+            "inclusion_criterion": "Pediatric subjects",
+            "inclusion_criterion_category": "No"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35180044_inexcl-03",
+            "inclusion_criterion": "SARS-CoV-2 Antibodies Measured",
+            "inclusion_criterion_category": "Yes"
+        }
+    ]
+}

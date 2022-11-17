@@ -1,0 +1,9 @@
+other_reagents	Schema Version 3.36							
+Please do not delete or edit this column								
+Column Name	User Defined ID	Name	Description	Manufacturer	Catalog Number	Lot Number	Weblink	Contact
+	PMID34145263_reagentID-01	n/a  	n/a	components from multiple manufacturers	n/a			
+	PMID34145263_reagentID-02	n/a  	n/a	components from multiple manufacturers	n/a			
+	PMID34145263_reagentID-03	Full Length Spike Trimer | Receptor Binding Domain (RBD) | | N-terminal Domain (NTD)	n/a	components from multiple manufacturers	n/a			
+	PMID34145263_reagentID-04	Full Length Spike Trimer | Receptor Binding Domain (RBD) | | N-terminal Domain (NTD)	n/a	components from multiple manufacturers	n/a			
+	PMID34145263_reagentID-05	Full Length Spike Trimer | Receptor Binding Domain (RBD) | | N-terminal Domain (NTD)	n/a	components from multiple manufacturers	n/a			
+	PMID34145263_reagentID-06	Full Length Spike Trimer | Receptor Binding Domain (RBD) | | N-terminal Domain (NTD)	n/a	components from multiple manufacturers	n/a			

@@ -1,0 +1,8 @@
+other_reagents	Schema Version 3.36							
+Please do not delete or edit this column								
+Column Name	User Defined ID	Name	Description	Manufacturer	Catalog Number	Lot Number	Weblink	Contact
+	PMID35764643_reagentID-01	Full Length Spike Trimer	Research Use Only	Intellicyt	n/a			
+	PMID35764643_reagentID-02	n/a  	Research Use Only	components from multiple manufacturers	n/a			
+	PMID35764643_reagentID-03	Full Length Spike Trimer	Research Use Only	Intellicyt	n/a			
+	PMID35764643_reagents_not_curated	Reagents not curated	Reagents not curated for this experiment	na	na			
+	PMID35764643_reagentID-05	Full Length Spike Trimer	Research Use Only	components from multiple manufacturers	n/a			

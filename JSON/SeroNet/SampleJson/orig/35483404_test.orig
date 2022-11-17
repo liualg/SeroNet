@@ -1,0 +1,692 @@
+{
+    "pubmed_id": 35483404,
+    "study_identifier": "PMID35483404_study-01",
+    "study_name": "Inflammasome activation in infected macrophages drives COVID-19 pathology",
+    "publication_title": "Inflammasome activation in infected macrophages drives COVID-19 pathology",
+    "study_objective": "To study the effect of SARS-CoV-2 infection and replication on lung resident macrophages",
+    "study_description": "Severe COVID-19 is characterized by persistent lung inflammation, inflammatory cytokine production, viral RNA, and sustained interferon (IFN) response all of which are recapitulated and required for pathology in the SARS-CoV-2 infected MISTRG6-hACE2 humanized mouse model of COVID-19 with a human immune system. Blocking either viral replication with Remdesivir or the downstream IFN stimulated cascade with anti-IFNAR2 in vivo in the chronic stages of disease attenuated the overactive immune-inflammatory response, especially inflammatory macrophages. Here, we show SARS-CoV-2 infection and replication in lung-resident human macrophages is a critical driver of disease. In response to infection mediated by CD16 and ACE2 receptors, human macrophages activate inflammasomes, release IL-1 and IL-18 and undergo pyroptosis thereby contributing to the hyperinflammatory state of the lungs. Inflammasome activation and its accompanying inflammatory response is necessary for lung inflammation, as inhibition of the NLRP3 inflammasome pathway reverses chronic lung pathology. Remarkably, this same blockade of inflammasome activation leads to the release of infectious virus by the infected macrophages. Thus, inflammasomes oppose host infection by SARS-CoV-2 by production of inflammatory cytokines and suicide by pyroptosis to prevent a productive viral cycle.",
+    "primary_institution_name": "Yale University",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID35483404_personnel-01",
+            "honorific": "",
+            "last_name": "Halene",
+            "first_name": "Stephanie",
+            "suffixes": "",
+            "organization": "Yale University",
+            "orchid_id": "",
+            "email": "sh3@CONNECT.YALE.EDU",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Co-Principal Investigator",
+            "site_name": "Yale University"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID_35483404 Reporting Summary.pdf",
+            "study_file_description": "Reporting Summary",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "PMID_35483404 Supplementary Table 1.xlsx",
+            "study_file_description": "Supplementary Data Table 1",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID_35483404 Supplementary Table 2.xlsx",
+            "study_file_description": "Supplementary Data Table 2",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID_35483404 Supplementary Table 3.xlsx",
+            "study_file_description": "Supplementary Data Table 3",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID_35483404 Supplementary Table 4.xlsx",
+            "study_file_description": "Supplementary Data Table 4",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID_35483404 Supplementary Table 5.xlsx",
+            "study_file_description": "Supplementary Data Table 5",
+            "study_file_type": "Other"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM8_ESM.xlsx",
+            "study_file_description": "Source data Fig. 1",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM9_ESM.xlsx",
+            "study_file_description": "Source data Fig. 2",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM10_ESM.xlsx",
+            "study_file_description": "Source data Fig. 3",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM11_ESM.xlsx",
+            "study_file_description": "Source data Fig. 4",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM12_ESM.xlsx",
+            "study_file_description": "Source Data Extended Data Fig. 1",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM13_ESM.xlsx",
+            "study_file_description": "Source Data Extended Data Fig. 2",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM14_ESM.xlsx",
+            "study_file_description": "Source Data Extended Data Fig. 3",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM15_ESM.xlsx",
+            "study_file_description": "Source Data Extended Data Fig. 4",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM16_ESM.xlsx",
+            "study_file_description": "Source Data Extended Data Fig. 5",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM17_ESM.xlsx",
+            "study_file_description": "Source Data Extended Data Fig. 6",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM18_ESM.xlsx",
+            "study_file_description": "Source Data Extended Data Fig. 8",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM19_ESM.xlsx",
+            "study_file_description": "Source Data Extended Data Fig. 9",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM20_ESM.xlsx",
+            "study_file_description": "Source Data Extended Data Fig. 10",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM21_ESM.xlsx",
+            "study_file_description": "Source Data Extended Data Fig. 11",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM22_ESM.xlsx",
+            "study_file_description": "Source Data Extended Data Fig. 12",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM23_ESM.xlsx",
+            "study_file_description": "Source Data Extended Data Fig. 13",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM24_ESM.xlsx",
+            "study_file_description": "Source Data Extended Data Fig. 14",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "41586_2022_4802_MOESM25_ESM.xlsx",
+            "study_file_description": "Source Data Extended Data Fig. 15",
+            "study_file_type": "Study Data"
+        }
+    ],
+    "study_link": [
+        {
+            "link_name": "Gene Expression Omnibus (GEO)",
+            "value": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE186794"
+        },
+        {
+            "link_name": "Gene Expression Omnibus (GEO)",
+            "value": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE199272"
+        }
+    ],
+    "research_focus": "Infection Response",
+    "study_type": "Preclinical Study",
+    "keyword": [
+        "Chronic inflammation",
+        "Inflammasome",
+        "SARS-CoV-2",
+        "Viral infection"
+    ],
+    "clinical_study_design": ".",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID35483404_protocol-01",
+        "protocol_file_name": "PMID35483404_protocol-01.txt",
+        "protocol_name": "PMID35483404_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19",
+        "Pneumonia"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "N/A"
+    ],
+    "clinical_outcome_measure": "",
+    "enrollment_start_date": "",
+    "enrollment_end_date": "",
+    "number_of_study_subjects": 7,
+    "age_unit": "Years",
+    "minimum_age": 37,
+    "maximum_age": 77,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID35483404_human_subject-01",
+            "arm_name": "COVID-19 infected lungs",
+            "study_population_description": "human autopsy lungs with SARS-CoV-2 pneumonia",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at Study Day 0",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Connecticut"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "n/a"
+            ],
+            "covid_19_disease_severity": [
+                "Death"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": [
+                "COVID-19-Associated Pneumonia"
+            ]
+        },
+        {
+            "arm_id": "PMID35483404_human_subject-02",
+            "arm_name": "control lungs",
+            "study_population_description": "human autopsy lungs with non-SARS-CoV-2 pneumonia",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at Study Day 0",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Connecticut"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Uninfected"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "n/a"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [
+        {
+            "arm_id": "PMID35483404_organism_subject-01",
+            "arm_name": "Uninfected MISTRG6-hACE2 mice",
+            "study_population_description": "MISTRG6-hACE2 mice transplanted  with human CD34+ haematopoietic progenitor cells - uninfected",
+            "arm_type": "Negative Control",
+            "genus_and_species": [
+                "Mus musculus"
+            ],
+            "biosample_type": [
+                "Animal"
+            ],
+            "strain_characteristics": [
+                "MISTRG6-hACE2 humanized mouse"
+            ],
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: Connecticut"
+            ],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Unknown"
+            ],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35483404_organism_subject-02",
+            "arm_name": "COVID-19 infected MISTRG6-hACE2 mice",
+            "study_population_description": "MISTRG6-hACE2 mice transplanted  with human CD34+ haematopoietic progenitor cells - infected with COVID-19",
+            "arm_type": "Experimental Arm",
+            "genus_and_species": [
+                "Mus musculus"
+            ],
+            "biosample_type": [
+                "Animal"
+            ],
+            "strain_characteristics": [
+                "MISTRG6-hACE2 humanized mouse"
+            ],
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: Connecticut"
+            ],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Unknown"
+            ],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35483404_organism_subject-03",
+            "arm_name": "COVID-19 mNG infected MISTRG6-hACE2 mice",
+            "study_population_description": "MISTRG6-hACE2 mice transplanted  with human CD34+ haematopoietic progenitor cells -  infected with COVID-19-mNG reporter strain",
+            "arm_type": "Experimental Arm",
+            "genus_and_species": [
+                "Mus musculus"
+            ],
+            "biosample_type": [
+                "Animal"
+            ],
+            "strain_characteristics": [
+                "MISTRG6-hACE2 humanized mouse"
+            ],
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: Connecticut"
+            ],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Unknown"
+            ],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        }
+    ],
+    "planned_visit": [
+        {
+            "visit_id": "PMID35483404_visit-01",
+            "visit_name": "Isolating lung macrophages from mice",
+            "visit_order_number": 1,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35483404_visit-02",
+            "visit_name": "Isolating lung macrophages from mice",
+            "visit_order_number": 2,
+            "visit_min_start_day": 7,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35483404_visit-03",
+            "visit_name": "Isolating lung macrophages from mice",
+            "visit_order_number": 3,
+            "visit_min_start_day": 14,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35483404_visit-04",
+            "visit_name": "Isolating lung macrophages from mice",
+            "visit_order_number": 4,
+            "visit_min_start_day": 28,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35483404_visit-05",
+            "visit_name": "Embedding and sectioning human lung tissue",
+            "visit_order_number": 5,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID35483404_human_subject-01, PMID35483404_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35483404_visit-05"
+            ],
+            "assay_type": "Microscopy",
+            "experiment_name": "Fluorescent Microscopy",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Tissue components (unsorted)"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer",
+                "Other"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID35483404_organism_subject-01 |  PMID35483404_organism_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35483404_visit-03 | PMID35483404_visit-04"
+            ],
+            "assay_type": "RNA Sequencing",
+            "experiment_name": "Bulk whole-tissue RNA-seq analysis",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Tissue components (unsorted)"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "Research Use Only",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID35483404_organism_subject-01 |  PMID35483404_organism_subject-02 | PMID35483404_organism_subject-03"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35483404_visit-01 | PMID35483404_visit-02 | PMID35483404_visit-03 | PMID35483404_visit-04"
+            ],
+            "assay_type": "PCR",
+            "experiment_name": "Viral RNA analysis",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Tissue components (unsorted)"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "Research Use Only",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID35483404_organism_subject-01 |  PMID35483404_organism_subject-02 | PMID35483404_organism_subject-03"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35483404_visit-01 | PMID35483404_visit-02 | PMID35483404_visit-03 | PMID35483404_visit-04"
+            ],
+            "assay_type": "Plaque Reduction Neutralization Test",
+            "experiment_name": "Viral titres",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "human macrophages"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "Research Use Only",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID35483404_organism_subject-01 |  PMID35483404_organism_subject-02 | PMID35483404_organism_subject-03"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35483404_visit-01 | PMID35483404_visit-02 | PMID35483404_visit-03 | PMID35483404_visit-04"
+            ],
+            "assay_type": "Flow Cytometry",
+            "experiment_name": "FLICA Assay",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "human macrophages"
+            ],
+            "biospecimen_collection_point": [],
+            "sars_cov_2_antigen": [],
+            "assay_use": "Research Use Only",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID35483404_organism_subject-01 |  PMID35483404_organism_subject-02 | PMID35483404_organism_subject-03"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35483404_visit-01 | PMID35483404_visit-02 | PMID35483404_visit-03 | PMID35483404_visit-04"
+            ],
+            "assay_type": "Microscopy",
+            "experiment_name": "Fluorescent Microscopy",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "human macrophages"
+            ],
+            "biospecimen_collection_point": [],
+            "sars_cov_2_antigen": [],
+            "assay_use": "Research Use Only",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        }
+    ],
+    "geriatric_subjects": "Yes",
+    "pediatric_subjects": "No",
+    "pregnant_subjects": "No",
+    "sars_cov_2_antibodies_measured": "Not Specified",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID35483404_inexcl-01",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35483404_inexcl-02",
+            "inclusion_criterion": "Pediatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35483404_inexcl-03",
+            "inclusion_criterion": "Pregnant subjects",
+            "inclusion_criterion_category": "exclusion"
+        }
+    ],
+    "suggestions": [
+        "accompanying",
+        "ace2",
+        "activate",
+        "activation",
+        "anti-ifnar2",
+        "attenuated",
+        "blockade",
+        "blocking",
+        "cascade",
+        "cd16",
+        "characterized",
+        "chronic",
+        "chronic inflammation",
+        "contributing",
+        "covid-19",
+        "critical",
+        "cycle",
+        "cytokine",
+        "cytokines",
+        "disease",
+        "downstream",
+        "driver",
+        "drives",
+        "effect",
+        "either",
+        "especially",
+        "geriatric",
+        "host",
+        "human",
+        "humanized",
+        "hyperinflammatory",
+        "ifn",
+        "il-1",
+        "il-18",
+        "immune",
+        "immune-inflammatory",
+        "infected",
+        "infection",
+        "infectious",
+        "inflammasome",
+        "inflammasomes",
+        "inflammation",
+        "inflammatory",
+        "inhibition",
+        "interferon",
+        "leads",
+        "lung",
+        "lung-resident",
+        "lungs",
+        "macrophages",
+        "mediated",
+        "mistrg6-hace2",
+        "model",
+        "mouse",
+        "n/a",
+        "necessary",
+        "nlrp3",
+        "oppose",
+        "overactive",
+        "pathology",
+        "pathway",
+        "pediatric",
+        "persistent",
+        "pneumonia",
+        "preclinical",
+        "pregnant",
+        "prevent",
+        "production",
+        "productive",
+        "pyroptosis",
+        "recapitulated",
+        "receptors",
+        "release",
+        "remarkably",
+        "remdesivir",
+        "replication",
+        "required",
+        "resident",
+        "response",
+        "reverses",
+        "rna",
+        "sars-cov-2",
+        "severe",
+        "show",
+        "stages",
+        "state",
+        "stimulated",
+        "study",
+        "subjects",
+        "suicide",
+        "sustained",
+        "system",
+        "thereby",
+        "thus",
+        "undergo",
+        "university",
+        "viral",
+        "viral infection",
+        "virus",
+        "vivo",
+        "yale"
+    ]
+}

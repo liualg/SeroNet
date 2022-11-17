@@ -1,0 +1,479 @@
+{
+  "settings": {
+      "max_ngram_diff": 17,
+      "analysis": {
+        "filter": {
+          "ngram_filter": {
+            "type": "ngram",
+            "min_gram": "3",
+            "max_gram": "20"
+          }, 
+          "edge_ngram_filter": {
+            "type": "edge_ngram",
+            "min_gram": "3",
+            "max_gram": "20"
+          } 
+        },
+        "analyzer": {
+          "ngram_analyzer": {
+            "type": "custom",
+            "tokenizer": "standard",
+            "filter": [
+              "stop",
+              "lowercase",
+              "asciifolding",
+              "ngram_filter"
+            ]
+          },
+          "edge_ngram_analyzer": {
+            "type": "custom",
+            "tokenizer": "standard",
+            "filter": [
+              "stop",
+              "lowercase",
+              "asciifolding",
+              "edge_ngram_filter"
+            ]
+          },
+          "std_english": {
+            "type": "standard",
+            "tokenizer": "standard",
+            "stopwords": "_english_"
+          }
+        }
+      }
+  },
+  "mappings": {
+    "properties": {
+      "suggestions": {
+          "type": "completion",
+          "analyzer": "standard"
+      },
+      "pubmed_id": {
+        "type": "keyword",
+        "fields": {
+            "ngram": {
+              "type": "text",
+              "analyzer": "ngram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "edge_ngram": {
+              "type": "text",
+              "analyzer": "edge_ngram_analyzer",
+              "search_analyzer": "standard"
+            }
+        }
+      },
+      "study_identifier": {
+        "type": "keyword",
+        "fields": {
+            "ngram": {
+              "type": "text",
+              "analyzer": "ngram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "edge_ngram": {
+              "type": "text",
+              "analyzer": "edge_ngram_analyzer",
+              "search_analyzer": "standard"
+            }
+        }
+      },
+      "study_name": {
+        "type": "text",
+        "analyzer": "std_english",
+        "fields": {
+            "ngram": {
+              "type": "text",
+              "analyzer": "ngram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "edge_ngram": {
+              "type": "text",
+              "analyzer": "edge_ngram_analyzer",
+              "search_analyzer": "standard"
+            }
+        }
+      },      
+      "publication_title": {
+        "type": "text",
+        "fields": {
+            "ngram": {
+              "type": "text",
+              "analyzer": "ngram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "edge_ngram": {
+              "type": "text",
+              "analyzer": "edge_ngram_analyzer",
+              "search_analyzer": "standard"
+            }
+        }
+      },
+      "study_objective": {
+        "type": "text",
+        "fields": {
+            "ngram": {
+              "type": "text",
+              "analyzer": "ngram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "edge_ngram": {
+              "type": "text",
+              "analyzer": "edge_ngram_analyzer",
+              "search_analyzer": "standard"
+            }
+        }
+      },
+      "study_description": {
+        "type": "text",
+        "fields": {
+            "ngram": {
+              "type": "text",
+              "analyzer": "ngram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "edge_ngram": {
+              "type": "text",
+              "analyzer": "edge_ngram_analyzer",
+              "search_analyzer": "standard"
+            }
+        }
+      },
+      "primary_institution_name": {
+        "type": "text",
+        "fields": {
+            "ngram": {
+              "type": "text",
+              "analyzer": "ngram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "edge_ngram": {
+              "type": "text",
+              "analyzer": "edge_ngram_analyzer",
+              "search_analyzer": "standard"
+            }
+        }
+      },
+      "study_personnel": {
+        "properties": {
+          "personnel_id": {
+            "type": "text"
+          },
+          "honorific": {
+            "type": "text"
+          },
+          "first_name": {
+            "type": "text"
+          },
+          "last_name": {
+            "type": "text"
+          },
+          "suffixes": {
+            "type": "text"
+          },
+          "organization": {
+            "type": "text"
+          },
+          "orchid_id": {
+            "type": "text"
+          },
+          "role_in_study": {
+            "type": "keyword"
+          },
+          "seronet_title_in_study": {
+            "type": "text"
+          },
+          "site_name": {
+            "type": "text"
+          }
+        }
+      },
+      "study_file": {
+        "properties": {
+          "study_file_name": {
+            "type": "text"
+          },
+          "study_file_description": {
+            "type": "text"
+          },
+          "study_file_type": {
+            "type": "text"
+          }
+        }
+      },
+      "study_link": {
+        "properties": {
+          "link_name": {
+            "type": "text"
+          },
+          "value": {
+            "type": "text"
+          }
+        }
+      },
+      "research_focus": {
+        "type": "keyword",
+        "fields": {
+            "ngram": {
+              "type": "text",
+              "analyzer": "ngram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "edge_ngram": {
+              "type": "text",
+              "analyzer": "edge_ngram_analyzer",
+              "search_analyzer": "standard"
+            }
+        }
+      },
+      "study_type": {
+        "type": "keyword",
+        "fields": {
+            "ngram": {
+              "type": "text",
+              "analyzer": "ngram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "edge_ngram": {
+              "type": "text",
+              "analyzer": "edge_ngram_analyzer",
+              "search_analyzer": "standard"
+            }
+        }
+      },
+      "keyword": {
+        "type": "keyword",
+        "fields": {
+            "ngram": {
+              "type": "text",
+              "analyzer": "ngram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "edge_ngram": {
+              "type": "text",
+              "analyzer": "edge_ngram_analyzer",
+              "search_analyzer": "standard"
+            }
+        }
+      },
+      "clinical_study_design": {
+        "type": "keyword",
+        "fields": {
+            "ngram": {
+              "type": "text",
+              "analyzer": "ngram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "edge_ngram": {
+              "type": "text",
+              "analyzer": "edge_ngram_analyzer",
+              "search_analyzer": "standard"
+            }
+        }
+      },
+      "in_silico_model_type": {
+        "type": "keyword",
+        "fields": {
+            "ngram": {
+              "type": "text",
+              "analyzer": "ngram_analyzer",
+              "search_analyzer": "standard"
+            },
+            "edge_ngram": {
+              "type": "text",
+              "analyzer": "edge_ngram_analyzer",
+              "search_analyzer": "standard"
+            }
+        }
+      },
+      "protocol": {
+        "properties": {
+          "protocol_id": {
+            "type": "keyword"
+          },
+          "protocol_file_name": {
+            "type": "text"
+          },
+          "protocol_name": {
+            "type": "text"
+          },
+          "protocol_description": {
+            "type": "text"
+          },
+          "protocol_type": {
+            "type": "keyword"
+          }
+        }
+      },
+      "clinical_outcome_measure": {
+          "type": "text"
+      },
+      "enrollment_start_date": {
+          "type": "text"
+      },
+      "enrollment_end_date": {
+          "type": "text"
+      },
+      "number_of_study_subjects": {
+          "type": "integer"
+      },
+      "age_unit": {
+         "type": "text"
+      },
+      "minimum_age": {
+         "type": "integer"
+      },
+      "maximum_age": {
+         "type": "integer"
+      },
+      "geriatric_subjects": {
+         "type": "keyword"
+      },
+      "pediatric_subjects": {
+         "type": "keyword"
+      },
+      "study_human_cohort": {
+        "properties": {
+          "arm_id": {
+            "type": "keyword"
+          },
+          "arm_name": {
+            "type": "text"
+          },
+          "study_population_description": {
+            "type": "text"
+          },
+          "arm_type": {
+            "type": "keyword"
+          },
+          "ethnicity": {
+            "type": "keyword"
+          },
+          "race": {
+            "type": "keyword"
+          },
+          "race_specify": {
+            "type": "text"
+          },
+          "description": {
+            "type": "text"
+          },
+          "sex_at_birth": {
+            "type": "keyword"
+          },
+          "age_event": {
+            "type": "keyword"
+          },
+          "subject_phenotype": {
+            "type": "text"
+          },
+          "assessment_name": {
+            "type": "text"
+          },
+          "study_location": {
+            "type": "text"
+          },
+          "measured_behavioral_or_pyschological_factor": {
+            "type": "text"
+          },
+          "measured_social_factor": {
+            "type": "text"
+          },
+          "sars_cov_2_symptoms": {
+            "type": "text"
+          },
+          "assessment_clinical_and_demographic_data_provenance": {
+            "type": "text"
+          },
+          "assessment_demographic_data_types_collected": {
+            "type": "text"
+          },
+          "sars_cov_2_history": {
+            "type": "keyword"
+          },
+          "sars_cov_2_vaccine_type": {
+            "type": "keyword"
+          },
+          "covid_19_disease_severity": {
+            "type": "keyword"
+          },
+          "post_covid_19_symptoms": {
+            "type": "text"
+          },
+          "covid_19_complications": {
+            "type": "text"
+          }
+        }
+      },
+      "planned_visit": {
+        "properties": {
+          "visit_id": {
+            "type": "keyword"
+          },
+          "visit_name": {
+            "type": "text"
+          },
+          "visit_order_number": {
+            "type": "integer"
+          },
+          "visit_min_start_day": {
+            "type": "integer"
+          },
+          "visit_max_start_day": {
+            "type": "integer"
+          },
+          "visit_start_rule": {
+            "type": "text"
+          }
+        }
+      },
+      "experiment": {
+        "properties": {
+          "arm_id": {
+            "type": "keyword"
+          },
+          "associated_first_planned_visit_id": {
+            "type": "keyword"
+          },
+          "assay_type": {
+            "type": "keyword"
+          },
+          "experiment_results_name": {
+            "type": "text"
+          },
+          "experiment_results_file_name": {
+            "type": "text"
+          },
+          "biospecimen_type": {
+            "type": "text"
+          },
+          "sars_cov_antigen": {
+            "type": "text"
+          },
+          "assay_use": {
+            "type": "text"
+          },
+          "manufacture": {
+            "type": "text"
+          },
+          "catalog_number": {
+            "type": "text"
+          },
+          "virus_target": {
+            "type": "text"
+          },
+          "anitbody_isotype": {
+            "type": "text"
+          },
+          "reporting_units": {
+            "type": "text"
+          },
+          "assay_reporting_format": {
+            "type": "text"
+          }
+        }
+      }
+    }
+  }
+}

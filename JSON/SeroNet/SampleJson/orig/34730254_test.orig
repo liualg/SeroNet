@@ -1,0 +1,767 @@
+{
+    "pubmed_id": 34730254,
+    "study_identifier": "PMID34730254_study-01",
+    "study_name": "Corticosteroid treatment in COVID-19 modulates host inflammatory responses and transcriptional signatures of immune dysregulation",
+    "publication_title": "Corticosteroid treatment in COVID-19 modulates host inflammatory responses and transcriptional signatures of immune dysregulation",
+    "study_objective": "In this study, a cross-sectional and longitudinal analysis of Ab, soluble immune mediators, and transcriptional responses in young (65 \u2264 years) and aged (\u2265 65 years) diabetic males with obesity hospitalized with acute severe COVID-19 was conducted. Additionally, the transcriptional profiles in samples obtained before and after corticosteroids became standard of care were compared. The analysis indicates that severe COVID-19 is characterized by robust Ab responses, heightened systemic inflammation, increased expression of genes related to inflammatory and pro-apoptotic processes, and reduced expression of those important for adaptive immunity regardless of age. In contrast, COVID-19 patients receiving steroids did not show high levels of systemic immune mediators and lacked transcriptional indicators of heightened inflammatory and apoptotic responses. Overall, these data suggest that inflammation and cell death are key drivers of severe COVID-19 pathogenesis in the absence of corticosteroid therapy.",
+    "study_description": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is the causative agent of coronavirus disease-2019 (COVID-19), a respiratory disease that varies in severity from mild to severe/fatal. Several risk factors for severe disease have been identified, notably age, male sex, and pre-existing conditions such as diabetes, obesity, and hypertension. Several advancements in clinical care have been achieved over the past year, including the use of corticosteroids (e.g., corticosteroids) and other immune-modulatory treatments that have now become standard of care for patients with acute severe COVID-19. While the understanding of the mechanisms that underlie increased disease severity with age has improved over the past few months, it remains incomplete. Furthermore, the molecular impact of corticosteroid treatment on host response to acute SARS-CoV-2 infection has not been investigated. In this study, a cross-sectional and longitudinal analysis of Ab, soluble immune mediators, and transcriptional responses in young (65 \u2264 years) and aged (\u2265 65 years) diabetic males with obesity hospitalized with acute severe COVID-19 was conducted. Additionally, the transcriptional profiles in samples obtained before and after corticosteroids became standard of care were compared. The analysis indicates that severe COVID-19 is characterized by robust Ab responses, heightened systemic inflammation, increased expression of genes related to inflammatory and pro-apoptotic processes, and reduced expression of those important for adaptive immunity regardless of age. In contrast, COVID-19 patients receiving steroids did not show high levels of systemic immune mediators and lacked transcriptional indicators of heightened inflammatory and apoptotic responses. Overall, these data suggest that inflammation and cell death are key drivers of severe COVID-19 pathogenesis in the absence of corticosteroid therapy.",
+    "primary_institution_name": "University of Puerto Rico-Medical Sciences",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID34730254_personnel-01",
+            "honorific": "",
+            "last_name": "Brien",
+            "first_name": "James",
+            "suffixes": "",
+            "organization": "Saint Louis University",
+            "orchid_id": "",
+            "email": "brienj@slu.edu",
+            "seronet_title_in_study": "Corresponding author",
+            "role_in_study": "Corresponding author",
+            "site_name": "Department of Molecular Microbiology & Immunology, Saint Louis University"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "JLB-110-1225-s001.pdf",
+            "study_file_description": "Figure S2.",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "JLB-110-1225-s004.pdf",
+            "study_file_description": "Figure S3",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "JLB-110-1225-s006.pdf",
+            "study_file_description": "Figure S4.",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "JLB-110-1225-s002.pdf",
+            "study_file_description": "Figure S5",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "TableS1.xlsx",
+            "study_file_description": "Data for supplementary Table S1",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "JLB-110-1225-s005.xlsx",
+            "study_file_description": "Figure S1",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "JLB_data_04032022.xlsx",
+            "study_file_description": "Supporting Data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "jlb11030-sup-0006-tabless1-s4.xlsx",
+            "study_file_description": "Tables S1-S4 supporting data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID34730254_v1.2.5_reviewed.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "Study Summary Description"
+        }
+    ],
+    "study_link": [
+        {
+            "link_name": " RNA-Sequencing data",
+            "value": "https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA751085"
+        }
+    ],
+    "research_focus": "Infection Response",
+    "study_type": "Clinical Research",
+    "keyword": [
+        "Adrenal Cortex Hormones therapeutic use",
+        "Adult",
+        "Aged",
+        "COVID-19 drug therapy",
+        "COVID-19 immunology",
+        "Cross-Sectional Studies",
+        "Humans",
+        "Inflammation immunology",
+        "Longitudinal Studies",
+        "Male",
+        "Middle Aged",
+        "SARS-CoV-2",
+        "Transcriptome drug effects",
+        "Transcriptome immunology."
+    ],
+    "clinical_study_design": ".Cross-sectional Study | Longitudinal Study",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID34730254_protocol-01",
+        "protocol_file_name": "PMID34730254_protocol-01.txt",
+        "protocol_name": "PMID34730254_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19",
+        "Diabetes Mellitus",
+        "Obesity",
+        "Cardiovascular System Disease"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "N/A"
+    ],
+    "clinical_outcome_measure": "",
+    "enrollment_start_date": "",
+    "enrollment_end_date": "",
+    "number_of_study_subjects": 41,
+    "age_unit": "Years",
+    "minimum_age": 30,
+    "maximum_age": 89,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID34730254_human_subject-01",
+            "arm_name": "Young Covid-19 patients",
+            "study_population_description": "Young Covid-19 patients, who showed days post symptom onset from 6-11 (T1, 6-11 DSPO)",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: California"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [
+                "Post-acute sequelae of COVID-19 (>= 4 weeks)"
+            ],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Severe"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34730254_human_subject-02",
+            "arm_name": "Young Covid-19 patients",
+            "study_population_description": "Young Covid-19 patients, who showed days post symptom onset from 15-21 (T2, 15-21 DSPO)",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: California"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [
+                "Post-acute sequelae of COVID-19 (>= 4 weeks)"
+            ],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Severe"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34730254_human_subject-03",
+            "arm_name": "Aged Covid-19 patients",
+            "study_population_description": "Aged Covid-19 patients, who showed days post symptom onset from 6-11 (T1, 6-11 DSPO)",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: California"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [
+                "Post-acute sequelae of COVID-19 (>= 4 weeks)"
+            ],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Severe"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34730254_human_subject-04",
+            "arm_name": "Aged Covid-19 patients",
+            "study_population_description": "Young Covid-19 patients, who showed days post symptom onset from 15-21 (T2, 15-21 DSPO)",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: California"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [
+                "Post-acute sequelae of COVID-19 (>= 4 weeks)"
+            ],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Severe"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34730254_human_subject-05",
+            "arm_name": "Covid-19 patients (CORT)",
+            "study_population_description": "Covid-19 patients treated with corticosteroid",
+            "arm_type": "Treatment Arm",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: California"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [
+                "Post-acute sequelae of COVID-19 (>= 4 weeks)"
+            ],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Severe"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34730254_human_subject-06",
+            "arm_name": "Covid-19 patients (NC)",
+            "study_population_description": "Covid-19 patients who are not treated with corticosteroid",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: California"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [
+                "Post-acute sequelae of COVID-19 (>= 4 weeks)"
+            ],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Severe"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34730254_human_subject-07",
+            "arm_name": "Age matched healthy donors (HD)",
+            "study_population_description": "Age matched young healthy donors (HD)",
+            "arm_type": "Healthy Control",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: California"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Uninfected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34730254_human_subject-08",
+            "arm_name": "Age matched healthy donors (HD)",
+            "study_population_description": "Age matched aged healthy donors (HD)",
+            "arm_type": "Healthy Control",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: California"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Uninfected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID34730254_visit-01",
+            "visit_name": "Covid-19 symptoms measured from day 6-11 in young patients (T1 group)",
+            "visit_order_number": 1,
+            "visit_min_start_day": 6,
+            "visit_max_start_day": 11,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34730254_visit-02",
+            "visit_name": "Covid-19 symptoms measured from day 15-21 in young patients (T2 group)",
+            "visit_order_number": 2,
+            "visit_min_start_day": 15,
+            "visit_max_start_day": 21,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34730254_visit-03",
+            "visit_name": "Covid-19 symptoms measured from day 6-11 in aged patients (T1 group)",
+            "visit_order_number": 3,
+            "visit_min_start_day": 6,
+            "visit_max_start_day": 11,
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID34730254_human_subject-01, PMID34730254_human_subject-02, PMID34730254_human_subject-03, PMID34730254_human_subject-04, PMID34730254_human_subject-05, PMID34730254_human_subject-06"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34730254_visit-01, PMID34730254_visit-02, PMID34730254_visit-03"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "ELISA",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [
+                "Receptor Binding Domain (RBD)"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID34730254_human_subject-01, PMID34730254_human_subject-02, PMID34730254_human_subject-03, PMID34730254_human_subject-04, PMID34730254_human_subject-05, PMID34730254_human_subject-06"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34730254_visit-01, PMID34730254_visit-02, PMID34730254_visit-03"
+            ],
+            "assay_type": "Multiplex Bead Array Assay",
+            "experiment_name": "Multiplex Bead Array Assay",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID34730254_human_subject-01, PMID34730254_human_subject-02, PMID34730254_human_subject-03, PMID34730254_human_subject-04, PMID34730254_human_subject-05, PMID34730254_human_subject-06"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34730254_visit-01, PMID34730254_visit-02, PMID34730254_visit-03"
+            ],
+            "assay_type": "RNA Sequencing",
+            "experiment_name": "RNA Sequencing",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID34730254_human_subject-01, PMID34730254_human_subject-02, PMID34730254_human_subject-03, PMID34730254_human_subject-04, PMID34730254_human_subject-05, PMID34730254_human_subject-06"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34730254_visit-01, PMID34730254_visit-02, PMID34730254_visit-03"
+            ],
+            "assay_type": "PCR",
+            "experiment_name": "PCR",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Blood"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID34730254_human_subject-01, PMID34730254_human_subject-02, PMID34730254_human_subject-03, PMID34730254_human_subject-04, PMID34730254_human_subject-05, PMID34730254_human_subject-06"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34730254_visit-01, PMID34730254_visit-02, PMID34730254_visit-03"
+            ],
+            "assay_type": "Plaque Reduction Neutralization Assay",
+            "experiment_name": "Focus Reduction Neutralization Test",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Blood"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        }
+    ],
+    "geriatric_subjects": "Yes",
+    "pediatric_subjects": "Not Specified",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "Yes",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID34730254_inexcl-01",
+            "inclusion_criterion": "SARS-CoV-2 Antibodies Measured",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34730254_inexcl-02",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "inclusion"
+        }
+    ],
+    "suggestions": [
+        ".cross-sectional",
+        "absence",
+        "achieved",
+        "acute",
+        "adaptive",
+        "additionally",
+        "adrenal cortex hormones therapeutic use",
+        "adult",
+        "advancements",
+        "age",
+        "aged",
+        "agent",
+        "analysis",
+        "antibodies",
+        "apoptotic",
+        "became",
+        "become",
+        "cardiovascular system disease",
+        "care",
+        "causative",
+        "cell",
+        "characterized",
+        "clinical",
+        "compared",
+        "conditions",
+        "conducted",
+        "contrast",
+        "coronavirus",
+        "corticosteroid",
+        "corticosteroids",
+        "covid-19",
+        "covid-19 drug therapy",
+        "covid-19 immunology",
+        "cross-sectional",
+        "cross-sectional studies",
+        "data",
+        "death",
+        "diabetes",
+        "diabetes mellitus",
+        "diabetic",
+        "disease",
+        "disease-2019",
+        "drivers",
+        "dysregulation",
+        "e.g.",
+        "expression",
+        "factors",
+        "furthermore",
+        "genes",
+        "geriatric",
+        "heightened",
+        "high",
+        "hospitalized",
+        "host",
+        "humans",
+        "hypertension",
+        "identified",
+        "immune",
+        "immune-modulatory",
+        "immunity",
+        "impact",
+        "important",
+        "improved",
+        "including",
+        "incomplete",
+        "increased",
+        "indicates",
+        "indicators",
+        "infection",
+        "inflammation",
+        "inflammation immunology",
+        "inflammatory",
+        "investigated",
+        "key",
+        "lacked",
+        "levels",
+        "longitudinal",
+        "longitudinal studies",
+        "male",
+        "males",
+        "measured",
+        "mechanisms",
+        "mediators",
+        "middle aged",
+        "mild",
+        "modulates",
+        "molecular",
+        "months",
+        "n/a",
+        "notably",
+        "obesity",
+        "obtained",
+        "overall",
+        "past",
+        "pathogenesis",
+        "patients",
+        "pre-existing",
+        "pro-apoptotic",
+        "processes",
+        "profiles",
+        "puerto",
+        "receiving",
+        "reduced",
+        "regardless",
+        "related",
+        "remains",
+        "research",
+        "respiratory",
+        "response",
+        "responses",
+        "rico-medical",
+        "risk",
+        "robust",
+        "samples",
+        "sars-cov-2",
+        "sciences",
+        "several",
+        "severe",
+        "severe/fatal",
+        "severity",
+        "sex",
+        "show",
+        "signatures",
+        "soluble",
+        "standard",
+        "steroids",
+        "study",
+        "subjects",
+        "suggest",
+        "syndrome",
+        "systemic",
+        "therapy",
+        "transcriptional",
+        "transcriptome drug effects",
+        "transcriptome immunology.",
+        "treatment",
+        "treatments",
+        "underlie",
+        "understanding",
+        "university",
+        "use",
+        "varies",
+        "year",
+        "years",
+        "young"
+    ]
+}

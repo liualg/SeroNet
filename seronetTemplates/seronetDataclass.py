@@ -10,6 +10,7 @@ This script is compatibale with Registry Version v.1.2.5
 1.2.6 
 - added (DataClassJsonMixin) to dataclass names.
 This allows the transfer to .json files 
+- added clean_whitespace to deliminiter tab, to allow for propper splitting
 
 '''
 

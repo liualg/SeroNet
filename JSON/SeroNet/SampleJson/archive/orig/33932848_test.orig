@@ -1,0 +1,208 @@
+{
+    "pubmed_id": 33932848,
+    "study_identifier": "PMID33932848_study-01",
+    "study_name": "Evaluation of SARS-CoV-2 total antibody detection via a lateral flow nanoparticle fluorescence immunoassay",
+    "publication_title": "Evaluation of SARS-CoV-2 total antibody detection via a lateral flow nanoparticle fluorescence immunoassay",
+    "study_objective": "To evaluate the performance of the lateral flow QIAreach anti-SARS-CoV-2 Total rapid nanoparticle fluorescence immunoassay compared to reference isotype-specific IgG, IgM, and IgA SARS-CoV-2 ELISA using S1 or receptor binding domain (RBD) as antigens.",
+    "study_description": "Background: The coronavirus disease 2019 (COVID-19) endgame may benefit from simple, accurate antibody testing to characterize seroprevalence and immunization coverage.  Objectives: To evaluate the performance of the lateral flow QIAreach anti-SARS-CoV-2 Total rapid nanoparticle fluorescence immunoassay compared to reference isotype-specific IgG, IgM, and IgA SARS-CoV-2 ELISA using S1 or receptor binding domain (RBD) as antigens.  Study design: A diagnostic comparison study was carried out using 154 well-characterized heparin plasma samples. Agreement between assays was assessed by overall, positive, and negative percent agreement and Cohen's kappa coefficient.  Results: Overall agreement between the QIAreach anti-SARS-CoV-2 Total and any anti-spike domain (S1 or RBD) antibody isotype was 96.0 % (95 % CI 89.8-98.8), the positive percent agreement was 97.6 % (95 % CI 91.0-99.9), the negative percent agreement was 88.2 % (95 % CI 64.4-98.0). The kappa coefficient was 0.86 (95 % CI 0.72 to 0.99).  Conclusion: The QIAreach anti-SARS-CoV-2 Total rapid antibody test provides comparable performance to high-complexity, laboratory-based ELISA.",
+    "primary_institution_name": "Stanford University",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID33932848_personnel-01",
+            "honorific": "",
+            "last_name": "Boyd",
+            "first_name": "Scott",
+            "suffixes": "",
+            "organization": "Stanford University",
+            "orchid_id": "",
+            "email": "sboyd1@stanford.edu",
+            "seronet_title_in_study": "SeroNet Principal Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Stanford University"
+        },
+        {
+            "personnel_id": "PMID33932848_personnel-02",
+            "honorific": "",
+            "last_name": "Pinsky",
+            "first_name": "Benjamin",
+            "suffixes": "",
+            "organization": "Stanford University",
+            "orchid_id": "",
+            "email": "bpinsky@stanford.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Principal Investigator",
+            "site_name": "Stanford University"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "mmc1.docx",
+            "study_file_description": "Supplemental Materials",
+            "study_file_type": "Study Data"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Development",
+    "study_type": "Method Development",
+    "keyword": [
+        "Rapid lateral flow immunoassay; SARS-CoV-2; Serology"
+    ],
+    "clinical_study_design": "Retrospective Cohort",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID33932848_protocol-01",
+        "protocol_file_name": "PMID33932848_protocol-01.txt",
+        "protocol_name": "PMID33932848_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "N/A"
+    ],
+    "clinical_outcome_measure": "",
+    "enrollment_start_date": "",
+    "enrollment_end_date": "",
+    "number_of_study_subjects": 58,
+    "age_unit": "Years",
+    "minimum_age": "",
+    "maximum_age": "",
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID33932848_human_subject-01",
+            "arm_name": "SARs CoV-2 positive patients",
+            "study_population_description": "SARS-CoV-2 RT-PCR positive individuals (n=58)",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male",
+                "Female"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [
+                "assessment_recorded_pv"
+            ],
+            "study_location": [
+                "US: California"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "n/a"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID33932848_visit-01",
+            "visit_name": "Archived heparin plasma samples collected",
+            "visit_order_number": 1,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID33932848_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33932848_visit-01"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Reference ELISA testing",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [
+                "Receptor Binding Domain (RBD)",
+                "S1"
+            ],
+            "assay_use": "",
+            "manufacture": "Innova Diagnostics",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgA",
+                "IgG",
+                "IgM"
+            ],
+            "reporting_units": "Not Specified",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID33932848_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33932848_visit-01"
+            ],
+            "assay_type": "Lateral Flow Assay",
+            "experiment_name": "Lateral flow nanoparticle fluorescence immunoassay",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [
+                "Receptor Binding Domain (RBD)",
+                "S1"
+            ],
+            "assay_use": "",
+            "manufacture": "Qiagen",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgA",
+                "IgG",
+                "IgM"
+            ],
+            "reporting_units": "Not Specified",
+            "assay_reporting_format": "Quantitative"
+        }
+    ],
+    "geriatric_subjects": "Not Specified",
+    "pediatric_subjects": "Not Specified",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "Yes",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID33932848_inexcl-01",
+            "inclusion_criterion": "SARS-CoV-2 Antibodies Measured",
+            "inclusion_criterion_category": "inclusion"
+        }
+    ]
+}

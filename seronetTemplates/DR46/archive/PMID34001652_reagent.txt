@@ -1,0 +1,5 @@
+other_reagents	Schema Version 3.36							
+Please do not delete or edit this column								
+Column Name	User Defined ID	Name	Description	Manufacturer	Catalog Number	Lot Number	Weblink	Contact
+	PMID34001652_reagentID-01	nucleocapsid | S1 | Receptor Binding Domain (RBD) | N-terminal Domain (NTD)	Research Use Only	n/a	n/a			
+	PMID34001652_reagentID-02	nucleocapsid | S1 | Receptor Binding Domain (RBD) | N-terminal Domain (NTD)	Research Use Only	n/a	n/a			

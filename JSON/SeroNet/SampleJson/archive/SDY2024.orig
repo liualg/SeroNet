@@ -1,0 +1,343 @@
+{
+    "pubmed_id": 35455241,
+    "study_identifier": "PMID35455241_study-01",
+    "study_name": "Durability and Cross-Reactivity of SARS-CoV-2 mRNA Vaccine in Adolescent Children",
+    "publication_title": "Durability and Cross-Reactivity of SARS-CoV-2 mRNA Vaccine in Adolescent Children",
+    "study_objective": "To test the durability and cross-reactivity of anti-SARS-CoV-2 serologic responses over a six-month time course in vaccinated adolescents against the SARS-CoV-2 D614G (\u201cwild type\u201d) and Omicron antigens",
+    "study_description": "Emergent SARS-CoV-2 variants and waning humoral immunity in vaccinated individuals have resulted in increased infections and hospitalizations. Children are not spared from infection nor complications of COVID-19, and the recent recommendation for boosters in individuals ages 12 years or older calls for broader understanding of the adolescent immune profile after mRNA vaccination. We tested the durability and cross-reactivity of anti-SARS-CoV-2 serologic responses over a six-month time course in vaccinated adolescents against the SARS-CoV-2 D614G (\\\"wild type\\\") and Omicron antigens. Serum from 77 adolescents showed that anti-Spike antibodies wane significantly over six months. After completion of a two-vaccine series, cross-reactivity against Omicron-specific receptor-binding domain (RBD) was seen. Functional humoral activation against wild type and Omicron SARS-CoV-2 also declines over time in vaccinated adolescent children. Evidence of waning mRNA-induced vaccine immunity underscores vulnerabilities in long-term pediatric protection against SARS-CoV-2 infection, while cross-reactivity highlights the additional benefits of vaccination. Characterization of adolescent immune signatures post-vaccination will inform guidance on vaccine platforms and timelines, and ultimately optimize immunoprotection of children.",
+    "primary_institution_name": "Harvard University",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID35455241_personnel-01",
+            "honorific": "",
+            "last_name": "Alter",
+            "first_name": "Galit",
+            "suffixes": "",
+            "organization": "Harvard University",
+            "orchid_id": "",
+            "email": "galter@mgh.harvard.edu",
+            "seronet_title_in_study": "SeroNet Co-Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Harvard University"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID35455241_v1.2.3.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.",
+            "study_file_type": "Study Summary Description"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Vaccine Response",
+    "study_type": "Clinical Research",
+    "keyword": [
+        "COVID-19",
+        "SARS-CoV-2",
+        "adolescents",
+        "antibodies",
+        "boosters",
+        "immunology",
+        "pediatrics",
+        "vaccines I Antibody-Dependent-Complement-Deposition (ADCD)",
+        "Antibody-Dependent-THP-1 Cellular-Phagocytosis (ADCP)",
+        "Antibody-Dependent-Neutrophil-Phagocytosis (ADNP)"
+    ],
+    "clinical_study_design": "Prospective Cohort",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID35455241_protocol-01",
+        "protocol_file_name": "PMID35455241_protocol-01.txt",
+        "protocol_name": "PMID35455241_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "Pfizer-BioNTech"
+    ],
+    "clinical_outcome_measure": "Durability and cross-reactivity of anti-SARS-CoV-2 serologic responses",
+    "enrollment_start_date": "2021-05-01",
+    "enrollment_end_date": "2022-01-01",
+    "number_of_study_subjects": 77,
+    "age_unit": "Years",
+    "minimum_age": 12,
+    "maximum_age": 19,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID35455241_human_subject-01",
+            "arm_name": "Adolescents enrolled",
+            "study_population_description": "77 vacccinated adolescents enrolled in the study",
+            "arm_type": "Vaccination",
+            "ethnicity": [
+                "Hispanic or Latino"
+            ],
+            "race": [
+                "White",
+                "Black or African American",
+                "Asian",
+                "Other",
+                "Unknown"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Massachusetts"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Vaccinated"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Pfizer BioNTech COVID-19 vaccine ; VO:0004987"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID35455241_visit-01",
+            "visit_name": "Blood collected from adolescents prior to vaccination",
+            "visit_order_number": 1,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35455241_visit-02",
+            "visit_name": "Blood collected from vaccinated adolescents after 2- 3 weeks of intial Pfizer-BioNTech vaccination",
+            "visit_order_number": 2,
+            "visit_min_start_day": 14,
+            "visit_max_start_day": 21,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35455241_visit-03",
+            "visit_name": "Blood collected from vaccinated adolescents after 2- 4 weeks of second dose Pfizer-BioNTech vaccination",
+            "visit_order_number": 3,
+            "visit_min_start_day": 35,
+            "visit_max_start_day": 42,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35455241_visit-04",
+            "visit_name": "Blood collected from vaccinated adolescents after 6 months of Pfizer-BioNTech vaccination",
+            "visit_order_number": 4,
+            "visit_min_start_day": 201,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID35455241_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35455241_visit-01"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "ELISA",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Pre-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Wild type Spike I Wild type RBD I Omicron RBD"
+            ],
+            "assay_use": "",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2",
+                "SARS-CoV-2 (Omicron)"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "International Standard Unit",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35455241_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35455241_visit-02",
+                "PMID35455241_visit-03",
+                "PMID35455241_visit-04"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "ELISA",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Wild type Spike I Wild type RBD I Omicron RBD"
+            ],
+            "assay_use": "",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2",
+                "SARS-CoV-2 (Omicron)"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "International Standard Unit",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35455241_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35455241_visit-01"
+            ],
+            "assay_type": "Neutralizing Antibody Titer Assay",
+            "experiment_name": "Virus Neutralization",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Pre-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Wild type Spike I Wild type RBD I Omicron RBD"
+            ],
+            "assay_use": "",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2",
+                "SARS-CoV-2 (Omicron)"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35455241_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35455241_visit-02",
+                "PMID35455241_visit-03",
+                "PMID35455241_visit-04"
+            ],
+            "assay_type": "Neutralizing Antibody Titer Assay",
+            "experiment_name": "Virus Neutralization",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Wild type Spike I Wild type RBD I Omicron RBD"
+            ],
+            "assay_use": "",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2",
+                "SARS-CoV-2 (Omicron)"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35455241_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35455241_visit-02",
+                "PMID35455241_visit-03",
+                "PMID35455241_visit-04"
+            ],
+            "assay_type": "Cell Mediated Immunoassay",
+            "experiment_name": "Antibody-Dependent-Complement-Deposition (ADCD) I  Antibody-Dependent-THP-1 Cellular-Phagocytosis (ADCP) I Antibody-Dependent-Neutrophil-Phagocytosis (ADNP)",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Wild type Spike I Wild type RBD I Omicron RBD"
+            ],
+            "assay_use": "",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2",
+                "SARS-CoV-2 (Omicron)"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        }
+    ],
+    "geriatric_subjects": "No",
+    "pediatric_subjects": "Yes",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "Yes",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID35455241_inexcl-01",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35455241_inexcl-02",
+            "inclusion_criterion": "Pediatric subjects",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35455241_inexcl-03",
+            "inclusion_criterion": "Vaccinated adolescent subjects",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35455241_inexcl-04",
+            "inclusion_criterion": "SARS-CoV-2 Antibodies Measured",
+            "inclusion_criterion_category": "inclusion"
+        }
+    ]
+}

@@ -475,13 +475,17 @@ def create_json(PMID):
                 )
 
             output_file = os.path.join(OUT_DIR,f"PMID{PMID}_json.json")
+            from json import JSONEncoder
+            class seroNetEncoder(JSONEncoder):
+                    def default(self, o):
+                        return o.__asdict__
 
             # print(json.dumps(template, indent=4))
             # print(TEMPLATE.to_json(indent=4))
             # print(json.dumps(TEMPLATE))
             f = open(output_file, "w")
-            print(TEMPLATE.to_json(indent=4), file = f)
-            # print(json.dumps(template, indent=4), file = f)
+            # print(TEMPLATE.to_json(indent=4), file = f)
+            print(json.dumps(TEMPLATE, indent=4, many=True, cls = seroNetEncoder), file = f)
             f.close()
             
             
