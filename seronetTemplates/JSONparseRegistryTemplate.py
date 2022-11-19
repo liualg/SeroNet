@@ -11,7 +11,7 @@ warnings.filterwarnings('ignore')
 
 from argparse import ArgumentParser
 
-import parse_template as pt
+import JSONparse_template as pt
 
 if __name__ == "__main__":
     parser = ArgumentParser(

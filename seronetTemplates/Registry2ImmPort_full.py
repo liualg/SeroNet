@@ -30,6 +30,7 @@ import datetime as dt
 from sys import platform
 from glob import glob
 import sys
+import json
 
 from tqdm import tqdm
 
@@ -43,6 +44,7 @@ from openpyxl.utils.dataframe import dataframe_to_rows
 ## Importing Functions and Dataclass
 import seronetDataclass as seroClass
 import seronetFunctions as seroFxn
+import JSONparse_template as pt
 
 import warnings
 
@@ -1376,7 +1378,7 @@ def create_full(PMID):
 
 
     #######################################################
-    #####    POST: copy log + other files to folder   #####
+    #####      POST: copy log + JSON + move files     #####
     #######################################################
 
     CD = os.getcwd()
@@ -1400,3 +1402,19 @@ def create_full(PMID):
     for i in glob(os.path.join(OUT_DIR,"*.txt")):
         print(os.path.basename(i))
     os.remove(PATH_pmid_basic_stdy_template)
+
+    
+
+    # CREATING JSON
+    output_file = os.path.join(OUT_DIR, f'{PMID}.json')
+    df = pd.read_excel(df_path, sheet_name = 0, header=None)
+    df.index += 1
+    template = {}
+    pt.parse_registry_template(df, template)
+
+    f = open(output_file, "w")
+    print(json.dumps(template, indent=4), file = f)
+    f.close()
+
+    ## CREATING SUGGESTIONS
+
