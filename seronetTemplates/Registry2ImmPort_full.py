@@ -45,6 +45,7 @@ from openpyxl.utils.dataframe import dataframe_to_rows
 import seronetDataclass as seroClass
 import seronetFunctions as seroFxn
 import JSONparse_template as pt
+import JSONcreateSuggestions as cs
 
 import warnings
 
@@ -54,6 +55,9 @@ if platform == "darwin":
     os.system('clear')
 else:
     os.system('cls')
+
+
+file_type = "json"
 
 
 #########################################
@@ -1406,7 +1410,7 @@ def create_full(PMID):
     
 
     # CREATING JSON
-    output_file = os.path.join(OUT_DIR, f'{PMID}.json')
+    output_file = os.path.join(OUT_DIR, f'{PMID}.{file_type}')
     df = pd.read_excel(df_path, sheet_name = 0, header=None)
     df.index += 1
     template = {}
@@ -1417,4 +1421,5 @@ def create_full(PMID):
     f.close()
 
     ## CREATING SUGGESTIONS
+    cs.add_NLKsuggestions(OUT_DIR, file_type)
 

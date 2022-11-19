@@ -24,27 +24,27 @@ stop_words = set(stopwords.words('english'))
 from nltk.tokenize import word_tokenize
 nltk.download('punkt')
 
-from argparse import ArgumentParser
+# from argparse import ArgumentParser
 
-if __name__ == "__main__":
-    parser = ArgumentParser(
-             prog="createSuggestions",
-             description="Add suggestions to SeroNet registry JSON")
+# if __name__ == "__main__":
+#     parser = ArgumentParser(
+#              prog="createSuggestions",
+#              description="Add suggestions to SeroNet registry JSON")
 
-    parser.add_argument(
-        '--input_directory',
-        dest="input_directory",
-        required=True,
-        help="Specify the path to the input directory"
-    )
+#     parser.add_argument(
+#         '--input_directory',
+#         dest="input_directory",
+#         required=True,
+#         help="Specify the path to the input directory"
+#     )
 
-    args = parser.parse_args()
-    print(args.input_directory)
+def add_NLKsuggestions(input_directory, file_type):
+    # print(input_directory)
 
-    documents_in_directory = [ os.path.abspath(p) for p in glob.glob(args.input_directory + "/*.orig")]
+    documents_in_directory = [ os.path.abspath(p) for p in glob.glob(input_directory + f"/*.{file_type}")]
     for document in documents_in_directory:
         (root, filename) = os.path.split(document)
-        print(root, filename)
+        # print(root, filename)
         with open(document, 'r') as f:
             suggestions_all = set()
             json_document = json.load(f)
@@ -100,8 +100,8 @@ if __name__ == "__main__":
 
             suggestions_list = sorted(suggestions)
 
-            filename = filename.replace(".orig", "")
-            out_file_name = root + "/" + filename + ".orig"
+            filename = filename.replace(f".{file_type}", "")
+            out_file_name = root + "/" + filename + f".{file_type}"
             out_file = open(out_file_name, "w")
             json_document['suggestions'] = suggestions_list
             out_file.write(json.dumps(json_document, indent = 4))
