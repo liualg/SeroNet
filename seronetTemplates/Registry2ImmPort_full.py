@@ -118,7 +118,7 @@ def create_full(PMID):
 
 
     # Automate output... 
-    OUT_DIR = os.path.join(BASE_DIR, 'ImmPort_templates-DR46-TEST') 
+    OUT_DIR = os.path.join(BASE_DIR, 'ImmPort_templates-DR46') 
     # OUT_DIR = './33184236_test/'
     PATH_pmid_basic_stdy_template = f'PMID{PMID}_study.xlsx'
 
@@ -327,12 +327,14 @@ def create_full(PMID):
 
         elif sub_section == 'inclusion_exclusion':
             df = seroFxn.edit_df(df)
+            
 
             INCLUSION_EXCLUSION = seroClass.inclusion_exclusion(
                 df['Inclusion ID'],
                 df['Inclusion Criterion'],
                 df['Inclusion Criterion Category']  
             )
+            # print(INCLUSION_EXCLUSION)
             
         elif sub_section == 'Subject Type: human':
             df = seroFxn.edit_df(df)
@@ -1410,7 +1412,7 @@ def create_full(PMID):
     
 
     # CREATING JSON
-    output_file = os.path.join(OUT_DIR, f'{PMID}.{file_type}')
+    output_file = os.path.join(OUT_DIR, f'PMID{PMID}_JSON.{file_type}')
     df = pd.read_excel(df_path, sheet_name = 0, header=None)
     df.index += 1
     template = {}

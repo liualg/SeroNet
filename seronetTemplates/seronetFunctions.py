@@ -89,7 +89,7 @@ def clean_array(the_array, VARS_TO_CLEAN):
     return [x for x in the_array if x not in VARS_TO_CLEAN]
 
 def remove_whitespace(obj):
-    return obj.replace('\n', '').replace('\t', '')
+    return obj.replace('\n', ' ').replace('\t', ' ').replace('  ', ' ')
 
 def cleanData(s):
     """Removes characters in the input string that will corrupt the final JSON object"""
