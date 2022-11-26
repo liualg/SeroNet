@@ -161,7 +161,7 @@ def create_full(PMID):
 
 
 
-    VARS_TO_CLEAN = ['', 'N/A', 'n/a', np.nan, None]
+    VARS_TO_CLEAN = ['', 'N/A', 'n/a', 'na', np.nan, None]
     clean_other = VARS_TO_CLEAN + ['Other']
 
     sp = seroFxn.get_sections(registry, class_names)
@@ -601,9 +601,14 @@ def create_full(PMID):
 
         add_index = len(PLANNED_VISIT.Name) + 1
 
+        if PLANNED_VISIT.Order_Number.any():
+            order_index = PLANNED_VISIT.Order_Number[add_index-1] + 1
+        else:
+            order_index = 1
+
         PLANNED_VISIT.User_Defined_ID[add_index] = f'PMID{PMID}_assessment_recorded_pv'
         PLANNED_VISIT.Name[add_index] = 'Visit where an assessment is recorded'
-        PLANNED_VISIT.Order_Number[add_index] = PLANNED_VISIT.Order_Number[add_index-1] + 1
+        PLANNED_VISIT.Order_Number[add_index] = order_index
         PLANNED_VISIT.Min_Start_Day[add_index] = 0
         PLANNED_VISIT.Max_Start_Day[add_index] = ''
         PLANNED_VISIT.Start_Rule[add_index] = ''
@@ -736,6 +741,7 @@ def create_full(PMID):
         bioSampleType = []
         studyTimeCollected = []
         experimentName = []
+        experiemntResultFileName = []
         experimentReportingFormat = [] 
         bioSampleCollectPoint = []
         expSample = []
@@ -891,8 +897,13 @@ def create_full(PMID):
             # print('biosampleID', len(biosampleID),'experimentID', len(experimentID),'reagentID', len(reagentID))
 
 
+            if EXPERIMENTS.Results_File_Name[i+1] in clean_other: 
+                experiemntResultFileName += ['ExperimentalDataInStudyFilesTab.txt'] * total_len
             
+            else:
+                experiemntResultFileName += [EXPERIMENTS.Results_File_Name[i+1]] * total_len
 
+            # print(experiemntResultFileName)
 
             empty += ['']*total_len
         # print(total_len)
@@ -910,7 +921,7 @@ def create_full(PMID):
             'Experiment ID':experimentID,
             'Reagent ID(s)':reagentID,
             'Treatment ID(s)':[f'PMID{PMID}_treatment' for n in range(fillLen)],
-            'Result File Name':['ExperimentalDataInStudyFilesTab.txt'] * fillLen,
+            'Result File Name': experiemntResultFileName,
             'Expsample Name':empty,
             'Expsample Description':[descriptions.get(k) for i, k in enumerate(experimentName)],
             'Additional Result File Names':empty,

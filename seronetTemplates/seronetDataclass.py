@@ -779,7 +779,7 @@ class experiments(DataClassJsonMixin):
     Associated_Planned_Visit_ID: list = field(default_factory=list)
     Assay_Type: list = field(default_factory=list)
     Experiment_Name: list = field(default_factory=list)
-    Results_File_Name: str = None
+    Results_File_Name: list = field(default_factory=list) # str = None
     Biospecimen_Type: list = field(default_factory=list)
     Biospecimen_Collection_Point: list = field(default_factory=list)
     SARS_CoV_2_Antigen: list = field(default_factory=list)
