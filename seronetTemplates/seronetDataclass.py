@@ -125,9 +125,9 @@ class study_file(DataClassJsonMixin):
             logging.warning("[file names]: Missing value")
             sys.exit("ERROR:: [file names]: Check for missing values")
         # CHANGE JSON FILE TYPE
-        # for i, k in enumerate(self.File_Name):
-        #     if 'JSON' in k:
-        #         self.Study_File_Type[i+1] = 'JSON Summary Description'
+        for i, k in enumerate(self.File_Name):
+            if 'JSON' in k:
+                self.Study_File_Type[i+1] = 'JSON Summary Description'
 
 
 
@@ -686,7 +686,7 @@ class planned_visit(DataClassJsonMixin):
 
         for i, k in enumerate(self.Name):
             if len(k) > 125:
-                self.Name[i+1] = serofxn.remove_whitespace(k)
+                self.Name[i+1] = seroFxn.remove_whitespace(k)
 
                 logging.error(f"[planned visit]: {self.User_Defined_ID[i+1]} has reached character limit ({len(k)} > 125)")
                 sys.exit(f"[planned visit]: {self.User_Defined_ID[i+1]} has reached character limit ({len(k)} > 125)")
@@ -814,8 +814,12 @@ class experiments(DataClassJsonMixin):
 
         ## adding a part that adds no_reagent to the field if it is empty
         for i, k in enumerate(self.Assay_Use):
-                if k == None or k == '' and self.SARS_CoV_2_Antigen[i + 1] == 'n/a':
-                    self.Assay_Use[i + 1] = 'no_reagents'
+            if k == None or k == '' and self.SARS_CoV_2_Antigen[i + 1] == 'n/a':
+                self.Assay_Use[i + 1] = 'no_reagents'
+
+        for i,k in enumerate(self.Virus_Target):
+            if k not in VARS_TO_CLEAN:
+                    self.Virus_Target[i+1] = seroFxn.replace_delimiter(k)
 
 
 @dataclass

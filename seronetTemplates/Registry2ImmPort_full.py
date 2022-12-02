@@ -914,6 +914,7 @@ def create_full(PMID):
         studyTimeCollected = [studyTime.get(visit_day.strip()) for visit_day in plannedVisitID]
         fillLen=len(empty)
 
+        # print(len(experimentName), len(experimentReportingFormat),len(empty))
         experimentSamples_df = pd.DataFrame({
             'Column Name':empty,
             'Expsample ID': [f'PMID{PMID}_expSample-0{n+1}' for n in range(fillLen)],
@@ -921,10 +922,10 @@ def create_full(PMID):
             'Experiment ID':experimentID,
             'Reagent ID(s)':reagentID,
             'Treatment ID(s)':[f'PMID{PMID}_treatment' for n in range(fillLen)],
-            'Result File Name': experiemntResultFileName,
+            'Result File Name': experiemntResultFileName, # This needs to be populated first and then we can populate 'Additional Result File Names'
             'Expsample Name':empty,
             'Expsample Description':[descriptions.get(k) for i, k in enumerate(experimentName)],
-            'Additional Result File Names':empty,
+            'Additional Result File Names':empty, #link additional file names here - seperate with a semi collon ';' ** 'Result File Name' needs to be populated first
             'Study ID':[STUDY.Study_Identifier]*fillLen,
             'Protocol ID(s)':[PROTOCOLS.Protocol_ID[1]]*fillLen,
             'Subject ID':subjectID,
