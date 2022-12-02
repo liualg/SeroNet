@@ -28,8 +28,9 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-if args.Dev_go_quick():
-   create_full(str(args.PMID).strip())
+if args.Dev_go_quick:
+   print(f"Doing Full Curation for: {args.PMID.strip()}")
+   create_full(args.PMID.strip())
 
 else:
    root= tk.Tk()

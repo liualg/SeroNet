@@ -914,6 +914,33 @@ def create_full(PMID):
         studyTimeCollected = [studyTime.get(visit_day.strip()) for visit_day in plannedVisitID]
         fillLen=len(empty)
 
+        ## 
+        # Check for biosample names in list, if it is in ImmPort then swith to type otherwise use subtype 
+        #LIU2
+        immport_biosamples = pd.read_excel(os.path.join("template", "experimentSamples.Other.xlsx"),
+              sheet_name="lookup",
+              header=None
+        
+            )[0].values.tolist()
+
+        btype = []
+        stype = []
+        
+        for ibiosample in bioSampleType:
+            if ibiosample.strip() in immport_biosamples:
+                btype.append(ibiosample)
+                stype.append('')
+
+            else:
+                btype.append('Other')
+                stype.append(ibiosample)
+
+
+        # 
+
+
+        ##
+
         # print(len(experimentName), len(experimentReportingFormat),len(empty))
         experimentSamples_df = pd.DataFrame({
             'Column Name':empty,
@@ -930,8 +957,10 @@ def create_full(PMID):
             'Protocol ID(s)':[PROTOCOLS.Protocol_ID[1]]*fillLen,
             'Subject ID':subjectID,
             'Planned Visit ID':plannedVisitID,
-            'Type':['Other']*fillLen,
-            'Subtype':bioSampleType,
+            # 'Type':['Other']*fillLen,
+            'Type': btype,
+            # 'Subtype':bioSampleType,
+            'Subtype':stype,
             'Biosample Name':empty, ## WHAT SHOULD THIS BE
             'Biosample Description':empty,
             'Study Time Collected':studyTimeCollected,
