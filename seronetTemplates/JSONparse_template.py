@@ -1,8 +1,12 @@
 import pandas as pd
 import json
 import re
+import numpy as np
 from datetime import datetime
 
+import glob
+from fuzzywuzzy import fuzz
+from openpyxl import load_workbook
 #
 # Line Number Locations in Excel File
 #
@@ -115,6 +119,105 @@ ANTIBODY_ISOTYPE = 160
 REPORTING_UNITS = 161
 ASSAY_REPORTING_FORMAT = 162
 
+## loading workbooks and data
+
+json_seronet_dict = pd.read_excel("./dictionary/Facetdict.xlsx",
+                                 header=None)
+json_seronet_dict = dict(
+    zip(json_seronet_dict.loc[:][0],json_seronet_dict.loc[:][1])
+)
+
+## creating dictionary of correct spelling from most recent template
+
+wb = load_workbook(
+    glob.glob("/Users/liualg/Library/CloudStorage/" \
+              "OneDrive-NationalInstitutesofHealth/Curation channel/*.xlsm")[0],
+                  )
+sheet = wb['Cntrl\'d Vocab']
+immport_dict = dict()
+
+for column in sheet.iter_cols( #sheet.max_column, 
+                              max_row=sheet.max_row, 
+                              min_row=4):
+#     try:
+    name = []
+    start_index = []
+    for icol, cell in enumerate(column):
+        if icol == 0:
+            name.append(cell.value)
+            start_index.append(icol)
+        else:
+            if (cell.value is not None and column[icol-1].value is None):
+                name.append(cell.value)
+                start_index.append(icol)
+    # FIGURE THIS SHIT OUT
+    try:
+        for i in range(len(start_index)-1):
+            immport_dict[name[i]] = [k.value for k in column[start_index[i] : start_index[i+1]] if k.value is not None]
+        
+        immport_dict[name[-1]] = [k.value for k in column[start_index[i-1] :] if k.value is not None]
+    
+    except:
+        immport_dict[name[-1]] = [k.value for k in column[start_index[i] :] if k.value is not None]
+        pass
+
+
+
+def get_closest_lookup(word, lookup_table, table_name):
+    correct_word = ''
+    closest_lookup = ''
+    check_list = []
+    
+    if word in ['', 'N/A', 'n/a', 'N/a', 'n/A', np.nan, None]:
+        print(f'[NOTE]:: Field empty: {table_name}')
+    elif word in lookup_table:
+        closest_lookup = word
+
+    else:
+        for potential in lookup_table:
+            if fuzz.ratio(word, potential) >= 10: ##use math for this
+                check_list.append((potential, 
+                                  fuzz.ratio(word, potential))
+                                 )
+
+            # elif 20 <= fuzz.ratio(word, potential) < 70: ##use math for this
+            #     check_list.append((potential, 
+            #                       fuzz.ratio(word, potential))
+            #                      )
+            else: 
+                pass
+
+            # this is a little weird 
+        if len(check_list) == 1:
+            print(f"[FYI] fuzzywuzzy:: {word} => {check_list[0][0]} : score {check_list[0][1]}")
+            closest_lookup = check_list[0][0]
+
+        elif len(check_list) > 1:
+            check_list.sort(key=lambda a: a[1], reverse=True)
+            print(f'\n\n######  ACTION REQUIRED ###### \nDesignate replacement word for: {word}')
+            print('Top three choices:')
+            for top3 in check_list[:3]:
+                print(top3)
+            # print(check_list)
+            closest_lookup = check_list[int(input(f'Designate replacement word for {word}: '))-1][0]
+
+        else:
+            pass
+
+    return closest_lookup
+
+def check_spelling(word_in_questions, facet_to_check):
+    lk_table = immport_dict.get(json_seronet_dict.get(facet_to_check))
+
+    if isinstance(word_in_questions,str):
+        correct_word = get_closest_lookup(word_in_questions,lk_table,json_seronet_dict.get(facet_to_check))
+
+    else:
+        correct_word = []
+        for words in word_in_questions:
+            correct_word.append(get_closest_lookup(words,lk_table,json_seronet_dict.get(facet_to_check)))
+
+    return correct_word
 #
 # Remove characters or escape characters that corrupt JSON
 #
@@ -135,6 +238,12 @@ def cleanData(s):
             pass
         return s
 
+def replace_na(cleaned_data):
+    if pd.isna(cleaned_data) or cleaned_data in ['', 'N/A', 'n/a', np.nan, None]:
+        return 'Not Applicable'
+    else:
+        return cleaned_data 
+
 
 def parse_sv(df, line_number, index):
     return list(df.loc[line_number])[index]
@@ -150,7 +259,8 @@ def parse_clean_mv_split(df, line_number, index):
     if pd.isna(df.loc[line_number][index]):
         return []
     else:
-        return [cleanData(item) for item in re.split(" \| ", df.loc[line_number][index])]
+
+        return [cleanData(item.strip()) for item in re.split("\|", df.loc[line_number][index].replace(" I ", "|").replace(",","|"))]
 
 
 def parse_clean_mv_split_I(df, line_number, index):
@@ -168,6 +278,7 @@ def parse_registry_template(df, template):
         Returns:
             None
     """
+    
     parse_pubmed(df, template)
     parse_study(df, template)
     parse_study_personnel(df, template)
@@ -282,13 +393,14 @@ def parse_study_categorization(df, template):
     # 
     # Research Focus
     #
-    template['research_focus'] = parse_clean_sv(df, RESEARCH_FOCUS, 2)
+    # LIU3
+    template['research_focus'] = check_spelling(parse_clean_sv(df, RESEARCH_FOCUS, 2), 'research_focus')
 
 
     #
     # Study Type
     #
-    template['study_type'] = parse_clean_sv(df, STUDY_TYPE, 2)
+    template['study_type'] = check_spelling(parse_clean_sv(df, STUDY_TYPE, 2), 'study_type')
 
     #
     # Keywords 
@@ -303,8 +415,8 @@ def parse_study_categorization(df, template):
 def parse_study_design(df, template):
     """Parse the Study Design section"""
 
-    template['clinical_study_design'] = parse_clean_sv(df, CLINICAL_STUDY_DESIGN, 2)
-    template['in_silico_model_type'] = parse_clean_sv(df, IN_SILICO_MODEL_TYPE, 2)
+    template['clinical_study_design'] = check_spelling(replace_na(parse_clean_sv(df, CLINICAL_STUDY_DESIGN, 2)), 'clinical_study_design')
+    template['in_silico_model_type'] = check_spelling(parse_clean_sv(df, IN_SILICO_MODEL_TYPE, 2),'in_silico_model_type')
 
 
 def parse_protocol(df, template):
@@ -333,7 +445,8 @@ def parse_condition_or_disease(df, template):
     values = re.split(" I ", rhc)
     reported_health_condition = []
     for c in values:
-        reported_health_condition.append(cleanData(c))
+        #liu3
+        reported_health_condition.append(check_spelling(cleanData(c),'reported_health_condition'))
 
     # temp = []
     # for c in ' '.join(reported_health_condition).split('|'):
@@ -352,7 +465,8 @@ def parse_intervention(df, template):
     vaccine_types = []
     for v in values:
         vaccine_types.append(cleanData(v))
-    template['sars_cov_2_vaccine_type'] = vaccine_types
+
+    template['sars_cov_2_vaccine_type'] = check_spelling(vaccine_types, 'sars_cov_2_vaccine_type-study')
 
 
 def parse_study_details(df, template):
@@ -361,7 +475,7 @@ def parse_study_details(df, template):
         Each line contains one single value.
     """
 
-    template['clinical_outcome_measure'] = parse_clean_sv(df, CLINICAL_OUTCOME_MEASURE, 2)
+    template['clinical_outcome_measure'] = replace_na(parse_clean_sv(df, CLINICAL_OUTCOME_MEASURE, 2))
     template['enrollment_start_date'] = parse_clean_sv(df, ENROLLMENT_START_DATE, 2)
     template['enrollment_end_date'] = parse_clean_sv(df, ENROLLMENT_END_DATE, 2)
     template['number_of_study_subjects'] = parse_clean_sv(df, NUMBER_OF_STUDY_SUBJECTS, 2)
@@ -458,24 +572,24 @@ def parse_subject_human(df, template):
                "arm_id": val,
                "arm_name": parse_clean_sv(df, HUMAN_ARM_NAME, idx),
                "study_population_description": parse_clean_sv(df, HUMAN_STUDY_POPULATION_DESCRIPTION, idx),
-               "arm_type": parse_clean_sv(df, HUMAN_ARM_TYPE, idx),
-               "ethnicity": parse_clean_mv_split(df, HUMAN_ETHNICITY, idx),
-               "race": parse_clean_mv_split(df, HUMAN_RACE, idx),
+               "arm_type": check_spelling(parse_clean_sv(df, HUMAN_ARM_TYPE, idx),'arm_type'),
+               "ethnicity": check_spelling(parse_clean_mv_split(df, HUMAN_ETHNICITY, idx),'ethnicity'),
+               "race": check_spelling(parse_clean_mv_split(df, HUMAN_RACE, idx),'race'),
                "race_specify": parse_clean_mv_split(df, HUMAN_RACE_SPECIFY, idx),
                "description": parse_clean_sv(df, HUMAN_DESCRIPTION, idx),
-               "sex_at_birth": parse_clean_mv_split(df, HUMAN_SEX_AT_BIRTH, idx),
+               "sex_at_birth": check_spelling(parse_clean_mv_split(df, HUMAN_SEX_AT_BIRTH, idx),'sex_at_birth'),
                "age_event": parse_clean_sv(df, HUMAN_AGE_EVENT, idx),
                "subject_phenotype": parse_clean_sv(df, HUMAN_SUBJECT_PHENOTYPE,idx),
                "assessment_name": parse_clean_mv_split(df, HUMAN_ASSESSMENT_NAME, idx),
-               "study_location": parse_clean_mv_split(df, HUMAN_STUDY_LOCATION, idx),
+               "study_location": check_spelling(parse_clean_mv_split(df, HUMAN_STUDY_LOCATION, idx),'study_location'),
                "measured_behavioral_or_pyschological_factor": parse_clean_mv_split(df, HUMAN_MEASURED_BEHAVIORAL_OR_PYSCHOLOGICAL_FACTOR, idx),
                "measured_social_factor": parse_clean_mv_split(df, HUMAN_MEASURED_SOCIAL_FACTOR, idx),
-               "sars_cov_2_symptoms": parse_clean_mv_split(df, HUMAN_SARS_COV_2_SYMPTOMS, idx),
+               "sars_cov_2_symptoms": check_spelling(parse_clean_mv_split(df, HUMAN_SARS_COV_2_SYMPTOMS, idx),'sars-cov-2_symptoms'),
                "assessment_clinical_and_demographic_data_provenance": parse_clean_mv_split(df, HUMAN_ASSESSMENT_CLINICAL_AND_DEMOGRAPHIC_DATA_PROVENANCE, idx),
                "assessment_demographic_data_types_collected": parse_clean_mv_split(df, HUMAN_ASSESSMENT_DEMOGRAPHIC_DATA_TYPES_COLLECTED, idx),
-               "sars_cov_2_history": parse_clean_mv_split(df, HUMAN_SARS_COV_2_HISTORY, idx),
-               "sars_cov_2_vaccine_type": parse_clean_mv_split(df, HUMAN_SARS_COV_2_VACCINE_TYPE, idx),
-               "covid_19_disease_severity": parse_clean_mv_split(df, HUMAN_COVID_19_DISEASE_SEVERITY, idx),
+               "sars_cov_2_history": check_spelling(parse_clean_mv_split(df, HUMAN_SARS_COV_2_HISTORY, idx),'sars_cov_2_history'),
+               "sars_cov_2_vaccine_type": check_spelling(parse_clean_mv_split(df, HUMAN_SARS_COV_2_VACCINE_TYPE, idx),'sars_cov_2_vaccine_type-study-subject'),
+               "covid_19_disease_severity": check_spelling(parse_clean_mv_split(df, HUMAN_COVID_19_DISEASE_SEVERITY, idx),'covid_19_disease_severity'),
                "post_covid_19_symptoms": parse_clean_mv_split(df, HUMAN_POST_COVID_19_SYMPTOMS, idx),
                "covid_19_complications": parse_clean_mv_split(df, HUMAN_COVID_19_COMPLICATIONS, idx)
             }

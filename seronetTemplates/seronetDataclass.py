@@ -29,7 +29,7 @@ import re
 import logging
 import sys
 
-VARS_TO_CLEAN = ['', 'N/A', 'n/a', np.nan, None]
+VARS_TO_CLEAN = ['', 'N/A', 'n/a', 'N/a', 'n/A', np.nan, None]
 filler_words = ['of', 'a', 'at']
 
 STATES = pd.read_csv(os.path.join(".","dictionary", "States.csv"),
@@ -163,6 +163,12 @@ class study_design(DataClassJsonMixin):
     in_silico_Model_Type: str = None
     ImmPortNAME: str = 'NA'
 
+    ## add validator LIU2
+    def __post_init__(self):
+        if self.Clinical_Study_Design is None:
+                object.__setattr__(self, 'Clinical_Study_Design', 'Not Applicable')
+
+
 
 @dataclass
 class protocols(DataClassJsonMixin):
@@ -250,6 +256,11 @@ class study_details(DataClassJsonMixin):
             object.__setattr__(self, 'Enrollment_Start_Date', '')
         else:
             object.__setattr__(self, "Enrollment_Start_Date", get_correct_datetime(self.Enrollment_Start_Date))
+
+        #Add validator LIU2
+        if self.Clinical_Outcome_Measure is None:
+            object.__setattr__(self, 'Clinical_Outcome_Measure', 'Not Applicable')
+
 @dataclass
 class inclusion_exclusion(DataClassJsonMixin):
     """1 row below, 3 Columns"""

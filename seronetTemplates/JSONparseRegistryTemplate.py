@@ -34,17 +34,10 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    df = pd.read_excel(args.excel_file, sheet_name = 0, header=None)
-    #
-    # Start the Index at 1 to Match Excel Line Numbers
-    #
-    df.index += 1
-
-    #
-    # Initialize Empty Template Dictionary
-    #
     template = {}
-
+    df = pd.read_excel(args.excel_file, sheet_name = 0, header=None)
+    wordcheck = pd.read_csv()
+    df.index += 1
     pt.parse_registry_template(df, template)
     #print(json.dumps(template, indent=4))
 

@@ -20,8 +20,16 @@ This script is compatibale with Registry Version v1.2.3 - 1.3
     - Updated JSON
     - Updated file: pointerToExperimentalData.txt => ExperimentalDataInStudyFilesTab
     - Updated experitment sample logiv for create reagent ids
+
+
+1.4
+    -Addded Json
+    - added more vlidators 
+    - cleane dup code 
+    - added spell check 
 '''
 
+import time
 import pandas as pd
 import numpy as np
 import os, shutil
@@ -118,7 +126,7 @@ def create_full(PMID):
 
 
     # Automate output... 
-    OUT_DIR = os.path.join(BASE_DIR, 'ImmPort_templates-DR46') 
+    OUT_DIR = os.path.join(BASE_DIR, 'ImmPort_templates-DR46-spell_check_test') 
     # OUT_DIR = './33184236_test/'
     PATH_pmid_basic_stdy_template = f'PMID{PMID}_study.xlsx'
 
@@ -914,9 +922,7 @@ def create_full(PMID):
         studyTimeCollected = [studyTime.get(visit_day.strip()) for visit_day in plannedVisitID]
         fillLen=len(empty)
 
-        ## 
-        # Check for biosample names in list, if it is in ImmPort then swith to type otherwise use subtype 
-        #LIU2
+        ## Check for biosample names in list, if it is in ImmPort then swith to type otherwise use subtype 
         immport_biosamples = pd.read_excel(os.path.join("template", "experimentSamples.Other.xlsx"),
               sheet_name="lookup",
               header=None
@@ -934,10 +940,6 @@ def create_full(PMID):
             else:
                 btype.append('Other')
                 stype.append(ibiosample)
-
-
-        # 
-
 
         ##
 
@@ -1376,7 +1378,7 @@ def create_full(PMID):
             n += 1
             
             if SUBJECT_HUMAN.Measured_Behavioral_or_Psychological_Factor[n]:
-                print('Measured Behavioral or Psychological Factor') #MBPF
+                # print('Measured Behavioral or Psychological Factor') #MBPF
                 # updateObject(MBPF,SUBJECT_HUMAN,n, 'MBPF')
                 updateObject(MBPF,SUBJECT_HUMAN,n,'Measured Behavioral or Psychological Factor')
                 MBPF_df = makeAssessmentDF(SCS,STUDY,PMID,'MBPF')
@@ -1386,7 +1388,7 @@ def create_full(PMID):
                            sep = '\t')
                 
             if SUBJECT_HUMAN.Measured_Social_Factor[n]:
-                print('Measured_Social_Factor') #MSF
+                # print('Measured_Social_Factor') #MSF
                 # updateObject(MSF,SUBJECT_HUMAN,n, 'MSF')
                 updateObject(MSF,SUBJECT_HUMAN,n, 'Measured Social Factor')
                 MSF_df = makeAssessmentDF(SCS,STUDY,PMID,'MSF')
@@ -1397,7 +1399,7 @@ def create_full(PMID):
                 
                 
             if SUBJECT_HUMAN.SARS_CoV_2_Symptoms[n]:
-                print('SARS_CoV_2_Symptoms') #SCS
+                # print('SARS_CoV_2_Symptoms') #SCS
                 # updateObject(SCS,SUBJECT_HUMAN,n,'SCS')
                 updateObject(SCS,SUBJECT_HUMAN,n,'SARS CoV2 Symptoms')
                 SCS_df = makeAssessmentDF(SCS,STUDY,PMID,'SCS')
@@ -1407,7 +1409,7 @@ def create_full(PMID):
                            sep = '\t')
 
             if SUBJECT_HUMAN.SARS_CoV2_History[n]:
-                print('SARS_CoV2_History') #SCH
+                # print('SARS_CoV2_History') #SCH
                 # updateObject(SCH,SUBJECT_HUMAN,n,'SCH')
                 updateObject(SCH,SUBJECT_HUMAN,n,'SARS CoV2 History')
                 SCH_df = makeAssessmentDF(SCH,STUDY,PMID,'SCH')
@@ -1427,6 +1429,7 @@ def create_full(PMID):
     #######################################################
     #####      POST: copy log + JSON + move files     #####
     #######################################################
+    
 
     CD = os.getcwd()
     today = dt.datetime.today().strftime('%Y_%m_%d')
@@ -1450,7 +1453,10 @@ def create_full(PMID):
         print(os.path.basename(i))
     os.remove(PATH_pmid_basic_stdy_template)
 
-    
+    # while input('Can I clear the screen: (y/n)') != 'y':
+    #     time.sleep(1)
+    # os.system('clear')
+    print("\n\n\n\n\n")
 
     # CREATING JSON
     output_file = os.path.join(OUT_DIR, f'PMID{PMID}_JSON.{file_type}')
