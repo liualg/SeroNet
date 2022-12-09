@@ -29,7 +29,7 @@ import re
 import logging
 import sys
 
-VARS_TO_CLEAN = ['', 'N/A', 'n/a', np.nan, None]
+VARS_TO_CLEAN = ['', 'N/A', 'n/a', 'N/a', 'n/A', np.nan, None]
 filler_words = ['of', 'a', 'at']
 
 STATES = pd.read_csv(os.path.join(".","dictionary", "States.csv"),
@@ -124,6 +124,12 @@ class study_file(DataClassJsonMixin):
         if len(self.File_Name) != len(self.Study_File_Type):
             logging.warning("[file names]: Missing value")
             sys.exit("ERROR:: [file names]: Check for missing values")
+        # CHANGE JSON FILE TYPE
+        for i, k in enumerate(self.File_Name):
+            if 'JSON' in k:
+                self.Study_File_Type[i+1] = 'JSON Summary Description'
+
+
 
 
 @dataclass
@@ -156,6 +162,12 @@ class study_design(DataClassJsonMixin):
     Clinical_Study_Design: str = None
     in_silico_Model_Type: str = None
     ImmPortNAME: str = 'NA'
+
+    ## add validator LIU2
+    def __post_init__(self):
+        if self.Clinical_Study_Design is None:
+                object.__setattr__(self, 'Clinical_Study_Design', 'Not Applicable')
+
 
 
 @dataclass
@@ -244,6 +256,11 @@ class study_details(DataClassJsonMixin):
             object.__setattr__(self, 'Enrollment_Start_Date', '')
         else:
             object.__setattr__(self, "Enrollment_Start_Date", get_correct_datetime(self.Enrollment_Start_Date))
+
+        #Add validator LIU2
+        if self.Clinical_Outcome_Measure is None:
+            object.__setattr__(self, 'Clinical_Outcome_Measure', 'Not Applicable')
+
 @dataclass
 class inclusion_exclusion(DataClassJsonMixin):
     """1 row below, 3 Columns"""
@@ -251,13 +268,13 @@ class inclusion_exclusion(DataClassJsonMixin):
     Criterion: list = field(default_factory=list)
     Criterion_Category: list = field(default_factory=list)
     # changed V
-    Geriatric_subjects: str = "No"
-    Pediatric_subjects: str = "No"
-    Pregnant_subjects: str = "No"
-    SARS_CoV_2_Antibodies_Measured: str = "No"
-    Performance_metrics_included: str = "No"
-    Survey_instrument_shared: str = "No"
-    WHO_disease_severity_scale_used: str = "No"
+    # Geriatric_subjects: str = "Exclusion"
+    # Pediatric_subjects: str = "Exclusion"
+    # Pregnant_subjects: str = "Exclusion"
+    # SARS_CoV_2_Antibodies_Measured: str = "Exclusion"
+    # Performance_metrics_included: str = "Exclusion"
+    # Survey_instrument_shared: str = "Exclusion"
+    # WHO_disease_severity_scale_used: str = "Exclusion"
 
     ImmPortNAME: str = 'inclusion_exclusion'
 
@@ -270,38 +287,72 @@ class inclusion_exclusion(DataClassJsonMixin):
             if (self.Criterion[1] in VARS_TO_CLEAN):
                 object.__setattr__(self, "Criterion", "Other") 
                 object.__setattr__(self, "Criterion_Category", "Inclusion")
+                logging.warning("[inclusion exclusion]: No Inclusion Exclusion Recorded, using Other : Inclusion")
 
-        for i, k in enumerate(self.Criterion):
-            i = i + 1
-            include = ['inclusion', 'yes']
+        for i, k in enumerate(self.Criterion_Category):
+            i = i+1
+            if k.lower().strip() == 'yes':
+                self.Criterion_Category[i] = "Inclusion"
+                logging.warning("[inclusion exclusion]: Changing Yes => Inclusion")
+            if k.lower().strip() == 'no':
+                self.Criterion_Category[i] = "Exclusion"
+                logging.warning("[inclusion exclusion]: Changing No => Exclusion")
 
-            if k == "Geriatric subjects":
-                if self.Criterion_Category[i].lower() in include:
-                    self.Geriatric_subjects = "Yes"
 
-            if k == "Pediatric subjects":
-                if self.Criterion_Category[i].lower() in include:
-                    self.Pediatric_subjects = "Yes"
 
-            if k == "Pregnant subjects": 
-                if self.Criterion_Category[i].lower() in include:
-                    self.Pregnant_subjects = "Yes"
+        # for i, k in enumerate(self.Criterion):
+        #     i = i + 1
+        #     include = ['inclusion', 'yes']
+        #     exclude = ['exclusion', 'no']
 
-            if k == "SARS-CoV-2 Antibodies Measured":
-                if  self.Criterion_Category[i].lower() in include:
-                    self.SARS_CoV_2_Antibodies_Measured = "Yes"
+        #     if k == "Geriatric subjects":
+        #         if self.Criterion_Category[i].lower() in include:
+        #             self.Geriatric_subjects = "inclusion"
+        #             # self.Geriatric_subjects = "Yes"
+        #         elif self.Criterion_Category[i].lower() in exclude:
+        #             self.Geriatric_subjects = "exclusion"
 
-            if k == "Performance metrics included":
-                if self.Criterion_Category[i].lower() in include:
-                    self.Performance_metrics_included = "Yes"
+        #     if k == "Pediatric subjects":
+        #         if self.Criterion_Category[i].lower() in include:
+        #             # self.Pediatric_subjects = "Yes"
+        #             self.Pediatric_subjects = "inclusion"
+        #         elif self.Criterion_Category[i].lower() in exclude:
+        #             self.Pediatric_subjects = "exclusion"
 
-            if k == "Survey instrument shared": 
-                if self.Criterion_Category[i].lower() in include:
-                    self.Survey_instrument_shared = "Yes"
+        #     if k == "Pregnant subjects": 
+        #         if self.Criterion_Category[i].lower() in include:
+        #             # self.Pregnant_subjects = "Yes"
+        #             self.Pregnant_subjects = "inclusion"
+        #         elif self.Criterion_Category[i].lower() in exclude:
+        #             self.Pregnant_subjects = "exclusion"    
 
-            if k == "WHO disease severity scale used":
-                if self.Criterion_Category[i].lower() in include:
-                    self.WHO_disease_severity_scale_used = "Yes"
+        #     if k == "SARS-CoV-2 Antibodies Measured":
+        #         if  self.Criterion_Category[i].lower() in include:
+        #             # self.SARS_CoV_2_Antibodies_Measured = "Yes"
+        #             self.SARS_CoV_2_Antibodies_Measured = "inclusion"
+        #         elif self.Criterion_Category[i].lower() in exclude:
+        #             self.SARS_CoV_2_Antibodies_Measured = "exclusion"
+
+        #     if k == "Performance metrics included":
+        #         if self.Criterion_Category[i].lower() in include:
+        #             # self.Performance_metrics_included = "Yes"
+        #             self.Performance_metrics_included = "inclusion"
+        #         elif self.Criterion_Category[i].lower() in exclude:
+        #             self.Performance_metrics_included = "exclusion"
+
+        #     if k == "Survey instrument shared": 
+        #         if self.Criterion_Category[i].lower() in include:
+        #             # self.Survey_instrument_shared = "Yes"
+        #             self.Survey_instrument_shared = "inclusion"
+        #         elif self.Criterion_Category[i].lower() in exclude:
+        #             self.Survey_instrument_shared = "exclusion"
+
+        #     if k == "WHO disease severity scale used":
+        #         if self.Criterion_Category[i].lower() in include:
+        #             # self.WHO_disease_severity_scale_used = "Yes"
+        #             self.WHO_disease_severity_scale_used = "inclusion"
+        #         elif self.Criterion_Category[i].lower() in exclude:
+        #             self.WHO_disease_severity_scale_used = "exclusion"
 
 
 # confused on why this doesnt work
@@ -646,6 +697,8 @@ class planned_visit(DataClassJsonMixin):
 
         for i, k in enumerate(self.Name):
             if len(k) > 125:
+                self.Name[i+1] = seroFxn.remove_whitespace(k)
+
                 logging.error(f"[planned visit]: {self.User_Defined_ID[i+1]} has reached character limit ({len(k)} > 125)")
                 sys.exit(f"[planned visit]: {self.User_Defined_ID[i+1]} has reached character limit ({len(k)} > 125)")
 
@@ -679,6 +732,8 @@ class study_experiment(DataClassJsonMixin):
         if not len(set(self.Experiment_ID).intersection(VARS_TO_CLEAN)) == 1:
             temp = self.Experiment_ID[1][:-1]
             object.__setattr__(self, "Experiment_ID", [temp + str(i + 1) for i in range(len(self.Experiment_ID))])
+
+
 
 
 @dataclass
@@ -735,7 +790,7 @@ class experiments(DataClassJsonMixin):
     Associated_Planned_Visit_ID: list = field(default_factory=list)
     Assay_Type: list = field(default_factory=list)
     Experiment_Name: list = field(default_factory=list)
-    Results_File_Name: str = None
+    Results_File_Name: list = field(default_factory=list) # str = None
     Biospecimen_Type: list = field(default_factory=list)
     Biospecimen_Collection_Point: list = field(default_factory=list)
     SARS_CoV_2_Antigen: list = field(default_factory=list)
@@ -770,8 +825,12 @@ class experiments(DataClassJsonMixin):
 
         ## adding a part that adds no_reagent to the field if it is empty
         for i, k in enumerate(self.Assay_Use):
-                if k == None or k == '' and self.SARS_CoV_2_Antigen[i + 1] == 'n/a':
-                    self.Assay_Use[i + 1] = 'no_reagents'
+            if k == None or k == '' and self.SARS_CoV_2_Antigen[i + 1] == 'n/a':
+                self.Assay_Use[i + 1] = 'no_reagents'
+
+        for i,k in enumerate(self.Virus_Target):
+            if k not in VARS_TO_CLEAN:
+                    self.Virus_Target[i+1] = seroFxn.replace_delimiter(k)
 
 
 @dataclass

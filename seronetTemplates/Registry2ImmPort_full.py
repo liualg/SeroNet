@@ -20,8 +20,16 @@ This script is compatibale with Registry Version v1.2.3 - 1.3
     - Updated JSON
     - Updated file: pointerToExperimentalData.txt => ExperimentalDataInStudyFilesTab
     - Updated experitment sample logiv for create reagent ids
+
+
+1.4
+    -Addded Json
+    - added more vlidators 
+    - cleane dup code 
+    - added spell check 
 '''
 
+import time
 import pandas as pd
 import numpy as np
 import os, shutil
@@ -30,6 +38,7 @@ import datetime as dt
 from sys import platform
 from glob import glob
 import sys
+import json
 
 from tqdm import tqdm
 
@@ -43,6 +52,8 @@ from openpyxl.utils.dataframe import dataframe_to_rows
 ## Importing Functions and Dataclass
 import seronetDataclass as seroClass
 import seronetFunctions as seroFxn
+import JSONparse_template as pt
+import JSONcreateSuggestions as cs
 
 import warnings
 
@@ -52,6 +63,9 @@ if platform == "darwin":
     os.system('clear')
 else:
     os.system('cls')
+
+
+file_type = "json"
 
 
 #########################################
@@ -112,7 +126,7 @@ def create_full(PMID):
 
 
     # Automate output... 
-    OUT_DIR = os.path.join(BASE_DIR, 'ImmPort_templates-DR46-TEST') 
+    OUT_DIR = os.path.join(BASE_DIR, 'ImmPort_templates-DR46-spell_check_test') 
     # OUT_DIR = './33184236_test/'
     PATH_pmid_basic_stdy_template = f'PMID{PMID}_study.xlsx'
 
@@ -155,7 +169,7 @@ def create_full(PMID):
 
 
 
-    VARS_TO_CLEAN = ['', 'N/A', 'n/a', np.nan, None]
+    VARS_TO_CLEAN = ['', 'N/A', 'n/a', 'na', np.nan, None]
     clean_other = VARS_TO_CLEAN + ['Other']
 
     sp = seroFxn.get_sections(registry, class_names)
@@ -321,12 +335,14 @@ def create_full(PMID):
 
         elif sub_section == 'inclusion_exclusion':
             df = seroFxn.edit_df(df)
+            
 
             INCLUSION_EXCLUSION = seroClass.inclusion_exclusion(
                 df['Inclusion ID'],
                 df['Inclusion Criterion'],
                 df['Inclusion Criterion Category']  
             )
+            # print(INCLUSION_EXCLUSION)
             
         elif sub_section == 'Subject Type: human':
             df = seroFxn.edit_df(df)
@@ -593,9 +609,14 @@ def create_full(PMID):
 
         add_index = len(PLANNED_VISIT.Name) + 1
 
+        if PLANNED_VISIT.Order_Number.any():
+            order_index = PLANNED_VISIT.Order_Number[add_index-1] + 1
+        else:
+            order_index = 1
+
         PLANNED_VISIT.User_Defined_ID[add_index] = f'PMID{PMID}_assessment_recorded_pv'
         PLANNED_VISIT.Name[add_index] = 'Visit where an assessment is recorded'
-        PLANNED_VISIT.Order_Number[add_index] = PLANNED_VISIT.Order_Number[add_index-1] + 1
+        PLANNED_VISIT.Order_Number[add_index] = order_index
         PLANNED_VISIT.Min_Start_Day[add_index] = 0
         PLANNED_VISIT.Max_Start_Day[add_index] = ''
         PLANNED_VISIT.Start_Rule[add_index] = ''
@@ -728,6 +749,7 @@ def create_full(PMID):
         bioSampleType = []
         studyTimeCollected = []
         experimentName = []
+        experiemntResultFileName = []
         experimentReportingFormat = [] 
         bioSampleCollectPoint = []
         expSample = []
@@ -883,8 +905,13 @@ def create_full(PMID):
             # print('biosampleID', len(biosampleID),'experimentID', len(experimentID),'reagentID', len(reagentID))
 
 
+            if EXPERIMENTS.Results_File_Name[i+1] in clean_other: 
+                experiemntResultFileName += ['ExperimentalDataInStudyFilesTab.txt'] * total_len
             
+            else:
+                experiemntResultFileName += [EXPERIMENTS.Results_File_Name[i+1]] * total_len
 
+            # print(experiemntResultFileName)
 
             empty += ['']*total_len
         # print(total_len)
@@ -895,6 +922,28 @@ def create_full(PMID):
         studyTimeCollected = [studyTime.get(visit_day.strip()) for visit_day in plannedVisitID]
         fillLen=len(empty)
 
+        ## Check for biosample names in list, if it is in ImmPort then swith to type otherwise use subtype 
+        immport_biosamples = pd.read_excel(os.path.join("template", "experimentSamples.Other.xlsx"),
+              sheet_name="lookup",
+              header=None
+        
+            )[0].values.tolist()
+
+        btype = []
+        stype = []
+        
+        for ibiosample in bioSampleType:
+            if ibiosample.strip() in immport_biosamples:
+                btype.append(ibiosample)
+                stype.append('')
+
+            else:
+                btype.append('Other')
+                stype.append(ibiosample)
+
+        ##
+
+        # print(len(experimentName), len(experimentReportingFormat),len(empty))
         experimentSamples_df = pd.DataFrame({
             'Column Name':empty,
             'Expsample ID': [f'PMID{PMID}_expSample-0{n+1}' for n in range(fillLen)],
@@ -902,16 +951,18 @@ def create_full(PMID):
             'Experiment ID':experimentID,
             'Reagent ID(s)':reagentID,
             'Treatment ID(s)':[f'PMID{PMID}_treatment' for n in range(fillLen)],
-            'Result File Name':['ExperimentalDataInStudyFilesTab.txt'] * fillLen,
+            'Result File Name': experiemntResultFileName, # This needs to be populated first and then we can populate 'Additional Result File Names'
             'Expsample Name':empty,
             'Expsample Description':[descriptions.get(k) for i, k in enumerate(experimentName)],
-            'Additional Result File Names':empty,
+            'Additional Result File Names':empty, #link additional file names here - seperate with a semi collon ';' ** 'Result File Name' needs to be populated first
             'Study ID':[STUDY.Study_Identifier]*fillLen,
             'Protocol ID(s)':[PROTOCOLS.Protocol_ID[1]]*fillLen,
             'Subject ID':subjectID,
             'Planned Visit ID':plannedVisitID,
-            'Type':['Other']*fillLen,
-            'Subtype':bioSampleType,
+            # 'Type':['Other']*fillLen,
+            'Type': btype,
+            # 'Subtype':bioSampleType,
+            'Subtype':stype,
             'Biosample Name':empty, ## WHAT SHOULD THIS BE
             'Biosample Description':empty,
             'Study Time Collected':studyTimeCollected,
@@ -1327,7 +1378,7 @@ def create_full(PMID):
             n += 1
             
             if SUBJECT_HUMAN.Measured_Behavioral_or_Psychological_Factor[n]:
-                print('Measured Behavioral or Psychological Factor') #MBPF
+                # print('Measured Behavioral or Psychological Factor') #MBPF
                 # updateObject(MBPF,SUBJECT_HUMAN,n, 'MBPF')
                 updateObject(MBPF,SUBJECT_HUMAN,n,'Measured Behavioral or Psychological Factor')
                 MBPF_df = makeAssessmentDF(SCS,STUDY,PMID,'MBPF')
@@ -1337,7 +1388,7 @@ def create_full(PMID):
                            sep = '\t')
                 
             if SUBJECT_HUMAN.Measured_Social_Factor[n]:
-                print('Measured_Social_Factor') #MSF
+                # print('Measured_Social_Factor') #MSF
                 # updateObject(MSF,SUBJECT_HUMAN,n, 'MSF')
                 updateObject(MSF,SUBJECT_HUMAN,n, 'Measured Social Factor')
                 MSF_df = makeAssessmentDF(SCS,STUDY,PMID,'MSF')
@@ -1348,7 +1399,7 @@ def create_full(PMID):
                 
                 
             if SUBJECT_HUMAN.SARS_CoV_2_Symptoms[n]:
-                print('SARS_CoV_2_Symptoms') #SCS
+                # print('SARS_CoV_2_Symptoms') #SCS
                 # updateObject(SCS,SUBJECT_HUMAN,n,'SCS')
                 updateObject(SCS,SUBJECT_HUMAN,n,'SARS CoV2 Symptoms')
                 SCS_df = makeAssessmentDF(SCS,STUDY,PMID,'SCS')
@@ -1358,7 +1409,7 @@ def create_full(PMID):
                            sep = '\t')
 
             if SUBJECT_HUMAN.SARS_CoV2_History[n]:
-                print('SARS_CoV2_History') #SCH
+                # print('SARS_CoV2_History') #SCH
                 # updateObject(SCH,SUBJECT_HUMAN,n,'SCH')
                 updateObject(SCH,SUBJECT_HUMAN,n,'SARS CoV2 History')
                 SCH_df = makeAssessmentDF(SCH,STUDY,PMID,'SCH')
@@ -1376,8 +1427,9 @@ def create_full(PMID):
 
 
     #######################################################
-    #####    POST: copy log + other files to folder   #####
+    #####      POST: copy log + JSON + move files     #####
     #######################################################
+    
 
     CD = os.getcwd()
     today = dt.datetime.today().strftime('%Y_%m_%d')
@@ -1400,3 +1452,23 @@ def create_full(PMID):
     for i in glob(os.path.join(OUT_DIR,"*.txt")):
         print(os.path.basename(i))
     os.remove(PATH_pmid_basic_stdy_template)
+
+    # while input('Can I clear the screen: (y/n)') != 'y':
+    #     time.sleep(1)
+    # os.system('clear')
+    print("\n\n\n\n\n")
+
+    # CREATING JSON
+    output_file = os.path.join(OUT_DIR, f'PMID{PMID}_JSON.{file_type}')
+    df = pd.read_excel(df_path, sheet_name = 0, header=None)
+    df.index += 1
+    template = {}
+    pt.parse_registry_template(df, template)
+
+    f = open(output_file, "w")
+    print(json.dumps(template, indent=4), file = f)
+    f.close()
+
+    ## CREATING SUGGESTIONS
+    cs.add_NLKsuggestions(OUT_DIR, file_type)
+
