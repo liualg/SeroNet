@@ -1,0 +1,68 @@
+,User Defined ID,Criterion,Criterion Category
+0,PMID35180044_inexcl-01,Geriatric subjects,Inclusion
+1,PMID35180044_inexcl-02,Pediatric subjects,Exclusion
+2,PMID35180044_inexcl-03,SARS-CoV-2 Antibodies Measured,Inclusion
+3,PMID35390296_inexcl-01,Geriatric subjects,inclusion
+4,PMID35390296_inexcl-02,Pediatric subjects,exclusion
+5,PMID35390296_inexcl-03,Pregnant subjects,exclusion
+6,PMID35390296_inexcl-04,SARS-CoV-2 Antibodies Measured,inclusion
+7,PMID35390296_inexcl-05,Multiple Myeloma patients,inclusion
+8,PMID34368647_inexcl-01,SARS-CoV-2 Antibodies Measured,inclusion
+9,PMID34368647_inexcl-02,Pediatric subjects,exclusion
+10,PMID34368647_inexcl-03,Pregnant subjects,exclusion
+11,PMID34368647_inexcl-04,Geriatric subjects,exclusion
+12,PMID35284808_inexcl-01,SARS-CoV-2 Antibodies Measured,inclusion
+13,PMID35284808_inexcl-02,SARS-COV-2 negative individuals,inclusion
+14,PMID35284808_inexcl-03,Pregnant subjects,exclusion
+15,PMID35284808_inexcl-04,Geriatric subjects,exclusion
+16,PMID35284808_inexcl-05,Pediatric subjects,exclusion
+17,PMID35284808_inexcl-06,Hepatitis B negative individuals,inclusion
+18,PMID35284808_inexcl-07,HIV negative individuals,inclusion
+19,PMID35284808_inexcl-08,Hepatitis C negative individuals,inclusion
+20,PMID35483404_inexcl-01,='[4]SeroNet Registry Template'!C88,inclusion
+21,PMID35483404_inexcl-02,='[4]SeroNet Registry Template'!D88,exclusion
+22,PMID35483404_inexcl-03,='[4]SeroNet Registry Template'!E88,exclusion
+23,PMID34546094_ie-01,Not specified,Inclusion
+24,PMID34250518_inexcl-01,SARS-CoV-2 Antibodies Measured,inclusion
+25,PMID34250518_inexcl-02,Pediatric subjects,exclusion
+26,PMID34320281_inexcl-01,SARS-CoV-2 Antibodies Measured,inclusion
+27,PMID34320281_inexcl-02,PMID34320281_inexcl-01,exclusion
+28,PMID34320281_inexcl-03,Geriatric subjects,inclusion
+29,PMID35085183_inexcl-01,Geriatric subjects,inclusion
+30,PMID35085183_inexcl-02,Pediatric subjects,exclusion
+31,PMID35085183_inexcl-03,Pregnant subjects,exclusion
+32,PMID35085183_inexcl-04,SARS-CoV-2 Antibodies Measured,inclusion
+33,PMID35085183_inexcl-05, Vaccinated  Solid Organ Transplant Recipients,inclusion
+34,PMID35061630_inexcl-01,Geriatric subjects,exclusion
+35,PMID35061630_inexcl-02,Pediatric subjects,exclusion
+36,PMID35704428_inexcl-01,Geriatric subjects,inclusion
+37,PMID35704428_inexcl-02,Pediatric subjects,exclusion
+38,PMID35704428_inexcl-03,Pregnant subjects,exclusion
+39,PMID35704428_inexcl-04,SARS-CoV-2 Antibodies Measured,inclusion
+40,PMID33688034_inexcl-01,SARS-CoV-2 Antibodies Measured,inclusion
+41,PMID35756977_inexcl-01,Confirmed COVID-19 infection,Inclusion
+42,PMID35756977_inexcl-02,Pediatric subjects,Inclusion
+43,PMID35756977_inexcl-03,SARS-CoV-2 Antibodies Measured,Inclusion
+44,PMID35756977_inexcl-04,Geriatric subjects,Inclusion
+45,PMID34150933_inexcl-01,SARS-CoV-2 Antibodies Measured,inclusion
+46,PMID35090596_inexcl-01,SARS-CoV-2 Antibodies Measured,inclusion
+47,PMID35090596_inexcl-02,Pediatric subjects,exclusion
+48,PMID35090596_inexcl-03,Pregnant subjects,exclusion
+49,PMID35090596_inexcl-04,Geriatric subjects,exclusion
+50,PMID35932763_inexcl-01,SARS-CoV-2 Antibodies Measured,inclusion
+51,PMID35932763_inexcl-02,Pediatric subjects,exclusion
+52,PMID35932763_inexcl-03,Pregnant subjects,exclusion
+53,PMID35932763_inexcl-04,Geriatric subjects,exclusion
+54,PMID35081612_ie-01,Other,Inclusion
+55,PMID34383889_inexcl-01,Geriatric subjects,inclusion
+56,PMID34383889_inexcl-02,Pediatric subjects,inclusion
+57,PMID34383889_inexcl-03,SARS-CoV-2 Antibodies Measured,inclusion
+58,PMID34383889_inexcl-04,Pregnant subjects,exclusion
+59,PMID36058184_inexcl-01,Not specified,Inclusion
+60,PMID35576468_inexcl-01,Geriatric subjects,inclusion
+61,PMID35576468_inexcl-02,Pediatric subjects,exclusion
+62,PMID35576468_inexcl-03,SARS-CoV-2 Antibodies Measured,inclusion
+63,PMID34308390_inexcl-01,Geriatric subjects,inclusion
+64,PMID34308390_inexcl-02,Pediatric subjects,exclusion
+65,PMID35881010_inexcl-01,SARS-CoV-2 Antibodies Measured,Inclusion
+66,PMID35881005_inexcl-01,zoonotic transmission ,Inclusion

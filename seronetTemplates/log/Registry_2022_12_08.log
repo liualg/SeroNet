@@ -1,6 +1,205 @@
-12/08/2022 08:05:01 PM Changing male | female to other
-12/08/2022 08:05:01 PM Changing male | female to other
-12/08/2022 08:05:01 PM Changing Race to other and moving data to Race Specify
-12/08/2022 08:05:01 PM Changing Race to other and moving data to Race Specify
-12/08/2022 08:05:01 PM Changing Ethnicity to Other
-12/08/2022 08:05:01 PM Changing Ethnicity to Other
+12/08/2022 11:37:03 PM Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+12/08/2022 11:37:03 PM NumExpr defaulting to 8 threads.
+12/08/2022 11:59:34 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/jedi/third_party/typeshed/stdlib/3/builtins.pyi
+12/08/2022 11:59:34 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/jedi/third_party/typeshed/stdlib/3/sys.pyi
+12/08/2022 11:59:34 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/typing.py
+12/08/2022 11:59:35 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/jedi/third_party/typeshed/stdlib/3/typing.pyi
+12/08/2022 11:59:44 PM diff parser start
+12/08/2022 11:59:44 PM line_lengths old: 1; new: 1
+12/08/2022 11:59:44 PM -> code[replace] old[1:1] new[1:1]
+12/08/2022 11:59:44 PM parse_part from 1 to 2 (to 0 in part parser)
+12/08/2022 11:59:44 PM diff parser end
+12/09/2022 02:56:26 PM diff parser start
+12/09/2022 02:56:26 PM line_lengths old: 1; new: 13
+12/09/2022 02:56:26 PM -> code[replace] old[1:1] new[1:13]
+12/09/2022 02:56:26 PM parse_part from 1 to 13 (to 12 in part parser)
+12/09/2022 02:56:26 PM diff parser end
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/__init__.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/core/reshape/concat.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/core/__init__.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/core/api.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/core/frame.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/_typing.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/core/generic.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/core/base.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/core/accessor.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/core/indexing.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/core/arraylike.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/core/series.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/_libs/__init__.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/core/dtypes/__init__.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/__init__.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/__init__.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/numeric.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/umath.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/numerictypes.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/fromnumeric.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/arrayprint.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/_asarray.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/_ufunc_config.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/records.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/memmap.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/function_base.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/machar.py
+12/09/2022 02:56:26 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/getlimits.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/shape_base.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/einsumfunc.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/__init__.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/type_check.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/index_tricks.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/function_base.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/nanfunctions.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/shape_base.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/stride_tricks.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/twodim_base.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/ufunclike.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/histograms.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/polynomial.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/utils.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/arraysetops.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/npyio.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/financial.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/arraypad.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/_version.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/matrixlib/__init__.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/matrixlib/defmatrix.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/types.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/jedi/third_party/typeshed/stdlib/3/types.pyi
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/_libs/tslibs/__init__.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/multiarray.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/core/indexes/__init__.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/core/indexes/api.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/core/indexes/base.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/abc.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/jedi/third_party/typeshed/stdlib/3/abc.pyi
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/core/indexes/range.py
+12/09/2022 02:56:27 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/core/indexes/numeric.py
+12/09/2022 02:56:38 PM diff parser start
+12/09/2022 02:56:38 PM line_lengths old: 13; new: 13
+12/09/2022 02:56:38 PM -> code[equal] old[1:12] new[1:12]
+12/09/2022 02:56:38 PM copy old[2:12] new[1:12]
+12/09/2022 02:56:38 PM -> code[replace] old[13:13] new[13:13]
+12/09/2022 02:56:38 PM parse_part from 13 to 13 (to 12 in part parser)
+12/09/2022 02:56:38 PM diff parser end
+12/09/2022 02:58:55 PM diff parser start
+12/09/2022 02:58:55 PM line_lengths old: 13; new: 13
+12/09/2022 02:58:55 PM -> code[equal] old[1:12] new[1:12]
+12/09/2022 02:58:55 PM copy old[2:12] new[1:12]
+12/09/2022 02:58:55 PM -> code[replace] old[13:13] new[13:13]
+12/09/2022 02:58:55 PM parse_part from 13 to 13 (to 12 in part parser)
+12/09/2022 02:58:55 PM diff parser end
+12/09/2022 02:59:39 PM diff parser start
+12/09/2022 02:59:39 PM line_lengths old: 13; new: 16
+12/09/2022 02:59:39 PM -> code[equal] old[1:12] new[1:12]
+12/09/2022 02:59:39 PM copy old[2:12] new[1:12]
+12/09/2022 02:59:39 PM -> code[replace] old[13:13] new[13:16]
+12/09/2022 02:59:39 PM parse_part from 13 to 16 (to 15 in part parser)
+12/09/2022 02:59:39 PM diff parser end
+12/09/2022 02:59:40 PM diff parser start
+12/09/2022 02:59:40 PM line_lengths old: 16; new: 16
+12/09/2022 02:59:40 PM -> code[equal] old[1:15] new[1:15]
+12/09/2022 02:59:40 PM copy old[2:15] new[1:15]
+12/09/2022 02:59:40 PM -> code[replace] old[16:16] new[16:16]
+12/09/2022 02:59:40 PM parse_part from 16 to 16 (to 15 in part parser)
+12/09/2022 02:59:40 PM diff parser end
+12/09/2022 02:59:48 PM diff parser start
+12/09/2022 02:59:48 PM line_lengths old: 16; new: 16
+12/09/2022 02:59:48 PM -> code[equal] old[1:15] new[1:15]
+12/09/2022 02:59:48 PM copy old[2:15] new[1:15]
+12/09/2022 02:59:48 PM -> code[replace] old[16:16] new[16:16]
+12/09/2022 02:59:48 PM parse_part from 16 to 16 (to 15 in part parser)
+12/09/2022 02:59:48 PM diff parser end
+12/09/2022 02:59:52 PM diff parser start
+12/09/2022 02:59:52 PM line_lengths old: 16; new: 16
+12/09/2022 02:59:52 PM -> code[equal] old[1:15] new[1:15]
+12/09/2022 02:59:52 PM copy old[2:15] new[1:15]
+12/09/2022 02:59:52 PM -> code[replace] old[16:16] new[16:16]
+12/09/2022 02:59:52 PM parse_part from 16 to 16 (to 15 in part parser)
+12/09/2022 02:59:52 PM diff parser end
+12/09/2022 03:01:21 PM diff parser start
+12/09/2022 03:01:21 PM line_lengths old: 16; new: 17
+12/09/2022 03:01:21 PM -> code[equal] old[1:15] new[1:15]
+12/09/2022 03:01:21 PM copy old[2:15] new[1:15]
+12/09/2022 03:01:21 PM -> code[replace] old[16:16] new[16:17]
+12/09/2022 03:01:21 PM parse_part from 16 to 17 (to 16 in part parser)
+12/09/2022 03:01:21 PM diff parser end
+12/09/2022 03:01:21 PM diff parser start
+12/09/2022 03:01:21 PM line_lengths old: 17; new: 17
+12/09/2022 03:01:21 PM -> code[equal] old[1:16] new[1:16]
+12/09/2022 03:01:21 PM copy old[2:16] new[1:16]
+12/09/2022 03:01:21 PM -> code[replace] old[17:17] new[17:17]
+12/09/2022 03:01:21 PM parse_part from 17 to 17 (to 16 in part parser)
+12/09/2022 03:01:21 PM diff parser end
+12/09/2022 03:01:41 PM diff parser start
+12/09/2022 03:01:41 PM line_lengths old: 17; new: 18
+12/09/2022 03:01:41 PM -> code[equal] old[1:16] new[1:16]
+12/09/2022 03:01:41 PM copy old[2:16] new[1:16]
+12/09/2022 03:01:41 PM -> code[replace] old[17:17] new[17:18]
+12/09/2022 03:01:41 PM parse_part from 17 to 18 (to 17 in part parser)
+12/09/2022 03:01:41 PM diff parser end
+12/09/2022 03:01:46 PM diff parser start
+12/09/2022 03:01:46 PM line_lengths old: 18; new: 18
+12/09/2022 03:01:46 PM -> code[equal] old[1:17] new[1:17]
+12/09/2022 03:01:46 PM copy old[2:17] new[1:17]
+12/09/2022 03:01:46 PM -> code[replace] old[18:18] new[18:18]
+12/09/2022 03:01:46 PM parse_part from 18 to 18 (to 17 in part parser)
+12/09/2022 03:01:46 PM diff parser end
+12/09/2022 03:11:55 PM diff parser start
+12/09/2022 03:11:55 PM line_lengths old: 18; new: 1
+12/09/2022 03:11:55 PM -> code[replace] old[1:18] new[1:1]
+12/09/2022 03:11:55 PM parse_part from 1 to 1 (to 0 in part parser)
+12/09/2022 03:11:55 PM diff parser end
+12/09/2022 03:12:00 PM diff parser start
+12/09/2022 03:12:00 PM line_lengths old: 1; new: 1
+12/09/2022 03:12:00 PM -> code[replace] old[1:1] new[1:1]
+12/09/2022 03:12:00 PM parse_part from 1 to 1 (to 0 in part parser)
+12/09/2022 03:12:00 PM diff parser end
+12/09/2022 03:12:00 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/openpyxl/worksheet/worksheet.py
+12/09/2022 03:12:00 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/openpyxl/__init__.py
+12/09/2022 03:12:00 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/openpyxl/workbook/__init__.py
+12/09/2022 03:12:00 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/openpyxl/workbook/child.py
+12/09/2022 03:12:02 PM diff parser start
+12/09/2022 03:12:02 PM line_lengths old: 1; new: 1
+12/09/2022 03:12:02 PM -> code[replace] old[1:1] new[1:1]
+12/09/2022 03:12:02 PM parse_part from 1 to 1 (to 0 in part parser)
+12/09/2022 03:12:02 PM diff parser end
+12/09/2022 03:12:04 PM diff parser start
+12/09/2022 03:12:04 PM line_lengths old: 1; new: 1
+12/09/2022 03:12:04 PM -> code[replace] old[1:1] new[1:1]
+12/09/2022 03:12:04 PM parse_part from 1 to 1 (to 0 in part parser)
+12/09/2022 03:12:04 PM diff parser end
+12/09/2022 03:27:52 PM diff parser start
+12/09/2022 03:27:52 PM line_lengths old: 1; new: 1
+12/09/2022 03:27:52 PM -> code[replace] old[1:1] new[1:1]
+12/09/2022 03:27:52 PM parse_part from 1 to 1 (to 0 in part parser)
+12/09/2022 03:27:52 PM diff parser end
+12/09/2022 03:27:55 PM diff parser start
+12/09/2022 03:27:55 PM line_lengths old: 1; new: 1
+12/09/2022 03:27:55 PM -> code[replace] old[1:1] new[1:1]
+12/09/2022 03:27:55 PM parse_part from 1 to 1 (to 0 in part parser)
+12/09/2022 03:27:55 PM diff parser end
+12/09/2022 03:27:58 PM diff parser start
+12/09/2022 03:27:58 PM line_lengths old: 1; new: 1
+12/09/2022 03:27:58 PM -> code[replace] old[1:1] new[1:1]
+12/09/2022 03:27:58 PM parse_part from 1 to 1 (to 0 in part parser)
+12/09/2022 03:27:58 PM diff parser end
+12/09/2022 03:28:00 PM diff parser start
+12/09/2022 03:28:00 PM line_lengths old: 1; new: 1
+12/09/2022 03:28:00 PM -> code[replace] old[1:1] new[1:1]
+12/09/2022 03:28:00 PM parse_part from 1 to 1 (to 0 in part parser)
+12/09/2022 03:28:00 PM diff parser end
+12/09/2022 03:28:04 PM diff parser start
+12/09/2022 03:28:04 PM line_lengths old: 1; new: 1
+12/09/2022 03:28:04 PM -> code[replace] old[1:1] new[1:1]
+12/09/2022 03:28:04 PM parse_part from 1 to 1 (to 0 in part parser)
+12/09/2022 03:28:04 PM diff parser end
+12/09/2022 03:57:58 PM diff parser start
+12/09/2022 03:57:58 PM line_lengths old: 1; new: 1
+12/09/2022 03:57:58 PM -> code[replace] old[1:1] new[1:1]
+12/09/2022 03:57:58 PM parse_part from 1 to 1 (to 0 in part parser)
+12/09/2022 03:57:58 PM diff parser end
+12/09/2022 03:58:01 PM diff parser start
+12/09/2022 03:58:01 PM line_lengths old: 1; new: 1
+12/09/2022 03:58:01 PM -> code[replace] old[1:1] new[1:1]
+12/09/2022 03:58:01 PM parse_part from 1 to 1 (to 0 in part parser)
+12/09/2022 03:58:01 PM diff parser end

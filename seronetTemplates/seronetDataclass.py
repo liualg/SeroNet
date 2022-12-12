@@ -234,8 +234,8 @@ class study_details(DataClassJsonMixin):
 
     def __post_init__(self):
         def get_correct_datetime(date_to_check):
-            if isinstance(date_to_check, str):
-                return dt.datetime.strptime(date_to_check, '%m/%d/%y %H:%M').strftime('%d/%B/%y')
+            if isinstance(date_to_check, str): #Elaine changed something, not sure what tbh 12-08-2022
+                return dt.datetime.strptime(date_to_check, '%m/%d/%y %H:%M').strftime('%d-%B-%y')
             else:
                 return date_to_check.strftime('%d-%b-%Y')
 

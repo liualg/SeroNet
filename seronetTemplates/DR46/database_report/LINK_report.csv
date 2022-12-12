@@ -1,0 +1,14 @@
+,Name,Value,PMID
+0,Gene Expression Omnibus (GEO),https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE186794,35483404
+1,Gene Expression Omnibus (GEO),https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE199272,35483404
+2,BioProject,https://www.ncbi.nlm.nih.gov/bioproject/?term=PRJNA744242,34546094
+3,SRA,https://www.ncbi.nlm.nih.gov/sra/?term=SRR14313077,34546094
+4,SRA,https://www.ncbi.nlm.nih.gov/sra/?term=SRR14313078,34546094
+5,GenBank,https://www.ncbi.nlm.nih.gov/nuccore/MN985325,33688034
+6,Github,https://github.com/boyercb/covid-gathering-size,36058184
+7,Metabolomics Workbench: Raw and analyzed data,https://doi.org/10.21228/M80981,34308390
+8,Machine Learning Analysis Code,https://github.com/e-stan/covid_19_analysis,34308390
+9,NCBI SRA (PRJNA806767),https://www.ncbi.nlm.nih.gov/bioproject/PRJNA806767,35881005
+10,NCBI SRA (PRJNA802993),https://www.ncbi.nlm.nih.gov/bioproject/PRJNA802993,35881005
+11,Zenodo ,https://zenodo.org/record/6585475#.Yvvjd3bMIuU,35881005
+12,Zenodo ,https://zenodo.org/record/6887187#.YvvkFHbMIuU,35881005

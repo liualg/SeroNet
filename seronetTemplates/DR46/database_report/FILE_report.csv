@@ -1,0 +1,129 @@
+,File Name,Description,Study File Type
+0,PMID35180044_Biologic vaccine study.xlsx,Individual level Multiplex Bead Array Assay data.,Study Data
+1,PMID35180044_v1.2.6.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+2,PMID35180044_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+3,PMID35390296_mmc1.pdf,Extended serology data and clinical characteristics of multiple myeloma patients and healthy donor controls,Study Data
+4,PMID35390296_Data.xlsx,"Subject level demographics and anti-SARS-CoV-2 3 spike (S) IgG antibody levels, SARS-CoV-2 specific CD4+ T cell responses, Neutralizing antibody ID50 level in MM patients and HD",Study Data
+5,PMID35390296_v1.2.4.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors. ,Study Summary Description
+6,PMID35390296_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+7,PMID34368647_mmc1.pdf,"Figures explain, distribution of antibody levels using Mount Sinai Spike ELISA, Kantaro Spike-ELISA and Abbott Architect NP ELISA",Study Data
+8,PMID34368647_Carreno et. al_demographics & Experiment values.xlsx,"Subject level demographics and distribution of antibody levels using RBD Kantaro,  Spike Kantaro and Abbott NP-ELISA",Study Data
+9,PMID34368647_2022-1-12 Longitudinal seroprevalence data.pzfx,GraphPad Prism file,Study Data
+10,PMID34368647_v1.2.4.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors. ,Study Summary Description
+11,PMID34368647_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+12,PMID35284808_mmc1.docx,"Figure S1: description, calculation of NT50 on day 1, 29 and 43 post vaccination",Study Data
+13,PMID35284808_mmc2.pdf,"Figures explaining NT50 values on day 1, 29 and 43 post vaccination",Study Data
+14,PMID35284808-data.xlsx,"Demographics, ELISA, Pseudovirus Neutralization Assay and ELISPOT experimental values",Study Data
+15,PMID35284808_v1.2.5.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors. ,Study Summary Description
+16,PMID35284808_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+17,PMID35483404_Supplementary Table 1.xlsx,Fold change comparison of uninfected lungs to 14dpi infected lungs is presented.,Study Data
+18,PMID35483404_Supplementary Table 2.xlsx,"Data for cluster identifying markers and markers associated with monocytes and macrophages in infected (4, 14 or 28dpi) or uninfected lungs of MISTRG6-hACE2 mice",Study Data
+19,PMID35483404_Supplementary Table 3.xlsx,Expression of human genes that are enriched in macrophages during SARS-Cov-2 infection and their response to anti-IFNAR2 and Remdesivir therapy,Study Data
+20,PMID35483404_Supplementary Table 4.xlsx,"Correlation values calculated for each gene for its correlation with CXCL10, TLR7, TNF, CXCL10, or TLR7, in human monocytes and macrophages at 4dpi",Study Data
+21,PMID35483404_Supplementary Table 5.xlsx,Patient specimens used for immunofluorescent (IF) staining.,Study Data
+22,PMID35483404_41586_2022_4802_MOESM8_ESM.xlsx,Data supporting Fig 1 including RNA-seq data uninfected lungs to 14dpi infected lungs.,Study Data
+23,PMID35483404_41586_2022_4802_MOESM9_ESM.xlsx,Data supporting Fig 2. Flow cytometry analysis for mNG positivity (%) in human macrophages and in mouse immune cells,Study Data
+24,PMID35483404_41586_2022_4802_MOESM10_ESM.xlsx,"Data supporting Fig 3. ELISA analysis for serum IL-1RA, Gasdermin D, CXCL10, IL-18 levels in mice and Pearson correlation value of each gene with CXCL10, TNF or TLR7",Study Data
+25,PMID35483404_41586_2022_4802_MOESM11_ESM.xlsx,"Data supporting Fig 4. Frequencies of mNG+ human immune cells, quantification of active caspase-1 in mNG+ human macrophages after inflammasome inhibition in mice and Serum IL-18, IL1RA, Gasdermin D levels measured by ELISA upon inflammasome activation and Histopathological score of mice lungs",Study Data
+26,PMID35483404_41586_2022_4802_MOESM12_ESM.xlsx,"Extended data for Fig 1. Number of human immune cells in BAL or lungs of SARS-CoV-2 infected mice treated with dexamethasone (Dex), Remdesivir (RDV), anti-IFNAR2 + Remdesivir (RDV) and anti-IFNAR2 and CTRL infected.",Study Data
+27,PMID35483404_41586_2022_4802_MOESM13_ESM.xlsx,Extended data for Fig 2. Expression values of genes that are commonly downregulated in 14dpi upon both dexamethasone (Dex) and anti-IFNAR+ Remdesivir (IR) treatment in mice,Study Data
+28,PMID35483404_41586_2022_4802_MOESM14_ESM.xlsx,"Extended data for Fig 3. Differentially expressed genes in monocytes and macropahges in lungs of infected (at 4dpi, 14dpi, 28 dpi) vs. uninfected mice",Study Data
+29,PMID35483404_41586_2022_4802_MOESM15_ESM.xlsx,"Extended data for Fig 4. Expression of interferon stimulated human genes quantfiied by qPCR in infected mice with SARS-CoV-2 (at 14 d.p.i. or 28 d.p.i) treated with dexamethasone (Dex), Remdesivir (RDV), anti-IFNAR2 + Remdesivir (RDV), anti-IFNAR2 and CTRL infected, uninfected mice",Study Data
+30,PMID35483404_41586_2022_4802_MOESM16_ESM.xlsx,"Extended data for Fig  5. Expression of IFNG quantfiied by qPCR, counts for AT1, AT2 cell renewal genes in response to therapeutics in treated (dexamethasone (Dex), Remdesivir (RDV), anti-IFNAR2 + Remdesivir ) and untreated infected mice",Study Data
+31,PMID35483404_41586_2022_4802_MOESM17_ESM.xlsx,"Extended data for Fig  6. Quantification of genomic and sub genomic viral RNA in lung homogenates of SARS-CoV-2 infected mice, infected mice upon anti-IFNAR+Remdesivir therapy, anti-IFNAR antibody and/ or Remdesivir therapy",Study Data
+32,PMID35483404_41586_2022_4802_MOESM18_ESM.xlsx,Extended data for Fig 8. Quantification of viral replication products in human lung macrophages from SARS-CoV-2 infected mice measured by immunofluorescence staining,Study Data
+33,PMID35483404_41586_2022_4802_MOESM19_ESM.xlsx,"Extended data for Fig 9. Quantification of Viral RdRp, Spike, human CD68 in human autopsy lungs with SARS-CoV-2 pneumonia or non-SARS-CoV-2 pneumonia",Study Data
+34,PMID35483404_41586_2022_4802_MOESM20_ESM.xlsx,"Extended data for Fig 10. Data for Neutralizing Antibody Titer Assay in Remdesivir treated or control lung homogenates, Flow Cytometry data for ACE2 expression , RNA sequencing data for Quantification of genomic (gRNA) and subgenomic (sgRNA) viral RNA.",Study Data
+35,PMID35483404_41586_2022_4802_MOESM21_ESM.xlsx,"Extended Data for Fig. 11. CXCL10 levels in supernantants of SARS-CoV-2 infected BM-macropahges (in vitro) and the Spearman correlation value of each gene with CXCL10, TNF or TLR7.",Study Data
+36,PMID35483404_41586_2022_4802_MOESM22_ESM.xlsx,Extended Data Fig. 12. Includes CXCL10 and TNF associated genes during the course of infection (Pearson and Spearman correlations) and Kmeans genes clusters for CXCL10.,Study Data
+37,PMID35483404_41586_2022_4802_MOESM23_ESM.xlsx,Extended Data Fig 13. SARS-CoV-2 infection of human macrophages activates inflammasomes and leads to death by pyroptosis in vivo and in vitro,Study Data
+38,PMID35483404_41586_2022_4802_MOESM24_ESM.xlsx,Extended Data Fig. 14. Promoting or blocking viral entry or replication in human macrophages in vivo and in vitro impacts inflammatory profile of macrophages,Study Data
+39,PMID35483404_41586_2022_4802_MOESM25_ESM.xlsx,Extended Data Fig. Blockade of inflammasome activation leads to reduced cytokine production in vitro.,Study Data
+40,PMID35483404_v1.2.3.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+41,PMID35483404_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+42,PMID34546094_All Data_04-21-22.xlsx,"Subject level Pseudovirus Neutralization Assay, ELISA, Chemiluminescent Assay, ELISPOT, Flow Cytometry, and PCR data supporting figures in the publication",Study data
+43,PMID34546094_NIHMS1757749-supplement-Supplemental_Figures.docx,"Supplementary data includes Antibodies used, Chemiluminescent Assay, heatmap, and  Flow Cytometry",Study data
+44,PMID34546094_v1.2.5.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+45,PMID34546094_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+46,PMID34250518_Lancet RegHealth.xlsx,"Subject level demographics, vaccination status, COVID-19 symptoms of the infected health care workers",Demographics
+47,PMID34250518_mmc1.docx,Demographic and clinical characteristics of infected HCW,Demographics
+48,PMID34250518_v1.2.5.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors. ,Study Summary Description
+49,PMID34250518_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+50,PMID34320281_NEJMoa2109072_appendix.pdf,"Epidemiological and clinical characteristics, prevalence of symptoms and clinical outcomes of HCW with a breakthrough infection",Study data
+51,PMID34320281_NEJM.xlsx,Subject level demographics and Neutralization titer values,Demographics
+52,PMID34320281_v1.2.5.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+53,PMID34320281_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+54,PMID35085183_sdc1.pdf,Figures of cytokine measurement in post vaccination SOTRs and healthy controls.,Study Data
+55,PMID35085183_data.xlsx,"Subject level demographics, Cytokine and chemokines measured in HCs and SOTR by Electrochemiluminescence detection",Demographics
+56,PMID35085183_v1.2.4.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+57,PMID35085183_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+58,PMID35061630_jci-132-156083-s058.pdf,Supplementary data includes ELISpot assay and T-cell receptor repertoire sequencing assay,Study Data
+59,PMID35061630_fig 1.B.csv,Subject level ELISpot assay data,Study Data
+60,PMID35061630_fig 1.C.csv,Subject level stimulation index data,Study Data
+61,PMID35061630_fig 1.E.csv,Subject level ELISpot assay data,Study Data
+62,PMID35061630_fig 1.F.csv,Subject level stimulation index data,Study Data
+63,PMID35061630_supp fig 1.A.csv,Subject level ELISpot assay data,Study Data
+64,PMID35061630_supp fig 1.B.csv,Subject level ELISpot assay data,Study Data
+65,PMID35061630_supp fig 1.C.csv,Subject level stimulation index data,Study Data
+66,PMID35061630_supp fig 1.D.csv,ELISpot assay data,Study Data
+67,PMID35061630_supp fig 1.E.csv,ELISpot assay data,Study Data
+68,PMID35061630_supp fig 1.F.csv,ELISpot assay data,Study Data
+69,PMID35061630_fig 2.csv,Subject level Flow cytmetry data,Study Data
+70,PMID35061630_fig 3.A and supp fig 3.A.xlsx,TCR-Seq data,Study Data
+71,PMID35061630_fig 3.B and supp fig 2.B  3.B.xlsx,Subject level T cell receptor repertoire sequencing assay data,Study Data
+72,PMID35061630_fig 3.C and supp fig 2.A  3.C.xlsx,Subject level T cell receptor repertoire sequencing assay data,Study Data
+73,PMID35061630_v1.2.3.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+74,PMID35061630_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+75,PMID35704428_nejmc2206725_appendix.pdf,Supplementary methods for Pseudovirus Neutralization Assays,Study Data
+76,PMID35704428_data.xlsx,Subject level Pseudovirus Neutralization Assays data supporting figures in the publication,Study Data
+77,PMID35704428_v1.2.4.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+78,PMID35704428_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+79,PMID33688034_pnas.2026153118.sapp.pdf,"Extended serology data and description of ELISPOT, Flow cytometry, ELISA, plaque reduction neutralization and Immunohistochemistry assays",Study Data
+80,PMID33688034_v1.2.5.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+81,PMID33688034_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+82,PMID35756977_mmc1.docx,"Severe clinical outcomes and characteristics of persons hospitalized after SARS-CoV-2 infection in Northern California during Omicron SARS-CoV-2 variant (December 18, 2021-January 7, 2022) and Delta SARS-CoV-2 variant (July 5, 2021-November 30, 2021) transmission",Study Data
+83,PMID35756977_Omicron_manuscript_220928_Tables.docx,"Severe clinical outcomes and characteristics of persons hospitalized after SARS-CoV-2 infection in Northern California during Omicron SARS-CoV-2 variant (December 18, 2021-January 7, 2022) and Delta SARS-CoV-2 variant (July 5, 2021-November 30, 2021) transmission",Study Data
+84,PMID35756977_v1.2.6.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors. ,Study Summary Description
+85,PMID35756977_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+86,PMID34150933_SDS-PAGE-01.jpg,SDS-PAGE analysis of purified spike RBD proteins.,Study Data
+87,PMID34150933_v1.2.5.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors. ,Study Summary Description
+88,PMID34150933_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+89,PMID35090596_mmc1.pdf,"Figures explain analysis of SARS-CoV-2 serostatus of health care workers, analysis of number of symptoms and types of symptoms reported after vaccination",Study Data
+90,PMID35090596_Narowski_etal_CellReports_2022_1.xlsx,"Experimental values for ELISA, Neutralizing Antibody Titer Assay and Multiplex Immunoassay",Study Data
+91,PMID35090596_Narowski_etal_CellReports_2022_2.xlsx,Subject demographics,Demographics
+92,PMID35090596_Narowski_etal_CellReports_2022_3.xls,Vaccine symptoms in subjects,Adverse Events
+93,PMID35090596_v1.2.5.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+94,PMID35090596_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+95,PMID35932763_mmc1.pdf,"Extended serology data and figures of ELISA, Flow cytometry",Study Data
+96,PMID35932763_CCC_ICS.xlsx,Intra cellular staining (ICS) T cell assay values,Study Data
+97,PMID35932763_SeroNet-HCoV-serology-data-Sep22-2022.xlsx,ELISA assay values-Serology data,Study Data
+98,PMID35932763_Copy of CCC_AIM.xlsx,Activation induced cell marker (AIM) T cell assay values and demographic data,Demographics
+99,PMID35932763_v1.2.5.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors. ,Study Summary Description
+100,PMID35932763_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+101,PMID35081612_web_material_kwac015.docx,Figures explains about Vaccine efficacy,Study Data
+102,PMID35081612_v1.2.6.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors. ,Study Summary Description
+103,PMID35081612_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+104,PMID34383889_suppl_supplementary_materials.pdf,"Extended serology data, laboratory analyses includes qRT-PCR, lateral flow immunoassay, ELISA and comorbidities of the study participants,  demographics of household contacts based on infection status",Study Data
+105,PMID34383889_Index Cases_SeroNet.xls,"Subject level demographics, assessment results for ELISA, Lateral Flow Assay and RT-PCR for Index cases",Study Data
+106,PMID34383889_HouseholdContacts_SeroNet.xls,Subject level demographics for Household contacts,Demographics
+107,PMID34383889_v1.2.5.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.,Study Summary Description
+108,PMID34383889_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+109,PMID36058184_mmc1.pdf,"Additional theory, sensitivity analyses, and figures showing the dynamics of different variables in the model  ",Study Data
+110,PMID36058184_v1.2.6.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors. ,Study Summary Description
+111,PMID36058184_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+112,PMID35576468_sapp.pdf,"Supplementary materials and methods, SARS-CoV-2 infection fatality rates for individuals, and tables containing information on various combinations of auto-Abs neutralizing different concentrations of type I IFNs",Study Data
+113,PMID35576468_PNAS_AABS_Manry_data-sharing_final.xlsx,Individual and aggregated demographics and SARS-CoV-2 infection fatality rates,Study Data
+114,PMID35576468_v1.2.4.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors. ,Study Summary Description
+115,PMID35576468_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+116,PMID34308390_mmc1.pdf,"Supplemental figures and tables containing human demographic information, metabolic profiles. Also contains information on Syrian hamster model selection, and composite clinical scores for the animals.",Study Data
+117,PMID34308390_v1.2.6.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+118,PMID34308390_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+119,PMID35881010_science.abp8715_sm.pdf,"Materials and methods, translations and urls for relevant articles and reports, business registry screen shots, geographical information, sample information",Study Data
+120,PMID35881010_v1.2.5.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+121,PMID35881010_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description
+122,PMID35881005_science.abp8337_sm.pdf,"Materials and Methods, Figures S1 to S31, Tables S1 to S15 and References 67 – 110",Study Data
+123,PMID35881005_science.abp8337_sm_data_s1.tsv,List of GISAID accession ID of near-full-length genomes and metadata ,Study Data
+124,PMID35881005_science.abp8337_sm_data_s2.tsv,List of GISAID accession ID of near-full-length genomes and metadata ,Study Data
+125,PMID35881005_science.abp8337_sm_data_s3.xlsx,Posterior probabilities of inferred ancestral haplotype at the MRCA of SARS-CoV-2,Study Data
+126,PMID35881005_v1.2.5.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+127,PMID35881005_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,JSON Summary Description

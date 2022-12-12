@@ -1,0 +1,73 @@
+,User Defined ID,Name,Description,Type Reported
+0,PMID35180044_human_subject-01,Adults with severe asthma or atopic dermatitis,"Adults with severe asthma or atopic dermatitis treated with benralizumab, mepolizumab, or dupilumab",Observational
+1,PMID35180044_human_subject-02,Healthy adults,Healthy Adults,Observational
+2,PMID35390296_human_subject-01,Vaccinated Multiple Myeloma patients,"Multiple myeloma patients who received Pfizer-BioNTech or Moderna vaccination (N=476). Out of 476, 124 patients infected with Covid-19.",Vaccination | Treatment Arm
+3,PMID35390296_human_subject-02,Vaccinated healthcare workers,"Age-matched vaccinated healthcare workers received Pfizer-BioNTech or Moderna vaccination (N=45). Out of 45, 20 health care workers infected with Covid-19.",Vaccination
+4,PMID34368647_human_subject-01,Front line health care workers,"Serum samples collected from 501 health care workers in phase 1 and 178 of 501 participants provided a second serum sample in phase 2. Out of 501, 104 participants with pre Covid-19 infection",Observational
+5,PMID35284808_human_subject-01,Subjects received NDV-HXP-S (1 mg),Subjects received 0.5 ml intramuscular injection of NDV-HXP-S (1 mg) on day 1 and 29 (N=35),Vaccination
+6,PMID35284808_human_subject-02,Subjects received NDV-HXP-S (1 mg) + 1.5 mg CpG1018 adjuvant,Subjects received 0.5 ml intramuscular injection of NDV-HXP-S (1 mg) + 1.5 mg CpG1018 adjuvant on day 1 and 29 (N=35),Vaccination
+7,PMID35284808_human_subject-03,Subjects received NDV-HXP-S (3 mg),Subjects received 0.5 ml intramuscular injection of NDV-HXP-S (3 mg) on day 1 and 29 (N=35),Vaccination
+8,PMID35284808_human_subject-04,Subjects received NDV-HXP-S (3 mg) + 1.5 mg CpG1018 adjuvant,Subjects received 0.5 ml intramuscular injection of NDV-HXP-S (3 mg) + 1.5 mg CpG1018 adjuvant on day 1 and 29 (N=35),Vaccination
+9,PMID35284808_human_subject-05,Subjects received NDV-HXP-S (10 mg),Subjects received 0.5 ml intramuscular injection of NDV-HXP-S (10 mg) on day 1 and 29 (N=35),Vaccination
+10,PMID35284808_human_subject-06,Subjects received placebo,Subjects received saline placebo on day 1 and 29 (N=35),Placebo Comparator Arm
+11,PMID35483404_human_subject-01,COVID-19 infected lungs,human autopsy lungs with SARS-CoV-2 pneumonia,Observational
+12,PMID35483404_human_subject-02,control lungs,human autopsy lungs with non-SARS-CoV-2 pneumonia,Observational
+13,PMID35483404_organism_subject-01,Uninfected MISTRG6-hACE2 mice,MISTRG6-hACE2 mice transplanted  with human CD34+ haematopoietic progenitor cells - uninfected,Negative Control
+14,PMID35483404_organism_subject-02,COVID-19 infected MISTRG6-hACE2 mice,MISTRG6-hACE2 mice transplanted  with human CD34+ haematopoietic progenitor cells - infected with COVID-19,Experimental Arm
+15,PMID35483404_organism_subject-03,COVID-19 mNG infected MISTRG6-hACE2 mice,MISTRG6-hACE2 mice transplanted  with human CD34+ haematopoietic progenitor cells -  infected with COVID-19-mNG reporter strain,Experimental Arm
+16,PMID34546094_organism_subject-01,"Group 1, Animals Infected with WA1/2020 rechallenged with WA1/2020 (N=6)","Group 1, Animals Infected with WA1/2020 rechallenged with WA1/2020 on day 35, n=6",Experimental Arm
+17,PMID34546094_organism_subject-02,"Group 2, Animals Infected with WA1/2020  rechallenged with B.1.1.7 (N=6)","Group 2, Animals Infected with WA1/2020 rechallenged with B.1.1.7 on day 35, n=6",Experimental Arm
+18,PMID34546094_organism_subject-03,"Group 3, Animals Infected with WA1/2020  rechallenged with B.1.351 (N=6)","Group 3,  Animals Infected with WA1/2020  rechallenged with B.1.351  on day 35, n=6",Experimental Arm
+19,PMID34546094_organism_subject-04,"Group 4, positive controls","Group 4, Naïve animals, challenged with B.1.351, n=3",Positive control
+20,PMID34250518_human_subject-01,Unvaccinated health care workers,"Unvaccinated health care workers (N= 1441), 163 of 1441 are with COVID-19 infection",Observational
+21,PMID34250518_human_subject-02,Early vaccinated health care workers,"Early vaccinated health care workers (N=490), 42 of 490 are with COVID-19 infection",Observational
+22,PMID34250518_human_subject-03,Partially vaccinated health care workers,"Partially vaccinated health care workers (N= 1442), 50 of 1442 are with COVID-19 infection",Observational
+23,PMID34250518_human_subject-04,Fully vaccinated health care workers,"Fully vaccinated health care workers (N=1300), 31 of 1300 are with COVID-19 infection",Observational
+24,PMID34320281_human_subject-01,Breakthrough infection cases,"Health care workers with COVID-19 breakthrough infection, received 2 doses of BNT162b2 vaccination (N=22)",Vaccination
+25,PMID34320281_human_subject-02,Matched controls,Matched controls received 2 doses of BNT162b2 vaccination (N=104),Healthy Control
+26,PMID35085183_human_subject-01,SOTRs with 2-dose of mRNA vaccine,"Solid organ transplant recipients, who received two-doses of mRNA vaccine series (N=58)",Observational
+27,PMID35085183_human_subject-02,SOTRs with 3-dose of mRNA vaccine,"Solid organ transplant recipients, who received three doses of vaccination (N=38)",Observational
+28,PMID35085183_human_subject-03,Healthy controls,Healthy controls (N=16),Healthy Control
+29,PMID35061630_human_subject-01,COVID-19 convalescent individuals,Vaccinated study participants who had tested positive for SARS-CoV-2 in the past,Observational
+30,PMID35061630_human_subject-02,vaccine recipients,Vaccinated individuals that never tested positive for SARS-CoV-2,Observational
+31,PMID35704428_human_subject-01,Health care workers 2 doses vaccin,Health care workers 2 doses vaccine,Active Comparator Arm
+32,PMID35704428_human_subject-02,Health Care workers 3 doses vaccin,Health Care workers 3 doses vaccine,Active Comparator Arm
+33,PMID35704428_human_subject-03,Patients in ICU during Delta wave,Patients in ICU during Delta wave,Active Comparator Arm
+34,PMID35704428_human_subject-04,Hospitalized patients during Omicron wave,Hospitalized patients during Omicron wave,Active Comparator Arm
+35,PMID33688034_human_subject-01,SARS-CoV-2 positive individuals,Serum sample collected from 6 COVID-19 positive patients,Observational
+36,PMID33688034_organism_subject-02,"Group 1 Cotton rats inoculated with PBS, rMeV vaccine strain.","Cotton rats (4 weeks old) subcutaneously inoculated with PBS, 4*105 PFU of parental rMeV vaccine strain and after 4 weeks boosted with 2×106 PFU of rMeV (N=5).",Vaccination
+37,PMID33688034_organism_subject-03,"Group 2 Cotton rats inoculated with PBS, rMeV-S vaccine strain.","Cotton rats  (4 weeks old) subcutaneously inoculated with PBS, 4*105 PFU of rMeV-S vaccine strain and after 4 weeks boosted with  2×106 PFU of rMeV-S (N=5).",Vaccination
+38,PMID33688034_organism_subject-04,"Group 3 Cotton rats inoculated with  PBS, rMeV-preS vaccine strain.","Cotton rats  (4 weeks old) subcutaneously inoculated with PBS, 4*105 PFU of rMeV-preS vaccine strain and after 4 weeks boosted with  2×106 PFU of rMeV-preS (N=5).",Vaccination
+39,PMID33688034_organism_subject-05,"Group 4 Cotton rats inoculated with PBS, rMeV-S1 vaccine strain.",Cotton rats  (4 weeks old) subcutaneously inoculated with 4*105 PFU of rMeV-S1 vaccine strain and after 4 weeks boosted with  2×106 PFU of rMeV-S1 (N=5).,Vaccination
+40,PMID33688034_organism_subject-06,Group 5 Cotton rats inoculated with rMeV-RBD1 vaccine strain.,"Cotton rats  (4 weeks old) subcutaneously inoculated with PBS, 4*105 PFU of rMeV-RBD1 vaccine strain and after 4 weeks boosted with  2×106 PFU of rMeV-RBD1 (N=5).",Vaccination
+41,PMID33688034_organism_subject-07,"Group 6 Cotton rats inoculated with PBS, rMeV-RBD2  vaccine strain.","Cotton rats  (4 weeks old) subcutaneously inoculated with PBS, 4*105 PFU of rMeV-RBD2 vaccine strain and after 4 weeks boosted with  2×106 PFU of rMeV-RBD2 (N=5).",Vaccination
+42,PMID33688034_organism_subject-08,Group 7 Cotton rats inoculated with rMeV-RBD3  vaccine strain.,Cotton rats  (4 weeks old) subcutaneously inoculated with 4*105 PFU of rMeV-RBD3 vaccine strain and after 4 weeks boosted with  2×106 PFU of rMeV-RBD3 (N=5).,Vaccination
+43,PMID33688034_organism_subject-09,Group 1 IFNAR-/- -hCD46 transgenic mice immunized with rMeV,IFNAR-/- -hCD46 transgenic mice (4 weeks old) immunized with 8×105 PFU (half subcutaneous and half intranasal) of parental rMeV and after 2 weeks mice were boosted with 6×105 PFU of rMeV (N= 5 or 6),Vaccination
+44,PMID33688034_organism_subject-10,Group 2 IFNAR-/- -hCD46 transgenic mice immunized with rMeV-preS,IFNAR-/- -hCD46 transgenic mice (4 weeks old) immunized with 8×105 PFU (half subcutaneous and half intranasal) of parental rMeV-preS  and after 2 weeks mice were boosted with 6×105 PFU of rMeV-preS (N= 5 or 6),Vaccination
+45,PMID33688034_organism_subject-11,Group 3 IFNAR-/- -hCD46 transgenic mice immunized with rMeV-S1,IFNAR-/- -hCD46 transgenic mice (4 weeks old) immunized with 8×105 PFU (half subcutaneous and half intranasal) of parental rMeV-S1 and after 2 weeks mice were boosted with 6×105 PFU of rMeV-S1  (N= 5 or 6),Vaccination
+46,PMID33688034_organism_subject-12,Group 4 Normal control group,Group 4 Normal control IFNAR-/- -hCD46 transgenic mice (N= 5 or 6),Healthy Control
+47,PMID33688034_organism_subject-13,Group 1 IFNAR-/- mice immunized with rMeV-preS,IFNAR-/-  mice (4 weeks old) immunized with 8×105 PFU (half subcutaneous and half intranasal) of rMeV-preS (N=5 or 6),Vaccination
+48,PMID33688034_organism_subject-14,Group 2 IFNAR-/- mice immunized with rMeV-preS and booster,IFNAR-/- mice (4 weeks old) immunized with 8×105 PFU (half subcutaneous and half intranasal) of rMeV-preS and after 4 weeks boosted with 8×105 PFU of rMeV-preS (N=5 or 6),Vaccination
+49,PMID33688034_organism_subject-15,Group 3 IFNAR-/- mice immunized with rMeV as controls,IFNAR-/- mice (4 weeks old) immunized with 8×105 PFU (half subcutaneous and half intranasal) of rMeV and served as controls (N= 5 or 6),Vaccination
+50,PMID33688034_organism_subject-16,Group 1 Golden Syrian hamsters immunized with rMeV-preS,"Golden Syrian hamsters 4 weeks old, immunized with 8×105 PFU of rMeV-preS (subcutaneous and intranasal routes), after 3 weeks hamsters boosted with rMeV-preS. (N=10)",Vaccination
+51,PMID33688034_organism_subject-17,Group 2 Golden Syrian hamsters immunized with rMeV-S1,"Golden Syrian hamsters, 4 weeks old, immunized with 8×105 PFU of rMeV-S1 (subcutaneous and intranasal routes), after 3 weeks hamsters boosted with rMeV-S1. (N=10)",Vaccination
+52,PMID33688034_organism_subject-18,Group 3 Golden Syrian hamsters immunized with parental rMeV,"Golden Syrian hamsters, 4 weeks old, immunized with 8×105 PFU of rMeV-S1 (subcutaneous and intranasal routes), after 3 weeks hamsters boosted with rMeV-S1. (N=10)",Vaccination
+53,PMID33688034_organism_subject-19,Group 4 Golden Syrian hamsters received PBS,Golden Syrian hamsters inoculated with DMEM and served as unimmunized unchallenged controls (n=10),Vaccination
+54,PMID35756977_human_subject-01,Persons with SARS-CoV-2 infection during Omicron variant period,"Individuals infected by SARS-CoV-2 Omicron variant (N= 48,101)",Observational
+55,PMID35756977_human_subject-02,Persons with SARS-CoV-2 infection during Delta variant period,"Individuals infected by  SARS-CoV-2 Delta variant (N= 69,977)",Observational
+56,PMID34150933_organism_subject-01,Mammalian cells (Expi293 cells),Expression and purification of properly folded RBD proteins from SARS and common-cold HCoVs in mammalian cells,Experimental Arm
+57,PMID35090596_human_subject-01,Health care workers,Health care workers (N=237). 161 of 237 participants received Pfizer-BioNTech mRNA vaccine (BNT162b2) and 7 participants received Moderna mRNA-1273 vaccine. 26 of 237 participants had mild SARS-CoV-2 infection,Vaccination
+58,PMID35932763_human_subject-01,Donors from Bordetella Pertussis observational study,Donors from Bordetella Pertussis observational study (N=32),Observational
+59,PMID35081612_human_subject-01,Network model simulation,"Network model simulation (N=20,000)",Observational
+60,PMID34383889_human_subject-01,Index Cases,Covid-19 positive Index cases were enrolled in the study (N=91),Observational
+61,PMID34383889_human_subject-02,Household Contacts,"Household contacts of the Index cases (N=176), 73 of 176 participants with Covid-19 infection",Observational
+62,PMID36058184_human_subject-01,CNS and BBC pandemic model,"Participants are from two primary sources of pre-pandemic period: the BBC Pandemic study (BBC) and the Copenhagen Networks Study (CNS) (N=113,253‬)",No Intervention Arm
+63,PMID35576468_human_subject-01,Deceased parients,"Patients who died from COVID-19 (n=1,261)",Observational
+64,PMID35576468_human_subject-02,Control subjects,"Individuals from the general population whose samples were collected before the pandemic (N=34,159)",Observational
+65,PMID34308390_human_subject-01,Patients with SARS-CoV-2 positive,Humans with PCR positive SARS-CoV-2 results (n = 272),Experimental Arm
+66,PMID34308390_human_subject-02,Patients with SARS-CoV-2 negative,Humans with PCR negative SARS-CoV-2 results (n = 67),Experimental Arm
+67,PMID34308390_organism_subject-01,Syrian hamster: SARS-CoV-2 positive,Syrian hamster infected through intranasal inoculation of SARS-CoV-2 (n = 3–6 per group) ,Experimental Arm
+68,PMID34308390_organism_subject-02,Syrian hamster: Influenza Positive,Syrian hamster infected through intranasal inoculation of influenza virus(n = 3–6 per group) ,Experimental Arm
+69,PMID34308390_organism_subject-03,Syrian hamster: Mock infection,Syrian hamster infected through intranasal inoculation of saline solution (mock) (n = 3–6 per group) ,Experimental Arm
+70,PMID35881010_human_subject-01,People infected with Covid-19,People part of the initial outbreak of COVID-19,Observational
+71,PMID35881005_organism_subject-01,High-coverage SARS-CoV-2 genomes,"Complete high-coverage SARS-CoV-2 genomes collected from GISAID database, GenBank, and National Genomics Data Center of the China National Center for Bioinformatics (CNCB)",No Intervention Arm
