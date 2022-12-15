@@ -1,0 +1,505 @@
+{
+    "pubmed_id": 34308390,
+    "study_identifier": "PMID34308390_study-01",
+    "study_name": "Longitudinal metabolomics of human plasma reveals prognostic markers of COVID-19 disease severity",
+    "publication_title": "Longitudinal metabolomics of human plasma reveals prognostic markers of COVID-19 disease severity",
+    "study_objective": "To find metabolic alterations that are predictive of disease severity in SARS-CoV-2-positive individuals",
+    "study_description": "There is an urgent need to identify which COVID-19 patients will develop life-threatening illness so that med- ical resources can be optimally allocated and rapid treatment can be administered early in the disease course, when clinical management is most effective. To aid in the prognostic classification of disease severity, we perform untargeted metabolomics on plasma from 339 patients, with samples collected at six longitudinal time points. Using the temporal metabolic profiles and machine learning, we build a predictive model of disease severity. We discover that a panel of metabolites measured at the time of study entry suc- cessfully determines disease severity. Through analysis of longitudinal samples, we confirm that most of these markers are directly related to disease progression and that their levels return to baseline upon disease recovery. Finally, we validate that these metabolites are also altered in a hamster model of COVID-19.",
+    "primary_institution_name": "Washington University in St. Louis",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID34308390_personnel-01",
+            "honorific": "",
+            "last_name": "Garc\u00eda-Sastre",
+            "first_name": "Adolfo",
+            "suffixes": "",
+            "organization": "Mount Sinai School of Medicine",
+            "orchid_id": "",
+            "email": "Adolfo.Garcia-Sastre@mssm.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Mount Sinai School of Medicine"
+        },
+        {
+            "personnel_id": "PMID34308390_personnel-02",
+            "honorific": "",
+            "last_name": "Patti",
+            "first_name": "Gary",
+            "suffixes": "",
+            "organization": "Washington University in St. Louis",
+            "orchid_id": "",
+            "email": "gjpattij@wustl.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Washington University in St. Louis"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID34308390_mmc1.pdf",
+            "study_file_description": "Supplemental figures and tables containing human demographic information, metabolic profiles. Also contains information on Syrian hamster model selection, and composite clinical scores for the animals.",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID34308390_v1.2.6.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "PMID34308390_JSON.json",
+            "study_file_description": "JSON format of completed curation of the study into SeroNet Registry Template",
+            "study_file_type": "\u200bJSON\u00a0Summary Description"
+        }
+    ],
+    "study_link": [
+        {
+            "link_name": "Metabolomics Workbench: Raw and analyzed data",
+            "value": "https://doi.org/10.21228/M80981"
+        },
+        {
+            "link_name": "Machine Learning Analysis Code",
+            "value": "https://github.com/e-stan/covid_19_analysis"
+        }
+    ],
+    "research_focus": "Immune Response",
+    "study_type": "Clinical Research",
+    "keyword": [
+        "COVID-19",
+        "SARS-CoV-2",
+        "biomarker",
+        "lipidomics",
+        "longitudinal metabolite profiling",
+        "machine learning",
+        "metabolomics",
+        "severity prediction",
+        "untargeted metabolomics"
+    ],
+    "clinical_study_design": "Longitudinal Study",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID34308390_protocol-01",
+        "protocol_file_name": "PMID34308390_protocol-01.txt",
+        "protocol_name": "PMID34308390_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19",
+        "SARS-CoV-2 Wuhan/2020",
+        "SARS-CoV-2"
+    ],
+    "sars_cov_2_vaccine_type": [
+        ""
+    ],
+    "clinical_outcome_measure": "Metabolic alterations that are predictive of disease severity in SARS-CoV-2-positive individuals",
+    "enrollment_start_date": "2020-03-01",
+    "enrollment_end_date": "2020-08-31",
+    "number_of_study_subjects": 341,
+    "age_unit": "Years",
+    "minimum_age": 18,
+    "maximum_age": 77,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID34308390_human_subject-01",
+            "arm_name": "Patients with SARS-CoV-2 positive",
+            "study_population_description": "Humans with PCR positive SARS-CoV-2 results (n = 272)",
+            "arm_type": "Experimental Arm",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Black or African American",
+                "White",
+                "Other Race"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male",
+                "Female"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [
+                "assessment_recorded_pv"
+            ],
+            "study_location": [
+                ""
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [
+                "Directly Measured"
+            ],
+            "assessment_demographic_data_types_collected": [
+                "Gender"
+            ],
+            "sars_cov_2_history": [
+                ""
+            ],
+            "sars_cov_2_vaccine_type": [
+                ""
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34308390_human_subject-02",
+            "arm_name": "Patients with SARS-CoV-2 negative",
+            "study_population_description": "Humans with PCR negative SARS-CoV-2 results (n = 67)",
+            "arm_type": "Experimental Arm",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Black or African American",
+                "White",
+                "Other Race"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male",
+                "Female"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [
+                "assessment_recorded_pv"
+            ],
+            "study_location": [
+                ""
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [
+                "Directly Measured"
+            ],
+            "assessment_demographic_data_types_collected": [
+                "Gender"
+            ],
+            "sars_cov_2_history": [
+                ""
+            ],
+            "sars_cov_2_vaccine_type": [
+                ""
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [
+        {
+            "arm_id": "PMID34308390_organism_subject-01",
+            "arm_name": "Syrian hamster: SARS-CoV-2 positive",
+            "study_population_description": "Syrian hamster infected through intranasal inoculation of SARS-CoV-2 (n = 3\u20136 per group)",
+            "arm_type": "Experimental Arm",
+            "genus_and_species": [
+                "Mesocricetus auratus"
+            ],
+            "biosample_type": [
+                "Animal"
+            ],
+            "strain_characteristics": [],
+            "sex_at_birth": [
+                "Female"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: New York"
+            ],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "n/a"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34308390_organism_subject-02",
+            "arm_name": "Syrian hamster: Influenza Positive",
+            "study_population_description": "Syrian hamster infected through intranasal inoculation of influenza virus(n = 3\u20136 per group)",
+            "arm_type": "Experimental Arm",
+            "genus_and_species": [
+                "Mesocricetus auratus"
+            ],
+            "biosample_type": [
+                "Animal"
+            ],
+            "strain_characteristics": [],
+            "sex_at_birth": [
+                "Female"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: New York"
+            ],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "n/a"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34308390_organism_subject-03",
+            "arm_name": "Syrian hamster: Mock infection",
+            "study_population_description": "Syrian hamster infected through intranasal inoculation of saline solution (mock) (n = 3\u20136 per group)",
+            "arm_type": "Experimental Arm",
+            "genus_and_species": [
+                "Mesocricetus auratus"
+            ],
+            "biosample_type": [
+                "Animal"
+            ],
+            "strain_characteristics": [],
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: New York"
+            ],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "n/a"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        }
+    ],
+    "planned_visit": [
+        {
+            "visit_id": "PMID34308390_pv-01",
+            "visit_name": "Nasopharyngeal swab for polymerase chain reaction; Initial Blood Draw - Human",
+            "visit_order_number": 1,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34308390_pv-07",
+            "visit_name": "Plasma harvested 2 days post infection - Syrian hamster",
+            "visit_order_number": 2,
+            "visit_min_start_day": 2,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34308390_pv-02",
+            "visit_name": "Blood drawn 3 days post initial draw - Human",
+            "visit_order_number": 3,
+            "visit_min_start_day": 3,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34308390_pv-08",
+            "visit_name": "Plasma harvested 4 days post infection - Syrian hamster",
+            "visit_order_number": 4,
+            "visit_min_start_day": 4,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34308390_pv-09",
+            "visit_name": "Plasma harvested 6 days post infection - Syrian hamster",
+            "visit_order_number": 5,
+            "visit_min_start_day": 6,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34308390_pv-03",
+            "visit_name": "Blood drawn 7 days post initial draw - Human",
+            "visit_order_number": 6,
+            "visit_min_start_day": 7,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34308390_pv-04",
+            "visit_name": "Blood drawn 14 days post initial draw - Human",
+            "visit_order_number": 7,
+            "visit_min_start_day": 14,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34308390_pv-05",
+            "visit_name": "Blood Drawn 28 days after inital draw in both Human and Syrian hamster",
+            "visit_order_number": 8,
+            "visit_min_start_day": 28,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34308390_pv-06",
+            "visit_name": "Blood drawn 84 days post initial draw - Human",
+            "visit_order_number": 9,
+            "visit_min_start_day": 84,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID34308390_human_subject-01 | PMID34308390_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34308390_pv-01"
+            ],
+            "assay_type": "PCR",
+            "experiment_name": "PCR",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Nasal Swab"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        }
+    ],
+    "geriatric_subjects": "Yes",
+    "pediatric_subjects": "No",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "Not Specified",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID34308390_inexcl-01",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34308390_inexcl-02",
+            "inclusion_criterion": "Pediatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        }
+    ],
+    "status_note": "Data at study and cohort level, Individual level data sharing requirement is waived by SeroNet for this study.",
+    "suggestions": [
+        "",
+        "339",
+        "administered",
+        "aid",
+        "allocated",
+        "also",
+        "alterations",
+        "altered",
+        "analysis",
+        "baseline",
+        "biomarker",
+        "build",
+        "cessfully",
+        "classification",
+        "clinical",
+        "collected",
+        "confirm",
+        "course",
+        "covid-19",
+        "determines",
+        "develop",
+        "directly",
+        "discover",
+        "disease",
+        "early",
+        "effective",
+        "entry",
+        "finally",
+        "find",
+        "geriatric",
+        "hamster",
+        "human",
+        "ical",
+        "identify",
+        "illness",
+        "immune",
+        "individuals",
+        "learning",
+        "levels",
+        "life-threatening",
+        "lipidomics",
+        "longitudinal",
+        "longitudinal metabolite profiling",
+        "louis",
+        "machine",
+        "machine learning",
+        "management",
+        "markers",
+        "measured",
+        "med-",
+        "metabolic",
+        "metabolites",
+        "metabolomics",
+        "model",
+        "need",
+        "optimally",
+        "panel",
+        "patients",
+        "pediatric",
+        "perform",
+        "plasma",
+        "points",
+        "predictive",
+        "profiles",
+        "prognostic",
+        "progression",
+        "rapid",
+        "recovery",
+        "related",
+        "research",
+        "resources",
+        "response",
+        "return",
+        "reveals",
+        "samples",
+        "sars-cov-2",
+        "sars-cov-2 wuhan/2020",
+        "sars-cov-2-positive",
+        "severity",
+        "severity prediction",
+        "six",
+        "st.",
+        "study",
+        "subjects",
+        "suc-",
+        "temporal",
+        "time",
+        "treatment",
+        "university",
+        "untargeted",
+        "untargeted metabolomics",
+        "upon",
+        "urgent",
+        "using",
+        "validate",
+        "washington"
+    ]
+}

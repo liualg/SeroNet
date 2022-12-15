@@ -1,0 +1,550 @@
+{
+    "pubmed_id": 33961839,
+    "study_identifier": "PMID33961839_study-01",
+    "study_name": "Tissue-based SARS-CoV-2 detection in fatal COVID-19 infections: Sustained direct viral-induced damage is not necessary to drive disease progression",
+    "publication_title": "Tissue-based SARS-CoV-2 detection in fatal COVID-19 infections: Sustained direct viral-induced damage is not necessary to drive disease progression",
+    "study_objective": "To better define the tissue distribution of SARS-CoV-2 in fatal cases of COVID-19 using protein and RNA detection assays.",
+    "study_description": "Coronavirus disease 2019 (COVID-19) is an ongoing pandemic caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Although viral infection is known to trigger inflammatory processes contributing to tissue injury and organ failure, it is unclear whether direct viral damage is needed to sustain cellular injury. An understanding of pathogenic mechanisms has been handicapped by the absence of optimized methods to visualize the presence and distribution of SARS-CoV-2 in damaged tissues. We first developed a positive control cell line (Vero E6) to validate SARS-CoV-2 detection assays. We then evaluated multiple organs (lungs, kidneys, heart, liver, brain, intestines, lymph nodes, and spleen) from fourteen COVID-19 autopsy cases using immunohistochemistry (IHC) for the spike and the nucleoprotein proteins, and RNA in situ hybridization (RNA ISH) for the spike protein mRNA. Tissue detection assays were compared with quantitative polymerase chain reaction (qPCR)-based detection. SARS-CoV-2 was histologically detected in the Vero E6 positive cell line control, 1 of 14 (7%) lungs, and none (0%) of the other 59 organs. There was perfect concordance between the IHC and RNA ISH results. qPCR confirmed high viral load in the SARS-CoV-2 ISH-positive lung tissue, and absent or low viral load in all ISH-negative tissues. In patients who die of COVID-19-related organ failure, SARS-CoV-2 is largely not detectable using tissue-based assays. Even in lungs showing widespread injury, SARS-CoV-2 viral RNA or proteins were detected in only a small minority of cases. This observation supports the concept that viral infection is primarily a trigger for multiple-organ pathogenic proinflammatory responses. Direct viral tissue damage is a transient phenomenon that is generally not sustained throughout disease progression.",
+    "primary_institution_name": "Icahn School of Medicine at Mount Sinai",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID33961839_personnel-01",
+            "honorific": "",
+            "last_name": "Cordon-Cardo",
+            "first_name": "Carlos",
+            "suffixes": "",
+            "organization": "Icahn School of Medicine at Mount Sinai",
+            "orchid_id": "",
+            "email": "carlos.cordon-cardo@mssm.edu",
+            "seronet_title_in_study": "SeroNet Principal Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Icahn School of Medicine at Mount Sinai"
+        },
+        {
+            "personnel_id": "PMID33961839_personnel-02",
+            "honorific": "",
+            "last_name": "Westra",
+            "first_name": "William",
+            "suffixes": "",
+            "organization": "Icahn School of Medicine at Mount Sinai",
+            "orchid_id": "",
+            "email": "william.westra@mountsinai.org",
+            "seronet_title_in_study": "Corresponding Author",
+            "role_in_study": "Corresponding Author",
+            "site_name": "Icahn School of Medicine at Mount Sinai"
+        },
+        {
+            "personnel_id": "PMID33961839_personnel-03",
+            "honorific": "",
+            "last_name": "El Jamal",
+            "first_name": "Siraj",
+            "suffixes": "",
+            "organization": "Icahn School of Medicine at Mount Sinai",
+            "orchid_id": "",
+            "email": "siraj.eljamal@mountsinai.org",
+            "seronet_title_in_study": "Corresponding Author",
+            "role_in_study": "Corresponding Author",
+            "site_name": "Icahn School of Medicine at Mount Sinai"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID33961839_Table1-with-ethnicity.xlsx",
+            "study_file_description": "Patient demographic and clinical information.",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID33961839_Table2.xlsx",
+            "study_file_description": "Summary of major pathologic findings at autopsy.",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID33961839_Table3-modified.xlsx",
+            "study_file_description": "Detection of SARS-CoV-2 using RT-PCR, immunohistochemistry, or in situ hybridization.",
+            "study_file_type": "Demographics"
+        },
+        {
+            "study_file_name": "PMID33961839_v1.2.5_reviewed.xlsx",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "PMID33961839_JSON.json",
+            "study_file_description": "JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "Study Summary Description"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Immune Response",
+    "study_type": "Basic Research",
+    "keyword": [
+        "COVID-19",
+        "Diffuse alveolar damage",
+        "ucleoprotein",
+        "RNA in situ hybridization",
+        "SARS-CoV-2",
+        "Spike protein."
+    ],
+    "clinical_study_design": "Prospective Cohort",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID33961839_protocol-01",
+        "protocol_file_name": "PMID33961839_protocol-01.txt",
+        "protocol_name": "PMID33961839_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19",
+        "SARS-CoV-2 Wuhan/2020"
+    ],
+    "sars_cov_2_vaccine_type": [],
+    "clinical_outcome_measure": "Not Applicable",
+    "enrollment_start_date": "",
+    "enrollment_end_date": "",
+    "number_of_study_subjects": 14,
+    "age_unit": "Years",
+    "minimum_age": 32,
+    "maximum_age": 94,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID33961839_aoc-01",
+            "arm_name": "COVID-19 patients, deceased",
+            "study_population_description": "COVID-19 patients, deceased (n =14)",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male",
+                "Female"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                ""
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                ""
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Severe"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [
+        {
+            "arm_id": "PMID33961839_aoc-02",
+            "arm_name": "Vero E6 cells",
+            "study_population_description": "Vero E6 cells",
+            "arm_type": "Observational",
+            "genus_and_species": [
+                "Chlorocebus sabaeus"
+            ],
+            "biosample_type": [
+                "Cell Line"
+            ],
+            "strain_characteristics": [],
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: New York"
+            ],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Unknown"
+            ],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        }
+    ],
+    "planned_visit": [
+        {
+            "visit_id": "PMID33961839_pv-01",
+            "visit_name": "Autopsy specimen- Lung",
+            "visit_order_number": 1,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID33961839_pv-02",
+            "visit_name": "Autopsy specimen- Spleen",
+            "visit_order_number": 2,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID33961839_pv-03",
+            "visit_name": "Autopsy specimen- Lymph Nodes",
+            "visit_order_number": 3,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID33961839_pv-04",
+            "visit_name": "Autopsy specimen- Heart",
+            "visit_order_number": 4,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID33961839_pv-05",
+            "visit_name": "Autopsy specimen- Kideny",
+            "visit_order_number": 5,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID33961839_pv-06",
+            "visit_name": "Autopsy specimen- Liver",
+            "visit_order_number": 6,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID33961839_pv-07",
+            "visit_name": "Autopsy specimen- Gastrointestinal",
+            "visit_order_number": 7,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID33961839_pv-08",
+            "visit_name": "Autopsy specimen- Brain",
+            "visit_order_number": 8,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID33961839_pv-09",
+            "visit_name": "Vero E6 cells",
+            "visit_order_number": 9,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID33961839_assessment_recorded_pv",
+            "visit_name": "Visit where an assessment is recorded",
+            "visit_order_number": 10,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID33961839_aoc-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33961839_pv-01 | PMID33961839_pv-02 | PMID33961839_pv-03 | PMID33961839_pv-04 | PMID33961839_pv-05 | PMID33961839_pv-06 | PMID33961839_pv-07 | PMID33961839_pv-08 | PMID33961839_pv-09"
+            ],
+            "assay_type": "PCR",
+            "experiment_name": "PCR",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Nasal Swab"
+            ],
+            "biospecimen_collection_point": [
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID33961839_aoc-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33961839_pv-01 | PMID33961839_pv-02 | PMID33961839_pv-03 | PMID33961839_pv-04 | PMID33961839_pv-05 | PMID33961839_pv-06 | PMID33961839_pv-07 | PMID33961839_pv-08 | PMID33961839_pv-09"
+            ],
+            "assay_type": "Immunohistochemistry",
+            "experiment_name": "Immunohistochemistry",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Other tissue (sorted)"
+            ],
+            "biospecimen_collection_point": [
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2 Wuhan / 2020"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID33961839_aoc-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33961839_pv-01 | PMID33961839_pv-02 | PMID33961839_pv-03 | PMID33961839_pv-04 | PMID33961839_pv-05 | PMID33961839_pv-06 | PMID33961839_pv-07 | PMID33961839_pv-08 | PMID33961839_pv-09"
+            ],
+            "assay_type": "In situ hybridization",
+            "experiment_name": "In situ hybridization",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Other tissue (sorted)"
+            ],
+            "biospecimen_collection_point": [
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "Advanced Cell Diagnostics",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID33961839_aoc-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33961839_pv-01 | PMID33961839_pv-02 | PMID33961839_pv-03 | PMID33961839_pv-04 | PMID33961839_pv-05 | PMID33961839_pv-06 | PMID33961839_pv-07 | PMID33961839_pv-08 | PMID33961839_pv-09"
+            ],
+            "assay_type": "Chemiluminescent Assay",
+            "experiment_name": "Immunofluorescence",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Other tissue (sorted)"
+            ],
+            "biospecimen_collection_point": [
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [
+                "Nucleocapsid"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        }
+    ],
+    "geriatric_subjects": "Yes",
+    "pediatric_subjects": "Not Specified",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "Not Specified",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID33961839_ie_01",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "inclusion"
+        }
+    ],
+    "status_note": "Data at individual level available.",
+    "suggestions": [
+        "-based",
+        "2019",
+        "absence",
+        "absent",
+        "acute",
+        "although",
+        "applicable",
+        "assays",
+        "autopsy",
+        "basic",
+        "better",
+        "brain",
+        "cases",
+        "caused",
+        "cell",
+        "cellular",
+        "chain",
+        "cohort",
+        "compared",
+        "concept",
+        "concordance",
+        "confirmed",
+        "contributing",
+        "control",
+        "coronavirus",
+        "covid-19",
+        "covid-19-related",
+        "damage",
+        "damaged",
+        "define",
+        "detectable",
+        "detected",
+        "detection",
+        "developed",
+        "die",
+        "diffuse alveolar damage",
+        "direct",
+        "disease",
+        "distribution",
+        "drive",
+        "evaluated",
+        "even",
+        "failure",
+        "fatal",
+        "first",
+        "fourteen",
+        "generally",
+        "geriatric",
+        "handicapped",
+        "heart",
+        "high",
+        "histologically",
+        "hybridization",
+        "icahn",
+        "ihc",
+        "immune",
+        "immunohistochemistry",
+        "infection",
+        "infections",
+        "inflammatory",
+        "injury",
+        "intestines",
+        "ish",
+        "ish-negative",
+        "ish-positive",
+        "kidneys",
+        "known",
+        "largely",
+        "line",
+        "liver",
+        "load",
+        "low",
+        "lung",
+        "lungs",
+        "lymph",
+        "mechanisms",
+        "medicine",
+        "methods",
+        "minority",
+        "mount",
+        "mrna",
+        "multiple",
+        "multiple-organ",
+        "necessary",
+        "needed",
+        "nodes",
+        "none",
+        "nucleoprotein",
+        "observation",
+        "ongoing",
+        "optimized",
+        "organ",
+        "organs",
+        "pandemic",
+        "pathogenic",
+        "patients",
+        "perfect",
+        "phenomenon",
+        "polymerase",
+        "positive",
+        "presence",
+        "primarily",
+        "processes",
+        "progression",
+        "proinflammatory",
+        "prospective",
+        "protein",
+        "proteins",
+        "qpcr",
+        "quantitative",
+        "reaction",
+        "research",
+        "respiratory",
+        "response",
+        "responses",
+        "results",
+        "rna",
+        "rna in situ hybridization",
+        "sars-cov-2",
+        "sars-cov-2 wuhan/2020",
+        "school",
+        "severe",
+        "showing",
+        "sinai",
+        "situ",
+        "small",
+        "spike",
+        "spike protein.",
+        "spleen",
+        "subjects",
+        "supports",
+        "sustain",
+        "sustained",
+        "syndrome",
+        "throughout",
+        "tissue",
+        "tissue-based",
+        "tissues",
+        "transient",
+        "trigger",
+        "ucleoprotein",
+        "unclear",
+        "understanding",
+        "using",
+        "validate",
+        "vero",
+        "viral",
+        "viral-induced",
+        "visualize",
+        "whether",
+        "widespread"
+    ]
+}

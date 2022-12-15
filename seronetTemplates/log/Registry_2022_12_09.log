@@ -132,3 +132,60 @@
 12/12/2022 01:22:56 AM -> code[replace] old[1:2] new[1:1]
 12/12/2022 01:22:56 AM parse_part from 1 to 1 (to 0 in part parser)
 12/12/2022 01:22:56 AM diff parser end
+12/12/2022 02:55:20 PM diff parser start
+12/12/2022 02:55:20 PM line_lengths old: 1; new: 1
+12/12/2022 02:55:20 PM -> code[replace] old[1:1] new[1:1]
+12/12/2022 02:55:20 PM parse_part from 1 to 1 (to 0 in part parser)
+12/12/2022 02:55:20 PM diff parser end
+12/12/2022 02:55:28 PM diff parser start
+12/12/2022 02:55:28 PM line_lengths old: 1; new: 1
+12/12/2022 02:55:28 PM -> code[replace] old[1:1] new[1:1]
+12/12/2022 02:55:28 PM parse_part from 1 to 1 (to 0 in part parser)
+12/12/2022 02:55:28 PM diff parser end
+12/12/2022 02:55:36 PM diff parser start
+12/12/2022 02:55:36 PM line_lengths old: 1; new: 1
+12/12/2022 02:55:36 PM -> code[replace] old[1:1] new[1:1]
+12/12/2022 02:55:36 PM parse_part from 1 to 1 (to 0 in part parser)
+12/12/2022 02:55:36 PM diff parser end
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/core/common.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/pandas/_libs/__init__.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/__init__.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/__init__.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/numeric.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/umath.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/numerictypes.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/fromnumeric.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/arrayprint.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/_asarray.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/_ufunc_config.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/records.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/memmap.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/function_base.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/machar.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/getlimits.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/shape_base.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/core/einsumfunc.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/__init__.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/type_check.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/index_tricks.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/function_base.py
+12/12/2022 02:55:36 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/nanfunctions.py
+12/12/2022 02:55:37 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/shape_base.py
+12/12/2022 02:55:37 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/stride_tricks.py
+12/12/2022 02:55:37 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/twodim_base.py
+12/12/2022 02:55:37 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/ufunclike.py
+12/12/2022 02:55:37 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/histograms.py
+12/12/2022 02:55:37 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/polynomial.py
+12/12/2022 02:55:37 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/utils.py
+12/12/2022 02:55:37 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/arraysetops.py
+12/12/2022 02:55:37 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/npyio.py
+12/12/2022 02:55:37 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/financial.py
+12/12/2022 02:55:37 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/arraypad.py
+12/12/2022 02:55:37 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/_version.py
+12/12/2022 02:55:37 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/matrixlib/__init__.py
+12/12/2022 02:55:37 PM pickle loaded: /Users/liualg/opt/anaconda3/lib/python3.9/site-packages/numpy/matrixlib/defmatrix.py
+12/12/2022 02:55:49 PM diff parser start
+12/12/2022 02:55:49 PM line_lengths old: 1; new: 1
+12/12/2022 02:55:49 PM -> code[replace] old[1:1] new[1:1]
+12/12/2022 02:55:49 PM parse_part from 1 to 1 (to 0 in part parser)
+12/12/2022 02:55:49 PM diff parser end

@@ -119,6 +119,8 @@ ANTIBODY_ISOTYPE = 160
 REPORTING_UNITS = 161
 ASSAY_REPORTING_FORMAT = 162
 
+STATUS_NOTE = 165
+
 ## loading workbooks and data
 
 json_seronet_dict = pd.read_excel("./dictionary/Facetdict.xlsx",
@@ -194,12 +196,32 @@ def get_closest_lookup(word, lookup_table, table_name):
 
         elif len(check_list) > 1:
             check_list.sort(key=lambda a: a[1], reverse=True)
-            print(f'\n\n######  ACTION REQUIRED ###### \nDesignate replacement word for: {word}')
+            print(f'\n\n######  ACTION REQUIRED ###### \n[{table_name}]Designate replacement word for: {word}')
             print('Top three choices:')
             for top3 in check_list[:3]:
                 print(top3)
             # print(check_list)
-            closest_lookup = check_list[int(input(f'Designate replacement word for {word}: '))-1][0]
+
+            user_resp = input(f'[{table_name}] Designate replacement word for {word}: ')
+            try:
+                user_resp = int(user_resp)
+            except:
+
+                while not isinstance(user_resp, int):
+                    print('\n*** Please use a number to designate word you want substituted ***\n\t-OR type more or more options\n\t-OR type exit')
+                    try:
+                        user_resp = input(f'[{table_name}] Designate replacement word for {word}: ')
+                        user_resp = int(user_resp)
+                    except:
+                        user_resp = str(user_resp)
+                    
+                    if user_resp == 'more':
+                        for top3 in check_list:
+                            print(top3)
+                    if user_resp == 'exit':
+                        break
+
+            closest_lookup = check_list[int(user_resp)-1][0]
 
         else:
             pass
@@ -295,6 +317,7 @@ def parse_registry_template(df, template):
     parse_planned_visit(df, template)
     parse_experiment(df, template)
     parse_inclusion_exclusion(df, template)
+    parse_status_note(df, template)
 
 
 def parse_pubmed(df, template):
@@ -400,7 +423,7 @@ def parse_study_categorization(df, template):
     #
     # Study Type
     #
-    template['study_type'] = check_spelling(parse_clean_sv(df, STUDY_TYPE, 2), 'study_type')
+    template['study_type'] = replace_na(check_spelling(parse_clean_sv(df, STUDY_TYPE, 2), 'study_type'))
 
     #
     # Keywords 
@@ -696,3 +719,9 @@ def parse_experiment(df, template):
             pass
                                                                                  
     template['experiment'] = experiment
+
+
+def parse_status_note(df, template):
+    """Parse the single valued pubmed_id"""
+
+    template['status_note'] = parse_sv(df, STATUS_NOTE, 2)

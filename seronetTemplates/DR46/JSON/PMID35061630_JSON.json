@@ -1,0 +1,518 @@
+{
+    "pubmed_id": 35061630,
+    "study_identifier": "PMID35061630_study-01",
+    "study_name": "CD4+ T cells from COVID-19 mRNA vaccine recipients recognize a conserved epitope present in diverse coronaviruses",
+    "publication_title": "CD4+ T cells from COVID-19 mRNA vaccine recipients recognize a conserved epitope present in diverse coronaviruses",
+    "study_objective": "To test the hypothesis that the current mRNA vaccines elicit T cell responses that can cross-recognize bat coronaviruses and thus might induce some protection against potential zoonotic outbreaks.",
+    "study_description": "Recent studies have shown that vaccinated individuals harbor T cells that can cross-recognize SARS-CoV-2 and endemic human common cold coronaviruses. However, it is still unknown whether CD4+ T cells from vaccinated individuals recognize peptides from bat coronaviruses that may have the potential of causing future pandemics. In this study, we identified a SARS-CoV-2 spike protein epitope (S815-827) that is conserved in coronaviruses from different genera and subgenera, including SARS-CoV, MERS-CoV, multiple bat coronaviruses, and a feline coronavirus. Our results showed that S815-827 was recognized by 42% of vaccinated participants in our study who received the Pfizer-BioNTech (BNT162b2) or Moderna (mRNA-1273) COVID-19 vaccines. Using T cell expansion and T cell receptor sequencing assays, we demonstrated that S815-827-reactive CD4+ T cells from the majority of responders cross-recognized homologous peptides from at least 6 other diverse coronaviruses. Our results support the hypothesis that the current mRNA vaccines elicit T cell responses that can cross-recognize bat coronaviruses and thus might induce some protection against potential zoonotic outbreaks. Furthermore, our data provide important insights that inform the development of T cell\u2013based pan-coronavirus vaccine strategies.",
+    "primary_institution_name": "Johns Hopkins University",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID35061630_personnel-01",
+            "honorific": "",
+            "last_name": "Smith",
+            "first_name": "Kellie",
+            "suffixes": "",
+            "organization": "Johns Hopkins University",
+            "orchid_id": "",
+            "email": "kellie@JHMI.EDU",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Johns Hopkins University"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID35061630_jci-132-156083-s058.pdf",
+            "study_file_description": "Supplementary data includes ELISpot assay and T-cell receptor repertoire sequencing assay",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35061630_fig 1.B.csv",
+            "study_file_description": "Subject level ELISpot assay data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35061630_fig 1.C.csv",
+            "study_file_description": "Subject level stimulation index data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35061630_fig 1.E.csv",
+            "study_file_description": "Subject level ELISpot assay data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35061630_fig 1.F.csv",
+            "study_file_description": "Subject level stimulation index data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35061630_supp fig 1.A.csv",
+            "study_file_description": "Subject level ELISpot assay data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35061630_supp fig 1.B.csv",
+            "study_file_description": "Subject level ELISpot assay data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35061630_supp fig 1.C.csv",
+            "study_file_description": "Subject level stimulation index data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35061630_supp fig 1.D.csv",
+            "study_file_description": "ELISpot assay data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35061630_supp fig 1.E.csv",
+            "study_file_description": "ELISpot assay data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35061630_supp fig 1.F.csv",
+            "study_file_description": "ELISpot assay data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35061630_fig 2.csv",
+            "study_file_description": "Subject level Flow cytmetry data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35061630_fig 3.A and supp fig 3.A.xlsx",
+            "study_file_description": "TCR-Seq data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35061630_fig 3.B and supp fig 2.B  3.B.xlsx",
+            "study_file_description": "Subject level T cell receptor repertoire sequencing assay data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35061630_fig 3.C and supp fig 2.A  3.C.xlsx",
+            "study_file_description": "Subject level T cell receptor repertoire sequencing assay data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35061630_v1.2.3.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "PMID35061630_JSON.json",
+            "study_file_description": "JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "JSON Summary Description"
+        },
+        {
+            "study_file_name": "PMID35061630_Supplemental Table for Figure 1.xlsx",
+            "study_file_description": "Sequence alignment for S815-827 between SARS-CoV-2 and SARS-related coronaviruses.",
+            "study_file_type": "Study Data"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Infection Response",
+    "study_type": "Clinical Research",
+    "keyword": [
+        "COVID-19",
+        "Adaptive immunity"
+    ],
+    "clinical_study_design": "Cross-sectional Study",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID35061630_protocol-01",
+        "protocol_file_name": "PMID35061630_protocol-01.txt",
+        "protocol_name": "PMID35061630_protocol-01",
+        "protocol_description": "Study protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "Pfizer-BioNTech SARS-CoV-2 vaccine",
+        "Moderna SARS-CoV-2 vaccine"
+    ],
+    "clinical_outcome_measure": "The pecentage of vaccinated participants in the cohort that mounted T cell responses to the conserved spike epitope S815-827.",
+    "enrollment_start_date": "2021-01-06",
+    "enrollment_end_date": "2021-01-08",
+    "number_of_study_subjects": 38,
+    "age_unit": "Years",
+    "minimum_age": 21,
+    "maximum_age": 60,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID35061630_human_subject-01",
+            "arm_name": "COVID-19 convalescent individuals",
+            "study_population_description": "Vaccinated study participants who had tested positive for SARS-CoV-2 in the past",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                ""
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "",
+                ""
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Pfizer BioNTech COVID-19 vaccine; VO:0004987",
+                "Moderna COVID-19 vaccine; VO:0005157"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35061630_human_subject-02",
+            "arm_name": "vaccine recipients",
+            "study_population_description": "Vaccinated individuals that never tested positive for SARS-CoV-2",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                ""
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                ""
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Pfizer BioNTech COVID-19 vaccine; VO:0004987",
+                "Moderna COVID-19 vaccine; VO:0005157"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID35061630_visit-01",
+            "visit_name": "Drawing blood",
+            "visit_order_number": 1,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": 92,
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID35061630_human_subject-01, PMID35061630_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35061630_visit-01"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Antibody response evaluation",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Blood",
+                "Peripheral Blood Mononuclear Cell (PBMC)"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "S2"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [
+                "MERS-CoV",
+                "SARS-CoV-2",
+                "HIV-1",
+                "other coronaviruses"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID35061630_human_subject-01, PMID35061630_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35061630_visit-01"
+            ],
+            "assay_type": "ELISPOT",
+            "experiment_name": "ELISpot Pro and ELISpot Plus",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Blood",
+                "Peripheral Blood Mononuclear Cell (PBMC)"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "S2"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [
+                "MERS-CoV",
+                "SARS-CoV-2",
+                "HIV-1",
+                "other coronaviruses"
+            ],
+            "antibody_isotype": [],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID35061630_human_subject-01, PMID35061630_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35061630_visit-01"
+            ],
+            "assay_type": "Flow Cytometry",
+            "experiment_name": "Flow cytometry",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Blood",
+                "Peripheral Blood Mononuclear Cell (PBMC)"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID35061630_human_subject-01, PMID35061630_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35061630_visit-01"
+            ],
+            "assay_type": "T cell receptor repertoire sequencing assay",
+            "experiment_name": "TCR-Seq of DNA extracted from cultured CD4+ T cells",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Blood",
+                "Peripheral Blood Mononuclear Cell (PBMC)"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID35061630_human_subject-01, PMID35061630_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35061630_visit-01"
+            ],
+            "assay_type": "T cell receptor repertoire sequencing assay",
+            "experiment_name": "HLA haplotyping",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Blood",
+                "Peripheral Blood Mononuclear Cell (PBMC)"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        }
+    ],
+    "geriatric_subjects": "No",
+    "pediatric_subjects": "No",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "Not Specified",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID35061630_inexcl-01",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35061630_inexcl-02",
+            "inclusion_criterion": "Pediatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        }
+    ],
+    "status_note": "Data at individual level available.",
+    "suggestions": [
+        "adaptive immunity",
+        "assays",
+        "bat",
+        "bnt162b2",
+        "causing",
+        "cd4+",
+        "cell",
+        "cells",
+        "cell\u2013based",
+        "clinical",
+        "cohort",
+        "cold",
+        "common",
+        "conserved",
+        "coronavirus",
+        "coronaviruses",
+        "covid-19",
+        "cross-recognize",
+        "cross-recognized",
+        "cross-sectional",
+        "current",
+        "data",
+        "demonstrated",
+        "development",
+        "different",
+        "diverse",
+        "elicit",
+        "endemic",
+        "epitope",
+        "expansion",
+        "feline",
+        "furthermore",
+        "future",
+        "genera",
+        "geriatric",
+        "harbor",
+        "homologous",
+        "hopkins",
+        "however",
+        "human",
+        "hypothesis",
+        "identified",
+        "important",
+        "including",
+        "individuals",
+        "induce",
+        "infection",
+        "inform",
+        "insights",
+        "johns",
+        "least",
+        "majority",
+        "may",
+        "mers-cov",
+        "might",
+        "moderna",
+        "moderna sars-cov-2 vaccine",
+        "mounted",
+        "mrna",
+        "mrna-1273",
+        "multiple",
+        "outbreaks",
+        "pan-coronavirus",
+        "pandemics",
+        "participants",
+        "pecentage",
+        "pediatric",
+        "peptides",
+        "pfizer-biontech",
+        "pfizer-biontech sars-cov-2 vaccine",
+        "potential",
+        "present",
+        "protection",
+        "protein",
+        "provide",
+        "received",
+        "recent",
+        "receptor",
+        "recipients",
+        "recognize",
+        "recognized",
+        "research",
+        "responders",
+        "response",
+        "responses",
+        "results",
+        "s815-827",
+        "s815-827-reactive",
+        "sars-cov",
+        "sars-cov-2",
+        "sequencing",
+        "showed",
+        "shown",
+        "spike",
+        "still",
+        "strategies",
+        "studies",
+        "study",
+        "subgenera",
+        "subjects",
+        "support",
+        "test",
+        "thus",
+        "university",
+        "unknown",
+        "using",
+        "vaccinated",
+        "vaccine",
+        "vaccines",
+        "whether",
+        "zoonotic"
+    ]
+}

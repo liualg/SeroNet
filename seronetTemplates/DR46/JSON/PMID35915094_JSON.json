@@ -1,0 +1,576 @@
+{
+    "pubmed_id": 35915094,
+    "study_identifier": "PMID35915094_study-01",
+    "study_name": "mRNA vaccines induce rapid antibody responses in mice",
+    "publication_title": "mRNA vaccines induce rapid antibody responses in mice",
+    "study_objective": "This study investigates how quickly mRNA vaccines elicit antibody responses compared to other vaccine modalities",
+    "study_description": "mRNA vaccines can be developed and produced quickly, making them prime candidates for immediate outbreak responses. Furthermore, clinical trials have demonstrated rapid protection following mRNA vaccination. Thus, we sought to investigate how quickly mRNA vaccines elicit antibody responses compared to other vaccine modalities. We first compared the immune kinetics of mRNA and DNA vaccines expressing SARS-CoV-2 spike in mice. We observed rapid induction of antigen-specific binding and neutralizing antibodies by day 5 following mRNA (4\u2009\u00b5g/mouse), but not DNA (50\u2009\u00b5g/mouse), immunization. Comparing innate responses hours post immunization, the mRNA vaccine induced increased levels of IL-5, IL-6, and MCP-1 cytokines which maybe promoting humoral responses downstream. We then evaluated the immune kinetics of an HIV-1 mRNA vaccine in comparison to DNA, protein, and rhesus adenovirus 52 (RhAd52) vaccines of the same HIV-1 envelope antigen in mice. Again, induction of envelope-specific antibodies was observed by day 5 following mRNA vaccination, whereas antibodies were detected by day 7\u201314 following DNA, protein, and RhAd52 vaccination. Thus, eliciting rapid humoral immunity may be a unique and advantageous property of mRNA vaccines for controlling infectious disease outbreaks.",
+    "primary_institution_name": "Beth Israel Deaconess Medical Center",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID35915094_personnel-01",
+            "honorific": "",
+            "last_name": "Barouch",
+            "first_name": "Dan",
+            "suffixes": "",
+            "organization": "Beth Israel Deaconess Medical Center",
+            "orchid_id": "",
+            "email": "dbarouch@bidmc.harvard.edu",
+            "seronet_title_in_study": "SeroNet Principal Investigator",
+            "role_in_study": "Principal Investigator",
+            "site_name": "Beth Israel Deaconess Medical Center"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "Raw Data _ PMID35915094.xlsx ",
+            "study_file_description": "ELISA, pseudovirus neutralization assay, and Cytokine data supporting Figures 1 - 4 in the paper.",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35915094_v1.2.6.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "PMID35915094_JSON.json",
+            "study_file_description": "JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "JSON Summary Description"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Vaccine Response",
+    "study_type": "Basic Research",
+    "keyword": [
+        "RNA vaccines",
+        "SARS-CoV-2"
+    ],
+    "clinical_study_design": "Not Applicable",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID35915094_protocol-01",
+        "protocol_file_name": "PMID35915094_protocol-01.txt",
+        "protocol_name": "PMID35915094_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19",
+        "SARS-CoV-2 Wuhan/2020",
+        "SARS-CoV-2 Alpha; B.1.1.7",
+        "SARS-CoV-2 Beta; B.1.351"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "CureVac AG SARS-CoV-2 vaccine",
+        "Other SARS-CoV-2 vaccine"
+    ],
+    "clinical_outcome_measure": "Not Applicable",
+    "enrollment_start_date": "",
+    "enrollment_end_date": "",
+    "number_of_study_subjects": 30,
+    "age_unit": "Years",
+    "minimum_age": "",
+    "maximum_age": "",
+    "study_human_cohort": [],
+    "study_model_cohort": [
+        {
+            "arm_id": "PMID35915094_organism_subject-01",
+            "arm_name": "Mice administered with SARS-COV-2 mRNA vaccines",
+            "study_population_description": "C57BL/6 mice were vaccinated intramuscularly or intradermally with 1 or 4 \u2009\u00b5g mRNA vaccine expressing SARS-CoV-2 Spike",
+            "arm_type": "Vaccination",
+            "genus_and_species": [
+                "Mus musculus"
+            ],
+            "biosample_type": [
+                "Animal"
+            ],
+            "strain_characteristics": [
+                "C57BL/6 mice"
+            ],
+            "sex_at_birth": [
+                "Female"
+            ],
+            "age_event": "Age at Study Day 0",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: Massachusetts"
+            ],
+            "sars_cov_2_history": [
+                "Uninfected"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "CureVac AG; VO:0005208"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35915094_organism_subject-02",
+            "arm_name": "Mice administered with SARS-COV-2 DNA vaccines",
+            "study_population_description": "C57BL/6 mice were vaccinated intramuscularly or intradermally with 50\u2009\u00b5g DNA vaccine expressing SARS-CoV-2 Spike",
+            "arm_type": "Vaccination",
+            "genus_and_species": [
+                "Mus musculus"
+            ],
+            "biosample_type": [
+                "Animal"
+            ],
+            "strain_characteristics": [
+                "C57BL/6 mice"
+            ],
+            "sex_at_birth": [
+                "Female"
+            ],
+            "age_event": "Age at Study Day 0",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: Massachusetts"
+            ],
+            "sars_cov_2_history": [
+                "Uninfected"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Other"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35915094_organism_subject-03",
+            "arm_name": "Mice administered with HIV-1 mRNA Vaccine",
+            "study_population_description": "C57BL/6 mice were vaccinated intramuscularly with 15\u2009\u00b5g mRNA vaccine expressing HIV-1 env",
+            "arm_type": "Vaccination",
+            "genus_and_species": [
+                "Mus musculus"
+            ],
+            "biosample_type": [
+                "Animal"
+            ],
+            "strain_characteristics": [
+                "C57BL/6 mice"
+            ],
+            "sex_at_birth": [
+                "Female"
+            ],
+            "age_event": "Age at Study Day 0",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: Massachusetts"
+            ],
+            "sars_cov_2_history": [
+                "Uninfected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35915094_organism_subject-04",
+            "arm_name": "Mice administered with HIV-1 DNA Vaccine",
+            "study_population_description": "C57BL/6 mice were vaccinated intramuscularly with 50\u2009\u00b5g DNA vaccine expressing HIV-1 env",
+            "arm_type": "Vaccination",
+            "genus_and_species": [
+                "Mus musculus"
+            ],
+            "biosample_type": [
+                "Animal"
+            ],
+            "strain_characteristics": [
+                "C57BL/6 mice"
+            ],
+            "sex_at_birth": [
+                "Female"
+            ],
+            "age_event": "Age at Study Day 0",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: Massachusetts"
+            ],
+            "sars_cov_2_history": [
+                "Uninfected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35915094_organism_subject-05",
+            "arm_name": "Mice administered with HIV-1 RhAd52 Vaccine",
+            "study_population_description": "C57BL/6 mice were vaccinated  with (RhAd52)109 viral particles",
+            "arm_type": "Vaccination",
+            "genus_and_species": [
+                "Mus musculus"
+            ],
+            "biosample_type": [
+                "Animal"
+            ],
+            "strain_characteristics": [
+                "C57BL/6 mice"
+            ],
+            "sex_at_birth": [
+                "Female"
+            ],
+            "age_event": "Age at Study Day 0",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: Massachusetts"
+            ],
+            "sars_cov_2_history": [
+                "Uninfected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35915094_organism_subject-06",
+            "arm_name": "Mice administered with HIV-1 Protein Vaccines",
+            "study_population_description": "C57BL/6 mice were vaccinated with HIV-1 protein vaccine (50\u2009\u00b5g +100\u2009\u00b5g Adju phos)",
+            "arm_type": "Vaccination",
+            "genus_and_species": [
+                "Mus musculus"
+            ],
+            "biosample_type": [
+                "Animal"
+            ],
+            "strain_characteristics": [
+                "C57BL/6 mice"
+            ],
+            "sex_at_birth": [
+                "Female"
+            ],
+            "age_event": "Age at Study Day 0",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: Massachusetts"
+            ],
+            "sars_cov_2_history": [
+                "Uninfected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35915094_organism_subject-07",
+            "arm_name": "Sham vaccinated mice",
+            "study_population_description": "C57BL/6 mice were vaccinated intramuscularly with PBS",
+            "arm_type": "Negative Control",
+            "genus_and_species": [
+                "Mus musculus"
+            ],
+            "biosample_type": [
+                "Animal"
+            ],
+            "strain_characteristics": [
+                "C57BL/6 mice"
+            ],
+            "sex_at_birth": [
+                "Female"
+            ],
+            "age_event": "Age at Study Day 0",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: Massachusetts"
+            ],
+            "sars_cov_2_history": [
+                "Uninfected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        }
+    ],
+    "planned_visit": [
+        {
+            "visit_id": "PMID35915094_visit-01",
+            "visit_name": "Serum collection, 2 days before immunization",
+            "visit_order_number": 1,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": 0,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35915094_visit-02",
+            "visit_name": "Plasma collection, 0, 5, and 24 hrs post immunization",
+            "visit_order_number": 2,
+            "visit_min_start_day": 3,
+            "visit_max_start_day": 4,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35915094_visit-03",
+            "visit_name": "Serum collection, 1 and 3 days after immunization",
+            "visit_order_number": 3,
+            "visit_min_start_day": 4,
+            "visit_max_start_day": 6,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35915094_visit-04",
+            "visit_name": "Serum collection, 0, 5, 7, 14, 21 ,and 28 days post immunization",
+            "visit_order_number": 4,
+            "visit_min_start_day": 3,
+            "visit_max_start_day": 31,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35915094_visit-05",
+            "visit_name": "Spleen sample collection 7 days post immunization",
+            "visit_order_number": 5,
+            "visit_min_start_day": 10,
+            "visit_max_start_day": 10,
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID35915094_organism_subject-01, PMID35915094_organism_subject-02, PMID35915094_organism_subject-07"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35915094_visit-04"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "ELISA",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer",
+                "Other"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2 WA1/2020 (D614G variant)",
+                "SARS-CoV-2 Alpha; B.1.1.7",
+                "SARS-CoV-2 Beta; B.1.351"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "Arbitrary Unit",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35915094_organism_subject-01, PMID35915094_organism_subject-02, PMID35915094_organism_subject-07"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35915094_visit-04"
+            ],
+            "assay_type": "Pseudovirus Neutralization Assay",
+            "experiment_name": "SARS-CoV-2 pseudovirus neutralization assay",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "n/a"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2 WA1/2020 (D614G variant)",
+                "SARS-CoV-2 Alpha; B.1.1.7",
+                "SARS-CoV-2 Beta; B.1.351"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "50% Neutralization End-point",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35915094_organism_subject-01, PMID35915094_organism_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35915094_visit-02"
+            ],
+            "assay_type": "Flow Cytometry",
+            "experiment_name": "Cytokine analysis",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "n/a"
+            ],
+            "assay_use": "Commercial Test",
+            "manufacture": "Meso Scale Discovery",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35915094_organism_subject-03, PMID35915094_organism_subject-04, PMID35915094_organism_subject-05, PMID35915094_organism_subject-06, PMID35915094_organism_subject-07"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35915094_visit-05"
+            ],
+            "assay_type": "Flow Cytometry",
+            "experiment_name": "T-cell immunophenotyping",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Spleen"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "n/a"
+            ],
+            "assay_use": "Commercial Test",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        }
+    ],
+    "geriatric_subjects": "Not Specified",
+    "pediatric_subjects": "Not Specified",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "Yes",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID35915094_inexcl-01",
+            "inclusion_criterion": "SARS-CoV-2 Antibodies Measured",
+            "inclusion_criterion_category": "inclusion"
+        }
+    ],
+    "status_note": "Data at study and cohort level, Individual level data sharing requirement is waived by SeroNet for this study.",
+    "suggestions": [
+        "7\u201314",
+        "adenovirus",
+        "advantageous",
+        "antibodies",
+        "antibody",
+        "antigen",
+        "antigen-specific",
+        "applicable",
+        "basic",
+        "beth",
+        "binding",
+        "candidates",
+        "center",
+        "clinical",
+        "compared",
+        "comparing",
+        "comparison",
+        "controlling",
+        "covid-19",
+        "curevac ag sars-cov-2 vaccine",
+        "cytokines",
+        "day",
+        "deaconess",
+        "demonstrated",
+        "detected",
+        "developed",
+        "disease",
+        "dna",
+        "downstream",
+        "elicit",
+        "eliciting",
+        "envelope",
+        "envelope-specific",
+        "evaluated",
+        "expressing",
+        "first",
+        "following",
+        "furthermore",
+        "hiv-1",
+        "hours",
+        "humoral",
+        "il-5",
+        "il-6",
+        "immediate",
+        "immune",
+        "immunity",
+        "immunization",
+        "increased",
+        "induce",
+        "induced",
+        "induction",
+        "infectious",
+        "innate",
+        "investigate",
+        "investigates",
+        "israel",
+        "kinetics",
+        "levels",
+        "making",
+        "may",
+        "maybe",
+        "mcp-1",
+        "measured",
+        "medical",
+        "mice",
+        "modalities",
+        "mrna",
+        "neutralizing",
+        "observed",
+        "other sars-cov-2 vaccine",
+        "outbreak",
+        "outbreaks",
+        "post",
+        "prime",
+        "produced",
+        "promoting",
+        "property",
+        "protection",
+        "protein",
+        "quickly",
+        "rapid",
+        "research",
+        "response",
+        "responses",
+        "rhad52",
+        "rhesus",
+        "rna vaccines",
+        "sars-cov-2",
+        "sars-cov-2 alpha; b.1.1.7",
+        "sars-cov-2 beta; b.1.351",
+        "sars-cov-2 wuhan/2020",
+        "sought",
+        "spike",
+        "study",
+        "thus",
+        "trials",
+        "unique",
+        "vaccination",
+        "vaccine",
+        "vaccines",
+        "whereas",
+        "\u00b5g/mouse"
+    ]
+}

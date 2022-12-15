@@ -1,0 +1,621 @@
+{
+    "pubmed_id": 34383889,
+    "study_identifier": "PMID34383889_study-01",
+    "study_name": "Household Transmission of Severe Acute Respiratory Syndrome Coronavirus 2 in the United States: Living Density, Viral Load, and Disproportionate Impact on Communities of Color",
+    "publication_title": "Household Transmission of Severe Acute Respiratory Syndrome Coronavirus 2 in the United States: Living Density, Viral Load, and Disproportionate Impact on Communities of Color",
+    "study_objective": "To measure the secondary household attack rates of SARS-CoV-2 in vulnerable communities and to indentify risk factors for transmission.",
+    "study_description": "Background: Households are hot spots for severe acute respiratory syndrome coronavirus 2 transmission.  Methods: This prospective study enrolled 100 coronavirus disease 2019 (COVID-19) cases and 208 of their household members in North Carolina though October 2020, including 44% who identified as Hispanic or non-White. Households were enrolled a median of 6 days from symptom onset in the index case. Incident secondary cases within the household were detected using quantitative polymerase chain reaction of weekly nasal swabs (days 7, 14, 21) or by seroconversion at day 28.  Results: Excluding 73 household contacts who were PCR-positive at baseline, the secondary attack rate (SAR) among household contacts was 32% (33 of 103; 95% confidence interval [CI], 22%-44%). The majority of cases occurred by day 7, with later cases confirmed as household-acquired by viral sequencing. Infected persons in the same household had similar nasopharyngeal viral loads (intraclass correlation coefficient = 0.45; 95% CI, .23-.62). Households with secondary transmission had index cases with a median viral load that was 1.4 log10 higher than those without transmission (P = .03), as well as higher living density (more than 3 persons occupying fewer than 6 rooms; odds ratio, 3.3; 95% CI, 1.02-10.9). Minority households were more likely to experience high living density and had a higher risk of incident infection than did White households (SAR, 51% vs 19%; P = .01).  Conclusions: Household crowding in the context of high-inoculum infections may amplify the spread of COVID-19, potentially contributing to disproportionate impact on communities of color.",
+    "primary_institution_name": "University of North Carolina School of Medicine",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID34383889_personnel-01",
+            "honorific": "",
+            "last_name": "Lakshmanane",
+            "first_name": "Prem",
+            "suffixes": "",
+            "organization": "University of North Carolina School of Medicine",
+            "orchid_id": "",
+            "email": "prem@med.unc.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "University of North Carolina School of Medicine"
+        },
+        {
+            "personnel_id": "PMID34383889_personnel-02",
+            "honorific": "",
+            "last_name": "Jessica",
+            "first_name": "Lin",
+            "suffixes": "",
+            "organization": "University of North Carolina School of Medicine",
+            "orchid_id": "",
+            "email": "linjt@email.unc.edu",
+            "seronet_title_in_study": "Investigator",
+            "role_in_study": "Corresponding Author",
+            "site_name": "University of North Carolina School of Medicine"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID34383889_suppl_supplementary_materials.pdf",
+            "study_file_description": "Extended serology data, laboratory analyses includes qRT-PCR, lateral flow immunoassay, ELISA and comorbidities of the study participants,  demographics of household contacts based on infection status",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID34383889_Index Cases_SeroNet.xls",
+            "study_file_description": "Subject level demographics, assessment results for ELISA, Lateral Flow Assay and RT-PCR for Index cases",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID34383889_HouseholdContacts_SeroNet.xls",
+            "study_file_description": "Subject level demographics for Household contacts",
+            "study_file_type": "Demographics"
+        },
+        {
+            "study_file_name": "PMID34383889_v1.2.5.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "PMID34383889_JSON.json",
+            "study_file_description": "JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "JSON Summary Description"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Infection Response",
+    "study_type": "Clinical Research",
+    "keyword": [
+        "SARS-CoV-2",
+        "Household transmission",
+        "Living density",
+        "Secondary attack rate",
+        "Viral load."
+    ],
+    "clinical_study_design": "Prospective Cohort",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID34383889_protocol-01",
+        "protocol_file_name": "PMID34383889_protocol-01.txt",
+        "protocol_name": "PMID34383889_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19",
+        "SARS-CoV-2 WA1/2020 (D614G variant)"
+    ],
+    "sars_cov_2_vaccine_type": [
+        ""
+    ],
+    "clinical_outcome_measure": "Household transmission of SARS-CoV-2 infection",
+    "enrollment_start_date": "2020-04-01",
+    "enrollment_end_date": "2020-10-31",
+    "number_of_study_subjects": 267,
+    "age_unit": "Years",
+    "minimum_age": 0,
+    "maximum_age": 77,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID34383889_human_subject-01",
+            "arm_name": "Index Cases",
+            "study_population_description": "Covid-19 positive Index cases were enrolled in the study (N=91)",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Hispanic or Latino",
+                "Not Hispanic or Latino"
+            ],
+            "race": [
+                "White",
+                "Black or African American",
+                "Other Race"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [
+                "assessment_recorded_pv"
+            ],
+            "study_location": [
+                ""
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [
+                "Occupation",
+                "Education"
+            ],
+            "sars_cov_2_history": [
+                ""
+            ],
+            "sars_cov_2_vaccine_type": [
+                ""
+            ],
+            "covid_19_disease_severity": [
+                "Mild",
+                "Moderate",
+                "Severe"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID34383889_human_subject-02",
+            "arm_name": "Household Contacts",
+            "study_population_description": "Household contacts of the Index cases (N=176), 73 of 176 participants with Covid-19 infection",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Hispanic or Latino",
+                "Not Hispanic or Latino"
+            ],
+            "race": [
+                "White",
+                "Black or African American",
+                "Other Race",
+                "Unknown"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [
+                "assessment_recorded_pv"
+            ],
+            "study_location": [
+                ""
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [
+                "Neighborhood and Physical Environment"
+            ],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [
+                "Occupation",
+                "Education"
+            ],
+            "sars_cov_2_history": [
+                "",
+                ""
+            ],
+            "sars_cov_2_vaccine_type": [
+                ""
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID34383889_visit-01",
+            "visit_name": "Blood sample and nasal swabs collected from the household participants on day 1",
+            "visit_order_number": 1,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34383889_visit-02",
+            "visit_name": "Weekly PCR done in household participants by collecting nasal swabs on day 7",
+            "visit_order_number": 2,
+            "visit_min_start_day": 7,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34383889_visit-03",
+            "visit_name": "Weekly PCR done in household participants by collecting nasal swabs on day 14",
+            "visit_order_number": 3,
+            "visit_min_start_day": 14,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34383889_visit-04",
+            "visit_name": "Weekly PCR done in household participants by collecting nasal swabs on day 21",
+            "visit_order_number": 4,
+            "visit_min_start_day": 21,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34383889_visit-05",
+            "visit_name": "Day 28: Weekly  PCR done in household participants and Venous blood collected from index cases and household contacts",
+            "visit_order_number": 5,
+            "visit_min_start_day": 28,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID34383889_visit-06",
+            "visit_name": "All participants received a daily symptom questionnaire via email",
+            "visit_order_number": 6,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID34383889_human_subject-01 | PMID34383889_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34383889_visit-01 | PMID34383889_visit-02 | PMID34383889_visit-03 | PMID34383889_visit-04 | PMID34383889_visit-05"
+            ],
+            "assay_type": "PCR",
+            "experiment_name": "RT-PCR",
+            "experiment_results_file_name": "PMID34383889_Index Cases_SeroNet.xls | PMID34383889_HouseholdContacts_SeroNet.xls",
+            "biospecimen_type": [
+                "Nasal Swab"
+            ],
+            "biospecimen_collection_point": [
+                "Pre-symptom onset"
+            ],
+            "sars_cov_2_antigen": [
+                "Nucleocapsid"
+            ],
+            "assay_use": "FDA EUA",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2 WA1/2020 (D614 variant)"
+            ],
+            "antibody_isotype": [],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID34383889_human_subject-01 | PMID34383889_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34383889_visit-01 | PMID34383889_visit-02 | PMID34383889_visit-03 | PMID34383889_visit-04 | PMID34383889_visit-05"
+            ],
+            "assay_type": "PCR",
+            "experiment_name": "RT-PCR",
+            "experiment_results_file_name": "PMID34383889_Index Cases_SeroNet.xls | PMID34383889_HouseholdContacts_SeroNet.xls",
+            "biospecimen_type": [
+                "Nasal Swab"
+            ],
+            "biospecimen_collection_point": [
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [
+                "Nucleocapsid"
+            ],
+            "assay_use": "FDA EUA",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2 WA1/2020 (D614 variant)"
+            ],
+            "antibody_isotype": [],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID34383889_human_subject-01 | PMID34383889_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34383889_visit-01 | PMID34383889_visit-02 | PMID34383889_visit-03 | PMID34383889_visit-04 | PMID34383889_visit-05"
+            ],
+            "assay_type": "Lateral Flow Assay",
+            "experiment_name": "Lateral Flow Assay",
+            "experiment_results_file_name": "PMID34383889_Index Cases_SeroNet.xls",
+            "biospecimen_type": [
+                "Blood"
+            ],
+            "biospecimen_collection_point": [
+                "Pre-symptom onset"
+            ],
+            "sars_cov_2_antigen": [
+                "Receptor Binding Domain (RBD)",
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "",
+            "manufacture": "BioMedomics",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2 WA1/2020 (D614 variant)"
+            ],
+            "antibody_isotype": [
+                "IgG",
+                "IgM"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID34383889_human_subject-01 | PMID34383889_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34383889_visit-01 | PMID34383889_visit-02 | PMID34383889_visit-03 | PMID34383889_visit-04 | PMID34383889_visit-05"
+            ],
+            "assay_type": "Lateral Flow Assay",
+            "experiment_name": "Lateral Flow Assay",
+            "experiment_results_file_name": "PMID34383889_Index Cases_SeroNet.xls",
+            "biospecimen_type": [
+                "Blood"
+            ],
+            "biospecimen_collection_point": [
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [
+                "Receptor Binding Domain (RBD)",
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "",
+            "manufacture": "BioMedomics",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2 WA1/2020 (D614 variant)"
+            ],
+            "antibody_isotype": [
+                "IgG",
+                "IgM"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID34383889_human_subject-01 | PMID34383889_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34383889_visit-05"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "ELISA",
+            "experiment_results_file_name": "PMID34383889_Index Cases_SeroNet.xls",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Pre-symptom onset"
+            ],
+            "sars_cov_2_antigen": [
+                "Receptor Binding Domain (RBD)",
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2 WA1/2020 (D614 variant)"
+            ],
+            "antibody_isotype": [
+                "IgG",
+                "IgM",
+                "IgA"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID34383889_human_subject-01 | PMID34383889_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID34383889_visit-05"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "ELISA",
+            "experiment_results_file_name": "PMID34383889_Index Cases_SeroNet.xls",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [
+                "Receptor Binding Domain (RBD)",
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2 WA1/2020 (D614 variant)"
+            ],
+            "antibody_isotype": [
+                "IgG",
+                "IgM",
+                "IgA"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        }
+    ],
+    "geriatric_subjects": "Yes",
+    "pediatric_subjects": "Yes",
+    "pregnant_subjects": "No",
+    "sars_cov_2_antibodies_measured": "Yes",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID34383889_inexcl-01",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34383889_inexcl-02",
+            "inclusion_criterion": "Pediatric subjects",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34383889_inexcl-03",
+            "inclusion_criterion": "SARS-CoV-2 Antibodies Measured",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID34383889_inexcl-04",
+            "inclusion_criterion": "Pregnant subjects",
+            "inclusion_criterion_category": "exclusion"
+        }
+    ],
+    "status_note": "Data at individual level available.",
+    "suggestions": [
+        "",
+        "-44",
+        ".01",
+        ".03",
+        ".23-.62",
+        "0.45",
+        "1.02-10.9",
+        "1.4",
+        "100",
+        "103",
+        "2019",
+        "2020",
+        "208",
+        "3.3",
+        "acute",
+        "among",
+        "amplify",
+        "antibodies",
+        "attack",
+        "background",
+        "baseline",
+        "carolina",
+        "case",
+        "cases",
+        "chain",
+        "clinical",
+        "coefficient",
+        "cohort",
+        "color",
+        "communities",
+        "conclusions",
+        "confidence",
+        "confirmed",
+        "contacts",
+        "context",
+        "contributing",
+        "coronavirus",
+        "correlation",
+        "covid-19",
+        "crowding",
+        "day",
+        "days",
+        "density",
+        "detected",
+        "disease",
+        "disproportionate",
+        "enrolled",
+        "excluding",
+        "experience",
+        "factors",
+        "fewer",
+        "geriatric",
+        "high",
+        "high-inoculum",
+        "higher",
+        "hispanic",
+        "hot",
+        "household",
+        "household transmission",
+        "household-acquired",
+        "households",
+        "identified",
+        "impact",
+        "incident",
+        "including",
+        "indentify",
+        "index",
+        "infected",
+        "infection",
+        "infections",
+        "interval",
+        "intraclass",
+        "later",
+        "likely",
+        "living",
+        "living density",
+        "load",
+        "loads",
+        "log10",
+        "majority",
+        "may",
+        "measure",
+        "measured",
+        "median",
+        "medicine",
+        "members",
+        "methods",
+        "minority",
+        "nasal",
+        "nasopharyngeal",
+        "non-white",
+        "north",
+        "occupying",
+        "occurred",
+        "october",
+        "odds",
+        "onset",
+        "pcr-positive",
+        "pediatric",
+        "persons",
+        "polymerase",
+        "potentially",
+        "pregnant",
+        "prospective",
+        "quantitative",
+        "rate",
+        "rates",
+        "ratio",
+        "reaction",
+        "research",
+        "respiratory",
+        "response",
+        "results",
+        "risk",
+        "rooms",
+        "sar",
+        "sars-cov-2",
+        "sars-cov-2 wa1/2020 (d614g variant)",
+        "school",
+        "secondary",
+        "secondary attack rate",
+        "sequencing",
+        "seroconversion",
+        "severe",
+        "similar",
+        "spots",
+        "spread",
+        "states",
+        "study",
+        "subjects",
+        "swabs",
+        "symptom",
+        "syndrome",
+        "though",
+        "transmission",
+        "united",
+        "university",
+        "using",
+        "viral",
+        "viral load.",
+        "vulnerable",
+        "weekly",
+        "well",
+        "white",
+        "within",
+        "without"
+    ]
+}

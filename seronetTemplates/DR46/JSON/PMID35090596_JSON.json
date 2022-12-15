@@ -1,0 +1,1181 @@
+{
+    "pubmed_id": 35090596,
+    "study_identifier": "PMID35090596_study-01",
+    "study_name": "SARS-CoV-2 mRNA vaccine induces robust specific and cross-reactive IgG and unequal neutralizing antibodies in naive and previously infected people",
+    "publication_title": "SARS-CoV-2 mRNA vaccine induces robust specific and cross-reactive IgG and unequal neutralizing antibodies in naive and previously infected people",
+    "study_objective": "To investigate mRNA vaccine-induced antibody responses against the reference strain (WIV04), seven variants (Delta, Alpha, Beta, Gamma, Kappa, Zeta, and Iota) and seasonal coronaviruses in healthy individuals at three time points: before vaccination, after the first dose, and after the second dose",
+    "study_description": "Understanding vaccine-mediated protection against severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) is critical to overcoming the global coronavirus disease 2019 (COVID-19) pandemic. We investigate mRNA-vaccine-induced antibody responses against the reference strain, seven variants, and seasonal coronaviruses in 168 healthy individuals at three time points: before vaccination, after the first dose, and after the second dose. Following complete vaccination, both naive and previously infected individuals developed comparably robust SARS-CoV-2 spike antibodies and variable levels of cross-reactive antibodies to seasonal coronaviruses. However, the strength and frequency of SARS-CoV-2 neutralizing antibodies in naive individuals were lower than in previously infected individuals. After the first vaccine dose, one-third of previously infected individuals lacked neutralizing antibodies; this was improved to one-fifth after the second dose. In all individuals, neutralizing antibody responses against the Alpha and Delta variants were weaker than against the reference strain. Our findings support future tailored vaccination strategies against emerging SARS-CoV-2 variants as mRNA-vaccine-induced neutralizing antibodies are highly variable among individuals.",
+    "primary_institution_name": "University of North Carolina at Chapel Hill",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID35090596_personnel-01",
+            "honorific": "",
+            "last_name": "Ralph",
+            "first_name": "Baric",
+            "suffixes": "",
+            "organization": "University of North Carolina at Chapel Hill",
+            "orchid_id": "",
+            "email": "rbaric@email.unc.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "University of North Carolina at Chapel Hill"
+        },
+        {
+            "personnel_id": "PMID35090596_personnel-02",
+            "honorific": "",
+            "last_name": "Desilva",
+            "first_name": "Aravinda",
+            "suffixes": "",
+            "organization": "University of North Carolina at Chapel Hill",
+            "orchid_id": "",
+            "email": "aravinda_desilva@med.unc.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "University of North Carolina at Chapel Hill"
+        },
+        {
+            "personnel_id": "PMID35090596_personnel-03",
+            "honorific": "",
+            "last_name": "Prem",
+            "first_name": "Lakshmanane",
+            "suffixes": "",
+            "organization": "University of North Carolina at Chapel Hill",
+            "orchid_id": "",
+            "email": "prem@med.unc.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "University of North Carolina at Chapel Hill"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID35090596_mmc1.pdf",
+            "study_file_description": "Figures explain analysis of SARS-CoV-2 serostatus of health care workers, analysis of number of symptoms and types of symptoms reported after vaccination",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "study_file_description": "Experimental values for ELISA, Neutralizing Antibody Titer Assay and Multiplex Immunoassay",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35090596_Narowski_etal_CellReports_2022_2.xlsx",
+            "study_file_description": "Subject demographics",
+            "study_file_type": "Demographics"
+        },
+        {
+            "study_file_name": "PMID35090596_Narowski_etal_CellReports_2022_3.xls",
+            "study_file_description": "Vaccine symptoms in subjects",
+            "study_file_type": "Adverse Events"
+        },
+        {
+            "study_file_name": "PMID35090596_v1.2.5.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "PMID35090596_JSON.json",
+            "study_file_description": "JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "JSON Summary Description"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Immune Response",
+    "study_type": "Clinical Research",
+    "keyword": [
+        "Antibodies",
+        "Neutralizing immunology",
+        "Antibodies",
+        "Viral immunology",
+        "Antibody Formation",
+        "COVID-19 immunology",
+        "COVID-19 prevention & control",
+        "COVID-19 Vaccines administration & dosage",
+        "COVID-19 Vaccines immunology",
+        "Coronavirus immunology",
+        "Cross Reactions",
+        "Humans",
+        "Immunoglobulin G immunology",
+        "Mutation",
+        "SARS-CoV-2 genetics",
+        "SARS-CoV-2 immunology",
+        "Spike Glycoprotein",
+        "Coronavirus genetics",
+        "Spike Glycoprotein",
+        "Coronavirus immunology",
+        "Vaccination Vaccines",
+        "Synthetic administration & dosage",
+        "Vaccines",
+        "Synthetic immunology",
+        "mRNA Vaccines administration & dosage",
+        "mRNA Vaccines immunology"
+    ],
+    "clinical_study_design": "Prospective Cohort",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID35090596_protocol-01",
+        "protocol_file_name": "PMID35090596_protocol-01.txt",
+        "protocol_name": "PMID35090596_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19",
+        "SARS-CoV-2"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "Pfizer-BioNTech SARS-CoV-2 vaccine",
+        "Moderna SARS-CoV-2 vaccine"
+    ],
+    "clinical_outcome_measure": "Vaccine-induced antibody responses in mRNA vaccine receipents",
+    "enrollment_start_date": "2020-06-01",
+    "enrollment_end_date": "2021-03-01",
+    "number_of_study_subjects": 237,
+    "age_unit": "Years",
+    "minimum_age": 19,
+    "maximum_age": 72,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID35090596_human_subject-01",
+            "arm_name": "Health care workers",
+            "study_population_description": "Health care workers (N=237). 161 of 237 participants received Pfizer-BioNTech mRNA vaccine (BNT162b2) and 7 participants received Moderna mRNA-1273 vaccine. 26 of 237 participants had mild SARS-CoV-2 infection",
+            "arm_type": "Vaccination",
+            "ethnicity": [
+                "Hispanic or Latino"
+            ],
+            "race": [
+                "Asian",
+                "Black or African American",
+                "White",
+                "Multiracial"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                ""
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [
+                "Acute COVID-19 (< 4 weeks)"
+            ],
+            "assessment_clinical_and_demographic_data_provenance": [
+                "Directly Measured"
+            ],
+            "assessment_demographic_data_types_collected": [
+                "Gender",
+                "Occupation"
+            ],
+            "sars_cov_2_history": [
+                "",
+                ""
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Pfizer BioNTech COVID-19 vaccine; VO:0004987",
+                "Moderna COVID-19 vaccine; VO:0005157"
+            ],
+            "covid_19_disease_severity": [
+                "Mild"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID35090596_visit-01",
+            "visit_name": "Sample collected from 136 health care workers 6 months before vaccination",
+            "visit_order_number": 1,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35090596_visit-02",
+            "visit_name": "Sample collected between 3 to 31 days after dose 1 from Naive individuals",
+            "visit_order_number": 2,
+            "visit_min_start_day": 3,
+            "visit_max_start_day": 29,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35090596_visit-03",
+            "visit_name": "Sample collected between 20 to 66 days after dose 2 from Naive individuals",
+            "visit_order_number": 3,
+            "visit_min_start_day": 20,
+            "visit_max_start_day": 66,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35090596_visit-04",
+            "visit_name": "Sample collected between 6 to 28 days after dose 1 from previously infected individuals",
+            "visit_order_number": 4,
+            "visit_min_start_day": 6,
+            "visit_max_start_day": 28,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35090596_visit-05",
+            "visit_name": "Sample collected between 35 to 65 days after dose 2 from previously infected individuals",
+            "visit_order_number": 5,
+            "visit_min_start_day": 35,
+            "visit_max_start_day": 65,
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-02"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Full spike Ab binding",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgA",
+                "IgG",
+                "IgM"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Qualitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-03"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Full spike Ab binding",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgA",
+                "IgG",
+                "IgM"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Qualitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-04 | PMID35090596_visit-05"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Full spike Ab binding",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgA",
+                "IgG",
+                "IgM"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Qualitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-02"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Spike RBD Ab binding",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Receptor Binding Domain (RBD)"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgA",
+                "IgG",
+                "IgM"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Qualitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-03"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Spike RBD Ab binding",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Receptor Binding Domain (RBD)"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgA",
+                "IgG",
+                "IgM"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Qualitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-04 | PMID35090596_visit-05"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Spike RBD Ab binding",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Receptor Binding Domain (RBD)"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgA",
+                "IgG",
+                "IgM"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Qualitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-02 | PMID35090596_visit-03 | PMID35090596_visit-04 | PMID35090596_visit-05"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Full spike and RBD Ab binding",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer",
+                "Receptor Binding Domain (RBD)"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgM"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Qualitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-02 | PMID35090596_visit-03 | PMID35090596_visit-04 | PMID35090596_visit-05"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Full spike and RBD Ab binding",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer",
+                "Receptor Binding Domain (RBD)"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgA"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Qualitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-01 | PMID35090596_visit-02 | PMID35090596_visit-03 | PMID35090596_visit-04 | PMID35090596_visit-05"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Full Spike Ab binding",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Pre-vaccination",
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-01 | PMID35090596_visit-02 | PMID35090596_visit-03 | PMID35090596_visit-04 | PMID35090596_visit-05"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Spike RBD Ab binding",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Pre-vaccination",
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Receptor Binding Domain (RBD)"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-01 | PMID35090596_visit-02 | PMID35090596_visit-03 | PMID35090596_visit-04 | PMID35090596_visit-05"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Spike NTD Ab binding",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Pre-vaccination",
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "N-terminal Domain (NTD)"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-01 | PMID35090596_visit-02 | PMID35090596_visit-03 | PMID35090596_visit-04 | PMID35090596_visit-05"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Spike RBD and NTD Ab binding correlation",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Pre-vaccination",
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Receptor Binding Domain (RBD)",
+                "N-terminal Domain (NTD)"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-01 | PMID35090596_visit-02 | PMID35090596_visit-03 | PMID35090596_visit-04 | PMID35090596_visit-05"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Full spike and RBD Ab binding correlation",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Pre-vaccination",
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer",
+                "Receptor Binding Domain (RBD)"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-02 | PMID35090596_visit-04"
+            ],
+            "assay_type": "Neutralizing Antibody Titer Assay",
+            "experiment_name": "Live virus neutralization",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Other"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Total"
+            ],
+            "reporting_units": "50% Neutralization End-point",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-03 | PMID35090596_visit-05"
+            ],
+            "assay_type": "Neutralizing Antibody Titer Assay",
+            "experiment_name": "Live virus neutralization",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Other"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Total"
+            ],
+            "reporting_units": "50% Neutralization End-point",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-04 | PMID35090596_visit-05"
+            ],
+            "assay_type": "Neutralizing Antibody Titer Assay",
+            "experiment_name": "Live virus neutralization comparison to Spike Ab binding",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Other"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-02 | PMID35090596_visit-03"
+            ],
+            "assay_type": "Neutralizing Antibody Titer Assay",
+            "experiment_name": "Live virus neutralization comparison to Spike Ab binding",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Other"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-02 | PMID35090596_visit-03 | PMID35090596_visit-04 | PMID35090596_visit-05"
+            ],
+            "assay_type": "Multiplex Immunoassay",
+            "experiment_name": "Live virus neutralization comparison to ACE2 inhibition",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Other"
+            ],
+            "assay_use": "Commercial Test | Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "K15466U-2",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Total"
+            ],
+            "reporting_units": "50% Neutralization End-point | Arbitary unit",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-04 | PMID35090596_visit-05"
+            ],
+            "assay_type": "Multiplex Immunoassay",
+            "experiment_name": "ACE2 inhibition",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "Commercial Test",
+            "manufacture": "MESOSCALE DIAGNOSTICS,LLC",
+            "catalog_number": "K15466U-2",
+            "virus_target": [
+                "SARS-CoV-2",
+                "B.1.1.7(alpha)",
+                "B.1.351 (beta)",
+                "P.1 (gamma)",
+                "B.1.617.2 (delta)",
+                "B.526 (Iota)",
+                "B.1.617.1 (kappa)",
+                "P.2 (zeta)",
+                ""
+            ],
+            "antibody_isotype": [
+                "Total"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-02 | PMID35090596_visit-03"
+            ],
+            "assay_type": "Multiplex Immunoassay",
+            "experiment_name": "ACE2 inhibition",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Other"
+            ],
+            "assay_use": "Commercial Test",
+            "manufacture": "MESOSCALE DIAGNOSTICS,LLC",
+            "catalog_number": "K15466U-2",
+            "virus_target": [
+                "SARS-CoV-2",
+                "B.1.1.7(alpha)",
+                "B.1.351 (beta)",
+                "P.1 (gamma)",
+                "B.1.617.2 (delta)",
+                "B.526 (Iota)",
+                "B.1.617.1 (kappa)",
+                "P.2 (zeta)",
+                ""
+            ],
+            "antibody_isotype": [
+                "Total"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-01 | PMID35090596_visit-02 | PMID35090596_visit-03 | PMID35090596_visit-04 | PMID35090596_visit-05"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Full spike Ab binding",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2",
+                "HKU-1",
+                "OC43",
+                "NL63",
+                "229E"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-01 | PMID35090596_visit-02 |  PMID35090596_visit-04"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Full spike Ab binding",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "Research Use Only",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2",
+                "HKU-1",
+                "OC43",
+                "NL63",
+                "229E"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Qualitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-02 | PMID35090596_visit-03"
+            ],
+            "assay_type": "Multiplex Immunoassay",
+            "experiment_name": "Age correlation to ACE2 inhibition and Spike RBD Ab binding",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Other"
+            ],
+            "assay_use": "Commercial Test | Research Use Only",
+            "manufacture": "MESOSCALE DIAGNOSTICS,LLC",
+            "catalog_number": "K15466U-2",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35090596_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35090596_visit-02 | PMID35090596_visit-03"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Age correlation to ACE2 inhibition and Spike RBD Ab binding",
+            "experiment_results_file_name": "PMID35090596_Narowski_etal_CellReports_2022_1.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Other"
+            ],
+            "assay_use": "Commercial Test | Research Use Only",
+            "manufacture": "MESOSCALE DIAGNOSTICS,LLC",
+            "catalog_number": "K15466U-2",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "Other",
+            "assay_reporting_format": "Quantitative"
+        }
+    ],
+    "geriatric_subjects": "No",
+    "pediatric_subjects": "No",
+    "pregnant_subjects": "No",
+    "sars_cov_2_antibodies_measured": "Yes",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID35090596_inexcl-01",
+            "inclusion_criterion": "SARS-CoV-2 Antibodies Measured",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35090596_inexcl-02",
+            "inclusion_criterion": "Pediatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35090596_inexcl-03",
+            "inclusion_criterion": "Pregnant subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35090596_inexcl-04",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        }
+    ],
+    "status_note": "Data at individual level available.",
+    "suggestions": [
+        "168",
+        "2019",
+        "acute",
+        "alpha",
+        "among",
+        "antibodies",
+        "antibody",
+        "antibody formation",
+        "beta",
+        "carolina",
+        "chapel",
+        "clinical",
+        "cohort",
+        "comparably",
+        "complete",
+        "coronavirus",
+        "coronavirus genetics",
+        "coronavirus immunology",
+        "coronavirus-2",
+        "coronaviruses",
+        "covid-19",
+        "covid-19 immunology",
+        "covid-19 prevention & control",
+        "covid-19 vaccines administration & dosage",
+        "covid-19 vaccines immunology",
+        "critical",
+        "cross reactions",
+        "cross-reactive",
+        "delta",
+        "developed",
+        "disease",
+        "dose",
+        "emerging",
+        "findings",
+        "first",
+        "following",
+        "frequency",
+        "future",
+        "gamma",
+        "geriatric",
+        "global",
+        "healthy",
+        "highly",
+        "hill",
+        "however",
+        "humans",
+        "igg",
+        "immune",
+        "immunoglobulin g immunology",
+        "improved",
+        "individuals",
+        "induces",
+        "infected",
+        "investigate",
+        "iota",
+        "kappa",
+        "lacked",
+        "levels",
+        "lower",
+        "measured",
+        "moderna sars-cov-2 vaccine",
+        "mrna",
+        "mrna vaccines administration & dosage",
+        "mrna vaccines immunology",
+        "mrna-vaccine-induced",
+        "mutation",
+        "naive",
+        "neutralizing",
+        "neutralizing immunology",
+        "north",
+        "one-fifth",
+        "one-third",
+        "overcoming",
+        "pandemic",
+        "pediatric",
+        "people",
+        "pfizer-biontech sars-cov-2 vaccine",
+        "points",
+        "pregnant",
+        "previously",
+        "prospective",
+        "protection",
+        "receipents",
+        "reference",
+        "research",
+        "respiratory",
+        "response",
+        "responses",
+        "robust",
+        "sars-cov-2",
+        "sars-cov-2 genetics",
+        "sars-cov-2 immunology",
+        "seasonal",
+        "second",
+        "seven",
+        "severe",
+        "specific",
+        "spike",
+        "spike glycoprotein",
+        "strain",
+        "strategies",
+        "strength",
+        "subjects",
+        "support",
+        "syndrome",
+        "synthetic administration & dosage",
+        "synthetic immunology",
+        "tailored",
+        "three",
+        "time",
+        "understanding",
+        "unequal",
+        "university",
+        "vaccination",
+        "vaccination vaccines",
+        "vaccine",
+        "vaccine-induced",
+        "vaccine-mediated",
+        "vaccines",
+        "variable",
+        "variants",
+        "viral immunology",
+        "weaker",
+        "wiv04",
+        "zeta"
+    ]
+}

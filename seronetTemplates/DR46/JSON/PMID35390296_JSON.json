@@ -1,0 +1,589 @@
+{
+    "pubmed_id": 35390296,
+    "study_identifier": "PMID35390296_study-01",
+    "study_name": "Augmentation of humoral and cellular immune responses after third-dose SARS-CoV-2 vaccination and viral neutralization in myeloma patients",
+    "publication_title": "Augmentation of humoral and cellular immune responses after third-dose SARS-CoV-2 vaccination and viral neutralization in myeloma patients",
+    "study_objective": "To study the humoral and cellular immune responses after third-dose SARS-CoV-2 vaccination and viral neutralization in myeloma patients",
+    "study_description": "Despite the efficacy of COVID-19 vaccines in healthy individuals, multiple myeloma (MM) patients are immunocompromised and mount suboptimal humoral and cellular responses after two doses of mRNA vaccine (Addeo et al., 2021; Aleman et al., 2021; Van Oekelen et al., 2021). A broader observation of limited vaccine responses in cancer patients, particularly those with hematologic malignancies (Thakkar et al., 2021), has led to the implementation of additional (i.e., third dose) vaccine administration as a way to increase protection for patients with immune suppression. A third dose of BNT162b2 (Pfizer-BioNTech) COVID19 vaccine has shown to be effective in preventing severe COVID-19 caused by the SARS-CoV-2 B.1.617.2 (Delta) variant in the general population (Bar-On et al., 2021; Barda et al., 2021). Furthermore, third-dose administration of either the BNT162b2 (Pfizer-BioNTech) or mRNA1273 (Moderna) COVID-19 vaccine was associated with augmented immune responses in a diverse cohort of cancer patients (Shapiro et al., 2022). However, the real-world effectiveness of additional dosing in myeloma patients and viral neutralization have not been reported. Additionally, the impact of the currently dominant SARS-CoV-2 B.1.1.529 (Omicron) variant on efficacy of the third dose is largely unknown in patients with hematologic malignancies (Zeng et al., 2022).",
+    "primary_institution_name": "Icahn School of Medicine at Mount Sinai",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID35390296_personnel-01",
+            "honorific": "",
+            "last_name": "Carlos",
+            "first_name": "Cordon-Cardo",
+            "suffixes": "",
+            "organization": "Icahn School of Medicine at Mount Sinai",
+            "orchid_id": "",
+            "email": "carlos.cordon-cardo@mssm.edu",
+            "seronet_title_in_study": "SeroNet Principal Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Icahn School of Medicine at Mount Sinai"
+        },
+        {
+            "personnel_id": "PMID35390296_personnel-02",
+            "honorific": "",
+            "last_name": "Krammer",
+            "first_name": "Florian",
+            "suffixes": "",
+            "organization": "Icahn School of Medicine at Mount Sinai",
+            "orchid_id": "",
+            "email": "florian.krammer@mssm.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Icahn School of Medicine at Mount Sinai"
+        },
+        {
+            "personnel_id": "PMID35390296_personnel-03",
+            "honorific": "",
+            "last_name": "Wajnberg",
+            "first_name": "Ania",
+            "suffixes": "",
+            "organization": "Icahn School of Medicine at Mount Sinai",
+            "orchid_id": "",
+            "email": "ania.wajnberg@mountsinai.org",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Icahn School of Medicine at Mount Sinai"
+        },
+        {
+            "personnel_id": "PMID35390296_personnel-04",
+            "honorific": "",
+            "last_name": "Simon",
+            "first_name": "Viviana",
+            "suffixes": "",
+            "organization": "Icahn School of Medicine at Mount Sinai",
+            "orchid_id": "",
+            "email": "viviana.simon@mssm.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Icahn School of Medicine at Mount Sinai"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID35390296_mmc1.pdf",
+            "study_file_description": "Extended serology data and clinical characteristics of multiple myeloma patients and healthy donor controls",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35390296_Data.xlsx",
+            "study_file_description": "Subject level demographics and anti-SARS-CoV-2 3 spike (S) IgG antibody levels, SARS-CoV-2 specific CD4+ T cell responses, Neutralizing antibody ID50 level in MM patients and HD",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35390296_v1.2.4.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "PMID35390296_JSON.json",
+            "study_file_description": "JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "JSON Summary Description"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Vaccine Response",
+    "study_type": "Clinical Research",
+    "keyword": [
+        "COVID-19 Vaccines",
+        "COVID-19 prevention & control",
+        "Humans",
+        "Immunity Cellular",
+        "Multiple Myeloma therapy",
+        "SARS-CoV-2",
+        "Vaccination"
+    ],
+    "clinical_study_design": "Longitudinal Study",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID35390296_protocol-01",
+        "protocol_file_name": "PMID35390296_protocol-01.txt",
+        "protocol_name": "PMID35390296_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19",
+        "Multiple Myeloma",
+        "SARS-CoV-2"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "Pfizer-BioNTech SARS-CoV-2 vaccine",
+        "Moderna SARS-CoV-2 vaccine"
+    ],
+    "clinical_outcome_measure": "Humoral and cellular immune responses after third-dose SARS-CoV-2 vaccination",
+    "enrollment_start_date": "",
+    "enrollment_end_date": "",
+    "number_of_study_subjects": 521,
+    "age_unit": "Years",
+    "minimum_age": 38,
+    "maximum_age": 96,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID35390296_human_subject-01",
+            "arm_name": "Vaccinated Multiple Myeloma patients",
+            "study_population_description": "Multiple myeloma patients who received Pfizer-BioNTech or Moderna vaccination (N=476). Out of 476, 124 patients infected with Covid-19.",
+            "arm_type": "Vaccination",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male",
+                "Female"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                ""
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "",
+                ""
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Pfizer BioNTech COVID-19 vaccine; VO:0004987",
+                "Moderna COVID-19 vaccine; VO:0005157"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35390296_human_subject-02",
+            "arm_name": "Vaccinated healthcare workers",
+            "study_population_description": "Age-matched vaccinated healthcare workers received Pfizer-BioNTech or Moderna vaccination (N=45). Out of 45, 20 health care workers infected with Covid-19.",
+            "arm_type": "Vaccination",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male",
+                "Female"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                ""
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "",
+                ""
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Pfizer BioNTech COVID-19 vaccine; VO:0004987",
+                "Moderna COVID-19 vaccine; VO:0005157"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID35390296_visit-01",
+            "visit_name": "Blood and saliva collected from the participants at multiple time points before or after SARS-CoV-2 mRNA vaccine",
+            "visit_order_number": 1,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID35390296_human_subject-01"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35390296_visit-01"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "ELISA",
+            "experiment_results_file_name": "PMID35390296_Data.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35390296_human_subject-01 | PMID35390296_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35390296_visit-01"
+            ],
+            "assay_type": "Flow Cytometry",
+            "experiment_name": "Flow Cytometry",
+            "experiment_results_file_name": "PMID35390296_Data.xlsx",
+            "biospecimen_type": [
+                "Peripheral Blood Mononuclear Cell (PBMC)"
+            ],
+            "biospecimen_collection_point": [
+                "Pre-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG",
+                "IgA"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35390296_human_subject-01 | PMID35390296_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35390296_visit-01"
+            ],
+            "assay_type": "Flow Cytometry",
+            "experiment_name": "Flow Cytometry",
+            "experiment_results_file_name": "PMID35390296_Data.xlsx",
+            "biospecimen_type": [
+                "Peripheral Blood Mononuclear Cell (PBMC)"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG",
+                "IgA"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35390296_human_subject-01 | PMID35390296_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35390296_visit-01"
+            ],
+            "assay_type": "Flow Cytometry",
+            "experiment_name": "Intracellular cytokine staining flow cytometry (ICS-Flow) T cell assay",
+            "experiment_results_file_name": "PMID35390296_Data.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Pre-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG",
+                "IgA"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35390296_human_subject-01 | PMID35390296_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35390296_visit-01"
+            ],
+            "assay_type": "Flow Cytometry",
+            "experiment_name": "Intracellular cytokine staining flow cytometry (ICS-Flow) T cell assay",
+            "experiment_results_file_name": "PMID35390296_Data.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG",
+                "IgA"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35390296_human_subject-01 | PMID35390296_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35390296_visit-01"
+            ],
+            "assay_type": "Neutralizing Antibody Titer Assay",
+            "experiment_name": "SARS-CoV-2 multi-cycle microneutralization assay",
+            "experiment_results_file_name": "PMID35390296_Data.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Pre-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2 Wuhan / 2020",
+                "SARS-CoV-2 Omicron; B.1.1.529; BA.1"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35390296_human_subject-01 | PMID35390296_human_subject-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35390296_visit-01"
+            ],
+            "assay_type": "Neutralizing Antibody Titer Assay",
+            "experiment_name": "SARS-CoV-2 multi-cycle microneutralization assay",
+            "experiment_results_file_name": "PMID35390296_Data.xlsx",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2 Wuhan / 2020",
+                "SARS-CoV-2 Omicron; B.1.1.529; BA.1"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        }
+    ],
+    "geriatric_subjects": "Yes",
+    "pediatric_subjects": "No",
+    "pregnant_subjects": "No",
+    "sars_cov_2_antibodies_measured": "Yes",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID35390296_inexcl-01",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35390296_inexcl-02",
+            "inclusion_criterion": "Pediatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35390296_inexcl-03",
+            "inclusion_criterion": "Pregnant subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35390296_inexcl-04",
+            "inclusion_criterion": "SARS-CoV-2 Antibodies Measured",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35390296_inexcl-05",
+            "inclusion_criterion": "Multiple Myeloma patients",
+            "inclusion_criterion_category": "inclusion"
+        }
+    ],
+    "status_note": "Data at individual level available.",
+    "suggestions": [
+        "2021",
+        "2022",
+        "addeo",
+        "additional",
+        "additionally",
+        "administration",
+        "al.",
+        "aleman",
+        "antibodies",
+        "associated",
+        "augmentation",
+        "augmented",
+        "b.1.1.529",
+        "b.1.617.2",
+        "bar-on",
+        "barda",
+        "bnt162b2",
+        "broader",
+        "cancer",
+        "caused",
+        "cellular",
+        "clinical",
+        "cohort",
+        "covid-19",
+        "covid-19 prevention & control",
+        "covid-19 vaccines",
+        "covid19",
+        "currently",
+        "delta",
+        "despite",
+        "diverse",
+        "dominant",
+        "dose",
+        "doses",
+        "dosing",
+        "effective",
+        "effectiveness",
+        "efficacy",
+        "either",
+        "furthermore",
+        "general",
+        "geriatric",
+        "healthy",
+        "hematologic",
+        "however",
+        "humans",
+        "humoral",
+        "i.e.",
+        "icahn",
+        "immune",
+        "immunity cellular",
+        "immunocompromised",
+        "impact",
+        "implementation",
+        "increase",
+        "individuals",
+        "largely",
+        "led",
+        "limited",
+        "longitudinal",
+        "malignancies",
+        "measured",
+        "medicine",
+        "moderna",
+        "moderna sars-cov-2 vaccine",
+        "mount",
+        "mrna",
+        "mrna1273",
+        "multiple",
+        "multiple myeloma",
+        "multiple myeloma therapy",
+        "myeloma",
+        "neutralization",
+        "observation",
+        "oekelen",
+        "omicron",
+        "particularly",
+        "patients",
+        "pediatric",
+        "pfizer-biontech",
+        "pfizer-biontech sars-cov-2 vaccine",
+        "population",
+        "pregnant",
+        "preventing",
+        "protection",
+        "real-world",
+        "reported",
+        "research",
+        "response",
+        "responses",
+        "sars-cov-2",
+        "school",
+        "severe",
+        "shapiro",
+        "shown",
+        "sinai",
+        "study",
+        "subjects",
+        "suboptimal",
+        "suppression",
+        "thakkar",
+        "third",
+        "third-dose",
+        "two",
+        "unknown",
+        "vaccination",
+        "vaccine",
+        "vaccines",
+        "van",
+        "variant",
+        "viral",
+        "way",
+        "zeng"
+    ]
+}

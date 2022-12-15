@@ -611,8 +611,8 @@ class subject_type_mode_organism(DataClassJsonMixin):
                     if k.lower().strip() == "mice":
                         self.Species[i + 1] = "Mus musculus"
 
-                    if k.lower().strip() == "cynomolgus macaques":
-                        self.Species[i + 1] = "macaca fascicularis"
+                    # if k.lower().strip() == "cynomolgus macaques":
+                    #     self.Species[i + 1] = "macaca fascicularis"
 
                     if k.lower().strip() == "rhesus macaques":
                         self.Study_Location[i +1] = 'Macaca mulatta'

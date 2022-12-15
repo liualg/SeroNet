@@ -9,7 +9,7 @@ Package purpose:
 This package contains scripts, dictionaries, and templates to automate the transfer of information from SeroNet specific templates to ImmPort templates. Versions of the package reflect the most recent template
 
 Version: 
-1.2.3
+1.2.7 n
 
 Pointer to Instructions/Requirements for configuration and installation info: 
 To install packages please navigate to Instructions.txt file. 

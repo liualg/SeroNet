@@ -1,0 +1,416 @@
+{
+    "pubmed_id": 33065030,
+    "study_identifier": "PMID33065030_study-01",
+    "study_name": "Vascular Disease and Thrombosis in SARS-CoV-2-Infected Rhesus Macaques",
+    "publication_title": "Vascular Disease and Thrombosis in SARS-CoV-2-Infected Rhesus Macaques",
+    "study_objective": "To evalute use of Rhesus macaques infected with SARS-CoV-2 as animal model by comparing pulmonary pathology with human autopsy specimens. To evaluate the inflammatory response to SARS-CoV-2 in Rhesus macaques.",
+    "study_description": "The COVID-19 pandemic has led to extensive morbidity and mortality throughout the world. Clinical features that drive SARS-CoV-2 pathogenesis in humans include inflammation and thrombosis, but the mechanistic details underlying these processes remain to be determined. In this study, we demonstrate endothelial disruption and vascular thrombosis in histopathologic sections of lungs from both humans and rhesus macaques infected with SARS-CoV-2. To define key molecular pathways associated with SARS-CoV-2 pathogenesis in macaques, we performed transcriptomic analyses of bronchoalveolar lavage and peripheral blood and proteomic analyses of serum. We observed macrophage infiltrates in lung and upregulation of macrophage, complement, platelet activation, thrombosis, and proinflammatory markers, including C-reactive protein, MX1, IL-6, IL-1, IL-8, TNF\u03b1, and NF-\u03baB. These results suggest a model in which critical interactions between inflammatory and thrombosis pathways lead to SARS-CoV-2-induced vascular disease. Our findings suggest potential therapeutic targets for COVID-19.",
+    "primary_institution_name": "Harvard University",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID33065030_barouch",
+            "honorific": "",
+            "last_name": "Barouch",
+            "first_name": "Dan",
+            "suffixes": "",
+            "organization": "Harvard University",
+            "orchid_id": "",
+            "email": "dbarouch@bidmc.harvard.edu",
+            "seronet_title_in_study": "SeroNet Principal Investigator",
+            "role_in_study": "Principal Investigator",
+            "site_name": "Harvard University"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID33065030_v1.2.5_reviewed.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.  Add spreadsheet for upload of file",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "PMID33065030_SARS2_BAL_NHP.Bulk-RNA-SEQ.Rdata",
+            "study_file_description": "RNA Seq data for Rhesus macaques bronchoalveolar lavage tissue.",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID33065030_SARS2.NHP.Protemics.Rdata",
+            "study_file_description": "Proteomics data for Rhesus macaques bronchoalveolar lavage tissue.",
+            "study_file_type": "Study Data"
+        }
+    ],
+    "study_link": [
+        {
+            "link_name": "RNA-Seq of BAL and peripheral blood",
+            "value": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE156701"
+        }
+    ],
+    "research_focus": "Infection Response",
+    "study_type": "Not Applicable",
+    "keyword": [
+        "SARS-CoV-2",
+        "vascular",
+        "thrombosis",
+        "complement",
+        "platelet",
+        "macrophage",
+        "IFN\u03b1",
+        "coagulation",
+        "vWF",
+        "collagen"
+    ],
+    "clinical_study_design": "Not Applicable",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID33065030_protocol-01",
+        "protocol_file_name": "PMID33065030_protocol-01.txt",
+        "protocol_name": "PMID33065030_protocol-01",
+        "protocol_description": "Study protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19"
+    ],
+    "sars_cov_2_vaccine_type": [],
+    "clinical_outcome_measure": "Not Applicable",
+    "enrollment_start_date": "",
+    "enrollment_end_date": "",
+    "number_of_study_subjects": "",
+    "age_unit": "Years",
+    "minimum_age": 82,
+    "maximum_age": 91,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID33065030_aoc-01",
+            "arm_name": "Patients infected with SARS-CoV-2",
+            "study_population_description": "Patient 1 (91 years old, male, 10-day hospital course) and Patient 2 (82 years old, female, 16-day hospital course)",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male",
+                "Female"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                ""
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                ""
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [
+        {
+            "arm_id": "PMID33065030_aoc-02",
+            "arm_name": "adult Rhesus macaques",
+            "study_population_description": "13 outbred, healthy, research-naive Indian-origin adult male and female Rhesus macaques (Macaca mulatta), 6-12 years old",
+            "arm_type": "Observational",
+            "genus_and_species": [
+                "Macaca mulatta"
+            ],
+            "biosample_type": [
+                "Animal"
+            ],
+            "strain_characteristics": [],
+            "sex_at_birth": [
+                "Male",
+                "Female"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "study_location": [
+                "Other"
+            ],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Unknown"
+            ],
+            "post_covid_19_symptons": [],
+            "covid_19_complications": []
+        }
+    ],
+    "planned_visit": [
+        {
+            "visit_id": "PMID33065030_pv-01",
+            "visit_name": "Tissues, Human",
+            "visit_order_number": 1,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID33065030_pv-02",
+            "visit_name": "Tissues, Human",
+            "visit_order_number": 2,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID33065030_pv-03",
+            "visit_name": "Intranasal",
+            "visit_order_number": 3,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID33065030_pv-04",
+            "visit_name": "Tissues, Animal",
+            "visit_order_number": 4,
+            "visit_min_start_day": 2,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID33065030_pv-05",
+            "visit_name": "Tisuses, Animal",
+            "visit_order_number": 5,
+            "visit_min_start_day": 4,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID33065030_assessment_recorded_pv",
+            "visit_name": "Visit where an assessment is recorded",
+            "visit_order_number": 6,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID33065030_aoc-01 | PMID33065030_aoc-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33065030_pv-01 | PMID33065030_pv-02 | PMID33065030_pv-03 | PMID33065030_pv-04 | PMID33065030_pv-05"
+            ],
+            "assay_type": "Immunohistochemistry",
+            "experiment_name": "Immunohistochemistry",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Other tissue (sorted)"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID33065030_aoc-01 | PMID33065030_aoc-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33065030_pv-01 | PMID33065030_pv-02 | PMID33065030_pv-03 | PMID33065030_pv-04 | PMID33065030_pv-05"
+            ],
+            "assay_type": "Multiplex Bead Array Assay",
+            "experiment_name": "Luminex multiplex assay",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Bronchoalveolar lavage",
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID33065030_aoc-01 | PMID33065030_aoc-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33065030_pv-01 | PMID33065030_pv-02 | PMID33065030_pv-03 | PMID33065030_pv-04 | PMID33065030_pv-05"
+            ],
+            "assay_type": "RNA Sequencing",
+            "experiment_name": "RNA Sequencing",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Bronchoalveolar lavage",
+                "Blood"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        }
+    ],
+    "geriatric_subjects": "No",
+    "pediatric_subjects": "Not Specified",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "Not Specified",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID33065030_ie_01",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "Inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID33065030_ie_02",
+            "inclusion_criterion": "Deceased SARS-CoV-2 positive subjects",
+            "inclusion_criterion_category": "Inclusion"
+        }
+    ],
+    "status_note": "Data at individual level available.",
+    "suggestions": [
+        "activation",
+        "analyses",
+        "animal",
+        "applicable",
+        "associated",
+        "autopsy",
+        "blood",
+        "bronchoalveolar",
+        "c-reactive",
+        "clinical",
+        "coagulation",
+        "collagen",
+        "comparing",
+        "complement",
+        "covid-19",
+        "critical",
+        "deceased",
+        "define",
+        "demonstrate",
+        "details",
+        "determined",
+        "disease",
+        "disruption",
+        "drive",
+        "endothelial",
+        "evaluate",
+        "evalute",
+        "extensive",
+        "features",
+        "findings",
+        "geriatric",
+        "harvard",
+        "histopathologic",
+        "human",
+        "humans",
+        "ifn\u03b1",
+        "il-1",
+        "il-6",
+        "il-8",
+        "include",
+        "including",
+        "infected",
+        "infection",
+        "infiltrates",
+        "inflammation",
+        "inflammatory",
+        "interactions",
+        "key",
+        "lavage",
+        "lead",
+        "led",
+        "lung",
+        "lungs",
+        "macaques",
+        "macrophage",
+        "markers",
+        "mechanistic",
+        "model",
+        "molecular",
+        "morbidity",
+        "mortality",
+        "mx1",
+        "nf-\u03bab",
+        "observed",
+        "pandemic",
+        "pathogenesis",
+        "pathology",
+        "pathways",
+        "performed",
+        "peripheral",
+        "platelet",
+        "positive",
+        "potential",
+        "processes",
+        "proinflammatory",
+        "protein",
+        "proteomic",
+        "pulmonary",
+        "remain",
+        "response",
+        "results",
+        "rhesus",
+        "sars-cov-2",
+        "sars-cov-2-induced",
+        "sars-cov-2-infected",
+        "sections",
+        "serum",
+        "specimens",
+        "study",
+        "subjects",
+        "suggest",
+        "targets",
+        "therapeutic",
+        "thrombosis",
+        "throughout",
+        "tnf\u03b1",
+        "transcriptomic",
+        "underlying",
+        "university",
+        "upregulation",
+        "use",
+        "vascular",
+        "vwf",
+        "world"
+    ]
+}

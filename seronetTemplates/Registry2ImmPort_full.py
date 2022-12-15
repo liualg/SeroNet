@@ -126,7 +126,7 @@ def create_full(PMID):
 
 
     # Automate output... 
-    OUT_DIR = os.path.join(BASE_DIR, 'ImmPort_templates-DR46-spell_check_test') 
+    OUT_DIR = os.path.join(BASE_DIR, 'ImmPort_templates_TEST') 
     # OUT_DIR = './33184236_test/'
     PATH_pmid_basic_stdy_template = f'PMID{PMID}_study.xlsx'
 
@@ -1471,4 +1471,6 @@ def create_full(PMID):
 
     ## CREATING SUGGESTIONS
     cs.add_NLKsuggestions(OUT_DIR, file_type)
+
+    shutil.copyfile(output_file, os.path.join('.','DR46','JSON',f'PMID{PMID}_JSON.{file_type}'))
 

@@ -1,0 +1,460 @@
+{
+    "pubmed_id": 33571162,
+    "study_identifier": "PMID33571162_study-01",
+    "study_name": "Durable SARS-CoV-2 B cell immunity after mild or severe disease",
+    "publication_title": "Durable SARS-CoV-2 B cell immunity after mild or severe disease",
+    "study_objective": "To investigate the potential for durable B cell immunity after SARS-CoV-2 infection",
+    "study_description": "Most SARS-CoV-2-infected individuals develop S-RBD\u2013specific, class-switched rMBCs that resemble germinal center\u2013derived B cells induced by effective vaccination against other pathogens, providing evidence for durable B cell\u2013mediated immunity against SARS-CoV-2 after mild or severe disease.",
+    "primary_institution_name": "Johns Hopkins University",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID33571162_personnel-01",
+            "honorific": "",
+            "last_name": "Sabra",
+            "first_name": "Klein",
+            "suffixes": "",
+            "organization": "Johns Hopkins University",
+            "orchid_id": "",
+            "email": "sklein2@jhu.edu",
+            "seronet_title_in_study": "SeroNet Principal Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Johns Hopkins University"
+        },
+        {
+            "personnel_id": "PMID33571162_personnel-02",
+            "honorific": "",
+            "last_name": "Cox",
+            "first_name": "Andrea",
+            "suffixes": "",
+            "organization": "Johns Hopkins University",
+            "orchid_id": "",
+            "email": "acox@jhmi.edu",
+            "seronet_title_in_study": "SeroNet Co-Principal Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Johns Hopkins University"
+        },
+        {
+            "personnel_id": "PMID33571162_personnel-03",
+            "honorific": "",
+            "last_name": "Bailey",
+            "first_name": "Justin",
+            "suffixes": "",
+            "organization": "Johns Hopkins University",
+            "orchid_id": "",
+            "email": "jbailey7@jhu.edu",
+            "seronet_title_in_study": "Corresponding Author",
+            "role_in_study": "Corresponding Author",
+            "site_name": "Johns Hopkins University"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID33571162_jci-131-145516-s138.pdf",
+            "study_file_description": "Multidimensional flow cytometric analysis of memory B cells.",
+            "study_file_type": "Subject Data"
+        },
+        {
+            "study_file_name": "PMID33571162_Ogega_JCI_COVID_CO_122721.xlsm",
+            "study_file_description": "Subject level demographics and subject level Flow cytometry, Neutralizing Antibody Titer Assay, and ELISA data",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID33571162_v1.2.5_reviewed.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "PMID33571162_JSON.json",
+            "study_file_description": "JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "Study Summary Description"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Immune Response",
+    "study_type": "Not Applicable",
+    "keyword": [
+        "Adult",
+        "Aged",
+        "Antibodies",
+        "Neutralizing blood",
+        "B-Lymphocytes immunology",
+        "Binding Sites immunology",
+        "COVID-19 immunology",
+        "virology",
+        "Case-Control Studies",
+        "Cohort Studies",
+        "Female",
+        "Humans",
+        "Immunity Cellular",
+        "Immunoglobulin Class Switching",
+        "Immunologic Memory",
+        "Male",
+        "Middle Aged",
+        "Pandemics",
+        "SARS-CoV-2 immunology",
+        "Severity of Illness Index",
+        "Spike Glycoprotein",
+        "Coronavirus chemistry",
+        "Time Factors"
+    ],
+    "clinical_study_design": "Prospective Cohort",
+    "in_silico_model_type": "",
+    "protocol": {
+        "protocol_id": "PMID33571162_protocol-01",
+        "protocol_file_name": "PMID33571162_protocol-01.txt",
+        "protocol_name": "PMID33571162_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19"
+    ],
+    "sars_cov_2_vaccine_type": [],
+    "clinical_outcome_measure": "SARS-CoV-2 B cell immunity",
+    "enrollment_start_date": "",
+    "enrollment_end_date": "",
+    "number_of_study_subjects": 21,
+    "age_unit": "Years",
+    "minimum_age": 32,
+    "maximum_age": 76,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID33571162_aoc-01",
+            "arm_name": "Covid-19 patients selected from Ambulatory cohort",
+            "study_population_description": "7 patients with mild covid-19",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Hispanic or Latino",
+                "Not Hispanic or Latino"
+            ],
+            "race": [
+                "Other Race"
+            ],
+            "race_specify": [
+                "White",
+                "Native Hawaiian or Other Pacific Islander",
+                "Black or African American",
+                "American Indian or Alaska Native"
+            ],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                ""
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [
+                "Post-acute sequelae of COVID-19 (>= 4 weeks)"
+            ],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                ""
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Mild"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID33571162_aoc-02",
+            "arm_name": "Covid-19 patients selected from hospitalized cohort",
+            "study_population_description": "7 patients with moderate to severe covid-19",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Hispanic or Latino"
+            ],
+            "race": [
+                "Other Race"
+            ],
+            "race_specify": [
+                "Black or African American",
+                "White",
+                "Other"
+            ],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                ""
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [
+                "Post-acute sequelae of COVID-19 (>= 4 weeks)"
+            ],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                ""
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Moderate",
+                "Severe"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID33571162_aoc-03",
+            "arm_name": "Healthy controls",
+            "study_population_description": "7 healthy controls",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                ""
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                ""
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID33571162_pv-01",
+            "visit_name": "Median time since symptom onset in days measured in ambulatory patients 61( 45\u201368)",
+            "visit_order_number": 1,
+            "visit_min_start_day": 45,
+            "visit_max_start_day": 68,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID33571162_pv-02",
+            "visit_name": "Median time since symptom onset in days measured in hospitalized patients 46 (39\u2013104)",
+            "visit_order_number": 2,
+            "visit_min_start_day": 39,
+            "visit_max_start_day": 104,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID33571162_assessment_recorded_pv",
+            "visit_name": "Visit where an assessment is recorded",
+            "visit_order_number": 3,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID33571162_aoc-01 | PMID33571162_aoc-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33571162_pv-01 | PMID33571162_pv-02"
+            ],
+            "assay_type": "Flow Cytometry",
+            "experiment_name": "Flow Cytometry",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Peripheral Blood Mononuclear Cell (PBMC)"
+            ],
+            "biospecimen_collection_point": [
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [
+                "Receptor Binding Domain (RBD)"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID33571162_aoc-01 | PMID33571162_aoc-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33571162_pv-01 | PMID33571162_pv-02"
+            ],
+            "assay_type": "Neutralizing Antibody Titer Assay",
+            "experiment_name": "Neutralizing Antibody Titer Assay",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID33571162_aoc-01 | PMID33571162_aoc-02"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33571162_pv-01 | PMID33571162_pv-02"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "ELISA",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Post-symptom onset"
+            ],
+            "sars_cov_2_antigen": [
+                "Full Length Spike Trimer"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        }
+    ],
+    "geriatric_subjects": "No",
+    "pediatric_subjects": "No",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "Yes",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID33571162_ie_01",
+            "inclusion_criterion": "SARS-CoV-2 Antibodies Measured",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID33571162_ie_02",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "Inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID33571162_ie_03",
+            "inclusion_criterion": "Pediatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        }
+    ],
+    "status_note": "Data at individual level available.",
+    "suggestions": [
+        "adult",
+        "aged",
+        "antibodies",
+        "applicable",
+        "b-lymphocytes immunology",
+        "binding sites immunology",
+        "case-control studies",
+        "cell",
+        "cells",
+        "cell\u2013mediated",
+        "center\u2013derived",
+        "class-switched",
+        "cohort",
+        "cohort studies",
+        "coronavirus chemistry",
+        "covid-19",
+        "covid-19 immunology",
+        "develop",
+        "disease",
+        "durable",
+        "effective",
+        "evidence",
+        "female",
+        "geriatric",
+        "germinal",
+        "hopkins",
+        "humans",
+        "immune",
+        "immunity",
+        "immunity cellular",
+        "immunoglobulin class switching",
+        "immunologic memory",
+        "individuals",
+        "induced",
+        "infection",
+        "investigate",
+        "johns",
+        "male",
+        "measured",
+        "middle aged",
+        "mild",
+        "neutralizing blood",
+        "pandemics",
+        "pathogens",
+        "pediatric",
+        "potential",
+        "prospective",
+        "providing",
+        "resemble",
+        "response",
+        "rmbcs",
+        "s-rbd\u2013specific",
+        "sars-cov-2",
+        "sars-cov-2 immunology",
+        "sars-cov-2-infected",
+        "severe",
+        "severity of illness index",
+        "spike glycoprotein",
+        "subjects",
+        "time factors",
+        "university",
+        "vaccination",
+        "virology"
+    ]
+}
