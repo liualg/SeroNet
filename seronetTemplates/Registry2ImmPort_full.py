@@ -1469,8 +1469,8 @@ def create_full(PMID):
     print(json.dumps(template, indent=4), file = f)
     f.close()
 
-    ## CREATING SUGGESTIONS
-    cs.add_NLKsuggestions(OUT_DIR, file_type)
+    # ## CREATING SUGGESTIONS
+    # cs.add_NLKsuggestions(OUT_DIR, file_type)
 
-    shutil.copyfile(output_file, os.path.join('.','DR46','JSON',f'PMID{PMID}_JSON.{file_type}'))
+    # shutil.copyfile(output_file, os.path.join('.','DR46','JSON',f'PMID{PMID}_JSON.{file_type}'))
 

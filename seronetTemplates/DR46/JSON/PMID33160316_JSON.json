@@ -101,7 +101,7 @@
             "subject_phenotype": "",
             "assessment_name": [],
             "study_location": [
-                ""
+                "US: California"
             ],
             "measured_behavioral_or_pyschological_factor": [],
             "measured_social_factor": [],
@@ -109,8 +109,8 @@
             "assessment_clinical_and_demographic_data_provenance": [],
             "assessment_demographic_data_types_collected": [],
             "sars_cov_2_history": [
-                "",
-                ""
+                "Uninfected",
+                "Unknown"
             ],
             "sars_cov_2_vaccine_type": [],
             "covid_19_disease_severity": [],
@@ -138,10 +138,10 @@
         }
     ],
     "experiment": [],
-    "geriatric_subjects": "No",
+    "geriatric_subjects": "Yes",
     "pediatric_subjects": "Not Specified",
     "pregnant_subjects": "Not Specified",
-    "sars_cov_2_antibodies_measured": "No",
+    "sars_cov_2_antibodies_measured": "Yes",
     "survey_instrument_shared": "Not Specified",
     "who_disease_severity_scale_used": "Not Specified",
     "inclusion_exclusion": [

@@ -141,7 +141,6 @@ immport_dict = dict()
 for column in sheet.iter_cols( #sheet.max_column, 
                               max_row=sheet.max_row, 
                               min_row=4):
-#     try:
     name = []
     start_index = []
     for icol, cell in enumerate(column):
@@ -149,19 +148,24 @@ for column in sheet.iter_cols( #sheet.max_column,
             name.append(cell.value)
             start_index.append(icol)
         else:
-            if (cell.value is not None and column[icol-1].value is None):
+            if cell.value is not None and (column[icol-1].value is None):
                 name.append(cell.value)
                 start_index.append(icol)
-    # FIGURE THIS SHIT OUT
+    
+#     print(start_index)
     try:
         for i in range(len(start_index)-1):
-            immport_dict[name[i]] = [k.value for k in column[start_index[i] : start_index[i+1]] if k.value is not None]
-        
-        immport_dict[name[-1]] = [k.value for k in column[start_index[i-1] :] if k.value is not None]
+            # This does the main rows
+            immport_dict[name[i]] = [k.value for k in column[start_index[i]+1 : start_index[i+1]] if k.value is not None]
+        #this does the last row
+        immport_dict[name[-1]] = [k.value for k in column[start_index[i+1]+1 :] if k.value is not None]
     
     except:
-        immport_dict[name[-1]] = [k.value for k in column[start_index[i] :] if k.value is not None]
+#         print(start_index[i-1])
+        #this does the first row 
+        immport_dict[name[-1]] = [k.value for k in column[start_index[i-1]+1 :] if k.value is not None]
         pass
+
 
 
 
@@ -172,59 +176,77 @@ def get_closest_lookup(word, lookup_table, table_name):
     
     if word in ['', 'N/A', 'n/a', 'N/a', 'n/A', np.nan, None]:
         print(f'[NOTE]:: Field empty: {table_name}')
+        closest_lookup = 'Not Applicable' #LIU 11023
+    
     elif word in lookup_table:
         closest_lookup = word
 
     else:
-        for potential in lookup_table:
-            if fuzz.ratio(word, potential) >= 10: ##use math for this
+        matching = [s for s in lookup_table if word.lower() in s.lower()]
+
+        if len(matching) == 1:
+            closest_lookup = matching[0]
+            print(f"[System]:: changing {word} => {closest_lookup}")
+
+        
+        else:
+            if len(matching) > 1:
+                lookup_table = matching
+            else:
+                pass 
+
+            for potential in lookup_table:
+                # if fuzz.ratio(word, potential) >= 10: ##use math for this
                 check_list.append((potential, 
-                                  fuzz.ratio(word, potential))
-                                 )
+                                      fuzz.ratio(word, potential))
+                                     )
+            
 
-            # elif 20 <= fuzz.ratio(word, potential) < 70: ##use math for this
-            #     check_list.append((potential, 
-            #                       fuzz.ratio(word, potential))
-            #                      )
-            else: 
-                pass
+            if len(check_list) == 1:
+                print(f"[FYI] fuzzywuzzy:: {word} => {check_list[0][0]} : score {check_list[0][1]}")
+                closest_lookup = check_list[0][0]
 
-            # this is a little weird 
-        if len(check_list) == 1:
-            print(f"[FYI] fuzzywuzzy:: {word} => {check_list[0][0]} : score {check_list[0][1]}")
-            closest_lookup = check_list[0][0]
+            elif len(check_list) > 1:
+                check_list.sort(key=lambda a: a[1], reverse=True)
 
-        elif len(check_list) > 1:
-            check_list.sort(key=lambda a: a[1], reverse=True)
-            print(f'\n\n######  ACTION REQUIRED ###### \n[{table_name}]Designate replacement word for: {word}')
-            print('Top three choices:')
-            for top3 in check_list[:3]:
-                print(top3)
-            # print(check_list)
 
-            user_resp = input(f'[{table_name}] Designate replacement word for {word}: ')
-            try:
-                user_resp = int(user_resp)
-            except:
+                if float(check_list[0][1])/np.std([n[1] for n in check_list]) >= 3 and float(check_list[0][1]) > 75: #checking if i cann bypass the score choice (stat. sig.)
+                # if float(check_list[0][1])/np.std([n[1] for n in check_list[:3]]) >= 3: #checking if i cann bypass the score choice (stat. sig.)
 
-                while not isinstance(user_resp, int):
-                    print('\n*** Please use a number to designate word you want substituted ***\n\t-OR type more or more options\n\t-OR type exit')
+                    print(f"[FYI] fuzzywuzzy:: {word} => {check_list[0][0]} : score {check_list[0][1]}")
+                    closest_lookup = check_list[0][0]
+
+                else:
+                    
+                    print(f'\n\n######  ACTION REQUIRED ###### \n[{table_name}] Designate replacement word for: {word}')
+                    print('Top three choices:')
+                    for top3 in check_list[:3]:
+                        print(top3)
+                    # print(check_list)
+
+                    user_resp = input(f'[{table_name}] Designate replacement word for: {word}: ')
                     try:
-                        user_resp = input(f'[{table_name}] Designate replacement word for {word}: ')
                         user_resp = int(user_resp)
                     except:
-                        user_resp = str(user_resp)
-                    
-                    if user_resp == 'more':
-                        for top3 in check_list:
-                            print(top3)
-                    if user_resp == 'exit':
-                        break
 
-            closest_lookup = check_list[int(user_resp)-1][0]
+                        while not isinstance(user_resp, int):
+                            print('\n*** Please use a number to designate word you want substituted ***\n\t-OR type more or more options\n\t-OR type exit')
+                            try:
+                                user_resp = input(f'[{table_name}] Designate replacement word for {word}: ')
+                                user_resp = int(user_resp)
+                            except:
+                                user_resp = str(user_resp)
+                            
+                            if user_resp == 'more':
+                                for top3 in check_list:
+                                    print(top3)
+                            if user_resp == 'exit':
+                                break
 
-        else:
-            pass
+                    closest_lookup = check_list[int(user_resp)-1][0]
+
+            else:
+                pass
 
     return closest_lookup
 
@@ -232,12 +254,21 @@ def check_spelling(word_in_questions, facet_to_check):
     lk_table = immport_dict.get(json_seronet_dict.get(facet_to_check))
 
     if isinstance(word_in_questions,str):
-        correct_word = get_closest_lookup(word_in_questions,lk_table,json_seronet_dict.get(facet_to_check))
+        if word_in_questions:
+            correct_word = get_closest_lookup(word_in_questions,lk_table,json_seronet_dict.get(facet_to_check))
+        else:
+            correct_word = ''
 
-    else:
+    elif isinstance(word_in_questions, list):
         correct_word = []
-        for words in word_in_questions:
-            correct_word.append(get_closest_lookup(words,lk_table,json_seronet_dict.get(facet_to_check)))
+        if not all(('' == item or None is item) for item in word_in_questions): #must be this?
+            for words in word_in_questions:
+                correct_word.append(get_closest_lookup(words,lk_table,json_seronet_dict.get(facet_to_check)))
+        else:
+            pass
+    else:
+        print('something is wrong')
+        pass
 
     return correct_word
 #
@@ -438,8 +469,8 @@ def parse_study_categorization(df, template):
 def parse_study_design(df, template):
     """Parse the Study Design section"""
 
-    template['clinical_study_design'] = check_spelling(replace_na(parse_clean_sv(df, CLINICAL_STUDY_DESIGN, 2)), 'clinical_study_design')
-    template['in_silico_model_type'] = check_spelling(parse_clean_sv(df, IN_SILICO_MODEL_TYPE, 2),'in_silico_model_type')
+    template['clinical_study_design'] = replace_na(check_spelling(replace_na(parse_clean_sv(df, CLINICAL_STUDY_DESIGN, 2)), 'clinical_study_design'))
+    template['in_silico_model_type'] = replace_na(check_spelling(parse_clean_sv(df, IN_SILICO_MODEL_TYPE, 2),'in_silico_model_type'))
 
 
 def parse_protocol(df, template):
@@ -535,39 +566,40 @@ def parse_inclusion_exclusion(df, template):
                "inclusion_criterion_category": parse_clean_sv(df, INCLUSION_CRITERION_CATEGORY, idx)
             }
             inclusion_exclusion.append(obj)
+            include_cri = ["inclusion", "yes"]
             
             if  obj['inclusion_criterion'] == "Geriatric subjects":
-                if obj['inclusion_criterion_category'] == "inclusion":
+                if obj['inclusion_criterion_category'].lower() in include_cri :
                     template['geriatric_subjects'] = "Yes"
                 else:
                     template['geriatric_subjects'] = "No"
 
             if  obj['inclusion_criterion'] == "Pediatric subjects":
-                if obj['inclusion_criterion_category'] == "inclusion":
+                if obj['inclusion_criterion_category'].lower() in include_cri:
                     template['pediatric_subjects'] = "Yes"
                 else:
                     template['pediatric_subjects'] = "No"
 
             if  obj['inclusion_criterion'] == "Pregnant subjects":
-                if obj['inclusion_criterion_category'] == "inclusion":
+                if obj['inclusion_criterion_category'].lower() in include_cri:
                     template['pregnant_subjects'] = "Yes"
                 else:
                     template['pregnant_subjects'] = "No"
 
             if  obj['inclusion_criterion'] == "SARS-CoV-2 Antibodies Measured":
-                if obj['inclusion_criterion_category'] == "inclusion":
+                if obj['inclusion_criterion_category'].lower()  in include_cri:
                     template['sars_cov_2_antibodies_measured'] = "Yes"
                 else:
                     template['sars_cov_2_antibodies_measured'] = "No"
 
             if  obj['inclusion_criterion'] == "Survey Instrument shared":
-                if obj['inclusion_criterion_category'] == "inclusion":
+                if obj['inclusion_criterion_category'].lower() in include_cri:
                     template['survey_instrument_shared'] = "Yes"
                 else:
                     template['survey_instrument_shared'] = "No"
 
             if  obj['inclusion_criterion'] == "WHO disease severity scale used":
-                if obj['inclusion_criterion_category'] == "inclusion":
+                if obj['inclusion_criterion_category'].lower() in include_cri:
                     template['who_disease_severity_scale_used'] = "Yes"
                 else:
                     template['who_disease_severity_scale_used'] = "No"
@@ -607,11 +639,11 @@ def parse_subject_human(df, template):
                "study_location": check_spelling(parse_clean_mv_split(df, HUMAN_STUDY_LOCATION, idx),'study_location'),
                "measured_behavioral_or_pyschological_factor": parse_clean_mv_split(df, HUMAN_MEASURED_BEHAVIORAL_OR_PYSCHOLOGICAL_FACTOR, idx),
                "measured_social_factor": parse_clean_mv_split(df, HUMAN_MEASURED_SOCIAL_FACTOR, idx),
-               "sars_cov_2_symptoms": check_spelling(parse_clean_mv_split(df, HUMAN_SARS_COV_2_SYMPTOMS, idx),'sars-cov-2_symptoms'),
+               "sars_cov_2_symptoms": check_spelling(parse_clean_mv_split(df, HUMAN_SARS_COV_2_SYMPTOMS, idx),'sars_cov_2_symptoms'),
                "assessment_clinical_and_demographic_data_provenance": parse_clean_mv_split(df, HUMAN_ASSESSMENT_CLINICAL_AND_DEMOGRAPHIC_DATA_PROVENANCE, idx),
                "assessment_demographic_data_types_collected": parse_clean_mv_split(df, HUMAN_ASSESSMENT_DEMOGRAPHIC_DATA_TYPES_COLLECTED, idx),
                "sars_cov_2_history": check_spelling(parse_clean_mv_split(df, HUMAN_SARS_COV_2_HISTORY, idx),'sars_cov_2_history'),
-               "sars_cov_2_vaccine_type": check_spelling(parse_clean_mv_split(df, HUMAN_SARS_COV_2_VACCINE_TYPE, idx),'sars_cov_2_vaccine_type-study-subject'),
+               "sars_cov_2_vaccine_type": check_spelling(parse_clean_mv_split(df, HUMAN_SARS_COV_2_VACCINE_TYPE, idx),'sars_cov_2_vaccine_type-subject'),
                "covid_19_disease_severity": check_spelling(parse_clean_mv_split(df, HUMAN_COVID_19_DISEASE_SEVERITY, idx),'covid_19_disease_severity'),
                "post_covid_19_symptoms": parse_clean_mv_split(df, HUMAN_POST_COVID_19_SYMPTOMS, idx),
                "covid_19_complications": parse_clean_mv_split(df, HUMAN_COVID_19_COMPLICATIONS, idx)
@@ -639,18 +671,18 @@ def parse_model_organism(df, template):
                "arm_id": val,
                "arm_name": parse_clean_sv(df, MODEL_ARM_NAME, idx),
                "study_population_description": parse_clean_sv(df, MODEL_STUDY_POPULATION_DESCRIPTION, idx),
-               "arm_type": parse_clean_sv(df, MODEL_ARM_TYPE, idx),
-               "genus_and_species": parse_clean_mv_split(df, MODEL_SPECIES, idx),
-               "biosample_type": parse_clean_mv_split(df, MODEL_BIOSAMPLE_TYPE, idx),
+               "arm_type": check_spelling(parse_clean_sv(df, MODEL_ARM_TYPE, idx),'arm_type'),
+               "genus_and_species": check_spelling(parse_clean_mv_split(df, MODEL_SPECIES, idx),'genus_and_species'),
+               "biosample_type": check_spelling(parse_clean_mv_split(df, MODEL_BIOSAMPLE_TYPE, idx),'biosample_type'),
                "strain_characteristics": parse_clean_mv_split(df, MODEL_STRAIN_CHARACTERISTICS, idx),
-               "sex_at_birth": parse_clean_mv_split(df, MODEL_SEX_AT_BIRTH, idx),
+               "sex_at_birth": check_spelling(parse_clean_mv_split(df, MODEL_SEX_AT_BIRTH, idx),'sex_at_birth'),
                "age_event": parse_clean_sv(df, MODEL_AGE_EVENT, idx),
                "subject_phenotype": parse_clean_sv(df, MODEL_SUBJECT_PHENOTYPE, idx),
-               "study_location": parse_clean_mv_split(df, MODEL_STUDY_LOCATION, idx),
-               "sars_cov_2_history": parse_clean_mv_split(df, MODEL_SARS_COV_2_HISTORY, idx),
-               "sars_cov_2_vaccine_type": parse_clean_mv_split(df, MODEL_SARS_COV_2_VACCINE_TYPE, idx),
-               "covid_19_disease_severity": parse_clean_mv_split(df, MODEL_COVID_19_DISEASE_SEVERITY, idx),
-               "post_covid_19_symptons": parse_clean_mv_split(df, MODEL_POST_COVID_19_SYMPTOMS, idx),
+               "study_location": check_spelling(parse_clean_mv_split(df, MODEL_STUDY_LOCATION, idx),'study_location'),
+               "sars_cov_2_history": check_spelling(parse_clean_mv_split(df, MODEL_SARS_COV_2_HISTORY, idx),'sars_cov_2_history'),
+               "sars_cov_2_vaccine_type": check_spelling(parse_clean_mv_split(df, MODEL_SARS_COV_2_VACCINE_TYPE, idx),'sars_cov_2_vaccine_type-subject'),
+               "covid_19_disease_severity": check_spelling(parse_clean_mv_split(df, MODEL_COVID_19_DISEASE_SEVERITY, idx),'covid_19_disease_severity'),
+               "post_covid_19_symptoms": parse_clean_mv_split(df, MODEL_POST_COVID_19_SYMPTOMS, idx),
                "covid_19_complications": parse_clean_mv_split(df, MODEL_COVID_19_COMPLICATIONS, idx)
             }
             model_cohort.append(obj)
@@ -700,16 +732,16 @@ def parse_experiment(df, template):
             obj = {
                "arm_id": [cleanData(item) for item in re.split(" I ",val)],
                "associated_first_planned_visit_id": [cleanData(item) for item in re.split(" I ", df.loc[ASSOCIATED_FIRST_PLANNED_VISIT_ID][idx])],
-               "assay_type": parse_clean_sv(df, ASSAY_TYPE, idx),
+               "assay_type": check_spelling(parse_clean_sv(df, ASSAY_TYPE, idx),'assay_type'),
                "experiment_name": parse_clean_sv(df, EXPERIMENT_NAME, idx),
                "experiment_results_file_name": parse_clean_sv(df, EXPERIMENT_RESULTS_FILE_NAME, idx),
-               "biospecimen_type": parse_clean_mv_split(df, BIOSPECIMEN_TYPE, idx),
-               "biospecimen_collection_point": parse_clean_mv_split(df, BIOSPECIMEN_COLLECTION_POINT, idx),
-               "sars_cov_2_antigen": parse_clean_mv_split(df, SARS_COV_2_ANTIGEN, idx),
+               "biospecimen_type": check_spelling(parse_clean_mv_split(df, BIOSPECIMEN_TYPE, idx),'biospecimen_type'),
+               "biospecimen_collection_point": check_spelling(parse_clean_mv_split(df, BIOSPECIMEN_COLLECTION_POINT, idx),'biospecimen_collection_point'),
+               "sars_cov_2_antigen": check_spelling(parse_clean_mv_split(df, SARS_COV_2_ANTIGEN, idx),'sars_cov_2_antigen'),
                "assay_use": parse_clean_sv(df, ASSAY_USE, idx),
                "manufacture": parse_clean_sv(df, MANUFACTURER, idx),
                "catalog_number": parse_clean_sv(df, CATALOG_NUMBER, idx),
-               "virus_target": parse_clean_mv_split(df, VIRUS_TARGET, idx),
+               "virus_target": check_spelling(parse_clean_mv_split(df, VIRUS_TARGET, idx),'virus_target'),
                "antibody_isotype": parse_clean_mv_split(df, ANTIBODY_ISOTYPE, idx),
                "reporting_units": parse_clean_sv(df, REPORTING_UNITS, idx),
                "assay_reporting_format": parse_clean_sv(df, ASSAY_REPORTING_FORMAT, idx)

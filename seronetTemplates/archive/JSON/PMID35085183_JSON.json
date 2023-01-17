@@ -1,0 +1,505 @@
+{
+    "pubmed_id": 35085183,
+    "study_identifier": "PMID35085183_study-01",
+    "study_name": "Higher Proinflammatory Cytokines Are Associated With Increased Antibody Titer After a Third Dose of SARS-CoV-2 Vaccine in Solid Organ Transplant Recipients",
+    "publication_title": "Higher Proinflammatory Cytokines Are Associated With Increased Antibody Titer After a Third Dose of SARS-CoV-2 Vaccine in Solid Organ Transplant Recipients",
+    "study_objective": "To determine if prevaccination cytokine levels are associated with antibody response to SARS-CoV-2 vaccination",
+    "study_description": "Background: Solid organ transplant recipients (SOTRs) are at increased risk for severe COVID-19 and exhibit lower antibody responses to SARS-CoV-2 vaccines. This study aimed to determine if prevaccination cytokine levels are associated with antibody response to SARS-CoV-2 vaccination. Methods: A cross-sectional study was performed among 58 SOTRs before and after two-dose mRNA vaccine series, 35 additional SOTRs before and after a third vaccine dose, and comparison to 16 healthy controls (HCs). Antispike antibody was assessed using the IgG Euroimmun ELISA. Electrochemiluminescence detection-based multiplexed sandwich immunoassays (Meso Scale Diagnostics) were used to quantify plasma cytokine and chemokine concentrations (n = 20 analytes) and compare concentrations between SOTRs and HCs, stratified by ultimate antibody response to the vaccine using Wilcoxon-rank-sum test with false discovery rates computed to correct for multiple comparisons. Results: In the study population, 100% of HCs, 59% of SOTRs after 2 doses and 63% of SOTRs after 3 doses had a detectable antibody response. Multiple baseline cytokines were elevated in SOTRs versus HCs. There was no significant difference in baseline cytokine levels between SOTRs with high versus low-titer antibodies after 2 doses of vaccine. However, as compared with poor antibody responders, SOTRs who went on to develop a high-titer antibody response to a third dose of vaccine had significantly higher prethird dose levels of several innate immune cytokines including IL-17, IL-2Ra, IL-6, IP-10, MIP-1\u03b1, and TNF-\u03b1 (false discovery rates < 0.05). Conclusions: A specific inflammatory profile may be associated with developing higher antibodies in response to a third dose of SARS-CoV-2 vaccine in SOTRs.",
+    "primary_institution_name": "Johns Hopkins University",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID35085183_personnel-01",
+            "honorific": "",
+            "last_name": "Klein",
+            "first_name": "Sabra",
+            "suffixes": "",
+            "organization": "Johns Hopkins University",
+            "orchid_id": "",
+            "email": "sklein2@jhu.edu",
+            "seronet_title_in_study": "SeroNet Principal Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Johns Hopkins University"
+        },
+        {
+            "personnel_id": "PMID35085183_personnel-02",
+            "honorific": "",
+            "last_name": "Cox",
+            "first_name": "Andrea",
+            "suffixes": "",
+            "organization": "Johns Hopkins University",
+            "orchid_id": "",
+            "email": "acox@jhmi.edu",
+            "seronet_title_in_study": "SeroNet Co-Principal Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Johns Hopkins University"
+        },
+        {
+            "personnel_id": "PMID35085183_personnel-03",
+            "honorific": "",
+            "last_name": "Bailey",
+            "first_name": "Justin",
+            "suffixes": "",
+            "organization": "Johns Hopkins University",
+            "orchid_id": "",
+            "email": "jbailey7@jhu.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Johns Hopkins University"
+        },
+        {
+            "personnel_id": "PMID35085183_personnel-04",
+            "honorific": "",
+            "last_name": "Karaba",
+            "first_name": "Andrew",
+            "suffixes": "",
+            "organization": "Johns Hopkins University",
+            "orchid_id": "",
+            "email": "andrew.karaba@jhmi.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Corresponding Author",
+            "site_name": "Johns Hopkins University"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID35085183_sdc1.pdf",
+            "study_file_description": "Figures of cytokine measurement in post vaccination SOTRs and healthy controls.",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35085183_data.xlsx",
+            "study_file_description": "Subject level demographics, Cytokine and chemokines measured in HCs and SOTR by Electrochemiluminescence detection",
+            "study_file_type": "Demographics"
+        },
+        {
+            "study_file_name": "PMID35085183_v1.2.4.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "PMID35085183_JSON.json",
+            "study_file_description": "JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "JSON Summary Description"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Immune Response",
+    "study_type": "Serosurveillance",
+    "keyword": [
+        "Antibodies",
+        "Viral",
+        "COVID-19 Vaccines-adverse effects",
+        "COVID-19-prevention & control",
+        "Cross-Sectional Studies",
+        "Cytokines",
+        "Humans",
+        "Organ Transplantation-adverse effects",
+        "SARS-CoV-2",
+        "Transplant Recipients",
+        "Vaccines",
+        "Synthetic",
+        "mRNA Vaccines"
+    ],
+    "clinical_study_design": "Cross-sectional Study",
+    "in_silico_model_type": "Not Applicable",
+    "protocol": {
+        "protocol_id": "PMID35085183_protocol-01",
+        "protocol_file_name": "PMID35085183_protocol-01.txt",
+        "protocol_name": "PMID35085183_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19",
+        "Solid Organ Transplant Recipient"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "Johnson & Johnson SARS-CoV-2 vaccine",
+        "Moderna SARS-CoV-2 vaccine",
+        "Pfizer-BioNTech SARS-CoV-2 vaccine"
+    ],
+    "clinical_outcome_measure": "Measurement of cytokines and chemokines concentrations and compare concentrations between SOTRs and HCs",
+    "enrollment_start_date": "",
+    "enrollment_end_date": "",
+    "number_of_study_subjects": 109,
+    "age_unit": "Years",
+    "minimum_age": 20,
+    "maximum_age": 79,
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID35085183_human_subject-01",
+            "arm_name": "SOTRs with 2-dose of mRNA vaccine",
+            "study_population_description": "Solid organ transplant recipients, who received two-doses of mRNA vaccine series (N=58)",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "White",
+                "Asian",
+                "Black or African American",
+                "Multiracial"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male",
+                "Female"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Maryland"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Vaccinated"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Moderna COVID-19 vaccine; VO:0005157",
+                "Pfizer BioNTech COVID-19 vaccine; VO:0004987"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35085183_human_subject-02",
+            "arm_name": "SOTRs with 3-dose of mRNA vaccine",
+            "study_population_description": "Solid organ transplant recipients, who received three doses of vaccination (N=38)",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "White",
+                "Other Race",
+                "Multiracial"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male",
+                "Female"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Maryland"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Vaccinated"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Johnson & Johnson COVID-19 vaccine; VO:0005159",
+                "Moderna COVID-19 vaccine; VO:0005157",
+                "Pfizer BioNTech COVID-19 vaccine; VO:0004987"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID35085183_human_subject-03",
+            "arm_name": "Healthy controls",
+            "study_population_description": "Healthy controls (N=16)",
+            "arm_type": "Healthy Control",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "White",
+                "Asian",
+                "Black or African American"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Male",
+                "Female"
+            ],
+            "age_event": "Age at enrollment",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Maryland"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [
+                "Pfizer BioNTech COVID-19 vaccine; VO:0004987"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID35085183_visit-01",
+            "visit_name": "Blood samples collected from 0 to 4 weeks in the participants from 2-dose cohort before vaccination",
+            "visit_order_number": 1,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": 28,
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35085183_visit-02",
+            "visit_name": "Blood samples collected 2 weeks after vaccine doses from the 2-dose cohort participants",
+            "visit_order_number": 2,
+            "visit_min_start_day": 14,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35085183_visit-03",
+            "visit_name": "Blood sample collected 0-22 days (median: 1d) before dose 3 (median: 83d after dose 2) from the 3-dose cohort participants",
+            "visit_order_number": 3,
+            "visit_min_start_day": 83,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        },
+        {
+            "visit_id": "PMID35085183_visit-04",
+            "visit_name": "Blood sample collected 2 weeks after dose 3 from the 3-dose cohort participants",
+            "visit_order_number": 4,
+            "visit_min_start_day": 194,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID35085183_human_subject-01, PMID35085183_human_subject-02, PMID35085183_human_subject-03"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35085183_visit-01"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "SARS-CoV-2 Antibody Detection",
+            "experiment_results_file_name": "PMID35085183_data.xlsx",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Pre-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "S1"
+            ],
+            "assay_use": "FDA EUA",
+            "manufacture": "Euroimmun",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "Arbitrary Unit",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35085183_human_subject-01, PMID35085183_human_subject-02, PMID35085183_human_subject-03"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35085183_visit-02 | PMID35085183_visit-03 | PMID35085183_visit-04"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "SARS-CoV-2 Antibody Detection",
+            "experiment_results_file_name": "PMID35085183_data.xlsx",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "S1"
+            ],
+            "assay_use": "FDA EUA",
+            "manufacture": "Euroimmun",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "Arbitrary Unit",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35085183_human_subject-01, PMID35085183_human_subject-02, PMID35085183_human_subject-03"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35085183_visit-01"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Pseudoneutralization/ACE2 Inhibition Measurement",
+            "experiment_results_file_name": "PMID35085183_data.xlsx",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Pre-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "S1"
+            ],
+            "assay_use": "FDA EUA",
+            "manufacture": "Euroimmun",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "Arbitrary Unit",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35085183_human_subject-01, PMID35085183_human_subject-02, PMID35085183_human_subject-03"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35085183_visit-02 | PMID35085183_visit-03 | PMID35085183_visit-04"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "Pseudoneutralization/ACE2 Inhibition Measurement",
+            "experiment_results_file_name": "PMID35085183_data.xlsx",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [
+                "S1"
+            ],
+            "assay_use": "FDA EUA",
+            "manufacture": "Euroimmun",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "Arbitrary Unit",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35085183_human_subject-01, PMID35085183_human_subject-02, PMID35085183_human_subject-03"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35085183_visit-01"
+            ],
+            "assay_type": "Chemiluminescent Assay",
+            "experiment_name": "Cytokines and chemokines measurement",
+            "experiment_results_file_name": "PMID35085183_data.xlsx",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Pre-vaccination"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "Meso Scale Diagnostics",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID35085183_human_subject-01, PMID35085183_human_subject-02, PMID35085183_human_subject-03"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID35085183_visit-02 | PMID35085183_visit-03 | PMID35085183_visit-04"
+            ],
+            "assay_type": "Chemiluminescent Assay",
+            "experiment_name": "Cytokines and chemokines measurement",
+            "experiment_results_file_name": "PMID35085183_data.xlsx",
+            "biospecimen_type": [
+                "Plasma"
+            ],
+            "biospecimen_collection_point": [
+                "Post-vaccination"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "Meso Scale Diagnostics",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": "Quantitative"
+        }
+    ],
+    "geriatric_subjects": "Yes",
+    "pediatric_subjects": "No",
+    "pregnant_subjects": "No",
+    "sars_cov_2_antibodies_measured": "Yes",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID35085183_inexcl-01",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35085183_inexcl-02",
+            "inclusion_criterion": "Pediatric subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35085183_inexcl-03",
+            "inclusion_criterion": "Pregnant subjects",
+            "inclusion_criterion_category": "exclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35085183_inexcl-04",
+            "inclusion_criterion": "SARS-CoV-2 Antibodies Measured",
+            "inclusion_criterion_category": "inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID35085183_inexcl-05",
+            "inclusion_criterion": "Vaccinated  Solid Organ Transplant Recipients",
+            "inclusion_criterion_category": "inclusion"
+        }
+    ],
+    "status_note": "Data at individual level available."
+}

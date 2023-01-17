@@ -1,0 +1,145 @@
+{
+    "pubmed_id": 35881010,
+    "study_identifier": "PMID35881010_study-01",
+    "study_name": "The Huanan Seafood Wholesale Market in Wuhan was the early epicenter of the COVID-19 pandemic",
+    "publication_title": "The Huanan Seafood Wholesale Market in Wuhan was the early epicenter of the COVID-19 pandemic",
+    "study_objective": "To understand how the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) emerged in 2019",
+    "study_description": "Understanding how severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) emerged in 2019 is critical to preventing zoonotic outbreaks before they become the next pandemic. The Huanan Seafood Wholesale Market in Wuhan, China, was identified as a likely source of cases in early reports but later this conclusion became controversial. We show the earliest known COVID-19 cases from December 2019, including those without reported direct links, were geographically centered on this market. We report that live SARS-CoV-2 susceptible mammals were sold at the market in late 2019 and, within the market, SARS-CoV-2-positive environmental samples were spatially associated with vendors selling live mammals. While there is insufficient evidence to define upstream events, and exact circumstances remain obscure, our analyses indicate that the emergence of SARS-CoV-2 occurred via the live wildlife trade in China, and show that the Huanan market was the epicenter of the COVID-19 pandemic.",
+    "primary_institution_name": "The Scripps Research Institute",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID35881010_personnel-01",
+            "honorific": "",
+            "last_name": "Garry",
+            "first_name": "Robert",
+            "suffixes": "",
+            "organization": "Tulane University of Louisiana",
+            "orchid_id": "",
+            "email": "rfgarry@TULANE.EDU",
+            "seronet_title_in_study": "Seronet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Tulane University of Louisiana"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID35881010_science.abp8715_sm.pdf",
+            "study_file_description": "Materials and methods, translations and urls for relevant articles and reports, business registry screen shots, geographical information, sample information",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID35881010_v1.2.5.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "PMID35881010_JSON.json",
+            "study_file_description": "JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "JSON Summary Description"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Infection Response",
+    "study_type": "Epidemiological Research",
+    "keyword": [
+        "Animals",
+        "COVID-19-epidemiology",
+        "COVID-19-transmission",
+        "COVID-19-virology",
+        "China-epidemiology",
+        "Humans",
+        "Pandemics",
+        "SARS-CoV-2-isolation & purification",
+        "Seafood-virology",
+        "Viral Zoonoses-epidemiology",
+        "Viral Zoonoses-transmission",
+        "Viral Zoonoses-virology"
+    ],
+    "clinical_study_design": "Retrospective Cohort",
+    "in_silico_model_type": "Not Applicable",
+    "protocol": {
+        "protocol_id": "PMID35881010_protocol-01",
+        "protocol_file_name": "PMID35881010_protocol-01.txt",
+        "protocol_name": "PMID35881010_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "Not Applicable"
+    ],
+    "clinical_outcome_measure": "Identification of the epicenter of the COVID-19 pandemic.",
+    "enrollment_start_date": "2019-12-01",
+    "enrollment_end_date": "2019-12-31",
+    "number_of_study_subjects": 155,
+    "age_unit": "Years",
+    "minimum_age": "",
+    "maximum_age": "",
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID35881010_human_subject-01",
+            "arm_name": "People infected with Covid-19",
+            "study_population_description": "People part of the initial outbreak of COVID-19",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Hispanic or Latino"
+            ],
+            "race": [
+                "Asian"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Female",
+                "Male"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [
+                "assessment_recorded_pv"
+            ],
+            "study_location": [
+                "China"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [
+                "Acute COVID-19 (< 4 weeks)"
+            ],
+            "assessment_clinical_and_demographic_data_provenance": [
+                "From Electronic Health Record"
+            ],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [
+                "Not Applicable"
+            ],
+            "covid_19_disease_severity": [
+                "Severe"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [],
+    "experiment": [],
+    "geriatric_subjects": "Not Specified",
+    "pediatric_subjects": "Not Specified",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "Yes",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID35881010_inexcl-01",
+            "inclusion_criterion": "SARS-CoV-2 Antibodies Measured",
+            "inclusion_criterion_category": "Yes"
+        }
+    ],
+    "status_note": "Data at study and cohort level."
+}

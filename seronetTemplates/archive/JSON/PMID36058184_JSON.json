@@ -1,0 +1,143 @@
+{
+    "pubmed_id": 36058184,
+    "study_identifier": "PMID36058184_study-01",
+    "study_name": "Infectious disease dynamics and restrictions on social gathering size",
+    "publication_title": "Infectious disease dynamics and restrictions on social gathering size",
+    "study_objective": "To develop a model for transmission of SARS-CoV-2 during social gatherings and understand the effects of gathering size restrictions on outbreak dynamics",
+    "study_description": "Social gatherings can be an important locus of transmission for many pathogens including SARS-CoV-2. During an outbreak, restricting the size of these gatherings is one of several non-pharmaceutical interventions available to policy-makers to reduce transmission. Often these restrictions take the form of prohibitions on gatherings above a certain size. While it is generally agreed that such restrictions reduce contacts, the specific size threshold separating \\\"allowed\\\" from \\\"prohibited\\\" gatherings often does not have a clear scientific basis, which leads to dramatic differences in guidance across location and time. Building on the observation that gathering size distributions are often heavy-tailed, we develop a theoretical model of transmission during gatherings and their contribution to general disease dynamics. We find that a key, but often overlooked, determinant of the optimal threshold is the distribution of gathering sizes. Using data on pre-pandemic contact patterns from several sources as well as empirical estimates of transmission parameters for SARS-CoV-2, we apply our model to better understand the relationship between restriction threshold and reduction in cases. We find that, under reasonable transmission parameter ranges, restrictions may have to be set quite low to have any demonstrable effect on cases due to relative frequency of smaller gatherings. We compare our conceptual model with observed changes in reported contacts during lockdown in March of 2020",
+    "primary_institution_name": "Harvard T.H. Chan School of Public Health",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID36058184_personnel-01",
+            "honorific": "",
+            "last_name": "Lipsitch",
+            "first_name": "Marc",
+            "suffixes": "",
+            "organization": "Harvard T.H. Chan School of Public Health",
+            "orchid_id": "",
+            "email": "mlipsitc@HSPH.HARVARD.EDU",
+            "seronet_title_in_study": "SeroNet Principal Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Harvard T.H. Chan School of Public Health"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID36058184_mmc1.pdf",
+            "study_file_description": "Additional theory, sensitivity analyses, and figures showing the dynamics of different variables in the model",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID36058184_v1.2.6.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "PMID36058184_JSON.json",
+            "study_file_description": "JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "JSON Summary Description"
+        }
+    ],
+    "study_link": [
+        {
+            "link_name": "Github",
+            "value": "https://github.com/boyercb/covid-gathering-size"
+        }
+    ],
+    "research_focus": "Infection Response",
+    "study_type": "Epidemiological Research",
+    "keyword": [
+        "COVID-19",
+        "Epidemiology",
+        "Gatherings",
+        "Non-pharmaceutical intervention",
+        "SARS-coV-2"
+    ],
+    "clinical_study_design": "Not Applicable",
+    "in_silico_model_type": "Epidemiological Model",
+    "protocol": {
+        "protocol_id": "PMID36058184_protocol-01",
+        "protocol_file_name": "PMID36058184_protocol-01.txt",
+        "protocol_name": "PMID36058184_protocol-01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Covid-19"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "Not Applicable"
+    ],
+    "clinical_outcome_measure": "COVID-19 transmission during gatherings",
+    "enrollment_start_date": "",
+    "enrollment_end_date": "",
+    "number_of_study_subjects": 113253,
+    "age_unit": "Years",
+    "minimum_age": "",
+    "maximum_age": "",
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID36058184_human_subject-01",
+            "arm_name": "CNS and BBC pandemic model",
+            "study_population_description": "Participants are from two primary sources of pre-pandemic period: the BBC Pandemic study (BBC) and the Copenhagen Networks Study (CNS) (N=113,253\u202c)",
+            "arm_type": "No Intervention Arm",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [
+                "assessment_recorded_pv"
+            ],
+            "study_location": [
+                "United States of America"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [
+                "Not Applicable"
+            ],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID36058184_visit-01",
+            "visit_name": "Model study",
+            "visit_order_number": 1,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [],
+    "geriatric_subjects": "Not Specified",
+    "pediatric_subjects": "Not Specified",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "Not Specified",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID36058184_inexcl-01",
+            "inclusion_criterion": "Not specified",
+            "inclusion_criterion_category": "Inclusion"
+        }
+    ],
+    "status_note": "Data at study and cohort level, Individual level data sharing requirement is waived by SeroNet for this study."
+}
