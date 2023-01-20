@@ -126,8 +126,8 @@ def create_full(PMID):
 
 
     # Automate output... 
-    OUT_DIR = os.path.join(BASE_DIR, 'ImmPort_templates_TEST') 
-    # OUT_DIR = './33184236_test/'
+    # OUT_DIR = os.path.join(BASE_DIR, 'ImmPort_templates_TEST2') 
+    OUT_DIR = './test/'
     PATH_pmid_basic_stdy_template = f'PMID{PMID}_study.xlsx'
 
     BASIC_STUDY_TEMPLATE = f'PMID{PMID}_basic'
@@ -1316,6 +1316,7 @@ def create_full(PMID):
             obj.assessmet_type.append(obj2.Assessment_Clinical_and_Demographic_Data_Provenance[i])
             obj.status.append(obj2.Assessment_Demographic_Data_Types_Collected[i])
             
+            #LIU47
             if field == "Measured Behavioral or Psychological Factor":
                 obj.assessment_component.append(obj2.Measured_Behavioral_or_Psychological_Factor[i])
             elif field == "Measured Social Factor":
@@ -1381,7 +1382,7 @@ def create_full(PMID):
                 # print('Measured Behavioral or Psychological Factor') #MBPF
                 # updateObject(MBPF,SUBJECT_HUMAN,n, 'MBPF')
                 updateObject(MBPF,SUBJECT_HUMAN,n,'Measured Behavioral or Psychological Factor')
-                MBPF_df = makeAssessmentDF(SCS,STUDY,PMID,'MBPF')
+                MBPF_df = makeAssessmentDF(MBPF,STUDY,PMID,'MBPF')
                 MBPF_df.to_csv(os.path.join(OUT_DIR,f'PMID{PMID}_panel_MBPF.txt'),
                            header = False,
                            index = False,
@@ -1391,7 +1392,7 @@ def create_full(PMID):
                 # print('Measured_Social_Factor') #MSF
                 # updateObject(MSF,SUBJECT_HUMAN,n, 'MSF')
                 updateObject(MSF,SUBJECT_HUMAN,n, 'Measured Social Factor')
-                MSF_df = makeAssessmentDF(SCS,STUDY,PMID,'MSF')
+                MSF_df = makeAssessmentDF(MSF,STUDY,PMID,'MSF')
                 MSF_df.to_csv(os.path.join(OUT_DIR,f'PMID{PMID}_panel_MSF.txt'),
                            header = False,
                            index = False,

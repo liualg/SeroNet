@@ -1,0 +1,1001 @@
+Primary_Study_Cohort,Research_Participant_ID,Age,Sex_At_Birth,Race,Ethnicity,Height,Weight,BMI,Location
+IBD,14_I10465,44,Male,White,Unknown,66,158,25.5,NY
+IBD,14_I11895,63,Female,White,Unknown,65,137,22.8,NY
+IBD,14_I12705,67,Female,White,Unknown,65,185,30.8,NY
+IBD,14_I12822,63,Male,White,Unknown,70,179,25.7,NY
+IBD,14_I14007,21,Female,White,"Not Hispanic or Latino",68,132,20.1,NY
+IBD,14_I14999,32,Male,White,Unknown,70,179,25.7,NY
+IBD,14_I15040,72,Male,White,Unknown,74,164,21.1,NY
+IBD,14_I15925,19,Male,White,Unknown,71,170,23.7,NY
+IBD,14_I16538,40,Female,White,"Not Hispanic or Latino",69,156,23.1,NY
+IBD,14_I16611,33,Female,White,"Not Hispanic or Latino",66,141,22.8,NY
+IBD,14_I16953,38,Male,White,Unknown,74,251,32.2,NY
+IBD,14_I17576,42,Female,White,Unknown,64,139,23.9,NY
+IBD,14_I20222,41,Male,Other,Unknown,70,150,21.5,NY
+IBD,14_I20856,23,Female,Other,Unknown,62,180,32.9,NY
+IBD,14_I21689,21,Male,Other,Unknown,67,175,27.4,NY
+IBD,14_I23361,53,Male,"Black or African American",Unknown,70,170,24.4,NY
+IBD,14_I24298,42,Female,White,Unknown,64,111,19.1,NY
+IBD,14_I24311,43,Male,White,Unknown,72,209,28.4,NY
+IBD,14_I25616,54,Female,White,Unknown,61,140,26.4,NY
+IBD,14_I25746,66,Male,White,Unknown,68,231,35.1,NY
+IBD,14_I26161,37,Female,White,Unknown,"Not Reported","Not Reported",NULL,NY
+IBD,14_I27468,24,Female,White,"Not Hispanic or Latino",67,140,21.9,NY
+IBD,14_I27893,49,Female,White,Unknown,62,205,37.5,NY
+IBD,14_I28518,36,Female,Other,Unknown,68,216,32.8,NY
+IBD,14_I29237,30,Male,Other,Unknown,74,178,22.9,NY
+IBD,14_I29520,36,Female,Other,Unknown,66,202,32.6,NY
+IBD,14_I29763,38,Female,Asian,"Not Hispanic or Latino",66,129,20.8,NY
+IBD,14_I33270,37,Male,White,Unknown,66,156,25.2,NY
+IBD,14_I33857,43,Female,White,Unknown,67,154,24.2,NY
+IBD,14_I34455,26,Male,White,Unknown,70,180,25.8,NY
+IBD,14_I34622,42,Female,White,Unknown,"Not Reported","Not Reported",NULL,NY
+IBD,14_I34777,38,Male,White,Unknown,75,173,21.6,NY
+IBD,14_I36010,39,Male,White,Unknown,77,206,24.4,NY
+IBD,14_I36599,34,Female,White,Unknown,"Not Reported","Not Reported",NULL,NY
+IBD,14_I36806,38,Female,"Black or African American",Unknown,63,304,53.9,NY
+IBD,14_I37793,65,Female,White,"Not Hispanic or Latino",64,137,23.5,NY
+IBD,14_I38152,34,Male,White,"Not Hispanic or Latino",67,133,20.8,NY
+IBD,14_I38480,38,Male,White,Unknown,70,152,21.8,NY
+IBD,14_I39901,55,Male,White,Unknown,"Not Reported",152,NULL,NY
+IBD,14_I41117,37,Female,Other,Unknown,60,107,20.9,NY
+IBD,14_I41297,24,Male,White,Unknown,72,130,17.6,NY
+IBD,14_I42369,21,Male,Asian,Unknown,71,146,20.4,NY
+IBD,14_I42556,56,Male,White,Unknown,70,167,24,NY
+IBD,14_I42850,43,Female,White,Unknown,59,110,22.2,NY
+IBD,14_I42997,33,Female,"Black or African American","Not Hispanic or Latino",64,250,42.9,NY
+IBD,14_I43037,72,Male,White,"Not Hispanic or Latino",70,170,24.4,NY
+IBD,14_I43813,33,Male,White,Unknown,70,205,29.4,NY
+IBD,14_I43820,25,Male,White,Unknown,72,128,17.3,NY
+IBD,14_I43951,54,Male,White,"Not Hispanic or Latino",72,170,23.1,NY
+IBD,14_I44146,37,Female,White,Unknown,68,149,22.7,NY
+IBD,14_I44779,38,Female,White,"Not Hispanic or Latino",61,153,28.9,NY
+IBD,14_I45635,66,Male,Other,Unknown,64,156,26.8,NY
+IBD,14_I46415,47,Male,Other,Unknown,66,131,21.1,NY
+IBD,14_I48176,50,Female,White,Unknown,67,317,49.6,NY
+IBD,14_I50464,23,Female,White,Unknown,69,153,22.6,NY
+IBD,14_I52505,29,Female,White,"Hispanic or Latino",61,146,27.6,NY
+IBD,14_I52904,44,Male,White,Unknown,72,156,21.2,NY
+IBD,14_I53405,59,Female,White,"Not Hispanic or Latino",64,154,26.4,NY
+IBD,14_I53750,60,Female,White,"Not Hispanic or Latino",60,175,34.2,NY
+IBD,14_I53852,27,Male,White,Unknown,71,170,23.7,NY
+IBD,14_I56475,65,Male,White,Unknown,70,144,20.7,NY
+IBD,14_I56565,55,Female,"Black or African American","Not Hispanic or Latino",62,150,27.4,NY
+IBD,14_I57417,34,Female,White,Unknown,62,132,24.1,NY
+IBD,14_I57667,32,Female,White,Unknown,67,154,24.1,NY
+IBD,14_I57674,62,Female,White,"Not Hispanic or Latino","Not Reported","Not Reported",NULL,NY
+IBD,14_I57702,48,Female,Other,Unknown,61,139,26.3,NY
+IBD,14_I57952,46,Female,White,"Not Hispanic or Latino",67,214,33.5,NY
+IBD,14_I58015,26,Male,White,Unknown,71,139,19.4,NY
+IBD,14_I59605,62,Female,White,Unknown,65,105,17.6,NY
+IBD,14_I60902,37,Female,White,Unknown,68,206,31.3,NY
+IBD,14_I63099,40,Male,Unknown,Unknown,74,187,24,NY
+IBD,14_I65324,36,Female,White,Unknown,61,180,34,NY
+IBD,14_I66417,46,Female,White,Unknown,"Not Reported",118,NULL,NY
+IBD,14_I66579,35,Female,White,Unknown,59,107,21.6,NY
+IBD,14_I67677,55,Male,White,Unknown,67,191,29.9,NY
+IBD,14_I68349,35,Male,White,Unknown,72,188,25.5,NY
+IBD,14_I68390,20,Female,White,Unknown,65,145,24.1,NY
+IBD,14_I69729,60,Male,White,Unknown,66,188,30.3,NY
+IBD,14_I70478,27,Male,White,Unknown,70,209,30,NY
+IBD,14_I70956,31,Female,"Black or African American","Not Hispanic or Latino",66,136,22,NY
+IBD,14_I71618,68,Male,White,Unknown,71,155,21.6,NY
+IBD,14_I71976,40,Female,White,Unknown,64,130,22.3,NY
+IBD,14_I73115,35,Female,White,Unknown,65,120,20,NY
+IBD,14_I73656,37,Male,White,"Not Hispanic or Latino",63,112,19.8,NY
+IBD,14_I75136,29,Female,White,Unknown,61,129,24.4,NY
+IBD,14_I75376,35,Female,White,Unknown,61,110,20.8,NY
+IBD,14_I75386,42,Male,White,Unknown,63,125,22.1,NY
+IBD,14_I77409,29,Female,Unknown,Unknown,65,106,17.7,NY
+IBD,14_I77996,64,Female,Asian,Unknown,62,144,26.3,NY
+IBD,14_I79216,76,Female,White,Unknown,62,116,21.2,NY
+IBD,14_I79940,65,Male,White,Unknown,73,192,25.4,NY
+IBD,14_I79974,49,Male,"Native Hawaiian or Other Pacific Islander","Not Hispanic or Latino",75,255,31.9,NY
+IBD,14_I80843,21,Male,Other,Unknown,67,134,21,NY
+IBD,14_I81755,39,Female,White,Unknown,64,170,29.2,NY
+IBD,14_I83701,65,Female,White,Unknown,64,148,25.4,NY
+IBD,14_I83788,36,Male,White,Unknown,70,204,29.3,NY
+IBD,14_I84197,53,Female,White,Unknown,69,156,23,NY
+IBD,14_I85955,38,Female,Unknown,Unknown,66,139,22.4,NY
+IBD,14_I86190,43,Female,White,Unknown,59,215,43.4,NY
+IBD,14_I86400,49,Female,White,Unknown,69,232,34.3,NY
+IBD,14_I87708,26,Female,White,Unknown,62,142,25.9,NY
+IBD,14_I89723,34,Female,White,Unknown,66,200,32.3,NY
+IBD,14_I92590,25,Male,White,Unknown,73,161,21.2,NY
+IBD,14_I92874,29,Male,White,Unknown,68,172,26.1,NY
+IBD,14_I93341,73,Female,White,Unknown,63,120,21.3,NY
+IBD,14_I94070,37,Female,White,Unknown,66,155,25,NY
+IBD,14_I94124,37,Female,White,"Not Hispanic or Latino",61,134,25.3,NY
+IBD,14_I94177,34,Male,White,Unknown,67,171,26.8,NY
+IBD,14_I94259,25,Female,White,Unknown,64,105,18,NY
+IBD,14_I94428,35,Male,White,Unknown,70,141,20.2,NY
+IBD,14_I95648,65,Female,White,"Not Hispanic or Latino",63,155,27.5,NY
+IBD,14_I96066,22,Male,White,"Not Hispanic or Latino",72,160,21.7,NY
+IBD,14_I97537,30,Male,White,Unknown,68,155,23.6,NY
+IBD,14_I97999,37,Female,Other,Unknown,70,142,20.4,NY
+IBD,14_I99436,40,Female,White,Unknown,67,215,33.7,NY
+Cancer,14_M10017,67,Male,White,"Not Reported",73,176,23.2,NY
+Cancer,14_M11752,72,Male,White,"Not Reported",72,202,27.4,NY
+Cancer,14_M11913,43,Female,White,"Not Reported",68,141,21.4,NY
+Cancer,14_M11971,81,Male,White,Unknown,72,207,28.1,NY
+Cancer,14_M12361,77,Male,Other,"Not Reported",70,143,20.5,NY
+Cancer,14_M12362,61,Male,White,"Not Reported",72,192,26,NY
+Cancer,14_M12364,71,Female,Other,"Not Reported",63,106,18.8,NY
+Cancer,14_M12472,54,Male,White,"Not Reported",67,165,25.8,NY
+Cancer,14_M12772,72,Female,White,"Not Reported",65,140,23.3,NY
+Cancer,14_M13716,70,Male,White,"Not Reported",69,171,25.2,NY
+Cancer,14_M13882,51,Female,White,"Not Reported",59,127,25.6,NY
+Cancer,14_M14619,75,Male,Other,"Hispanic or Latino",66,196,31.6,NY
+Cancer,14_M15043,68,Female,Other,"Not Reported",63,160,28.3,NY
+Cancer,14_M15363,63,Male,White,"Not Reported",68,155,23.6,NY
+Cancer,14_M17518,72,Male,White,"Not Reported",65,139,23.1,NY
+Cancer,14_M17917,66,Female,Asian,"Not Reported",64,160,27.5,NY
+Cancer,14_M18787,63,Female,Other,"Hispanic or Latino",59,137,27.7,NY
+Cancer,14_M19123,85,Male,White,"Not Reported",66,157,25.3,NY
+Cancer,14_M19535,85,Male,White,"Not Hispanic or Latino",65,183,30.4,NY
+Cancer,14_M19671,79,Male,White,"Not Reported",61,140,26.4,NY
+Cancer,14_M20620,75,Male,Other,"Not Reported",61,209,39.5,NY
+Cancer,14_M22075,57,Male,"Black or African American","Not Reported",66,168,27.1,NY
+Cancer,14_M22881,64,Female,Asian,"Not Reported",63,148,26.2,NY
+Cancer,14_M23331,67,Male,White,"Not Hispanic or Latino",67,271,42.4,NY
+Cancer,14_M23912,65,Female,White,"Not Reported",61,120,22.7,NY
+Cancer,14_M25112,67,Female,White,"Not Reported",63,104,18.4,NY
+Cancer,14_M25119,54,Male,"Black or African American","Not Reported",72,253,34.3,NY
+Cancer,14_M25229,75,Male,White,"Not Reported",67,202,31.6,NY
+Cancer,14_M25333,60,Female,White,"Not Reported",68,275,41.8,NY
+Cancer,14_M25836,66,Male,Other,"Not Reported",65,252,41.9,NY
+Cancer,14_M26070,64,Male,White,"Not Reported",72,185,25.1,NY
+Cancer,14_M26655,75,Male,Other,"Not Hispanic or Latino",68,156,23.7,NY
+Cancer,14_M27320,57,Male,White,"Not Reported",73,211,27.8,NY
+Cancer,14_M27604,59,Male,White,"Not Hispanic or Latino",69,180,26.6,NY
+Cancer,14_M27771,57,Female,Other,"Not Reported",67,220,34.5,NY
+Cancer,14_M27841,78,Male,White,"Not Reported",64,180,30.9,NY
+Cancer,14_M28220,69,Female,White,"Not Reported",68,163,24.8,NY
+Cancer,14_M29122,82,Male,White,"Not Reported",69,173,25.5,NY
+Cancer,14_M29227,45,Female,Other,"Not Hispanic or Latino",64,202,34.7,NY
+Cancer,14_M29468,71,Female,White,"Not Reported",66,193,31.1,NY
+Cancer,14_M29748,73,Male,White,Unknown,68,176,26.8,NY
+Cancer,14_M30052,61,Female,"Black or African American","Not Reported",63,144,25.5,NY
+Cancer,14_M30157,50,Female,Asian,"Not Reported",61,133,25.1,NY
+Cancer,14_M30444,38,Male,Other,"Not Reported",67,181,28.3,NY
+Cancer,14_M30633,54,Male,White,"Not Reported",71,182,25.4,NY
+Cancer,14_M30765,62,Female,White,"Not Reported",64,161,27.6,NY
+Cancer,14_M30854,70,Male,Other,"Not Reported",NULL,NULL,NULL,NY
+Cancer,14_M31830,64,Male,White,"Not Reported",71,184,25.7,NY
+Cancer,14_M32158,55,Female,Asian,"Not Reported",62,144,26.3,NY
+Cancer,14_M34947,61,Female,"Black or African American","Not Reported",62,163,29.8,NY
+Cancer,14_M35466,74,Female,White,"Not Reported",64,124,21.3,NY
+Cancer,14_M36070,63,Male,White,"Not Reported",68,199,30.3,NY
+Cancer,14_M36783,73,Male,Other,"Not Reported",67,153,24,NY
+Cancer,14_M36838,68,Female,Other,"Not Reported",63,190,33.7,NY
+Cancer,14_M37055,68,Female,Other,"Not Reported",61,135,25.5,NY
+Cancer,14_M37396,70,Male,White,"Not Reported",69,147,21.7,NY
+Cancer,14_M37403,59,Male,White,"Not Reported",65,214,35.6,NY
+Cancer,14_M39098,63,Female,White,"Not Reported",64,204,35,NY
+Cancer,14_M39415,77,Female,Other,"Not Reported",62,145,26.5,NY
+Cancer,14_M39420,71,Male,"Black or African American","Not Reported",67,168,26.3,NY
+Cancer,14_M39910,53,Male,"Black or African American","Not Hispanic or Latino",66,158,25.5,NY
+Cancer,14_M40073,61,Male,Other,"Not Reported",70,157,22.5,NY
+Cancer,14_M40245,59,Male,Other,"Not Reported",64,156,26.8,NY
+Cancer,14_M40645,68,Female,"Black or African American","Not Reported",65,202,33.6,NY
+Cancer,14_M41231,56,Male,White,"Not Reported",74,226,29,NY
+Cancer,14_M41779,60,Male,White,"Not Reported",75,235,29.4,NY
+Cancer,14_M41780,61,Female,"Black or African American","Not Reported",58,149,31.1,NY
+Cancer,14_M41851,81,Female,Other,"Not Reported",63,132,23.4,NY
+Cancer,14_M42743,63,Female,White,"Not Reported",65,135,22.5,NY
+Cancer,14_M43566,47,Female,White,"Not Reported",63,166,29.4,NY
+Cancer,14_M43710,73,Female,White,"Not Hispanic or Latino",67,140,21.9,NY
+Cancer,14_M45025,56,Male,White,"Not Hispanic or Latino",66,190,30.7,NY
+Cancer,14_M45063,75,Male,White,"Not Reported",69,218,32.2,NY
+Cancer,14_M45883,64,Male,"Black or African American","Not Reported",69,185,27.3,NY
+Cancer,14_M45907,42,Female,"Black or African American","Not Reported",66,162,26.1,NY
+Cancer,14_M46148,51,Male,White,"Not Reported",73,294,38.8,NY
+Cancer,14_M47014,66,Female,"Black or African American","Not Reported",67,150,23.5,NY
+Cancer,14_M47499,64,Male,White,"Not Reported",73,233,30.7,NY
+Cancer,14_M47749,83,Male,White,"Not Reported",66,182,29.4,NY
+Cancer,14_M48028,72,Male,White,"Not Reported",68,183,27.8,NY
+Cancer,14_M48044,55,Female,White,"Not Reported",62,194,35.5,NY
+Cancer,14_M48121,50,Male,White,"Not Hispanic or Latino",66,147,23.7,NY
+Cancer,14_M48491,54,Male,"Black or African American","Not Reported",67,190,29.8,NY
+Cancer,14_M48696,66,Female,White,"Not Reported",62,139,25.4,NY
+Cancer,14_M49601,81,Male,White,Unknown,62,179,32.7,NY
+Cancer,14_M49810,60,Female,Other,"Not Reported",65,139,23.1,NY
+Cancer,14_M50121,70,Female,"Black or African American","Not Hispanic or Latino",62,150,27.4,NY
+Cancer,14_M50493,73,Male,"Black or African American","Not Reported",65,179,29.8,NY
+Cancer,14_M50573,59,Male,White,"Not Reported",69,190,28.1,NY
+Cancer,14_M50710,62,Female,Asian,"Not Reported",63,105,18.6,NY
+Cancer,14_M51019,72,Female,White,"Not Reported",66,131,21.1,NY
+Cancer,14_M51064,81,Male,White,"Not Reported",63,145,25.7,NY
+Cancer,14_M51914,62,Male,Other,"Hispanic or Latino",66,142,22.9,NY
+Cancer,14_M52307,65,Male,"Black or African American","Not Reported",70,200,28.7,NY
+Cancer,14_M53123,67,Female,"Black or African American","Not Hispanic or Latino",65,186,30.9,NY
+Cancer,14_M53379,77,Male,White,"Not Reported",66,161,26,NY
+Cancer,14_M53433,80,Female,Other,"Not Reported",62,125,22.9,NY
+Cancer,14_M53533,70,Female,White,"Not Reported",64,119,20.4,NY
+Cancer,14_M54590,64,Female,White,"Not Reported",64,134,23,NY
+Cancer,14_M54798,62,Male,White,"Not Reported",71,166,23.1,NY
+Cancer,14_M54994,70,Male,White,"Not Reported",68,132,20.1,NY
+Cancer,14_M55175,46,Female,"Black or African American","Not Reported",63,215,38.1,NY
+Cancer,14_M55308,69,Female,"Black or African American","Not Hispanic or Latino",70,183,26.3,NY
+Cancer,14_M55356,73,Male,Other,"Not Hispanic or Latino",69,158,23.3,NY
+Cancer,14_M56163,69,Male,White,"Not Reported",70,203,29.1,NY
+Cancer,14_M56625,65,Female,"Black or African American","Not Hispanic or Latino",61,171,32.3,NY
+Cancer,14_M56902,66,Male,White,"Not Reported",65,207,34.4,NY
+Cancer,14_M57257,80,Female,White,"Not Reported",63,96,17,NY
+Cancer,14_M57515,61,Female,Other,"Not Reported",67,175,27.4,NY
+Cancer,14_M57710,51,Female,Other,"Hispanic or Latino",64,147,25.2,NY
+Cancer,14_M57947,63,Female,Other,"Not Reported",61,172,32.5,NY
+Cancer,14_M58438,75,Male,White,"Not Reported",66,147,23.7,NY
+Cancer,14_M59028,61,Male,White,"Not Reported",68,180,27.4,NY
+Cancer,14_M60807,80,Male,Other,"Not Reported",65,172,28.6,NY
+Cancer,14_M60942,77,Female,"Black or African American","Not Reported",67,135,21.1,NY
+Cancer,14_M60971,56,Male,White,"Not Hispanic or Latino",70,185,26.5,NY
+Cancer,14_M61017,78,Female,White,"Not Reported",58,129,27,NY
+Cancer,14_M61247,67,Male,White,"Not Reported",70,184,26.4,NY
+Cancer,14_M61546,76,Female,"Black or African American","Not Reported",65,185,30.8,NY
+Cancer,14_M62513,70,Male,White,"Not Reported",71,147,20.5,NY
+Cancer,14_M62959,56,Female,Asian,"Not Reported",62,165,30.2,NY
+Cancer,14_M63365,62,Female,"Black or African American","Not Reported",66,218,35.2,NY
+Cancer,14_M63456,60,Female,Other,"Not Reported",67,126,19.7,NY
+Cancer,14_M63817,58,Male,White,"Not Reported",68,166,25.2,NY
+Cancer,14_M64325,62,Male,White,"Not Reported",70,184,26.4,NY
+Cancer,14_M64332,59,Female,"Black or African American","Not Reported",67,159,24.9,NY
+Cancer,14_M64459,85,Male,Other,"Not Reported",64,187,32.1,NY
+Cancer,14_M65483,62,Male,White,"Not Reported",73,233,30.7,NY
+Cancer,14_M66045,72,Male,White,"Not Reported",73,174,23,NY
+Cancer,14_M66933,62,Female,White,"Not Reported",66,165,26.6,NY
+Cancer,14_M67517,60,Male,White,Unknown,72,234,31.7,NY
+Cancer,14_M67547,65,Male,White,"Not Reported",68,188,28.6,NY
+Cancer,14_M68652,67,Male,White,"Not Reported",69,205,30.3,NY
+Cancer,14_M69250,46,Male,Other,"Hispanic or Latino",63,143,25.3,NY
+Cancer,14_M69360,73,Male,White,"Not Reported",69,217,32,NY
+Cancer,14_M69686,74,Female,"Black or African American","Not Reported",64,115,19.7,NY
+Cancer,14_M70188,78,Female,Asian,"Not Reported",60,107,20.9,NY
+Cancer,14_M70378,71,Female,Other,"Hispanic or Latino",67,192,30.1,NY
+Cancer,14_M70762,81,Female,Other,"Not Reported",62,128,23.4,NY
+Cancer,14_M71390,68,Male,White,"Not Reported",68,188,28.6,NY
+Cancer,14_M71491,69,Female,White,"Not Reported",61,118,22.3,NY
+Cancer,14_M71588,59,Female,White,Unknown,62,132,24.1,NY
+Cancer,14_M72292,70,Female,White,"Not Reported",67,122,19.1,NY
+Cancer,14_M72379,63,Female,White,"Not Reported",63,123,21.8,NY
+Cancer,14_M73155,72,Female,Other,"Hispanic or Latino",63,166,29.4,NY
+Cancer,14_M73510,66,Female,Unknown,"Not Reported",66,126,20.3,NY
+Cancer,14_M73714,58,Male,White,Unknown,65,152,25.3,NY
+Cancer,14_M74349,73,Female,Other,"Hispanic or Latino",61,116,21.9,NY
+Cancer,14_M74676,65,Female,Other,"Hispanic or Latino",64,206,35.4,NY
+Cancer,14_M74960,76,Male,White,"Not Reported",69,148,21.9,NY
+Cancer,14_M75060,53,Male,White,"Not Reported",74,242,31.1,NY
+Cancer,14_M75191,66,Male,"Black or African American","Not Reported",72,192,26,NY
+Cancer,14_M75342,59,Female,Other,"Hispanic or Latino",58,171,35.7,NY
+Cancer,14_M75734,63,Female,Other,"Not Reported",61,197,37.2,NY
+Cancer,14_M75830,78,Female,Other,"Not Reported",65,181,30.1,NY
+Cancer,14_M78965,75,Female,White,"Not Reported",62,110,20.1,NY
+Cancer,14_M79409,61,Female,"Black or African American","Not Hispanic or Latino",64,331,56.8,NY
+Cancer,14_M79890,44,Male,Asian,"Not Reported",70,194,27.8,NY
+Cancer,14_M80127,71,Male,White,"Not Reported",63,125,22.1,NY
+Cancer,14_M80189,70,Female,"Black or African American","Not Reported",67,214,33.5,NY
+Cancer,14_M80198,79,Female,White,"Not Hispanic or Latino",64,137,23.5,NY
+Cancer,14_M80234,73,Female,White,"Not Reported",63,145,25.7,NY
+Cancer,14_M80296,75,Male,Other,"Not Reported",65,234,38.9,NY
+Cancer,14_M80341,90,Male,White,"Not Reported",70,146,20.9,NY
+Cancer,14_M80569,78,Female,White,"Not Reported",65,133,22.1,NY
+Cancer,14_M81108,49,Female,Other,"Not Reported",63,96,17,NY
+Cancer,14_M81519,46,Male,Other,"Not Reported",67,157,24.6,NY
+Cancer,14_M82630,45,Male,White,"Not Reported",71,198,27.6,NY
+Cancer,14_M83158,60,Male,"Black or African American","Not Reported",72,181,24.5,NY
+Cancer,14_M83738,71,Female,Unknown,"Not Reported",67,218,34.1,NY
+Cancer,14_M84272,55,Male,Other,"Not Reported",66,148,23.9,NY
+Cancer,14_M84388,75,Male,White,"Not Hispanic or Latino",68,157,23.9,NY
+Cancer,14_M85775,73,Female,"Black or African American","Not Reported",68,157,23.9,NY
+Cancer,14_M85962,63,Female,Other,"Not Reported",63,185,32.8,NY
+Cancer,14_M87335,45,Female,Other,"Not Reported",64,185,31.8,NY
+Cancer,14_M87441,69,Male,White,"Not Reported",69,174,25.7,NY
+Cancer,14_M87667,60,Male,White,"Not Reported",68,253,38.5,NY
+Cancer,14_M88631,74,Male,Asian,"Not Reported",68,144,21.9,NY
+Cancer,14_M89188,50,Male,Other,"Not Reported",76,205,25,NY
+Cancer,14_M89334,56,Male,White,"Not Hispanic or Latino",66,153,24.7,NY
+Cancer,14_M89798,71,Male,White,"Not Hispanic or Latino",67,204,31.9,NY
+Cancer,14_M89952,78,Male,Other,"Not Reported",68,183,27.8,NY
+Cancer,14_M90699,67,Male,"Black or African American","Not Reported",70,206,29.6,NY
+Cancer,14_M91464,71,Male,White,"Not Reported",68,186,28.3,NY
+Cancer,14_M92328,67,Female,"Black or African American",Unknown,65,158,26.3,NY
+Cancer,14_M92465,38,Male,Other,"Not Reported",70,164,23.5,NY
+Cancer,14_M93662,72,Male,White,"Not Reported",63,145,25.7,NY
+Cancer,14_M93973,57,Male,White,"Not Reported",69,201,29.7,NY
+Cancer,14_M95508,90,Female,Other,"Not Reported",62,163,29.8,NY
+Cancer,14_M96882,51,Female,White,"Not Reported",63,181,32.1,NY
+Cancer,14_M97058,71,Female,White,"Not Reported",64,146,25.1,NY
+Cancer,14_M98827,63,Female,Other,"Not Reported",63,160,28.3,NY
+Cancer,14_M99126,83,Male,White,"Not Reported",NULL,NULL,NULL,NY
+Cancer,14_M99266,80,Male,White,"Not Reported",70,184,26.4,NY
+Cancer,14_M99897,74,Female,White,"Not Reported",64,132,22.7,NY
+PRIORITY,14_P11241,52,Female,Other,"Hispanic or Latino",63,210,37.2,NY
+PRIORITY,14_P11953,44,Female,"Black or African American","Not Hispanic or Latino",62,159,29.1,NY
+PRIORITY,14_P13990,44,Female,"Black or African American","Not Hispanic or Latino",65,180,29.9,NY
+PRIORITY,14_P14687,72,Male,Other,"Not Hispanic or Latino",67,167,26.1,NY
+PRIORITY,14_P16347,51,Male,"Black or African American","Not Hispanic or Latino",69,201,29.7,NY
+PRIORITY,14_P18425,41,Female,"Black or African American","Not Hispanic or Latino",63,242,42.9,NY
+PRIORITY,14_P19421,61,Female,"Black or African American","Not Hispanic or Latino",62,173,31.6,NY
+PRIORITY,14_P19820,76,Female,"Black or African American","Not Hispanic or Latino",63,130,23,NY
+PRIORITY,14_P24926,39,Male,"American Indian or Alaska Native","Not Hispanic or Latino",66,137,22.1,NY
+PRIORITY,14_P28670,41,Female,"Black or African American","Not Hispanic or Latino",62,158,28.9,NY
+PRIORITY,14_P30278,39,Female,"Black or African American","Not Hispanic or Latino",NULL,NULL,NULL,NY
+PRIORITY,14_P31197,64,Female,Other,"Hispanic or Latino",67,176,27.5,NY
+PRIORITY,14_P31833,48,Female,Other,"Not Hispanic or Latino",64,114,19.8,NY
+PRIORITY,14_P33540,30,Female,"Black or African American","Not Hispanic or Latino",63,298,52,NY
+PRIORITY,14_P34353,68,Female,Other,"Hispanic or Latino",NULL,57.2,NULL,NY
+PRIORITY,14_P34424,77,Male,"Black or African American","Not Hispanic or Latino",NULL,172,NULL,NY
+PRIORITY,14_P34644,65,Male,"Black or African American","Not Hispanic or Latino",68,180,27.4,NY
+PRIORITY,14_P35549,24,Female,Other,"Not Hispanic or Latino",64,240,41.9,NY
+PRIORITY,14_P39690,43,Male,"Black or African American","Not Hispanic or Latino",70,186,26.7,NY
+PRIORITY,14_P40325,57,Female,White,"Hispanic or Latino",64,207,35.5,NY
+PRIORITY,14_P41119,40,Male,Other,"Hispanic or Latino",NULL,NULL,NULL,NY
+PRIORITY,14_P42142,53,Male,"Black or African American","Not Hispanic or Latino",67,211,33,NY
+PRIORITY,14_P42480,45,Female,Other,"Hispanic or Latino",65,250,41.6,NY
+PRIORITY,14_P42873,59,Male,Other,"Not Hispanic or Latino",64,188,32.3,NY
+PRIORITY,14_P50115,49,Female,Other,"Hispanic or Latino",NULL,NULL,NULL,NY
+PRIORITY,14_P50882,57,Female,"Black or African American","Not Hispanic or Latino",66,190,30.7,NY
+PRIORITY,14_P52750,59,Female,Other,"Hispanic or Latino",62,218,39.9,NY
+PRIORITY,14_P54855,53,Female,White,"Not Hispanic or Latino",65,282,46.9,NY
+PRIORITY,14_P57091,39,Male,"Black or African American","Hispanic or Latino",NULL,NULL,NULL,NY
+PRIORITY,14_P58425,21,Female,White,"Hispanic or Latino",65,258,43,NY
+PRIORITY,14_P59470,50,Female,Other,"Hispanic or Latino",59,120,24.2,NY
+PRIORITY,14_P60293,48,Male,White,"Not Hispanic or Latino",67,192,30.7,NY
+PRIORITY,14_P61029,24,Female,"Black or African American","Not Hispanic or Latino",68,230,35,NY
+PRIORITY,14_P64772,49,Female,"Black or African American","Not Hispanic or Latino",62,154,28.2,NY
+PRIORITY,14_P66776,71,Male,Other,"Hispanic or Latino",59,155,31.3,NY
+PRIORITY,14_P67267,30,Female,Other,"Hispanic or Latino",61,153,28.9,NY
+PRIORITY,14_P72994,58,Female,"Black or African American","Not Hispanic or Latino",68,218,33.2,NY
+PRIORITY,14_P73262,62,Female,"Black or African American","Not Hispanic or Latino",63,181,32.1,NY
+PRIORITY,14_P76937,58,Female,White,"Not Hispanic or Latino",64,280,48,NY
+PRIORITY,14_P82770,57,Female,Other,"Hispanic or Latino",61,148,28,NY
+PRIORITY,14_P83329,62,Female,"Black or African American","Not Hispanic or Latino",61,154,29.1,NY
+PRIORITY,14_P83472,55,Male,Other,"Not Hispanic or Latino",70,265,38.1,NY
+PRIORITY,14_P84073,60,Female,"Black or African American","Not Hispanic or Latino",62,246,44.9,NY
+PRIORITY,14_P86065,78,Female,"Black or African American","Not Hispanic or Latino",60,152,29.7,NY
+PRIORITY,14_P86575,20,Female,Other,"Hispanic or Latino",70,431,61,NY
+PRIORITY,14_P87183,60,Female,Other,"Hispanic or Latino",62,304,55.6,NY
+PRIORITY,14_P87722,35,Male,Other,"Hispanic or Latino",72,292,39.6,NY
+PRIORITY,14_P91324,29,Female,Other,"Not Hispanic or Latino",NULL,180,NULL,NY
+PRIORITY,14_P92900,48,Female,"Native Hawaiian or Other Pacific Islander","Hispanic or Latino",63,173,30.7,NY
+PRIORITY,14_P94383,63,Female,Other,"Hispanic or Latino",66,177,28.6,NY
+PRIORITY,14_P94498,65,Male,"Black or African American","Not Hispanic or Latino",67,146,22.9,NY
+Transplant,14_T10013,62,Male,White,"Not Hispanic or Latino",70,158,22.7,NY
+Transplant,14_T10459,72,Female,Other,"Hispanic or Latino",60,158,30.9,NY
+Transplant,14_T10645,68,Male,Other,"Hispanic or Latino",64,170,29.2,NY
+Transplant,14_T10787,60,Male,"Black or African American","Not Hispanic or Latino",68,203,30.9,NY
+Transplant,14_T10902,67,Female,Other,"Hispanic or Latino",60,106,20.7,NY
+Transplant,14_T11789,65,Male,Other,"Hispanic or Latino",63,144,25.5,NY
+Transplant,14_T12904,53,Male,White,"Not Hispanic or Latino",74,242,31.1,NY
+Transplant,14_T13003,53,Male,Other,"Hispanic or Latino",68,150,22.8,NY
+Transplant,14_T13015,49,Female,"Black or African American","Not Hispanic or Latino",63,233,41.3,NY
+Transplant,14_T13498,75,Male,Other,Unknown,71,170,23.7,NY
+Transplant,14_T13557,26,Female,Other,"Hispanic or Latino",59,107,21.6,NY
+Transplant,14_T14021,51,Male,White,"Not Hispanic or Latino",70,265,38,NY
+Transplant,14_T16247,46,Male,"Black or African American","Not Hispanic or Latino",69,197,29.1,NY
+Transplant,14_T18398,53,Male,"Black or African American","Hispanic or Latino",67,162,25.4,NY
+Transplant,14_T18685,49,Male,Other,"Hispanic or Latino",68,205,31.2,NY
+Transplant,14_T18842,29,Female,Asian,"Not Hispanic or Latino",63,126,22.3,NY
+Transplant,14_T19549,45,Male,"Black or African American","Not Hispanic or Latino",73,222,29.3,NY
+Transplant,14_T22904,61,Male,Other,"Hispanic or Latino",61,162,30.6,NY
+Transplant,14_T22966,60,Male,White,"Hispanic or Latino",69,154,22.7,NY
+Transplant,14_T24007,77,Female,"Black or African American","Not Hispanic or Latino",65,135,22.5,NY
+Transplant,14_T25487,69,Male,Other,"Hispanic or Latino",68,150,22.8,NY
+Transplant,14_T25789,51,Male,Asian,"Not Hispanic or Latino",67,137,21.4,NY
+Transplant,14_T27678,39,Female,Other,"Hispanic or Latino",66,145,23.4,NY
+Transplant,14_T28832,59,Female,Other,"Hispanic or Latino",NULL,NULL,NULL,NY
+Transplant,14_T29454,46,Male,Other,"Hispanic or Latino",68,145,22,NY
+Transplant,14_T31015,47,Female,Other,"Hispanic or Latino",60,218,42.6,NY
+Transplant,14_T31276,45,Female,White,"Not Hispanic or Latino",66,137,22.1,NY
+Transplant,14_T33753,65,Male,"Black or African American","Not Hispanic or Latino",67,155,24.3,NY
+Transplant,14_T34994,51,Male,Asian,"Not Hispanic or Latino",72,159,21.6,NY
+Transplant,14_T36306,54,Male,Other,"Not Hispanic or Latino",71,209,29.1,NY
+Transplant,14_T38471,64,Male,Other,"Not Hispanic or Latino",68,186,28.3,NY
+Transplant,14_T38741,54,Female,"Black or African American","Not Hispanic or Latino",65,151,25.1,NY
+Transplant,14_T42358,56,Male,White,"Hispanic or Latino",67,256,40.1,NY
+Transplant,14_T44253,50,Female,"Black or African American","Not Hispanic or Latino",60,133,26,NY
+Transplant,14_T45368,62,Male,White,"Not Hispanic or Latino",67,185,29,NY
+Transplant,14_T46865,65,Male,Other,"Hispanic or Latino",67,146,22.9,NY
+Transplant,14_T48330,58,Male,"Black or African American","Not Hispanic or Latino",70,210,30.1,NY
+Transplant,14_T49348,56,Female,Other,"Hispanic or Latino",62,171,31.3,NY
+Transplant,14_T49378,60,Female,Other,"Hispanic or Latino",62,203,37.1,NY
+Transplant,14_T49602,54,Female,Other,"Hispanic or Latino",60,165,32.2,NY
+Transplant,14_T49698,41,Male,White,"Hispanic or Latino",65,132,22,NY
+Transplant,14_T50629,74,Female,White,"Not Hispanic or Latino",60,132,25.8,NY
+Transplant,14_T51666,41,Female,White,"Not Hispanic or Latino",65,186,30.9,NY
+Transplant,14_T51848,20,Female,Other,"Not Hispanic or Latino",65,165,27.4,NY
+Transplant,14_T53111,69,Female,Other,"Hispanic or Latino",65,235,39.1,NY
+Transplant,14_T53167,59,Female,Other,"Hispanic or Latino",59,163,32.9,NY
+Transplant,14_T53821,74,Male,White,"Not Hispanic or Latino",72,127,17.2,NY
+Transplant,14_T55209,57,Female,White,"Not Hispanic or Latino",63,139,24.6,NY
+Transplant,14_T57243,49,Female,Other,"Hispanic or Latino",62,169,30.9,NY
+Transplant,14_T58182,34,Female,Other,"Hispanic or Latino",62,145,26.5,NY
+Transplant,14_T58365,77,Female,Other,"Hispanic or Latino",62,178,32.5,NY
+Transplant,14_T61231,21,Female,"Black or African American","Hispanic or Latino",64,108,18.5,NY
+Transplant,14_T63323,45,Male,Other,"Not Hispanic or Latino",65,114,19,NY
+Transplant,14_T63533,55,Male,Other,"Hispanic or Latino",64,200,34.3,NY
+Transplant,14_T63636,39,Female,White,"Not Hispanic or Latino",55,105,24.4,NY
+Transplant,14_T65165,61,Female,Other,"Hispanic or Latino",61,157,29.7,NY
+Transplant,14_T66411,57,Female,Other,"Hispanic or Latino",65,202,33.6,NY
+Transplant,14_T69690,55,Male,"Black or African American","Not Hispanic or Latino",67,310,48.5,NY
+Transplant,14_T70741,49,Female,Other,"Not Hispanic or Latino",66,230,37.1,NY
+Transplant,14_T70885,61,Male,"Black or African American","Not Hispanic or Latino",69,229,33.8,NY
+Transplant,14_T72152,33,Female,Asian,"Not Hispanic or Latino",63,110,19.5,NY
+Transplant,14_T72391,76,Female,Other,"Not Hispanic or Latino",62,119,21.8,NY
+Transplant,14_T72576,69,Female,Other,"Hispanic or Latino",59,95,19.2,NY
+Transplant,14_T73451,50,Male,"Black or African American","Not Hispanic or Latino",66,255,41.1,NY
+Transplant,14_T73719,59,Male,"Black or African American","Not Hispanic or Latino",65,148,24.6,NY
+Transplant,14_T74732,49,Female,Other,"Hispanic or Latino",62,156,28.5,NY
+Transplant,14_T74796,53,Female,Other,"Hispanic or Latino",59,177,35.8,NY
+Transplant,14_T77244,33,Male,Other,"Hispanic or Latino",63,190,33.6,NY
+Transplant,14_T77377,56,Female,White,"Hispanic or Latino",63,136,24.1,NY
+Transplant,14_T77729,41,Male,"Black or African American","Not Hispanic or Latino",69,253,37.4,NY
+Transplant,14_T80483,60,Male,"Black or African American","Not Hispanic or Latino",68,205,31.2,NY
+Transplant,14_T80908,75,Female,Other,"Hispanic or Latino",67,178,27.9,NY
+Transplant,14_T82142,55,Female,"Black or African American","Not Hispanic or Latino",65,170,28.3,NY
+Transplant,14_T83349,61,Female,White,"Not Hispanic or Latino",65,224,37.3,NY
+Transplant,14_T85044,61,Male,Other,"Hispanic or Latino",69,206,30.4,NY
+Transplant,14_T87435,73,Male,White,"Not Hispanic or Latino",60,132,25.8,NY
+Transplant,14_T87901,45,Male,"Black or African American","Not Hispanic or Latino",61,111,21,NY
+Transplant,14_T88350,63,Male,Other,"Hispanic or Latino",67,206,32.3,NY
+Transplant,14_T89940,63,Female,Unknown,Unknown,63,186,32.9,NY
+Transplant,14_T90317,51,Male,Asian,"Not Hispanic or Latino",76,226,27.5,NY
+Transplant,14_T91274,52,Male,Other,"Not Hispanic or Latino",67,217,34,NY
+Transplant,14_T91896,59,Female,"Black or African American","Not Hispanic or Latino",61,122,23.1,NY
+Transplant,14_T93825,63,Male,White,"Not Hispanic or Latino",73,203,26.8,NY
+Transplant,14_T93881,33,Female,Other,"Hispanic or Latino",62,126,23,NY
+Transplant,14_T94649,29,Female,Other,"Hispanic or Latino",61,164,31,NY
+Transplant,14_T94901,39,Male,"Black or African American","Not Hispanic or Latino",73,304,40.1,NY
+Transplant,14_T95843,51,Female,Asian,"Not Hispanic or Latino",57,128,27.7,NY
+Transplant,14_T96413,68,Female,Asian,"Not Hispanic or Latino",59,138,27.9,NY
+Transplant,14_T97085,62,Male,Other,"Hispanic or Latino",69,170,25.1,NY
+Transplant,14_T98754,62,Male,Other,"Hispanic or Latino",75,192,24,NY
+Transplant,14_T99627,67,Female,Other,"Hispanic or Latino",61,128,24.2,NY
+Transplant,27_200011,52,Male,White,"Not Hispanic or Latino",74,200,25.7,MN
+Transplant,27_200024,41,Female,White,"Not Hispanic or Latino",64,145,24.9,MN
+Transplant,27_200054,68,Male,White,"Not Hispanic or Latino",69,190,28.1,MN
+Transplant,27_200066,69,Female,White,"Not Hispanic or Latino",66,212,34.2,MN
+Cancer,27_200068,61,Male,White,"Not Hispanic or Latino",NULL,156,NULL,MN
+Transplant,27_200131,56,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Transplant,27_200192,52,Male,White,"Not Hispanic or Latino",69,175,25.8,SD
+Transplant,27_200230,31,Male,White,"Not Hispanic or Latino",72,185,25.1,MN
+"Healthy Control",27_200250,45,Male,White,"Not Hispanic or Latino",68,200,30.4,MN
+Transplant,27_200304,49,Male,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Cancer,27_200318,70,Male,Asian,"Not Hispanic or Latino",69,160,23.6,MN
+"Healthy Control",27_200346,52,Female,White,"Not Hispanic or Latino",65,125,20.8,MN
+Cancer,27_200347,53,Male,White,"Not Hispanic or Latino",71,172,24,MN
+HIV,27_200371,27,Female,"Black or African American","Not Hispanic or Latino",63,160,28.3,MN
+HIV,27_200379,57,Male,White,"Not Hispanic or Latino",69,165,24.4,MN
+"Healthy Control",27_200386,49,Female,White,"Not Hispanic or Latino",63,195,34.5,MN
+"Healthy Control",27_200395,53,Female,White,"Not Hispanic or Latino",62,160,29.3,MN
+Transplant,27_200407,51,Male,White,"Not Hispanic or Latino",73,200,26.4,MN
+HIV,27_200409,33,Male,White,"Not Hispanic or Latino",70,155,22.2,MN
+Cancer,27_200429,62,Male,White,"Not Hispanic or Latino",73,215,28.4,MN
+Autoimmune,27_200484,60,Male,White,"Not Hispanic or Latino",72,210,28.5,MN
+Transplant,27_200538,65,Male,White,"Not Hispanic or Latino",66,160,25.8,MN
+HIV,27_200540,61,Female,White,"Not Hispanic or Latino",62,109,19.9,MN
+"Healthy Control",27_200543,52,Female,White,"Not Hispanic or Latino",63,213,37.7,MN
+Cancer,27_200546,46,Male,White,"Not Hispanic or Latino",71,197,27.5,MN
+"Healthy Control",27_200655,22,Female,White,"Not Hispanic or Latino",67,150,23.5,MN
+"Healthy Control",27_200656,60,Female,White,"Not Hispanic or Latino",66,130,21,MN
+"Healthy Control",27_200695,36,Female,White,"Not Hispanic or Latino",66,138,22.3,MN
+"Healthy Control",27_200702,39,Female,White,"Hispanic or Latino",62,164,30,MN
+"Healthy Control",27_200706,47,Female,White,"Not Hispanic or Latino",67,168,26.3,MN
+"Healthy Control",27_200723,40,Female,White,"Not Hispanic or Latino",65,135,22.5,MN
+Cancer,27_200730,73,Female,White,"Not Hispanic or Latino",68,170,25.8,MN
+Cancer,27_200735,43,Female,White,"Not Hispanic or Latino",63,135,23.9,MN
+"Healthy Control",27_200779,70,Female,White,"Not Hispanic or Latino",66,122,19.7,MN
+HIV,27_200823,60,Male,White,"Not Hispanic or Latino",72,220,29.8,MN
+"Healthy Control",27_200824,51,Female,White,"Not Hispanic or Latino",63,145,25.7,MN
+Cancer,27_200864,69,Female,White,"Not Hispanic or Latino",64,246,42.2,MN
+HIV,27_200894,55,Male,"American Indian or Alaska Native","Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+HIV,27_200929,40,Male,"Black or African American","Not Hispanic or Latino",71,165,23,MN
+Cancer,27_200942,58,Female,White,"Not Hispanic or Latino",65,175,29.1,MN
+HIV,27_201048,59,Male,White,"Not Hispanic or Latino",73,275,36.3,MN
+HIV,27_201052,52,Female,"Black or African American","Not Hispanic or Latino",64,230,39.5,MN
+Autoimmune,27_201135,31,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Cancer,27_201190,48,Female,White,"Not Hispanic or Latino",65,165,27.5,MN
+"Healthy Control",27_201254,63,Female,White,"Not Hispanic or Latino",60,116,22.7,MN
+Autoimmune,27_201352,39,Female,White,"Not Hispanic or Latino",66,140,22.6,MN
+Cancer,27_201380,36,Female,White,"Not Hispanic or Latino",69,155,22.9,MN
+"Healthy Control",27_201545,37,Male,White,"Not Hispanic or Latino",71,175,24.4,MN
+"Healthy Control",27_201586,52,Female,White,"Not Hispanic or Latino",64,140,24,MN
+Cancer,27_201755,57,Female,White,"Not Hispanic or Latino",69,144,21.3,MN
+"Healthy Control",27_201793,63,Female,White,"Not Hispanic or Latino",68,170,25.8,MN
+"Healthy Control",27_202030,42,Female,White,"Not Hispanic or Latino",62,135,24.7,MN
+Autoimmune,27_202262,45,Female,White,"Not Hispanic or Latino",61,144,27.2,MN
+"Healthy Control",27_202282,37,Male,White,"Not Hispanic or Latino",71,145,20.2,MN
+"Healthy Control",27_202694,58,Male,White,"Not Hispanic or Latino",72,200,27.1,MN
+"Healthy Control",27_203334,68,Male,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Transplant,27_300001,46,Male,White,"Not Hispanic or Latino",75,218,27.2,MN
+Cancer,27_300007,67,Male,White,"Not Hispanic or Latino",73,180,23.7,MN
+Cancer,27_300012,67,Male,White,"Not Hispanic or Latino",74,250,32.1,MN
+Transplant,27_300018,67,Male,White,"Not Hispanic or Latino",72,209,28.3,WI
+Transplant,27_300020,40,Female,White,"Not Hispanic or Latino",68,210,31.9,MN
+Transplant,27_300021,42,Male,White,"Not Hispanic or Latino",71,170,23.7,MN
+Cancer,27_300022,52,Male,White,"Not Hispanic or Latino",73,170,22.4,MN
+Transplant,27_300023,59,Male,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Transplant,27_300024,58,Male,White,"Not Hispanic or Latino",70,218,31.3,MN
+Transplant,27_300025,66,Male,White,"Not Hispanic or Latino",67,206,32.3,MN
+Cancer,27_300026,45,Female,White,"Not Hispanic or Latino",67,200,31.3,MN
+Transplant,27_300029,69,Female,White,"Not Hispanic or Latino",64,167,28.7,MN
+Transplant,27_300031,62,Female,White,"Not Hispanic or Latino",68,188,28.6,MN
+Cancer,27_300034,66,Female,White,"Not Hispanic or Latino",64,240,41.2,MN
+HIV,27_300039,64,Male,White,"Not Hispanic or Latino",71,200,27.9,MN
+Transplant,27_300040,55,Female,White,"Not Hispanic or Latino",66,128,20.7,MN
+Transplant,27_300041,69,Female,White,"Not Hispanic or Latino",67,138,21.6,MN
+Transplant,27_300042,71,Male,White,"Not Hispanic or Latino",67,223,34.9,MN
+Transplant,27_300045,57,Male,White,"Not Hispanic or Latino",73,145,19.1,MN
+Transplant,27_300046,63,Female,White,"Hispanic or Latino",65,132,22,MN
+Transplant,27_300047,63,Unknown,Multirace,"Not Hispanic or Latino",65,179,29.8,MN
+Transplant,27_300059,65,Female,White,"Not Hispanic or Latino",66,150,24.2,MN
+Transplant,27_300060,55,Intersex,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Transplant,27_300067,69,Male,White,"Not Hispanic or Latino",66,120,19.4,MN
+Transplant,27_300075,65,Male,White,"Not Hispanic or Latino",73,193,25.5,MN
+Transplant,27_300079,75,Female,White,"Not Hispanic or Latino",65,156,26,MN
+Transplant,27_300084,45,Male,White,"Not Hispanic or Latino",71,173,24.1,MN
+Transplant,27_300088,58,Female,White,"Not Hispanic or Latino",63,137,24.3,MN
+Transplant,27_300089,53,Male,White,"Not Hispanic or Latino",72,172,23.3,MN
+Transplant,27_300095,62,Male,White,"Not Hispanic or Latino",70,160,23,MN
+Autoimmune,27_300097,55,Female,White,"Not Hispanic or Latino",63,205,36.3,MN
+Transplant,27_300098,54,Male,White,"Not Hispanic or Latino",70,185,26.5,MN
+Transplant,27_300101,69,Female,White,"Not Hispanic or Latino",66,145,23.4,MN
+Transplant,27_300102,59,Female,"Black or African American","Not Hispanic or Latino",63,150,26.6,MN
+Transplant,27_300106,53,Male,White,"Not Hispanic or Latino",75,159,19.9,MN
+Transplant,27_300121,54,Female,White,"Not Hispanic or Latino",63,138,24.4,MN
+Transplant,27_300122,68,Male,White,"Not Hispanic or Latino",66,230,37.1,MN
+Transplant,27_300126,62,Female,White,"Not Hispanic or Latino",63,190,33.7,MN
+Transplant,27_300132,64,Male,White,"Not Hispanic or Latino",70,215,30.8,MN
+Transplant,27_300135,46,Female,White,"Not Hispanic or Latino",64,168,28.8,MN
+Cancer,27_300138,56,Female,White,"Not Hispanic or Latino",66,148,23.9,MN
+Transplant,27_300140,69,Male,White,"Not Hispanic or Latino",70,173,24.8,MN
+Transplant,27_300146,67,Female,Multirace,"Not Hispanic or Latino",66,212,34.2,MN
+HIV,27_300149,56,Male,White,"Not Hispanic or Latino",68,179,27.2,MN
+Transplant,27_300158,61,Female,White,"Not Hispanic or Latino",62,120,21.9,MN
+Transplant,27_300165,59,Female,White,"Not Hispanic or Latino",62,163,29.8,MN
+Transplant,27_300166,70,Male,White,"Not Hispanic or Latino",69,148,21.9,MN
+Transplant,27_300167,58,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Transplant,27_300168,50,Male,White,"Not Hispanic or Latino",65,170,28.3,MN
+Transplant,27_300172,51,Female,White,"Not Hispanic or Latino",64,125,21.5,MN
+Transplant,27_300174,66,Female,White,"Not Hispanic or Latino",64,132,22.7,MN
+Transplant,27_300179,71,Female,White,"Not Hispanic or Latino",52,135,35.1,MN
+Cancer,27_300180,56,Female,White,"Not Hispanic or Latino",67,152,23.8,MN
+Transplant,27_300204,67,Male,White,"Not Hispanic or Latino",68,210,31.9,MN
+Transplant,27_300206,61,Male,White,"Not Hispanic or Latino",73,185,24.4,MN
+Transplant,27_300211,54,Male,White,"Not Hispanic or Latino",72,206,27.9,MN
+Transplant,27_300214,72,Male,White,"Hispanic or Latino",68,173,26.3,MN
+Transplant,27_300220,65,Female,White,"Not Hispanic or Latino",67,175,27.4,MN
+HIV,27_300230,49,Female,White,"Not Hispanic or Latino",61,134,25.3,MN
+"Healthy Control",27_300243,41,Female,White,"Not Hispanic or Latino",62,137,25.1,MN
+Transplant,27_300256,35,Female,White,"Not Hispanic or Latino",58,210,43.9,MN
+Transplant,27_300262,49,Unknown,Multirace,"Not Hispanic or Latino",71,180,25.1,MN
+Cancer,27_300266,72,Female,White,"Not Hispanic or Latino",65,182,30.3,MN
+Transplant,27_300272,72,Female,White,"Not Hispanic or Latino",62,142,26,MN
+Transplant,27_300290,52,Male,White,"Not Hispanic or Latino",70,218,31.3,MN
+Transplant,27_300294,37,Male,White,"Not Hispanic or Latino",68,160,24.3,MN
+"Healthy Control",27_300295,52,Female,White,"Not Hispanic or Latino",65,148,24.6,MN
+Transplant,27_300297,75,Male,White,"Not Hispanic or Latino",68,145,22,MN
+HIV,27_300300,62,Male,White,"Not Hispanic or Latino",70,180,25.8,MN
+Transplant,27_300309,64,Male,White,"Not Hispanic or Latino",73,220,29,MN
+Transplant,27_300312,67,Male,White,"Not Hispanic or Latino",72,240,32.5,MN
+Transplant,27_300315,57,Male,White,"Not Hispanic or Latino",72,250,33.9,MN
+Cancer,27_300323,63,Female,White,"Not Hispanic or Latino",66,200,32.3,MN
+Transplant,27_300329,64,Female,White,"Not Hispanic or Latino",68,135,20.5,MN
+Transplant,27_300332,61,Female,White,"Not Hispanic or Latino",64,130,22.3,MN
+Transplant,27_300339,71,Female,White,"Not Hispanic or Latino",63,122,21.6,MN
+"Healthy Control",27_300348,58,Male,White,"Not Hispanic or Latino",74,210,27,MN
+HIV,27_300351,63,Male,White,"Not Hispanic or Latino",74,292,37.5,MN
+HIV,27_300354,38,Male,Multirace,"Not Hispanic or Latino",68,160,24.3,MN
+HIV,27_300355,35,Male,White,"Not Hispanic or Latino",65,135,22.5,MN
+HIV,27_300358,58,Male,Multirace,"Not Hispanic or Latino",67,175,27.4,MN
+"Healthy Control",27_300359,44,Female,Asian,"Not Hispanic or Latino",63,135,23.9,MN
+Cancer,27_300377,51,Female,White,"Not Hispanic or Latino",66,130,21,MN
+HIV,27_300392,51,Male,White,"Not Hispanic or Latino",77,295,35,MN
+Transplant,27_300394,67,Female,White,"Not Hispanic or Latino",63,140,24.8,MN
+Cancer,27_300399,63,Male,White,"Not Hispanic or Latino",68,210,31.9,MN
+Autoimmune,27_300403,42,Female,White,"Not Hispanic or Latino",62,180,32.9,MN
+Transplant,27_300408,32,Male,"American Indian or Alaska Native","Not Hispanic or Latino",69,245,36.2,MN
+Transplant,27_300424,61,Male,White,"Not Hispanic or Latino",69,180,26.6,MN
+Transplant,27_300434,59,Female,White,"Not Hispanic or Latino",65,118,19.6,IA
+Cancer,27_300435,44,Female,White,"Not Hispanic or Latino",66,213,34.4,MN
+Cancer,27_300442,73,Female,White,"Not Hispanic or Latino",60,150,29.3,MN
+Transplant,27_300443,67,Male,White,"Not Hispanic or Latino",68,160,24.3,MN
+Transplant,27_300446,65,Female,White,"Not Hispanic or Latino",NULL,160,NULL,MN
+Transplant,27_300448,57,Male,White,"Not Hispanic or Latino",73,205,27,MN
+"Healthy Control",27_300450,60,Male,White,"Not Hispanic or Latino",73,298,39.3,MN
+Cancer,27_300457,58,Female,White,"Not Hispanic or Latino",63,139,24.6,MN
+Autoimmune,27_300458,68,Female,White,"Not Hispanic or Latino",65,127,21.1,MN
+Transplant,27_300464,64,Female,White,"Not Hispanic or Latino",63,165,29.2,MN
+Cancer,27_300472,54,Female,White,"Not Hispanic or Latino",67,117,18.3,MN
+Transplant,27_300474,60,Male,White,"Not Hispanic or Latino",70,210,30.1,MN
+Transplant,27_300480,72,Male,White,"Not Hispanic or Latino",69,200,29.5,MN
+Autoimmune,27_300482,61,Female,White,"Not Hispanic or Latino",62,180,32.9,MN
+Cancer,27_300488,78,Female,White,"Not Hispanic or Latino",66,145,23.4,MN
+Transplant,27_300489,54,Female,White,"Not Hispanic or Latino",65,160,26.6,MN
+Autoimmune,27_300505,66,Female,White,"Not Hispanic or Latino",65,189,31.4,MN
+Autoimmune,27_300506,54,Female,Asian,"Not Hispanic or Latino",60,110,21.5,MN
+"Healthy Control",27_300523,54,Female,White,"Not Hispanic or Latino",68,161,24.5,MN
+HIV,27_300537,41,Male,White,"Not Hispanic or Latino",69,180,26.6,MN
+Autoimmune,27_300547,63,Female,White,"Not Hispanic or Latino",67,137,21.5,MN
+Autoimmune,27_300552,42,Female,White,"Not Hispanic or Latino",66,240,38.7,MN
+Transplant,27_300567,55,Male,White,"Not Hispanic or Latino",70,290,41.6,MN
+Autoimmune,27_300568,63,Female,White,"Hispanic or Latino",65,133,22.1,MN
+Autoimmune,27_300576,36,Female,White,"Not Hispanic or Latino",68,160,24.3,MN
+Transplant,27_300578,50,Female,White,"Hispanic or Latino",65,117,19.5,MN
+Transplant,27_300580,61,Female,Asian,"Not Hispanic or Latino",63,140,24.8,MN
+Autoimmune,27_300589,49,Female,White,"Not Hispanic or Latino",65,286,47.6,MN
+Transplant,27_300597,36,Female,White,"Not Hispanic or Latino",69,125,18.5,MN
+Cancer,27_300603,62,Male,White,"Not Hispanic or Latino",71,235,32.8,MN
+HIV,27_300608,60,Male,White,"Not Hispanic or Latino",71,205,28.6,MN
+"Healthy Control",27_300611,50,Female,White,"Not Hispanic or Latino",69,150,22.1,MN
+Cancer,27_300613,48,Female,White,"Not Hispanic or Latino",64,128,22,MN
+Cancer,27_300620,57,Male,White,"Not Hispanic or Latino",70,138,19.8,MN
+Transplant,27_300626,47,Male,White,"Not Hispanic or Latino",72,215,29.2,MN
+Transplant,27_300651,65,Male,White,"Not Hispanic or Latino",75,187,23.4,MN
+Transplant,27_300657,62,Male,Asian,"Not Hispanic or Latino",72,200,27.1,MN
+Cancer,27_300658,60,Female,White,"Not Hispanic or Latino",62,157,28.7,MN
+Transplant,27_300660,69,Male,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Autoimmune,27_300661,52,Female,White,"Not Hispanic or Latino",60,190,37.1,MN
+Autoimmune,27_300680,58,Female,White,"Not Hispanic or Latino",63,260,46.1,MN
+Cancer,27_300683,50,Female,White,"Not Hispanic or Latino",64,145,24.9,MN
+Transplant,27_300688,71,Female,White,"Not Hispanic or Latino",63,225,39.9,MN
+Cancer,27_300708,39,Female,White,"Not Hispanic or Latino",63,116,20.5,MN
+Cancer,27_300720,63,Male,White,"Not Hispanic or Latino",75,245,30.6,MN
+"Healthy Control",27_300734,52,Female,White,"Not Hispanic or Latino",64,138,23.7,MN
+Transplant,27_300736,37,Male,White,"Not Hispanic or Latino",77,250,29.6,MN
+Transplant,27_300741,47,Male,White,"Not Hispanic or Latino",78,235,27.2,ND
+Transplant,27_300742,67,Female,White,"Not Hispanic or Latino",64,237,40.7,MN
+"Healthy Control",27_300746,71,Female,White,"Not Hispanic or Latino",65,152,25.3,MN
+Autoimmune,27_300754,53,Female,White,"Not Hispanic or Latino",64,320,54.9,MN
+Cancer,27_300756,70,Female,White,"Not Hispanic or Latino",67,217,34,MN
+Cancer,27_300771,57,Female,White,"Not Hispanic or Latino",67,181,28.3,MN
+Transplant,27_300778,51,Female,White,"Not Hispanic or Latino",63,170,30.1,MN
+Transplant,27_300788,55,Male,White,"Not Hispanic or Latino",73,215,28.4,MN
+Cancer,27_300791,61,Female,White,"Not Hispanic or Latino",66,198,32,MN
+Cancer,27_300813,63,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Cancer,27_300814,71,Female,White,"Not Hispanic or Latino",64,118,20.3,MN
+Cancer,27_300816,61,Female,White,"Not Hispanic or Latino",71,171,23.8,MN
+Cancer,27_300819,72,Female,White,"Not Hispanic or Latino",61,127,24,MN
+Transplant,27_300821,57,Female,White,"Not Hispanic or Latino",62,135,24.7,MN
+Transplant,27_300828,56,Male,White,"Not Hispanic or Latino",67,172,26.9,MN
+Cancer,27_300838,76,Female,White,"Not Hispanic or Latino",61,170,32.1,MN
+Transplant,27_300844,63,Male,White,"Not Hispanic or Latino",71,170,23.7,MN
+Transplant,27_300846,63,Male,White,"Not Hispanic or Latino",68,160,24.3,MN
+Cancer,27_300854,48,Female,White,"Not Hispanic or Latino",65,132,22,MN
+Transplant,27_300859,73,Male,White,"Not Hispanic or Latino",69,170,25.1,MN
+"Healthy Control",27_300885,63,Female,White,"Not Hispanic or Latino",73,218,28.8,MN
+Cancer,27_300887,63,Female,White,"Not Hispanic or Latino",70,195,28,MN
+Transplant,27_300896,55,Male,White,"Not Hispanic or Latino",72,200,27.1,MN
+HIV,27_300900,34,Male,White,"Not Hispanic or Latino",73,194,25.6,MN
+Cancer,27_300910,34,Female,White,"Not Hispanic or Latino",64,125,21.5,MN
+Cancer,27_300915,64,Female,White,"Not Hispanic or Latino",61,182,34.4,MN
+Transplant,27_300926,54,Female,White,"Not Hispanic or Latino",69,219,32.3,MN
+Transplant,27_300927,62,Male,Multirace,"Not Hispanic or Latino",67,140,21.9,MN
+Transplant,27_300928,64,Female,White,"Not Hispanic or Latino",60,189,36.9,MN
+Cancer,27_300931,61,Female,White,"Not Hispanic or Latino",67,160,25.1,MN
+Transplant,27_300939,63,Male,White,"Not Hispanic or Latino",72,165,22.4,MN
+Autoimmune,27_300944,45,Female,White,"Not Hispanic or Latino",66,250,40.3,MN
+Cancer,27_300947,62,Female,White,"Not Hispanic or Latino",66,128,20.7,MN
+"Healthy Control",27_300953,33,Female,White,"Not Hispanic or Latino",69,200,29.5,MN
+HIV,27_300955,56,Male,White,"Hispanic or Latino",71,200,27.9,MN
+Transplant,27_300958,49,Male,White,"Not Hispanic or Latino",73,215,28.4,MN
+Cancer,27_300967,71,Female,White,"Not Hispanic or Latino",66,159,25.7,MN
+"Healthy Control",27_300972,70,Male,White,"Not Hispanic or Latino",66,173,27.9,MN
+Cancer,27_300973,54,Female,White,"Not Hispanic or Latino",70,155,22.2,MN
+Cancer,27_300976,52,Female,White,"Not Hispanic or Latino",66,240,38.7,MN
+Cancer,27_300985,44,Female,White,"Not Hispanic or Latino",68,170,25.8,MN
+Transplant,27_300988,50,Male,Asian,"Not Hispanic or Latino",68,150,22.8,MN
+HIV,27_301008,59,Male,White,"Not Hispanic or Latino",68,193,29.3,MN
+Transplant,27_301009,61,Male,White,"Not Hispanic or Latino",67,215,33.7,MN
+Transplant,27_301022,54,Male,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+HIV,27_301025,43,Male,White,"Not Hispanic or Latino",69,145,21.4,MN
+Cancer,27_301034,44,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Cancer,27_301047,42,Female,White,"Not Hispanic or Latino",64,105,18,MN
+Autoimmune,27_301078,62,Female,White,"Not Hispanic or Latino",63,160,28.3,MN
+Transplant,27_301092,65,Male,White,"Not Hispanic or Latino",74,215,27.6,MN
+Transplant,27_301094,53,Male,"American Indian or Alaska Native","Not Hispanic or Latino",71,218,30.4,MN
+Cancer,27_301101,44,Female,White,"Not Hispanic or Latino",66,210,33.9,MN
+Cancer,27_301102,49,Female,White,"Not Hispanic or Latino",65,178,29.6,MN
+Transplant,27_301112,56,Male,White,"Not Hispanic or Latino",73,215,28.4,MN
+Transplant,27_301148,65,Male,White,"Not Hispanic or Latino",73,185,24.4,WI
+Cancer,27_301154,65,Female,White,"Not Hispanic or Latino",68,155,23.6,MN
+"Healthy Control",27_301164,42,Male,White,"Not Hispanic or Latino",75,290,36.2,MN
+Cancer,27_301178,63,Female,White,"Not Hispanic or Latino",66,245,39.5,MN
+"Healthy Control",27_301185,53,Female,White,"Hispanic or Latino",65,190,31.6,MN
+Cancer,27_301202,63,Female,White,"Not Hispanic or Latino",64,144,24.7,MN
+Transplant,27_301239,54,Female,White,"Not Hispanic or Latino",63,153,27.1,MN
+"Healthy Control",27_301277,51,Female,White,"Not Hispanic or Latino",67,190,29.8,MN
+Cancer,27_301290,53,Female,White,"Not Hispanic or Latino",67,146,22.9,MN
+"Healthy Control",27_301314,33,Male,White,"Not Hispanic or Latino",68,175,26.6,MN
+"Healthy Control",27_301340,49,Female,White,"Not Hispanic or Latino",66,130,21,MN
+Cancer,27_301400,69,Female,White,"Not Hispanic or Latino",66,190,30.7,MN
+"Healthy Control",27_301403,40,Female,White,"Not Hispanic or Latino",67,128,20,MN
+"Healthy Control",27_301418,55,Female,White,"Not Hispanic or Latino",66,145,23.4,MN
+Cancer,27_301421,60,Male,White,"Not Hispanic or Latino",73,195,25.7,MN
+Cancer,27_301437,43,Female,White,"Not Hispanic or Latino",66,130,21,MN
+Cancer,27_301440,72,Female,White,"Not Hispanic or Latino",64,155,26.6,MN
+Cancer,27_301466,52,Female,White,"Not Hispanic or Latino",60,216,42.2,MN
+Cancer,27_301486,35,Female,White,"Not Hispanic or Latino",65,135,22.5,MN
+Autoimmune,27_301488,55,Female,White,"Not Hispanic or Latino",66,250,40.3,MN
+Autoimmune,27_301494,38,Female,White,"Not Hispanic or Latino",61,98,18.5,MN
+Cancer,27_301503,56,Female,White,"Not Hispanic or Latino",62,130,23.8,MN
+Autoimmune,27_301504,44,Female,White,"Not Hispanic or Latino",63,260,46.1,MN
+Cancer,27_301511,73,Male,White,"Not Hispanic or Latino",67,185,29,MN
+Transplant,27_301517,53,Female,White,"Not Hispanic or Latino",66,178,28.7,MN
+Cancer,27_301521,78,Male,Multirace,"Not Hispanic or Latino",72,220,29.8,MN
+Cancer,27_301523,71,Male,White,"Not Hispanic or Latino",67,148,23.2,MN
+Cancer,27_301525,74,Male,White,"Not Hispanic or Latino",72,210,28.5,MN
+Cancer,27_301526,67,Female,White,"Not Hispanic or Latino",64,105,18,MN
+Cancer,27_301531,67,Female,White,"Not Hispanic or Latino",65,205,34.1,MN
+Transplant,27_301534,73,Female,White,"Not Hispanic or Latino",64,132,22.7,MN
+Cancer,27_301546,52,Female,White,"Not Hispanic or Latino",64,135,23.2,MN
+Transplant,27_301564,51,Male,White,"Not Hispanic or Latino",72,180,24.4,MN
+Cancer,27_301572,40,Female,White,"Not Hispanic or Latino",65,150,25,MN
+Cancer,27_301578,34,Female,White,"Not Hispanic or Latino",66,240,38.7,MN
+Cancer,27_301584,41,Female,White,"Not Hispanic or Latino",70,158,22.7,MN
+Cancer,27_301599,68,Female,"American Indian or Alaska Native","Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Cancer,27_301605,61,Female,White,"Not Hispanic or Latino",62,236,43.2,MN
+Cancer,27_301676,62,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Cancer,27_301705,71,Female,White,"Not Hispanic or Latino",59,114,23,MN
+Cancer,27_301735,68,Male,"Black or African American","Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+"Healthy Control",27_301736,54,Female,White,"Not Hispanic or Latino",67,185,29,MN
+Transplant,27_301739,55,Female,White,"Not Hispanic or Latino",70,180,25.8,MN
+"Healthy Control",27_301741,67,Female,White,"Not Hispanic or Latino",69,185,27.3,MN
+Cancer,27_301754,73,Male,White,"Not Hispanic or Latino",68,190,28.9,MN
+Cancer,27_301767,58,Female,White,"Not Hispanic or Latino",64,136,23.3,MN
+Cancer,27_301779,48,Male,White,"Not Hispanic or Latino",72,205,27.8,MN
+Cancer,27_301819,66,Female,White,"Not Hispanic or Latino",64,200,34.3,MN
+Cancer,27_301833,57,Female,White,"Not Hispanic or Latino",67,130,20.4,MN
+Cancer,27_301836,66,Female,White,"Not Hispanic or Latino",61,208,39.3,MN
+Cancer,27_301851,56,Male,White,"Not Hispanic or Latino",74,220,28.2,MN
+Cancer,27_301863,67,Female,White,"Not Hispanic or Latino",65,187,31.1,MN
+Cancer,27_301873,55,Female,White,"Not Hispanic or Latino",62,144,26.3,MN
+Cancer,27_301876,52,Female,White,"Not Hispanic or Latino",64,195,33.5,MN
+Cancer,27_301898,68,Female,White,"Not Hispanic or Latino",70,152,21.8,MN
+"Healthy Control",27_301955,37,Female,White,"Not Hispanic or Latino",68,156,23.7,MN
+Cancer,27_301992,52,Female,Asian,"Not Hispanic or Latino",64,134,23,MN
+Cancer,27_301993,53,Male,White,"Not Hispanic or Latino",70,185,26.5,MN
+"Healthy Control",27_302012,57,Male,White,"Not Hispanic or Latino",70,186,26.7,MN
+Transplant,27_302075,39,Male,White,"Not Hispanic or Latino",68,148,22.5,MN
+Transplant,27_302090,19,Male,White,"Hispanic or Latino",66,165,26.6,MN
+Cancer,27_302111,66,Female,White,"Not Hispanic or Latino",65,235,39.1,MN
+Cancer,27_302127,58,Female,White,"Not Hispanic or Latino",69,165,24.4,MN
+Cancer,27_302129,68,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Cancer,27_302328,56,Female,White,"Not Hispanic or Latino",63,128,22.7,MN
+HIV,27_302486,43,Male,White,"Not Hispanic or Latino",72,190,25.8,MN
+Cancer,27_302511,53,Female,White,"Not Hispanic or Latino",66,150,24.2,MN
+Cancer,27_302512,58,Female,White,"Not Hispanic or Latino",62,138,25.2,MN
+"Healthy Control",27_302961,73,Male,White,"Not Hispanic or Latino",73,179,23.6,MN
+"Healthy Control",27_303017,53,Male,White,"Not Hispanic or Latino",69,195,28.8,MN
+"Healthy Control",27_303028,71,Male,White,"Not Hispanic or Latino",70,155,22.2,MN
+"Healthy Control",27_303044,30,Female,White,"Not Hispanic or Latino",62,157,28.7,MN
+"Healthy Control",27_303090,60,Female,White,"Not Hispanic or Latino",64,170,29.2,MN
+"Healthy Control",27_303137,36,Male,Multirace,"Not Hispanic or Latino",71,190,26.5,MN
+"Healthy Control",27_303168,49,Female,White,"Not Hispanic or Latino",68,230,35,MN
+"Healthy Control",27_303194,38,Female,White,"Not Hispanic or Latino",65,168,28,MN
+"Healthy Control",27_303225,35,Female,White,"Not Hispanic or Latino",66,135,21.8,MN
+"Healthy Control",27_303238,64,Female,White,"Not Hispanic or Latino",67,160,25.1,MN
+"Healthy Control",27_303340,64,Female,White,"Not Hispanic or Latino",66,135,21.8,MN
+"Healthy Control",27_303415,37,Female,White,"Not Hispanic or Latino",67,160,25.1,MN
+"Healthy Control",27_303421,43,Male,White,"Not Hispanic or Latino",76,186,22.6,MN
+"Healthy Control",27_303423,65,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+"Healthy Control",27_303424,67,Male,White,"Not Hispanic or Latino",70,170,24.4,MN
+Cancer,27_310001,53,Female,White,"Not Hispanic or Latino",68,175,26.6,MN
+Cancer,27_310023,74,Male,White,"Not Hispanic or Latino",72,290,39.3,MN
+Cancer,27_310031,72,Female,White,"Not Hispanic or Latino",65,130,21.6,MN
+Cancer,27_310040,60,Female,White,"Not Hispanic or Latino",64,190,32.6,MN
+Cancer,27_310126,66,Female,White,"Not Hispanic or Latino",68,194,29.5,MN
+Cancer,27_310229,69,Female,White,"Not Hispanic or Latino",68,228,34.7,MN
+Cancer,27_310243,70,Female,White,"Not Hispanic or Latino",66,148,23.9,MN
+Cancer,27_310312,68,Female,White,"Not Hispanic or Latino",62,228,41.7,MN
+Cancer,27_400005,39,Female,White,"Not Hispanic or Latino",68,190,28.9,MN
+Cancer,27_400006,76,Male,White,"Not Hispanic or Latino",67,160,25.1,MN
+Cancer,27_400016,75,Female,White,"Not Hispanic or Latino",66,146,23.6,FL
+Cancer,27_400017,59,Female,White,"Not Hispanic or Latino",67,120,18.8,MN
+Cancer,27_400028,62,Female,White,"Not Hispanic or Latino",65,285,47.4,MN
+Transplant,27_400042,69,Male,White,"Not Hispanic or Latino",78,205,23.7,MN
+Transplant,27_400045,34,Male,White,"Not Hispanic or Latino",72,206,27.9,MN
+Transplant,27_400047,71,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Cancer,27_400052,63,Female,White,"Not Hispanic or Latino",70,140,20.1,MN
+Transplant,27_400054,59,Female,White,"Not Hispanic or Latino",64,215,36.9,MN
+Transplant,27_400056,49,Male,White,"Hispanic or Latino",66,240,38.7,MN
+Transplant,27_400058,45,Female,White,"Not Hispanic or Latino",61,105,19.8,MN
+Transplant,27_400059,66,Male,White,"Not Hispanic or Latino",75,242,30.2,WI
+Transplant,27_400060,69,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Transplant,27_400061,62,Male,White,"Not Hispanic or Latino",71,205,28.6,MN
+Transplant,27_400062,60,Male,White,"Not Hispanic or Latino",74,250,32.1,MN
+Transplant,27_400064,60,Female,White,"Not Hispanic or Latino",64,155,26.6,MN
+Transplant,27_400065,70,Male,White,"Not Hispanic or Latino",68,190,28.9,MN
+Transplant,27_400066,63,Female,White,"Not Hispanic or Latino",66,190,30.7,WI
+Cancer,27_400067,67,Female,White,"Not Hispanic or Latino",64,143,24.5,MN
+Transplant,27_400068,57,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Transplant,27_400069,64,Male,White,"Not Hispanic or Latino",66,163,26.3,MN
+Cancer,27_400077,53,Female,White,"Not Hispanic or Latino",66,170,27.4,MN
+Cancer,27_400078,68,Female,White,"Not Hispanic or Latino",67,186,29.1,MN
+Cancer,27_400082,74,Male,White,"Not Hispanic or Latino",73,195,25.7,MN
+Transplant,27_400089,71,Female,White,"Not Hispanic or Latino",62,167,30.5,MN
+Cancer,27_400090,66,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Transplant,27_400091,73,Male,White,"Not Hispanic or Latino",73,166,21.9,MN
+Transplant,27_400092,61,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Cancer,27_400093,79,Male,White,"Not Hispanic or Latino",73,195,25.7,MN
+Cancer,27_400095,63,Male,White,"Not Hispanic or Latino",66,158,25.5,MN
+Transplant,27_400096,60,Female,White,"Not Hispanic or Latino",66,201,32.4,MN
+Cancer,27_400098,60,Female,White,"Not Hispanic or Latino",65,185,30.8,MN
+Cancer,27_400111,71,Female,White,"Not Hispanic or Latino",65,139,23.1,MN
+Cancer,27_400112,70,Female,White,"Not Hispanic or Latino",67,194,30.4,MN
+HIV,27_400118,45,Female,White,"Not Hispanic or Latino",64,144,24.7,MN
+Cancer,27_400119,73,Male,White,"Not Hispanic or Latino",70,208,29.8,MN
+Cancer,27_400121,68,Female,White,"Not Hispanic or Latino",62,135,24.7,MN
+Transplant,27_400130,70,Male,White,"Not Hispanic or Latino",68,143,21.7,MN
+Cancer,27_400132,63,Male,White,"Not Hispanic or Latino",70,265,38,MN
+Cancer,27_400136,71,Female,White,"Not Hispanic or Latino",60,140,27.3,MN
+Transplant,27_400142,62,Male,White,"Not Hispanic or Latino",69,209,30.9,MN
+Transplant,27_400146,77,Male,White,"Not Hispanic or Latino",NULL,160,NULL,MN
+Transplant,27_400147,67,Female,White,"Not Hispanic or Latino",64,125,21.5,WI
+Cancer,27_400148,55,Female,White,"Not Hispanic or Latino",67,148,23.2,MN
+Transplant,27_400150,53,Male,White,"Not Hispanic or Latino",70,155,22.2,MN
+Transplant,27_400151,52,Male,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Cancer,27_400164,68,Female,White,"Not Hispanic or Latino",67,185,29,MN
+Transplant,27_400168,63,Male,White,"Not Hispanic or Latino",73,202,26.6,MN
+Transplant,27_400169,68,Female,White,"Not Hispanic or Latino",66,150,24.2,MN
+Cancer,27_400178,60,Female,White,"Not Hispanic or Latino",64,236,40.5,MN
+Cancer,27_400179,64,Female,White,"Not Hispanic or Latino",62,97,17.7,MN
+Transplant,27_400181,69,Male,White,"Not Hispanic or Latino",72,279,37.8,MN
+Transplant,27_400186,52,Male,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Cancer,27_400188,61,Female,White,"Not Hispanic or Latino",63,125,22.1,MN
+Transplant,27_400191,61,Male,White,"Not Hispanic or Latino",69,255,37.7,MN
+Transplant,27_400202,67,Female,White,"Not Hispanic or Latino",63,170,30.1,MN
+Cancer,27_400203,50,Female,White,"Not Hispanic or Latino",63,118,20.9,MN
+Transplant,27_400204,64,Male,White,"Not Hispanic or Latino",72,190,25.8,MN
+HIV,27_400209,50,Male,White,"Not Hispanic or Latino",68,185,28.1,MN
+Transplant,27_400211,70,Female,White,"Not Hispanic or Latino",65,130,21.6,MN
+Cancer,27_400212,71,Male,White,"Not Hispanic or Latino",68,165,25.1,MN
+Transplant,27_400218,56,Male,White,"Not Hispanic or Latino",73,153,20.2,MN
+HIV,27_400220,60,Male,White,"Not Hispanic or Latino",70,133,19.1,MN
+Cancer,27_400221,66,Female,White,"Not Hispanic or Latino",68,180,27.4,MN
+Cancer,27_400224,67,Male,White,"Not Hispanic or Latino",69,220,32.5,MN
+Cancer,27_400225,46,Male,White,"Not Hispanic or Latino",75,210,26.2,MN
+Cancer,27_400226,70,Female,White,"Not Hispanic or Latino",65,123,20.5,MN
+Transplant,27_400228,73,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Cancer,27_400231,74,Female,White,"Not Hispanic or Latino",66,128,20.7,MN
+Cancer,27_400234,64,Female,White,"Not Hispanic or Latino",67,283,44.3,MN
+Cancer,27_400237,70,Female,White,"Not Hispanic or Latino",60,94,18.4,MN
+Transplant,27_400242,75,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Cancer,27_400244,69,Female,White,"Not Hispanic or Latino",62,125,22.9,MN
+Cancer,27_400251,59,Female,White,"Not Hispanic or Latino",65,210,34.9,MN
+HIV,27_400257,69,Male,White,"Not Hispanic or Latino",69,190,28.1,MN
+HIV,27_400259,50,Female,White,"Not Hispanic or Latino",68,145,22,MN
+Transplant,27_400262,58,Male,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Cancer,27_400273,66,Female,White,"Not Hispanic or Latino",60,96,18.7,MN
+Cancer,27_400276,62,Female,White,"Not Hispanic or Latino",62,148,27.1,MN
+Cancer,27_400277,70,Female,White,"Not Hispanic or Latino",66,240,38.7,MN
+Autoimmune,27_400283,36,Female,White,"Not Hispanic or Latino",61,140,26.4,MN
+Autoimmune,27_400284,37,Female,White,"Not Hispanic or Latino",66,190,30.7,MN
+"Healthy Control",27_400285,37,Female,White,"Not Hispanic or Latino",68,209,31.8,MN
+Cancer,27_400289,61,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+HIV,27_400292,73,Male,White,"Not Hispanic or Latino",71,158,22,MN
+Cancer,27_400304,86,Male,White,"Not Hispanic or Latino",68,146,22.2,MN
+Transplant,27_400306,70,Male,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Transplant,27_400335,45,Female,White,"Not Hispanic or Latino",63,128,22.7,WI
+Transplant,27_400336,73,Male,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+HIV,27_400340,60,Male,White,"Not Hispanic or Latino",70,185,26.5,MN
+Transplant,27_400390,32,Male,White,"Not Hispanic or Latino",70,190,27.3,MN
+Transplant,27_400451,77,Male,White,"Not Hispanic or Latino",70,180,25.8,MN
+"Healthy Control",27_400455,59,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Transplant,27_400490,72,Female,White,"Not Hispanic or Latino",65,125,20.8,MN
+Cancer,27_400559,75,Male,White,"Not Hispanic or Latino",69,220,32.5,MN
+"Healthy Control",27_400565,58,Male,White,"Not Hispanic or Latino",70,150,21.5,MN
+"Healthy Control",27_400573,34,Female,Multirace,"Not Hispanic or Latino",63,120,21.3,MN
+"Healthy Control",27_400575,60,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Autoimmune,27_400583,65,Female,White,"Not Hispanic or Latino",64,160,27.5,MN
+"Healthy Control",27_400586,55,Male,White,"Not Hispanic or Latino",70,215,30.8,MN
+Cancer,27_400618,56,Female,White,"Not Hispanic or Latino",67,164,25.7,MN
+Autoimmune,27_400634,39,Female,White,"Not Hispanic or Latino",64,265,45.5,MN
+"Healthy Control",27_400728,73,Female,White,"Not Hispanic or Latino",63,160,28.3,MN
+"Healthy Control",27_400762,26,Female,White,"Not Hispanic or Latino",68,120,18.2,MN
+Autoimmune,27_400792,69,Female,White,"Not Hispanic or Latino",68,189,28.7,MN
+Autoimmune,27_400835,61,Female,White,"Not Hispanic or Latino",66,120,19.4,MN
+Transplant,27_400847,37,Female,White,"Not Hispanic or Latino",65,115,19.1,MN
+"Healthy Control",27_400863,27,Female,Asian,"Not Hispanic or Latino",62,124,22.7,MN
+Autoimmune,27_400888,33,Female,White,"Not Hispanic or Latino",68,130,19.8,MN
+"Healthy Control",27_400901,68,Male,White,"Not Hispanic or Latino",71,165,23,MN
+Transplant,27_400929,72,Female,White,"Not Hispanic or Latino",63,98,17.4,MN
+Autoimmune,27_400941,31,Male,White,"Not Hispanic or Latino",69,190,28.1,MN
+"Healthy Control",27_400950,69,Female,White,"Not Hispanic or Latino",67,235,36.8,MN
+Transplant,27_400968,74,Female,White,"Not Hispanic or Latino",61,134,25.3,MN
+Cancer,27_401002,57,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Cancer,27_401014,54,Female,White,"Not Hispanic or Latino",62,190,34.7,MN
+Cancer,27_401018,76,Female,White,"Not Hispanic or Latino",67,145,22.7,MN
+"Healthy Control",27_401046,68,Male,White,"Not Hispanic or Latino",70,165,23.7,MN
+Cancer,27_401138,67,Female,White,"Not Hispanic or Latino",66,200,32.3,MN
+"Healthy Control",27_401362,28,Female,White,"Not Hispanic or Latino",64,129,22.1,MN
+Cancer,27_401474,38,Male,White,"Not Hispanic or Latino",70,185,26.5,MN
+Transplant,27_401585,31,Female,White,"Not Hispanic or Latino",65,270,44.9,MN
+Transplant,27_401591,70,Female,White,"Not Hispanic or Latino",59,135,27.3,MN
+Transplant,27_401606,58,Female,White,"Not Hispanic or Latino",65,166,27.6,MN
+Cancer,27_401748,59,Female,White,"Not Hispanic or Latino",63,161,28.5,MN
+Cancer,27_401749,56,Male,White,"Not Hispanic or Latino",68,185,28.1,MN
+Cancer,27_401785,57,Female,White,"Not Hispanic or Latino",63,140,24.8,MN
+Cancer,27_401815,53,Female,White,"Not Hispanic or Latino",66,260,42,MN
+Cancer,27_401818,59,Female,White,"Not Hispanic or Latino",66,113,18.2,MN
+Cancer,27_401844,62,Female,White,"Not Hispanic or Latino",67,160,25.1,MN
+Cancer,27_401877,74,Male,White,"Not Hispanic or Latino",70,168,24.1,MN
+Cancer,27_401881,63,Female,White,"Not Hispanic or Latino",63,120,21.3,MN
+"Healthy Control",27_402088,65,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Transplant,27_402121,69,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Transplant,27_402208,53,Male,White,"Not Hispanic or Latino",72,190,25.8,MN
+Autoimmune,27_402209,63,Female,White,"Not Hispanic or Latino",69,230,34,MN
+"Healthy Control",27_402245,54,Male,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Cancer,27_402280,69,Female,White,"Not Hispanic or Latino",66,160,25.8,MN
+"Healthy Control",27_402287,77,Female,White,"Not Hispanic or Latino",67,142,22.2,MN
+Cancer,27_402294,88,Male,White,"Not Hispanic or Latino",70,210,30.1,MN
+Cancer,27_402764,45,Female,White,"Not Hispanic or Latino",65,180,30,MN
+Autoimmune,27_402817,65,Female,White,"Not Hispanic or Latino",67,135,21.1,MN
+HIV,27_402822,52,Male,White,"Not Hispanic or Latino",67,150,23.5,MN
+Cancer,27_402840,74,Male,White,"Not Hispanic or Latino",70,265,38,MN
+"Healthy Control",27_402967,41,Female,White,"Not Hispanic or Latino",65,160,26.6,MN
+"Healthy Control",27_403025,53,Female,White,"Not Hispanic or Latino",64,172,29.5,MN
+Autoimmune,27_403069,29,Female,White,"Not Hispanic or Latino",62,130,23.8,MN
+"Healthy Control",27_403136,69,Female,White,"Not Hispanic or Latino",64,220,37.8,MN
+Autoimmune,27_403163,43,Female,White,"Not Hispanic or Latino",65,135,22.5,MN
+"Healthy Control",27_403169,50,Female,White,"Not Hispanic or Latino",66,135,21.8,MN
+Autoimmune,27_403215,36,Female,White,"Not Hispanic or Latino",68,155,23.6,MN
+"Healthy Control",27_403216,64,Male,White,"Not Hispanic or Latino",72,195,26.4,MN
+"Healthy Control",27_403222,39,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+"Healthy Control",27_403260,33,Male,White,"Not Hispanic or Latino",72,240,32.5,MN
+"Healthy Control",27_403296,38,Male,White,"Not Hispanic or Latino",68,180,27.4,MN
+"Healthy Control",27_403301,54,Male,White,"Not Hispanic or Latino",73,205,27,MN
+"Healthy Control",27_403304,50,Female,Asian,"Not Hispanic or Latino",61,140,26.4,MN
+Autoimmune,27_403308,39,Female,White,"Not Hispanic or Latino",66,150,24.2,MN
+"Healthy Control",27_403321,31,Female,Multirace,"Not Hispanic or Latino",65,190,31.6,MN
+"Healthy Control",27_403330,67,Female,White,"Not Hispanic or Latino",62,120,21.9,MN
+"Healthy Control",27_403335,31,Female,Multirace,"Not Hispanic or Latino",59,110,22.2,MN
+"Healthy Control",27_403336,47,Female,White,"Not Hispanic or Latino",68,280,42.6,MN
+"Healthy Control",27_403344,34,Male,White,"Not Hispanic or Latino",72,240,32.5,MN
+Autoimmune,27_403356,47,Female,White,"Not Hispanic or Latino",63,130,23,MN
+"Healthy Control",27_403357,36,Female,Multirace,"Not Hispanic or Latino",66,250,40.3,MN
+"Healthy Control",27_403378,33,Female,White,"Not Hispanic or Latino",65,178,29.6,MN
+"Healthy Control",27_403391,71,Female,White,"Not Hispanic or Latino",61,110,20.8,MN
+"Healthy Control",27_403406,30,Female,White,"Not Hispanic or Latino",69,140,20.7,MN
+"Healthy Control",27_403420,34,Female,White,"Not Hispanic or Latino",67,230,36,MN
+Autoimmune,27_403422,46,Female,White,"Not Hispanic or Latino",66,155,25,MN
+"Healthy Control",27_403426,77,Male,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+"Healthy Control",27_403429,72,Female,White,"Not Hispanic or Latino",63,141,25,MN
+Autoimmune,27_403437,49,Female,White,"Not Hispanic or Latino",64,130,22.3,MN
+"Healthy Control",27_403441,42,Female,White,"Not Hispanic or Latino",67,180,28.2,MN
+"Healthy Control",27_403442,70,Male,White,"Not Hispanic or Latino",69,160,23.6,MN
+"Healthy Control",27_403450,37,Female,White,"Not Hispanic or Latino",67,260,40.7,MN
+"Healthy Control",27_403451,52,Female,White,"Not Hispanic or Latino",65,135,22.5,MN
+"Healthy Control",27_403452,31,Male,White,"Not Hispanic or Latino",69,215,31.7,MN
+Cancer,27_403455,71,Female,White,"Not Hispanic or Latino",67,170,26.6,MN
+"Healthy Control",27_403457,33,Female,White,"Hispanic or Latino",69,225,33.2,MN
+"Healthy Control",27_403468,40,Female,Asian,"Not Hispanic or Latino",66,115,18.6,MN
+"Healthy Control",27_403469,74,Male,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Transplant,27_410010,59,Female,White,"Not Hispanic or Latino",63,155,27.5,MN
+Transplant,27_410035,53,Male,White,"Not Hispanic or Latino",74,305,39.2,MN
+Transplant,27_410057,65,Male,White,"Not Hispanic or Latino",69,245,36.2,MN
+Transplant,27_410065,69,Female,White,"Not Hispanic or Latino",61,119,22.5,MN
+Transplant,27_410082,60,Female,White,"Not Hispanic or Latino",62,168,30.7,MN
+Transplant,27_410093,27,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+Transplant,27_410109,55,Male,White,"Not Hispanic or Latino",74,175,22.5,MN
+Transplant,27_410120,66,Male,White,"Not Hispanic or Latino",70,215,30.8,MN
+Transplant,27_410139,72,Male,White,"Not Hispanic or Latino",72,230,31.2,MN
+"Healthy Control",27_410242,74,Female,White,"Not Hispanic or Latino",63,174,30.8,MN
+Transplant,27_410246,62,Female,White,"Not Hispanic or Latino",65,166,27.6,MN
+"Healthy Control",27_410706,65,Female,White,"Not Hispanic or Latino",64,168,28.8,MN
+Cancer,27_410760,59,Female,White,"Not Hispanic or Latino",55,196,45.5,MN
+"Healthy Control",27_410950,56,Female,White,"Not Hispanic or Latino",66,210,33.9,MN
+Cancer,27_411186,31,Female,White,"Not Hispanic or Latino",70,130,18.7,MN
+"Healthy Control",27_413102,52,Female,White,"Not Hispanic or Latino",64,177,30.4,MN
+"Healthy Control",27_413424,33,Female,White,"Not Hispanic or Latino",70,155,22.2,MN
+Autoimmune,27_413435,75,Female,White,"Not Hispanic or Latino",63,132,23.4,MN
+"Healthy Control",27_413442,60,Female,White,"Not Hispanic or Latino",80,138,15.2,MN
+Autoimmune,27_413453,45,Male,White,"Not Hispanic or Latino",69,135,19.9,MN
+Cancer,27_413455,67,Male,White,"Not Hispanic or Latino",70,205,29.4,MN
+Autoimmune,27_413463,56,Female,White,"Not Hispanic or Latino",64,150,25.7,MN
+Autoimmune,27_413464,37,Male,White,"Not Hispanic or Latino",76,220,26.8,MN
+Cancer,27_413466,73,Female,White,"Not Hispanic or Latino",66,150,24.2,MN
+Autoimmune,27_413469,66,Female,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
+"Healthy Control",27_413470,71,Male,White,"Not Hispanic or Latino",69,180,26.6,MN
+"Healthy Control",27_413471,0,Female,White,"Not Hispanic or Latino",63,129,22.8,MN
+Autoimmune,27_413474,73,Male,White,"Not Hispanic or Latino",NULL,NULL,NULL,"Not Reported"
