@@ -7,7 +7,23 @@ from datetime import datetime
 import glob
 from fuzzywuzzy import fuzz
 from openpyxl import load_workbook
-#
+
+import datetime as dt
+import logging
+import os
+import sys
+'''
+v1.4
+- Updated Logs
+'''
+CD = os.getcwd()
+
+if not os.path.exists(os.path.join(CD, "log")):
+    os.mkdir(os.path.join(CD, "log"))
+
+today = dt.datetime.today().strftime('%Y_%m_%d')
+logging.basicConfig(filename=os.path.join(CD, "log", f"Registry_{today}.log"), level=logging.DEBUG,
+                    format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p') #filemode='w+', 
 # Line Number Locations in Excel File
 #
 STUDY_PUBMED = 13
@@ -37,89 +53,93 @@ PROTOCOL_DESCRIPTION = 64
 PROTOCOL_TYPE = 65
 CONDITION_OR_DISEASE = 68
 REPORTED_HEALTH_CONDITION = 69
-INTERVENTION_AGENT = 72
-SARS_COV_2_VACCINE_TYPE = 73
-STUDY_DETAILS = 76
-CLINICAL_OUTCOME_MEASURE = 77
-ENROLLMENT_START_DATE = 78
-ENROLLMENT_END_DATE = 79
-NUMBER_OF_STUDY_SUBJECTS = 80
-AGE_UNIT = 81
-MINIMUM_AGE = 82
-MAXIMUM_AGE = 83
 
-INCLUSION_EXCLUSION = 86
-INCLUSION_ID = 87
-INCLUSION_CRITERION = 88
-INCLUSION_CRITERION_CATEGORY = 89
+VIRUS_VARIANT = 71
+SARS_SARS_COV_2_VARIANT = 72
 
-HUMAN_ARM_ID = 93
-HUMAN_ARM_NAME = 94
-HUMAN_STUDY_POPULATION_DESCRIPTION = 95
-HUMAN_ARM_TYPE = 96
-HUMAN_ETHNICITY = 97
-HUMAN_RACE = 98
-HUMAN_RACE_SPECIFY = 99
-HUMAN_DESCRIPTION = 100
-HUMAN_SEX_AT_BIRTH = 101
-HUMAN_AGE_EVENT = 102
-HUMAN_SUBJECT_PHENOTYPE = 103
-HUMAN_STUDY_LOCATION = 104
-HUMAN_ASSESSMENT_NAME = 105
-HUMAN_MEASURED_BEHAVIORAL_OR_PYSCHOLOGICAL_FACTOR = 106
-HUMAN_MEASURED_SOCIAL_FACTOR = 107
-HUMAN_SARS_COV_2_SYMPTOMS = 108
-HUMAN_ASSESSMENT_CLINICAL_AND_DEMOGRAPHIC_DATA_PROVENANCE = 109
-HUMAN_ASSESSMENT_DEMOGRAPHIC_DATA_TYPES_COLLECTED = 110
-HUMAN_SARS_COV_2_HISTORY = 111
-HUMAN_SARS_COV_2_VACCINE_TYPE = 112
-HUMAN_COVID_19_DISEASE_SEVERITY = 113
-HUMAN_POST_COVID_19_SYMPTOMS = 114
-HUMAN_COVID_19_COMPLICATIONS = 115
+INTERVENTION_AGENT = 74
+SARS_COV_2_VACCINE_TYPE = 75
+STUDY_DETAILS = 78
+CLINICAL_OUTCOME_MEASURE = 79
+ENROLLMENT_START_DATE = 80
+ENROLLMENT_END_DATE = 81
+NUMBER_OF_STUDY_SUBJECTS = 82
+AGE_UNIT = 83
+MINIMUM_AGE = 84
+MAXIMUM_AGE = 85
 
-MODEL_ARM_ID = 119
-MODEL_ARM_NAME = 120
-MODEL_STUDY_POPULATION_DESCRIPTION = 121
-MODEL_ARM_TYPE = 122
-MODEL_SPECIES = 123
-MODEL_BIOSAMPLE_TYPE = 124
-MODEL_STRAIN_CHARACTERISTICS = 125
-MODEL_SEX_AT_BIRTH = 126
-MODEL_AGE_EVENT = 127
-MODEL_SUBJECT_PHENOTYPE = 128
-MODEL_STUDY_LOCATION = 129
-MODEL_SARS_COV_2_HISTORY = 130
-MODEL_SARS_COV_2_VACCINE_TYPE = 131
-MODEL_COVID_19_DISEASE_SEVERITY = 132
-MODEL_POST_COVID_19_SYMPTOMS = 133
-MODEL_COVID_19_COMPLICATIONS = 134
+INCLUSION_EXCLUSION = 88
+INCLUSION_ID = 89
+INCLUSION_CRITERION = 90
+INCLUSION_CRITERION_CATEGORY = 91
 
-PLANNED_VISIT = 137
-VISIT_ID = 138
-VISIT_NAME = 139
-VISIT_ORDER_NUMBER = 140
-VISIT_MIN_START_DAY = 141
-VISIT_MAX_START_DAY = 142
-VISIT_START_RULE = 143
+HUMAN_ARM_ID = 95
+HUMAN_ARM_NAME = 96
+HUMAN_STUDY_POPULATION_DESCRIPTION = 97
+HUMAN_ARM_TYPE = 98
+HUMAN_ETHNICITY = 99
+HUMAN_RACE = 100
+HUMAN_RACE_SPECIFY = 101
+HUMAN_DESCRIPTION = 102
+HUMAN_SEX_AT_BIRTH = 103
+HUMAN_AGE_EVENT = 104
+HUMAN_SUBJECT_PHENOTYPE = 105
+HUMAN_STUDY_LOCATION = 106
+HUMAN_ASSESSMENT_NAME = 107
+HUMAN_MEASURED_BEHAVIORAL_OR_PYSCHOLOGICAL_FACTOR = 108
+HUMAN_MEASURED_SOCIAL_FACTOR = 109
+HUMAN_SARS_COV_2_SYMPTOMS = 110
+HUMAN_ASSESSMENT_CLINICAL_AND_DEMOGRAPHIC_DATA_PROVENANCE = 111
+HUMAN_ASSESSMENT_DEMOGRAPHIC_DATA_TYPES_COLLECTED = 112
+HUMAN_SARS_COV_2_HISTORY = 113
+HUMAN_SARS_COV_2_VACCINE_TYPE = 114
+HUMAN_COVID_19_DISEASE_SEVERITY = 115
+HUMAN_POST_COVID_19_SYMPTOMS = 116
+HUMAN_COVID_19_COMPLICATIONS = 117
 
-EXPERIMENTS = 147
-ASSOCIATED_ARM_IDS = 148
-ASSOCIATED_FIRST_PLANNED_VISIT_ID = 149
-ASSAY_TYPE = 150
-EXPERIMENT_NAME = 151
-EXPERIMENT_RESULTS_FILE_NAME = 152
-BIOSPECIMEN_TYPE = 153
-BIOSPECIMEN_COLLECTION_POINT = 154
-SARS_COV_2_ANTIGEN = 155
-ASSAY_USE = 156
-MANUFACTURER = 157
-CATALOG_NUMBER = 158
-VIRUS_TARGET = 159
-ANTIBODY_ISOTYPE = 160
-REPORTING_UNITS = 161
-ASSAY_REPORTING_FORMAT = 162
+MODEL_ARM_ID = 121
+MODEL_ARM_NAME = 122
+MODEL_STUDY_POPULATION_DESCRIPTION = 123
+MODEL_ARM_TYPE = 124
+MODEL_SPECIES = 125
+MODEL_BIOSAMPLE_TYPE = 126
+MODEL_STRAIN_CHARACTERISTICS = 127
+MODEL_SEX_AT_BIRTH = 128
+MODEL_AGE_EVENT = 129
+MODEL_SUBJECT_PHENOTYPE = 130
+MODEL_STUDY_LOCATION = 131
+MODEL_SARS_COV_2_HISTORY = 132
+MODEL_SARS_COV_2_VACCINE_TYPE = 133
+MODEL_COVID_19_DISEASE_SEVERITY = 134
+MODEL_POST_COVID_19_SYMPTOMS = 135
+MODEL_COVID_19_COMPLICATIONS = 136
 
-STATUS_NOTE = 165
+PLANNED_VISIT = 139
+VISIT_ID = 140
+VISIT_NAME = 141
+VISIT_ORDER_NUMBER = 142
+VISIT_MIN_START_DAY = 143
+VISIT_MAX_START_DAY = 144
+VISIT_START_RULE = 145
+
+EXPERIMENTS = 149
+ASSOCIATED_ARM_IDS = 150
+ASSOCIATED_FIRST_PLANNED_VISIT_ID = 151
+ASSAY_TYPE = 152
+EXPERIMENT_NAME = 153
+EXPERIMENT_RESULTS_FILE_NAME = 154
+BIOSPECIMEN_TYPE = 155
+BIOSPECIMEN_COLLECTION_POINT = 156
+SARS_COV_2_ANTIGEN = 157
+ASSAY_USE = 158
+MANUFACTURER = 159
+CATALOG_NUMBER = 160
+VIRUS_TARGET = 161
+ANTIBODY_ISOTYPE = 162
+REPORTING_UNITS = 163
+ASSAY_REPORTING_FORMAT = 164
+
+STATUS_NOTE = 167
 
 ## loading workbooks and data
 
@@ -130,11 +150,13 @@ json_seronet_dict = dict(
 )
 
 ## creating dictionary of correct spelling from most recent template
+try:
+    wb = load_workbook(
+        glob.glob("/Users/liualg/Library/CloudStorage/OneDrive-SharedLibraries-NationalInstitutesofHealth/NCI-FNL SeroNet Team - Curation channel/*.xlsm")[0],
+                      )
+except:
+    sys.exit("Workbook not loaded correctly") 
 
-wb = load_workbook(
-    glob.glob("/Users/liualg/Library/CloudStorage/" \
-              "OneDrive-NationalInstitutesofHealth/Curation channel/*.xlsm")[0],
-                  )
 sheet = wb['Cntrl\'d Vocab']
 immport_dict = dict()
 
@@ -186,7 +208,8 @@ def get_closest_lookup(word, lookup_table, table_name):
 
         if len(matching) == 1:
             closest_lookup = matching[0]
-            print(f"[System]:: changing {word} => {closest_lookup}")
+            print(f"INFO:: [Fuzzy] Closest Match Found. Changing {word} => {closest_lookup}")
+            logging.info(f"INFO:: [Fuzzy] Closest Match Found. Changing {word} => {closest_lookup}")
 
         
         else:
@@ -203,7 +226,8 @@ def get_closest_lookup(word, lookup_table, table_name):
             
 
             if len(check_list) == 1:
-                print(f"[FYI] fuzzywuzzy:: {word} => {check_list[0][0]} : score {check_list[0][1]}")
+                print(f"[INFO]:: [Fuzzy] {word} => {check_list[0][0]} : score {check_list[0][1]}")
+                logging.info(f"[INFO]:: [Fuzzy] {word} => {check_list[0][0]} : score {check_list[0][1]}")
                 closest_lookup = check_list[0][0]
 
             elif len(check_list) > 1:
@@ -213,7 +237,8 @@ def get_closest_lookup(word, lookup_table, table_name):
                 if float(check_list[0][1])/np.std([n[1] for n in check_list]) >= 3 and float(check_list[0][1]) > 75: #checking if i cann bypass the score choice (stat. sig.)
                 # if float(check_list[0][1])/np.std([n[1] for n in check_list[:3]]) >= 3: #checking if i cann bypass the score choice (stat. sig.)
 
-                    print(f"[FYI] fuzzywuzzy:: {word} => {check_list[0][0]} : score {check_list[0][1]}")
+                    print(f"[INFO]:: [Fuzzy] {word} => {check_list[0][0]} : score {check_list[0][1]}")
+                    logging.info(f"[INFO]:: [Fuzzy] {word} => {check_list[0][0]} : score {check_list[0][1]}")
                     closest_lookup = check_list[0][0]
 
                 else:
@@ -244,6 +269,7 @@ def get_closest_lookup(word, lookup_table, table_name):
                                 break
 
                     closest_lookup = check_list[int(user_resp)-1][0]
+                    logging.info(f"INFO:: [User Change] {word} => {closest_lookup}")
 
             else:
                 pass
@@ -341,6 +367,7 @@ def parse_registry_template(df, template):
     parse_study_design(df, template)
     parse_protocol(df, template)
     parse_condition_or_disease(df, template)
+    parse_variant(df, template)
     parse_intervention(df, template)
     parse_study_details(df, template)
     parse_subject_human(df, template)
@@ -508,6 +535,18 @@ def parse_condition_or_disease(df, template):
 
     template['reported_health_condition'] = reported_health_condition
 
+def parse_variant(df, template):
+    """Parse the Intervention Agent line
+
+        This line can contain one or more agents separated using "|"
+    """
+
+    values = parse_clean_mv_split(df, SARS_SARS_COV_2_VARIANT, 2)
+    variant_types = []
+    for v in values:
+        variant_types.append(cleanData(v))
+
+    template['sars_cov_2_variant'] = check_spelling(variant_types, 'virus_target')
 
 def parse_intervention(df, template):
     """Parse the Intervention Agent line
@@ -752,8 +791,8 @@ def parse_experiment(df, template):
                                                                                  
     template['experiment'] = experiment
 
-
 def parse_status_note(df, template):
-    """Parse the single valued pubmed_id"""
+    """Parse the Study Design section"""
 
-    template['status_note'] = parse_sv(df, STATUS_NOTE, 2)
+    template['status_note'] = replace_na(parse_clean_sv(df, STATUS_NOTE, 2))
+

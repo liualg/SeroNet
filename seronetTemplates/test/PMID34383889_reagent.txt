@@ -1,9 +1,0 @@
-other_reagents	Schema Version 3.36							
-Please do not delete or edit this column								
-Column Name	User Defined ID	Name	Description	Manufacturer	Catalog Number	Lot Number	Weblink	Contact
-	PMID34383889_reagentID-01	Nucleocapsid	FDA EUA	N/A	N/A			
-	PMID34383889_reagentID-02	Nucleocapsid	FDA EUA	N/A	N/A			
-	PMID34383889_reagentID-03	Receptor Binding Domain (RBD) | Full Length Spike Trimer	no_reagents	BioMedomics	N/A			
-	PMID34383889_reagentID-04	Receptor Binding Domain (RBD) | Full Length Spike Trimer	no_reagents	BioMedomics	N/A			
-	PMID34383889_reagentID-05	Receptor Binding Domain (RBD) | Full Length Spike Trimer	no_reagents	N/A	N/A			
-	PMID34383889_reagentID-06	Receptor Binding Domain (RBD) | Full Length Spike Trimer	no_reagents	N/A	N/A			

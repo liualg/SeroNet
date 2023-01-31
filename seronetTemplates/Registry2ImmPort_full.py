@@ -25,8 +25,9 @@ This script is compatibale with Registry Version v1.2.3 - 1.3
 1.4
     -Addded Json
     - added more vlidators 
-    - cleane dup code 
+    - cleaned up code 
     - added spell check 
+    - Updated Logs
 '''
 
 import time
@@ -66,7 +67,7 @@ else:
 
 
 file_type = "json"
-
+DR_NUMBER = "DR47"
 
 #########################################
 ######### Taking in Inputs ##############
@@ -90,6 +91,7 @@ def create_full(PMID):
 
     #File Paths
     BASE_DIR = seroFxn.get_box_dir(box_base, PMID)
+    print(BASE_DIR)
 
     try:
         df_path = glob(os.path.join(BASE_DIR,'templated_data',f'PMID{PMID}*eviewed.xlsm'))[0]
@@ -126,8 +128,8 @@ def create_full(PMID):
 
 
     # Automate output... 
-    # OUT_DIR = os.path.join(BASE_DIR, 'ImmPort_templates_TEST2') 
-    OUT_DIR = './test/'
+    OUT_DIR = os.path.join(BASE_DIR, f'ImmPort_templates_{DR_NUMBER}') 
+    # OUT_DIR = './test/'
     PATH_pmid_basic_stdy_template = f'PMID{PMID}_study.xlsx'
 
     BASIC_STUDY_TEMPLATE = f'PMID{PMID}_basic'
@@ -164,7 +166,7 @@ def create_full(PMID):
                    'protocol', 'condition_or_disease', 'Intervention Agent',
                    'study_details', 'inclusion_exclusion',
                    'Subject Type: human', 'Subject Type: model organism', 'planned_visit',
-                   'Experiments', 'Experiment Samples'
+                   'Serology Experiments', 'Experiment Samples'
                   ]
 
 
@@ -393,8 +395,8 @@ def create_full(PMID):
                     df['Measured Behavioral or Psychological Factor*'],
                     df['Measured Social Factor*'],
                     df['SARS-CoV-2 Symptoms*'],
-                    df['Assessment_Clinical  and Demographic Data Provenance'],
-                    df['Assessment_Demographic Data Types Collected'],
+                    df['Assessment_Clinical  and Demographic Data Provenance*'],
+                    df['Assessment_Demographic Data Types Collected*'],
                     df['SARS-CoV2 History*'],
                     df['SARS-CoV-2 Vaccine Type*'],
                     df['COVID-19 Disease Severity*'],
@@ -469,7 +471,7 @@ def create_full(PMID):
         #         df['Biospecimen Collection Point*']                             
         # )
         
-        elif sub_section == 'Experiments':
+        elif sub_section == 'Serology Experiments':
             df = seroFxn.edit_df(df)
 
             EXPERIMENTS = seroClass.experiments(

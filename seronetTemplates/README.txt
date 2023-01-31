@@ -9,7 +9,9 @@ Package purpose:
 This package contains scripts, dictionaries, and templates to automate the transfer of information from SeroNet specific templates to ImmPort templates. Versions of the package reflect the most recent template
 
 Version: 
-1.2.7 n
+1.2.6
+- ETL: Cleans and normalizes SeroNet Registry Template data and outputs SeroNet specific templates 
+- JSON: Will create a JSON version of SeroNet Registry Template and run facet fields through spell checker.
 
 Pointer to Instructions/Requirements for configuration and installation info: 
 To install packages please navigate to Instructions.txt file. 
@@ -21,7 +23,7 @@ To run the script, please type 'python createTemplates.py' and enter the PMID in
 
 
 Acknowledgements: 
-SeroNet Team - Elaine Freund, Renuka Vepachedu, David Abrahm, Patrick Breads
+SeroNet Team - Elaine Freund, Renuka Vepachedu, David Abraham, Patrick Breads
 ImmPort Team - Henry Schaefer
-National Cancer Intitute (NCI)
+National Cancer Institute (NCI)
 Essential Software Inc (ESI)

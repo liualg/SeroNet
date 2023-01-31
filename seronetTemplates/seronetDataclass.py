@@ -12,6 +12,9 @@ This script is compatibale with Registry Version v.1.2.5
 This allows the transfer to .json files 
 - added clean_whitespace to deliminiter tab, to allow for propper splitting
 
+1.4
+- Updated Logs
+
 '''
 
 
@@ -45,7 +48,7 @@ if not os.path.exists(os.path.join(CD, "log")):
 
 today = dt.datetime.today().strftime('%Y_%m_%d')
 logging.basicConfig(filename=os.path.join(CD, "log", f"Registry_{today}.log"), level=logging.DEBUG,
-                    format='%(asctime)s %(message)s', filemode='w', datefmt='%m/%d/%Y %I:%M:%S %p')
+                    format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p') #filemode='w+', 
 
 ###
 @dataclass
@@ -60,6 +63,8 @@ class study(DataClassJsonMixin):
     NAME: str = 'study'
 
     def __post_init__(self):
+        PMID = re.findall("\d{8}",self.Study_Identifier)[0]
+        logging.info(f"\nPMID: {PMID}")
         self.Study_Identifier = seroFxn.remove_whitespace(self.Study_Identifier)
         self.Study_Name = seroFxn.remove_whitespace(self.Study_Name)
         self.Publication_Title = seroFxn.remove_whitespace(self.Publication_Title)
@@ -118,11 +123,11 @@ class study_file(DataClassJsonMixin):
             # self.Description[i] = k.replace('\n','').replace('\t','')
 
         if len(list(self.File_Name)) != len(list(set(self.File_Name))):
-            logging.warning("[file names]: Redudant names: file names")
+            logging.error("[file names]: Redudant names: file names")
             sys.exit("ERROR:: [file names]: Check file names")
 
         if len(self.File_Name) != len(self.Study_File_Type):
-            logging.warning("[file names]: Missing value")
+            logging.error("[file names]: Missing value")
             sys.exit("ERROR:: [file names]: Check for missing values")
         # CHANGE JSON FILE TYPE
         for i, k in enumerate(self.File_Name):
@@ -185,8 +190,8 @@ class protocols(DataClassJsonMixin):
                 object.__setattr__(self, 'Protocol_File_Name',
                  [k.strip() for i, k in enumerate(self.Protocol_File_Name)])
         else:
-            logging.error("ERROR:: [protocols]: Protocol information is missing")
-            sys.exit("ERROR:: [protocols]: Protocol information is missing")
+            logging.error("ERROR:: [protocols] Protocol information is missing")
+            sys.exit("ERROR:: [protocols] Protocol information is missing")
 
 
 @dataclass
@@ -280,23 +285,23 @@ class inclusion_exclusion(DataClassJsonMixin):
 
     def __post_init__(self):
         if len(list(self.User_Defined_ID)) != len(list(set(self.User_Defined_ID))):
-            logging.warning("[inclusion exclusion]: Redudant Unique ID")
-            sys.exit("ERROR:: [inclusion exclusion]: Redudant Unique ID")
+            logging.error("ERROR:: [inclusion exclusion] Redudant Unique ID")
+            sys.exit("ERROR:: [inclusion exclusion] Redudant Unique ID")
 
         if len(self.User_Defined_ID) == 1: #change n/a to other / inclusion  
             if (self.Criterion[1] in VARS_TO_CLEAN):
                 object.__setattr__(self, "Criterion", "Other") 
                 object.__setattr__(self, "Criterion_Category", "Inclusion")
-                logging.warning("[inclusion exclusion]: No Inclusion Exclusion Recorded, using Other : Inclusion")
+                logging.warning("WARNING:: [inclusion exclusion] No Inclusion Exclusion Recorded, using Other : Inclusion")
 
         for i, k in enumerate(self.Criterion_Category):
             i = i+1
             if k.lower().strip() == 'yes':
                 self.Criterion_Category[i] = "Inclusion"
-                logging.warning("[inclusion exclusion]: Changing Yes => Inclusion")
+                logging.warning("WARNING:: [inclusion exclusion] Changing Yes => Inclusion")
             if k.lower().strip() == 'no':
                 self.Criterion_Category[i] = "Exclusion"
-                logging.warning("[inclusion exclusion]: Changing No => Exclusion")
+                logging.warning("WARNING:: [inclusion exclusion] Changing No => Exclusion")
 
 
 
@@ -384,8 +389,8 @@ class arm_or_cohort(DataClassJsonMixin):
 
     def __post_init__(self):
         if len(self.Type_Reported) < len(self.User_Defined_ID):
-            logging.error("[arm_or_cohort]: Arm type missing")
-            sys.exit("ERROR:: [arm_or_cohort]: Arm type missing")
+            logging.error("ERROR:: [arm_or_cohort] Arm type missing")
+            sys.exit("ERROR:: [arm_or_cohort] Arm type missing")
 
         for i, k in enumerate(self.Description):
             object.__setattr__(self, 'Description',
@@ -436,8 +441,8 @@ class subject_type_human(DataClassJsonMixin):
             # IMMPORT_REQUIRED = ['User_Defined_ID', 'Name','Description','Type_Reported','Species','Biosample_Types',
             # 'Sex_at_Birth', 'Age_Event', 'Study_Location']
             if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
-                logging.error("[Subject human]: check user defined ID")
-                sys.exit("ERROR:: [Subject human]: check user defined ID")
+                logging.error("ERROR:: [Subject human] Check user defined ID")
+                sys.exit("ERROR:: [Subject human] Check user defined ID")
 
 
             self.Race = seroFxn.replace_delimiter(self.Race)
@@ -466,17 +471,18 @@ class subject_type_human(DataClassJsonMixin):
                 cell = seroFxn.clean_array(getattr(self,field), [None])
                 if len(cell) > 0 and field != "ImmPortNAME" and field != "Race_Specify":
                     if len(cell) != largest_val:
-        #                 logging.error("[planned visit]: check Order Numer")
-                        sys.exit(f"ERROR:: Error [Subject Human]: Check {field}")
+                        logging.error(f"ERROR:: Error [Subject Human] Check {field}")
+                        sys.exit(f"ERROR:: Error [Subject Human] Check {field}")
 
             for i, k in enumerate(self.Sex_at_Birth):
                 # MoF = ["male | female", "female | male", "female i male", "male i female"]
                 if k is not None:
                     if k.lower().strip() == "n/a":
+                        logging.warning("WARNING:: [Sex_at_Birth] Changing \'n/a\' to \'Not Specified\'")
                         self.Sex_at_Birth[i + 1] = 'Not Specified'
 
                     if "|" in k.lower().strip() or "i" in k.lower().strip():
-                        logging.warning("Changing male | female to other")
+                        logging.warning("WARNING:: [Sex_at_Birth] Changing \'male | female\' to \'other\'")
                         self.Sex_at_Birth[i + 1] = 'Other'
 
             for i, k in enumerate(self.Name):
@@ -519,19 +525,24 @@ class subject_type_human(DataClassJsonMixin):
                         self.Race[i + 1] = 'Not Specified'
 
                     if "|" in k.lower().strip() or "i" in k.lower().strip():
-                        logging.warning("Changing Race to other and moving data to Race Specify")
+                        logging.warning("Warning:: [Race] Changing \'Race\' to \'other\' and moving data to [Race Specify]")
                         self.Race[i + 1] = 'Other'
                         self.Race_Specify[i + 1] = k.lower().strip()
+
+                    if k.lower().strip() in ['other race', "other"] and self.Race_Specify[i + 1] is not None:
+                        logging.error("Error:: [Race & Race Specify] Race should not be \'Other\' or \'Other Race\' in the template. Please switch")
+                        sys.exit("Error:: [Race & Race Specify] Race should not be \'Other\' or \'Other Race\' in the template. Please switch")
 
 
             for i, k in enumerate(self.Ethnicity):
                 # MoF = ["male | female", "female | male", "female i male", "male i female"]
                 if k is not None:
                     if k.lower().strip() == "n/a":
+                        logging.warning("Warning:: [Ethnicity] Changing \'n/a\' to Not Specified")
                         self.Ethnicity[i + 1] = 'Not Specified'
 
                     if "|" in k.lower().strip() or "i" in k.lower().strip():
-                        logging.warning("Changing Ethnicity to Other")
+                        logging.warning("Warning:: [Ethnicity] Changing list to other in ImmPort Templates")
                         self.Ethnicity[i + 1] = 'Other'
 
             # if self.Reported_Health_Condition:
@@ -574,8 +585,8 @@ class subject_type_mode_organism(DataClassJsonMixin):
             # IMMPORT_REQUIRED = ['User_Defined_ID', 'Name','Description','Type_Reported','Species','Biosample_Types',
             # 'Sex_at_Birth', 'Age_Event', 'Study_Location']
             if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
-                logging.error("[Subject human]: check user defined ID")
-                sys.exit("ERROR:: [Subject human]: check user defined ID")
+                logging.error("ERROR:: [Subject human] Check user defined ID")
+                sys.exit("ERROR:: [Subject human] Check user defined ID")
 
             self.SARS_CoV_2_Vaccine_Type = seroFxn.replace_delimiter(self.SARS_CoV_2_Vaccine_Type)
             
@@ -596,8 +607,8 @@ class subject_type_mode_organism(DataClassJsonMixin):
                 cell = seroFxn.clean_array(getattr(self,field), [None])
                 if len(cell) > 0 and field != "ImmPortNAME" and field != "Race_Specify":
                     if len(cell) != largest_val:
-        #                 logging.error("[planned visit]: check Order Numer")
-                        sys.exit(f"ERROR:: Error [Subject Human]: Check {field}")
+                        logging.error(f"ERROR:: [Subject Human]: Check {field}")
+                        sys.exit(f"ERROR:: [Subject Human]: Check {field}")
 
             # shorting vaccine type to non-hidden characters  
             # self.SARS_CoV_2_Vaccine_Type = [x for x in self.SARS_CoV_2_Vaccine_Type if x not in VARS_TO_CLEAN]
@@ -684,15 +695,15 @@ class planned_visit(DataClassJsonMixin):
     def __post_init__(self):
 
         if len(set(self.User_Defined_ID)) != len(self.User_Defined_ID):
-            logging.error("[planned visit]: check user defined ID")
-            sys.exit("ERROR:: [planned visit]: check user defined ID")
+            logging.error("ERROR:: [planned visit] Check user defined ID")
+            sys.exit("ERROR:: [planned visit] Check user defined ID")
 
             # Script to auto change user defined ID. Not sure if this is smart to have
             # temp = self.User_Defined_ID[1][:-1]
             # object.__setattr__(self, "User_Defined_ID", [temp+str(i+1) for i in range(len(self.User_Defined_ID))])
 
         if len(set(self.Order_Number)) != len(self.Order_Number):
-            logging.error("[planned visit]: check Order Numer")
+            logging.error("Error:: [planned visit] Same order number used more than once")
             sys.exit("ERROR:: [planned visit] Same order number used more than once")
 
         for i, k in enumerate(self.Name):
@@ -766,8 +777,8 @@ class reagent_per_experiment(DataClassJsonMixin):
                 cell = seroFxn.clean_array(getattr(self,field), [None])
                 if len(cell) > 0 and field != "ImmPortNAME":
                     if len(cell) != largest_val:
-        #                 logging.error("[planned visit]: check Order Numer")
-                        sys.exit(f"ERROR:: Error [Reagent]: Check {field}")
+                        logging.error(f"ERROR:: [Reagent] Check {field}")
+                        sys.exit(f"ERROR:: [Reagent] Check {field}")
 
             if not len(self.Manufacturer):
                 object.__setattr__(self, 'Manufacturer', 0)
@@ -780,9 +791,10 @@ class reagent_per_experiment(DataClassJsonMixin):
 
                     for IDS in self.Reagent_ID:
                         if not re.match('pmid[\d]{8}_\w*?-[\d]{2}', IDS, re.IGNORECASE):
-                            logging.error("[Reagent]: Reagent_ID is wrong")
+                            logging.error("Error:: [Reagent] Reagent_ID is wrong")
                 else:
-                    sys.exit(f"ERROR:: Error [Reagent_ID]: Missing value in Reagent ID")
+                    logging.error(f"ERROR:: [Reagent_ID] Missing value in Reagent ID")
+                    sys.exit(f"ERROR:: [Reagent_ID] Missing value in Reagent ID")
 
 @dataclass #only found in v1.2.2
 class experiments(DataClassJsonMixin): 

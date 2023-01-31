@@ -1,5 +1,0 @@
-subjecthumans	Schema Version 3.36																				
-Please do not delete or edit this column																					
-Column Name	Subject ID	Arm Or Cohort ID	Gender	Min Subject Age	Max Subject Age	Age Unit	Age Event	Age Event Specify	Subject Phenotype	Subject Location	Ethnicity	Race	Race Specify	Description	Result Separator Column	Exposure Process Reported	Exposure Material Reported	Exposure Material ID	Disease Reported	Disease Ontology ID	Disease Stage Reported
-	PMID34383889_human_subject-01	PMID34383889_human_subject-01	Other	0	77	Years	Age at enrollment			US: North Carolina	Other	Other	white | black or african american | other race			unknown	n/a	n/a	Covid-19 | SARS-CoV-2 WA1/2020 (D614G variant)		Mild | Moderate | Severe
-	PMID34383889_human_subject-02	PMID34383889_human_subject-02	Other	0	77	Years	Age at enrollment			US: North Carolina	Other	Other	white | black or african american | other race | unknown			unknown	n/a	n/a	Covid-19 | SARS-CoV-2 WA1/2020 (D614G variant)		n/a
