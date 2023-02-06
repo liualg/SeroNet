@@ -24,8 +24,7 @@ if not os.path.exists(os.path.join(CD, "log")):
 today = dt.datetime.today().strftime('%Y_%m_%d')
 logging.basicConfig(filename=os.path.join(CD, "log", f"Registry_{today}.log"), level=logging.DEBUG,
                     format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p') #filemode='w+', 
-# Line Number Locations in Excel File
-#
+
 STUDY_PUBMED = 13
 
 STUDY_IDENTIFIER = 16
@@ -174,7 +173,6 @@ for column in sheet.iter_cols( #sheet.max_column,
                 name.append(cell.value)
                 start_index.append(icol)
     
-#     print(start_index)
     try:
         for i in range(len(start_index)-1):
             # This does the main rows
@@ -183,7 +181,6 @@ for column in sheet.iter_cols( #sheet.max_column,
         immport_dict[name[-1]] = [k.value for k in column[start_index[i+1]+1 :] if k.value is not None]
     
     except:
-#         print(start_index[i-1])
         #this does the first row 
         immport_dict[name[-1]] = [k.value for k in column[start_index[i-1]+1 :] if k.value is not None]
         pass
@@ -219,12 +216,11 @@ def get_closest_lookup(word, lookup_table, table_name):
                 pass 
 
             for potential in lookup_table:
-                # if fuzz.ratio(word, potential) >= 10: ##use math for this
                 check_list.append((potential, 
                                       fuzz.ratio(word, potential))
                                      )
             
-
+            # if the list 
             if len(check_list) == 1:
                 print(f"[INFO]:: [Fuzzy] {word} => {check_list[0][0]} : score {check_list[0][1]}")
                 logging.info(f"[INFO]:: [Fuzzy] {word} => {check_list[0][0]} : score {check_list[0][1]}")
@@ -263,8 +259,8 @@ def get_closest_lookup(word, lookup_table, table_name):
                                 user_resp = str(user_resp)
                             
                             if user_resp == 'more':
-                                for top3 in check_list:
-                                    print(top3)
+                                for ind, top3 in enumerate(check_list):
+                                    print(f"{ind+1}. {top3}")
                             if user_resp == 'exit':
                                 break
 
@@ -470,22 +466,10 @@ def parse_study_link(df, template):
 
 def parse_study_categorization(df, template):
     """ Parse the Study Categorization section"""
-
-    # 
-    # Research Focus
-    #
-    # LIU3
     template['research_focus'] = check_spelling(parse_clean_sv(df, RESEARCH_FOCUS, 2), 'research_focus')
-
-
-    #
-    # Study Type
-    #
     template['study_type'] = replace_na(check_spelling(parse_clean_sv(df, STUDY_TYPE, 2), 'study_type'))
 
-    #
     # Keywords 
-    #
     keyword = []
     keywords = (list(df.loc[KEYWORDS])[2]).replace(";"," | ").replace(" I ", "|").replace(",","|").split("|")
     for k in keywords:
@@ -528,10 +512,6 @@ def parse_condition_or_disease(df, template):
     for c in values:
         #liu3
         reported_health_condition.append(check_spelling(cleanData(c),'reported_health_condition'))
-
-    # temp = []
-    # for c in ' '.join(reported_health_condition).split('|'):
-    #     temp.append(c.strip())
 
     template['reported_health_condition'] = reported_health_condition
 

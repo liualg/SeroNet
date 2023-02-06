@@ -1,0 +1,124 @@
+02/02/2023 01:04:09 PM 
+PMID: 35915094
+02/02/2023 01:07:20 PM 
+PMID: 34047304
+02/02/2023 01:07:20 PM ERROR:: [inclusion exclusion] Redudant Unique ID
+02/02/2023 01:07:54 PM 
+PMID: 35877413
+02/02/2023 01:07:54 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 01:07:54 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 01:07:54 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 01:07:54 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 01:07:54 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 01:07:54 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 01:26:25 PM 
+PMID: 34669512
+02/02/2023 01:26:25 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+02/02/2023 01:26:25 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+02/02/2023 01:26:25 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 01:26:25 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 01:26:25 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 01:26:25 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 01:26:25 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 01:26:25 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 01:28:04 PM 
+PMID: 33932848
+02/02/2023 01:28:20 PM 
+PMID: 33915337
+02/02/2023 01:28:20 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 01:28:20 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 01:28:20 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 01:28:20 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 01:28:20 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 01:28:20 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 01:28:22 PM [INFO]:: [Fuzzy] Post-acute Sequelae of COVID-20 => Post-acute Sequelae of COVID-19 : score 94
+02/02/2023 01:28:22 PM [INFO]:: [Fuzzy] SARS-CoV-2 spike => SARS-CoV-2 : score 77
+02/02/2023 01:29:38 PM 
+PMID: 34047304
+02/02/2023 01:29:38 PM ERROR:: [inclusion exclusion] Redudant Unique ID
+02/02/2023 01:30:03 PM 
+PMID: 34047304
+02/02/2023 01:30:03 PM ERROR:: [inclusion exclusion] Redudant Unique ID
+02/02/2023 01:30:46 PM 
+PMID: 34047304
+02/02/2023 01:30:46 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 01:30:46 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 01:30:46 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 01:30:46 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 01:30:46 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 01:30:46 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 01:31:16 PM 
+PMID: 34047304
+02/02/2023 01:31:16 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 01:31:16 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 01:31:16 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 01:31:16 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 01:31:16 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 01:31:16 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 01:57:12 PM 
+PMID: 34047304
+02/02/2023 01:57:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 01:57:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 01:57:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 01:57:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 01:57:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 01:57:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 02:45:54 PM 
+PMID: 34047304
+02/02/2023 02:45:54 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 02:45:54 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 02:45:54 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 02:45:54 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 02:45:54 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 02:45:54 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 02:47:40 PM 
+PMID: 34047304
+02/02/2023 02:47:40 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 02:47:40 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 02:47:40 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 02:47:40 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 02:47:40 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 02:47:40 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 02:50:25 PM 
+PMID: 34047304
+02/02/2023 02:50:25 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 02:50:25 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 02:50:25 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 02:50:25 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 02:50:25 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 02:50:25 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 02:50:49 PM 
+PMID: 34047304
+02/02/2023 02:50:49 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 02:50:49 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 02:50:49 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 02:50:49 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 02:50:49 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 02:50:49 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 02:51:56 PM 
+PMID: 34047304
+02/02/2023 02:51:56 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 02:51:56 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 02:51:56 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 02:51:56 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 02:51:56 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 02:51:56 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 03:09:58 PM 
+PMID: 34047304
+02/02/2023 03:09:58 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 03:09:58 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/02/2023 03:09:58 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 03:09:58 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/02/2023 03:09:58 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 03:09:58 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/02/2023 03:22:43 PM INFO:: [User Change] COVID-19 => Covid-19
+02/02/2023 03:22:43 PM [INFO]:: [Fuzzy] Native Hawaian or other Pacific Islander => Native Hawaiian or Other Pacific Islander : score 96
+02/02/2023 03:22:43 PM [INFO]:: [Fuzzy] American Indian/Alaskan Native => American Indian or Alaska Native : score 90
+02/02/2023 03:22:43 PM INFO:: [Fuzzy] Closest Match Found. Changing Partially Vaccinated => Partially vaccinated
+02/02/2023 03:22:43 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+02/02/2023 03:22:43 PM [INFO]:: [Fuzzy] Native Hawaian or other Pacific Islander => Native Hawaiian or Other Pacific Islander : score 96
+02/02/2023 03:22:43 PM [INFO]:: [Fuzzy] American Indian/Alaskan Native => American Indian or Alaska Native : score 90
+02/02/2023 03:22:43 PM INFO:: [Fuzzy] Closest Match Found. Changing Partially Vaccinated => Partially vaccinated
+02/02/2023 03:22:43 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+02/02/2023 04:10:11 PM 
+PMID: 35632708

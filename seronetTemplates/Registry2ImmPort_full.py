@@ -20,6 +20,7 @@ This script is compatibale with Registry Version v1.2.3 - 1.3
     - Updated JSON
     - Updated file: pointerToExperimentalData.txt => ExperimentalDataInStudyFilesTab
     - Updated experitment sample logiv for create reagent ids
+    - Assumption, is there is no SARS-CoV-2 Antigen curated, then the script will say "no reagents curated"
 
 
 1.4
