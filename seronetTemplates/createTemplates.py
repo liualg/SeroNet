@@ -2,7 +2,7 @@ import tkinter as tk
 import sys
 import os
 from Registry2ImmPort_basic import create_basic
-from Registry2ImmPort_full import create_full
+from Registry2ImmPort_short import create_short
 from PIL import Image, ImageTk
 
 from argparse import ArgumentParser
@@ -12,25 +12,25 @@ parser = ArgumentParser(
              description="Parse a SeroNet registry template into ImmPort templates and JSON")
 
 parser.add_argument(
-        '--Dev_go_quick',
+        '--Dev',
         '-d',
         required=False,
-        help="Specify the path to the output file"
+        help="Help with running batch scripts. It will bypass the GUI and allow you to run script"
     )
 
 parser.add_argument(
         '--PMID',
         '-p',
         required=False,
-        help="Specify the path to the output file"
+        help="Enter Pubmed ID. This ID must have a Box folder with a naming format of \'PMID_xxxxxxxx\'"
     )
 
 
 args = parser.parse_args()
 
-if args.Dev_go_quick:
-   print(f"Doing Full Curation for: {args.PMID.strip()}")
-   create_full(args.PMID.strip())
+if args.Dev:
+   print(f"Doing Short Curation for: {args.PMID.strip()}")
+   create_short(args.PMID.strip())
 
 else:
    root= tk.Tk()

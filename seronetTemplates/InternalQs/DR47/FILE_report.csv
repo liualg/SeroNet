@@ -1,0 +1,47 @@
+,File Name,Description,Study File Type
+0,Raw Data _ PMID35915094.xlsx ,"ELISA, pseudovirus neutralization assay, and Cytokine data supporting Figures 1 - 4 in the paper.",Study Data
+1,PMID35915094_v1.3.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+2,PMID35915094_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+3,mmc1.pdf,Case Report Check List,Study Data
+4,mmc2.pdf,Supplementary figures and data,Study Data
+5,mmc3.pdf,Materials Transfer Agreement,Study Data
+6,GISAID ascension numbers.txt,GISAID ascension numbers,Study Data
+7,PMID33915337_v1.3.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+8,PMID33915337_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+9,PMID34047304_dataset.csv,All assesment data used to calculate the frequency of Adverse Events.,Study Data
+10,PMID34047304_column_descriptions.xlsx,Data Dictionary,Data Dictionary
+11,PMID34047304_v1.3.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+12,PMID34047304_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+13,PMID35877413_supplementary_data.docx,"Supplementary material includes clinical symptoms of the participants; figures of ELISA, Antigenemia levels in late COVID samples stratified by severity and antibody serology",Study Data
+14,PMID35877413_v1.xlsx,Clinical symptoms of the participants; Covid-19 positivity; ELISA experimental results for the participants,Study Data
+15,PMID35877413_v1.3.1.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+16,PMID35877413_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+17,PMID35632708_Brazilian Variant_PanelA.csv,Daily weight in mice for 7 days post-infection with SARS-CoV-2 Brazilian variant,Study Data
+18,PMID35632708_Brazilian Varient_PanelC.csv,Survival of mice 7 days post-infection with SARS-CoV-2 Brazilian variant,Study Data
+19,PMID35632708_Mann-Whitney test of SgN Copy Number Brazilian COVID variant_PanelE.csv,SgN Copy Number in mice infected with SARS-CoV-2 Brazilian variant on day 7,Study Data
+20,PMID35632708_South African Variant_PanelB.csv,Daily weight in mice for 7 days post-infection with SARS-CoV-2 South African Variant,Study Data
+21,PMID35632708_SA variant_PanelD.csv,Survival of mice 7 days post-infection with SARS-CoV-2 South African Variant,Study Data
+22,PMID35632708_SgN Copy Number SA COVID variant_PanelF.csv,SgN Copy Number in mice infected with SARS-CoV-2 2 South African Variant,Study Data
+23,PMID35632708_v1.3.1.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+24,PMID35632708_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+25,PMID35092678_supplementary_material.docx,"Supplementary document includes transmission of SARS-CoV-2, based on the probability of transmission given contact, the number of daily contacts, and the total number of infected individuals; data related to figures of distribution of cumulative cases across 100 simulations in symptomatic residents and staff and infected residents and staff",Study Data
+26,PMID35092678_v1.3.1.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+27,PMID35092678_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+28,PMID34706273_mmc1.pdf,"Supplementary data includes study information and patient selection; methods like ELISA, Flow Cytometry, ELISPOT Assays, Statistical Analysis; B and CD4+ T cell responses to SARS-CoV-2 vaccines in patients with MM",Study Data
+29,PMID34706273_mmc2.xlsx,Clinical Characteristics of MM patients and Healthy controls,Study Data
+30,PMID34706273_data.xlsx,"Demographics of the participants, Anti-S IgG titers, B cell, CD4+ T cell counts MM patients and healthy controls after therapy",Study Data
+31,PMID34706273_Demographic_MM.xlsx,Demographics of multiple myeloma patients and healthy controls,Demographics
+32,PMID34706273_v1.3.1.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+33,PMID34706273_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+34,"PMID34253053_Dhakal et al., mBio.xlsx","Excel spreadsheet with subject level data of hamster body mass, CT scores, treatmetns, virus titers, cytokine expression, and antibody response",Study Data
+35,PMID34253053_mbio.00974-21-st001.pdf,Table of cytokine concentrations in the lungs and spleen of male and female hamsters,Study Data
+36,PMID34253053_mbio.00974-21-sf001.tif,"Images of chest computed tomography (CT) of female, E2, and Placebo hamsters",Study Data
+37,PMID34253053_mbio.00974-21-sf002.tif,Charts of cytokine concentrations in the lungs ,Study Data
+38,PMID34253053_v1.3.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+39,PMID34253053_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+40,PMID35289114_sup-0001-suppmat.docx,"Supplemental document with western blott data, SP-IRIS results, food burrowing data, and images of female hamster lungs ",Study Data
+41,PMID35289114_v1.3.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+42,PMID35289114_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+43,Pisanic_Randad_data_short.xlsx,"Nucleocapsid (N) protein, receptor binding domain (RBD), and full spike (S) protein measurements used to train and test model ",Study Data
+44,PMID35795812_v1.3.0.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+45,PMID35795812_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description

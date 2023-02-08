@@ -1,0 +1,110 @@
+02/08/2023 09:49:17 AM 
+PMID: 35915094
+02/08/2023 09:49:42 AM 
+PMID: 33915337
+02/08/2023 09:49:42 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/08/2023 09:49:42 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/08/2023 09:49:42 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/08/2023 09:49:42 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/08/2023 09:49:42 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/08/2023 09:49:42 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/08/2023 09:50:02 AM [INFO]:: [Fuzzy] Post-acute Sequelae of COVID-20 => Post-acute Sequelae of COVID-19 : score 94
+02/08/2023 09:50:02 AM [INFO]:: [Fuzzy] SARS-CoV-2 spike => SARS-CoV-2 : score 77
+02/08/2023 09:51:17 AM 
+PMID: 33915337
+02/08/2023 09:51:17 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/08/2023 09:51:17 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/08/2023 09:51:17 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/08/2023 09:51:17 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/08/2023 09:51:17 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/08/2023 09:51:17 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/08/2023 09:51:18 AM [INFO]:: [Fuzzy] Post-acute Sequelae of COVID-20 => Post-acute Sequelae of COVID-19 : score 94
+02/08/2023 09:51:52 AM 
+PMID: 34047304
+02/08/2023 09:51:52 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/08/2023 09:51:52 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/08/2023 09:51:52 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/08/2023 09:51:52 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/08/2023 09:51:52 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/08/2023 09:51:52 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/08/2023 09:52:08 AM INFO:: [User Change] COVID-19 => Covid-19
+02/08/2023 09:52:08 AM [INFO]:: [Fuzzy] Native Hawaian or other Pacific Islander => Native Hawaiian or Other Pacific Islander : score 96
+02/08/2023 09:52:08 AM [INFO]:: [Fuzzy] American Indian/Alaskan Native => American Indian or Alaska Native : score 90
+02/08/2023 09:52:08 AM INFO:: [Fuzzy] Closest Match Found. Changing Partially Vaccinated => Partially vaccinated
+02/08/2023 09:52:08 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+02/08/2023 09:52:08 AM [INFO]:: [Fuzzy] Native Hawaian or other Pacific Islander => Native Hawaiian or Other Pacific Islander : score 96
+02/08/2023 09:52:08 AM [INFO]:: [Fuzzy] American Indian/Alaskan Native => American Indian or Alaska Native : score 90
+02/08/2023 09:52:08 AM INFO:: [Fuzzy] Closest Match Found. Changing Partially Vaccinated => Partially vaccinated
+02/08/2023 09:52:08 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+02/08/2023 09:52:54 AM 
+PMID: 35877413
+02/08/2023 09:52:55 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/08/2023 09:52:55 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/08/2023 09:52:55 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/08/2023 09:52:55 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/08/2023 09:52:55 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/08/2023 09:52:55 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/08/2023 09:55:10 AM 
+PMID: 35632708
+02/08/2023 10:01:06 AM 
+PMID: 35092678
+02/08/2023 10:01:06 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/08/2023 10:01:06 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/08/2023 10:01:06 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/08/2023 10:01:31 AM 
+PMID: 34706273
+02/08/2023 10:01:32 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/08/2023 10:01:32 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/08/2023 10:01:32 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/08/2023 10:01:32 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/08/2023 10:01:32 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/08/2023 10:01:32 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/08/2023 10:01:32 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/08/2023 10:01:32 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/08/2023 10:01:32 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/08/2023 10:01:47 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+02/08/2023 10:01:47 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+02/08/2023 10:01:47 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+02/08/2023 10:02:06 AM 
+PMID: 34253053
+02/08/2023 10:02:29 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+02/08/2023 10:02:29 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+02/08/2023 10:02:45 AM 
+PMID: 35289114
+02/08/2023 10:02:45 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+02/08/2023 10:02:55 AM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination
+02/08/2023 10:02:55 AM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination
+02/08/2023 10:02:55 AM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination
+02/08/2023 10:03:20 AM 
+PMID: 35795812
+02/08/2023 10:03:20 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/08/2023 10:03:20 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/08/2023 10:03:20 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/08/2023 10:04:39 AM Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+02/08/2023 10:04:39 AM NumExpr defaulting to 8 threads.
+02/08/2023 10:17:33 AM 
+PMID: 34047304
+02/08/2023 10:17:33 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/08/2023 10:17:33 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/08/2023 10:17:33 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/08/2023 10:17:33 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/08/2023 10:17:33 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/08/2023 10:17:33 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/08/2023 10:17:33 AM [INFO]:: [Fuzzy] Native Hawaian or other Pacific Islander => Native Hawaiian or Other Pacific Islander : score 96
+02/08/2023 10:17:33 AM [INFO]:: [Fuzzy] American Indian/Alaskan Native => American Indian or Alaska Native : score 90
+02/08/2023 10:17:33 AM INFO:: [Fuzzy] Closest Match Found. Changing Partially Vaccinated => Partially vaccinated
+02/08/2023 10:17:33 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+02/08/2023 10:17:33 AM [INFO]:: [Fuzzy] Native Hawaian or other Pacific Islander => Native Hawaiian or Other Pacific Islander : score 96
+02/08/2023 10:17:33 AM [INFO]:: [Fuzzy] American Indian/Alaskan Native => American Indian or Alaska Native : score 90
+02/08/2023 10:17:33 AM INFO:: [Fuzzy] Closest Match Found. Changing Partially Vaccinated => Partially vaccinated
+02/08/2023 10:17:33 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+02/08/2023 10:18:21 AM Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+02/08/2023 10:18:21 AM NumExpr defaulting to 8 threads.
+02/08/2023 10:21:12 AM 
+PMID: 35289114
+02/08/2023 10:21:12 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+02/08/2023 10:21:12 AM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination
+02/08/2023 10:21:12 AM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination
+02/08/2023 10:21:12 AM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination
+02/08/2023 10:21:40 AM Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+02/08/2023 10:21:40 AM NumExpr defaulting to 8 threads.

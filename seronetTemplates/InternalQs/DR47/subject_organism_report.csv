@@ -1,0 +1,21 @@
+,Column Name,Subject ID,Arm Or Cohort ID,Gender,Min Subject Age,Max Subject Age,Age Unit,Age Event,Age Event Specify,Subject Phenotype,Subject Location,Species,Strain,Strain Characteristics,Result Separator Column,Exposure Process Reported,Exposure Material Reported,Exposure Material ID,Disease Reported,Disease Ontology ID,Disease Stage Reported
+0,-,PMID35915094_organism_subject-01,PMID35915094_organism_subject-01,Female,0,89,Years,Age at Study Day 0,-,-,US: Massachusetts,Mus musculus,Animal, C57BL/6 mice,-,unknown,CureVac AG,VO:0005208,Covid-19,-,-
+1,-,PMID35915094_organism_subject-02,PMID35915094_organism_subject-02,Female,0,89,Years,Age at Study Day 0,-,-,US: Massachusetts,Mus musculus,Animal, C57BL/6 mice,-,unknown,other,other,Covid-19,-,-
+2,-,PMID35915094_organism_subject-03,PMID35915094_organism_subject-03,Female,0,89,Years,Age at Study Day 0,-,-,US: Massachusetts,Mus musculus,Animal, C57BL/6 mice,-,unknown,-,-,Covid-19,-,-
+3,-,PMID35915094_organism_subject-04,PMID35915094_organism_subject-04,Female,0,89,Years,Age at Study Day 0,-,-,US: Massachusetts,Mus musculus,Animal, C57BL/6 mice,-,unknown,-,-,Covid-19,-,-
+4,-,PMID35915094_organism_subject-05,PMID35915094_organism_subject-05,Female,0,89,Years,Age at Study Day 0,-,-,US: Massachusetts,Mus musculus,Animal, C57BL/6 mice,-,unknown,-,-,Covid-19,-,-
+5,-,PMID35915094_organism_subject-06,PMID35915094_organism_subject-06,Female,0,89,Years,Age at Study Day 0,-,-,US: Massachusetts,Mus musculus,Animal, C57BL/6 mice,-,unknown,-,-,Covid-19,-,-
+6,-,PMID35915094_organism_subject-07,PMID35915094_organism_subject-07,Female,0,89,Years,Age at Study Day 0,-,-,US: Massachusetts,Mus musculus,Animal, C57BL/6 mice,-,unknown,-,-,Covid-19,-,-
+7,-,PMID35632708_organism_subject-01,PMID35632708_organism_subject-01,Male,0,89,Years,Age at enrollment,-,-,US: Louisiana,Mus musculus,Animal,-,-,unknown,-,-,Covid-19,-,-
+8,-,PMID35632708_organism_subject-02,PMID35632708_organism_subject-02,Male,0,89,Years,Age at enrollment,-,-,US: Louisiana,Mus musculus,Animal,-,-,unknown,-,-,Covid-19,-,-
+9,-,PMID35632708_organism_subject-03,PMID35632708_organism_subject-03,Male,0,89,Years,Age at enrollment,-,-,US: Louisiana,Mus musculus,Animal,-,-,unknown,-,-,Covid-19,-,-
+10,-,PMID35632708_organism_subject-04,PMID35632708_organism_subject-04,Male,0,89,Years,Age at enrollment,-,-,US: Louisiana,Mus musculus,Animal,-,-,unknown,-,-,Covid-19,-,-
+11,-,PMID35632708_organism_subject-05,PMID35632708_organism_subject-05,Male,0,89,Years,Age at enrollment,-,-,US: Louisiana,Mus musculus,Animal,-,-,unknown,-,-,Covid-19,-,-
+12,-,PMID35632708_organism_subject-06,PMID35632708_organism_subject-06,Male,0,89,Years,Age at enrollment,-,-,US: Louisiana,Mus musculus,Animal,-,-,unknown,-,-,Covid-19,-,-
+13,-,PMID35632708_organism_subject-07,PMID35632708_organism_subject-07,Male,0,89,Years,Age at enrollment,-,-,US: Louisiana,Mus musculus,Animal,-,-,unknown,-,-,Covid-19,-,-
+14,-,PMID35632708_organism_subject-08,PMID35632708_organism_subject-08,Male,0,89,Years,Age at enrollment,-,-,US: Louisiana,Mus musculus,Animal,-,-,unknown,-,-,Covid-19,-,-
+15,-,PMID34253053_organism_subject-01,PMID34253053_organism_subject-01,Other,0,89,Years,Age at enrollment,-,-,US: Maryland,Mesocricetus auratus,Animal,-,-,unknown,-,-,Covid-19,-,-
+16,-,PMID34253053_organism_subject-02,PMID34253053_organism_subject-02,Other,0,89,Years,Age at enrollment,-,-,US: Maryland,Mesocricetus auratus,Animal,-,-,unknown,-,-,Covid-19,-,-
+17,-,PMID35289114_organism_subject-01,PMID35289114_organism_subject-01,Other,0,89,Years,Age at initial vaccine administration,-,-,US: Maryland,Mesocricetus auratus,Animal,-,-,unknown,-,-,Covid-19 ,-,-
+18,-,PMID35289114_organism_subject-02,PMID35289114_organism_subject-02,Other,0,89,Years,Age at initial vaccine administration,-,-,US: Maryland,Mesocricetus auratus,Animal,-,-,unknown,other,other,Covid-19 ,-,-
+19,-,PMID35289114_organism_subject-03,PMID35289114_organism_subject-03,Other,0,89,Years,Age at initial vaccine administration,-,-,US: Maryland,Mesocricetus auratus,Animal,-,-,unknown,other,other,Covid-19 ,-,-

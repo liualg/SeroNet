@@ -1,0 +1,18 @@
+,User Defined ID,Criterion,Criterion Category
+0,PMID35915094_inexcl-01,SARS-CoV-2 Antibodies Measured,inclusion
+1,PMID33915337_inexcl-01,Pediatric subjects,Inclusion
+2,PMID34047304_inexcl-01,Patients with Crohn’s disease,Inclusion
+3,PMID34047304_inexcl-02,Patients with Ulcerative/indeterminate colitis,Inclusion
+4,PMID34047304_inexcl-03,Geriatric subjects,inclusion
+5,PMID34047304_inexcl-04,Pediatric subjects,exclusion
+6,PMID35877413_inexcl-01,SARS-CoV-2 Antibodies Measured,Inclusion
+7,PMID35877413_inexcl-02,Geriatric subjects,Inclusion
+8,PMID35877413_inexcl-03,WHO disease severity scale used,Inclusion
+9,PMID35632708_inexcl-01,Not Applicable ,Inclusion
+10,PMID35092678_inexcl-01,Not Applicable ,Inclusion
+11,PMID34706273_inexcl-01,SARS-CoV-2 Antibodies Measured,Inclusion
+12,PMID34706273_inexcl-02,Geriatric subjects,Inclusion
+13,PMID34706273_inexcl-03,Fully vaccinated multiple myeloma patients,Inclusion
+14,PMID34253053_inexcl-01,SARS-CoV-2 Antibodies Measured,inclusion
+15,PMID35289114_ie-01,SARS-CoV-2 Antibodies Measured,Inclusion
+16,PMID35795812_inexcl-01,Mathematical Model,Inclusion

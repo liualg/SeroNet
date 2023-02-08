@@ -1,0 +1,33 @@
+,User Defined ID,Name,Description,Type Reported
+0,PMID35915094_organism_subject-01,Mice administered with SARS-COV-2 mRNA vaccines,C57BL/6 mice were vaccinated intramuscularly or intradermally with 1 or 4  µg mRNA vaccine expressing SARS-CoV-2 Spike,Vaccination
+1,PMID35915094_organism_subject-02,Mice administered with SARS-COV-2 DNA vaccines,C57BL/6 mice were vaccinated intramuscularly or intradermally with 50 µg DNA vaccine expressing SARS-CoV-2 Spike,Vaccination
+2,PMID35915094_organism_subject-03,Mice administered with HIV-1 mRNA Vaccine,C57BL/6 mice were vaccinated intramuscularly with 15 µg mRNA vaccine expressing HIV-1 env,Vaccination
+3,PMID35915094_organism_subject-04,Mice administered with HIV-1 DNA Vaccine,C57BL/6 mice were vaccinated intramuscularly with 50 µg DNA vaccine expressing HIV-1 env,Vaccination
+4,PMID35915094_organism_subject-05,Mice administered with HIV-1 RhAd52 Vaccine,C57BL/6 mice were vaccinated  with (RhAd52)109 viral particles,Vaccination
+5,PMID35915094_organism_subject-06,Mice administered with HIV-1 Protein Vaccines,C57BL/6 mice were vaccinated with HIV-1 protein vaccine (50 µg +100 µg Adju phos),Vaccination
+6,PMID35915094_organism_subject-07,Sham vaccinated mice,C57BL/6 mice were vaccinated intramuscularly with PBS,Negative Control
+7,PMID33915337_human_subject-01,Female patient with acute lymphoblastic leukemia (ALL),"Patient 1 is a previously healthy 3-year-old female, B-cell ALL ",Observational
+8,PMID33915337_human_subject-02,Male patient with acute lymphoblastic leukemia (ALL),Patient 2 is a 21-year-old male who was previously diagnosed with B-cell ALL six months prior ,Observational
+9,PMID33915337_human_subject-03,Male patient with acute lymphoblastic leukemia (ALL),Patient 3 is a 2-year-old male who was diagnosed with high-risk B-cell ALL seven months prior,Observational
+10,PMID34047304_human_subject-01,"Survey of post-vaccination symptoms, of Patients with Inflammatory Bowel Disease, after Vaccine dose 1","Survey of post-vaccination symptoms, of Patients with Inflammatory Bowel Disease, after vaccine dose 1",Vaccination
+11,PMID34047304_human_subject-02,"Survey of post-vaccination symptoms, of Patients with Inflammatory Bowel Disease, after vaccine dose 2","Survey of post-vaccination symptoms, of Patients with Inflammatory Bowel Disease, after vaccine dose 2",Vaccination
+12,PMID35877413_human_subject-01,Never SARS-CoV-2 positive group,Samples from individuals never positive for COVID-19 infection (N=1249),Observational
+13,PMID35877413_human_subject-02,Ever SARS-CoV-2 positive Group,Samples from individuals ever positive for COVID-19 infection (N=360),Observational
+14,PMID35632708_organism_subject-01,Wild type mice infected with SARS-CoV-2 Brazil,Wildtype mice (6-10 weeks old) intranasally infected with SARS-CoV-2 Brazil (N=5),Experimental Arm
+15,PMID35632708_organism_subject-02,Rag2-/- mice infected with SARS-CoV-2 Brazil,Rag2-/- mice (6-10 weeks old) intranasally infected with SARS-CoV-2 Brazil (N=5),Experimental Arm
+16,PMID35632708_organism_subject-03,Rag2/IL2rg -/- mice infected with SARS-CoV-2 Brazil,Rag2/IL2rg -/- mice (6-10 weeks old) intranasally infected with SARS-CoV-2 Brazil (N=4),Experimental Arm
+17,PMID35632708_organism_subject-04,Ccr2-/- mice infected with SARS-CoV-2 Brazil,Ccr2-/- mice (6-10 weeks old) intranasally infected with SARS-CoV-2 Brazil (N=5),Experimental Arm
+18,PMID35632708_organism_subject-05,Wild type mice infected with SARS-CoV-2 South Africa,Wildtype mice (6-10 weeks old) intranasally infected with SARS-CoV-2 South Africa (N=5),Experimental Arm
+19,PMID35632708_organism_subject-06,Rag2-/- mice infected with SARS-CoV-2 South Africa,Rag2-/- mice (6-10 weeks old) intranasally infected with SARS-CoV-2 South Africa (N=5),Experimental Arm
+20,PMID35632708_organism_subject-07,Rag2/IL2rg -/- mice infected with SARS-CoV-2 South Africa,Rag2/IL2rg -/- mice (6-10 weeks old) intranasally infected with SARS-CoV-2 South Africa (N=4),Experimental Arm
+21,PMID35632708_organism_subject-08,Ccr2-/- mice infected with SARS-CoV-2 South Africa,Ccr2-/- mice ( 6-10 weeks old) intranasally infected with SARS-CoV-2 South Africa (N=5),Experimental Arm
+22,PMID35092678_human_subject-01,Nursing home model,Nursing home residents and staff,Other
+23,PMID34706273_human_subject-01,Seropositive multiple myeloma patients,Multiple myeloma Patients with detectable anti-Spike IgG Antibody (N=27),Observational
+24,PMID34706273_human_subject-02,Seronegative multiple myeloma patients,Multiple myeloma Patients with undetectable anti-Spike IgG Antibody (N=17),Observational
+25,PMID34706273_human_subject-03,Healthy controls,Healthy Controls with detectable anti-Spike IgG antibody (N=12),Observational
+26,PMID34253053_organism_subject-01,Golden Syrian Hamster,Golden Syrian Hamster (7 to 8 weeks of age) infected with COVID-19,Experimental Arm
+27,PMID34253053_organism_subject-02,Control Golden Syrian Hamster,Control Golden Syrian Hamster (7 to 8 weeks of age) ,Healthy Control
+28,PMID35289114_organism_subject-01,Golden Syrian hamster with Mock Immunization,Golden Syrian hamster with Mock Immunization (n=8),Negative Control
+29,PMID35289114_organism_subject-02,Golden Syrian hamster vaccinated with unconjugated outer membrane vesicles (ctrl-OMv),Golden Syrian hamster with unconjugated outer membrane vesicles (ctrl-OMv) (n=8),Negative Control
+30,PMID35289114_organism_subject-03,Golden Syrian hamster vaccinated with spike receptor-binding domain outer membrane vesicles (RBD-OMV),Golden Syrian hamster with spike receptor-binding domain outer membrane vesicles (RBD-OMV) (n=8),Experimental Arm
+31,PMID35092678_human_subject-01,Mathematical model,Mathematical model,Other

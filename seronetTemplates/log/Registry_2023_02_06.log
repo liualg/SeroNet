@@ -1,0 +1,90 @@
+02/06/2023 11:53:14 AM 
+PMID: 35289114
+02/06/2023 11:53:14 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+02/06/2023 11:59:38 AM 
+PMID: 35289114
+02/06/2023 11:59:38 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+02/06/2023 11:59:57 AM 
+PMID: 35289114
+02/06/2023 11:59:57 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+02/06/2023 12:00:44 PM 
+PMID: 35289114
+02/06/2023 12:00:44 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+02/06/2023 12:01:41 PM 
+PMID: 35289114
+02/06/2023 12:01:41 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+02/06/2023 12:01:45 PM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination
+02/06/2023 12:01:45 PM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination
+02/06/2023 12:01:45 PM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination
+02/06/2023 12:04:30 PM 
+PMID: 35289114
+02/06/2023 12:04:30 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+02/06/2023 12:04:31 PM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination
+02/06/2023 12:04:31 PM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination
+02/06/2023 12:04:31 PM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination
+02/06/2023 12:11:18 PM 
+PMID: 35289114
+02/06/2023 12:11:18 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+02/06/2023 12:11:19 PM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination
+02/06/2023 12:11:19 PM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination
+02/06/2023 12:11:19 PM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination
+02/06/2023 12:25:09 PM 
+PMID: 34253053
+02/06/2023 12:25:23 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+02/06/2023 12:25:23 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+02/06/2023 12:29:57 PM 
+PMID: 34706273
+02/06/2023 12:29:57 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/06/2023 12:29:57 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/06/2023 12:29:57 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/06/2023 12:29:57 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/06/2023 12:29:57 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/06/2023 12:29:57 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/06/2023 12:29:57 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/06/2023 12:29:57 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/06/2023 12:29:57 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/06/2023 12:30:08 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+02/06/2023 12:30:08 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+02/06/2023 12:30:08 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+02/06/2023 12:33:11 PM 
+PMID: 35092678
+02/06/2023 12:33:11 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/06/2023 12:33:11 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/06/2023 12:33:11 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/06/2023 12:44:18 PM 
+PMID: 35632708
+02/06/2023 12:45:39 PM 
+PMID: 35877413
+02/06/2023 12:45:39 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/06/2023 12:45:39 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/06/2023 12:45:39 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/06/2023 12:45:39 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/06/2023 12:45:39 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/06/2023 12:45:39 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/06/2023 12:49:36 PM 
+PMID: 35877413
+02/06/2023 12:49:36 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/06/2023 12:49:36 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/06/2023 12:49:36 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/06/2023 12:49:36 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/06/2023 12:49:36 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/06/2023 12:49:36 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/06/2023 12:52:53 PM 
+PMID: 35795812
+02/06/2023 12:53:39 PM 
+PMID: 35795812
+02/06/2023 12:56:34 PM 
+PMID: 35795812
+02/06/2023 12:56:34 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/06/2023 12:56:34 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/06/2023 12:56:34 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/06/2023 12:57:38 PM 
+PMID: 35795812
+02/06/2023 12:57:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/06/2023 12:57:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/06/2023 12:57:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/06/2023 12:58:52 PM 
+PMID: 35795812
+02/06/2023 12:58:52 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/06/2023 12:58:52 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/06/2023 12:58:52 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
