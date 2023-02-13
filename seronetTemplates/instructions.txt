@@ -16,5 +16,5 @@ Windows [Bash / Powershell]:
 2.  install requirements.txt
  pip install -r requirements.txt 
 
-3. Run script"
- python Registry2ImmPort_final_v1.1.0.py
+3. Run script
+ python createTemplate.py

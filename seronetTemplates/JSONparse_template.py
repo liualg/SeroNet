@@ -150,9 +150,14 @@ json_seronet_dict = dict(
 
 ## creating dictionary of correct spelling from most recent template
 try:
-    wb = load_workbook(
-        glob.glob("/Users/liualg/Library/CloudStorage/OneDrive-SharedLibraries-NationalInstitutesofHealth/NCI-FNL SeroNet Team - Curation channel/*.xlsm")[0],
-                      )
+    try:
+        wb = load_workbook(
+            glob.glob("/Users/liualg/Library/CloudStorage/OneDrive-SharedLibraries-NationalInstitutesofHealth/NCI-FNL SeroNet Team - Curation channel/*.xlsm")[0],
+                          )
+    except:
+        wb = load_workbook(
+            glob.glob("/Users/liualg/Library/CloudStorage/OneDrive-NationalInstitutesofHealth/Curation channel/*.xlsm")[0],
+                          )
 except:
     sys.exit("Workbook not loaded correctly") 
 
