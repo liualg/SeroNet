@@ -1,0 +1,22 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2022-08-24-20:21:59.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220824_34167___test.
+
+File Name	Line Number	Status	Error Message	Description
+PMID35040666_panel_SCH.txt		Parsing		Template: assessments.txt, Size:1366 bytes
+PMID35040666_panel_SCH.txt		Information		Validation Level = Standard
+PMID35040666_panel_SCH.txt	3	Stored in:file_info		Size:1366 bytes
+PMID35040666_panel_SCH.txt	4	Information		The combined status for subject_id (PMID35040666_human_subject-01) and table subject has values:  subject_required (no), subject_user_defined_id (PMID35040666_human_subject-01), and subject_accession (SUB260493).
+PMID35040666_panel_SCH.txt	4	Information		The combined status for assessment_panel_id (PMID35040666_assessment_SCH-01) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID35040666_assessment_SCH-01), and assessment_panel_accession ().
+PMID35040666_panel_SCH.txt	7	Error	User defined ID is already in database	The user defined ID field(s) "User Defined ID" with value "PMID35040666_human_subject-01" in the Table assessment_component.  The row has ID field(s) "User Defined ID" and value "PMID35040666_human_subject-01".
+PMID35040666_panel_SCH.txt	5	Information		The combined status for subject_id (PMID35040666_human_subject-02) and table subject has values:  subject_required (no), subject_user_defined_id (PMID35040666_human_subject-02), and subject_accession (SUB260494).
+PMID35040666_panel_SCH.txt	5	Information		The combined status for assessment_panel_id (PMID35040666_assessment_SCH-02) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID35040666_assessment_SCH-02), and assessment_panel_accession ().
+PMID35040666_panel_SCH.txt	7	Error	User defined ID is already in database	The user defined ID field(s) "User Defined ID" with value "PMID35040666_human_subject-02" in the Table assessment_component.  The row has ID field(s) "User Defined ID" and value "PMID35040666_human_subject-02".
+PMID35040666_panel_SCH.txt	6	Information		The combined status for subject_id (PMID35040666_human_subject-03) and table subject has values:  subject_required (no), subject_user_defined_id (PMID35040666_human_subject-03), and subject_accession (SUB260495).
+PMID35040666_panel_SCH.txt	6	Information		The combined status for assessment_panel_id (PMID35040666_assessment_SCH-03) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID35040666_assessment_SCH-03), and assessment_panel_accession ().
+PMID35040666_panel_SCH.txt	7	Error	User defined ID is already in database	The user defined ID field(s) "User Defined ID" with value "PMID35040666_human_subject-03" in the Table assessment_component.  The row has ID field(s) "User Defined ID" and value "PMID35040666_human_subject-03".
+PMID35040666_panel_SCH.txt	7	Information		The combined status for subject_id (PMID35040666_human_subject-04) and table subject has values:  subject_required (no), subject_user_defined_id (PMID35040666_human_subject-04), and subject_accession (SUB260496).
+PMID35040666_panel_SCH.txt	7	Information		The combined status for assessment_panel_id (PMID35040666_assessment_SCH-04) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID35040666_assessment_SCH-04), and assessment_panel_accession ().
+PMID35040666_panel_SCH.txt	7	Error	User defined ID is already in database	The user defined ID field(s) "User Defined ID" with value "PMID35040666_human_subject-04" in the Table assessment_component.  The row has ID field(s) "User Defined ID" and value "PMID35040666_human_subject-04".
+PMID35040666_panel_SCH.txt		Failed		Template: assessments.txt, Size:1366 bytes
+nobody_20220824_1000000211___aleliu_20220824_34167___test		Rejected		

@@ -1,0 +1,33 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2022-08-22-16:20:12.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220822_33943___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+PMID34921308_reagent.txt		Parsing		Template: reagents.other.txt, Size:299 bytes
+PMID34921308_reagent.txt		Information		Validation Level = Standard
+PMID34921308_reagent.txt	3	Stored in:file_info		Size:299 bytes
+PMID34921308_reagent.txt		Parsed		Template: reagents.other.txt, Size:299 bytes
+PMID34921308_treatment.txt		Parsing		Template: treatments.txt, Size:301 bytes
+PMID34921308_treatment.txt		Information		Validation Level = Standard
+PMID34921308_treatment.txt	3	Stored in:file_info		Size:301 bytes
+PMID34921308_treatment.txt		Parsed		Template: treatments.txt, Size:301 bytes
+PMID34921308_experiment_samples.txt		Parsing		Template: experimentsamples.other.txt, Size:2490 bytes
+PMID34921308_experiment_samples.txt		Information		Validation Level = Standard
+PMID34921308_experiment_samples.txt	3	Stored in:file_info		Size:2490 bytes
+PMID34921308_experiment_samples.txt	4	Information		The combined status for expsample_id (PMID34921308_expSample-01) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID34921308_expSample-01), and expsample_accession ().
+PMID34921308_experiment_samples.txt	4	Information		The combined status for biosample_id (PMID34921308_biosampleID-01) and table biosample has values:  biosample_required (yes), biosample_user_defined_id (PMID34921308_biosampleID-01), and biosample_accession ().
+PMID34921308_experiment_samples.txt	4	Information		The combined status for experiment_id (PMID34921308_experimentID-01) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID34921308_experimentID-01), and experiment_accession ().
+PMID34921308_experiment_samples.txt	4	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "subject_user_defined_id" with value "PMID34921308_organism_subject-01I PMID34921308_organism_subject-02" in the Table subject.  The row has ID field(s) "expsample_user_defined_id" and value "PMID34921308_expSample-01".
+PMID34921308_experiment_samples.txt	4	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "user_defined_id" with value "PMID34921308_visit-01I PMID34921308_visit-02I PMID34921308_visit-03I PMID34921308_visit-04I PMID34921308_visit-05I PMID34921308_visit-06" in the Table planned_visit.  The row has ID field(s) "expsample_user_defined_id" and value "PMID34921308_expSample-01".
+pointerToExperimentalData.txt	5	Stored in:file_info		Size:137 bytes
+PMID34921308_experiment_samples.txt	4	Error	Value reported in template does not match preferred vocabulary. See template documentation for preferred vocabulary terms.	The Lookup Table check "lk_sample_type" in field "Type" "Other tissue (sorted)".  The row has ID field(s) "expsample_user_defined_id" and value "PMID34921308_expSample-01".
+PMID34921308_experiment_samples.txt	4	Error	biosample study_accession "SDY1945" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "SDY1945" in field "subject_accession" "".  The row has ID field(s) "expsample_user_defined_id" and value "PMID34921308_expSample-01".
+PMID34921308_experiment_samples.txt	4	Error	The study_accession for the biological sample is not the same as for the planned visit	The check uses fields ["study_accession", "planned_visit_study_accession"] whose values are [SDY1945, ].  The row has ID field(s) "expsample_user_defined_id" and value "PMID34921308_expSample-01".
+PMID34921308_experiment_samples.txt	4	Error	Missing conditional required value	The Rule check "Required Column" for Field "Study Time Collected".  The row has ID field(s) "expsample_user_defined_id" and value "PMID34921308_expSample-01".
+PMID34921308_experiment_samples.txt	5	Information		The combined status for expsample_id (PMID34921308_expSample-02) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID34921308_expSample-02), and expsample_accession ().
+PMID34921308_experiment_samples.txt	5	Information		The combined status for biosample_id (PMID34921308_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID34921308_biosampleID-01), and biosample_accession (BS1000058344).
+PMID34921308_experiment_samples.txt	5	Information		The combined status for experiment_id (PMID34921308_experimentID-02) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID34921308_experimentID-02), and experiment_accession ().
+PMID34921308_experiment_samples.txt	5	Information		The parent accession biosample_study_accession (SDY1945) was set using the table biosample and biosample_accession (BS1000058344).
+PMID34921308_experiment_samples.txt	5	Information		The value in biosample_study_accession (SDY1945) is assigned to study_accession.
+PMID34921308_experiment_samples.txt		Failed		Template: experimentsamples.other.txt, Size:2490 bytes
+nobody_20220822_1000000062___aleliu_20220822_33943___TEST		Rejected		

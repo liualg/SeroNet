@@ -1,0 +1,30 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2022-08-25-15:18:47.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220825_34290___test.
+
+File Name	Line Number	Status	Error Message	Description
+PMID33993265_panel_SCS.txt		Parsing		Template: assessments.txt, Size:1724 bytes
+PMID33993265_panel_SCS.txt		Information		Validation Level = Standard
+PMID33993265_panel_SCS.txt	3	Stored in:file_info		Size:1724 bytes
+PMID33993265_panel_SCS.txt	4	Information		The combined status for subject_id (PMID33993265_human_subject-01) and table subject has values:  subject_required (no), subject_user_defined_id (PMID33993265_human_subject-01), and subject_accession (SUB252142).
+PMID33993265_panel_SCS.txt	4	Information		The combined status for assessment_panel_id (PMID33993265_assessment_SCS-01) and table assessment_panel has values:  assessment_panel_required (no), assessment_panel_user_defined_id (PMID33993265_assessment_SCS-01), and assessment_panel_accession (AP120278).
+PMID33993265_panel_SCS.txt	4	Information		The parent accession study_accession (SDY1973) was set using the table assessment_panel and assessment_panel_accession (AP120278).
+PMID33993265_panel_SCS.txt	8	Error	User defined ID is already in database	The user defined ID field(s) "User Defined ID" with value "PMID33993265_human_subject-01" in the Table assessment_component.  The row has ID field(s) "User Defined ID" and value "PMID33993265_human_subject-01".
+PMID33993265_panel_SCS.txt	5	Information		The combined status for subject_id (PMID33993265_human_subject-02) and table subject has values:  subject_required (no), subject_user_defined_id (PMID33993265_human_subject-02), and subject_accession (SUB252143).
+PMID33993265_panel_SCS.txt	5	Information		The combined status for assessment_panel_id (PMID33993265_assessment_SCS-02) and table assessment_panel has values:  assessment_panel_required (no), assessment_panel_user_defined_id (PMID33993265_assessment_SCS-02), and assessment_panel_accession (AP120279).
+PMID33993265_panel_SCS.txt	5	Information		The parent accession study_accession (SDY1973) was set using the table assessment_panel and assessment_panel_accession (AP120279).
+PMID33993265_panel_SCS.txt	8	Error	User defined ID is already in database	The user defined ID field(s) "User Defined ID" with value "PMID33993265_human_subject-02" in the Table assessment_component.  The row has ID field(s) "User Defined ID" and value "PMID33993265_human_subject-02".
+PMID33993265_panel_SCS.txt	6	Information		The combined status for subject_id (PMID33993265_human_subject-03) and table subject has values:  subject_required (no), subject_user_defined_id (PMID33993265_human_subject-03), and subject_accession (SUB252144).
+PMID33993265_panel_SCS.txt	6	Information		The combined status for assessment_panel_id (PMID33993265_assessment_SCS-03) and table assessment_panel has values:  assessment_panel_required (no), assessment_panel_user_defined_id (PMID33993265_assessment_SCS-03), and assessment_panel_accession (AP120280).
+PMID33993265_panel_SCS.txt	6	Information		The parent accession study_accession (SDY1973) was set using the table assessment_panel and assessment_panel_accession (AP120280).
+PMID33993265_panel_SCS.txt	8	Error	User defined ID is already in database	The user defined ID field(s) "User Defined ID" with value "PMID33993265_human_subject-03" in the Table assessment_component.  The row has ID field(s) "User Defined ID" and value "PMID33993265_human_subject-03".
+PMID33993265_panel_SCS.txt	7	Information		The combined status for subject_id (PMID33993265_human_subject-04) and table subject has values:  subject_required (no), subject_user_defined_id (PMID33993265_human_subject-04), and subject_accession (SUB252145).
+PMID33993265_panel_SCS.txt	7	Information		The combined status for assessment_panel_id (PMID33993265_assessment_SCS-04) and table assessment_panel has values:  assessment_panel_required (no), assessment_panel_user_defined_id (PMID33993265_assessment_SCS-04), and assessment_panel_accession (AP120281).
+PMID33993265_panel_SCS.txt	7	Information		The parent accession study_accession (SDY1973) was set using the table assessment_panel and assessment_panel_accession (AP120281).
+PMID33993265_panel_SCS.txt	8	Error	User defined ID is already in database	The user defined ID field(s) "User Defined ID" with value "PMID33993265_human_subject-04" in the Table assessment_component.  The row has ID field(s) "User Defined ID" and value "PMID33993265_human_subject-04".
+PMID33993265_panel_SCS.txt	8	Information		The combined status for subject_id (PMID33993265_human_subject-05) and table subject has values:  subject_required (no), subject_user_defined_id (PMID33993265_human_subject-05), and subject_accession (SUB252146).
+PMID33993265_panel_SCS.txt	8	Information		The combined status for assessment_panel_id (PMID33993265_assessment_SCS-05) and table assessment_panel has values:  assessment_panel_required (no), assessment_panel_user_defined_id (PMID33993265_assessment_SCS-05), and assessment_panel_accession (AP120282).
+PMID33993265_panel_SCS.txt	8	Information		The parent accession study_accession (SDY1973) was set using the table assessment_panel and assessment_panel_accession (AP120282).
+PMID33993265_panel_SCS.txt	8	Error	User defined ID is already in database	The user defined ID field(s) "User Defined ID" with value "PMID33993265_human_subject-05" in the Table assessment_component.  The row has ID field(s) "User Defined ID" and value "PMID33993265_human_subject-05".
+PMID33993265_panel_SCS.txt		Failed		Template: assessments.txt, Size:1724 bytes
+nobody_20220825_1000000281___aleliu_20220825_34290___test		Rejected		

@@ -1,0 +1,32 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2023-02-06-12:57:51.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20230206_35662___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+PMID35795812_protocol.txt		Parsing		Template: protocols.txt, Size:250 bytes
+PMID35795812_protocol.txt		Information		Validation Level = Standard
+PMID35795812_protocol.txt	3	Stored in:file_info		Size:250 bytes
+PMID35795812_protocol.txt	4	Error	File does not exist	The File exists check "single-type template" in field "File Name" "PMID35795812_protocol-01.txt".  The row has ID field(s) "User Defined ID" and value "PMID35795812_protocol-01".
+PMID35795812_protocol.txt		Failed		Template: protocols.txt, Size:250 bytes
+PMID35795812_basic.txt		Parsing		Template: basic_study_design.txt, Size:5473 bytes
+PMID35795812_basic.txt		Information		Validation Level = Standard
+PMID35795812_basic.txt	3	Stored in:file_info		Size:5473 bytes
+PMID35795812_basic.txt	23	Information		Adding User Defined ID "No Research Focus Specified:SDY1000231947" for table "study_categorization"
+PMID35795812_basic.txt	26	Information		Adding User Defined ID "COVID-19:SDY1000231947" for table "study_2_condition_or_disease"
+PMID35795812_basic.txt	46	Information		Adding User Defined ID "PTL1000231941:SDY1000231947" for table "study_2_protocol"
+Pisanic_Randad_data_short.xlsx	50	Stored in:study_file		Size:51148 bytes
+PMID35795812_basic.txt	50	Information		Adding User Defined ID "SDY1000231947:Pisanic_Randad_data_short.xlsx" for table "study_file"
+PMID35795812_v1.3.0.xlsm	51	Stored in:study_file		Size:119525 bytes
+PMID35795812_basic.txt	51	Information		Adding User Defined ID "SDY1000231947:PMID35795812_v1.3.0.xlsm" for table "study_file"
+PMID35795812_JSON.json	52	Stored in:study_file		Size:7180 bytes
+PMID35795812_basic.txt	52	Information		Adding User Defined ID "SDY1000231947:PMID35795812_JSON.json" for table "study_file"
+PMID35795812_basic.txt	59	Information		Adding User Defined ID "SDY1000231947:35795812" for table "study_pubmed"
+PMID35795812_basic.txt		Parsed		Template: basic_study_design.txt, Size:5473 bytes
+PMID35795812_subject_human.txt		Parsing		Template: subjecthumans.txt, Size:639 bytes
+PMID35795812_subject_human.txt		Information		Validation Level = Standard
+PMID35795812_subject_human.txt	3	Stored in:file_info		Size:639 bytes
+PMID35795812_subject_human.txt	4	Information		The combined status for subject_id (PMID35795812_human_subject-01) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35795812_human_subject-01), and subject_accession ().
+PMID35795812_subject_human.txt	4	Information		The combined status for arm_or_cohort_id (PMID35092678_human_subject-01) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35092678_human_subject-01), and arm_accession (ARM1000231951).
+PMID35795812_subject_human.txt	4	Information		Adding User Defined ID "SUB1000231974:ARM1000231951:unknown:n/a:n/a:COVID-19:DOID:0080600:" for table "immune_exposure"
+PMID35795812_subject_human.txt		Parsed		Template: subjecthumans.txt, Size:639 bytes
+nobody_20230206_1000000065___aleliu_20230206_35662___TEST		Rejected		

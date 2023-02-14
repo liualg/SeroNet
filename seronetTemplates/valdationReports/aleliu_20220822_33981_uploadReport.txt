@@ -1,0 +1,56 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2022-08-22-17:53:34.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220822_33981___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+PMID35143473_protocol.txt		Parsing		Template: protocols.txt, Size:250 bytes
+PMID35143473_protocol.txt		Information		Validation Level = Standard
+PMID35143473_protocol.txt	3	Stored in:file_info		Size:250 bytes
+PMID35143473_protocol-01.txt	4	Stored in:protocols		Size:1753 bytes
+PMID35143473_protocol.txt		Parsed		Template: protocols.txt, Size:250 bytes
+PMID35143473_reagent.txt		Parsing		Template: reagents.other.txt, Size:245 bytes
+PMID35143473_reagent.txt		Information		Validation Level = Standard
+PMID35143473_reagent.txt	3	Stored in:file_info		Size:245 bytes
+PMID35143473_reagent.txt		Parsed		Template: reagents.other.txt, Size:245 bytes
+PMID35143473_treatment.txt		Parsing		Template: treatments.txt, Size:301 bytes
+PMID35143473_treatment.txt		Information		Validation Level = Standard
+PMID35143473_treatment.txt	3	Stored in:file_info		Size:301 bytes
+PMID35143473_treatment.txt		Parsed		Template: treatments.txt, Size:301 bytes
+PMID35143473_basic.txt		Parsing		Template: basic_study_design.txt, Size:5151 bytes
+PMID35143473_basic.txt		Information		Validation Level = Standard
+PMID35143473_basic.txt	3	Stored in:file_info		Size:5151 bytes
+PMID35143473_basic.txt	23	Information		Adding User Defined ID "Immune Response:SDY1000071671" for table "study_categorization"
+PMID35143473_basic.txt	26	Information		Adding User Defined ID "COVID-19:SDY1000071671" for table "study_2_condition_or_disease"
+PMID35143473_basic.txt	48	Information		Adding User Defined ID "PTL1000071653:SDY1000071671" for table "study_2_protocol"
+pbio.3001531.s001.docx	52	Stored in:study_file		Size:183713 bytes
+PMID35143473_basic.txt	52	Information		Adding User Defined ID "SDY1000071671:pbio.3001531.s001.docx" for table "study_file"
+pbio.3001531.s002.docx	53	Stored in:study_file		Size:139838 bytes
+PMID35143473_basic.txt	53	Information		Adding User Defined ID "SDY1000071671:pbio.3001531.s002.docx" for table "study_file"
+PMID35143473_v1.2.3.xlsm	54	Stored in:study_file		Size:116428 bytes
+PMID35143473_basic.txt	54	Information		Adding User Defined ID "SDY1000071671:PMID35143473_v1.2.3.xlsm" for table "study_file"
+PMID35143473_basic.txt	58	Information		Adding User Defined ID "SDY1000071671:Github:https://github.com/EmilieFinch/covid-reinfection." for table "study_link"
+PMID35143473_basic.txt	62	Information		Adding User Defined ID "SDY1000071671:35143473" for table "study_pubmed"
+PMID35143473_basic.txt		Parsed		Template: basic_study_design.txt, Size:5151 bytes
+PMID35143473_subject_human.txt		Parsing		Template: subjecthumans.txt, Size:655 bytes
+PMID35143473_subject_human.txt		Information		Validation Level = Standard
+PMID35143473_subject_human.txt	3	Stored in:file_info		Size:655 bytes
+PMID35143473_subject_human.txt	4	Information		The combined status for subject_id (PMID35143473_human_subject-01) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35143473_human_subject-01), and subject_accession ().
+PMID35143473_subject_human.txt	4	Information		The combined status for arm_or_cohort_id (PMID35143473_human_subject-01) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35143473_human_subject-01), and arm_accession (ARM1000071675).
+PMID35143473_subject_human.txt	4	Information		Adding User Defined ID "SUB1000071702:ARM1000071675:unknown:n/a:n/a:COVID-19:DOID:0080600:" for table "immune_exposure"
+PMID35143473_subject_human.txt		Parsed		Template: subjecthumans.txt, Size:655 bytes
+PMID35143473_panel_SCH.txt		Parsing		Template: assessments.txt, Size:786 bytes
+PMID35143473_panel_SCH.txt		Information		Validation Level = Standard
+PMID35143473_panel_SCH.txt	3	Stored in:file_info		Size:786 bytes
+PMID35143473_panel_SCH.txt	4	Information		The combined status for subject_id (PMID35143473_human_subject-01) and table subject has values:  subject_required (no), subject_user_defined_id (PMID35143473_human_subject-01), and subject_accession (SUB1000071702).
+PMID35143473_panel_SCH.txt	4	Information		The combined status for assessment_panel_id (PMID35143473_assessment_SCH-01) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID35143473_assessment_SCH-01), and assessment_panel_accession ().
+PMID35143473_panel_SCH.txt		Parsed		Template: assessments.txt, Size:786 bytes
+PMID35143473_experiment_samples.txt		Parsing		Template: experimentsamples.other.txt, Size:885 bytes
+PMID35143473_experiment_samples.txt		Information		Validation Level = Standard
+PMID35143473_experiment_samples.txt	3	Stored in:file_info		Size:885 bytes
+PMID35143473_experiment_samples.txt	4	Information		The combined status for expsample_id (PMID35143473_expSample-01) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35143473_expSample-01), and expsample_accession ().
+PMID35143473_experiment_samples.txt	4	Information		The combined status for biosample_id (PMID35143473_biosampleID-01) and table biosample has values:  biosample_required (yes), biosample_user_defined_id (PMID35143473_biosampleID-01), and biosample_accession ().
+PMID35143473_experiment_samples.txt	4	Information		The combined status for experiment_id (PMID35143473_experimentID-01) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID35143473_experimentID-01), and experiment_accession ().
+pointerToExperimentalData.txt	4	Stored in:file_info		Size:137 bytes
+PMID35143473_experiment_samples.txt	4	Error	Missing conditional required value	The Rule check "Required Column" for Field "Subtype".  The row has ID field(s) "expsample_user_defined_id" and value "PMID35143473_expSample-01".
+PMID35143473_experiment_samples.txt		Failed		Template: experimentsamples.other.txt, Size:885 bytes
+nobody_20220822_1000000090___aleliu_20220822_33981___TEST		Rejected		

@@ -1,0 +1,266 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2022-11-21-15:08:40.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20221121_34846___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+PMID35704428_protocol.txt		Parsing		Template: protocols.txt, Size:250 bytes
+PMID35704428_protocol.txt		Information		Validation Level = Standard
+PMID35704428_protocol.txt	3	Stored in:file_info		Size:250 bytes
+PMID35704428_protocol-01.txt	4	Stored in:protocols		Size:5738 bytes
+PMID35704428_protocol.txt		Parsed		Template: protocols.txt, Size:250 bytes
+PMID35704428_reagent.txt		Parsing		Template: reagents.other.txt, Size:307 bytes
+PMID35704428_reagent.txt		Information		Validation Level = Standard
+PMID35704428_reagent.txt	3	Stored in:file_info		Size:307 bytes
+PMID35704428_reagent.txt		Parsed		Template: reagents.other.txt, Size:307 bytes
+PMID35704428_treatment.txt		Parsing		Template: treatments.txt, Size:301 bytes
+PMID35704428_treatment.txt		Information		Validation Level = Standard
+PMID35704428_treatment.txt	3	Stored in:file_info		Size:301 bytes
+PMID35704428_treatment.txt		Parsed		Template: treatments.txt, Size:301 bytes
+PMID35704428_basic.txt		Parsing		Template: basic_study_design.txt, Size:6049 bytes
+PMID35704428_basic.txt		Information		Validation Level = Standard
+PMID35704428_basic.txt	3	Stored in:file_info		Size:6049 bytes
+PMID35704428_basic.txt	23	Error	Value reported in template does not match preferred vocabulary. See template documentation for preferred vocabulary terms.	The Lookup Table check "lk_research_focus" in field "Research Focus" "Infection Response | Immune Response".  The row has ID field(s) "Research Focus" and value "Infection Response | Immune Response".
+PMID35704428_basic.txt	23	Information		Adding User Defined ID "Infection Response | Immune Response:SDY1000056534" for table "study_categorization"
+PMID35704428_basic.txt	26	Information		Adding User Defined ID "COVID-19:SDY1000056534" for table "study_2_condition_or_disease"
+PMID35704428_basic.txt	43	Error	No value for a unique column	The Unique Column check "order_number" in field "Order Number" "".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-01".
+PMID35704428_basic.txt	43	Error	Missing required value	The Rule check "Required Column" for Field "Order Number".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-01".
+PMID35704428_basic.txt	43	Error	Missing required value	The Rule check "Required Column" for Field "Min Start Day".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-01".
+PMID35704428_basic.txt	45	Error	No value for a unique column	The Unique Column check "order_number" in field "Order Number" "".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-02".
+PMID35704428_basic.txt	45	Error	Missing required value	The Rule check "Required Column" for Field "Order Number".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-02".
+PMID35704428_basic.txt	45	Error	Missing required value	The Rule check "Required Column" for Field "Min Start Day".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-02".
+PMID35704428_basic.txt	46	Error	User defined ID is already in package	The user defined ID field(s) "User Defined ID" with value "doses" in the Table planned_visit.  The row has ID field(s) "User Defined ID" and value "doses".
+PMID35704428_basic.txt	46	Error	Duplicate data row	The check uses entity "Template File" whose value is "basic_study_design.txt".  The row has ID field(s) "User Defined ID" and value "doses".
+PMID35704428_basic.txt	47	Error	No value for a unique column	The Unique Column check "order_number" in field "Order Number" "".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-03".
+PMID35704428_basic.txt	47	Error	Missing required value	The Rule check "Required Column" for Field "Order Number".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-03".
+PMID35704428_basic.txt	47	Error	Missing required value	The Rule check "Required Column" for Field "Min Start Day".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-03".
+PMID35704428_basic.txt	48	Error	Missing required value	The Rule check "Required Column" for Field "Min Start Day".  The row has ID field(s) "User Defined ID" and value "dose".
+PMID35704428_basic.txt	49	Error	No value for a unique column	The Unique Column check "order_number" in field "Order Number" "".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-04".
+PMID35704428_basic.txt	49	Error	Missing required value	The Rule check "Required Column" for Field "Order Number".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-04".
+PMID35704428_basic.txt	49	Error	Missing required value	The Rule check "Required Column" for Field "Min Start Day".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-04".
+PMID35704428_basic.txt	50	Error	User defined ID is already in package	The user defined ID field(s) "User Defined ID" with value "doses" in the Table planned_visit.  The row has ID field(s) "User Defined ID" and value "doses".
+PMID35704428_basic.txt	50	Error	Duplicate data row	The check uses entity "Template File" whose value is "basic_study_design.txt".  The row has ID field(s) "User Defined ID" and value "doses".
+PMID35704428_basic.txt	51	Error	No value for a unique column	The Unique Column check "order_number" in field "Order Number" "".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-05".
+PMID35704428_basic.txt	51	Error	Missing required value	The Rule check "Required Column" for Field "Order Number".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-05".
+PMID35704428_basic.txt	51	Error	Missing required value	The Rule check "Required Column" for Field "Min Start Day".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-05".
+PMID35704428_basic.txt	52	Error	User defined ID is already in package	The user defined ID field(s) "User Defined ID" with value "doses" in the Table planned_visit.  The row has ID field(s) "User Defined ID" and value "doses".
+PMID35704428_basic.txt	52	Error	Duplicate data row	The check uses entity "Template File" whose value is "basic_study_design.txt".  The row has ID field(s) "User Defined ID" and value "doses".
+PMID35704428_basic.txt	53	Error	No value for a unique column	The Unique Column check "order_number" in field "Order Number" "".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-06".
+PMID35704428_basic.txt	53	Error	Missing required value	The Rule check "Required Column" for Field "Order Number".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-06".
+PMID35704428_basic.txt	53	Error	Missing required value	The Rule check "Required Column" for Field "Min Start Day".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-06".
+PMID35704428_basic.txt	54	Error	User defined ID is already in package	The user defined ID field(s) "User Defined ID" with value "doses" in the Table planned_visit.  The row has ID field(s) "User Defined ID" and value "doses".
+PMID35704428_basic.txt	54	Error	Duplicate data row	The check uses entity "Template File" whose value is "basic_study_design.txt".  The row has ID field(s) "User Defined ID" and value "doses".
+PMID35704428_basic.txt	55	Error	No value for a unique column	The Unique Column check "order_number" in field "Order Number" "".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-07".
+PMID35704428_basic.txt	55	Error	Missing required value	The Rule check "Required Column" for Field "Order Number".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-07".
+PMID35704428_basic.txt	55	Error	Missing required value	The Rule check "Required Column" for Field "Min Start Day".  The row has ID field(s) "User Defined ID" and value "PMID35704428_visit-07".
+PMID35704428_basic.txt	56	Error	User defined ID is already in package	The user defined ID field(s) "User Defined ID" with value "doses" in the Table planned_visit.  The row has ID field(s) "User Defined ID" and value "doses".
+PMID35704428_basic.txt	56	Error	Duplicate data row	The check uses entity "Template File" whose value is "basic_study_design.txt".  The row has ID field(s) "User Defined ID" and value "doses".
+PMID35704428_basic.txt	67	Information		Adding User Defined ID "PTL1000056516:SDY1000056534" for table "study_2_protocol"
+PMID35704428_nejmc2206725_appendix.pdf	71	Stored in:study_file		Size:785967 bytes
+PMID35704428_basic.txt	71	Information		Adding User Defined ID "SDY1000056534:PMID35704428_nejmc2206725_appendix.pdf" for table "study_file"
+PMID35704428_data.xlsx	72	Stored in:study_file		Size:39296 bytes
+PMID35704428_basic.txt	72	Information		Adding User Defined ID "SDY1000056534:PMID35704428_data.xlsx" for table "study_file"
+PMID35704428_v1.2.4.xlsm	73	Stored in:study_file		Size:117785 bytes
+PMID35704428_basic.txt	73	Information		Adding User Defined ID "SDY1000056534:PMID35704428_v1.2.4.xlsm" for table "study_file"
+PMID35704428_JSON.json	74	Stored in:study_file		Size:17373 bytes
+PMID35704428_basic.txt	74	Information		Adding User Defined ID "SDY1000056534:PMID35704428_JSON.json" for table "study_file"
+PMID35704428_basic.txt	81	Information		Adding User Defined ID "SDY1000056534:35704428" for table "study_pubmed"
+PMID35704428_basic.txt		Failed		Template: basic_study_design.txt, Size:6049 bytes
+PMID35704428_subject_human.txt		Parsing		Template: subjecthumans.txt, Size:1517 bytes
+PMID35704428_subject_human.txt		Information		Validation Level = Standard
+PMID35704428_subject_human.txt	3	Stored in:file_info		Size:1517 bytes
+PMID35704428_subject_human.txt	4	Information		The combined status for subject_id (PMID35704428_human_subject-01) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35704428_human_subject-01), and subject_accession ().
+PMID35704428_subject_human.txt	4	Information		The combined status for arm_or_cohort_id (PMID35704428_human_subject-01) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35704428_human_subject-01), and arm_accession (ARM1000056539).
+PMID35704428_subject_human.txt	7	Information		Adding User Defined ID "SUB1000056618:ARM1000056539:unknown:Moderna COVID-19 vaccine | Pfizer BioNTech COVID-19 vaccine:VO:0005157 | VO:0004988:COVID-19:DOID:0080600:n/a" for table "immune_exposure"
+PMID35704428_subject_human.txt	5	Information		The combined status for subject_id (PMID35704428_human_subject-02) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35704428_human_subject-02), and subject_accession ().
+PMID35704428_subject_human.txt	5	Information		The combined status for arm_or_cohort_id (PMID35704428_human_subject-02) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35704428_human_subject-02), and arm_accession (ARM1000056540).
+PMID35704428_subject_human.txt	7	Information		Adding User Defined ID "SUB1000056623:ARM1000056540:unknown:Moderna COVID-19 vaccine | Pfizer BioNTech COVID-19 vaccine:VO:0005157 | VO:0004988:COVID-19:DOID:0080600:n/a" for table "immune_exposure"
+PMID35704428_subject_human.txt	6	Information		The combined status for subject_id (PMID35704428_human_subject-03) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35704428_human_subject-03), and subject_accession ().
+PMID35704428_subject_human.txt	6	Information		The combined status for arm_or_cohort_id (PMID35704428_human_subject-03) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35704428_human_subject-03), and arm_accession (ARM1000056541).
+PMID35704428_subject_human.txt	7	Information		Adding User Defined ID "SUB1000056628:ARM1000056541:unknown:Johnson & Johnson COVID-19 vaccine | Moderna COVID-19 vaccine | Pfizer BioNTech COVID-19 vaccine:VO:0005159 | VO:0005157 | VO:0004988:COVID-19:DOID:0080600:Severe" for table "immune_exposure"
+PMID35704428_subject_human.txt	7	Information		The combined status for subject_id (PMID35704428_human_subject-04) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35704428_human_subject-04), and subject_accession ().
+PMID35704428_subject_human.txt	7	Information		The combined status for arm_or_cohort_id (PMID35704428_human_subject-04) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35704428_human_subject-04), and arm_accession (ARM1000056542).
+PMID35704428_subject_human.txt	7	Information		Adding User Defined ID "SUB1000056633:ARM1000056542:unknown:Moderna COVID-19 vaccine | Pfizer BioNTech COVID-19 vaccine:VO:0005157 | VO:0004988:COVID-19:DOID:0080600:Severe" for table "immune_exposure"
+PMID35704428_subject_human.txt		Parsed		Template: subjecthumans.txt, Size:1517 bytes
+PMID35704428_panel_SCH.txt		Parsing		Template: assessments.txt, Size:1390 bytes
+PMID35704428_panel_SCH.txt		Information		Validation Level = Standard
+PMID35704428_panel_SCH.txt	3	Stored in:file_info		Size:1390 bytes
+PMID35704428_panel_SCH.txt	4	Information		The combined status for subject_id (PMID35704428_human_subject-01) and table subject has values:  subject_required (no), subject_user_defined_id (PMID35704428_human_subject-01), and subject_accession (SUB1000056618).
+PMID35704428_panel_SCH.txt	4	Information		The combined status for assessment_panel_id (PMID35704428_assessment_SCH-01) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID35704428_assessment_SCH-01), and assessment_panel_accession ().
+PMID35704428_panel_SCH.txt	5	Information		The combined status for subject_id (PMID35704428_human_subject-02) and table subject has values:  subject_required (no), subject_user_defined_id (PMID35704428_human_subject-02), and subject_accession (SUB1000056623).
+PMID35704428_panel_SCH.txt	5	Information		The combined status for assessment_panel_id (PMID35704428_assessment_SCH-02) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID35704428_assessment_SCH-02), and assessment_panel_accession ().
+PMID35704428_panel_SCH.txt	6	Information		The combined status for subject_id (PMID35704428_human_subject-03) and table subject has values:  subject_required (no), subject_user_defined_id (PMID35704428_human_subject-03), and subject_accession (SUB1000056628).
+PMID35704428_panel_SCH.txt	6	Information		The combined status for assessment_panel_id (PMID35704428_assessment_SCH-03) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID35704428_assessment_SCH-03), and assessment_panel_accession ().
+PMID35704428_panel_SCH.txt	7	Information		The combined status for subject_id (PMID35704428_human_subject-04) and table subject has values:  subject_required (no), subject_user_defined_id (PMID35704428_human_subject-04), and subject_accession (SUB1000056633).
+PMID35704428_panel_SCH.txt	7	Information		The combined status for assessment_panel_id (PMID35704428_assessment_SCH-04) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID35704428_assessment_SCH-04), and assessment_panel_accession ().
+PMID35704428_panel_SCH.txt		Parsed		Template: assessments.txt, Size:1390 bytes
+PMID35704428_experiment_samples.txt		Parsing		Template: experimentsamples.other.txt, Size:11380 bytes
+PMID35704428_experiment_samples.txt		Information		Validation Level = Standard
+PMID35704428_experiment_samples.txt	3	Stored in:file_info		Size:11380 bytes
+PMID35704428_experiment_samples.txt	4	Information		The combined status for expsample_id (PMID35704428_expSample-01) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-01), and expsample_accession ().
+PMID35704428_experiment_samples.txt	4	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (yes), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession ().
+PMID35704428_experiment_samples.txt	4	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession ().
+ExperimentalDataInStudyFilesTab.txt	31	Stored in:file_info		Size:148 bytes
+PMID35704428_experiment_samples.txt	5	Information		The combined status for expsample_id (PMID35704428_expSample-02) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-02), and expsample_accession ().
+PMID35704428_experiment_samples.txt	5	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	5	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	5	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	5	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	5	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	6	Information		The combined status for expsample_id (PMID35704428_expSample-03) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-03), and expsample_accession ().
+PMID35704428_experiment_samples.txt	6	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	6	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	6	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	6	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	6	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	7	Information		The combined status for expsample_id (PMID35704428_expSample-04) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-04), and expsample_accession ().
+PMID35704428_experiment_samples.txt	7	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	7	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	7	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	7	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	7	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	8	Information		The combined status for expsample_id (PMID35704428_expSample-05) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-05), and expsample_accession ().
+PMID35704428_experiment_samples.txt	8	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	8	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	8	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	8	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	8	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	9	Information		The combined status for expsample_id (PMID35704428_expSample-06) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-06), and expsample_accession ().
+PMID35704428_experiment_samples.txt	9	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	9	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	9	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	9	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	9	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	10	Information		The combined status for expsample_id (PMID35704428_expSample-07) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-07), and expsample_accession ().
+PMID35704428_experiment_samples.txt	10	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	10	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	10	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	10	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	10	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	11	Information		The combined status for expsample_id (PMID35704428_expSample-08) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-08), and expsample_accession ().
+PMID35704428_experiment_samples.txt	11	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	11	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	11	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	11	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	11	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	12	Information		The combined status for expsample_id (PMID35704428_expSample-09) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-09), and expsample_accession ().
+PMID35704428_experiment_samples.txt	12	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	12	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	12	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	12	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	12	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	13	Information		The combined status for expsample_id (PMID35704428_expSample-010) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-010), and expsample_accession ().
+PMID35704428_experiment_samples.txt	13	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	13	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	13	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	13	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	13	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	14	Information		The combined status for expsample_id (PMID35704428_expSample-011) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-011), and expsample_accession ().
+PMID35704428_experiment_samples.txt	14	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	14	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	14	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	14	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	14	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	15	Information		The combined status for expsample_id (PMID35704428_expSample-012) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-012), and expsample_accession ().
+PMID35704428_experiment_samples.txt	15	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	15	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	15	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	15	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	15	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	16	Information		The combined status for expsample_id (PMID35704428_expSample-013) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-013), and expsample_accession ().
+PMID35704428_experiment_samples.txt	16	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	16	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	16	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	16	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	16	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	17	Information		The combined status for expsample_id (PMID35704428_expSample-014) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-014), and expsample_accession ().
+PMID35704428_experiment_samples.txt	17	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	17	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	17	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	17	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	17	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	18	Information		The combined status for expsample_id (PMID35704428_expSample-015) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-015), and expsample_accession ().
+PMID35704428_experiment_samples.txt	18	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	18	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	18	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	18	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	18	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	19	Information		The combined status for expsample_id (PMID35704428_expSample-016) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-016), and expsample_accession ().
+PMID35704428_experiment_samples.txt	19	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	19	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	19	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	19	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	19	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	20	Information		The combined status for expsample_id (PMID35704428_expSample-017) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-017), and expsample_accession ().
+PMID35704428_experiment_samples.txt	20	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	20	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	20	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	20	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	20	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	21	Information		The combined status for expsample_id (PMID35704428_expSample-018) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-018), and expsample_accession ().
+PMID35704428_experiment_samples.txt	21	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	21	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	21	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	21	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	21	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	22	Information		The combined status for expsample_id (PMID35704428_expSample-019) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-019), and expsample_accession ().
+PMID35704428_experiment_samples.txt	22	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	22	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	22	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	22	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	22	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	23	Information		The combined status for expsample_id (PMID35704428_expSample-020) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-020), and expsample_accession ().
+PMID35704428_experiment_samples.txt	23	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	23	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	23	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	23	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	23	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	24	Information		The combined status for expsample_id (PMID35704428_expSample-021) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-021), and expsample_accession ().
+PMID35704428_experiment_samples.txt	24	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	24	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	24	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	24	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	24	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	25	Information		The combined status for expsample_id (PMID35704428_expSample-022) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-022), and expsample_accession ().
+PMID35704428_experiment_samples.txt	25	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	25	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	25	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	25	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	25	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	26	Information		The combined status for expsample_id (PMID35704428_expSample-023) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-023), and expsample_accession ().
+PMID35704428_experiment_samples.txt	26	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	26	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	26	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	26	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	26	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	27	Information		The combined status for expsample_id (PMID35704428_expSample-024) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-024), and expsample_accession ().
+PMID35704428_experiment_samples.txt	27	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	27	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	27	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	27	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	27	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	28	Information		The combined status for expsample_id (PMID35704428_expSample-025) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-025), and expsample_accession ().
+PMID35704428_experiment_samples.txt	28	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	28	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	28	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	28	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	28	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	29	Information		The combined status for expsample_id (PMID35704428_expSample-026) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-026), and expsample_accession ().
+PMID35704428_experiment_samples.txt	29	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	29	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	29	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	29	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	29	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	30	Information		The combined status for expsample_id (PMID35704428_expSample-027) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-027), and expsample_accession ().
+PMID35704428_experiment_samples.txt	30	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	30	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	30	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	30	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	30	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt	31	Information		The combined status for expsample_id (PMID35704428_expSample-028) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35704428_expSample-028), and expsample_accession ().
+PMID35704428_experiment_samples.txt	31	Information		The combined status for biosample_id (PMID35704428_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35704428_biosampleID-01), and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	31	Information		The combined status for experiment_id (PMID35704428_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35704428_experimentID-01), and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	31	Information		The parent accession biosample_study_accession (SDY1000056534) was set using the table biosample and biosample_accession (BS1000056666).
+PMID35704428_experiment_samples.txt	31	Information		The parent accession experiment_study_accession (SDY1000056534) was set using the table experiment and experiment_accession (EXP1000056667).
+PMID35704428_experiment_samples.txt	31	Information		The value in experiment_study_accession (SDY1000056534) is assigned to study_accession.
+PMID35704428_experiment_samples.txt		Parsed		Template: experimentsamples.other.txt, Size:11380 bytes
+nobody_20221121_1000000032___aleliu_20221121_34846___TEST		Rejected		

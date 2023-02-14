@@ -1,0 +1,24 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2022-08-25-14:16:37.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220825_34258___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+PMID33893169_panel_SCS.txt		Parsing		Template: assessments.txt, Size:962 bytes
+PMID33893169_panel_SCS.txt		Information		Validation Level = Standard
+PMID33893169_panel_SCS.txt	3	Stored in:file_info		Size:962 bytes
+PMID33893169_panel_SCS.txt	4	Information		The combined status for subject_id (PMID33893169_human_subject-01) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID33893169_human_subject-01), and subject_accession ().
+PMID33893169_panel_SCS.txt	4	Information		The combined status for assessment_panel_id (PMID33893169_assessment_SCS-01) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID33893169_assessment_SCS-01), and assessment_panel_accession ().
+PMID33893169_panel_SCS.txt	4	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "user_defined_id" with value "PMID33893169_study-01" in the Table study.  The row has ID field(s) "subject_user_defined_id" and value "PMID33893169_human_subject-01".
+PMID33893169_panel_SCS.txt	4	Error	The subject ID must always be for a predefined subject	The check uses fields ["subject_required_value", "subject_required"] whose values are [no, yes].  The row has ID field(s) "subject_user_defined_id" and value "PMID33893169_human_subject-01".
+PMID33893169_panel_SCS.txt	4	Error	assessment_component study_accession "" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "" in field "subject_accession" "SUB1000147075".  The row has ID field(s) "subject_user_defined_id" and value "PMID33893169_human_subject-01".
+PMID33893169_panel_SCS.txt	5	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "User Defined ID" with value "PMID33893169_assessment_recorded_pv" in the Table planned_visit.  The row has ID field(s) "User Defined ID" and value "PMID33893169_component_SCS-01".
+PMID33893169_panel_SCS.txt	5	Error	The study_accession for the assessment component is not same as for the planned visit	The check uses fields ["study_accession", "planned_visit_study_accession"] whose values are [AP1000147076, ].  The row has ID field(s) "User Defined ID" and value "PMID33893169_component_SCS-01".
+PMID33893169_panel_SCS.txt	5	Information		The combined status for subject_id (PMID33893169_human_subject-02) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID33893169_human_subject-02), and subject_accession ().
+PMID33893169_panel_SCS.txt	5	Information		The combined status for assessment_panel_id (PMID33893169_assessment_SCS-02) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID33893169_assessment_SCS-02), and assessment_panel_accession ().
+PMID33893169_panel_SCS.txt	5	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "user_defined_id" with value "PMID33893169_study-01" in the Table study.  The row has ID field(s) "subject_user_defined_id" and value "PMID33893169_human_subject-02".
+PMID33893169_panel_SCS.txt	5	Error	The subject ID must always be for a predefined subject	The check uses fields ["subject_required_value", "subject_required"] whose values are [no, yes].  The row has ID field(s) "subject_user_defined_id" and value "PMID33893169_human_subject-02".
+PMID33893169_panel_SCS.txt	5	Error	assessment_component study_accession "" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "" in field "subject_accession" "SUB1000147085".  The row has ID field(s) "subject_user_defined_id" and value "PMID33893169_human_subject-02".
+PMID33893169_panel_SCS.txt	5	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "User Defined ID" with value "PMID33893169_assessment_recorded_pv" in the Table planned_visit.  The row has ID field(s) "User Defined ID" and value "PMID33893169_component_SCS-02".
+PMID33893169_panel_SCS.txt	5	Error	The study_accession for the assessment component is not same as for the planned visit	The check uses fields ["study_accession", "planned_visit_study_accession"] whose values are [AP1000147086, ].  The row has ID field(s) "User Defined ID" and value "PMID33893169_component_SCS-02".
+PMID33893169_panel_SCS.txt		Failed		Template: assessments.txt, Size:962 bytes
+nobody_20220825_1000000258___aleliu_20220825_34258___TEST		Rejected		

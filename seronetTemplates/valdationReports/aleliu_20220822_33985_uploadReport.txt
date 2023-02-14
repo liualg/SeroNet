@@ -1,0 +1,69 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2022-08-22-18:28:44.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220822_33985___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+PMID35129576_protocol.txt		Parsing		Template: protocols.txt, Size:250 bytes
+PMID35129576_protocol.txt		Information		Validation Level = Standard
+PMID35129576_protocol.txt	3	Stored in:file_info		Size:250 bytes
+PMID35129576_protocol-01.txt	4	Stored in:protocols		Size:1754 bytes
+PMID35129576_protocol.txt		Parsed		Template: protocols.txt, Size:250 bytes
+PMID35129576_reagent.txt		Parsing		Template: reagents.other.txt, Size:451 bytes
+PMID35129576_reagent.txt		Information		Validation Level = Standard
+PMID35129576_reagent.txt	3	Stored in:file_info		Size:451 bytes
+PMID35129576_reagent.txt		Parsed		Template: reagents.other.txt, Size:451 bytes
+PMID35129576_treatment.txt		Parsing		Template: treatments.txt, Size:301 bytes
+PMID35129576_treatment.txt		Information		Validation Level = Standard
+PMID35129576_treatment.txt	3	Stored in:file_info		Size:301 bytes
+PMID35129576_treatment.txt		Parsed		Template: treatments.txt, Size:301 bytes
+PMID35129576_basic.txt		Parsing		Template: basic_study_design.txt, Size:5016 bytes
+PMID35129576_basic.txt		Information		Validation Level = Standard
+PMID35129576_basic.txt	3	Stored in:file_info		Size:5016 bytes
+PMID35129576_basic.txt	23	Information		Adding User Defined ID "Immune Response:SDY1000071916" for table "study_categorization"
+PMID35129576_basic.txt	26	Information		Adding User Defined ID "COVID-19:SDY1000071916" for table "study_2_condition_or_disease"
+PMID35129576_basic.txt	42	Error	Missing required value	The Rule check "Required Column" for Field "Min Start Day".  The row has ID field(s) "User Defined ID" and value "PMID35129576_visit-03".
+PMID35129576_basic.txt	52	Information		Adding User Defined ID "PTL1000071897:SDY1000071916" for table "study_2_protocol"
+PMID35129576_v1.2.4.xlsm	56	Stored in:study_file		Size:117021 bytes
+PMID35129576_basic.txt	56	Information		Adding User Defined ID "SDY1000071916:PMID35129576_v1.2.4.xlsm" for table "study_file"
+PMID35129576_basic.txt	63	Information		Adding User Defined ID "SDY1000071916:35129576" for table "study_pubmed"
+PMID35129576_basic.txt		Failed		Template: basic_study_design.txt, Size:5016 bytes
+PMID35129576_subject_human.txt		Parsing		Template: subjecthumans.txt, Size:918 bytes
+PMID35129576_subject_human.txt		Information		Validation Level = Standard
+PMID35129576_subject_human.txt	3	Stored in:file_info		Size:918 bytes
+PMID35129576_subject_human.txt	4	Information		The combined status for subject_id (PMID35129576_human_subject-01) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35129576_human_subject-01), and subject_accession ().
+PMID35129576_subject_human.txt	4	Information		The combined status for arm_or_cohort_id (PMID35129576_human_subject-01) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35129576_human_subject-01), and arm_accession (ARM1000071920).
+PMID35129576_subject_human.txt	5	Information		Adding User Defined ID "SUB1000071944:ARM1000071920:unknown:Pfizer BioNTech COVID-19 vaccine | Moderna COVID-19 vaccine:VO:0004987 | VO:0005157:COVID-19:DOID:0080600:n/a" for table "immune_exposure"
+PMID35129576_subject_human.txt	5	Information		The combined status for subject_id (PMID35129576_human_subject-02) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35129576_human_subject-02), and subject_accession ().
+PMID35129576_subject_human.txt	5	Information		The combined status for arm_or_cohort_id (PMID35129576_human_subject-02) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35129576_human_subject-02), and arm_accession (ARM1000071921).
+PMID35129576_subject_human.txt	5	Information		Adding User Defined ID "SUB1000071949:ARM1000071921:unknown:n/a:n/a:COVID-19:DOID:0080600:Mild I Moderate I Severe" for table "immune_exposure"
+PMID35129576_subject_human.txt		Parsed		Template: subjecthumans.txt, Size:918 bytes
+PMID35129576_panel_SCS.txt		Parsing		Template: assessments.txt, Size:985 bytes
+PMID35129576_panel_SCS.txt		Information		Validation Level = Standard
+PMID35129576_panel_SCS.txt	3	Stored in:file_info		Size:985 bytes
+PMID35129576_panel_SCS.txt	4	Information		The combined status for subject_id (PMID35129576_human_subject-01) and table subject has values:  subject_required (no), subject_user_defined_id (PMID35129576_human_subject-01), and subject_accession (SUB1000071944).
+PMID35129576_panel_SCS.txt	4	Information		The combined status for assessment_panel_id (PMID35129576_assessment_SCS-01) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID35129576_assessment_SCS-01), and assessment_panel_accession ().
+PMID35129576_panel_SCS.txt	5	Information		The combined status for subject_id (PMID35129576_human_subject-02) and table subject has values:  subject_required (no), subject_user_defined_id (PMID35129576_human_subject-02), and subject_accession (SUB1000071949).
+PMID35129576_panel_SCS.txt	5	Information		The combined status for assessment_panel_id (PMID35129576_assessment_SCS-02) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID35129576_assessment_SCS-02), and assessment_panel_accession ().
+PMID35129576_panel_SCS.txt		Parsed		Template: assessments.txt, Size:985 bytes
+PMID35129576_experiment_samples.txt		Parsing		Template: experimentsamples.other.txt, Size:1700 bytes
+PMID35129576_experiment_samples.txt		Information		Validation Level = Standard
+PMID35129576_experiment_samples.txt	3	Stored in:file_info		Size:1700 bytes
+PMID35129576_experiment_samples.txt	4	Information		The combined status for expsample_id (PMID35129576_expSample-01) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35129576_expSample-01), and expsample_accession ().
+PMID35129576_experiment_samples.txt	4	Information		The combined status for biosample_id (PMID35129576_biosampleID-01) and table biosample has values:  biosample_required (yes), biosample_user_defined_id (PMID35129576_biosampleID-01), and biosample_accession ().
+PMID35129576_experiment_samples.txt	4	Information		The combined status for experiment_id (PMID35129576_experimentID-01) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID35129576_experimentID-01), and experiment_accession ().
+pointerToExperimentalData.txt	6	Stored in:file_info		Size:137 bytes
+PMID35129576_experiment_samples.txt	5	Information		The combined status for expsample_id (PMID35129576_expSample-02) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35129576_expSample-02), and expsample_accession ().
+PMID35129576_experiment_samples.txt	5	Information		The combined status for biosample_id (PMID35129576_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35129576_biosampleID-01), and biosample_accession (BS1000071974).
+PMID35129576_experiment_samples.txt	5	Information		The combined status for experiment_id (PMID35129576_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID35129576_experimentID-01), and experiment_accession (EXP1000071975).
+PMID35129576_experiment_samples.txt	5	Information		The parent accession biosample_study_accession (SDY1000071916) was set using the table biosample and biosample_accession (BS1000071974).
+PMID35129576_experiment_samples.txt	5	Information		The parent accession experiment_study_accession (SDY1000071916) was set using the table experiment and experiment_accession (EXP1000071975).
+PMID35129576_experiment_samples.txt	5	Information		The value in experiment_study_accession (SDY1000071916) is assigned to study_accession.
+PMID35129576_experiment_samples.txt	6	Information		The combined status for expsample_id (PMID35129576_expSample-03) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35129576_expSample-03), and expsample_accession ().
+PMID35129576_experiment_samples.txt	6	Information		The combined status for biosample_id (PMID35129576_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35129576_biosampleID-01), and biosample_accession (BS1000071974).
+PMID35129576_experiment_samples.txt	6	Information		The combined status for experiment_id (PMID35129576_experimentID-02) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID35129576_experimentID-02), and experiment_accession ().
+PMID35129576_experiment_samples.txt	6	Information		The parent accession biosample_study_accession (SDY1000071916) was set using the table biosample and biosample_accession (BS1000071974).
+PMID35129576_experiment_samples.txt	6	Information		The value in biosample_study_accession (SDY1000071916) is assigned to study_accession.
+PMID35129576_experiment_samples.txt		Parsed		Template: experimentsamples.other.txt, Size:1700 bytes
+Shook_JAMA_2022_rawdatadescriptions_McNamara.docx		Stored in:file_info	WARNING: File is not used in upload and is being archived only	Size:15987 bytes
+shookjamaelisaraw.csv		Stored in:file_info	WARNING: File is not used in upload and is being archived only	Size:7948 bytes
+nobody_20220822_1000000093___aleliu_20220822_33985___TEST		Rejected		

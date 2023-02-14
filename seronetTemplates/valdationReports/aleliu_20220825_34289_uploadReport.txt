@@ -1,0 +1,35 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2022-08-25-15:18:00.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220825_34289___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+PMID33993265_panel_SCS.txt		Parsing		Template: assessments.txt, Size:1624 bytes
+PMID33993265_panel_SCS.txt		Information		Validation Level = Standard
+PMID33993265_panel_SCS.txt	3	Stored in:file_info		Size:1624 bytes
+PMID33993265_panel_SCS.txt	4	Information		The combined status for subject_id (PMID33993265_aoc-01) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID33993265_aoc-01), and subject_accession ().
+PMID33993265_panel_SCS.txt	4	Information		The combined status for assessment_panel_id (PMID33993265_assessment_SCS-01) and table assessment_panel has values:  assessment_panel_required (no), assessment_panel_user_defined_id (PMID33993265_assessment_SCS-01), and assessment_panel_accession (AP120278).
+PMID33993265_panel_SCS.txt	4	Information		The parent accession study_accession (SDY1973) was set using the table assessment_panel and assessment_panel_accession (AP120278).
+PMID33993265_panel_SCS.txt	4	Error	The subject ID must always be for a predefined subject	The check uses fields ["subject_required_value", "subject_required"] whose values are [no, yes].  The row has ID field(s) "subject_user_defined_id" and value "PMID33993265_aoc-01".
+PMID33993265_panel_SCS.txt	4	Error	assessment_component study_accession "SDY1973" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "SDY1973" in field "subject_accession" "SUB1000150567".  The row has ID field(s) "subject_user_defined_id" and value "PMID33993265_aoc-01".
+PMID33993265_panel_SCS.txt	5	Information		The combined status for subject_id (PMID33993265_aoc-02) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID33993265_aoc-02), and subject_accession ().
+PMID33993265_panel_SCS.txt	5	Information		The combined status for assessment_panel_id (PMID33993265_assessment_SCS-02) and table assessment_panel has values:  assessment_panel_required (no), assessment_panel_user_defined_id (PMID33993265_assessment_SCS-02), and assessment_panel_accession (AP120279).
+PMID33993265_panel_SCS.txt	5	Information		The parent accession study_accession (SDY1973) was set using the table assessment_panel and assessment_panel_accession (AP120279).
+PMID33993265_panel_SCS.txt	5	Error	The subject ID must always be for a predefined subject	The check uses fields ["subject_required_value", "subject_required"] whose values are [no, yes].  The row has ID field(s) "subject_user_defined_id" and value "PMID33993265_aoc-02".
+PMID33993265_panel_SCS.txt	5	Error	assessment_component study_accession "SDY1973" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "SDY1973" in field "subject_accession" "SUB1000150574".  The row has ID field(s) "subject_user_defined_id" and value "PMID33993265_aoc-02".
+PMID33993265_panel_SCS.txt	6	Information		The combined status for subject_id (PMID33993265_aoc-03) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID33993265_aoc-03), and subject_accession ().
+PMID33993265_panel_SCS.txt	6	Information		The combined status for assessment_panel_id (PMID33993265_assessment_SCS-03) and table assessment_panel has values:  assessment_panel_required (no), assessment_panel_user_defined_id (PMID33993265_assessment_SCS-03), and assessment_panel_accession (AP120280).
+PMID33993265_panel_SCS.txt	6	Information		The parent accession study_accession (SDY1973) was set using the table assessment_panel and assessment_panel_accession (AP120280).
+PMID33993265_panel_SCS.txt	6	Error	The subject ID must always be for a predefined subject	The check uses fields ["subject_required_value", "subject_required"] whose values are [no, yes].  The row has ID field(s) "subject_user_defined_id" and value "PMID33993265_aoc-03".
+PMID33993265_panel_SCS.txt	6	Error	assessment_component study_accession "SDY1973" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "SDY1973" in field "subject_accession" "SUB1000150581".  The row has ID field(s) "subject_user_defined_id" and value "PMID33993265_aoc-03".
+PMID33993265_panel_SCS.txt	7	Information		The combined status for subject_id (PMID33993265_aoc-04) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID33993265_aoc-04), and subject_accession ().
+PMID33993265_panel_SCS.txt	7	Information		The combined status for assessment_panel_id (PMID33993265_assessment_SCS-04) and table assessment_panel has values:  assessment_panel_required (no), assessment_panel_user_defined_id (PMID33993265_assessment_SCS-04), and assessment_panel_accession (AP120281).
+PMID33993265_panel_SCS.txt	7	Information		The parent accession study_accession (SDY1973) was set using the table assessment_panel and assessment_panel_accession (AP120281).
+PMID33993265_panel_SCS.txt	7	Error	The subject ID must always be for a predefined subject	The check uses fields ["subject_required_value", "subject_required"] whose values are [no, yes].  The row has ID field(s) "subject_user_defined_id" and value "PMID33993265_aoc-04".
+PMID33993265_panel_SCS.txt	7	Error	assessment_component study_accession "SDY1973" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "SDY1973" in field "subject_accession" "SUB1000150588".  The row has ID field(s) "subject_user_defined_id" and value "PMID33993265_aoc-04".
+PMID33993265_panel_SCS.txt	8	Information		The combined status for subject_id (PMID33993265_aoc-05) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID33993265_aoc-05), and subject_accession ().
+PMID33993265_panel_SCS.txt	8	Information		The combined status for assessment_panel_id (PMID33993265_assessment_SCS-05) and table assessment_panel has values:  assessment_panel_required (no), assessment_panel_user_defined_id (PMID33993265_assessment_SCS-05), and assessment_panel_accession (AP120282).
+PMID33993265_panel_SCS.txt	8	Information		The parent accession study_accession (SDY1973) was set using the table assessment_panel and assessment_panel_accession (AP120282).
+PMID33993265_panel_SCS.txt	8	Error	The subject ID must always be for a predefined subject	The check uses fields ["subject_required_value", "subject_required"] whose values are [no, yes].  The row has ID field(s) "subject_user_defined_id" and value "PMID33993265_aoc-05".
+PMID33993265_panel_SCS.txt	8	Error	assessment_component study_accession "SDY1973" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "SDY1973" in field "subject_accession" "SUB1000150595".  The row has ID field(s) "subject_user_defined_id" and value "PMID33993265_aoc-05".
+PMID33993265_panel_SCS.txt		Failed		Template: assessments.txt, Size:1624 bytes
+nobody_20220825_1000000280___aleliu_20220825_34289___TEST		Rejected		

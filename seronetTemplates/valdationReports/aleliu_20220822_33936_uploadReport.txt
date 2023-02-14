@@ -1,0 +1,39 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2022-08-22-15:13:06.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220822_33936___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+PMID33830946_reagent.txt		Parsing		Template: reagents.other.txt, Size:297 bytes
+PMID33830946_reagent.txt		Information		Validation Level = Standard
+PMID33830946_reagent.txt	3	Stored in:file_info		Size:297 bytes
+PMID33830946_reagent.txt		Parsed		Template: reagents.other.txt, Size:297 bytes
+PMID33830946_treatment.txt		Parsing		Template: treatments.txt, Size:301 bytes
+PMID33830946_treatment.txt		Information		Validation Level = Standard
+PMID33830946_treatment.txt	3	Stored in:file_info		Size:301 bytes
+PMID33830946_treatment.txt		Parsed		Template: treatments.txt, Size:301 bytes
+PMID33830946_panel_SCS.txt		Parsing		Template: assessments.txt, Size:798 bytes
+PMID33830946_panel_SCS.txt		Information		Validation Level = Standard
+PMID33830946_panel_SCS.txt	3	Stored in:file_info		Size:798 bytes
+PMID33830946_panel_SCS.txt	4	Information		The combined status for subject_id (PMID33830946_aoc-01) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID33830946_aoc-01), and subject_accession ().
+PMID33830946_panel_SCS.txt	4	Information		The combined status for assessment_panel_id (PMID33830946_assessment_SCS-01) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID33830946_assessment_SCS-01), and assessment_panel_accession ().
+PMID33830946_panel_SCS.txt	4	Error	The subject ID must always be for a predefined subject	The check uses fields ["subject_required_value", "subject_required"] whose values are [no, yes].  The row has ID field(s) "subject_user_defined_id" and value "PMID33830946_aoc-01".
+PMID33830946_panel_SCS.txt	4	Error	assessment_component study_accession "SDY1815" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "SDY1815" in field "subject_accession" "SUB1000058170".  The row has ID field(s) "subject_user_defined_id" and value "PMID33830946_aoc-01".
+PMID33830946_panel_SCS.txt	4	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "User Defined ID" with value "PMID33830946_assessment_recorded_pv" in the Table planned_visit.  The row has ID field(s) "User Defined ID" and value "PMID33830946_aoc-01".
+PMID33830946_panel_SCS.txt	4	Error	The study_accession for the assessment component is not same as for the planned visit	The check uses fields ["study_accession", "planned_visit_study_accession"] whose values are [SDY1815, ].  The row has ID field(s) "User Defined ID" and value "PMID33830946_aoc-01".
+PMID33830946_panel_SCS.txt		Failed		Template: assessments.txt, Size:798 bytes
+PMID33830946_experiment_samples.txt		Parsing		Template: experimentsamples.other.txt, Size:1264 bytes
+PMID33830946_experiment_samples.txt		Information		Validation Level = Standard
+PMID33830946_experiment_samples.txt	3	Stored in:file_info		Size:1264 bytes
+PMID33830946_experiment_samples.txt	4	Information		The combined status for expsample_id (PMID33830946_expSample-01) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID33830946_expSample-01), and expsample_accession ().
+PMID33830946_experiment_samples.txt	4	Information		The combined status for biosample_id (PMID33830946_biosampleID-01) and table biosample has values:  biosample_required (yes), biosample_user_defined_id (PMID33830946_biosampleID-01), and biosample_accession ().
+PMID33830946_experiment_samples.txt	4	Information		The combined status for experiment_id (PMID33830946_experimentID-01) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID33830946_experimentID-01), and experiment_accession ().
+pointerToExperimentalData.txt	5	Stored in:file_info		Size:137 bytes
+PMID33830946_experiment_samples.txt	4	Error	Value reported in template does not match preferred vocabulary. See template documentation for preferred vocabulary terms.	The Lookup Table check "lk_sample_type" in field "Type" "Blood".  The row has ID field(s) "expsample_user_defined_id" and value "PMID33830946_expSample-01".
+PMID33830946_experiment_samples.txt	4	Error	biosample study_accession "SDY1815" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "SDY1815" in field "subject_accession" "SUB1000058170".  The row has ID field(s) "expsample_user_defined_id" and value "PMID33830946_expSample-01".
+PMID33830946_experiment_samples.txt	5	Information		The combined status for expsample_id (PMID33830946_expSample-02) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID33830946_expSample-02), and expsample_accession ().
+PMID33830946_experiment_samples.txt	5	Information		The combined status for biosample_id (PMID33830946_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID33830946_biosampleID-01), and biosample_accession (BS1000058186).
+PMID33830946_experiment_samples.txt	5	Information		The combined status for experiment_id (PMID33830946_experimentID-02) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID33830946_experimentID-02), and experiment_accession ().
+PMID33830946_experiment_samples.txt	5	Information		The parent accession biosample_study_accession (SDY1815) was set using the table biosample and biosample_accession (BS1000058186).
+PMID33830946_experiment_samples.txt	5	Information		The value in biosample_study_accession (SDY1815) is assigned to study_accession.
+PMID33830946_experiment_samples.txt		Failed		Template: experimentsamples.other.txt, Size:1264 bytes
+nobody_20220822_1000000057___aleliu_20220822_33936___TEST		Rejected		

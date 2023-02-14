@@ -1,0 +1,55 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2023-02-13-09:02:41.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20230213_35791___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+PMID35915094_protocol.txt		Parsing		Template: protocols.txt, Size:250 bytes
+PMID35915094_protocol.txt		Information		Validation Level = Standard
+PMID35915094_protocol.txt	3	Stored in:file_info		Size:250 bytes
+PMID35915094_protocol-01.txt	4	Stored in:protocols		Size:6937 bytes
+PMID35915094_protocol.txt		Parsed		Template: protocols.txt, Size:250 bytes
+PMID35915094_basic.txt		Parsing		Template: basic_study_design.txt, Size:6192 bytes
+PMID35915094_basic.txt		Information		Validation Level = Standard
+PMID35915094_basic.txt	3	Stored in:file_info		Size:6192 bytes
+PMID35915094_basic.txt	23	Information		Adding User Defined ID "No Research Focus Specified:SDY1000408572" for table "study_categorization"
+PMID35915094_basic.txt	26	Information		Adding User Defined ID "COVID-19:SDY1000408572" for table "study_2_condition_or_disease"
+PMID35915094_basic.txt	55	Information		Adding User Defined ID "PTL1000408566:SDY1000408572" for table "study_2_protocol"
+PMID35915094_basic.txt	59	Error	File does not exist	The File exists check "compound-type template" in field "File Name" "Raw Data _ PMID35915094.xlsx".  The row has ID field(s) "File Name" and value "Raw Data _ PMID35915094.xlsx".
+PMID35915094_basic.txt	59	Information		Adding User Defined ID "SDY1000408572:Raw Data _ PMID35915094.xlsx" for table "study_file"
+PMID35915094_v1.3.xlsm	60	Stored in:study_file		Size:119535 bytes
+PMID35915094_basic.txt	60	Information		Adding User Defined ID "SDY1000408572:PMID35915094_v1.3.xlsm" for table "study_file"
+PMID35915094_JSON.json	61	Stored in:study_file		Size:18546 bytes
+PMID35915094_basic.txt	61	Information		Adding User Defined ID "SDY1000408572:PMID35915094_JSON.json" for table "study_file"
+PMID35915094_basic.txt	68	Information		Adding User Defined ID "SDY1000408572:35915094" for table "study_pubmed"
+PMID35915094_basic.txt		Failed		Template: basic_study_design.txt, Size:6192 bytes
+PMID35915094_subject_organism.txt		Parsing		Template: subjectanimals.txt, Size:1789 bytes
+PMID35915094_subject_organism.txt		Information		Validation Level = Standard
+PMID35915094_subject_organism.txt	3	Stored in:file_info		Size:1789 bytes
+PMID35915094_subject_organism.txt	4	Information		The combined status for subject_id (PMID35915094_organism_subject-01) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35915094_organism_subject-01), and subject_accession ().
+PMID35915094_subject_organism.txt	4	Information		The combined status for arm_or_cohort_id (PMID35915094_organism_subject-01) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35915094_organism_subject-01), and arm_accession (ARM1000408576).
+PMID35915094_subject_organism.txt	10	Information		Adding User Defined ID "SUB1000408608:ARM1000408576:unknown:CureVac AG:VO:0005208:COVID-19:DOID:0080600:" for table "immune_exposure"
+PMID35915094_subject_organism.txt	5	Information		The combined status for subject_id (PMID35915094_organism_subject-02) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35915094_organism_subject-02), and subject_accession ().
+PMID35915094_subject_organism.txt	5	Information		The combined status for arm_or_cohort_id (PMID35915094_organism_subject-02) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35915094_organism_subject-02), and arm_accession (ARM1000408577).
+PMID35915094_subject_organism.txt	10	Information		Adding User Defined ID "SUB1000408613:ARM1000408577:unknown:Other:Other:COVID-19:DOID:0080600:" for table "immune_exposure"
+PMID35915094_subject_organism.txt	6	Information		The combined status for subject_id (PMID35915094_organism_subject-03) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35915094_organism_subject-03), and subject_accession ().
+PMID35915094_subject_organism.txt	6	Information		The combined status for arm_or_cohort_id (PMID35915094_organism_subject-03) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35915094_organism_subject-03), and arm_accession (ARM1000408578).
+PMID35915094_subject_organism.txt	10	Information		Adding User Defined ID "SUB1000408618:ARM1000408578:unknown:n/a:n/a:COVID-19:DOID:0080600:" for table "immune_exposure"
+PMID35915094_subject_organism.txt	7	Information		The combined status for subject_id (PMID35915094_organism_subject-04) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35915094_organism_subject-04), and subject_accession ().
+PMID35915094_subject_organism.txt	7	Information		The combined status for arm_or_cohort_id (PMID35915094_organism_subject-04) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35915094_organism_subject-04), and arm_accession (ARM1000408579).
+PMID35915094_subject_organism.txt	10	Information		Adding User Defined ID "SUB1000408623:ARM1000408579:unknown:n/a:n/a:COVID-19:DOID:0080600:" for table "immune_exposure"
+PMID35915094_subject_organism.txt	8	Information		The combined status for subject_id (PMID35915094_organism_subject-05) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35915094_organism_subject-05), and subject_accession ().
+PMID35915094_subject_organism.txt	8	Information		The combined status for arm_or_cohort_id (PMID35915094_organism_subject-05) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35915094_organism_subject-05), and arm_accession (ARM1000408580).
+PMID35915094_subject_organism.txt	10	Information		Adding User Defined ID "SUB1000408628:ARM1000408580:unknown:n/a:n/a:COVID-19:DOID:0080600:" for table "immune_exposure"
+PMID35915094_subject_organism.txt	9	Information		The combined status for subject_id (PMID35915094_organism_subject-06) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35915094_organism_subject-06), and subject_accession ().
+PMID35915094_subject_organism.txt	9	Information		The combined status for arm_or_cohort_id (PMID35915094_organism_subject-06) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35915094_organism_subject-06), and arm_accession (ARM1000408581).
+PMID35915094_subject_organism.txt	10	Information		Adding User Defined ID "SUB1000408633:ARM1000408581:unknown:n/a:n/a:COVID-19:DOID:0080600:" for table "immune_exposure"
+PMID35915094_subject_organism.txt	10	Information		The combined status for subject_id (PMID35915094_organism_subject-07) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35915094_organism_subject-07), and subject_accession ().
+PMID35915094_subject_organism.txt	10	Information		The combined status for arm_or_cohort_id (PMID35915094_organism_subject-07) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35915094_organism_subject-07), and arm_accession (ARM1000408582).
+PMID35915094_subject_organism.txt	10	Information		Adding User Defined ID "SUB1000408638:ARM1000408582:unknown:n/a:n/a:COVID-19:DOID:0080600:" for table "immune_exposure"
+PMID35915094_subject_organism.txt		Parsed		Template: subjectanimals.txt, Size:1789 bytes
+PMID35915094_experiments.txt		Parsing		Template: experiments.txt, Size:1274 bytes
+PMID35915094_experiments.txt		Information		Validation Level = Standard
+PMID35915094_experiments.txt	3	Stored in:file_info		Size:1274 bytes
+PMID35915094_experiments.txt		Parsed		Template: experiments.txt, Size:1274 bytes
+PMID35915094_Raw Data.xlsx		Stored in:file_info	WARNING: File is not used in upload and is being archived only	Size:19838 bytes
+nobody_20230213_1000000120___aleliu_20230213_35791___TEST		Rejected		

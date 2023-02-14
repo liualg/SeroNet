@@ -1,0 +1,27 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2022-08-24-14:57:18.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220824_34124___test.
+
+File Name	Line Number	Status	Error Message	Description
+PMID34652783_reagent.txt		Parsing		Template: reagents.other.txt, Size:813 bytes
+PMID34652783_reagent.txt		Information		Validation Level = Standard
+PMID34652783_reagent.txt	3	Stored in:file_info		Size:813 bytes
+PMID34652783_reagent.txt		Parsed		Template: reagents.other.txt, Size:813 bytes
+PMID34652783_treatment.txt		Parsing		Template: treatments.txt, Size:301 bytes
+PMID34652783_treatment.txt		Information		Validation Level = Standard
+PMID34652783_treatment.txt	3	Stored in:file_info		Size:301 bytes
+PMID34652783_treatment.txt		Parsed		Template: treatments.txt, Size:301 bytes
+PMID34652783_panel_SCH.txt		Parsing		Template: assessments.txt, Size:1368 bytes
+PMID34652783_panel_SCH.txt		Information		Validation Level = Standard
+PMID34652783_panel_SCH.txt	3	Stored in:file_info		Size:1368 bytes
+PMID34652783_panel_SCH.txt	4	Information		The combined status for subject_id (PMID34652783_human_subject-01) and table subject has values:  subject_required (no), subject_user_defined_id (PMID34652783_human_subject-01), and subject_accession (SUB251878).
+PMID34652783_panel_SCH.txt	4	Information		The combined status for assessment_panel_id (PMID34652783_assessment_SCH-01) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID34652783_assessment_SCH-01), and assessment_panel_accession ().
+PMID34652783_panel_SCH.txt	5	Information		The combined status for subject_id (PMID34652783_human_subject-02) and table subject has values:  subject_required (no), subject_user_defined_id (PMID34652783_human_subject-02), and subject_accession (SUB251879).
+PMID34652783_panel_SCH.txt	5	Information		The combined status for assessment_panel_id (PMID34652783_assessment_SCH-02) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID34652783_assessment_SCH-02), and assessment_panel_accession ().
+PMID34652783_panel_SCH.txt	6	Information		The combined status for subject_id (PMID34652783_human_subject-03) and table subject has values:  subject_required (no), subject_user_defined_id (PMID34652783_human_subject-03), and subject_accession (SUB251880).
+PMID34652783_panel_SCH.txt	6	Information		The combined status for assessment_panel_id (PMID34652783_assessment_SCH-03) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID34652783_assessment_SCH-03), and assessment_panel_accession ().
+PMID34652783_panel_SCH.txt	7	Information		The combined status for subject_id (PMID34652783_human_subject-04) and table subject has values:  subject_required (no), subject_user_defined_id (PMID34652783_human_subject-04), and subject_accession (SUB251881).
+PMID34652783_panel_SCH.txt	7	Information		The combined status for assessment_panel_id (PMID34652783_assessment_SCH-04) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID34652783_assessment_SCH-04), and assessment_panel_accession ().
+PMID34652783_panel_SCH.txt		Parsed		Template: assessments.txt, Size:1368 bytes
+pointerToExperimentalData.txt		Stored in:file_info	WARNING: File is not used in upload and is being archived only	Size:137 bytes
+nobody_20220824_1000000180___aleliu_20220824_34124___test		Completed		

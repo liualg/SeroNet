@@ -1,0 +1,80 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2022-08-25-13:20:54.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220825_34232___test.
+
+File Name	Line Number	Status	Error Message	Description
+PMID33478949_reagent.txt		Parsing		Template: reagents.other.txt, Size:353 bytes
+PMID33478949_reagent.txt		Information		Validation Level = Standard
+PMID33478949_reagent.txt	3	Stored in:file_info		Size:353 bytes
+PMID33478949_reagent.txt		Parsed		Template: reagents.other.txt, Size:353 bytes
+PMID33478949_treatment.txt		Parsing		Template: treatments.txt, Size:301 bytes
+PMID33478949_treatment.txt		Information		Validation Level = Standard
+PMID33478949_treatment.txt	3	Stored in:file_info		Size:301 bytes
+PMID33478949_treatment.txt		Parsed		Template: treatments.txt, Size:301 bytes
+PMID33478949_panel_SCH.txt		Parsing		Template: assessments.txt, Size:1330 bytes
+PMID33478949_panel_SCH.txt		Information		Validation Level = Standard
+PMID33478949_panel_SCH.txt	3	Stored in:file_info		Size:1330 bytes
+PMID33478949_panel_SCH.txt	4	Information		The combined status for subject_id (PMID33478949_human_subject-01) and table subject has values:  subject_required (no), subject_user_defined_id (PMID33478949_human_subject-01), and subject_accession (SUB252184).
+PMID33478949_panel_SCH.txt	4	Information		The combined status for assessment_panel_id (PMID33478949_assessment_SCH-01) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID33478949_assessment_SCH-01), and assessment_panel_accession ().
+PMID33478949_panel_SCH.txt	5	Information		The combined status for subject_id (PMID33478949_human_subject-02) and table subject has values:  subject_required (no), subject_user_defined_id (PMID33478949_human_subject-02), and subject_accession (SUB252185).
+PMID33478949_panel_SCH.txt	5	Information		The combined status for assessment_panel_id (PMID33478949_assessment_SCH-02) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID33478949_assessment_SCH-02), and assessment_panel_accession ().
+PMID33478949_panel_SCH.txt	6	Information		The combined status for subject_id (PMID33478949_human_subject-03) and table subject has values:  subject_required (no), subject_user_defined_id (PMID33478949_human_subject-03), and subject_accession (SUB252186).
+PMID33478949_panel_SCH.txt	6	Information		The combined status for assessment_panel_id (PMID33478949_assessment_SCH-03) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID33478949_assessment_SCH-03), and assessment_panel_accession ().
+PMID33478949_panel_SCH.txt	7	Information		The combined status for subject_id (PMID33478949_human_subject-04) and table subject has values:  subject_required (no), subject_user_defined_id (PMID33478949_human_subject-04), and subject_accession (SUB252187).
+PMID33478949_panel_SCH.txt	7	Information		The combined status for assessment_panel_id (PMID33478949_assessment_SCH-04) and table assessment_panel has values:  assessment_panel_required (yes), assessment_panel_user_defined_id (PMID33478949_assessment_SCH-04), and assessment_panel_accession ().
+PMID33478949_panel_SCH.txt		Parsed		Template: assessments.txt, Size:1330 bytes
+PMID33478949_experiment_samples.txt		Parsing		Template: experimentsamples.other.txt, Size:4053 bytes
+PMID33478949_experiment_samples.txt		Information		Validation Level = Standard
+PMID33478949_experiment_samples.txt	3	Stored in:file_info		Size:4053 bytes
+PMID33478949_experiment_samples.txt	4	Information		The combined status for expsample_id (PMID33478949_expSample-01) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID33478949_expSample-01), and expsample_accession ().
+PMID33478949_experiment_samples.txt	4	Information		The combined status for biosample_id (PMID33478949_biosampleID-01) and table biosample has values:  biosample_required (yes), biosample_user_defined_id (PMID33478949_biosampleID-01), and biosample_accession ().
+PMID33478949_experiment_samples.txt	4	Information		The combined status for experiment_id (PMID33478949_experimentID-01) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID33478949_experimentID-01), and experiment_accession ().
+pointerToExperimentalData.txt	12	Stored in:file_info		Size:137 bytes
+PMID33478949_experiment_samples.txt	5	Information		The combined status for expsample_id (PMID33478949_expSample-02) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID33478949_expSample-02), and expsample_accession ().
+PMID33478949_experiment_samples.txt	5	Information		The combined status for biosample_id (PMID33478949_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID33478949_biosampleID-01), and biosample_accession (BS1000144489).
+PMID33478949_experiment_samples.txt	5	Information		The combined status for experiment_id (PMID33478949_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID33478949_experimentID-01), and experiment_accession (EXP1000144490).
+PMID33478949_experiment_samples.txt	5	Information		The parent accession biosample_study_accession (SDY1829) was set using the table biosample and biosample_accession (BS1000144489).
+PMID33478949_experiment_samples.txt	5	Information		The parent accession experiment_study_accession (SDY1829) was set using the table experiment and experiment_accession (EXP1000144490).
+PMID33478949_experiment_samples.txt	5	Information		The value in experiment_study_accession (SDY1829) is assigned to study_accession.
+PMID33478949_experiment_samples.txt	6	Information		The combined status for expsample_id (PMID33478949_expSample-03) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID33478949_expSample-03), and expsample_accession ().
+PMID33478949_experiment_samples.txt	6	Information		The combined status for biosample_id (PMID33478949_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID33478949_biosampleID-01), and biosample_accession (BS1000144489).
+PMID33478949_experiment_samples.txt	6	Information		The combined status for experiment_id (PMID33478949_experimentID-01) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID33478949_experimentID-01), and experiment_accession (EXP1000144490).
+PMID33478949_experiment_samples.txt	6	Information		The parent accession biosample_study_accession (SDY1829) was set using the table biosample and biosample_accession (BS1000144489).
+PMID33478949_experiment_samples.txt	6	Information		The parent accession experiment_study_accession (SDY1829) was set using the table experiment and experiment_accession (EXP1000144490).
+PMID33478949_experiment_samples.txt	6	Information		The value in experiment_study_accession (SDY1829) is assigned to study_accession.
+PMID33478949_experiment_samples.txt	7	Information		The combined status for expsample_id (PMID33478949_expSample-04) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID33478949_expSample-04), and expsample_accession ().
+PMID33478949_experiment_samples.txt	7	Information		The combined status for biosample_id (PMID33478949_biosampleID-02) and table biosample has values:  biosample_required (yes), biosample_user_defined_id (PMID33478949_biosampleID-02), and biosample_accession ().
+PMID33478949_experiment_samples.txt	7	Information		The combined status for experiment_id (PMID33478949_experimentID-02) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID33478949_experimentID-02), and experiment_accession ().
+PMID33478949_experiment_samples.txt	7	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "subject_user_defined_id" with value "PMI+D177:D191D33478949human_subject-02" in the Table subject.  The row has ID field(s) "expsample_user_defined_id" and value "PMID33478949_expSample-04".
+PMID33478949_experiment_samples.txt	7	Error	biosample study_accession "SDY1829" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "SDY1829" in field "subject_accession" "".  The row has ID field(s) "expsample_user_defined_id" and value "PMID33478949_expSample-04".
+PMID33478949_experiment_samples.txt	8	Information		The combined status for expsample_id (PMID33478949_expSample-05) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID33478949_expSample-05), and expsample_accession ().
+PMID33478949_experiment_samples.txt	8	Information		The combined status for biosample_id (PMID33478949_biosampleID-02) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID33478949_biosampleID-02), and biosample_accession (BS1000144512).
+PMID33478949_experiment_samples.txt	8	Information		The combined status for experiment_id (PMID33478949_experimentID-02) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID33478949_experimentID-02), and experiment_accession (EXP1000144513).
+PMID33478949_experiment_samples.txt	8	Information		The parent accession biosample_study_accession (SDY1829) was set using the table biosample and biosample_accession (BS1000144512).
+PMID33478949_experiment_samples.txt	8	Information		The parent accession experiment_study_accession (SDY1829) was set using the table experiment and experiment_accession (EXP1000144513).
+PMID33478949_experiment_samples.txt	8	Information		The value in experiment_study_accession (SDY1829) is assigned to study_accession.
+PMID33478949_experiment_samples.txt	9	Information		The combined status for expsample_id (PMID33478949_expSample-06) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID33478949_expSample-06), and expsample_accession ().
+PMID33478949_experiment_samples.txt	9	Information		The combined status for biosample_id (PMID33478949_biosampleID-02) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID33478949_biosampleID-02), and biosample_accession (BS1000144512).
+PMID33478949_experiment_samples.txt	9	Information		The combined status for experiment_id (PMID33478949_experimentID-02) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID33478949_experimentID-02), and experiment_accession (EXP1000144513).
+PMID33478949_experiment_samples.txt	9	Information		The parent accession biosample_study_accession (SDY1829) was set using the table biosample and biosample_accession (BS1000144512).
+PMID33478949_experiment_samples.txt	9	Information		The parent accession experiment_study_accession (SDY1829) was set using the table experiment and experiment_accession (EXP1000144513).
+PMID33478949_experiment_samples.txt	9	Information		The value in experiment_study_accession (SDY1829) is assigned to study_accession.
+PMID33478949_experiment_samples.txt	10	Information		The combined status for expsample_id (PMID33478949_expSample-07) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID33478949_expSample-07), and expsample_accession ().
+PMID33478949_experiment_samples.txt	10	Information		The combined status for biosample_id (PMID33478949_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID33478949_biosampleID-01), and biosample_accession (BS1000144489).
+PMID33478949_experiment_samples.txt	10	Information		The combined status for experiment_id (PMID33478949_experimentID-03) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID33478949_experimentID-03), and experiment_accession ().
+PMID33478949_experiment_samples.txt	10	Information		The parent accession biosample_study_accession (SDY1829) was set using the table biosample and biosample_accession (BS1000144489).
+PMID33478949_experiment_samples.txt	10	Information		The value in biosample_study_accession (SDY1829) is assigned to study_accession.
+PMID33478949_experiment_samples.txt	11	Information		The combined status for expsample_id (PMID33478949_expSample-08) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID33478949_expSample-08), and expsample_accession ().
+PMID33478949_experiment_samples.txt	11	Information		The combined status for biosample_id (PMID33478949_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID33478949_biosampleID-01), and biosample_accession (BS1000144489).
+PMID33478949_experiment_samples.txt	11	Information		The combined status for experiment_id (PMID33478949_experimentID-03) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID33478949_experimentID-03), and experiment_accession (EXP1000144535).
+PMID33478949_experiment_samples.txt	11	Information		The parent accession biosample_study_accession (SDY1829) was set using the table biosample and biosample_accession (BS1000144489).
+PMID33478949_experiment_samples.txt	11	Information		The parent accession experiment_study_accession (SDY1829) was set using the table experiment and experiment_accession (EXP1000144535).
+PMID33478949_experiment_samples.txt	11	Information		The value in experiment_study_accession (SDY1829) is assigned to study_accession.
+PMID33478949_experiment_samples.txt	12	Information		The combined status for expsample_id (PMID33478949_expSample-09) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID33478949_expSample-09), and expsample_accession ().
+PMID33478949_experiment_samples.txt	12	Information		The combined status for biosample_id (PMID33478949_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID33478949_biosampleID-01), and biosample_accession (BS1000144489).
+PMID33478949_experiment_samples.txt	12	Information		The combined status for experiment_id (PMID33478949_experimentID-03) and table experiment has values:  experiment_required (no), experiment_user_defined_id (PMID33478949_experimentID-03), and experiment_accession (EXP1000144535).
+PMID33478949_experiment_samples.txt	12	Information		The parent accession biosample_study_accession (SDY1829) was set using the table biosample and biosample_accession (BS1000144489).
+PMID33478949_experiment_samples.txt	12	Information		The parent accession experiment_study_accession (SDY1829) was set using the table experiment and experiment_accession (EXP1000144535).
+PMID33478949_experiment_samples.txt	12	Information		The value in experiment_study_accession (SDY1829) is assigned to study_accession.
+PMID33478949_experiment_samples.txt		Failed		Template: experimentsamples.other.txt, Size:4053 bytes
+nobody_20220825_1000000241___aleliu_20220825_34232___test		Rejected		

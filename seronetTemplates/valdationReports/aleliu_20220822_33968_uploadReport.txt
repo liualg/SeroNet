@@ -1,0 +1,116 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2022-08-22-17:17:08.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220822_33968___test.
+
+File Name	Line Number	Status	Error Message	Description
+PMID35427477_protocol.txt		Parsing		Template: protocols.txt, Size:250 bytes
+PMID35427477_protocol.txt		Information		Validation Level = Standard
+PMID35427477_protocol.txt	3	Stored in:file_info		Size:250 bytes
+PMID35427477_protocol-01.txt	4	Stored in:protocols		Size:15580 bytes
+PMID35427477_protocol.txt		Parsed		Template: protocols.txt, Size:250 bytes
+PMID35427477_reagent.txt		Parsing		Template: reagents.other.txt, Size:1017 bytes
+PMID35427477_reagent.txt		Information		Validation Level = Standard
+PMID35427477_reagent.txt	3	Stored in:file_info		Size:1017 bytes
+PMID35427477_reagent.txt		Parsed		Template: reagents.other.txt, Size:1017 bytes
+PMID35427477_treatment.txt		Parsing		Template: treatments.txt, Size:301 bytes
+PMID35427477_treatment.txt		Information		Validation Level = Standard
+PMID35427477_treatment.txt	3	Stored in:file_info		Size:301 bytes
+PMID35427477_treatment.txt		Parsed		Template: treatments.txt, Size:301 bytes
+PMID35427477_basic.txt		Parsing		Template: basic_study_design.txt, Size:6102 bytes
+PMID35427477_basic.txt		Information		Validation Level = Standard
+PMID35427477_basic.txt	3	Stored in:file_info		Size:6102 bytes
+PMID35427477_basic.txt	23	Information		Adding User Defined ID "No Research Focus Specified:SDY1000063022" for table "study_categorization"
+PMID35427477_basic.txt	26	Information		Adding User Defined ID "COVID-19:SDY1000063022" for table "study_2_condition_or_disease"
+PMID35427477_basic.txt	55	Information		Adding User Defined ID "PTL1000063000:SDY1000063022" for table "study_2_protocol"
+Supplemental figures.pdf	59	Stored in:study_file		Size:1164017 bytes
+PMID35427477_basic.txt	59	Information		Adding User Defined ID "SDY1000063022:Supplemental figures.pdf" for table "study_file"
+Key Resources Table.pdf	60	Stored in:study_file		Size:298739 bytes
+PMID35427477_basic.txt	60	Error	Value reported in template does not match preferred vocabulary. See template documentation for preferred vocabulary terms.	The Lookup Table check "lk_study_file_type" in field "Study File Type" "Other".  The row has ID field(s) "File Name" and value "Key Resources Table.pdf".
+PMID35427477_basic.txt	60	Information		Adding User Defined ID "SDY1000063022:Key Resources Table.pdf" for table "study_file"
+PMID35427477_basic.txt	61	Error	File does not exist	The File exists check "compound-type template" in field "File Name" "Figure 2".  The row has ID field(s) "File Name" and value "Figure 2".
+PMID35427477_basic.txt	61	Information		Adding User Defined ID "SDY1000063022:Figure 2" for table "study_file"
+PMID35427477_basic.txt	62	Error	File does not exist	The File exists check "compound-type template" in field "File Name" "Figure 3".  The row has ID field(s) "File Name" and value "Figure 3".
+PMID35427477_basic.txt	62	Information		Adding User Defined ID "SDY1000063022:Figure 3" for table "study_file"
+PMID35427477_basic.txt	63	Error	File does not exist	The File exists check "compound-type template" in field "File Name" "Figure 4".  The row has ID field(s) "File Name" and value "Figure 4".
+PMID35427477_basic.txt	63	Information		Adding User Defined ID "SDY1000063022:Figure 4" for table "study_file"
+PMID35427477_basic.txt	64	Error	File does not exist	The File exists check "compound-type template" in field "File Name" "Figure 5".  The row has ID field(s) "File Name" and value "Figure 5".
+PMID35427477_basic.txt	64	Information		Adding User Defined ID "SDY1000063022:Figure 5" for table "study_file"
+PMID35427477_basic.txt	65	Error	File does not exist	The File exists check "compound-type template" in field "File Name" "21-22 Co".  The row has ID field(s) "File Name" and value "21-22 Co".
+PMID35427477_basic.txt	65	Information		Adding User Defined ID "SDY1000063022:21-22 Co" for table "study_file"
+PMID35427477_v1.2.5.xlsm	66	Stored in:study_file		Size:125223 bytes
+PMID35427477_basic.txt	66	Information		Adding User Defined ID "SDY1000063022:PMID35427477_v1.2.5.xlsm" for table "study_file"
+PMID35427477_basic.txt	73	Information		Adding User Defined ID "SDY1000063022:35427477" for table "study_pubmed"
+PMID35427477_basic.txt		Failed		Template: basic_study_design.txt, Size:6102 bytes
+PMID35427477_subject_organism.txt		Parsing		Template: subjectanimals.txt, Size:1623 bytes
+PMID35427477_subject_organism.txt		Information		Validation Level = Standard
+PMID35427477_subject_organism.txt	3	Stored in:file_info		Size:1623 bytes
+PMID35427477_subject_organism.txt	4	Information		The combined status for subject_id (PMID35427477_organism_subject-01) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35427477_organism_subject-01), and subject_accession ().
+PMID35427477_subject_organism.txt	4	Information		The combined status for arm_or_cohort_id (PMID35427477_organism_subject-01) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35427477_organism_subject-01), and arm_accession (ARM1000063026).
+PMID35427477_subject_organism.txt	8	Information		Adding User Defined ID "SUB1000063074:ARM1000063026:unknown:N/A:N/A:COVID-19:DOID:0080600:Unknown" for table "immune_exposure"
+PMID35427477_subject_organism.txt	5	Information		The combined status for subject_id (PMID35427477_organism_subject-02) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35427477_organism_subject-02), and subject_accession ().
+PMID35427477_subject_organism.txt	5	Information		The combined status for arm_or_cohort_id (PMID35427477_organism_subject-02) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35427477_organism_subject-02), and arm_accession (ARM1000063027).
+PMID35427477_subject_organism.txt	8	Information		Adding User Defined ID "SUB1000063079:ARM1000063027:unknown:Pfizer BioNTech COVID-19 vaccine:VO:0004987:COVID-19:DOID:0080600:Unknown" for table "immune_exposure"
+PMID35427477_subject_organism.txt	6	Information		The combined status for subject_id (PMID35427477_organism_subject-03) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35427477_organism_subject-03), and subject_accession ().
+PMID35427477_subject_organism.txt	6	Information		The combined status for arm_or_cohort_id (PMID35427477_organism_subject-03) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35427477_organism_subject-03), and arm_accession (ARM1000063028).
+PMID35427477_subject_organism.txt	8	Information		Adding User Defined ID "SUB1000063084:ARM1000063028:unknown:Pfizer BioNTech COVID-19 vaccine | Johnson & Johnson COVID-19 vaccine:VO:0004987 | VO:0005159:COVID-19:DOID:0080600:Unknown" for table "immune_exposure"
+PMID35427477_subject_organism.txt	7	Information		The combined status for subject_id (PMID35427477_organism_subject-04) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35427477_organism_subject-04), and subject_accession ().
+PMID35427477_subject_organism.txt	7	Information		The combined status for arm_or_cohort_id (PMID35427477_organism_subject-04) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35427477_organism_subject-04), and arm_accession (ARM1000063029).
+PMID35427477_subject_organism.txt	8	Information		Adding User Defined ID "SUB1000063089:ARM1000063029:unknown:Johnson & Johnson COVID-19 vaccine | Pfizer BioNTech COVID-19 vaccine:VO:0005159 | VO:0004987:COVID-19:DOID:0080600:Unknown" for table "immune_exposure"
+PMID35427477_subject_organism.txt	8	Information		The combined status for subject_id (PMID35427477_organism_subject-05) and table subject has values:  subject_required (yes), subject_user_defined_id (PMID35427477_organism_subject-05), and subject_accession ().
+PMID35427477_subject_organism.txt	8	Information		The combined status for arm_or_cohort_id (PMID35427477_organism_subject-05) and table arm_or_cohort has values:  arm_or_cohort_required (no), arm_or_cohort_user_defined_id (PMID35427477_organism_subject-05), and arm_accession (ARM1000063030).
+PMID35427477_subject_organism.txt	8	Information		Adding User Defined ID "SUB1000063094:ARM1000063030:unknown:Johnson & Johnson COVID-19 vaccine:VO:0005159:COVID-19:DOID:0080600:Unknown" for table "immune_exposure"
+PMID35427477_subject_organism.txt		Parsed		Template: subjectanimals.txt, Size:1623 bytes
+PMID35427477_experiment_samples.txt		Parsing		Template: experimentsamples.other.txt, Size:6470 bytes
+PMID35427477_experiment_samples.txt		Information		Validation Level = Standard
+PMID35427477_experiment_samples.txt	3	Stored in:file_info		Size:6470 bytes
+PMID35427477_experiment_samples.txt	4	Information		The combined status for expsample_id (PMID35427477_expSample-01) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35427477_expSample-01), and expsample_accession ().
+PMID35427477_experiment_samples.txt	4	Information		The combined status for biosample_id (PMID35427477_biosampleID-01) and table biosample has values:  biosample_required (yes), biosample_user_defined_id (PMID35427477_biosampleID-01), and biosample_accession ().
+PMID35427477_experiment_samples.txt	4	Information		The combined status for experiment_id (PMID35427477_experimentID-01) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID35427477_experimentID-01), and experiment_accession ().
+PMID35427477_experiment_samples.txt	4	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "subject_user_defined_id" with value "PMID35427477_organism_subject-01, PMID35427477_organism_subject-02, PMID35427477_organism_subject-03, PMID35427477_organism_subject-04, PMID35427477_organism_subject-05" in the Table subject.  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-01".
+PMID35427477_experiment_samples.txt	4	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "user_defined_id" with value "PMID35427477_visit-01, PMID35427477_visit-03, PMID35427477_visit-04,PMID35427477_visit-05" in the Table planned_visit.  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-01".
+pointerToExperimentalData.txt	10	Stored in:file_info		Size:137 bytes
+PMID35427477_experiment_samples.txt	4	Error	biosample study_accession "SDY1000063022" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "SDY1000063022" in field "subject_accession" "".  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-01".
+PMID35427477_experiment_samples.txt	4	Error	The study_accession for the biological sample is not the same as for the planned visit	The check uses fields ["study_accession", "planned_visit_study_accession"] whose values are [SDY1000063022, ].  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-01".
+PMID35427477_experiment_samples.txt	4	Error	Missing conditional required value	The Rule check "Required Column" for Field "Study Time Collected".  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-01".
+PMID35427477_experiment_samples.txt	5	Information		The combined status for expsample_id (PMID35427477_expSample-02) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35427477_expSample-02), and expsample_accession ().
+PMID35427477_experiment_samples.txt	5	Information		The combined status for biosample_id (PMID35427477_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35427477_biosampleID-01), and biosample_accession (BS1000063108).
+PMID35427477_experiment_samples.txt	5	Information		The combined status for experiment_id (PMID35427477_experimentID-02) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID35427477_experimentID-02), and experiment_accession ().
+PMID35427477_experiment_samples.txt	5	Information		The parent accession biosample_study_accession (SDY1000063022) was set using the table biosample and biosample_accession (BS1000063108).
+PMID35427477_experiment_samples.txt	5	Information		The value in biosample_study_accession (SDY1000063022) is assigned to study_accession.
+PMID35427477_experiment_samples.txt	6	Information		The combined status for expsample_id (PMID35427477_expSample-03) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35427477_expSample-03), and expsample_accession ().
+PMID35427477_experiment_samples.txt	6	Information		The combined status for biosample_id (PMID35427477_biosampleID-01) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35427477_biosampleID-01), and biosample_accession (BS1000063108).
+PMID35427477_experiment_samples.txt	6	Information		The combined status for experiment_id (PMID35427477_experimentID-03) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID35427477_experimentID-03), and experiment_accession ().
+PMID35427477_experiment_samples.txt	6	Information		The parent accession biosample_study_accession (SDY1000063022) was set using the table biosample and biosample_accession (BS1000063108).
+PMID35427477_experiment_samples.txt	6	Information		The value in biosample_study_accession (SDY1000063022) is assigned to study_accession.
+PMID35427477_experiment_samples.txt	7	Information		The combined status for expsample_id (PMID35427477_expSample-04) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35427477_expSample-04), and expsample_accession ().
+PMID35427477_experiment_samples.txt	7	Information		The combined status for biosample_id (PMID35427477_biosampleID-02) and table biosample has values:  biosample_required (yes), biosample_user_defined_id (PMID35427477_biosampleID-02), and biosample_accession ().
+PMID35427477_experiment_samples.txt	7	Information		The combined status for experiment_id (PMID35427477_experimentID-04) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID35427477_experimentID-04), and experiment_accession ().
+PMID35427477_experiment_samples.txt	7	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "subject_user_defined_id" with value "PMID35427477_organism_subject-01, PMID35427477_organism_subject-02, PMID35427477_organism_subject-03, PMID35427477_organism_subject-04, PMID35427477_organism_subject-05" in the Table subject.  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-04".
+PMID35427477_experiment_samples.txt	7	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "user_defined_id" with value "PMID35427477_visit-01, PMID35427477_visit-03, PMID35427477_visit-04,PMID35427477_visit-05" in the Table planned_visit.  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-04".
+PMID35427477_experiment_samples.txt	7	Error	Value reported in template does not match preferred vocabulary. See template documentation for preferred vocabulary terms.	The Lookup Table check "lk_sample_type" in field "Type" "Peripheral blood".  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-04".
+PMID35427477_experiment_samples.txt	7	Error	biosample study_accession "SDY1000063022" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "SDY1000063022" in field "subject_accession" "".  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-04".
+PMID35427477_experiment_samples.txt	7	Error	The study_accession for the biological sample is not the same as for the planned visit	The check uses fields ["study_accession", "planned_visit_study_accession"] whose values are [SDY1000063022, ].  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-04".
+PMID35427477_experiment_samples.txt	7	Error	Missing conditional required value	The Rule check "Required Column" for Field "Study Time Collected".  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-04".
+PMID35427477_experiment_samples.txt	8	Information		The combined status for expsample_id (PMID35427477_expSample-05) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35427477_expSample-05), and expsample_accession ().
+PMID35427477_experiment_samples.txt	8	Information		The combined status for biosample_id (PMID35427477_biosampleID-03) and table biosample has values:  biosample_required (yes), biosample_user_defined_id (PMID35427477_biosampleID-03), and biosample_accession ().
+PMID35427477_experiment_samples.txt	8	Information		The combined status for experiment_id (PMID35427477_experimentID-05) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID35427477_experimentID-05), and experiment_accession ().
+PMID35427477_experiment_samples.txt	8	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "subject_user_defined_id" with value "PMID35427477_organism_subject-01, PMID35427477_organism_subject-02, PMID35427477_organism_subject-03, PMID35427477_organism_subject-04, PMID35427477_organism_subject-05" in the Table subject.  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-05".
+PMID35427477_experiment_samples.txt	8	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "user_defined_id" with value "PMID35427477_visit-01, PMID35427477_visit-03, PMID35427477_visit-04,PMID35427477_visit-05" in the Table planned_visit.  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-05".
+PMID35427477_experiment_samples.txt	8	Error	Value reported in template does not match preferred vocabulary. See template documentation for preferred vocabulary terms.	The Lookup Table check "lk_sample_type" in field "Type" "PBMCs or inguinal LN cells".  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-05".
+PMID35427477_experiment_samples.txt	8	Error	biosample study_accession "SDY1000063022" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "SDY1000063022" in field "subject_accession" "".  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-05".
+PMID35427477_experiment_samples.txt	8	Error	The study_accession for the biological sample is not the same as for the planned visit	The check uses fields ["study_accession", "planned_visit_study_accession"] whose values are [SDY1000063022, ].  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-05".
+PMID35427477_experiment_samples.txt	8	Error	Missing conditional required value	The Rule check "Required Column" for Field "Study Time Collected".  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-05".
+PMID35427477_experiment_samples.txt	9	Information		The combined status for expsample_id (PMID35427477_expSample-06) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35427477_expSample-06), and expsample_accession ().
+PMID35427477_experiment_samples.txt	9	Information		The combined status for biosample_id (PMID35427477_biosampleID-04) and table biosample has values:  biosample_required (yes), biosample_user_defined_id (PMID35427477_biosampleID-04), and biosample_accession ().
+PMID35427477_experiment_samples.txt	9	Information		The combined status for experiment_id (PMID35427477_experimentID-06) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID35427477_experimentID-06), and experiment_accession ().
+PMID35427477_experiment_samples.txt	9	Error	User defined ID cannot be found in package or database	The user defined ID field(s) "subject_user_defined_id" with value "PMID35427477_organism_subject-01, PMID35427477_organism_subject-02, PMID35427477_organism_subject-03, PMID35427477_organism_subject-04, PMID35427477_organism_subject-05" in the Table subject.  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-06".
+PMID35427477_experiment_samples.txt	9	Error	Value reported in template does not match preferred vocabulary. See template documentation for preferred vocabulary terms.	The Lookup Table check "lk_sample_type" in field "Type" "bronchoalveolar lavage and nasal swab".  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-06".
+PMID35427477_experiment_samples.txt	9	Error	biosample study_accession "SDY1000063022" is not in study_accession list linked to subject_accession "[]"	The check-value-in-entity check "SDY1000063022" in field "subject_accession" "".  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-06".
+PMID35427477_experiment_samples.txt	10	Information		The combined status for expsample_id (PMID35427477_expSample-07) and table expsample has values:  expsample_required (yes), expsample_user_defined_id (PMID35427477_expSample-07), and expsample_accession ().
+PMID35427477_experiment_samples.txt	10	Information		The combined status for biosample_id (PMID35427477_biosampleID-04) and table biosample has values:  biosample_required (no), biosample_user_defined_id (PMID35427477_biosampleID-04), and biosample_accession (BS1000063158).
+PMID35427477_experiment_samples.txt	10	Information		The combined status for experiment_id (PMID35427477_experimentID-07) and table experiment has values:  experiment_required (yes), experiment_user_defined_id (PMID35427477_experimentID-07), and experiment_accession ().
+PMID35427477_experiment_samples.txt	10	Information		The parent accession biosample_study_accession (SDY1000063022) was set using the table biosample and biosample_accession (BS1000063158).
+PMID35427477_experiment_samples.txt	10	Information		The value in biosample_study_accession (SDY1000063022) is assigned to study_accession.
+PMID35427477_experiment_samples.txt	10	Error	Value reported in template does not match preferred vocabulary. See template documentation for preferred vocabulary terms.	The Lookup Table check "lk_exp_measurement_tech" in field "Measurement Technique" "Virus Neutralization Assay".  The row has ID field(s) "expsample_user_defined_id" and value "PMID35427477_expSample-07".
+PMID35427477_experiment_samples.txt		Failed		Template: experimentsamples.other.txt, Size:6470 bytes
+nobody_20220822_1000000079___aleliu_20220822_33968___test		Rejected		

@@ -1,0 +1,13 @@
+﻿The validation report is based on ImmPort workspace (workspace_id = 6661).
+The validation report was generated on 2022-08-25-13:13:13.
+The data package file submitted was /home/immport/data/immport-data-upload-server/webupload_drop_zone/aleliu_20220825_34227___TEST.
+
+File Name	Line Number	Status	Error Message	Description
+study_design_PMID_33478949.txt		Parsing		Template: study_design_edit.txt, Size:1042 bytes
+study_design_PMID_33478949.txt		Information		Validation Level = Standard
+study_design_PMID_33478949.txt	3	Stored in:file_info		Size:1042 bytes
+study_design_PMID_33478949.txt	7	Error	Missing required value	The Rule check "Required Column" for Field "Name".  The row has ID field(s) "User Defined ID" and value "PMID33478949".
+study_design_PMID_33478949.txt	7	Error	Not an integer	The Numeric Type check "positive" in field "Order Number" "PMID33478949_assessment_recorded_pv".  The row has ID field(s) "User Defined ID" and value "PMID33478949".
+study_design_PMID_33478949.txt	7	Error	Not a real number	The Numeric Type check "float" in field "Min Start Day" "Visit where an assessment is recorded".  The row has ID field(s) "User Defined ID" and value "PMID33478949".
+study_design_PMID_33478949.txt		Failed		Template: study_design_edit.txt, Size:1042 bytes
+nobody_20220825_1000000238___aleliu_20220825_34227___TEST		Rejected		
