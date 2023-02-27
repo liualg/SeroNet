@@ -23,7 +23,7 @@ This script is compatibale with Registry Version v1.2.3 - 1.3
     - Assumption, is there is no SARS-CoV-2 Antigen curated, then the script will say "no reagents curated"
 
 
-1.4
+1.3.1
     -Addded Json
     - added more vlidators 
     - cleaned up code 
