@@ -1,0 +1,21 @@
+04/06/2023 10:41:13 AM INFO:: [User Change] Not Specified => Not Applicable
+04/06/2023 04:54:36 PM [INFO]:: [Fuzzy] COVID 19 => COVID-19 : score 88
+04/06/2023 04:54:42 PM INFO:: [User Change] Not Specified => Not Applicable
+04/06/2023 04:54:42 PM [INFO]:: [Fuzzy] US  Colorado => US: Colorado : score 92
+04/06/2023 04:54:42 PM [INFO]:: [Fuzzy] Cross sectional Study => Cross-sectional Study : score 95
+04/06/2023 04:54:46 PM INFO:: [User Change] Covid 19 => Colitis
+04/06/2023 04:54:46 PM [INFO]:: [Fuzzy] SARS CoV 2 WA1 2020  D614G variant => SARS-CoV-2 WA1/2020 (D614G variant) : score 87
+04/06/2023 04:54:46 PM [INFO]:: [Fuzzy] US  Ohio => US: Ohio : score 88
+04/06/2023 04:54:51 PM INFO:: [User Change] Post acute sequelae of COVID 19     4 weeks => Post-acute sequelae of COVID-19 (>= 4 weeks)
+04/06/2023 04:54:51 PM [INFO]:: [Fuzzy] US  Ohio => US: Ohio : score 88
+04/06/2023 04:54:51 PM Previous Input: SARS-CoV-2 Symptoms, Post acute sequelae of COVID 19     4 weeks => Post-acute sequelae of COVID-19 (>= 4 weeks)
+04/06/2023 04:54:51 PM [INFO]:: [Fuzzy] US  Ohio => US: Ohio : score 88
+04/06/2023 04:54:51 PM Previous Input: SARS-CoV-2 Symptoms, Post acute sequelae of COVID 19     4 weeks => Post-acute sequelae of COVID-19 (>= 4 weeks)
+04/06/2023 04:54:51 PM [INFO]:: [Fuzzy] US  Ohio => US: Ohio : score 88
+04/06/2023 04:54:51 PM INFO:: [Fuzzy] Closest Match Found. Changing OH => US: Ohio
+04/06/2023 04:54:51 PM [INFO]:: [Fuzzy] SARS CoV 2 => SARS-CoV-2 : score 80
+04/06/2023 04:54:51 PM [INFO]:: [Fuzzy] SARS CoV 2 => SARS-CoV-2 : score 80
+04/06/2023 04:54:51 PM [INFO]:: [Fuzzy] SARS CoV => SARS-CoV : score 88
+04/06/2023 04:54:51 PM [INFO]:: [Fuzzy] SARS CoV 2 WA1 2020  D614G variant => SARS-CoV-2 WA1/2020 (D614G variant) : score 87
+04/06/2023 04:54:51 PM [INFO]:: [Fuzzy] Western blotting => Western Blot : score 79
+04/06/2023 04:54:51 PM [INFO]:: [Fuzzy] SARS CoV 2 => SARS-CoV-2 : score 80

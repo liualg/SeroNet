@@ -1,0 +1,181 @@
+{
+    "pubmed_id": 33479118,
+    "study_identifier": "PMID33479118 study 01",
+    "study_name": "Model informed COVID 19 vaccine prioritization strategies by age and serostatus",
+    "publication_title": "Model informed COVID 19 vaccine prioritization strategies by age and serostatus",
+    "study_objective": "To quantify the impact of COVID 19 vaccine prioritization strategies on cumulative incidence  mortality  and years of life lost.",
+    "study_description": "Limited initial supply of severe acute respiratory syndrome coronavirus 2  SARS CoV 2  vaccine raises the question of how to prioritize available doses. We used a mathematical model to compare five age stratified prioritization strategies. A highly effective transmission blocking vaccine prioritized to adults ages 20 to 49 years minimized cumulative incidence  but mortality and years of life lost were minimized in most scenarios when the vaccine was prioritized to adults greater than 60 years old. Use of individual level serological tests to redirect doses to seronegative individuals improved the marginal impact of each dose while potentially reducing existing inequities in COVID 19 impact. Although maximum impact prioritization strategies were broadly consistent across countries  transmission rates  vaccination rollout speeds  and estimates of naturally acquired immunity  this framework can be used to compare impacts of prioritization strategies across contexts.",
+    "primary_institution_name": "University of Colorado",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID33479118_personnel-01",
+            "honorific": "",
+            "last_name": "Lipsitch",
+            "first_name": "Marc",
+            "suffixes": "",
+            "organization": "Harvard T.H. Chan School of Public Health",
+            "orchid_id": "",
+            "email": "mlipsitc hsph.harvard.edu",
+            "seronet_title_in_study": "SeroNet Principal Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Harvard T.H. Chan School of Public Health"
+        },
+        {
+            "personnel_id": "PMID33479118_personnel-02",
+            "honorific": "",
+            "last_name": "Larremore",
+            "first_name": "Daniel",
+            "suffixes": "",
+            "organization": "University of Colorado",
+            "orchid_id": "",
+            "email": "daniel.larremore colorado.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Corresponding Author",
+            "site_name": "University of Colorado"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID33479118-sm.pdf",
+            "study_file_description": "Supplementary materials include Susceptible Exposed Infectious Recovered  SEIR  Model Overview.",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID33479118_v1.3.3.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "PMID33479118_JSON.json",
+            "study_file_description": "JSON format of completed curation of the study into SeroNet Registry Template.",
+            "study_file_type": "JSON Summary Description"
+        },
+        {
+            "study_file_name": "PMID33479118_publication.pdf",
+            "study_file_description": "Publication in PDF format.",
+            "study_file_type": "Study Data"
+        }
+    ],
+    "study_link": [
+        {
+            "link_name": "Zenodo",
+            "value": "https   zenodo.org record 4455593 .ZAEXHnbMI2w"
+        }
+    ],
+    "research_focus": "No Research Focus Specified",
+    "study_type": "Epidemiological Research",
+    "keyword": [
+        "Adolescent",
+        "Adult",
+        "Age Factors",
+        "Aged",
+        "Antibodies",
+        "Viral blood",
+        "COVID-19 epidemiology",
+        "mortality",
+        "Prevention & control",
+        "transmission",
+        "cOVID-19 Vaccines administration & dosage",
+        "COVID-19 Vaccines / immunology",
+        "Child",
+        "Health Priorities",
+        "Humans",
+        "Immunogenicity",
+        "Vaccine",
+        "Mass Vaccination",
+        "Middle Aged",
+        "Models",
+        "Theoretical",
+        "SARS-CoV-2 immunology",
+        "Seroepidemiologic Studies",
+        "Young Adult"
+    ],
+    "clinical_study_design": "Not Applicable",
+    "in_silico_model_type": "Mathematical Model",
+    "protocol": {
+        "protocol_id": "PMID33479118 protocol 01",
+        "protocol_file_name": "PMID33479118 protocol 01.txt",
+        "protocol_name": "PMID33479118 protocol 01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "COVID-19"
+    ],
+    "sars_cov_2_variant": [
+        "Not Applicable"
+    ],
+    "sars_cov_2_vaccine_type": [
+        "Not Applicable"
+    ],
+    "clinical_outcome_measure": "Not Applicable",
+    "enrollment_start_date": "",
+    "enrollment_end_date": "",
+    "number_of_study_subjects": "",
+    "age_unit": "Years",
+    "minimum_age": "",
+    "maximum_age": "",
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID33479118_human_subject-01",
+            "arm_name": "Model informed approach for vaccination",
+            "study_population_description": "Model informed approach for five vaccine prioritization strategies  1. children and teenagers  2. adults between ages 20 and 49 years  3. adults 20 years or older  4. adults 60 years or older  5. All individuals.",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [
+                "Not Applicable"
+            ],
+            "study_location": [
+                "US: Colorado"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [],
+    "planned_visit": [
+        {
+            "visit_id": "PMID33479118_visit-01",
+            "visit_name": "Model informed approach for vaccination.",
+            "visit_order_number": 1,
+            "visit_min_start_day": 0,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [],
+    "geriatric_subjects": "Not Specified",
+    "pediatric_subjects": "Not Specified",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "Not Specified",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID33479118_inexcl-01",
+            "inclusion_criterion": "Not Applicable",
+            "inclusion_criterion_category": "Inclusion"
+        }
+    ],
+    "status_note": "No actual or novel individual level data available."
+}

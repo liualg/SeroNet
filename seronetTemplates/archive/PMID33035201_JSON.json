@@ -1,0 +1,549 @@
+{
+    "pubmed_id": 33035201,
+    "study_identifier": "PMID33035201 study 01",
+    "study_name": "Neutralizing antibody against SARS CoV 2 spike in COVID 19 patients  health care workers  and convalescent plasma donors",
+    "publication_title": "Neutralizing antibody against SARS CoV 2 spike in COVID 19 patients  health care workers  and convalescent plasma donors",
+    "study_objective": "To describe a sensitive and reliable SARS CoV 2 S bearing lentivirus inGluc neutralization assay that is validated by the authentic SARS CoV 2 plaque reduction assay",
+    "study_description": "Rapid and specific antibody testing is crucial for improved understanding  control  and treatment of COVID 19 pathogenesis. Herein  we describe and apply a rapid  sensitive  and accurate virus neutralization assay for SARS CoV 2 antibodies. The assay is based on an HIV 1 lentiviral vector that contains a secreted intron Gaussia luciferase  Gluc  or secreted nano luciferase reporter cassette  pseudotyped with the SARS CoV 2 spike  S  glycoprotein  and is validated with a plaque reduction assay using an authentic  infectious SARS CoV 2 strain. The assay was used to evaluate SARS CoV 2 antibodies in serum from individuals with a broad range of COVID 19 symptoms  patients included those in the intensive care unit  ICU   health care workers  HCWs   and convalescent plasma donors. The highest neutralizing antibody titers were observed among ICU patients  followed by general hospitalized patients  HCWs  and convalescent plasma donors. Our study highlights a wide phenotypic variation in human antibody responses against SARS CoV 2 and demonstrates the efficacy of a potentially novel lentivirus pseudotype assay for high throughput serological surveys of neutralizing antibody titers in large cohorts.",
+    "primary_institution_name": "Ohio State University",
+    "study_personnel": [
+        {
+            "personnel_id": "PMID33035201_personnel-01",
+            "honorific": "",
+            "last_name": "Oltz",
+            "first_name": "Eugene",
+            "suffixes": "",
+            "organization": "OSU",
+            "orchid_id": "",
+            "email": "Eugene.Oltz osumc.edu",
+            "seronet_title_in_study": "SeroNet Principal Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Department of Microbial Infection and Immunity  Ohio State University  OSU"
+        },
+        {
+            "personnel_id": "PMID33035201_personnel-02",
+            "honorific": "",
+            "last_name": "Liu",
+            "first_name": "Shan Lu",
+            "suffixes": "",
+            "organization": "OSU",
+            "orchid_id": "",
+            "email": "liu6244 osu.edu",
+            "seronet_title_in_study": "Corresponding author",
+            "role_in_study": "Corresponding Author",
+            "site_name": "Department of Microbial Infection and Immunity  Ohio State University  OSU"
+        },
+        {
+            "personnel_id": "PMID33035201_personnel-03",
+            "honorific": "",
+            "last_name": "Lozanski",
+            "first_name": "Gerard",
+            "suffixes": "",
+            "organization": "Ohio State University",
+            "orchid_id": "",
+            "email": "gerard.lozanski osumc.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Ohio State University"
+        },
+        {
+            "personnel_id": "PMID33035201_personnel-04",
+            "honorific": "",
+            "last_name": "Saif",
+            "first_name": "Linda",
+            "suffixes": "",
+            "organization": "Ohio State University",
+            "orchid_id": "",
+            "email": "saif.2 osu.edu   SSC",
+            "seronet_title_in_study": "SeroNet Principal Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Ohio State University"
+        },
+        {
+            "personnel_id": "PMID33035201_personnel-05",
+            "honorific": "",
+            "last_name": "Yount",
+            "first_name": "Jacob",
+            "suffixes": "",
+            "organization": "Ohio State University",
+            "orchid_id": "",
+            "email": "jacob.yount osumc.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Ohio State University"
+        },
+        {
+            "personnel_id": "PMID33035201_personnel-06",
+            "honorific": "",
+            "last_name": "Hall Stoodley",
+            "first_name": "Luanne",
+            "suffixes": "",
+            "organization": "Ohio State University Medical Center",
+            "orchid_id": "",
+            "email": "luanne.hall stoodley osumc.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Ohio State University Medical Center"
+        },
+        {
+            "personnel_id": "PMID33035201_personnel-07",
+            "honorific": "",
+            "last_name": "Robinson",
+            "first_name": "Richard",
+            "suffixes": "",
+            "organization": "Ohio State University Medical Center",
+            "orchid_id": "",
+            "email": "richard.robinson osumc.edu",
+            "seronet_title_in_study": "SeroNet Investigator",
+            "role_in_study": "Investigator",
+            "site_name": "Ohio State University Medical Center"
+        }
+    ],
+    "study_file": [
+        {
+            "study_file_name": "PMID33035201_Data_OSU_Liu lab.xlsx",
+            "study_file_description": "Subject age  sex  and cohort information. ELISA results  and VNA results",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID33035201_v1.3.2.xlsm",
+            "study_file_description": "Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors",
+            "study_file_type": "Study Summary Description"
+        },
+        {
+            "study_file_name": "PMID33035201_publication.pdf",
+            "study_file_description": "Publication in PDF format.",
+            "study_file_type": "Study Data"
+        },
+        {
+            "study_file_name": "PMID33035201_JSON.json",
+            "study_file_description": "JSON format of completed curation of the study into SeroNet Registry Template",
+            "study_file_type": "JSON Summary Description"
+        }
+    ],
+    "study_link": [],
+    "research_focus": "Immune Response",
+    "study_type": "Clinical Research",
+    "keyword": [
+        "COVID-19",
+        "Cellular immune response"
+    ],
+    "clinical_study_design": "Cross-sectional Study",
+    "in_silico_model_type": "Not Applicable",
+    "protocol": {
+        "protocol_id": "PMID33035201 protocol 01",
+        "protocol_file_name": "PMID33035201 protocol 01 OSU Liu lab.txt",
+        "protocol_name": "PMID33035201 protocol 01",
+        "protocol_description": "Study Protocol",
+        "protocol_type": "Study Protocol"
+    },
+    "reported_health_condition": [
+        "Colitis"
+    ],
+    "sars_cov_2_variant": [
+        "SARS-CoV-2 WA1/2020 (D614G variant)"
+    ],
+    "sars_cov_2_vaccine_type": [],
+    "clinical_outcome_measure": "Neutralizing antibody response",
+    "enrollment_start_date": "2020-04-01",
+    "enrollment_end_date": "2020-05-01",
+    "number_of_study_subjects": 221,
+    "age_unit": "Years",
+    "minimum_age": "",
+    "maximum_age": "",
+    "study_human_cohort": [
+        {
+            "arm_id": "PMID33035201_aoc-01",
+            "arm_name": "Hospitalized COVID 19 inpatients",
+            "study_population_description": "Hospitalized COVID 19 inpatients  n 49",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Ohio"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [
+                "Post-acute sequelae of COVID-19 (>= 4 weeks)"
+            ],
+            "assessment_clinical_and_demographic_data_provenance": [
+                "Directly Measured"
+            ],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Severe"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID33035201_aoc-02",
+            "arm_name": "Hospitalized COVID 19 ICU patients",
+            "study_population_description": "Hospitalized COVID 19 ICU patients  n 55 inpatients",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Ohio"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [
+                "Post-acute sequelae of COVID-19 (>= 4 weeks)"
+            ],
+            "assessment_clinical_and_demographic_data_provenance": [
+                "Directly Measured"
+            ],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Severe"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID33035201_aoc-03",
+            "arm_name": "OSU Health Care Workers",
+            "study_population_description": "OSU Health Care Workers  n 42",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Ohio"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [
+                "Post-acute sequelae of COVID-19 (>= 4 weeks)"
+            ],
+            "assessment_clinical_and_demographic_data_provenance": [
+                "Directly Measured"
+            ],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Infected"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Unknown"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        },
+        {
+            "arm_id": "PMID33035201_aoc-04",
+            "arm_name": "Blinded convalescent plasma donors",
+            "study_population_description": "Controls  n 38   Blinded convalescent plasma donors n 37",
+            "arm_type": "Observational",
+            "ethnicity": [
+                "Not Specified"
+            ],
+            "race": [
+                "Not Specified"
+            ],
+            "race_specify": [],
+            "description": "",
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "assessment_name": [],
+            "study_location": [
+                "US: Ohio"
+            ],
+            "measured_behavioral_or_pyschological_factor": [],
+            "measured_social_factor": [],
+            "sars_cov_2_symptoms": [
+                "Unknown"
+            ],
+            "assessment_clinical_and_demographic_data_provenance": [],
+            "assessment_demographic_data_types_collected": [],
+            "sars_cov_2_history": [
+                "Unknown"
+            ],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Unknown"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "study_model_cohort": [
+        {
+            "arm_id": "PMID33035201_aoc-05",
+            "arm_name": "HEK293T cells",
+            "study_population_description": "HEK293T cells transfected with ACE2 lentiviral vector",
+            "arm_type": "Observational",
+            "genus_and_species": [
+                "Homo sapiens"
+            ],
+            "biosample_type": [
+                "Cell Line"
+            ],
+            "strain_characteristics": [],
+            "sex_at_birth": [
+                "Not specified"
+            ],
+            "age_event": "Not Specified",
+            "subject_phenotype": "",
+            "study_location": [
+                "US: Ohio"
+            ],
+            "sars_cov_2_history": [],
+            "sars_cov_2_vaccine_type": [],
+            "covid_19_disease_severity": [
+                "Unknown"
+            ],
+            "post_covid_19_symptoms": [],
+            "covid_19_complications": []
+        }
+    ],
+    "planned_visit": [
+        {
+            "visit_id": "PMID33035201_pv_01",
+            "visit_name": "Blood collected",
+            "visit_order_number": 1,
+            "visit_min_start_day": 1,
+            "visit_max_start_day": "",
+            "visit_start_rule": ""
+        }
+    ],
+    "experiment": [
+        {
+            "arm_id": [
+                "PMID33035201 aoc 01   PMID33035201 aoc 02   PMID33035201 aoc 03   PMID33035201 aoc 04"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33035201 pv 01"
+            ],
+            "assay_type": "PCR",
+            "experiment_name": "RT PCR test to confirm positive for SARS CoV 2",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Plasma",
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID33035201 aoc 01   PMID33035201 aoc 02   PMID33035201 aoc 03   PMID33035201 aoc 04"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33035201 pv 01"
+            ],
+            "assay_type": "Pseudovirus Neutralization Assay",
+            "experiment_name": "Accurate virus neutralization assay",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Plasma",
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV",
+                "SARS-CoV-2 WA1/2020 (D614G variant)",
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "50  Neutralization End point",
+            "assay_reporting_format": "Quantitative"
+        },
+        {
+            "arm_id": [
+                "PMID33035201 aoc 01   PMID33035201 aoc 02   PMID33035201 aoc 03   PMID33035201 aoc 04"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33035201 pv 01"
+            ],
+            "assay_type": "Plaque Reduction Neutralization Assay",
+            "experiment_name": "Infectious virus plaque reduction neutralization assay",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [
+                "Other"
+            ],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID33035201 aoc 01   PMID33035201 aoc 02   PMID33035201 aoc 03   PMID33035201 aoc 04"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33035201 pv 01"
+            ],
+            "assay_type": "Flow Cytometry",
+            "experiment_name": "Flow cytometry analysis of S expression on the cell surface by soluble ACE2 hFc",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Other"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID33035201 aoc 01   PMID33035201 aoc 02   PMID33035201 aoc 03   PMID33035201 aoc 04"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33035201 pv 01"
+            ],
+            "assay_type": "Western Blot",
+            "experiment_name": "Western blotting",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Other"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [],
+            "assay_use": "",
+            "manufacture": "",
+            "catalog_number": "",
+            "virus_target": [],
+            "antibody_isotype": [],
+            "reporting_units": "",
+            "assay_reporting_format": ""
+        },
+        {
+            "arm_id": [
+                "PMID33035201 aoc 01   PMID33035201 aoc 02   PMID33035201 aoc 03   PMID33035201 aoc 04"
+            ],
+            "associated_first_planned_visit_id": [
+                "PMID33035201 pv 01"
+            ],
+            "assay_type": "ELISA",
+            "experiment_name": "ELISA",
+            "experiment_results_file_name": "na",
+            "biospecimen_type": [
+                "Serum"
+            ],
+            "biospecimen_collection_point": [
+                "Other"
+            ],
+            "sars_cov_2_antigen": [
+                "Nucleocapsid"
+            ],
+            "assay_use": "",
+            "manufacture": "components from multiple manufacturers",
+            "catalog_number": "",
+            "virus_target": [
+                "SARS-CoV-2"
+            ],
+            "antibody_isotype": [
+                "IgG"
+            ],
+            "reporting_units": "OD",
+            "assay_reporting_format": "Quantitative"
+        }
+    ],
+    "geriatric_subjects": "Yes",
+    "pediatric_subjects": "Not Specified",
+    "pregnant_subjects": "Not Specified",
+    "sars_cov_2_antibodies_measured": "Not Specified",
+    "survey_instrument_shared": "Not Specified",
+    "who_disease_severity_scale_used": "Not Specified",
+    "inclusion_exclusion": [
+        {
+            "inclusion_exculusion_id": "PMID33035201_aoc-01",
+            "inclusion_criterion": "Hospitalized COVID 19 inpatients",
+            "inclusion_criterion_category": "Inclusion"
+        },
+        {
+            "inclusion_exculusion_id": "PMID33035201_inexcl-02",
+            "inclusion_criterion": "Geriatric subjects",
+            "inclusion_criterion_category": "Inclusion"
+        }
+    ],
+    "status_note": "Data at individual level available."
+}

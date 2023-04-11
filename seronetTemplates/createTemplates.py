@@ -15,7 +15,7 @@ parser.add_argument(
         '--Dev',
         '-d',
         required=False,
-        help="Help with running batch scripts. It will bypass the GUI and allow you to run script"
+        help="Help with running batch scripts. It will bypass the GUI and run script"
     )
 
 parser.add_argument(
@@ -75,7 +75,7 @@ else:
       x1 = entry1.get()
       print(f"Doing Full Curation for: {x1}")
       root.destroy()
-      create_full(x1.strip())
+      create_short(x1.strip())
 
    def runBasicCuration(multiple=False):
       x1 = entry1.get()

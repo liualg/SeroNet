@@ -1,0 +1,38 @@
+DR48-Edits that needed to be made
+
+
+General Notes: 
+[SARS-CoV2 History] Designate replacement word for Not Specified vs Not Applicable
+[COVID-19 Disease Severity] Designate replacement word for Not Specified => unknown
+[Virus Strain] Designate replacement word for: Not Specified => not applicable
+Critical => severe
+[Study Location] Designate replacement word for: Other
+
+EDITS:
+34952892 - condition or disease 'float' object has no attribute 'replace' (asking renuka to replace) ** wait **
+34835131 - [Reported Health Condition] Designate replacement word for SARS-CoV-1 (ME) -> manual edit to Covid 19, leave sars-cov-1 in virus variant. 
+
+
+Fixed Notes:
+35427477 - FIX. not working. PBMCs or inguinal LN cells. bronchoalveolar lavage and nasal swab: (done)
+35148837 - FIX.  associated planned visit id: expected string or bytes-like object (done)
+
+33142304 - Rectal Swab (ME)
+33065030 - FIX.   Fluorescent Antibody Procedure (added to list)
+33830946 - [Arm Type [ImmPort only]] Designate replacement word for: Cell Line, 
+    [Biosample Type [in vitro Model; ImmPort only]] Designate replacement word for Not specified: more
+33993265 - FIX.   Immune Response | Vaccine Response (ME). [Assay Type] Designate replacement word for: PCR - Pre-vaccination (ME)
+
+33961839 - FIX.  [Assay Type] Designate replacement word for: In situ hybridization (added to template)
+33169014 - FIX.  [SARS-CoV2 History] Designate replacement word for Mild: more
+    [Study Location] Designate replacement word for: Other (ME)
+    
+33571162 - FIX.  [Study Location] Designate replacement word for: MD (Me)
+33727353 - FIX.  [Arm Type [ImmPort only]] Designate replacement word for Uninfected control (done)
+
+
+===========
+33622794 - rectal swab (done)
+33830946 - cell line (done)
+35390296 - change reported health condition (done_)
+    

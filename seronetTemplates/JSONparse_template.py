@@ -15,6 +15,7 @@ import sys
 '''
 v1.4
 - Updated Logs
+- Yes / Include was changed -- please checkdr
 '''
 CD = os.getcwd()
 
@@ -191,9 +192,13 @@ for column in sheet.iter_cols( #sheet.max_column,
         pass
 
 
-
+# I want a dict per study to memorize the choices i made
+# it to be the table name
+# table_name, the word im checking, the outcome from last time
+df_check = pd.DataFrame(columns=['field','lookup_word','user_input'])
 
 def get_closest_lookup(word, lookup_table, table_name):
+    global df_check
     correct_word = ''
     closest_lookup = ''
     check_list = []
@@ -231,9 +236,10 @@ def get_closest_lookup(word, lookup_table, table_name):
                 logging.info(f"[INFO]:: [Fuzzy] {word} => {check_list[0][0]} : score {check_list[0][1]}")
                 closest_lookup = check_list[0][0]
 
+
             elif len(check_list) > 1:
                 check_list.sort(key=lambda a: a[1], reverse=True)
-
+                previous_inputs = df_check['user_input'][(df_check['field']==table_name) & (df_check['lookup_word'] == word)]
 
                 if float(check_list[0][1])/np.std([n[1] for n in check_list]) >= 3 and float(check_list[0][1]) > 75: #checking if i cann bypass the score choice (stat. sig.)
                 # if float(check_list[0][1])/np.std([n[1] for n in check_list[:3]]) >= 3: #checking if i cann bypass the score choice (stat. sig.)
@@ -241,6 +247,12 @@ def get_closest_lookup(word, lookup_table, table_name):
                     print(f"[INFO]:: [Fuzzy] {word} => {check_list[0][0]} : score {check_list[0][1]}")
                     logging.info(f"[INFO]:: [Fuzzy] {word} => {check_list[0][0]} : score {check_list[0][1]}")
                     closest_lookup = check_list[0][0]
+
+                # checking to see if work exists in the choice table already
+                elif len(previous_inputs) > 0:
+                    closest_lookup = previous_inputs[0]
+                    print(f"Previous Input: {table_name}, {word} => {previous_inputs[0]}")
+                    logging.info(f"Previous Input: {table_name}, {word} => {previous_inputs[0]}")
 
                 else:
                     
@@ -271,6 +283,7 @@ def get_closest_lookup(word, lookup_table, table_name):
 
                     closest_lookup = check_list[int(user_resp)-1][0]
                     logging.info(f"INFO:: [User Change] {word} => {closest_lookup}")
+                    df_check = pd.concat([df_check, pd.DataFrame({'field':[table_name],'lookup_word':[word],'user_input':[closest_lookup]})])
 
             else:
                 pass
@@ -531,7 +544,7 @@ def parse_variant(df, template):
     for v in values:
         variant_types.append(cleanData(v))
 
-    template['sars_cov_2_variant'] = check_spelling(variant_types, 'virus_target')
+    template['sars_cov_2_variant'] = list(set(check_spelling(variant_types, 'virus_target')))
 
 def parse_intervention(df, template):
     """Parse the Intervention Agent line
@@ -589,44 +602,84 @@ def parse_inclusion_exclusion(df, template):
                "inclusion_criterion": parse_clean_sv(df, INCLUSION_CRITERION, idx),
                "inclusion_criterion_category": parse_clean_sv(df, INCLUSION_CRITERION_CATEGORY, idx)
             }
+
+
+            inclusion_exclusion_crit = [
+            'Geriatric subjects', 'Pediatric subjects','SARS-CoV-2 Antibodies Measured',
+            'Survey Instrument shared','WHO disease severity scale used'
+            ]
+
+            def check_ic_list(inputs1, obj1, template1):
+                for i in inputs1:
+                    i_lower = i.lower().replace(' ','_').replace('-','_')
+
+                    if  obj1['inclusion_criterion'] == i:
+                        if obj['inclusion_criterion_category'].lower() == 'inclusion':
+                            template1[i_lower] = "Yes"
+
+                        elif obj1['inclusion_criterion_category'].lower() == 'yes':
+                            template1[i_lower] = "Yes"
+                            obj1['inclusion_criterion_category'] = 'Inclusion'
+
+                        elif obj1['inclusion_criterion_category'].lower() == 'no':
+                            template1[i_lower] = "No"
+                            obj1['inclusion_criterion_category'] = 'Exclusion'
+
+                        else:
+                            template1[i_lower] = "No"
+                    else:
+                        if obj1['inclusion_criterion_category'].lower() == 'yes':
+                            obj1['inclusion_criterion_category'] = 'Inclusion'
+
+                        elif obj1['inclusion_criterion_category'].lower() == 'no':
+                            obj1['inclusion_criterion_category'] = 'Exclusion'
+                        else:
+                            pass
+
+                return obj1
+
+
+            obj = check_ic_list(inclusion_exclusion_crit,obj, template)
+
             inclusion_exclusion.append(obj)
-            include_cri = ["inclusion", "yes"]
             
-            if  obj['inclusion_criterion'] == "Geriatric subjects":
-                if obj['inclusion_criterion_category'].lower() in include_cri :
-                    template['geriatric_subjects'] = "Yes"
-                else:
-                    template['geriatric_subjects'] = "No"
+            # include_cri = ["inclusion", "yes"]
+            
+            # if  obj['inclusion_criterion'] == "Geriatric subjects":
+            #     if obj['inclusion_criterion_category'].lower() in include_cri :
+            #         template['geriatric_subjects'] = "Yes"
+            #     else:
+            #         template['geriatric_subjects'] = "No"
 
-            if  obj['inclusion_criterion'] == "Pediatric subjects":
-                if obj['inclusion_criterion_category'].lower() in include_cri:
-                    template['pediatric_subjects'] = "Yes"
-                else:
-                    template['pediatric_subjects'] = "No"
+            # if  obj['inclusion_criterion'] == "Pediatric subjects":
+            #     if obj['inclusion_criterion_category'].lower() in include_cri:
+            #         template['pediatric_subjects'] = "Yes"
+            #     else:
+            #         template['pediatric_subjects'] = "No"
 
-            if  obj['inclusion_criterion'] == "Pregnant subjects":
-                if obj['inclusion_criterion_category'].lower() in include_cri:
-                    template['pregnant_subjects'] = "Yes"
-                else:
-                    template['pregnant_subjects'] = "No"
+            # if  obj['inclusion_criterion'] == "Pregnant subjects":
+            #     if obj['inclusion_criterion_category'].lower() in include_cri:
+            #         template['pregnant_subjects'] = "Yes"
+            #     else:
+            #         template['pregnant_subjects'] = "No"
 
-            if  obj['inclusion_criterion'] == "SARS-CoV-2 Antibodies Measured":
-                if obj['inclusion_criterion_category'].lower()  in include_cri:
-                    template['sars_cov_2_antibodies_measured'] = "Yes"
-                else:
-                    template['sars_cov_2_antibodies_measured'] = "No"
+            # if  obj['inclusion_criterion'] == "SARS-CoV-2 Antibodies Measured":
+            #     if obj['inclusion_criterion_category'].lower()  in include_cri:
+            #         template['sars_cov_2_antibodies_measured'] = "Yes"
+            #     else:
+            #         template['sars_cov_2_antibodies_measured'] = "No"
 
-            if  obj['inclusion_criterion'] == "Survey Instrument shared":
-                if obj['inclusion_criterion_category'].lower() in include_cri:
-                    template['survey_instrument_shared'] = "Yes"
-                else:
-                    template['survey_instrument_shared'] = "No"
+            # if  obj['inclusion_criterion'] == "Survey Instrument shared":
+            #     if obj['inclusion_criterion_category'].lower() in include_cri:
+            #         template['survey_instrument_shared'] = "Yes"
+            #     else:
+            #         template['survey_instrument_shared'] = "No"
 
-            if  obj['inclusion_criterion'] == "WHO disease severity scale used":
-                if obj['inclusion_criterion_category'].lower() in include_cri:
-                    template['who_disease_severity_scale_used'] = "Yes"
-                else:
-                    template['who_disease_severity_scale_used'] = "No"
+            # if  obj['inclusion_criterion'] == "WHO disease severity scale used":
+            #     if obj['inclusion_criterion_category'].lower() in include_cri:
+            #         template['who_disease_severity_scale_used'] = "Yes"
+            #     else:
+            #         template['who_disease_severity_scale_used'] = "No"
 
         else:
             pass
@@ -765,7 +818,7 @@ def parse_experiment(df, template):
                "assay_use": parse_clean_sv(df, ASSAY_USE, idx),
                "manufacture": parse_clean_sv(df, MANUFACTURER, idx),
                "catalog_number": parse_clean_sv(df, CATALOG_NUMBER, idx),
-               "virus_target": check_spelling(parse_clean_mv_split(df, VIRUS_TARGET, idx),'virus_target'),
+               "virus_target": list(set(check_spelling(parse_clean_mv_split(df, VIRUS_TARGET, idx),'virus_target'))),
                "antibody_isotype": parse_clean_mv_split(df, ANTIBODY_ISOTYPE, idx),
                "reporting_units": parse_clean_sv(df, REPORTING_UNITS, idx),
                "assay_reporting_format": parse_clean_sv(df, ASSAY_REPORTING_FORMAT, idx)
@@ -779,5 +832,5 @@ def parse_experiment(df, template):
 def parse_status_note(df, template):
     """Parse the Study Design section"""
 
-    template['status_note'] = replace_na(parse_clean_sv(df, STATUS_NOTE, 2))
+    template['status_note'] = re.sub('[^a-zA-Z0-9 \n\.]',' ', replace_na(parse_clean_sv(df, STATUS_NOTE, 2)))
 

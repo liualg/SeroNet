@@ -1,0 +1,767 @@
+34150933
+
+
+######  ACTION REQUIRED ###### 
+[Virus Strain] Designate replacement word for: Not Specified
+Top three choices:
+('Not Applicable', 52)
+('Hepatitis B', 25)
+('Hepatitis C', 25)
+[Virus Strain] Designate replacement word for: Not Specified: 1
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - STUDY
+34250518
+
+
+######  ACTION REQUIRED ###### 
+[Reported Health Condition] Designate replacement word for: Covid-19
+Top three choices:
+('Severe Covid-19', 70)
+('Critical Covid-19', 64)
+('Non-Severe Covid-19', 59)
+[Reported Health Condition] Designate replacement word for: Covid-19: more
+
+*** Please use a number to designate word you want substituted ***
+	-OR type more or more options
+	-OR type exit
+[Reported Health Condition] Designate replacement word for Covid-19: more
+1. ('Severe Covid-19', 70)
+2. ('Critical Covid-19', 64)
+3. ('Non-Severe Covid-19', 59)
+4. ('COVID-19', 50)
+
+*** Please use a number to designate word you want substituted ***
+	-OR type more or more options
+	-OR type exit
+[Reported Health Condition] Designate replacement word for Covid-19: 4
+Previous Input: Virus Strain, Not Specified => Not Applicable
+INFO:: [Fuzzy] Closest Match Found. Changing Pfizer-BioNTech => Pfizer-BioNTech SARS-CoV-2 vaccine
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+34308390
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - STUDY
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+34320281
+INFO:: [Fuzzy] Closest Match Found. Changing Pfizer-BioNTech => Pfizer-BioNTech SARS-CoV-2 vaccine
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan/2020 (original) => SARS-CoV-2 Wuhan/2020 : score 79
+[INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan/2020 (original) => SARS-CoV-2 Wuhan/2020 : score 79
+[INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan/2020 (original) => SARS-CoV-2 Wuhan/2020 : score 79
+[INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan/2020 (original) => SARS-CoV-2 Wuhan/2020 : score 79
+[INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan/2020 (original) => SARS-CoV-2 Wuhan/2020 : score 79
+34368647
+Previous Input: Virus Strain, Not Specified => Not Applicable
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - STUDY
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+34383889
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - STUDY
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+[INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+[INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+[INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+[INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+[INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+34546094
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+Previous Input: Virus Strain, Not Specified => Not Applicable
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - STUDY
+INFO:: [Fuzzy] Closest Match Found. Changing Positive control => Positive Control
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+35081612
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+Previous Input: Virus Strain, Not Specified => Not Applicable
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - STUDY
+35085183
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+Previous Input: Virus Strain, Not Specified => Not Applicable
+INFO:: [Fuzzy] Closest Match Found. Changing Johnson & Johnson => Johnson & Johnson SARS-CoV-2 vaccine
+INFO:: [Fuzzy] Closest Match Found. Changing Moderna => Moderna SARS-CoV-2 vaccine
+INFO:: [Fuzzy] Closest Match Found. Changing Pfizer-BioNTech => Pfizer-BioNTech SARS-CoV-2 vaccine
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+
+
+######  ACTION REQUIRED ###### 
+[Race] Designate replacement word for: Other
+Top three choices:
+('Other Race', 67)
+('Native Hawaiian or Other Pacific Islander', 22)
+[Race] Designate replacement word for: Other: 1
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+35180044
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005158 => Moderna COVID-19 vaccine; VO:0005157 : score 96
+35284808
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+35390296
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+[INFO]:: [Fuzzy] SARS-CoV-2 Omicron; B.1.1.529; BA.1 => SARS-CoV-2 Omicron; B.1.1.529 : score 91
+INFO:: [Fuzzy] Closest Match Found. Changing Pfizer-BioNTech => Pfizer-BioNTech SARS-CoV-2 vaccine
+INFO:: [Fuzzy] Closest Match Found. Changing Moderna => Moderna SARS-CoV-2 vaccine
+
+
+######  ACTION REQUIRED ###### 
+[Arm Type [ImmPort only]] Designate replacement word for: Vaccination | Treatment Arm
+Top three choices:
+('Treatment Arm', 65)
+('Vaccination', 58)
+('Active Comparator Arm', 46)
+[Arm Type [ImmPort only]] Designate replacement word for: Vaccination | Treatment Arm: 2
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+[INFO]:: [Fuzzy] SARS-CoV-2 Omicron; B.1.1.529; BA.1 => SARS-CoV-2 Omicron; B.1.1.529 : score 91
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+[INFO]:: [Fuzzy] SARS-CoV-2 Omicron; B.1.1.529; BA.1 => SARS-CoV-2 Omicron; B.1.1.529 : score 91
+35483404
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+
+
+######  ACTION REQUIRED ###### 
+[Reported Health Condition] Designate replacement word for: Pneumonia
+Top three choices:
+('Aspiration Pneumonia', 62)
+('Streptococcus Pneumonia', 56)
+[Reported Health Condition] Designate replacement word for: Pneumonia: 2
+Previous Input: Virus Strain, Not Specified => Not Applicable
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - STUDY
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: COVID-19 Disease Severity
+35576468
+
+
+######  ACTION REQUIRED ###### 
+[Clinical Study Design] Designate replacement word for: Epidemiological Model
+Top three choices:
+('Ecological Study', 59)
+('Adaptive Clinical Trial', 45)
+('Not Applicable', 40)
+[Clinical Study Design] Designate replacement word for: Epidemiological Model: 
+
+*** Please use a number to designate word you want substituted ***
+	-OR type more or more options
+	-OR type exit
+[Clinical Study Design] Designate replacement word for Epidemiological Model: more
+1. ('Ecological Study', 59)
+2. ('Adaptive Clinical Trial', 45)
+3. ('Not Applicable', 40)
+4. ('Longitudinal Study', 36)
+5. ('Cross-sectional Study', 33)
+6. ('Randomized Controlled Trial', 33)
+7. ('Case-control Study', 31)
+8. ('Nonrandomized Trial', 30)
+9. ('Prospective Cohort', 26)
+10. ('Retrospective Cohort', 24)
+11. ('Case Report', 19)
+12. ('Case Series', 19)
+13. ('Other', 8)
+
+*** Please use a number to designate word you want substituted ***
+	-OR type more or more options
+	-OR type exit
+[Clinical Study Design] Designate replacement word for Epidemiological Model: 13
+Previous Input: Virus Strain, Not Specified => Not Applicable
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - STUDY
+INFO:: [Fuzzy] Closest Match Found. Changing France => Metropolitan France
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+INFO:: [Fuzzy] Closest Match Found. Changing France => Metropolitan France
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+35704428
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+Previous Input: Virus Strain, Not Specified => Not Applicable
+INFO:: [Fuzzy] Closest Match Found. Changing Johnson & Johnson => Johnson & Johnson SARS-CoV-2 vaccine
+INFO:: [Fuzzy] Closest Match Found. Changing Moderna => Moderna SARS-CoV-2 vaccine
+INFO:: [Fuzzy] Closest Match Found. Changing Pfizer-BioNTech => Pfizer-BioNTech SARS-CoV-2 vaccine
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004988 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 97
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004988 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 97
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004988 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 97
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004988 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 97
+35756977
+35839768
+Previous Input: Virus Strain, Not Specified => Not Applicable
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - STUDY
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Symptoms
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: COVID-19 Disease Severity
+[INFO]:: [Fuzzy] SARS-Cov-2 => SARS-CoV-2 : score 90
+[INFO]:: [Fuzzy] SARS-Cov-2 => SARS-CoV-2 : score 90
+[INFO]:: [Fuzzy] SARS-Cov-2 => SARS-CoV-2 : score 90
+35881005
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - STUDY
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+35881010
+Previous Input: Virus Strain, Not Specified => Not Applicable
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - STUDY
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+35289637
+35040666
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+INFO:: [Fuzzy] Closest Match Found. Changing Mass spectrometry => Mass Spectrometry
+34523968
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+33704352
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+35504289
+35427477
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+[INFO]:: [Fuzzy] SARS-CoV-2 Omicron; B.1.1.529; BA.1 => SARS-CoV-2 Omicron; B.1.1.529 : score 91
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+[INFO]:: [Fuzzy] SARS-CoV-2 Omicron; B.1.1.529; BA.1 => SARS-CoV-2 Omicron; B.1.1.529 : score 91
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+[INFO]:: [Fuzzy] SARS-CoV-2 Omicron; B.1.1.529; BA.1 => SARS-CoV-2 Omicron; B.1.1.529 : score 91
+INFO:: [Fuzzy] Closest Match Found. Changing Peripheral blood => Peripheral Blood Mononuclear Cell (PBMC)
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+[INFO]:: [Fuzzy] SARS-CoV-2 Omicron; B.1.1.529; BA.1 => SARS-CoV-2 Omicron; B.1.1.529 : score 91
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+[INFO]:: [Fuzzy] SARS-CoV-2 Omicron; B.1.1.529; BA.1 => SARS-CoV-2 Omicron; B.1.1.529 : score 91
+INFO:: [Fuzzy] Closest Match Found. Changing bronchoalveolar lavage => Bronchoalveolar lavage
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+[INFO]:: [Fuzzy] SARS-CoV-2 Omicron; B.1.1.529; BA.1 => SARS-CoV-2 Omicron; B.1.1.529 : score 91
+[INFO]:: [Fuzzy] Neutralization Assay => Pseudovirus Neutralization Assay : score 77
+INFO:: [Fuzzy] Closest Match Found. Changing bronchoalveolar lavage => Bronchoalveolar lavage
+[INFO]:: [Fuzzy] Post-acute Sequelae of COVID-20 => Post-acute Sequelae of COVID-19 : score 94
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+[INFO]:: [Fuzzy] SARS-CoV-2 Omicron; B.1.1.529; BA.1 => SARS-CoV-2 Omicron; B.1.1.529 : score 91
+INFO:: [Fuzzy] Closest Match Found. Changing nasal swab => Nasal Swab
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+[INFO]:: [Fuzzy] SARS-CoV-2 Omicron; B.1.1.529; BA.1 => SARS-CoV-2 Omicron; B.1.1.529 : score 91
+[INFO]:: [Fuzzy] Neutralization Assay => Pseudovirus Neutralization Assay : score 77
+INFO:: [Fuzzy] Closest Match Found. Changing bronchoalveolar lavage => Bronchoalveolar lavage
+[INFO]:: [Fuzzy] Post-acute Sequelae of COVID-20 => Post-acute Sequelae of COVID-19 : score 94
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+[INFO]:: [Fuzzy] SARS-CoV-2 Omicron; B.1.1.529; BA.1 => SARS-CoV-2 Omicron; B.1.1.529 : score 91
+35148837
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+[INFO]:: [Fuzzy] SARS-CoV-2; B.1.526.2 => SARS-CoV-2 Mu; B.1.621 : score 84
+INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Theta; p.3 => SARS-CoV-2 Theta; P.3
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[INFO]:: [Fuzzy] Oxford–AstraZeneca COVID-19 vaccine; VO:0005158 => Moderna COVID-19 vaccine; VO:0005157 : score 80
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+[INFO]:: [Fuzzy] SARS-CoV-2; B.1.526.2 => SARS-CoV-2 Mu; B.1.621 : score 84
+INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Theta; p.3 => SARS-CoV-2 Theta; P.3
+35013325
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+35025672
+Previous Input: Race, Other => Other Race
+35455241
+34250512
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+Previous Input: Race, Other => Other Race
+INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+
+
+######  ACTION REQUIRED ###### 
+[SARS-CoV2 History] Designate replacement word for: Not Specified
+Top three choices:
+('Not vaccinated', 59)
+('Infected', 38)
+('Partially vaccinated', 36)
+[SARS-CoV2 History] Designate replacement word for: Not Specified: mo
+
+*** Please use a number to designate word you want substituted ***
+	-OR type more or more options
+	-OR type exit
+[SARS-CoV2 History] Designate replacement word for Not Specified: more
+1. ('Not vaccinated', 59)
+2. ('Infected', 38)
+3. ('Partially vaccinated', 36)
+4. ('Uninfected', 35)
+5. ('Vaccinated', 35)
+6. ('Booster', 30)
+7. ('N/A', 12)
+8. ('Unknown', 10)
+
+*** Please use a number to designate word you want substituted ***
+	-OR type more or more options
+	-OR type exit
+[SARS-CoV2 History] Designate replacement word for Not Specified: 7
+
+
+######  ACTION REQUIRED ###### 
+[COVID-19 Disease Severity] Designate replacement word for: Not Specified
+Top three choices:
+('Severe', 32)
+('Moderate', 29)
+('Asymptomatic', 24)
+[COVID-19 Disease Severity] Designate replacement word for: Not Specified: 
+
+*** Please use a number to designate word you want substituted ***
+	-OR type more or more options
+	-OR type exit
+[COVID-19 Disease Severity] Designate replacement word for Not Specified: more
+1. ('Severe', 32)
+2. ('Moderate', 29)
+3. ('Asymptomatic', 24)
+4. ('Mild', 24)
+5. ('Death', 11)
+6. ('Unknown', 10)
+
+*** Please use a number to designate word you want substituted ***
+	-OR type more or more options
+	-OR type exit
+[COVID-19 Disease Severity] Designate replacement word for Not Specified: 6
+INFO:: [Fuzzy] Closest Match Found. Changing serum => Serum
+[INFO]:: [Fuzzy] blood => Blood : score 80
+INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing serum => Serum
+[INFO]:: [Fuzzy] blood => Blood : score 80
+INFO:: [Fuzzy] Closest Match Found. Changing serum => Serum
+[INFO]:: [Fuzzy] blood => Blood : score 80
+35348368
+34107529
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+35143473
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+35589681
+35764643
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+[INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+[INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+[INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+[INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+[INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+34001652
+INFO:: [Fuzzy] Closest Match Found. Changing Vaccine response => Vaccine Response
+Previous Input: Virus Strain, Not Specified => Not Applicable
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+35129576
+35756977
+34260834
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+34095338
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+Previous Input: Virus Strain, Not Specified => Not Applicable
+INFO:: [Fuzzy] Closest Match Found. Changing African American => Black or African American
+INFO:: [Fuzzy] Closest Match Found. Changing Native Hawaiian => Native Hawaiian or Other Pacific Islander
+Previous Input: Race, Other => Other Race
+INFO:: [Fuzzy] Closest Match Found. Changing African American => Black or African American
+INFO:: [Fuzzy] Closest Match Found. Changing Native Hawaiian => Native Hawaiian or Other Pacific Islander
+Previous Input: Race, Other => Other Race
+INFO:: [Fuzzy] Closest Match Found. Changing African American => Black or African American
+INFO:: [Fuzzy] Closest Match Found. Changing Native Hawaiian => Native Hawaiian or Other Pacific Islander
+Previous Input: Race, Other => Other Race
+INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+33276369
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+33408181
+Previous Input: Race, Other => Other Race
+Previous Input: Race, Other => Other Race
+34877479
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - STUDY
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+[INFO]:: [Fuzzy] Western blottting => Western Blot : score 76
+34794169
+[INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+[INFO]:: [Fuzzy] SARS-CoV-2 Lamda; C.37 => SARS-CoV-2 Lambda; C.37 : score 98
+[INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+[INFO]:: [Fuzzy] SARS-CoV-2 Lamda; C.37 => SARS-CoV-2 Lambda; C.37 : score 98
+INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 WA1/2020 => SARS-CoV-2 WA1/2020 (D614G variant)
+[INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+[INFO]:: [Fuzzy] SARS-CoV-2 Lamda; C.37 => SARS-CoV-2 Lambda; C.37 : score 98
+33142304
+Previous Input: Virus Strain, Not Specified => Not Applicable
+33622794
+Previous Input: Virus Strain, Not Specified => Not Applicable
+Previous Input: Race, Other => Other Race
+Previous Input: Race, Other => Other Race
+Previous Input: Race, Other => Other Race
+INFO:: [Fuzzy] Closest Match Found. Changing Nasal swab => Nasal Swab
+34835131
+INFO:: [Fuzzy] Closest Match Found. Changing Clinical research => Clinical Research
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+INFO:: [Fuzzy] Closest Match Found. Changing MERS-Co => MERS-CoV
+
+
+######  ACTION REQUIRED ###### 
+[Reported Health Condition] Designate replacement word for: SARS-CoV-1
+Top three choices:
+('MERS-CoV', 67)
+('COVID-19', 44)
+('Severe Covid-19', 40)
+[Reported Health Condition] Designate replacement word for: SARS-CoV-1: 2
+Previous Input: Virus Strain, Not Specified => Not Applicable
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - STUDY
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+[INFO]:: [Fuzzy] SARS-COV-2 => SARS-CoV-2 : score 90
+[INFO]:: [Fuzzy] SARS-COV-2 => SARS-CoV-2 : score 90
+INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+[INFO]:: [Fuzzy] SARS-COV-2 => SARS-CoV-2 : score 90
+33479118
+Previous Input: Virus Strain, Not Specified => Not Applicable
+34921308
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - STUDY
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+34687893
+Previous Input: Virus Strain, Not Specified => Not Applicable
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+34086877
+Previous Input: Virus Strain, Not Specified => Not Applicable
+33065030
+Previous Input: Virus Strain, Not Specified => Not Applicable
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+33830946
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+[INFO]:: [Fuzzy] SARS-Cov-2 => SARS-CoV-2 : score 90
+[INFO]:: [Fuzzy] SARS-Cov-2 => SARS-CoV-2 : score 90
+33993265
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+Previous Input: Virus Strain, Not Specified => Not Applicable
+INFO:: [Fuzzy] Closest Match Found. Changing Pfizer-BioNTech => Pfizer-BioNTech SARS-CoV-2 vaccine
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+35132398
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+34161961
+INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+INFO:: [Fuzzy] Closest Match Found. Changing Cell line => Cell Line
+INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+INFO:: [Fuzzy] Closest Match Found. Changing Cell line => Cell Line
+INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+[INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+INFO:: [Fuzzy] Closest Match Found. Changing Virus Neutralization Assay => Pseudovirus Neutralization Assay
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+[INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 WA1/2020 => SARS-CoV-2 WA1/2020 (D614G variant)
+
+
+######  ACTION REQUIRED ###### 
+[Virus Strain] Designate replacement word for: B.1.1.7(alpha)
+Top three choices:
+('SARS-CoV-2 Alpha; B.1.1.7', 36)
+('SARS-CoV-2 Delta; B.1.617.2', 29)
+('SARS-CoV-2 Kappa; B.1.617.1', 29)
+[Virus Strain] Designate replacement word for: B.1.1.7(alpha): 1
+
+
+######  ACTION REQUIRED ###### 
+[Virus Strain] Designate replacement word for: B.1.351 (beta)
+Top three choices:
+('SARS-CoV-2 Beta; B.1.351', 37)
+('SARS-CoV-2 Mu; B.1.621', 28)
+('SARS-CoV-2 Alpha; B.1.1.7', 26)
+[Virus Strain] Designate replacement word for: B.1.351 (beta): 1
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 WA1/2020 => SARS-CoV-2 WA1/2020 (D614G variant)
+INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+33846272
+INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+33666169
+Previous Input: Virus Strain, Not Specified => Not Applicable
+34759001
+INFO:: [Fuzzy] Closest Match Found. Changing Clinical research => Clinical Research
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+Previous Input: Virus Strain, Not Specified => Not Applicable
+Previous Input: Race, Other => Other Race
+INFO:: [Fuzzy] Closest Match Found. Changing female => Female
+[INFO]:: [Fuzzy] Unvaccinated => Vaccinated : score 82
+Previous Input: Race, Other => Other Race
+INFO:: [Fuzzy] Closest Match Found. Changing female => Female
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+Previous Input: Race, Other => Other Race
+INFO:: [Fuzzy] Closest Match Found. Changing female => Female
+34452006
+34003112
+Previous Input: Virus Strain, Not Specified => Not Applicable
+33472939
+Previous Input: Virus Strain, Not Specified => Not Applicable
+INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+34130883
+Previous Input: Virus Strain, Not Specified => Not Applicable
+34652783
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+Previous Input: Virus Strain, Not Specified => Not Applicable
+Previous Input: Race, Other => Other Race
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+Previous Input: Race, Other => Other Race
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+Previous Input: Race, Other => Other Race
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+Previous Input: Race, Other => Other Race
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+33440148
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+[INFO]:: [Fuzzy] Western Botting => Western Blot : score 81
+33035201
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+INFO:: [Fuzzy] Closest Match Found. Changing OH => US: Ohio
+[INFO]:: [Fuzzy] Western blotting => Western Blot : score 79
+34910927
+Previous Input: Virus Strain, Not Specified => Not Applicable
+33961839
+Previous Input: Virus Strain, Not Specified => Not Applicable
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+INFO:: [Fuzzy] Closest Match Found. Changing In situ hybridization => in situ Hybridization
+34696403
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+
+
+######  ACTION REQUIRED ###### 
+[COVID-19 Disease Severity] Designate replacement word for: na
+Top three choices:
+('Death', 29)
+('Unknown', 22)
+('Moderate', 20)
+[COVID-19 Disease Severity] Designate replacement word for: na: 
+
+*** Please use a number to designate word you want substituted ***
+	-OR type more or more options
+	-OR type exit
+[COVID-19 Disease Severity] Designate replacement word for na: more
+1. ('Death', 29)
+2. ('Unknown', 22)
+3. ('Moderate', 20)
+4. ('Asymptomatic', 14)
+5. ('Mild', 0)
+6. ('Severe', 0)
+
+*** Please use a number to designate word you want substituted ***
+	-OR type more or more options
+	-OR type exit
+[COVID-19 Disease Severity] Designate replacement word for na: 2
+[INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+[INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+INFO:: [Fuzzy] Closest Match Found. Changing Virus Neutralization Assay => Pseudovirus Neutralization Assay
+INFO:: [Fuzzy] Closest Match Found. Changing pre-vaccination => Pre-vaccination
+INFO:: [Fuzzy] Closest Match Found. Changing pre-vaccination => Pre-vaccination
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+34353890
+Previous Input: Virus Strain, Not Specified => Not Applicable
+INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+33743211
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+[INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+INFO:: [Fuzzy] Closest Match Found. Changing CRISPR => CRISPR Screening
+34151306
+Previous Input: Virus Strain, Not Specified => Not Applicable
+33521695
+Previous Input: Reported Health Condition, Covid-19 => COVID-19
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - STUDY
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+34802457
+Previous Input: Virus Strain, Not Specified => Not Applicable
+33169014
+Previous Input: Virus Strain, Not Specified => Not Applicable
+INFO:: [Fuzzy] Closest Match Found. Changing UnInfected => Uninfected
+INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+34145263
+INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+33478949
+Previous Input: Virus Strain, Not Specified => Not Applicable
+INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+[INFO]:: [Fuzzy] SARS COV-2 => SARS-CoV-2 : score 80
+INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+[INFO]:: [Fuzzy] SARS COV-2 => SARS-CoV-2 : score 80
+33571162
+
+
+######  ACTION REQUIRED ###### 
+[Virus Strain] Designate replacement word for: Not specified
+Top three choices:
+('Not Applicable', 52)
+('Hepatitis B', 25)
+('Hepatitis C', 25)
+[Virus Strain] Designate replacement word for: Not specified: 1
+Previous Input: Race, Other => Other Race
+[INFO]:: [Fuzzy] SARS CoV-2 => SARS-CoV-2 : score 90
+[INFO]:: [Fuzzy] SARS CoV-2 => SARS-CoV-2 : score 90
+[INFO]:: [Fuzzy] SARS CoV-2 => SARS-CoV-2 : score 90
+34730254
+Previous Input: Virus Strain, Not Specified => Not Applicable
+34937699
+INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+[NOTE]:: Field empty: SARS-CoV-2 Vaccine Type - SUBJECT
+33160316
+Previous Input: Virus Strain, Not Specified => Not Applicable
+33602725
+Previous Input: Virus Strain, Not Specified => Not Applicable
+[NOTE]:: Field empty: SARS-CoV-2 Antigen
+33727353
+Previous Input: Virus Strain, Not Specified => Not Applicable
