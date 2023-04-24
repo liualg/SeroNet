@@ -201,7 +201,7 @@ def create_short(PMID):
                     df['Organization'],
                     df['ORCID ID'],
                     df['Email'],
-                    df['SeroNet Title In Study'],
+                    df['Title In Study'],
                     df['Role In Study'],
                     df['Site Name']
                 )
@@ -216,7 +216,7 @@ def create_short(PMID):
                     df['Organization'],
                     df['ORCID ID'],
                     df['Email'],
-                    df['Title In Study'],
+                    df['SeroNet Title In Study'],
                     df['Role In Study'],
                     df['Site Name']
                 )
@@ -263,7 +263,7 @@ def create_short(PMID):
             if (df.shape != (2,0)): # checking size. There has to be a better way to do this
 
                 STUDY_DESIGN = seroClass.study_design(
-                    df['Clinical Study Design'],
+                    df['Clinical Study Design*'],
                     df['in silico Model Type*']
                 )
             else:
@@ -393,7 +393,7 @@ def create_short(PMID):
                     df['SARS-CoV2 History*'],
                     df['SARS-CoV-2 Vaccine Type*'],
                     df['COVID-19 Disease Severity*'],
-                    df['Post COVID-19 Symptoms'],
+                    df['Post COVID-19 [PASC] Symptoms'],
                     df['COVID-19 Complications']
                     )
             except:

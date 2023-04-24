@@ -1,20 +1,26 @@
 Activating Script:
 
-1. install pip via command line / powershell
+1. installation
 
-MacOs [Command Line]:
- curl https://bootstrap.pypa.io/get-pip.py | python
+1.1 install python
+Navigate to:
+https://www.python.org/downloads/
 
-{more help: https://stackoverflow.com/questions/17271319/how-do-i-install-pip-on-macos-or-os-x}
+Download newest version
 
-Windows [Bash / Powershell]: 
- curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
- python get-pip.py 
+1.2 Checking if basic requirements are met
+Check if Python is installed.
+ Open command prompt
+ 'python --version'
+  > Python x.y.z
 
-{more help: https://phoenixnap.com/kb/install-pip-windows}
+Check if PIP is installed.
+ In command prompt
+ 'pip --version'
+ > pip x.y.z from /foo/bar/lib/python3.8/site-packages/pip (python 3.8)
 
 2.  install requirements.txt
- pip install -r requirements.txt 
+ pip install -r software.txt 
 
 3. Run script
  python createTemplate.py

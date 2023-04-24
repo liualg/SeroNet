@@ -40,7 +40,7 @@ cp ./createPackage.sh ./Package/createPackage.sh
 pipreqs ./Package/
 mv ./Package/requirements.txt ./Package/software.txt
 
-zip -r ./Package_v1.3.1.zip ./Package
+zip -r ./Package_v1.3.4.zip ./Package
 rm -r ./Package
 
 
