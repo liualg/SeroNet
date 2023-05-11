@@ -1,0 +1,123 @@
+05/05/2023 11:25:41 AM 
+PMID: 35430229
+05/05/2023 11:25:41 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/05/2023 11:25:41 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/05/2023 11:25:41 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/05/2023 11:25:41 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/05/2023 11:25:42 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/05/2023 11:25:42 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/05/2023 11:26:18 AM 
+PMID: 35879545
+05/05/2023 11:34:52 AM 
+PMID: 35436146
+05/05/2023 11:34:52 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/05/2023 11:34:52 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/05/2023 11:34:52 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/05/2023 11:34:52 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/05/2023 11:34:52 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/05/2023 11:34:52 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/05/2023 11:34:52 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/05/2023 11:34:52 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/05/2023 11:35:09 AM INFO:: [User Change] Covid-19 => COVID-19
+05/05/2023 11:35:11 AM INFO:: [User Change] Non-Hodgkin lymphoma => Lymphoma
+05/05/2023 11:35:27 AM INFO:: [User Change] Chronic lymphocytic leukemia, passing look up check
+05/05/2023 11:35:27 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/05/2023 11:35:27 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/05/2023 11:35:27 AM INFO:: [Fuzzy] Closest Match Found. Changing Negative control => Negative Control
+05/05/2023 11:35:27 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/05/2023 11:35:27 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/05/2023 11:35:27 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/05/2023 11:35:27 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/05/2023 11:35:27 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+05/05/2023 11:35:27 AM [INFO]:: [Fuzzy] SARS-CoV-2 Delta (B.1.617.2) => SARS-CoV-2 Delta; B.1.617.2 : score 95
+05/05/2023 11:35:27 AM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+05/05/2023 11:35:27 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+05/05/2023 11:35:27 AM [INFO]:: [Fuzzy] SARS-CoV-2 Delta (B.1.617.2) => SARS-CoV-2 Delta; B.1.617.2 : score 95
+05/05/2023 11:35:27 AM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+05/05/2023 11:36:02 AM 
+PMID: 35436146
+05/05/2023 11:36:02 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/05/2023 11:36:02 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/05/2023 11:36:02 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/05/2023 11:36:02 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/05/2023 11:36:02 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/05/2023 11:36:02 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/05/2023 11:36:02 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/05/2023 11:36:02 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/05/2023 11:36:06 AM INFO:: [User Change] Non-Hodgkin lymphoma, passing look up check
+05/05/2023 11:36:08 AM INFO:: [User Change] Chronic lymphocytic leukemia, passing look up check
+05/05/2023 11:36:08 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/05/2023 11:36:08 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/05/2023 11:36:08 AM INFO:: [Fuzzy] Closest Match Found. Changing Negative control => Negative Control
+05/05/2023 11:36:08 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/05/2023 11:36:08 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/05/2023 11:36:08 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/05/2023 11:36:08 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/05/2023 11:36:08 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+05/05/2023 11:36:08 AM [INFO]:: [Fuzzy] SARS-CoV-2 Delta (B.1.617.2) => SARS-CoV-2 Delta; B.1.617.2 : score 95
+05/05/2023 11:36:08 AM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+05/05/2023 11:36:08 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+05/05/2023 11:36:08 AM [INFO]:: [Fuzzy] SARS-CoV-2 Delta (B.1.617.2) => SARS-CoV-2 Delta; B.1.617.2 : score 95
+05/05/2023 11:36:08 AM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+05/05/2023 11:44:26 AM 
+PMID: 34669512
+05/05/2023 11:44:26 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+05/05/2023 11:44:26 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+05/05/2023 11:44:26 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/05/2023 11:44:26 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/05/2023 11:44:26 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/05/2023 11:44:26 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/05/2023 11:44:26 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/05/2023 11:44:26 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/05/2023 11:44:30 AM INFO:: [User Change] Covid-19 => COVID-19
+05/05/2023 11:44:30 AM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+05/05/2023 11:44:40 AM INFO:: [User Change] coronavirus strain => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/05/2023 11:44:51 AM INFO:: [User Change] HCoV-NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/05/2023 11:46:17 AM 
+PMID: 34669512
+05/05/2023 11:46:17 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+05/05/2023 11:46:17 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+05/05/2023 11:46:17 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/05/2023 11:46:17 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/05/2023 11:46:17 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/05/2023 11:46:17 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/05/2023 11:46:17 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/05/2023 11:46:17 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/05/2023 11:46:26 AM INFO:: [User Change] Covid-19 => COVID-19
+05/05/2023 11:46:26 AM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+05/05/2023 11:46:26 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/05/2023 11:46:26 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/05/2023 11:46:26 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/05/2023 11:46:26 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/05/2023 11:46:44 AM 
+PMID: 34669512
+05/05/2023 11:46:44 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+05/05/2023 11:46:44 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+05/05/2023 11:46:44 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/05/2023 11:46:44 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/05/2023 11:46:44 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/05/2023 11:46:44 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/05/2023 11:46:44 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/05/2023 11:46:44 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/05/2023 11:46:45 AM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+05/05/2023 11:46:45 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/05/2023 11:46:45 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/05/2023 11:46:45 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/05/2023 11:46:45 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/05/2023 11:48:30 AM 
+PMID: 34669512
+05/05/2023 11:48:30 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+05/05/2023 11:48:30 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+05/05/2023 11:48:30 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/05/2023 11:48:30 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/05/2023 11:48:30 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/05/2023 11:48:30 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/05/2023 11:48:30 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/05/2023 11:48:30 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/05/2023 11:48:31 AM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+05/05/2023 11:48:31 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/05/2023 11:48:31 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/05/2023 11:48:31 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/05/2023 11:48:31 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/05/2023 12:49:15 PM 
+PMID: 35879545

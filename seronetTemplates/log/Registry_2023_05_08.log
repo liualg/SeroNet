@@ -1,0 +1,55 @@
+05/08/2023 10:26:39 AM 
+PMID: 34242577
+05/08/2023 10:26:39 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/08/2023 10:26:39 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/08/2023 10:26:39 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/08/2023 10:26:39 AM [planned visit]: PMID34242577_visit-06 has reached character limit (126 > 125)
+05/08/2023 10:27:06 AM 
+PMID: 34242577
+05/08/2023 10:27:06 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/08/2023 10:27:06 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/08/2023 10:27:06 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/08/2023 10:27:07 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/08/2023 10:27:07 AM INFO:: [Fuzzy] Closest Match Found. Changing Surface plasmon resonance => Surface Plasmon Resonance
+05/08/2023 11:52:03 AM 
+PMID: 34624208
+05/08/2023 11:52:03 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/08/2023 11:52:03 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/08/2023 11:52:03 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/08/2023 11:52:03 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/08/2023 11:52:03 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/08/2023 11:52:03 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/08/2023 11:52:03 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/08/2023 11:52:03 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/08/2023 11:52:03 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/08/2023 11:52:03 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/08/2023 11:52:03 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/08/2023 11:52:03 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/08/2023 11:52:03 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/08/2023 11:52:03 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/08/2023 11:52:03 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/08/2023 11:52:03 AM ERROR:: [Subject human] Check user defined ID

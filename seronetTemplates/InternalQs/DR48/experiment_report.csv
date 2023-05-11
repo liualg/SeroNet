@@ -1,0 +1,16 @@
+,Column Name,User Defined ID,Name,Description,Measurement Technique,Study ID,Protocol ID(s)
+0,-,PMID35857583_experimentID-01,ELISA-Post-vaccination,-,ELISA,PMID35857583_study-01,PMID35857583_protocol-01
+1,-,PMID35857583_experimentID-02,ELISA-Convalescent,-,ELISA,PMID35857583_study-01,PMID35857583_protocol-01
+2,-,PMID35857583_experimentID-03,ELISA-Naïve,-,ELISA,PMID35857583_study-01,PMID35857583_protocol-01
+3,-,PMID35857583_experimentID-04,Pseudovirus Neutralization Assay-Post-vaccination,-,Pseudovirus Neutralization Assay,PMID35857583_study-01,PMID35857583_protocol-01
+4,-,PMID35857583_experimentID-05,Pseudovirus Neutralization Assay-Convalescent,-,Pseudovirus Neutralization Assay,PMID35857583_study-01,PMID35857583_protocol-01
+5,-,PMID35857583_experimentID-06,Pseudovirus Neutralization Assay-Naïve,-,Pseudovirus Neutralization Assay,PMID35857583_study-01,PMID35857583_protocol-01
+6,-,PMID35857583_experimentID-07,Intracellular Cytokine Staining assay-Post-vaccination,-,Flow Cytometry,PMID35857583_study-01,PMID35857583_protocol-01
+7,-,PMID35857583_experimentID-08,Intracellular Cytokine Staining assay-Convalescent,-,Flow Cytometry,PMID35857583_study-01,PMID35857583_protocol-01
+8,-,PMID35857583_experimentID-09,Intracellular Cytokine Staining assay-Naïve,-,Flow Cytometry,PMID35857583_study-01,PMID35857583_protocol-01
+9,-,PMID36069925_experimentID-01,Neutralizing Antibody Titer Assay - Omicron subvariants post boosting,-,Neutralizing Antibody Titer Assay,PMID36069925_study-01,PMID36069925_protocol-01
+10,-,PMID36069925_experimentID-02,Neutralizing Antibody Titer Assay - Omicron wave post boosting,-,Neutralizing Antibody Titer Assay,PMID36069925_study-01,PMID36069925_protocol-01
+11,-,PMID36069925_experimentID-03,Neutralizing Antibody Titer Assay - post 2nd mRNA booster,-,Neutralizing Antibody Titer Assay,PMID36069925_study-01,PMID36069925_protocol-01
+12,-,PMID34607452_experimentID-01,Pseudovirus Neutralization Assay-post-vaccination,-,Pseudovirus Neutralization Assay,PMID34607452_study-01,PMID34607452_protocol-01
+13,-,PMID34607452_experimentID-02,Pseudovirus Neutralization Assay-Pre-symptom onset,-,Pseudovirus Neutralization Assay,PMID34607452_study-01,PMID34607452_protocol-01
+14,-,PMID34607452_experimentID-03,Purification of pseudoviral particles -Western blotting,-,Western Blot,PMID34607452_study-01,PMID34607452_protocol-01

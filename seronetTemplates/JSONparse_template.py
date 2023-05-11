@@ -278,11 +278,20 @@ def get_closest_lookup(word, lookup_table, table_name):
                             if user_resp == 'more':
                                 for ind, top3 in enumerate(check_list):
                                     print(f"{ind+1}. {top3}")
+                            
                             if user_resp == 'exit':
                                 break
 
-                    closest_lookup = check_list[int(user_resp)-1][0]
-                    logging.info(f"INFO:: [User Change] {word} => {closest_lookup}")
+                            if user_resp == 'pass':
+                                user_resp = 9999999999999999999
+
+                    if user_resp != 9999999999999999999:
+                        closest_lookup = check_list[int(user_resp)-1][0]
+                        logging.info(f"INFO:: [User Change] {word} => {closest_lookup}")
+                    else:
+                        closet_lookup = ''
+                        logging.info(f"INFO:: [User Change] {word}, passing look up check")
+                    
                     df_check = pd.concat([df_check, pd.DataFrame({'field':[table_name],'lookup_word':[word],'user_input':[closest_lookup]})])
 
             else:
@@ -303,7 +312,9 @@ def check_spelling(word_in_questions, facet_to_check):
         correct_word = []
         if not all(('' == item or None is item) for item in word_in_questions): #must be this?
             for words in word_in_questions:
-                correct_word.append(get_closest_lookup(words,lk_table,json_seronet_dict.get(facet_to_check)))
+                wrd = get_closest_lookup(words,lk_table,json_seronet_dict.get(facet_to_check))
+                if wrd != '':
+                    correct_word.append(wrd)
         else:
             pass
     else:
@@ -454,7 +465,7 @@ def parse_study_file(df, template):
             obj = {
                "study_file_name": val,
                "study_file_description": parse_clean_sv(df, STUDY_FILE + 1, idx),
-               "study_file_type": parse_clean_sv(df, STUDY_FILE + 2, idx)
+               "study_file_type": check_spelling(parse_clean_sv(df, STUDY_FILE + 2, idx), 'study_file_type')
             }
             studyFile.append(obj)
         else:

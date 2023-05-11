@@ -1,0 +1,22 @@
+,User Defined ID,Criterion,Criterion Category
+0,PMID35380510_inexcl-01,Survey instrument shared,Inclusion
+1,PMID35380510_inexcl-02,Geriatric subjects,Inclusion
+2,PMID35380510_inexcl-03,Pediatric subjects,Exclusion
+3,PMID34644239_inexcl-01,Survey instrument shared,Inclusion
+4,PMID34644239_inexcl-02,Geriatric subjects,Inclusion
+5,PMID35335012_inexcl-01,Survey instrument shared,Inclusion
+6,PMID35055463_inexcl-01,Geriatric subjects,Inclusion
+7,PMID35055463_inexcl-02,Survey instrument shared,Inclusion
+8,PMID35857583_inexcl-01,SARS-CoV-2 Antibodies Measured,Inclusion
+9,PMID35857583_inexcl-02,Geriatric subjects,Inclusion
+10,PMID35857583_inexcl-03,Pregnant subjects,Exclusion
+11,PMID35857583_inexcl-04,Participants with Hereditary respiratory diseases,Exclusion
+12,PMID35857583_inexcl-05,Participants with Neuromuscular problems,Exclusion
+13,PMID35857583_inexcl-06,Participants with Invasive viral or Bacterial infections,Exclusion
+14,PMID35857583_inexcl-07,Participants with Cancer,Exclusion
+15,PMID36069925_inexcl-01,SARS-CoV-2 Antibodies Measured,Inclusion
+16,PMID36069925_inexcl-02,Pediatric subjects,Exclusion
+17,PMID36069925_inexcl-03,Geriatric subjects,Exclusion
+18,PMID34607452_inexcl-01,SARS-CoV-2 Antibodies Measured,Inclusion
+19,PMID34607452_inexcl-02,Pediatric subjects,Exclusion
+20,PMID34607452_inexcl-03,Geriatric subjects,Exclusion

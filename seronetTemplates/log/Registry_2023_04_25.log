@@ -1,0 +1,385 @@
+04/25/2023 09:06:59 AM 
+PMID: 34669512
+04/25/2023 09:06:59 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+04/25/2023 09:06:59 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+04/25/2023 09:06:59 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 09:06:59 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 09:06:59 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 09:06:59 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 09:06:59 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 09:06:59 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 09:14:23 AM 
+PMID: 34669512
+04/25/2023 09:14:23 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+04/25/2023 09:14:23 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+04/25/2023 09:14:23 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 09:14:23 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 09:14:23 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 09:14:23 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 09:14:23 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 09:14:23 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 09:15:02 AM 
+PMID: 34669512
+04/25/2023 09:15:02 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+04/25/2023 09:15:02 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+04/25/2023 09:15:02 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 09:15:02 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 09:15:02 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 09:15:02 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 09:15:02 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 09:15:02 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 09:15:21 AM INFO:: [User Change] Covid-19 => COVID-19
+04/25/2023 09:15:21 AM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+04/25/2023 09:16:33 AM 
+PMID: 35857583
+04/25/2023 09:16:57 AM 
+PMID: 36069925
+04/25/2023 09:17:55 AM 
+PMID: 36069925
+04/25/2023 09:18:15 AM 
+PMID: 35857583
+04/25/2023 09:18:16 AM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 09:18:16 AM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 09:18:52 AM 
+PMID: 35857583
+04/25/2023 09:18:52 AM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 09:18:52 AM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 09:19:07 AM 
+PMID: 35857583
+04/25/2023 09:19:07 AM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 09:19:07 AM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 09:19:18 AM 
+PMID: 35857583
+04/25/2023 09:19:18 AM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 09:19:18 AM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 09:23:22 AM 
+PMID: 35857583
+04/25/2023 09:23:23 AM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 09:23:23 AM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 09:26:54 AM 
+PMID: 35857583
+04/25/2023 09:26:54 AM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 09:26:54 AM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 09:27:38 AM 
+PMID: 35857583
+04/25/2023 09:27:38 AM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 09:27:38 AM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 09:28:08 AM 
+PMID: 36069925
+04/25/2023 09:29:44 AM 
+PMID: 36069925
+04/25/2023 09:29:44 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 09:29:44 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 09:29:44 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 09:29:44 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 09:29:44 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 09:29:44 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 09:29:44 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 09:29:44 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 09:29:44 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:33:36 AM 
+PMID: 36069925
+04/25/2023 11:33:36 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:33:36 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:33:36 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:33:36 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:33:36 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:33:36 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:33:36 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:33:36 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:33:36 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:34:33 AM 
+PMID: 36069925
+04/25/2023 11:34:33 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:34:33 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:34:33 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:34:33 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:34:33 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:34:33 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:34:33 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:34:33 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:34:33 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:35:23 AM 
+PMID: 35857583
+04/25/2023 11:35:23 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:35:23 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:35:23 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:35:23 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:35:23 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:35:23 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:35:23 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:35:23 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:35:23 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:36:01 AM 
+PMID: 35857583
+04/25/2023 11:36:01 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:36:01 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:36:01 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:36:01 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:36:01 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:36:01 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:36:01 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:36:01 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:36:01 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:37:11 AM 
+PMID: 35857583
+04/25/2023 11:37:11 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:37:11 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:37:11 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:37:11 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:37:11 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:37:11 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:37:11 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:37:11 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:37:11 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:38:51 AM 
+PMID: 35857583
+04/25/2023 11:38:51 AM ERROR:: Error [Subject Human] Check SARS_CoV_2_Vaccine_Type
+04/25/2023 11:38:51 AM ERROR:: Error [Subject Human] Check SARS_CoV_2_Vaccine_Type
+04/25/2023 11:39:13 AM 
+PMID: 35857583
+04/25/2023 11:39:13 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:39:13 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:39:13 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 11:39:13 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:39:13 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:39:13 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 11:39:13 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:39:13 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 11:39:13 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 01:19:00 PM 
+PMID: 35857583
+04/25/2023 01:19:00 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 01:19:00 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 01:19:00 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 01:19:00 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 01:19:00 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 01:19:00 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 01:19:00 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 01:19:00 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 01:19:00 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 01:19:14 PM 
+PMID: 34607452
+04/25/2023 01:19:14 PM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 01:19:14 PM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 01:19:31 PM 
+PMID: 36240764
+04/25/2023 01:19:31 PM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 01:19:31 PM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 01:19:50 PM 
+PMID: 36476380
+04/25/2023 01:19:50 PM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 01:19:50 PM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 01:20:08 PM 
+PMID: 35380510
+04/25/2023 01:20:09 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 01:20:09 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 01:20:09 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 01:21:12 PM 
+PMID: 34644239
+04/25/2023 01:21:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 01:21:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 01:21:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 01:21:36 PM 
+PMID: 35335012
+04/25/2023 01:21:36 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 01:21:36 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 01:21:36 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 01:21:50 PM 
+PMID: 36314635
+04/25/2023 01:22:17 PM 
+PMID: 36314635
+04/25/2023 01:22:36 PM 
+PMID: 35055463
+04/25/2023 01:22:36 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 01:22:36 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 01:22:36 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 01:22:51 PM 
+PMID: 35857623
+04/25/2023 01:23:16 PM 
+PMID: 34687733
+04/25/2023 01:23:16 PM ERROR:: [Subject human] Check user defined ID
+04/25/2023 01:23:16 PM ERROR:: [Subject human] Check user defined ID
+04/25/2023 01:23:32 PM 
+PMID: 33795870
+04/25/2023 01:23:32 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 01:23:32 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 01:23:32 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 01:23:32 PM [planned visit]: PMID33795870_visit-02 has reached character limit (144 > 125)
+04/25/2023 01:23:50 PM 
+PMID: 35430229
+04/25/2023 01:23:50 PM ERROR:: [inclusion exclusion] Redudant Unique ID
+04/25/2023 01:24:08 PM 
+PMID: 35614113
+04/25/2023 01:24:35 PM 
+PMID: 34587763
+04/25/2023 01:24:35 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 01:24:35 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 01:24:35 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 01:24:35 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 01:24:35 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 01:24:35 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 01:24:35 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 01:24:35 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 01:24:35 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 01:24:35 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 01:24:35 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 01:24:35 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 01:24:51 PM INFO:: [User Change] Not Specified => Not Applicable
+04/25/2023 01:25:06 PM 
+PMID: 35879545
+04/25/2023 01:25:06 PM ERROR:: [Subject Human]: Check Type_Reported
+04/25/2023 01:25:33 PM 
+PMID: 36191537
+04/25/2023 01:25:33 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 01:25:33 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 01:25:33 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 01:25:48 PM 
+PMID: 36135380
+04/25/2023 01:25:48 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 01:25:48 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 01:25:48 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 01:25:48 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 01:25:48 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 01:25:48 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 01:26:01 PM 
+PMID: 33893169
+04/25/2023 01:26:23 PM 
+PMID: 34230917
+04/25/2023 01:37:32 PM 
+PMID: 35380510
+04/25/2023 01:37:32 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 01:37:32 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 01:37:32 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 01:37:52 PM INFO:: [User Change] Other => No Research Focus Specified
+04/25/2023 01:37:55 PM INFO:: [User Change] Covid-19 => COVID-19
+04/25/2023 01:38:42 PM 
+PMID: 34644239
+04/25/2023 01:38:42 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 01:38:42 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 01:38:42 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 02:54:41 PM 
+PMID: 35436146
+04/25/2023 02:54:41 PM ERROR:: Error [Subject Human] Check Assessment_Clinical_and_Demographic_Data_Provenance
+04/25/2023 02:54:42 PM ERROR:: Error [Subject Human] Check Assessment_Clinical_and_Demographic_Data_Provenance
+04/25/2023 02:54:58 PM 
+PMID: 36644323
+04/25/2023 02:54:58 PM ERROR:: Error [Subject Human] Check Assessment_Demographic_Data_Types_Collected
+04/25/2023 02:54:58 PM ERROR:: Error [Subject Human] Check Assessment_Demographic_Data_Types_Collected
+04/25/2023 02:55:13 PM 
+PMID: 34624208
+04/25/2023 02:55:13 PM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 02:55:13 PM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 02:55:29 PM 
+PMID: 34242577
+04/25/2023 02:55:30 PM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 02:55:30 PM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 02:55:47 PM 
+PMID: 34270939
+04/25/2023 02:56:15 PM 
+PMID: 34131024
+04/25/2023 02:57:18 PM 
+PMID: 33971664
+04/25/2023 02:57:18 PM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 02:57:18 PM ERROR:: Error [Subject Human] Check SARS_CoV_2_Symptoms
+04/25/2023 03:07:12 PM 
+PMID: 34056628
+04/25/2023 03:07:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 03:07:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 03:07:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 03:07:12 PM ERROR:: [Subject Human]: Check Sex_at_Birth
+04/25/2023 03:07:30 PM 
+PMID: 33495307
+04/25/2023 03:07:30 PM ERROR:: [Subject Human]: Check SARS_CoV2_History
+04/25/2023 03:07:57 PM 
+PMID: 35335012
+04/25/2023 03:07:57 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 03:07:57 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 03:07:57 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 03:08:14 PM INFO:: [User Change] Other => No Research Focus Specified
+04/25/2023 03:08:16 PM INFO:: [User Change] Covid-19 => COVID-19
+04/25/2023 03:08:39 PM 
+PMID: 35055463
+04/25/2023 03:08:39 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 03:08:39 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 03:08:39 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 03:08:53 PM INFO:: [User Change] Other => No Research Focus Specified
+04/25/2023 03:09:56 PM 
+PMID: 36191537
+04/25/2023 03:09:56 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 03:09:56 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 03:09:56 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 03:10:07 PM INFO:: [User Change] Covid-19 => COVID-19
+04/25/2023 03:10:15 PM INFO:: [User Change] Not Specified => Not Applicable
+04/25/2023 03:10:40 PM 
+PMID: 36135380
+04/25/2023 03:10:41 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 03:10:41 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 03:10:41 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 03:10:41 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 03:10:41 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 03:10:41 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 03:10:41 PM [planned visit]: PMID36135380_visit-01 has reached character limit (133 > 125)
+04/25/2023 03:14:15 PM 
+PMID: 33495307
+04/25/2023 03:14:15 PM ERROR:: [Subject Human]: Check SARS_CoV2_History
+04/25/2023 03:36:49 PM 
+PMID: 35857583
+04/25/2023 03:36:49 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 03:36:49 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 03:36:49 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 03:36:49 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 03:36:49 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 03:36:49 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 03:38:10 PM 
+PMID: 35857583
+04/25/2023 03:38:10 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 03:38:10 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 03:38:10 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 03:38:10 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 03:38:10 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 03:38:10 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 04:01:25 PM 
+PMID: 35857583
+04/25/2023 04:01:25 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 04:01:25 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 04:01:25 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 04:01:25 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 04:01:25 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 04:01:25 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 04:01:25 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 04:01:25 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 04:01:25 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 04:02:12 PM 
+PMID: 35857583
+04/25/2023 04:02:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 04:02:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 04:02:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 04:02:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 04:02:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 04:02:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 04:02:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 04:02:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 04:02:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 04:09:57 PM 
+PMID: 35857583
+04/25/2023 04:09:57 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 04:09:57 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 04:09:57 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 04:09:57 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 04:09:57 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 04:09:57 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 04:09:57 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 04:09:57 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 04:09:57 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 04:22:11 PM 
+PMID: 35857583
+04/25/2023 04:22:11 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 04:22:11 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 04:22:11 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/25/2023 04:22:11 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 04:22:11 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 04:22:11 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/25/2023 04:22:11 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 04:22:11 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/25/2023 04:22:11 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates

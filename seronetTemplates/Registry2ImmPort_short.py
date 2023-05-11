@@ -137,7 +137,7 @@ def create_short(PMID):
                    'protocol', 'condition_or_disease', 'Intervention Agent',
                    'study_details', 'inclusion_exclusion',
                    'Subject Type: human', 'Subject Type: model organism', 'planned_visit',
-                   'Serology Experiments', 'Experiment Samples'
+                   'Serology Experiments', 'Experiment Samples', 'Experiments'
                   ]
 
 
@@ -261,13 +261,17 @@ def create_short(PMID):
             df = seroFxn.edit_df(df)
 
             if (df.shape != (2,0)): # checking size. There has to be a better way to do this
-
-                STUDY_DESIGN = seroClass.study_design(
-                    df['Clinical Study Design*'],
-                    df['in silico Model Type*']
-                )
-            else:
-                study_des = study_design()
+                try:
+                    STUDY_DESIGN = seroClass.study_design(
+                        df['Clinical Study Design*'],
+                        df['in silico Model Type*']
+                    )
+                except:
+                    print("Using older template")
+                    STUDY_DESIGN = seroClass.study_design(
+                        df['Clinical Study Design'],
+                        df['in silico Model Type*']
+                    )
 
         elif sub_section == 'protocol':
             df = seroFxn.edit_df(df)
@@ -403,7 +407,7 @@ def create_short(PMID):
                     df['Arm Name'],
                     df['Study Population Description'],
                     df['Arm Type'],
-                    df['Species'],
+                    df['Genus and Species'],
                     df['Biosample Type'],
                     df['Strain Characteristics'],
                     df['Sex at Birth*'],
@@ -442,7 +446,7 @@ def create_short(PMID):
         #         df['Biospecimen Collection Point*']                             
         # )
         
-        elif sub_section == 'Serology Experiments':
+        elif sub_section in ['Experiments' , 'Serology Experiments']:
             df = seroFxn.edit_df(df)
 
             EXPERIMENTS = seroClass.experiments(
@@ -633,7 +637,7 @@ def create_short(PMID):
             registryDict['SARS-CoV-2_Vaccine_Type'] = list(set((' | '.join(registryDict['SARS-CoV-2_Vaccine_Type'])).split(' | ')))
 
 
-            print('########',"\n",registryDict['SARS-CoV-2_Vaccine_Type'])
+            # print('########',"\n",registryDict['SARS-CoV-2_Vaccine_Type'])
 
     # Looping through ImmPort Template to get the correct order of the 'study' section
     for se_number in range(se[0],se[3]):    
@@ -721,7 +725,7 @@ def create_short(PMID):
             'Column Name':empty,
             'User Defined ID': [f'PMID{PMID}_experimentID-0{n+1}' for n in range(fillLen)],
             'Name': EXPERIMENTS.Experiment_Name,
-            'Description':[descriptions.get(assay) for assay in EXPERIMENTS.Assay_Type],
+            'Description':empty, #[descriptions.get(assay) for assay in EXPERIMENTS.Assay_Type],
             'Measurement Technique':EXPERIMENTS.Assay_Type,
             'Study ID':[STUDY.Study_Identifier]*fillLen,
             'Protocol ID(s)': [PROTOCOLS.Protocol_ID[1]]*fillLen # This needs to be populated first and then we can populate 'Additional Result File Names'
@@ -806,10 +810,10 @@ def create_short(PMID):
         SUBJECT_human_df = pd.DataFrame(human_ws.values).replace({None: '', 'None': ''})
 
     #     # saving df
-        SUBJECT_human_df.to_csv(os.path.join(OUT_DIR,f'{SUBJ_HUMAN_TEMPLATE}.txt'),
-                           header = False, 
-                           index = False,
-                           sep = '\t')
+        # SUBJECT_human_df.to_csv(os.path.join(OUT_DIR,f'{SUBJ_HUMAN_TEMPLATE}.txt'),
+        #                    header = False, 
+        #                    index = False,
+        #                    sep = '\t')
 
     #     print(SUBJECT_human_df)
         print ("SUBJECT: human data created")
@@ -877,12 +881,12 @@ def create_short(PMID):
         SUBJECT_organism_df = pd.DataFrame(organism_ws.values).replace({None: '', 'None': ''})
 
         # saving df
-        SUBJECT_organism_df.to_csv(os.path.join(OUT_DIR,f'{SUBJ_ORGANISM_TEMPLATE}.txt'),
-                           header = False, 
-                           index = False,
-                           sep = '\t')
+        # SUBJECT_organism_df.to_csv(os.path.join(OUT_DIR,f'{SUBJ_ORGANISM_TEMPLATE}.txt'),
+        #                    header = False, 
+        #                    index = False,
+        #                    sep = '\t')
 
-        SUBJECT_organism_df
+        # SUBJECT_organism_df
 
 
 
@@ -916,7 +920,7 @@ def create_short(PMID):
     # while input('Can I clear the screen: (y/n)') != 'y':
     #     time.sleep(1)
     # os.system('clear')
-    print("\n\n\n\n\n")
+    print("\n\n\n")
 
     # CREATING JSON
     output_file = os.path.join(OUT_DIR, f'PMID{PMID}_JSON.{file_type}')

@@ -469,10 +469,11 @@ class subject_type_human(DataClassJsonMixin):
                 # if isinstance(getattr(self,field), list): #THIS
                     
                 cell = seroFxn.clean_array(getattr(self,field), [None])
-                if len(cell) > 0 and field != "ImmPortNAME" and field != "Race_Specify":
-                    if len(cell) != largest_val:
-                        logging.error(f"ERROR:: Error [Subject Human] Check {field}")
-                        sys.exit(f"ERROR:: Error [Subject Human] Check {field}")
+# AL2023
+                # if len(cell) > 0 and field != "ImmPortNAME" and field != "Race_Specify":
+                #     if len(cell) != largest_val:
+                #         logging.error(f"ERROR:: Error [Subject Human] Check {field}")
+                #         sys.exit(f"ERROR:: Error [Subject Human] Check {field}")
 
             for i, k in enumerate(self.Sex_at_Birth):
                 # MoF = ["male | female", "female | male", "female i male", "male i female"]
@@ -496,7 +497,10 @@ class subject_type_human(DataClassJsonMixin):
             # Cleaning out characters in Vaccine Typpe
             if self.SARS_CoV_2_Vaccine_Type.any():
                 for i, k in enumerate(self.SARS_CoV_2_Vaccine_Type):
-                    self.SARS_CoV_2_Vaccine_Type[i + 1] = k.strip()
+                    if k is not None:
+                        self.SARS_CoV_2_Vaccine_Type[i + 1] = k.strip()
+                    else:
+                        self.SARS_CoV_2_Vaccine_Type[i + 1] = ''
 
             # changing SeroNet terms to ImmPort specific terms 
             for i, k in enumerate(self.Study_Location):
@@ -605,10 +609,11 @@ class subject_type_mode_organism(DataClassJsonMixin):
                 # if isinstance(getattr(self,field), list): #THIS
                     
                 cell = seroFxn.clean_array(getattr(self,field), [None])
-                if len(cell) > 0 and field != "ImmPortNAME" and field != "Race_Specify":
-                    if len(cell) != largest_val:
-                        logging.error(f"ERROR:: [Subject Human]: Check {field}")
-                        sys.exit(f"ERROR:: [Subject Human]: Check {field}")
+# AL2023
+                # if len(cell) > 0 and field != "ImmPortNAME" and field != "Race_Specify":
+                #     if len(cell) != largest_val:
+                #         logging.error(f"ERROR:: [Subject Human]: Check {field}")
+                #         sys.exit(f"ERROR:: [Subject Human]: Check {field}")
 
             # shorting vaccine type to non-hidden characters  
             # self.SARS_CoV_2_Vaccine_Type = [x for x in self.SARS_CoV_2_Vaccine_Type if x not in VARS_TO_CLEAN]

@@ -1,0 +1,19 @@
+,User Defined ID,Name,Description,Type Reported
+0,PMID35380510_human_subject-01,Healthcare professionals,A web-based COVID-19 vaccine hesitancy survey distributed to EMS healthcare professionals (N = 2281),Observational
+1,PMID34644239_human_subject-01,EMS professionals,"Vaccinated (N = 1,804) and unvaccinated (N = 780) EMS professionals received an electronic survey asking COVID-19 vaccination prevalence and vaccine hesitancy (N= 2584)",Observational
+2,PMID35335012_human_subject-01,EMS professionals,"COVID-19 vaccine electronic survey was provided to EMS professionals in the National Registry of Emergency Medical Technicians’ (National Registry) database (N= 19,062)",Observational
+3,PMID35055463_human_subject-01,COVID-19 vaccine hesitancy and trust survey,COVID-19 vaccine hesitancy and trust survey distributed to EMS professionals (N=2257),Observational
+4,PMID35857583_human_subject-01,Vaccinated individuals,COVID-19 vaccinated individuals (N=19),Vaccination
+5,PMID35857583_human_subject-02,Convalescent individuals,COVID-19 convalescent individuals (N=10),Observational
+6,PMID35857583_human_subject-03,Healthy donors,Unvaccinated healthy individuals (N=5),Observational
+7,PMID35857583_organism_subject-04,Mice immunized with PBS (control),Wild type C57BL/6 mice immunized with three doses of PBS (N=10),Negative Control
+8,PMID35857583_organism_subject-05,Mice immunized with two doses of mRNA-S,Wild type C57BL/6 mice intramuscularly immunized with two doses of mRNA-encoding codon-optimized S (mRNA-S) (N=7),Experimental Arm
+9,PMID35857583_organism_subject-06,Mice immunized with three doses of mRNA-S,Wild type C57BL/6 mice intramuscularly immunized with three doses of mRNA-encoding codon-optimized S (mRNA-S) (N=7),Experimental Arm
+10,PMID35857583_organism_subject-07,Mice immunized with three doses of mRNA-S + cGAMP,Wild type C57BL/6 mice intramuscularly immunized with three doses of mRNA-encoding codon-optimized S (mRNA-S) plus an intranasal administration of S-trimer with cGAMP (N=8),Experimental Arm
+11,PMID35857583_organism_subject-08,Mice immunized with two doses of mRNA-S + Ad5-S,Wild type C57BL/6 mice intramuscularly immunized with two doses of mRNA-encoding codon-optimized S (mRNA-S) plus an intranasal of adenovirus type 5 encoding S protein (Ad5-S) (N=8),Experimental Arm
+12,PMID36069925_human_subject-01,1-3 months post-booster dose,"Samples collected from the health care workers 1-3 months post booster dose (N=28). Out of 28, 6 samples with Prior SARS-CoV-2 Infection (Pre-Omicron and Omicron wave).",Vaccination
+13,PMID36069925_human_subject-02,4-6 months post-booster dose,"Samples collected from the health care workers 4-6 months post booster dose (N=37). Out of 37, 9 samples with Prior SARS-CoV-2 Infection  (Pre-Omicron and Omicron wave).",Vaccination
+14,PMID36069925_human_subject-03,7-9 months post-booster dose,"Sample collected from the health care workers 7-9 months post booster dose (N=36). Out of 36, 11 samples with Prior SARS-CoV-2 Infection  (Pre-Omicron and Omicron wave).",Vaccination
+15,PMID34607452_human_subject-01,ICU patients,Intensive care unit (ICU) COVID-19 patients (N=9),Observational
+16,PMID34607452_human_subject-02,Non-ICU patients,Non-ICU hospitalized COVID-19 patients (N= 9),Observational
+17,PMID34607452_human_subject-03,Age matched vaccine recipients,Age macthed Moderna mRNA-1273 (N=20) and  Pfizer BNT162b2 (N=20) vaccine recipients.,Vaccination
