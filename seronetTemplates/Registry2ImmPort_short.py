@@ -12,6 +12,7 @@ import time
 import pandas as pd
 import numpy as np
 import os, shutil
+import pathlib
 import inspect
 import datetime as dt
 from sys import platform
@@ -45,41 +46,48 @@ else:
 
 
 file_type = "json"
-DR_NUMBER = "DR48"
+DR_NUMBER = "DR49"
 
 #########################################
 ######### Taking in Inputs ##############
 #########################################
 
-def create_short(PMID):
-# Registry
+def create_short(PMID, user_input_path=False):
     sheet_name = 'SeroNet Registry Template'
     map_sheet = 'Registry Definitions'
     EVS_DICT = 'Seronet_Study_Descriptors_v1.3_EVS.xlsx'
     EVS_sheet = 'EVS Mapping'
 
-
-    # finding correct Box Base
-    if platform == "darwin":
-        box_base = "~/Library/CloudStorage/Box-Box/SeroNet Public Data"
-    else: 
-        print("User has windows")
-        box_base = os.path.join("Users",os.getlogin(), "Box")
+    if user_input_path == True:
+        # using local file
+        path = input("Enter File Path: ")
+        df_path = str(path)
+        BASE_DIR = pathlib.PurePosixPath(df_path).parent
 
 
-    #File Paths
-    BASE_DIR = seroFxn.get_box_dir(box_base, PMID)
-    print(BASE_DIR)
+    else:
+        # Using Box directory
+        # finding correct Box Base
+        if platform == "darwin":
+            box_base = "~/Library/CloudStorage/Box-Box/SeroNet Curation/SeroNet Public Data"
+        else: 
+            print("User has windows")
+            box_base = os.path.join("Users",os.getlogin(), "Box")
 
-    try:
-        df_path = glob(os.path.join(BASE_DIR,'templated_data',f'PMID{PMID}*eviewed.xlsm'))[0]
-    except:
-        print("** NOT using reviewed files **")
+
+        #File Paths
+        BASE_DIR = seroFxn.get_box_dir(box_base, PMID)
+        # print(BASE_DIR)
+
         try:
-            df_path = glob(os.path.join(BASE_DIR,'templated_data',f'PMID{PMID}*.xlsm'))[0]
-        except FileNotFoundError:
-            sys.exit("ERROR:: Incorrect Template format. Cannot Find File")
-        
+            df_path = glob(os.path.join(BASE_DIR,'templated_data',f'PMID{PMID}*eviewed.xlsm'))[0]
+        except:
+            # print("** NOT using reviewed files **")
+            try:
+                df_path = glob(os.path.join(BASE_DIR,'templated_data',f'PMID{PMID}*.xlsm'))[0]
+            except FileNotFoundError:
+                sys.exit("ERROR:: Incorrect Template format. Cannot Find File")
+            
         
     # df_path = os.path.join(BASE_DIR,'templated_data', file + ".xlsm")
     print("file path: {}".format(df_path))
@@ -263,8 +271,10 @@ def create_short(PMID):
             if (df.shape != (2,0)): # checking size. There has to be a better way to do this
                 try:
                     STUDY_DESIGN = seroClass.study_design(
-                        df['Clinical Study Design*'],
-                        df['in silico Model Type*']
+                        # df['Clinical Study Design*'],
+                        df[df.columns[df.columns.str.startswith('Clinical')]],
+                        df[df.columns[df.columns.str.startswith('in silico')]]
+                        # df['c Model Type*']
                     )
                 except:
                     print("Using older template")
@@ -280,7 +290,8 @@ def create_short(PMID):
                 df['Protocol ID'],
                 df['Protocol File Name'],
                 df['Protocol Name'],
-                df['Protocol Description'],
+                # df['Protocol Description'],
+                df[df.columns[df.columns.str.startswith('Protocol Descr')][0]],
                 df['Protocol Type'],
             )
             
@@ -344,7 +355,9 @@ def create_short(PMID):
                     df['Measured Social Factor*'],
                     df['SARS-CoV-2 Symptoms*'],
                     df['Assessment_Clinical  and Demographic Data Provenance*'],
-                    df['Assessment_Demographic Data Types Collected*'],
+                    # df['Assessment_Demographic Data Types Collected*'],
+                    df[df.columns[df.columns.str.startswith('Assessment_Demographic Data Types')]],
+
                     df['SARS-CoV2 History*'],
                     df['SARS-CoV-2 Vaccine Type*'],
                     df['COVID-19 Disease Severity*'],
@@ -371,7 +384,7 @@ def create_short(PMID):
                     df['Measured Social Factor*'],
                     df['SARS-CoV-2 Symptoms*'],
                     df['Assessment_Clinical  and Demographic Data Provenance*'],
-                    df['Assessment_Demographic Data Types Collected*'],
+                    df[df.columns[df.columns.str.startswith('Assessment_Demographic Data Types')]],
                     df['SARS-CoV2 History*'],
                     df['SARS-CoV-2 Vaccine Type*'],
                     df['COVID-19 Disease Severity*'],
@@ -407,7 +420,7 @@ def create_short(PMID):
                     df['Arm Name'],
                     df['Study Population Description'],
                     df['Arm Type'],
-                    df['Genus and Species'],
+                    df.filter(regex=('.*species.+')),
                     df['Biosample Type'],
                     df['Strain Characteristics'],
                     df['Sex at Birth*'],
@@ -575,14 +588,14 @@ def create_short(PMID):
 
     # Checking to see if assessment is used. If it is, then we will add another planned visit ID to 
     # The planned visit section 
-    if SUBJECT_HUMAN.Assessment_Name.any() or \
+    if SUBJECT_HUMAN and (SUBJECT_HUMAN.Assessment_Name.any() or \
     SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type.any() or \
     SUBJECT_HUMAN.SARS_CoV2_History.any() or \
     SUBJECT_HUMAN.SARS_CoV_2_Symptoms.any() or \
     SUBJECT_HUMAN.Measured_Social_Factor.any() or \
     SUBJECT_HUMAN.Measured_Behavioral_or_Psychological_Factor.any() or \
     SUBJECT_HUMAN.Assessment_Demographic_Data_Types_Collected.any() or \
-    SUBJECT_HUMAN.Assessment_Clinical_and_Demographic_Data_Provenance.any():
+    SUBJECT_HUMAN.Assessment_Clinical_and_Demographic_Data_Provenance.any()):
 
         add_index = len(PLANNED_VISIT.Name) + 1
 

@@ -1,0 +1,28 @@
+05/18/2023 09:21:15 AM 
+PMID: 36476380
+05/18/2023 09:21:15 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/18/2023 09:21:15 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/18/2023 09:21:15 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/18/2023 09:21:15 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/18/2023 09:21:15 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/18/2023 09:21:15 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/18/2023 09:21:15 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/18/2023 09:21:15 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/18/2023 09:21:15 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/18/2023 09:21:16 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/18/2023 09:21:16 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/18/2023 09:21:16 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/18/2023 09:30:44 AM 
+PMID: 34056628
+05/18/2023 09:30:44 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/18/2023 09:30:44 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/18/2023 09:30:44 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/18/2023 09:30:45 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/18/2023 09:30:45 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/18/2023 09:30:45 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/18/2023 09:30:45 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/18/2023 09:30:45 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/18/2023 09:30:45 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/18/2023 09:30:45 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/18/2023 09:30:45 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/18/2023 09:30:45 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)

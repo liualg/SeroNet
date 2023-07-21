@@ -25,12 +25,24 @@ parser.add_argument(
         help="Enter Pubmed ID. This ID must have a Box folder with a naming format of \'PMID_xxxxxxxx\'"
     )
 
+parser.add_argument(
+   '--Local',
+   '-l',
+   required=False,
+   help="Enter \'True\' if you are testing the script, otherwise leave blank"
+   )
+
 
 args = parser.parse_args()
 
 if args.Dev:
    print(f"Doing Short Curation for: {args.PMID.strip()}")
-   create_short(args.PMID.strip())
+
+   if args.Local:
+      create_short(args.PMID.strip(), True)
+
+   else:
+      create_short(args.PMID.strip(), False)
 
 else:
    root= tk.Tk()
@@ -75,7 +87,7 @@ else:
       x1 = entry1.get()
       print(f"Doing Full Curation for: {x1}")
       root.destroy()
-      create_short(x1.strip())
+      create_short(x1.strip(), False)
 
    def runBasicCuration(multiple=False):
       x1 = entry1.get()
@@ -110,7 +122,7 @@ else:
    canvas1.create_window(100, 140, window=button1)
    button1.place(x=CANVAS_W/2+5, y=CANVAS_H-50)
 
-   button2 = tk.Button(text='Basic Curation', command=runBasicCuration,fg = 'Black',
+   button2 = tk.Button(text='Short Curation', command=runBasicCuration,fg = 'Black',
                          bg = '#001d26',
                          bd =  10, 
                          highlightthickness=4, 

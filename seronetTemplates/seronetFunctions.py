@@ -7,6 +7,7 @@ This script is compatibale with Registry Version v.1.2.2
     - Please look at other template 
     - Added '*' to SARS-CoV-2 Antigen* (row 163, column B)
 This script is compatibale with Registry Version v.1.2.3
+This script is compatibale with Registry Version v.1.3.5
 
 '''
 
@@ -190,11 +191,9 @@ def replace_delimiter(original_str, new_delimiter = " | "):
     # print(original_str)
     if isinstance(original_str, list):
         for i, k in enumerate(original_str):
-            # print("########## ASdAS")
-            # print(i,k)
-            original_str[i] = remove_whitespace(k).replace(" I ", new_delimiter).replace("; ", new_delimiter).replace(" i ", new_delimiter).replace(",", new_delimiter).replace("  ", " ") #replace(" ; ", new_delimiter).replace(".", "")
+            original_str[i] = remove_whitespace(k).replace(" I ", new_delimiter).replace("; ", new_delimiter).replace(" i ", new_delimiter).replace(",", new_delimiter).replace("  ", " ").replace(".", "") #replace(" ; ", new_delimiter).replace(".", "")
     else: # .replace(" ; ", new_delimiter)
-        original_str = remove_whitespace(original_str).replace(" I ", new_delimiter).replace("; ", new_delimiter).replace(" i ", new_delimiter).replace(",", new_delimiter).replace("  ", " ")
+        original_str = remove_whitespace(original_str).replace(" I ", new_delimiter).replace("; ", new_delimiter).replace(" i ", new_delimiter).replace(",", new_delimiter).replace("  ", " ").replace(".", "")
 
     return original_str 
 #################  Adding sections back to dataframes  ##################

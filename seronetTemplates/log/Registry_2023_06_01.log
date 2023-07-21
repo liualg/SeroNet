@@ -1,0 +1,50 @@
+06/01/2023 12:13:29 PM 
+PMID: 35436146
+06/01/2023 12:13:29 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+06/01/2023 12:13:29 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+06/01/2023 12:13:29 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+06/01/2023 12:13:29 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+06/01/2023 12:13:29 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+06/01/2023 12:13:29 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+06/01/2023 12:13:29 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+06/01/2023 12:13:29 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+06/01/2023 12:13:45 PM INFO:: [User Change] Non-Hodgkin lymphoma => Lymphoma
+06/01/2023 12:14:07 PM INFO:: [User Change] Chronic lymphocytic leukemia => Leukemia
+06/01/2023 12:14:07 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+06/01/2023 12:14:07 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+06/01/2023 12:14:07 PM INFO:: [Fuzzy] Closest Match Found. Changing Negative control => Negative Control
+06/01/2023 12:14:07 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+06/01/2023 12:14:07 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+06/01/2023 12:14:07 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+06/01/2023 12:14:07 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+06/01/2023 12:14:07 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+06/01/2023 12:14:07 PM [INFO]:: [Fuzzy] SARS-CoV-2 Delta (B.1.617.2) => SARS-CoV-2 Delta; B.1.617.2 : score 95
+06/01/2023 12:14:07 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+06/01/2023 12:14:07 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+06/01/2023 12:14:07 PM [INFO]:: [Fuzzy] SARS-CoV-2 Delta (B.1.617.2) => SARS-CoV-2 Delta; B.1.617.2 : score 95
+06/01/2023 12:14:07 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+06/01/2023 12:15:43 PM 
+PMID: 35436146
+06/01/2023 12:15:43 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+06/01/2023 12:15:43 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+06/01/2023 12:15:43 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+06/01/2023 12:15:43 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+06/01/2023 12:15:43 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+06/01/2023 12:15:43 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+06/01/2023 12:15:43 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+06/01/2023 12:15:43 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+06/01/2023 12:15:48 PM INFO:: [User Change] Non-Hodgkin lymphoma => Lymphoma
+06/01/2023 12:16:35 PM INFO:: [User Change] Chronic lymphocytic leukemia, passing look up check
+06/01/2023 12:16:35 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+06/01/2023 12:16:35 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+06/01/2023 12:16:35 PM INFO:: [Fuzzy] Closest Match Found. Changing Negative control => Negative Control
+06/01/2023 12:16:35 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+06/01/2023 12:16:35 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+06/01/2023 12:16:35 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+06/01/2023 12:16:35 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+06/01/2023 12:16:35 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+06/01/2023 12:16:35 PM [INFO]:: [Fuzzy] SARS-CoV-2 Delta (B.1.617.2) => SARS-CoV-2 Delta; B.1.617.2 : score 95
+06/01/2023 12:16:35 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+06/01/2023 12:16:35 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+06/01/2023 12:16:35 PM [INFO]:: [Fuzzy] SARS-CoV-2 Delta (B.1.617.2) => SARS-CoV-2 Delta; B.1.617.2 : score 95
+06/01/2023 12:16:35 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95

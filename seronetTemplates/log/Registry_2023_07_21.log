@@ -1,0 +1,30 @@
+07/21/2023 09:24:09 AM 
+PMID: 35976993
+07/21/2023 09:24:10 AM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+07/21/2023 09:24:10 AM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+07/21/2023 10:32:49 AM 
+PMID: 36172366
+07/21/2023 10:34:35 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+07/21/2023 10:34:35 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+07/21/2023 10:34:35 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+07/21/2023 10:34:35 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 Gamma (P.1) => SARS-CoV-2 Gamma; P.1 : score 93
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 Delta (B.1.617.2) => SARS-CoV-2 Delta; B.1.617.2 : score 95
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 Mu (B.621) => SARS-CoV-2 Mu; B.1.621 : score 88
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 Gamma (P.1) => SARS-CoV-2 Gamma; P.1 : score 93
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 Mu (B.621) => SARS-CoV-2 Mu; B.1.621 : score 88
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+07/21/2023 10:34:35 AM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+07/21/2023 10:36:44 AM INFO:: [User Change] Post-infection => Convalescent
+07/21/2023 10:36:44 AM Previous Input: Biospecimen Collection Point, Post-infection => Convalescent

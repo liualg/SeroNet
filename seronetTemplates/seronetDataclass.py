@@ -155,7 +155,7 @@ class study_categorization(DataClassJsonMixin):
     def __post_init__(self):
         if self.Keywords:
             self.Keywords = seroFxn.replace_delimiter(self.Keywords)
-            # self.Keywords = self.Keywords.replace('\n', '').replace('\t', '').replace(';', '|').replace(',', '|').replace('.', '')
+
         else:
             logging.error("ERROR:: [study_categorization]: Keywords missing")
             sys.exit("ERROR:: [study_categorization]: Keywords missing")
@@ -206,8 +206,6 @@ class condition_or_disease(DataClassJsonMixin):
                                                                    enumerate(self.Reported_Health_Condition)])
         if self.Reported_Health_Condition:
             self.Reported_Health_Condition = seroFxn.replace_delimiter(self.Reported_Health_Condition)
-            # self.Reported_Health_Condition[i] = k.replace('|',',').replace(':',',')
-
 
 @dataclass
 class Intervention_Agent(DataClassJsonMixin):
