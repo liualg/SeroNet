@@ -1,0 +1,108 @@
+08/04/2023 12:41:56 PM 
+PMID: 35703544
+08/04/2023 12:42:19 PM 
+PMID: 35835107
+08/04/2023 12:42:40 PM INFO:: [User Change] Not Specified => Not Applicable
+08/04/2023 12:45:07 PM 
+PMID: 35835107
+08/04/2023 12:45:09 PM INFO:: [User Change] Not Specified => Not Applicable
+08/04/2023 12:45:15 PM 
+PMID: 35703544
+08/04/2023 12:46:06 PM 
+PMID: 35703544
+08/04/2023 12:47:46 PM 
+PMID: 35703544
+08/04/2023 12:49:11 PM 
+PMID: 35703544
+08/04/2023 12:50:04 PM 
+PMID: 35703544
+08/04/2023 12:50:29 PM 
+PMID: 35703544
+08/04/2023 12:50:54 PM 
+PMID: 35703544
+08/04/2023 12:52:27 PM 
+PMID: 35703544
+08/04/2023 12:52:37 PM 
+PMID: 35703544
+08/04/2023 12:53:17 PM 
+PMID: 35703544
+08/04/2023 12:53:17 PM ERROR:: [arm_or_cohort] Arm type missing
+08/04/2023 12:53:37 PM 
+PMID: 35703544
+08/04/2023 12:54:17 PM 
+PMID: 35703544
+08/04/2023 12:55:03 PM 
+PMID: 35703544
+08/04/2023 12:55:26 PM 
+PMID: 35703544
+08/04/2023 12:56:24 PM 
+PMID: 35703544
+08/04/2023 12:56:24 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/04/2023 12:56:24 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/04/2023 12:56:48 PM 
+PMID: 35703544
+08/04/2023 12:56:48 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/04/2023 12:56:48 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/04/2023 12:56:48 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/04/2023 12:56:56 PM INFO:: [User Change] Covid-19 => Non-Severe Covid-19
+08/04/2023 12:56:58 PM INFO:: [User Change] Not Specified => Not Applicable
+08/04/2023 12:57:02 PM 
+PMID: 35703544
+08/04/2023 12:57:02 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/04/2023 12:57:02 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/04/2023 12:57:02 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/04/2023 12:57:03 PM INFO:: [User Change] Covid-19 => COVID-19
+08/04/2023 12:57:05 PM INFO:: [User Change] Not Specified => Not Applicable
+08/04/2023 12:59:35 PM 
+PMID: 35703544
+08/04/2023 12:59:36 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/04/2023 12:59:36 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/04/2023 12:59:36 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/04/2023 12:59:38 PM INFO:: [User Change] Covid-19 => COVID-19
+08/04/2023 12:59:39 PM INFO:: [User Change] Not Specified => Not Applicable
+08/04/2023 01:00:09 PM 
+PMID: 35703544
+08/04/2023 01:00:09 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/04/2023 01:00:09 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/04/2023 01:00:09 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/04/2023 01:00:10 PM INFO:: [User Change] Covid-19 => COVID-19
+08/04/2023 01:00:11 PM INFO:: [User Change] Not Specified => Not Applicable
+08/04/2023 01:04:22 PM 
+PMID: 35703544
+08/04/2023 01:04:22 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/04/2023 01:04:22 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/04/2023 01:04:22 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/04/2023 01:04:24 PM INFO:: [User Change] Covid-19 => COVID-19
+08/04/2023 01:04:25 PM INFO:: [User Change] Not Specified => Not Applicable
+08/04/2023 01:07:03 PM 
+PMID: 33547084
+08/04/2023 01:13:05 PM 
+PMID: 33547084
+08/04/2023 01:19:38 PM 
+PMID: 33547084
+08/04/2023 01:22:45 PM 
+PMID: 33547084
+08/04/2023 01:24:25 PM 
+PMID: 33547084
+08/04/2023 01:30:36 PM 
+PMID: 33547084
+08/04/2023 01:31:07 PM INFO:: [User Change] Not Specified => Not Applicable
+08/04/2023 01:31:09 PM INFO:: [User Change] Not Specified => Not Applicable
+08/04/2023 01:32:22 PM INFO:: [User Change] Liquid Chromatography => Protein Microarray
+08/04/2023 01:32:22 PM Previous Input: Assay Type, Liquid Chromatography => Protein Microarray
+08/04/2023 01:40:03 PM 
+PMID: 33547084
+08/04/2023 01:40:06 PM INFO:: [User Change] Not Specified => Not Applicable
+08/04/2023 01:40:08 PM INFO:: [User Change] Not Specified => Not Applicable
+08/04/2023 01:44:45 PM 
+PMID: 33547084
+08/04/2023 01:44:47 PM INFO:: [User Change] Not Specified => Not Applicable
+08/04/2023 01:44:48 PM INFO:: [User Change] Not Specified => Not Applicable
+08/04/2023 01:45:52 PM 
+PMID: 33547084
+08/04/2023 01:45:54 PM INFO:: [User Change] Not Specified => Not Applicable
+08/04/2023 01:45:55 PM INFO:: [User Change] Not Specified => Not Applicable
+08/04/2023 01:47:10 PM 
+PMID: 33547084
+08/04/2023 01:47:11 PM INFO:: [User Change] Not Specified => Not Applicable
+08/04/2023 01:47:11 PM INFO:: [User Change] Not Specified => Not Applicable

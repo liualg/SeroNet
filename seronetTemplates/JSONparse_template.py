@@ -814,12 +814,12 @@ def parse_experiment(df, template):
        spanning multiple lines in the spread sheet.
     """
     experiment = []
-    experiments = list(df.loc[ASSOCIATED_ARM_IDS])
+    experiments = list(df.loc[ASSAY_TYPE])
     for idx, val in enumerate(experiments[2:], start=2): 
         if not pd.isna(val):
             obj = {
-               "arm_id": [cleanData(item) for item in re.split(" I ",val)],
-               "associated_first_planned_visit_id": [cleanData(item) for item in re.split(" I ", df.loc[ASSOCIATED_FIRST_PLANNED_VISIT_ID][idx])],
+               "arm_id": [],
+               "associated_first_planned_visit_id": [],
                "assay_type": check_spelling(parse_clean_sv(df, ASSAY_TYPE, idx),'assay_type'),
                "experiment_name": parse_clean_sv(df, EXPERIMENT_NAME, idx),
                "experiment_results_file_name": parse_clean_sv(df, EXPERIMENT_RESULTS_FILE_NAME, idx),

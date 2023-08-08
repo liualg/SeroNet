@@ -1,0 +1,373 @@
+08/02/2023 10:39:10 AM 
+PMID: 37182520
+08/02/2023 10:39:10 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 10:39:10 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 10:39:10 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 10:39:10 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 10:39:10 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 10:39:10 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 10:39:10 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 10:39:10 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 10:39:10 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 10:39:10 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 10:39:10 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 10:39:10 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 10:39:10 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 10:39:10 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 10:39:10 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 10:39:35 AM 
+PMID: 34812429
+08/02/2023 10:39:35 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 10:39:35 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 10:39:35 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 10:39:35 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 10:39:35 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 10:39:35 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 10:39:38 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+08/02/2023 10:40:09 AM 
+PMID: 33476549
+08/02/2023 10:40:09 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 10:40:09 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 10:40:09 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 10:40:09 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 10:40:09 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 10:40:09 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 10:40:09 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 10:40:18 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+08/02/2023 10:40:18 AM INFO:: [Fuzzy] Closest Match Found. Changing Cord Blood => Cord blood
+08/02/2023 10:43:48 AM 
+PMID: 33476549
+08/02/2023 10:43:48 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 10:43:48 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 10:43:48 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 10:43:48 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 10:43:48 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 10:43:48 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 10:43:48 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 10:43:49 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+08/02/2023 10:43:49 AM INFO:: [Fuzzy] Closest Match Found. Changing Cord Blood => Cord blood
+08/02/2023 10:48:53 AM 
+PMID: 36680154
+08/02/2023 12:55:38 PM 
+PMID: 34812429
+08/02/2023 12:55:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 12:55:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 12:55:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 12:55:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 12:55:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 12:55:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 12:55:39 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+08/02/2023 12:55:39 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+08/02/2023 12:55:39 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+08/02/2023 12:59:45 PM 
+PMID: 34812429
+08/02/2023 12:59:45 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 12:59:45 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 12:59:45 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 12:59:45 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 12:59:45 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 12:59:45 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 12:59:46 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+08/02/2023 12:59:46 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+08/02/2023 12:59:46 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+08/02/2023 01:10:06 PM 
+PMID: 37182520
+08/02/2023 01:10:06 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:10:06 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:10:06 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:10:06 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:10:06 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:10:06 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:10:06 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:10:06 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:10:06 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:10:06 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:10:06 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:10:06 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:10:06 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:10:06 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:10:06 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:11:14 PM 
+PMID: 36752204
+08/02/2023 01:11:14 PM ERROR:: [inclusion exclusion] Redudant Unique ID
+08/02/2023 01:11:51 PM 
+PMID: 36752204
+08/02/2023 01:11:51 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:11:51 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:11:51 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:11:51 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:11:51 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:11:51 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:11:51 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:11:51 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:11:51 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:11:51 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:11:51 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:11:51 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:11:51 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:11:51 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:11:51 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:11:51 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:11:51 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:11:51 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:11:51 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:11:51 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:11:51 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:12:23 PM INFO:: [User Change] Not Specified => Not Applicable
+08/02/2023 01:31:20 PM 
+PMID: 37182520
+08/02/2023 01:31:20 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:31:20 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:31:20 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:31:20 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:31:20 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:31:20 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:31:20 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:31:20 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:31:20 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:31:20 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:31:20 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:31:20 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:31:20 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:31:20 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:31:20 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:32:26 PM 
+PMID: 37182520
+08/02/2023 01:32:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:32:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:32:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:32:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:32:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:32:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:32:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:32:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:32:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:32:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:32:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:32:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:32:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:32:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:32:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:38:42 PM 
+PMID: 37182520
+08/02/2023 01:38:42 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:38:42 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:38:42 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:38:42 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:38:42 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:38:42 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:38:42 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:38:42 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:38:42 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:38:42 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:38:42 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:38:42 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:38:42 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:38:42 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:38:42 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:40:49 PM 
+PMID: 34485950
+08/02/2023 01:40:49 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:40:49 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:40:49 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:40:49 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:40:49 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:40:49 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:40:49 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:40:49 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:40:49 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:40:49 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:40:49 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:40:49 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:48:06 PM 
+PMID: 34485950
+08/02/2023 01:48:06 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:48:06 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:48:06 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:48:06 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:48:06 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:48:06 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:48:06 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:48:06 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:48:06 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:48:06 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:48:06 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:48:06 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:48:29 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 01:48:29 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 01:48:29 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 01:48:29 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 01:48:29 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 01:48:29 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 01:48:29 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 01:48:29 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 01:48:29 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+08/02/2023 01:48:29 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 01:50:38 PM 
+PMID: 34485950
+08/02/2023 01:50:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:50:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:50:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:50:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 01:50:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:50:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:50:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:50:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 01:50:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:50:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:50:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:50:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 01:50:39 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 01:50:39 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 01:50:39 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 01:50:39 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 01:50:39 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 01:50:39 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 01:50:39 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 01:50:39 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 01:50:39 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+08/02/2023 01:50:39 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 01:56:15 PM 
+PMID: 35976993
+08/02/2023 01:56:16 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 01:56:16 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+08/02/2023 01:56:16 PM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan/2020 (original) => SARS-CoV-2 Wuhan/2020 : score 79
+08/02/2023 01:56:16 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 01:56:16 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+08/02/2023 01:56:16 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 01:56:16 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+08/02/2023 01:56:16 PM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan/2020 (original) => SARS-CoV-2 Wuhan/2020 : score 79
+08/02/2023 01:56:16 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 01:56:16 PM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan/2020 (original) => SARS-CoV-2 Wuhan/2020 : score 79
+08/02/2023 01:56:16 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 01:56:16 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+08/02/2023 02:06:28 PM 
+PMID: 34485950
+08/02/2023 02:06:28 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 02:06:28 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 02:06:28 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 02:06:28 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 02:06:28 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 02:06:28 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 02:06:28 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 02:06:28 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 02:06:28 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 02:06:28 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 02:06:28 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 02:06:28 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 02:06:29 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 02:06:29 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 02:06:29 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 02:06:29 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 02:06:29 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 02:06:29 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 02:06:29 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 02:06:29 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 02:06:29 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+08/02/2023 02:06:29 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 02:10:01 PM 
+PMID: 35976993
+08/02/2023 02:10:02 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 02:10:02 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+08/02/2023 02:10:02 PM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan/2020 (original) => SARS-CoV-2 Wuhan/2020 : score 79
+08/02/2023 02:10:02 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 02:10:02 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+08/02/2023 02:10:02 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 02:10:02 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+08/02/2023 02:10:02 PM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan/2020 (original) => SARS-CoV-2 Wuhan/2020 : score 79
+08/02/2023 02:10:02 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 02:10:02 PM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan/2020 (original) => SARS-CoV-2 Wuhan/2020 : score 79
+08/02/2023 02:10:02 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 02:10:02 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+08/02/2023 02:17:32 PM 
+PMID: 35976993
+08/02/2023 02:17:32 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 02:17:32 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+08/02/2023 02:17:32 PM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan/2020 (original) => SARS-CoV-2 Wuhan/2020 : score 79
+08/02/2023 02:17:32 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 02:17:32 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+08/02/2023 02:17:32 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 02:17:32 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+08/02/2023 02:17:32 PM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan/2020 (original) => SARS-CoV-2 Wuhan/2020 : score 79
+08/02/2023 02:17:32 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 02:17:32 PM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan/2020 (original) => SARS-CoV-2 Wuhan/2020 : score 79
+08/02/2023 02:17:32 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 02:17:32 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+08/02/2023 02:21:02 PM 
+PMID: 35976993
+08/02/2023 02:21:03 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 02:21:03 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+08/02/2023 02:21:03 PM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan/2020 (original) => SARS-CoV-2 Wuhan/2020 : score 79
+08/02/2023 02:21:03 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 02:21:03 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+08/02/2023 02:21:03 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 02:21:03 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+08/02/2023 02:21:03 PM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan/2020 (original) => SARS-CoV-2 Wuhan/2020 : score 79
+08/02/2023 02:21:03 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 02:21:03 PM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan/2020 (original) => SARS-CoV-2 Wuhan/2020 : score 79
+08/02/2023 02:21:03 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+08/02/2023 02:21:03 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+08/02/2023 02:23:45 PM 
+PMID: 34797899
+08/02/2023 02:24:29 PM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+08/02/2023 02:24:29 PM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+08/02/2023 02:24:29 PM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+08/02/2023 02:24:29 PM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+08/02/2023 02:32:44 PM 
+PMID: 34797899
+08/02/2023 02:32:45 PM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+08/02/2023 02:32:45 PM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+08/02/2023 02:32:45 PM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+08/02/2023 02:32:45 PM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+08/02/2023 04:35:14 PM 
+PMID: 34652962
+08/02/2023 04:35:15 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 04:35:15 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 04:35:15 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 04:35:15 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 04:35:15 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 04:35:15 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 04:35:15 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 04:35:15 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 04:35:15 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 04:35:15 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 04:35:15 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 04:35:15 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 04:35:23 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 04:35:23 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 04:35:23 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 04:35:23 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 04:35:23 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 04:35:23 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 04:35:23 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 04:35:23 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 04:49:37 PM 
+PMID: 34652962
+08/02/2023 04:49:37 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 04:49:37 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 04:49:37 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 04:49:37 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+08/02/2023 04:49:37 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 04:49:37 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 04:49:37 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 04:49:37 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+08/02/2023 04:49:37 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 04:49:37 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 04:49:37 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 04:49:37 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+08/02/2023 04:49:38 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 04:49:38 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 04:49:38 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 04:49:38 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 04:49:38 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 04:49:38 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 04:49:38 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 04:49:38 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+08/02/2023 04:57:00 PM 
+PMID: 33547084
+08/02/2023 04:57:53 PM 
+PMID: 33547084
+08/02/2023 04:58:19 PM 
+PMID: 33547084
+08/02/2023 05:00:55 PM 
+PMID: 33547084

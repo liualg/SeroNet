@@ -1,0 +1,126 @@
+07/28/2023 01:56:45 PM 
+PMID: 34469363
+07/28/2023 01:56:45 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 01:56:45 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 01:56:45 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 01:59:33 PM 
+PMID: 35197000
+07/28/2023 01:59:33 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 01:59:33 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 01:59:33 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 01:59:33 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 01:59:33 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 01:59:33 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 01:59:33 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 01:59:33 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 01:59:33 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 01:59:38 PM INFO:: [User Change] Covid-19 => COVID-19
+07/28/2023 01:59:40 PM INFO:: [User Change] Not Specified => Not Applicable
+07/28/2023 02:31:56 PM 
+PMID: 35197000
+07/28/2023 02:31:56 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 02:31:56 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 02:31:56 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 02:31:56 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 02:31:56 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 02:31:56 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 02:31:56 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 02:31:56 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 02:31:56 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 02:31:57 PM INFO:: [User Change] Covid-19 => COVID-19
+07/28/2023 02:31:58 PM INFO:: [User Change] Not Specified => Not Applicable
+07/28/2023 02:33:38 PM 
+PMID: 33579769
+07/28/2023 02:33:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 02:33:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 02:33:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 02:36:14 PM INFO:: [User Change] Not Specified => Not Applicable
+07/28/2023 02:37:34 PM 
+PMID: 33579769
+07/28/2023 02:37:34 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 02:37:34 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 02:37:34 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 02:37:36 PM INFO:: [User Change] Not Specified => Not Applicable
+07/28/2023 02:38:02 PM 
+PMID: 33579769
+07/28/2023 02:38:02 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 02:38:02 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 02:38:02 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 02:38:03 PM INFO:: [User Change] Not Specified => Not Applicable
+07/28/2023 02:39:23 PM 
+PMID: 34233096
+07/28/2023 02:39:23 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 02:39:23 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 02:39:23 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 02:39:23 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 02:39:23 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 02:39:23 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 02:39:23 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 02:39:23 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 02:39:23 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 02:39:23 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+07/28/2023 02:39:23 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+07/28/2023 02:39:23 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 WA1/2020 => SARS-CoV-2 WA1/2020 (D614G variant)
+07/28/2023 02:39:23 PM [INFO]:: [Fuzzy] SARS-CoV-2 B.1.617.1 => SARS-CoV-2 Kappa; B.1.617.1 : score 85
+07/28/2023 02:39:23 PM [INFO]:: [Fuzzy] SARS-CoV-2 B.1.617.2 => SARS-CoV-2 Delta; B.1.617.2 : score 85
+07/28/2023 02:39:23 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 WA1/2020 => SARS-CoV-2 WA1/2020 (D614G variant)
+07/28/2023 02:39:23 PM [INFO]:: [Fuzzy] SARS-CoV-2 B.1.617.1 => SARS-CoV-2 Kappa; B.1.617.1 : score 85
+07/28/2023 02:39:23 PM [INFO]:: [Fuzzy] SARS-CoV-2 B.1.617.2 => SARS-CoV-2 Delta; B.1.617.2 : score 85
+07/28/2023 02:39:23 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 WA1/2020 => SARS-CoV-2 WA1/2020 (D614G variant)
+07/28/2023 02:39:23 PM [INFO]:: [Fuzzy] SARS-CoV-2 B.1.617.1 => SARS-CoV-2 Kappa; B.1.617.1 : score 85
+07/28/2023 02:39:23 PM [INFO]:: [Fuzzy] SARS-CoV-2 B.1.617.2 => SARS-CoV-2 Delta; B.1.617.2 : score 85
+07/28/2023 02:40:33 PM 
+PMID: 34233096
+07/28/2023 02:40:33 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 02:40:33 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 02:40:33 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 02:40:33 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 02:40:33 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 02:40:33 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 02:40:33 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 02:40:33 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 02:40:33 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 02:40:34 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+07/28/2023 02:40:34 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+07/28/2023 02:40:34 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 WA1/2020 => SARS-CoV-2 WA1/2020 (D614G variant)
+07/28/2023 02:40:34 PM [INFO]:: [Fuzzy] SARS-CoV-2 B.1.617.1 => SARS-CoV-2 Kappa; B.1.617.1 : score 85
+07/28/2023 02:40:34 PM [INFO]:: [Fuzzy] SARS-CoV-2 B.1.617.2 => SARS-CoV-2 Delta; B.1.617.2 : score 85
+07/28/2023 02:40:34 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 WA1/2020 => SARS-CoV-2 WA1/2020 (D614G variant)
+07/28/2023 02:40:34 PM [INFO]:: [Fuzzy] SARS-CoV-2 B.1.617.1 => SARS-CoV-2 Kappa; B.1.617.1 : score 85
+07/28/2023 02:40:34 PM [INFO]:: [Fuzzy] SARS-CoV-2 B.1.617.2 => SARS-CoV-2 Delta; B.1.617.2 : score 85
+07/28/2023 02:40:34 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 WA1/2020 => SARS-CoV-2 WA1/2020 (D614G variant)
+07/28/2023 02:40:34 PM [INFO]:: [Fuzzy] SARS-CoV-2 B.1.617.1 => SARS-CoV-2 Kappa; B.1.617.1 : score 85
+07/28/2023 02:40:34 PM [INFO]:: [Fuzzy] SARS-CoV-2 B.1.617.2 => SARS-CoV-2 Delta; B.1.617.2 : score 85
+07/28/2023 02:42:00 PM 
+PMID: 35891175
+07/28/2023 02:42:00 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 02:42:00 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 02:42:00 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 02:42:00 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 02:42:00 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 02:42:00 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 02:42:13 PM 
+PMID: 35762593
+07/28/2023 02:42:13 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 02:42:13 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 02:42:13 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 02:43:09 PM INFO:: [User Change] Not Specified => Not Applicable
+07/28/2023 02:43:48 PM INFO:: [User Change] pCMV-SARS2ΔC-gp41 => SARS-CoV-1
+07/28/2023 02:44:00 PM 
+PMID: 35731894
+07/28/2023 02:44:00 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 02:44:00 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+07/28/2023 02:44:00 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 02:44:00 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+07/28/2023 02:44:00 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 02:44:00 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+07/28/2023 02:44:17 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+07/31/2023 09:06:53 AM INFO:: [User Change] Other => Other Race
+07/31/2023 09:06:53 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+07/31/2023 09:06:53 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+07/31/2023 09:06:53 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 WA1/2020 => SARS-CoV-2 WA1/2020 (D614G variant)
+07/31/2023 09:06:53 AM [INFO]:: [Fuzzy] SARS-CoV-2 BA.1 => SARS-CoV-1 : score 80
+07/31/2023 09:06:53 AM [INFO]:: [Fuzzy] SARS-CoV-2 BA.2 => SARS-CoV-2 : score 80
+07/31/2023 09:06:53 AM [INFO]:: [Fuzzy] SARS-CoV-2 BA.2.12.1 => SARS-CoV-2 Mu; B.1.621 : score 76
+07/31/2023 09:06:53 AM [INFO]:: [Fuzzy] SARS-CoV-2 BA.4 => SARS-CoV-2 : score 80
+07/31/2023 09:06:53 AM [INFO]:: [Fuzzy] SARS-CoV-2 BA.5 => SARS-CoV-2 : score 80

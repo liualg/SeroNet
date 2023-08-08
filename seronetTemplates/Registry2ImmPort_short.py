@@ -588,6 +588,8 @@ def create_short(PMID, user_input_path=False):
 
     # Checking to see if assessment is used. If it is, then we will add another planned visit ID to 
     # The planned visit section 
+
+    # This area of code need to be updated 
     if SUBJECT_HUMAN and (SUBJECT_HUMAN.Assessment_Name.any() or \
     SUBJECT_HUMAN.SARS_CoV_2_Vaccine_Type.any() or \
     SUBJECT_HUMAN.SARS_CoV2_History.any() or \
@@ -595,7 +597,8 @@ def create_short(PMID, user_input_path=False):
     SUBJECT_HUMAN.Measured_Social_Factor.any() or \
     SUBJECT_HUMAN.Measured_Behavioral_or_Psychological_Factor.any() or \
     SUBJECT_HUMAN.Assessment_Demographic_Data_Types_Collected.any() or \
-    SUBJECT_HUMAN.Assessment_Clinical_and_Demographic_Data_Provenance.any()):
+    SUBJECT_HUMAN.Assessment_Clinical_and_Demographic_Data_Provenance.any()) and \
+    'Not Applicable' not in SUBJECT_HUMAN.Assessment_Name:
 
         add_index = len(PLANNED_VISIT.Name) + 1
 
