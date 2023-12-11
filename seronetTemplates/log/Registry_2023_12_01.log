@@ -1,0 +1,565 @@
+12/01/2023 09:01:37 AM 
+PMID: 33031744
+12/01/2023 09:01:37 AM ERROR:: [Subject human] Check user defined ID
+12/01/2023 09:02:48 AM 
+PMID: 33031744
+12/01/2023 09:03:05 AM INFO:: [User Change] University of North Carolina at Chapel Hill => US: North Carolina
+12/01/2023 09:03:05 AM Previous Input: Study Location, University of North Carolina at Chapel Hill => US: North Carolina
+12/01/2023 09:03:05 AM Previous Input: Study Location, University of North Carolina at Chapel Hill => US: North Carolina
+12/01/2023 09:03:05 AM Previous Input: Study Location, University of North Carolina at Chapel Hill => US: North Carolina
+12/01/2023 09:03:05 AM Previous Input: Study Location, University of North Carolina at Chapel Hill => US: North Carolina
+12/01/2023 09:03:05 AM Previous Input: Study Location, University of North Carolina at Chapel Hill => US: North Carolina
+12/01/2023 09:03:05 AM Previous Input: Study Location, University of North Carolina at Chapel Hill => US: North Carolina
+12/01/2023 09:03:05 AM Previous Input: Study Location, University of North Carolina at Chapel Hill => US: North Carolina
+12/01/2023 11:09:32 AM 
+PMID: 35191769
+12/01/2023 11:11:07 AM 
+PMID: 33727331
+12/01/2023 11:11:07 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 11:11:07 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 11:11:07 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 11:12:37 AM 
+PMID: 35337753
+12/01/2023 11:12:37 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 11:12:37 AM WARNING:: [inclusion exclusion] Changing No => Exclusion
+12/01/2023 11:12:37 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 11:12:37 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 11:12:37 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 11:12:37 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 11:12:37 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 11:12:37 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 11:12:37 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 11:12:37 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 11:12:37 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 11:12:37 AM Error:: [planned visit] Same order number used more than once
+12/01/2023 11:13:24 AM 
+PMID: 34835041
+12/01/2023 11:13:24 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 11:13:24 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 11:13:24 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 11:13:24 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 11:13:24 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 11:13:24 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 11:13:43 AM INFO:: [User Change] Not Specified => Not Applicable
+12/01/2023 12:18:23 PM 
+PMID: 35337753
+12/01/2023 12:18:23 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 12:18:23 PM WARNING:: [inclusion exclusion] Changing No => Exclusion
+12/01/2023 12:18:23 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 12:18:23 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 12:18:23 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 12:18:23 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 12:18:23 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 12:18:23 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 12:18:23 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 12:18:23 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 12:18:23 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 12:18:23 PM Error:: [planned visit] Same order number used more than once
+12/01/2023 12:18:53 PM 
+PMID: 34835041
+12/01/2023 12:18:53 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 12:18:53 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 12:18:53 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 12:18:53 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 12:18:53 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 12:18:53 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 12:18:55 PM INFO:: [User Change] Not Specified => Not Applicable
+12/01/2023 01:11:37 PM 
+PMID: 33735607
+12/01/2023 01:12:15 PM 
+PMID: 36523164
+12/01/2023 01:12:15 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:12:15 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:12:15 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:12:15 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:12:15 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:12:15 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:12:26 PM INFO:: [User Change] Not Specified => Not Applicable
+12/01/2023 01:20:38 PM INFO:: [User Change] Danio rerio => Rattus norvegicus
+12/01/2023 01:21:28 PM INFO:: [User Change] Kidney => Urine
+12/01/2023 01:21:45 PM 
+PMID: 33288645
+12/01/2023 01:21:45 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:21:45 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:21:45 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:21:45 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:21:45 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:21:45 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:21:45 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:21:45 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:21:45 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:21:45 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:21:45 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:21:45 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:35:19 PM 
+PMID: 36523164
+12/01/2023 01:35:19 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:35:19 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:35:19 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:35:19 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:35:19 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:35:19 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:35:23 PM INFO:: [User Change] Not Specified => Not Applicable
+12/01/2023 01:41:58 PM 
+PMID: 33735607
+12/01/2023 01:42:11 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 01:42:11 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 01:42:11 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 01:42:11 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 01:42:11 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 01:42:11 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 01:42:11 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 01:42:11 PM [INFO]:: [Fuzzy] COVID 19 => COVID-19 : score 88
+12/01/2023 01:42:11 PM INFO:: [Fuzzy] Closest Match Found. Changing Systemic lupus erythematosus => Systemic Lupus Erythematosus
+12/01/2023 01:42:11 PM [INFO]:: [Fuzzy] COVID 19 => COVID-19 : score 88
+12/01/2023 01:42:11 PM INFO:: [Fuzzy] Closest Match Found. Changing Systemic lupus erythematosus => Systemic Lupus Erythematosus
+12/01/2023 01:42:11 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 01:42:27 PM INFO:: [User Change] CA => US: California
+12/01/2023 01:42:27 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 01:42:27 PM Previous Input: Study Location, CA => US: California
+12/01/2023 01:42:27 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 01:42:27 PM Previous Input: Study Location, CA => US: California
+12/01/2023 01:42:27 PM [INFO]:: [Fuzzy] Negarive Control => Negative Control : score 94
+12/01/2023 01:42:27 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 01:42:27 PM Previous Input: Study Location, CA => US: California
+12/01/2023 01:42:27 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 01:42:27 PM Previous Input: Study Location, CA => US: California
+12/01/2023 01:42:27 PM [INFO]:: [Fuzzy] Negarive Control => Negative Control : score 94
+12/01/2023 01:42:27 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 01:42:27 PM Previous Input: Study Location, CA => US: California
+12/01/2023 01:42:27 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 01:42:27 PM Previous Input: Study Location, CA => US: California
+12/01/2023 01:42:27 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 01:42:27 PM Previous Input: Study Location, CA => US: California
+12/01/2023 01:42:27 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 01:42:27 PM Previous Input: Study Location, CA => US: California
+12/01/2023 01:42:27 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 01:42:27 PM Previous Input: Study Location, CA => US: California
+12/01/2023 01:42:27 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 01:42:27 PM Previous Input: Study Location, CA => US: California
+12/01/2023 01:44:26 PM 
+PMID: 33288645
+12/01/2023 01:44:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:44:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:44:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:44:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:44:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:44:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:44:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:44:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:44:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:44:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:44:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:44:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:47:09 PM 
+PMID: 33288645
+12/01/2023 01:47:09 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:47:09 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:47:09 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:47:09 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:47:09 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:47:09 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:47:09 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:47:09 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:47:09 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:47:09 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:47:09 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:47:09 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:53:56 PM INFO:: [User Change] Not Specified => Not Applicable
+12/01/2023 01:53:57 PM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+12/01/2023 01:58:47 PM 
+PMID: 35337753
+12/01/2023 01:58:47 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 01:58:47 PM WARNING:: [inclusion exclusion] Changing No => Exclusion
+12/01/2023 01:58:47 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 01:58:47 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 01:58:47 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 01:58:47 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:58:47 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 01:58:47 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:58:47 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 01:58:47 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:58:47 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 01:58:47 PM Error:: [planned visit] Same order number used more than once
+12/01/2023 02:02:41 PM 
+PMID: 35337753
+12/01/2023 02:02:41 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 02:02:41 PM WARNING:: [inclusion exclusion] Changing No => Exclusion
+12/01/2023 02:02:41 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 02:02:41 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 02:02:41 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 02:02:41 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 02:02:41 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 02:02:41 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 02:02:41 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 02:02:41 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 02:02:41 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 02:03:08 PM INFO:: [User Change] Covid-19 => COVID-19
+12/01/2023 02:04:51 PM 
+PMID: 35337753
+12/01/2023 02:04:51 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 02:04:51 PM WARNING:: [inclusion exclusion] Changing No => Exclusion
+12/01/2023 02:04:51 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 02:04:51 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 02:04:51 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 02:04:51 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 02:04:51 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 02:04:51 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 02:04:51 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 02:04:51 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 02:04:51 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 02:04:54 PM INFO:: [User Change] Covid-19 => COVID-19
+12/01/2023 02:07:57 PM 
+PMID: 35337753
+12/01/2023 02:07:57 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 02:07:57 PM WARNING:: [inclusion exclusion] Changing No => Exclusion
+12/01/2023 02:07:57 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 02:07:57 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 02:07:57 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 02:07:57 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 02:07:57 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 02:07:57 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 02:07:57 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 02:07:57 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 02:07:57 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 02:08:01 PM INFO:: [User Change] Covid-19 => COVID-19
+12/01/2023 02:09:27 PM 
+PMID: 35337753
+12/01/2023 02:09:27 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 02:09:27 PM WARNING:: [inclusion exclusion] Changing No => Exclusion
+12/01/2023 02:09:27 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 02:09:27 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 02:09:27 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+12/01/2023 02:09:27 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 02:09:27 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 02:09:27 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 02:09:27 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 02:09:27 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 02:09:27 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 02:09:29 PM INFO:: [User Change] Covid-19 => COVID-19
+12/01/2023 02:10:32 PM 
+PMID: 33727331
+12/01/2023 02:10:32 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 02:10:32 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 02:10:32 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 02:11:14 PM 
+PMID: 33727331
+12/01/2023 02:11:14 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 02:11:14 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 02:11:14 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 02:14:07 PM 
+PMID: 33727331
+12/01/2023 02:14:07 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 02:14:07 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 02:14:07 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 02:14:40 PM 
+PMID: 35191769
+12/01/2023 02:15:17 PM 
+PMID: 35191769
+12/01/2023 02:23:16 PM 
+PMID: 33727331
+12/01/2023 02:23:16 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 02:23:16 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 02:23:16 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 02:29:40 PM 
+PMID: 33727331
+12/01/2023 02:29:40 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 02:29:40 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 02:29:40 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 02:31:13 PM 
+PMID: 33727331
+12/01/2023 02:31:13 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 02:31:13 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 02:31:13 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 02:31:27 PM 
+PMID: 33727331
+12/01/2023 02:31:27 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 02:31:27 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 02:31:27 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 02:31:40 PM INFO:: [User Change] Not Specified => Not Applicable
+12/01/2023 02:31:40 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:31:40 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:31:40 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:31:40 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:31:40 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:31:40 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:31:40 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:31:40 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:31:40 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:32:18 PM 
+PMID: 33727331
+12/01/2023 02:32:18 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 02:32:18 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 02:32:18 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 02:32:20 PM INFO:: [User Change] Not Specified => Not Applicable
+12/01/2023 02:32:20 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:32:20 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:32:20 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:32:20 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:32:20 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:32:20 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:32:20 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:32:20 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:32:20 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:32:20 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 02:32:46 PM INFO:: [User Change] SARS-CoV-2 S D614G => SARS-CoV-2 WA1/2020 (D614G variant)
+12/01/2023 02:32:46 PM Previous Input: Virus Target, SARS-CoV-2 S D614G => SARS-CoV-2 WA1/2020 (D614G variant)
+12/01/2023 02:40:57 PM INFO:: [User Change] VSVg pseudovirus => Not Applicable
+12/01/2023 03:22:25 PM 
+PMID: 37000623
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:22:26 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM 
+PMID: 37000623
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:26:51 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+12/01/2023 03:27:00 PM 
+PMID: 35191769
+12/01/2023 03:28:23 PM 
+PMID: 35191769
+12/01/2023 03:31:31 PM 
+PMID: 33727331
+12/01/2023 03:31:31 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 03:31:31 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 03:31:31 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 03:31:34 PM INFO:: [User Change] Not Specified => Not Applicable
+12/01/2023 03:31:34 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 03:31:34 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 03:31:34 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 03:31:34 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 03:31:34 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 03:31:34 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 03:31:34 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 03:31:34 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 03:31:34 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 03:31:34 PM INFO:: [Fuzzy] Closest Match Found. Changing Experimental => Experimental Arm
+12/01/2023 03:31:44 PM INFO:: [User Change] SARS-CoV-2 S D614G => SARS-CoV-2 WA1/2020 (D614G variant)
+12/01/2023 03:31:44 PM Previous Input: Virus Target, SARS-CoV-2 S D614G => SARS-CoV-2 WA1/2020 (D614G variant)
+12/01/2023 03:31:54 PM INFO:: [User Change] VSVg pseudovirus => Not Applicable
+12/01/2023 03:36:34 PM 
+PMID: 33288645
+12/01/2023 03:36:34 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 03:36:34 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 03:36:34 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 03:36:34 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 03:36:34 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 03:36:34 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 03:36:34 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 03:36:34 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 03:36:34 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 03:36:34 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 03:36:34 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 03:36:34 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 03:36:37 PM INFO:: [User Change] Not Specified => Not Applicable
+12/01/2023 03:36:37 PM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+12/01/2023 03:39:21 PM 
+PMID: 36523164
+12/01/2023 03:39:21 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 03:39:21 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 03:39:21 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 03:39:21 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 03:39:21 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 03:39:21 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 03:39:23 PM INFO:: [User Change] Not Specified => Not Applicable
+12/01/2023 03:40:34 PM 
+PMID: 34835041
+12/01/2023 03:40:34 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 03:40:34 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/01/2023 03:40:34 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 03:40:34 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/01/2023 03:40:34 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 03:40:34 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/01/2023 03:40:36 PM INFO:: [User Change] Not Specified => Not Applicable
+12/01/2023 03:41:57 PM 
+PMID: 33735607
+12/01/2023 03:41:58 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:41:58 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:41:58 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:41:58 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:41:58 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:41:58 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:41:58 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:41:58 PM [INFO]:: [Fuzzy] COVID 19 => COVID-19 : score 88
+12/01/2023 03:41:58 PM INFO:: [Fuzzy] Closest Match Found. Changing Systemic lupus erythematosus => Systemic Lupus Erythematosus
+12/01/2023 03:41:58 PM [INFO]:: [Fuzzy] COVID 19 => COVID-19 : score 88
+12/01/2023 03:41:58 PM INFO:: [Fuzzy] Closest Match Found. Changing Systemic lupus erythematosus => Systemic Lupus Erythematosus
+12/01/2023 03:41:58 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:42:14 PM INFO:: [User Change] CA => US: California
+12/01/2023 03:42:14 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:42:14 PM Previous Input: Study Location, CA => US: California
+12/01/2023 03:42:14 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:42:14 PM Previous Input: Study Location, CA => US: California
+12/01/2023 03:42:14 PM [INFO]:: [Fuzzy] Negarive Control => Negative Control : score 94
+12/01/2023 03:42:14 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:42:14 PM Previous Input: Study Location, CA => US: California
+12/01/2023 03:42:14 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:42:14 PM Previous Input: Study Location, CA => US: California
+12/01/2023 03:42:14 PM [INFO]:: [Fuzzy] Negarive Control => Negative Control : score 94
+12/01/2023 03:42:14 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:42:14 PM Previous Input: Study Location, CA => US: California
+12/01/2023 03:42:14 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:42:14 PM Previous Input: Study Location, CA => US: California
+12/01/2023 03:42:14 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:42:14 PM Previous Input: Study Location, CA => US: California
+12/01/2023 03:42:14 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:42:14 PM Previous Input: Study Location, CA => US: California
+12/01/2023 03:42:14 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:42:14 PM Previous Input: Study Location, CA => US: California
+12/01/2023 03:42:14 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:42:14 PM Previous Input: Study Location, CA => US: California
+12/01/2023 03:45:20 PM 
+PMID: 33735607
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:45:21 PM [INFO]:: [Fuzzy] COVID 19 => COVID-19 : score 88
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing Systemic lupus erythematosus => Systemic Lupus Erythematosus
+12/01/2023 03:45:21 PM [INFO]:: [Fuzzy] COVID 19 => COVID-19 : score 88
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing Systemic lupus erythematosus => Systemic Lupus Erythematosus
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:21 PM [INFO]:: [Fuzzy] Negarive Control => Negative Control : score 94
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:21 PM [INFO]:: [Fuzzy] Negarive Control => Negative Control : score 94
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:21 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:43 PM 
+PMID: 33735607
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:45:44 PM [INFO]:: [Fuzzy] COVID 19 => COVID-19 : score 88
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing Systemic lupus erythematosus => Systemic Lupus Erythematosus
+12/01/2023 03:45:44 PM [INFO]:: [Fuzzy] COVID 19 => COVID-19 : score 88
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing Systemic lupus erythematosus => Systemic Lupus Erythematosus
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:44 PM [INFO]:: [Fuzzy] Negarive Control => Negative Control : score 94
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:44 PM [INFO]:: [Fuzzy] Negarive Control => Negative Control : score 94
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:45:44 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:47:06 PM 
+PMID: 33735607
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:47:06 PM [INFO]:: [Fuzzy] COVID 19 => COVID-19 : score 88
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing Systemic lupus erythematosus => Systemic Lupus Erythematosus
+12/01/2023 03:47:06 PM [INFO]:: [Fuzzy] COVID 19 => COVID-19 : score 88
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing Systemic lupus erythematosus => Systemic Lupus Erythematosus
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:47:06 PM [INFO]:: [Fuzzy] Negarive Control => Negative Control : score 94
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:47:06 PM [INFO]:: [Fuzzy] Negarive Control => Negative Control : score 94
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:47:06 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:49:45 PM 
+PMID: 33735607
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Study data => Study Data
+12/01/2023 03:49:46 PM [INFO]:: [Fuzzy] COVID 19 => COVID-19 : score 88
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Systemic lupus erythematosus => Systemic Lupus Erythematosus
+12/01/2023 03:49:46 PM [INFO]:: [Fuzzy] COVID 19 => COVID-19 : score 88
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Systemic lupus erythematosus => Systemic Lupus Erythematosus
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:49:46 PM [INFO]:: [Fuzzy] Negarive Control => Negative Control : score 94
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:49:46 PM [INFO]:: [Fuzzy] Negarive Control => Negative Control : score 94
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+12/01/2023 03:49:46 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other

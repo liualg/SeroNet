@@ -1,0 +1,38 @@
+10/13/2023 09:54:23 AM 
+PMID: 35833684
+10/13/2023 09:54:23 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+10/13/2023 09:54:23 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+10/13/2023 09:54:23 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+10/13/2023 09:54:23 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+10/13/2023 09:54:23 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+10/13/2023 09:54:23 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+10/13/2023 09:54:30 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+10/13/2023 09:54:30 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+10/13/2023 09:54:30 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+10/13/2023 10:12:46 AM 
+PMID: 34664987
+10/13/2023 10:12:46 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+10/13/2023 10:12:46 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+10/13/2023 10:12:46 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+10/13/2023 10:12:46 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+10/13/2023 10:12:46 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+10/13/2023 10:12:46 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+10/13/2023 10:12:46 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+10/13/2023 10:12:46 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+10/13/2023 10:12:46 AM Error:: [planned visit] Same order number used more than once
+10/13/2023 10:13:17 AM 
+PMID: 36351430
+10/13/2023 10:13:17 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+10/13/2023 10:13:17 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+10/13/2023 10:13:17 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+10/13/2023 10:13:17 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+10/13/2023 10:13:17 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+10/13/2023 10:13:17 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+10/13/2023 10:13:29 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+10/13/2023 10:13:29 AM INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+10/13/2023 10:13:29 AM [INFO]:: [Fuzzy] Neutrophils => Neutrophil : score 95
+10/13/2023 10:15:42 AM 
+PMID: 36454813
+10/13/2023 10:16:32 AM 
+PMID: 33184236
+10/13/2023 10:16:32 AM [planned visit]: PMID33184236_visit-01 has reached character limit (140 > 125)

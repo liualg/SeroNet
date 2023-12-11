@@ -46,7 +46,7 @@ else:
 
 
 file_type = "json"
-DR_NUMBER = "DR49"
+DR_NUMBER = "DR50"
 
 #########################################
 ######### Taking in Inputs ##############
@@ -345,7 +345,7 @@ def create_short(PMID, user_input_path=False):
                     df['Ethnicity*'],
                     df['Race*'],
                     df['Race Specify'],
-                    df['Description'],
+                    df['Treatment'],
                     df['Sex at Birth*'],
                     df['Age Event'],
                     df['Subject Phenotype'],
@@ -461,27 +461,44 @@ def create_short(PMID, user_input_path=False):
         
         elif sub_section in ['Experiments' , 'Serology Experiments']:
             df = seroFxn.edit_df(df)
+            try:
+                EXPERIMENTS = seroClass.experiments(
+                    df['Associated Arm ID(s)'],
+                    df['Associated First Planned Visit ID'],
+                    df['Assay Type'],
+                    df['Experiment Name'],
+                    df['Experiment Results File Name'],
+                    df['Biospecimen Type*'],
+                    df['Biospecimen Collection Point'], 
+                    df['SARS-CoV-2 Antigen*'],
+                    df['Assay Use'],
+                    df['Manufacturer'],
+                    df['Catalog #'],
+                    df['Virus Target'],
+                    df['Antibody Isotype*'],
+                    df['Reporting Units'],
+                    df['Assay Reporting Format']
+            )
+            except:
+                print("** Using older version of experiments")
+                EXPERIMENTS = seroClass.experiments(
+                    df['Associated Arm ID(s)'],
+                    df['Associated First Planned Visit ID'],
+                    df['Assay Type'],
+                    df['Experiment Name'],
+                    df['Experiment Results File Name'],
+                    df['Biospecimen Type*'],
+                    df['Biospecimen Collection Point'], 
+                    df['SARS-CoV-2 Antigen*'],
+                    df['Assay Use'],
+                    df['Manufacturer'],
+                    df['Catalog Number'],
+                    df['Virus Target'],
+                    df['Antibody Isotype*'],
+                    df['Reporting Units'],
+                    df['Assay Reporting Format']
+            )
 
-            EXPERIMENTS = seroClass.experiments(
-                df['Associated Arm ID(s)'],
-                df['Associated First Planned Visit ID'],
-                df['Assay Type'],
-                df['Experiment Name'],
-                df['Experiment Results File Name'],
-                df['Biospecimen Type*'],
-                df['Biospecimen Collection Point'], 
-                df['SARS-CoV-2 Antigen*'],
-                df['Assay Use'],
-                df['Manufacturer'],
-                df['Catalog #'],
-                df['Virus Target'],
-                df['Antibody Isotype*'],
-                df['Reporting Units'],
-                df['Assay Reporting Format']
-        )
-            
-
-            
         else:
             print(sub_section, ': does not exist')
 
@@ -725,6 +742,10 @@ def create_short(PMID, user_input_path=False):
     # StudyTimeCollected should link back to the planned_visit.User_Defined_ID + planned_visit.Min_Start_Day
     '''
     reagentID = []
+    if (EXPERIMENTS):
+        print('yes')
+    else:
+        print('no')
 
     if  EXPERIMENTS:
         # creating a map of the assay types to the SeroNet descriptors

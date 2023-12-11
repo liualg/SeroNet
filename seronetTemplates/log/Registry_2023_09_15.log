@@ -1,0 +1,249 @@
+09/15/2023 12:28:09 PM 
+PMID: 34075366
+09/15/2023 12:28:09 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 12:28:09 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 12:28:09 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 12:28:39 PM 
+PMID: 34767812
+09/15/2023 12:28:46 PM 
+PMID: 34424479
+09/15/2023 12:28:46 PM [file names]: Redudant names: file names
+09/15/2023 12:29:15 PM 
+PMID: 35174389
+09/15/2023 12:29:15 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 12:29:15 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 12:29:15 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 12:29:15 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 12:29:15 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 12:29:15 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 12:29:15 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 12:29:15 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 12:29:15 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 12:29:15 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 12:29:15 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 12:29:15 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 12:29:28 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+09/15/2023 12:29:28 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+09/15/2023 12:29:28 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004988 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 97
+09/15/2023 12:29:28 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004989 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 97
+09/15/2023 12:29:28 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004990 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 94
+09/15/2023 12:29:28 PM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+09/15/2023 12:29:28 PM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+09/15/2023 12:33:35 PM 
+PMID: 35174389
+09/15/2023 12:33:35 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 12:33:35 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 12:33:35 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 12:33:35 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 12:33:35 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 12:33:35 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 12:33:35 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 12:33:35 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 12:33:35 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 12:33:35 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 12:33:35 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 12:33:35 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 12:33:35 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+09/15/2023 12:33:35 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+09/15/2023 12:33:35 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004988 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 97
+09/15/2023 12:33:35 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004989 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 97
+09/15/2023 12:33:35 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004990 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 94
+09/15/2023 12:33:35 PM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+09/15/2023 12:33:35 PM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+09/15/2023 12:35:43 PM 
+PMID: 34075366
+09/15/2023 12:35:44 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 12:35:44 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 12:35:44 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 12:36:24 PM 
+PMID: 34075366
+09/15/2023 12:36:25 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 12:36:25 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 12:36:25 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 12:36:37 PM INFO:: [User Change] Not Specified => Not Applicable
+09/15/2023 12:36:39 PM INFO:: [User Change] Other => Other Race
+09/15/2023 12:38:09 PM 
+PMID: 34075366
+09/15/2023 12:38:09 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 12:38:09 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 12:38:09 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 12:38:11 PM INFO:: [User Change] Not Specified => Not Applicable
+09/15/2023 12:38:14 PM INFO:: [User Change] Other => Other Race
+09/15/2023 12:39:47 PM 
+PMID: 34767812
+09/15/2023 12:39:47 PM Error:: [planned visit] Same order number used more than once
+09/15/2023 12:40:49 PM 
+PMID: 34767812
+09/15/2023 12:40:49 PM [planned visit]: PMID34767812_visit-03 has reached character limit (127 > 125)
+09/15/2023 12:41:22 PM 
+PMID: 34767812
+09/15/2023 12:41:22 PM [planned visit]: PMID34767812_visit-08 has reached character limit (127 > 125)
+09/15/2023 12:41:59 PM 
+PMID: 34767812
+09/15/2023 12:45:13 PM 
+PMID: 34424479
+09/15/2023 12:45:13 PM [file names]: Redudant names: file names
+09/15/2023 12:46:26 PM 
+PMID: 34424479
+09/15/2023 12:46:26 PM [file names]: Redudant names: file names
+09/15/2023 12:49:28 PM 
+PMID: 34424479
+09/15/2023 12:49:28 PM [file names]: Redudant names: file names
+09/15/2023 12:50:45 PM 
+PMID: 34424479
+09/15/2023 12:50:45 PM Error:: [planned visit] Same order number used more than once
+09/15/2023 12:51:01 PM 
+PMID: 34424479
+09/15/2023 01:05:44 PM 
+PMID: 34424479
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 Gamma (P.1) => SARS-CoV-2 Gamma; P.1 : score 93
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004988 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 97
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004989 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 97
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 Gamma (P.1) => SARS-CoV-2 Gamma; P.1 : score 93
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 Gamma (P.1) => SARS-CoV-2 Gamma; P.1 : score 93
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+09/15/2023 02:12:56 PM [INFO]:: [Fuzzy] SARS-CoV-2 Gamma (P.1) => SARS-CoV-2 Gamma; P.1 : score 93
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 Gamma (P.1) => SARS-CoV-2 Gamma; P.1 : score 93
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004988 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 97
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004989 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 97
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 Gamma (P.1) => SARS-CoV-2 Gamma; P.1 : score 93
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 Gamma (P.1) => SARS-CoV-2 Gamma; P.1 : score 93
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+09/15/2023 02:14:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 Gamma (P.1) => SARS-CoV-2 Gamma; P.1 : score 93
+09/15/2023 02:14:44 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 02:14:44 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 02:14:44 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 02:14:44 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 02:15:02 PM INFO:: [User Change] Uninfected => N/A
+09/15/2023 02:15:02 PM [INFO]:: [Fuzzy] Sinovac (CoronaVac); VO:0005142 => Sinovac (CoronaVac); VO:0005141 : score 97
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 Gamma (P.1) => SARS-CoV-2 Gamma; P.1 : score 93
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004988 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 97
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004989 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 97
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 Gamma (P.1) => SARS-CoV-2 Gamma; P.1 : score 93
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 Gamma (P.1) => SARS-CoV-2 Gamma; P.1 : score 93
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+09/15/2023 02:17:04 PM [INFO]:: [Fuzzy] SARS-CoV-2 Gamma (P.1) => SARS-CoV-2 Gamma; P.1 : score 93
+09/15/2023 02:17:05 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 02:17:05 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 02:17:05 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 02:17:05 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 02:17:14 PM INFO:: [User Change] Uninfected => N/A
+09/15/2023 02:17:14 PM [INFO]:: [Fuzzy] Sinovac (CoronaVac); VO:0005142 => Sinovac (CoronaVac); VO:0005141 : score 97
+09/15/2023 02:17:16 PM INFO:: [User Change] Glycan Profiling => Methylation Sequencing
+09/15/2023 02:17:27 PM INFO:: [User Change] Not Reported => n/a
+09/15/2023 02:17:27 PM Previous Input: Biospecimen Type, Not Reported => n/a
+09/15/2023 03:34:37 PM 
+PMID: 37384638
+09/15/2023 03:34:37 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 03:34:37 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 03:34:37 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 03:34:37 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 03:34:37 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 03:34:37 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 03:34:37 PM [planned visit]: PMID37384638_visit-01 has reached character limit (150 > 125)
+09/15/2023 03:34:54 PM 
+PMID: 37239587
+09/15/2023 03:34:54 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 03:34:54 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 03:34:54 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 03:35:39 PM INFO:: [User Change] Not Specified => Not Applicable
+09/15/2023 03:35:53 PM 
+PMID: 37384638
+09/15/2023 03:35:53 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 03:35:53 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 03:35:53 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 03:35:53 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 03:35:53 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 03:35:53 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 03:35:53 PM [planned visit]: PMID37384638_visit-01 has reached character limit (139 > 125)
+09/15/2023 03:36:25 PM 
+PMID: 37384638
+09/15/2023 03:36:25 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 03:36:25 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 03:36:25 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 03:36:25 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 03:36:25 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 03:36:25 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 03:38:12 PM INFO:: [User Change] Chronic lymphocytic leukemia => Leukemia
+09/15/2023 03:38:12 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 03:38:12 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 03:38:12 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 03:38:12 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 03:38:12 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 03:38:12 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 03:38:12 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 03:38:12 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 03:40:05 PM 
+PMID: 37384638
+09/15/2023 03:40:05 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 03:40:05 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 03:40:05 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 03:40:05 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 03:40:05 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 03:40:05 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 03:40:15 PM INFO:: [User Change] Chronic lymphocytic leukemia => Leukemia
+09/15/2023 03:40:15 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 03:40:15 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 03:40:15 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 03:40:15 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 03:40:15 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 03:40:15 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 03:40:15 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 03:40:15 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/15/2023 03:41:31 PM 
+PMID: 37239587
+09/15/2023 03:41:31 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/15/2023 03:41:31 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/15/2023 03:41:31 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/15/2023 03:41:34 PM INFO:: [User Change] Not Specified => Not Applicable

@@ -1,0 +1,319 @@
+11/30/2023 10:17:43 AM 
+PMID: 37535402
+11/30/2023 10:17:43 AM [study personnel]: Same Personnel ID used
+11/30/2023 10:18:04 AM 
+PMID: 33846703
+11/30/2023 10:18:04 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 10:18:04 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 10:18:04 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 10:18:04 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 10:18:04 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 10:18:04 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 10:18:04 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 10:18:04 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 10:18:04 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 10:18:36 AM 
+PMID: 36686629
+11/30/2023 10:18:36 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 10:18:36 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 10:18:36 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 10:18:36 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 10:18:36 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 10:18:36 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 10:18:36 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 10:18:36 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 10:18:36 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 10:18:36 AM [planned visit]: PMID36686629_visit-01 has reached character limit (146 > 125)
+11/30/2023 10:19:11 AM 
+PMID: 37365606
+11/30/2023 10:19:11 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 10:19:11 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 10:21:31 AM 
+PMID: 37023746
+11/30/2023 10:21:41 AM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+11/30/2023 10:50:09 AM 
+PMID: 37365606
+11/30/2023 10:50:09 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 10:50:09 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 10:50:58 AM 
+PMID: 37365606
+11/30/2023 10:50:58 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 10:50:58 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:07:47 AM 
+PMID: 37365606
+11/30/2023 11:07:47 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:07:47 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:07:47 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:07:47 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:07:47 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:07:47 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:07:47 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:07:47 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:07:47 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:07:47 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:08:00 AM 
+PMID: 37365606
+11/30/2023 11:08:00 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:08:00 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:08:00 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:08:00 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:08:00 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:08:00 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:08:00 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:08:00 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:08:00 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:08:00 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:08:13 AM 
+PMID: 37365606
+11/30/2023 11:08:13 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:08:13 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:08:13 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:08:13 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:08:13 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:08:13 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:08:13 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:08:13 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:08:13 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:08:13 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:15:05 AM 
+PMID: 37535402
+11/30/2023 11:15:05 AM [study personnel]: Same Personnel ID used
+11/30/2023 11:16:15 AM 
+PMID: 37535402
+11/30/2023 11:16:15 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:16:15 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:16:15 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:16:15 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:16:15 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:16:15 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:16:15 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:16:15 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:16:15 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:17:52 AM 
+PMID: 37535402
+11/30/2023 11:17:52 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:17:52 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:17:52 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:17:52 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:17:52 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:17:52 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:17:52 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:17:52 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:17:52 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:28:44 AM 
+PMID: 37535402
+11/30/2023 11:28:44 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:28:44 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:28:44 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:28:44 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:28:44 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:28:44 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:28:44 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:28:44 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:28:44 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:33:50 AM 
+PMID: 37023746
+11/30/2023 11:33:51 AM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+11/30/2023 11:35:43 AM 
+PMID: 32884153
+11/30/2023 11:36:13 AM 
+PMID: 37000623
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:36:14 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 11:49:14 AM 
+PMID: 36697312
+11/30/2023 11:49:14 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:49:14 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:49:14 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 11:49:15 AM [INFO]:: [Fuzzy] Computational Modeling => Computational Modelling : score 98
+11/30/2023 11:49:17 AM INFO:: [User Change] Not Specified => Not Applicable
+11/30/2023 11:53:22 AM 
+PMID: 36697312
+11/30/2023 11:53:22 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 11:53:22 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 11:53:22 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 12:00:41 PM 
+PMID: 36697312
+11/30/2023 12:00:41 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 12:00:41 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 12:00:41 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 12:00:44 PM INFO:: [User Change] Not Specified => Not Applicable
+11/30/2023 12:37:55 PM 
+PMID: 35977496
+11/30/2023 12:37:55 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 12:37:55 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 12:37:55 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 12:37:55 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 12:37:55 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 12:37:55 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 12:37:55 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 12:37:55 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 12:37:55 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 12:37:55 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 12:37:55 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 12:37:55 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 12:37:55 PM Error:: [planned visit] Same order number used more than once
+11/30/2023 12:38:34 PM 
+PMID: 35977496
+11/30/2023 12:38:34 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 12:38:34 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 12:38:34 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 12:38:34 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 12:38:34 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 12:38:34 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 12:38:34 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 12:38:34 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 12:38:34 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 12:38:34 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 12:38:34 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 12:38:34 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 12:38:34 PM ERROR:: [arm_or_cohort] Arm type missing
+11/30/2023 12:43:38 PM 
+PMID: 35977496
+11/30/2023 12:43:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 12:43:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 12:43:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 12:43:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 12:43:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 12:43:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 12:43:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 12:43:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 12:43:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 12:43:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 12:43:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 12:43:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 12:43:38 PM ERROR:: [arm_or_cohort] Arm type missing
+11/30/2023 12:43:59 PM 
+PMID: 37535402
+11/30/2023 12:43:59 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 12:43:59 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 12:43:59 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 12:43:59 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 12:43:59 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 12:43:59 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 12:43:59 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 12:43:59 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 12:43:59 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 01:01:26 PM 
+PMID: 33846703
+11/30/2023 01:01:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 01:01:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 01:01:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 01:01:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 01:01:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 01:01:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 01:01:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 01:01:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 01:01:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 01:02:14 PM 
+PMID: 36686629
+11/30/2023 01:02:14 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 01:02:14 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 01:02:14 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 01:02:14 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 01:02:14 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 01:02:14 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 01:02:14 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 01:02:14 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 01:02:14 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 01:09:14 PM 
+PMID: 35977496
+11/30/2023 01:09:14 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 01:09:14 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 01:09:14 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 01:09:14 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 01:09:14 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 01:09:14 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 01:09:14 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 01:09:14 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 01:09:14 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 01:09:14 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 01:09:14 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 01:09:14 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 01:10:02 PM INFO:: [User Change] Shigellosis => Shigella
+11/30/2023 01:10:04 PM INFO:: [User Change] Not Specified => Not Applicable
+11/30/2023 01:16:00 PM 
+PMID: 37376419
+11/30/2023 01:16:03 PM INFO:: [User Change] Not Specified => Not Applicable
+11/30/2023 01:49:12 PM 
+PMID: 37000623
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 01:49:13 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/30/2023 03:24:54 PM 
+PMID: 37365606
+11/30/2023 03:24:54 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 03:24:54 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 03:24:54 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 03:24:54 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 03:24:54 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 03:24:54 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 03:24:54 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 03:24:54 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 03:24:54 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 03:24:54 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 03:24:57 PM INFO:: [User Change] Not Specified => Not Applicable
+11/30/2023 03:26:48 PM 
+PMID: 37365606
+11/30/2023 03:26:48 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 03:26:48 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/30/2023 03:26:48 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 03:26:48 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 03:26:48 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 03:26:48 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/30/2023 03:26:48 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 03:26:48 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 03:26:48 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 03:26:48 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/30/2023 03:26:50 PM INFO:: [User Change] Not Specified => Not Applicable

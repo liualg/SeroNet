@@ -11,9 +11,7 @@ box_dir = '/Users/liualg/Library/CloudStorage/Box-Box/SeroNet Curation/SeroNet P
 out_dir = './archive/JSON/'
 file_type = 'json'
 PMID_LIST = [
-    35090580,
-    35073738,
-    37249415
+    34664987
 ]
 
 #need to run later [35932763, 35090596, 33688034,35061630 ]

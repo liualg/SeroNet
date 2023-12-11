@@ -124,7 +124,7 @@ class study_file(DataClassJsonMixin):
 
         if len(list(self.File_Name)) != len(list(set(self.File_Name))):
             logging.error("[file names]: Redudant names: file names")
-            sys.exit("ERROR:: [file names]: Check file names")
+            sys.exit(f"ERROR:: [file names]:: Redudant names")
 
         if len(self.File_Name) != len(self.Study_File_Type):
             logging.error("[file names]: Missing value")

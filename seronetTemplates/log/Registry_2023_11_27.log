@@ -1,0 +1,39 @@
+11/27/2023 04:39:01 PM 
+PMID: 35166573
+11/27/2023 04:39:01 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2023 04:39:01 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2023 04:39:01 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2023 04:39:07 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+11/27/2023 04:39:14 PM INFO:: [User Change] Moderna COVID-19 vaccine; VO:0005157 => Moderna SARS-CoV-2 vaccine
+11/27/2023 04:39:18 PM INFO:: [User Change] Pfizer BioNTech COVID-19 vaccine; VO:0004987 => Pfizer-BioNTech SARS-CoV-2 vaccine
+11/27/2023 04:39:18 PM [INFO]:: [Fuzzy] SARS-CoV-2 Delta; B.1.617.3 => SARS-CoV-2 Delta; B.1.617.2 : score 96
+11/27/2023 04:39:18 PM [INFO]:: [Fuzzy] SARS-CoV-2 Delta; B.1.617.3 => SARS-CoV-2 Delta; B.1.617.2 : score 96
+11/27/2023 04:39:38 PM 
+PMID: 32884153
+11/27/2023 04:39:59 PM INFO:: [User Change] Nares => Heart
+11/27/2023 04:40:11 PM INFO:: [User Change] Gastrointestinal tract => Cell culture supernatant
+11/27/2023 04:40:31 PM 
+PMID: 36697312
+11/27/2023 04:40:31 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2023 04:40:31 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2023 04:40:31 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2023 04:40:43 PM INFO:: [User Change] Not Specified => Not Applicable
+11/27/2023 04:49:35 PM 
+PMID: 35259002
+11/27/2023 04:49:35 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2023 04:49:35 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2023 04:49:35 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2023 04:49:47 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2023 04:49:47 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2023 04:49:47 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2023 04:49:47 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2023 04:50:09 PM INFO:: [User Change] Electrochemiluminescence Immunoassay (eCLIA) => Chemiluminescent Assay
+11/27/2023 04:50:09 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2023 04:50:09 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2023 04:50:09 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2023 04:50:09 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2023 04:50:30 PM 
+PMID: 35457559
+11/27/2023 04:50:30 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2023 04:50:30 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2023 04:50:30 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates

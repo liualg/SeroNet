@@ -178,17 +178,20 @@ for column in sheet.iter_cols( #sheet.max_column,
             if cell.value is not None and (column[icol-1].value is None):
                 name.append(cell.value)
                 start_index.append(icol)
-    
+    # print(name)
     try:
         for i in range(len(start_index)-1):
             # This does the main rows
+            # print(name[i])
             immport_dict[name[i]] = [k.value for k in column[start_index[i]+1 : start_index[i+1]] if k.value is not None]
         #this does the last row
         immport_dict[name[-1]] = [k.value for k in column[start_index[i+1]+1 :] if k.value is not None]
-    
+        # print(immport_dict)
     except:
         #this does the first row 
-        immport_dict[name[-1]] = [k.value for k in column[start_index[i-1]+1 :] if k.value is not None]
+        if name[-1] is not None:
+            immport_dict[name[-1]] = [k.value for k in column[start_index[i-1]+1 :] if k.value is not None]
+        
         pass
 
 
@@ -719,7 +722,8 @@ def parse_subject_human(df, template):
                "ethnicity": check_spelling(parse_clean_mv_split(df, HUMAN_ETHNICITY, idx),'ethnicity'),
                "race": check_spelling(parse_clean_mv_split(df, HUMAN_RACE, idx),'race'),
                "race_specify": parse_clean_mv_split(df, HUMAN_RACE_SPECIFY, idx),
-               "description": parse_clean_sv(df, HUMAN_DESCRIPTION, idx),
+               # "description": parse_clean_sv(df, HUMAN_DESCRIPTION, idx),
+                "treatment": parse_clean_sv(df, HUMAN_DESCRIPTION, idx),
                "sex_at_birth": check_spelling(parse_clean_mv_split(df, HUMAN_SEX_AT_BIRTH, idx),'sex_at_birth'),
                "age_event": parse_clean_sv(df, HUMAN_AGE_EVENT, idx),
                "subject_phenotype": parse_clean_sv(df, HUMAN_SUBJECT_PHENOTYPE,idx),

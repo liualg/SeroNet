@@ -1,0 +1,19 @@
+12/07/2023 02:43:42 PM 
+PMID: 36511813
+12/07/2023 02:43:42 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/07/2023 02:43:42 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/07/2023 02:43:42 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/07/2023 02:43:42 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/07/2023 02:43:42 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/07/2023 02:43:42 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/07/2023 02:44:44 PM 
+PMID: 36511813
+12/07/2023 02:44:44 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/07/2023 02:44:44 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+12/07/2023 02:44:44 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/07/2023 02:44:44 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+12/07/2023 02:44:44 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/07/2023 02:44:44 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+12/07/2023 02:44:47 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron; BA2.12.1 => SARS-CoV-2 Omicron; B.1.1.529 : score 88
+12/07/2023 02:44:47 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine; VO:0004988 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 98
+12/07/2023 02:44:47 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron; BA2.12.1 => SARS-CoV-2 Omicron; B.1.1.529 : score 88

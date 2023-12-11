@@ -1,0 +1,56 @@
+{
+	"candidate_eligibility_form": {
+		"candidate_id": "BIO-E8B0817B-C",
+		"are_you_willing_to_participate_in_the_study_where": {
+			"a_large_amount_of_blood_is_collected_in_two_visits": "Yes",
+			"small_volumes_of_blood_are_collected_over_many_visits": "Yes"
+		},
+		"screener": {
+			"screening_site": "Maryland",
+			"screening_performed_by": "PMH",
+			"screening_date": "01/24/2023"
+		},
+		"general": {
+			"what_is_your_age": 48,
+			"sex_at_birth": "Female",
+			"are_you_pregnant": "No"
+		},
+		"covid_19_history": {
+			"have_you_received_any_vaccination_or_booster_shots_for_covid-19?": "Yes",
+			"are_you_fully_vaccinated?": "Yes",
+			"if_two_doses_were_required,_are_both_doses_from_the_same_manufacturer?": "Yes",
+			"how_many_booster_shots_have_you_recieved_for_covid-19?": 2,
+			"did_you_receive_the_bivalent_vaccine?": "Yes",
+			"what_was_the_date_of_your_last_shot?": "12/07/2022",
+			"are_you_currently_experiencing_symptoms_of_covid-19?": "No",
+			"have_you_ever_tested_positive_for_or_been_infected_with_covid-19?": "Yes",
+			"have_you_been_infected_with_covid_more_than_once?": "No",
+			"when_did_you_have_covid_(most_recent_infection)?": "02/2022"
+		},
+		"health_history": {
+			"hepatitis_b_or_c?": "No",
+			"mononucleosis_or_epstein-barr_virus_(ebv)?": "No",
+			"cardiovascular_disease_and/or_hypertension?": "No",
+			"metabolic_disease_or_type_II_diabetes?": "No",
+			"respiratory_or_chronic_lung_disease?": "No",
+			"chronic_liver_disease?": "No",
+			"chronic_kidney_disease?": "No",
+			"chronic_neurological_condition?": "No",
+			"immunosuppressive_condition?": "No",
+			"severe_obesity?": "No",
+			"autoimmune_disease_or_type_I_diabetes?": "No",
+			"are_you_the_recipient_of_a_hematopoietic_or_solid_organ_transplant?": "No"
+		},
+		"health_history_for_cohorts": {
+			"have_you_ever_been_diagnosed_with_cancer?": "No",
+			"what_type_of_cancer_do_you_have?": null,
+			"specify_other_cancer": null,
+			"are_you_currently_being_treated_for_cancer?": null,
+			"have_you_been_diagnosed_with_hiv?": "No"
+		},
+		"signatures": {
+			"reviewed_by": "pmh",
+			"date_reviewed": "07/01/2023"
+		}
+	}
+}
