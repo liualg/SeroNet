@@ -1,0 +1,21 @@
+01/12/2024 09:56:43 AM 
+PMID: 34521836
+01/12/2024 09:56:43 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/12/2024 09:56:43 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/12/2024 09:56:43 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/12/2024 09:56:43 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/12/2024 09:56:43 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/12/2024 09:56:43 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/12/2024 09:56:49 AM INFO:: [User Change] Not Specified => Not Applicable
+01/12/2024 09:56:49 AM [INFO]:: [Fuzzy] Femaled => Female : score 92
+01/12/2024 09:56:50 AM [INFO]:: [Fuzzy] Femaled => Female : score 92
+01/12/2024 09:56:50 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/12/2024 09:56:50 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/12/2024 09:56:50 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/12/2024 09:56:50 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/12/2024 09:57:01 AM INFO:: [User Change] Middle East Respiratory Syndrome (MERS) => MERS-CoV
+01/12/2024 09:57:10 AM INFO:: [User Change] nonpathogenic coronaviruses (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/12/2024 09:57:10 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/12/2024 09:57:10 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/12/2024 09:57:13 AM INFO:: [User Change] and HKU1) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/12/2024 09:57:23 AM INFO:: [User Change] and Influenza (hemagglutinin (HA) from A/California/07/2009 H1N1) => Influenza

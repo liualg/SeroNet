@@ -99,5 +99,18 @@ left join `seronetdb-Vaccine_Response`.Comorbidities_Names as CNames ON
 	hiv_visits.Visit_Info_ID = CNames.Visit_Info_ID
 
 )
+
 select * from subject_level
--- select count(distinct Research_Participant_ID) from subject_level
+	inner join
+    (
+		Select max(Visit_Number) as LatestDate, Research_Participant_ID
+        from subject_level
+        group by Research_Participant_ID
+    ) SubMax
+    on subject_level.Visit_Number = SubMax.LatestDate
+    and subject_level.Research_Participant_ID = SubMax.Research_Participant_ID
+    
+	group by subject_level.Research_Participant_ID
+
+
+

@@ -1,0 +1,127 @@
+01/08/2024 09:16:17 AM 
+PMID: 33184236
+01/08/2024 09:16:17 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 09:16:17 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 09:16:17 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 09:17:06 AM 
+PMID: 33184236
+01/08/2024 09:17:06 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 09:17:06 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 09:17:06 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 09:22:07 AM 
+PMID: 33184236
+01/08/2024 09:22:07 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 09:22:07 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 09:22:07 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 09:46:20 AM 
+PMID: 33184236
+01/08/2024 09:46:20 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 09:46:20 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 09:46:20 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 09:47:04 AM 
+PMID: 33184236
+01/08/2024 09:47:04 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 09:47:04 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 09:47:04 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 09:47:54 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+01/08/2024 09:47:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+01/08/2024 10:18:57 AM 
+PMID: 33184236
+01/08/2024 10:18:58 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 10:18:58 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 10:18:58 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 10:18:59 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+01/08/2024 10:18:59 AM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+01/08/2024 10:26:52 AM 
+PMID: 33184236
+01/08/2024 10:26:52 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 10:26:52 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 10:26:52 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 10:26:53 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+01/08/2024 10:26:53 AM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+01/08/2024 10:39:31 AM 
+PMID: 35798721
+01/08/2024 10:39:31 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+01/08/2024 10:39:31 AM WARNING:: [inclusion exclusion] Changing No => Exclusion
+01/08/2024 10:39:31 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 10:39:31 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 10:39:31 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 10:39:31 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 10:39:31 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 10:39:31 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 10:39:31 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 10:39:31 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 10:39:31 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 10:46:58 AM 
+PMID: 35798721
+01/08/2024 10:46:58 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+01/08/2024 10:46:58 AM WARNING:: [inclusion exclusion] Changing No => Exclusion
+01/08/2024 10:46:58 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 10:46:58 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 10:46:58 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 10:46:58 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 10:46:58 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 10:46:58 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 10:46:58 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 10:46:58 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 10:46:58 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 10:47:06 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+01/08/2024 10:47:06 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+01/08/2024 10:47:06 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+01/08/2024 10:47:06 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+01/08/2024 10:47:06 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+01/08/2024 10:47:06 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+01/08/2024 10:47:06 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+01/08/2024 10:47:06 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+01/08/2024 10:47:06 AM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+01/08/2024 10:47:06 AM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+01/08/2024 11:23:29 AM 
+PMID: 35037030
+01/08/2024 11:23:29 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 11:23:29 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 11:23:29 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 11:23:29 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 11:23:29 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 11:29:29 AM 
+PMID: 35037030
+01/08/2024 11:29:29 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 11:29:29 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 11:29:29 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 11:29:29 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 11:29:29 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 11:42:47 AM 
+PMID: 37093505
+01/08/2024 11:42:47 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 11:42:47 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 11:42:47 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 11:42:57 AM INFO:: [User Change] Not Specified => Not Applicable
+01/08/2024 11:47:54 AM 
+PMID: 37093505
+01/08/2024 11:47:54 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 11:47:54 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 11:47:54 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 02:31:04 PM INFO:: [User Change] Not Specified => Not Applicable
+01/08/2024 02:32:25 PM 
+PMID: 37443074
+01/08/2024 02:32:25 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 02:32:25 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 02:32:25 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/08/2024 02:32:25 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 02:32:25 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 02:32:25 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/08/2024 02:32:25 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 02:32:25 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 02:32:25 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/08/2024 02:33:36 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/08/2024 02:33:36 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/08/2024 02:33:36 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/08/2024 02:33:36 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/08/2024 02:33:49 PM INFO:: [User Change] Uninfected => N/A
+01/08/2024 02:33:49 PM [INFO]:: [Fuzzy] Sinovac (CoronaVac); VO:0005142 => Sinovac (CoronaVac); VO:0005141 : score 97
+01/08/2024 02:34:05 PM INFO:: [User Change] Glycan Profiling => Other
+01/09/2024 01:52:02 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 01:52:02 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 01:52:02 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 01:52:02 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 01:52:02 PM [INFO]:: [Fuzzy] Sinovac (CoronaVac); VO:0005142 => Sinovac (CoronaVac); VO:0005141 : score 97
+01/09/2024 01:52:02 PM Previous Input: Assay Type, Glycan Profiling => Other

@@ -1,0 +1,112 @@
+01/05/2024 10:47:53 AM 
+PMID: 35798721
+01/05/2024 10:47:53 AM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+01/05/2024 10:47:53 AM WARNING:: [inclusion exclusion] Changing No => Exclusion
+01/05/2024 10:47:53 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 10:47:53 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 10:47:53 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 10:47:53 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 10:47:53 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 10:47:53 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 10:47:53 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 10:47:53 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 10:47:53 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 10:48:41 AM 
+PMID: 33184236
+01/05/2024 10:48:41 AM [planned visit]: PMID33184236_visit-01 has reached character limit (140 > 125)
+01/05/2024 10:49:51 AM 
+PMID: 37575243
+01/05/2024 10:49:52 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 10:49:52 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 10:49:52 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 10:49:52 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 10:49:52 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 10:49:52 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 10:49:52 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 10:49:52 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 10:49:52 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 10:49:52 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 10:49:52 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 10:49:52 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 10:50:53 AM INFO:: [User Change] Red blood cells => Blood
+01/05/2024 10:50:53 AM Previous Input: Biospecimen Type, Red blood cells => Blood
+01/05/2024 10:51:20 AM 
+PMID: 36546661
+01/05/2024 10:51:20 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 10:51:20 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 10:51:20 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 10:51:20 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 10:51:20 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 10:51:20 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 10:51:20 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 10:51:20 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 10:51:20 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 10:51:29 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+01/05/2024 10:51:39 AM INFO:: [User Change] Covid-19 => COVID-19
+01/05/2024 10:51:39 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+01/05/2024 10:51:39 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+01/05/2024 10:51:39 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+01/05/2024 04:28:52 PM 
+PMID: 36546661
+01/05/2024 04:28:53 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 04:28:53 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 04:28:53 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 04:28:53 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 04:28:53 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 04:28:53 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 04:28:53 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 04:28:53 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 04:28:53 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 04:28:53 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+01/05/2024 04:28:54 PM INFO:: [User Change] Covid-19 => COVID-19
+01/05/2024 04:28:54 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+01/05/2024 04:28:54 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+01/05/2024 04:28:54 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+01/05/2024 04:35:43 PM 
+PMID: 37575243
+01/05/2024 04:35:43 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 04:35:43 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 04:35:43 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 04:35:43 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 04:35:43 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 04:35:43 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 04:35:43 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 04:35:43 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 04:35:43 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 04:35:43 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 04:35:43 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 04:35:43 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 04:37:45 PM INFO:: [User Change] Red blood cells => Blood
+01/05/2024 04:37:45 PM Previous Input: Biospecimen Type, Red blood cells => Blood
+01/05/2024 04:38:18 PM 
+PMID: 37575243
+01/05/2024 04:38:18 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 04:38:18 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 04:38:18 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 04:38:18 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 04:38:18 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 04:38:18 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 04:38:18 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 04:38:18 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 04:38:18 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 04:38:18 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 04:38:18 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 04:38:18 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 04:38:20 PM INFO:: [User Change] Red blood cells => Blood
+01/05/2024 04:38:20 PM Previous Input: Biospecimen Type, Red blood cells => Blood
+01/05/2024 04:41:13 PM 
+PMID: 37575243
+01/05/2024 04:41:13 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 04:41:13 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 04:41:13 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 04:41:13 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/05/2024 04:41:13 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 04:41:13 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 04:41:13 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 04:41:13 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/05/2024 04:41:13 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 04:41:13 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 04:41:13 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 04:41:13 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/05/2024 04:46:49 PM INFO:: [User Change] Red blood cells => Blood
+01/05/2024 04:46:49 PM Previous Input: Biospecimen Type, Red blood cells => Blood

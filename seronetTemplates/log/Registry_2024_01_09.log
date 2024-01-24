@@ -1,0 +1,169 @@
+01/09/2024 03:20:53 PM 
+PMID: 34431693
+01/09/2024 03:20:53 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 03:20:53 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 03:20:53 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 03:21:11 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+01/09/2024 03:21:11 PM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+01/09/2024 03:21:44 PM 
+PMID: 34521836
+01/09/2024 03:21:45 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 03:21:45 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 03:21:45 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 03:21:45 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 03:21:45 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 03:21:45 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 03:37:45 PM INFO:: [User Change] Not Specified => Not Applicable
+01/09/2024 03:37:45 PM [INFO]:: [Fuzzy] Femaled => Female : score 92
+01/09/2024 03:37:45 PM [INFO]:: [Fuzzy] Femaled => Female : score 92
+01/09/2024 03:37:45 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 03:37:45 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 03:37:45 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 03:37:45 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 03:38:50 PM INFO:: [User Change] Middle East Respiratory Syndrome (MERS) => MERS-CoV
+01/09/2024 03:39:22 PM INFO:: [User Change] nonpathogenic coronaviruses (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 03:39:22 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 03:39:22 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 03:39:26 PM INFO:: [User Change] and HKU1) => SARS-CoV-2 Omicron variant BA.1
+01/09/2024 04:09:43 PM 
+PMID: 34521836
+01/09/2024 04:09:43 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:09:43 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:09:43 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:09:43 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:09:43 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:09:43 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:09:46 PM INFO:: [User Change] Not Specified => Not Applicable
+01/09/2024 04:09:46 PM [INFO]:: [Fuzzy] Femaled => Female : score 92
+01/09/2024 04:09:46 PM [INFO]:: [Fuzzy] Femaled => Female : score 92
+01/09/2024 04:09:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 04:09:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 04:09:46 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 04:09:46 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 04:10:13 PM INFO:: [User Change] Middle East Respiratory Syndrome (MERS) => MERS-CoV
+01/09/2024 04:10:22 PM INFO:: [User Change] nonpathogenic coronaviruses (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 04:10:22 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 04:10:22 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 04:10:31 PM INFO:: [User Change] and HKU1) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 04:10:50 PM INFO:: [User Change] and Influenza (hemagglutinin (HA) from A/California/07/2009 H1N1) => Influenza
+01/09/2024 04:12:30 PM 
+PMID: 33589636
+01/09/2024 04:12:30 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:12:30 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:12:30 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:13:27 PM 
+PMID: 35994287
+01/09/2024 04:13:27 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:13:27 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:13:27 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:14:31 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+01/09/2024 04:37:17 PM 
+PMID: 36136995
+01/09/2024 04:37:17 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:37:17 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:37:17 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:37:17 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:37:17 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:37:17 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:37:17 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:37:17 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:37:17 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:43:50 PM 
+PMID: 34521836
+01/09/2024 04:43:50 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:43:50 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:43:50 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:43:50 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:43:50 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:43:50 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:43:52 PM INFO:: [User Change] Not Specified => Not Applicable
+01/09/2024 04:43:52 PM [INFO]:: [Fuzzy] Femaled => Female : score 92
+01/09/2024 04:43:52 PM [INFO]:: [Fuzzy] Femaled => Female : score 92
+01/09/2024 04:43:52 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 04:43:52 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 04:43:52 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 04:43:52 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 04:44:08 PM INFO:: [User Change] Middle East Respiratory Syndrome (MERS) => MERS-CoV
+01/09/2024 04:44:15 PM INFO:: [User Change] nonpathogenic coronaviruses (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 04:44:15 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 04:44:15 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 04:44:18 PM INFO:: [User Change] and HKU1) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+01/09/2024 04:44:30 PM INFO:: [User Change] and Influenza (hemagglutinin (HA) from A/California/07/2009 H1N1) => SARS-CoV-1
+01/09/2024 04:47:47 PM 
+PMID: 33589636
+01/09/2024 04:47:47 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:47:47 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:47:47 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:53:22 PM 
+PMID: 35994287
+01/09/2024 04:53:22 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:53:22 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:53:22 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:53:22 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+01/09/2024 04:57:10 PM 
+PMID: 36136995
+01/09/2024 04:57:10 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:57:10 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:57:10 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:57:10 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:57:10 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:57:10 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:57:10 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:57:10 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:57:10 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:57:35 PM 
+PMID: 36136995
+01/09/2024 04:57:35 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:57:35 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:57:35 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:57:35 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:57:35 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:57:35 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:57:35 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:57:35 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:57:35 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:57:55 PM 
+PMID: 36136995
+01/09/2024 04:57:55 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:57:55 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:57:55 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:57:55 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:57:55 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:57:55 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:57:55 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:57:55 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:57:55 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:58:01 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+01/09/2024 04:58:02 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+01/09/2024 04:58:02 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+01/09/2024 04:58:02 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+01/09/2024 04:58:08 PM 
+PMID: 36136995
+01/09/2024 04:58:08 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:58:08 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:58:08 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 04:58:08 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:58:08 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:58:08 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 04:58:08 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:58:08 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:58:08 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 04:58:08 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+01/09/2024 04:58:08 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+01/09/2024 04:58:08 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+01/09/2024 04:58:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+01/09/2024 05:01:53 PM 
+PMID: 36136995
+01/09/2024 05:01:54 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 05:01:54 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 05:01:54 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+01/09/2024 05:01:54 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 05:01:54 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 05:01:54 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+01/09/2024 05:01:54 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 05:01:54 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 05:01:54 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+01/09/2024 05:01:54 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+01/09/2024 05:01:54 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+01/09/2024 05:01:54 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+01/09/2024 05:01:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95

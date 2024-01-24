@@ -5,6 +5,9 @@ with
 		Union
 		Select Visit_Info_ID from `seronetdb-Vaccine_Response`.Comorbidities_Names as CN
 			where Cancer_Description_Or_ICD10_codes not in ('Not Reported')
+		union 
+        select Visit_Info_ID from `seronetdb-Vaccine_Response`.Participant_Visit_Info as PVi
+			where Primary_Study_Cohort = 'Cancer'
 		
  ),
 #'Cohort' as Data_location
@@ -110,8 +113,9 @@ subject_level as (
 			ptVisit.Visit_Info_ID=tHistory.Visit_Info_ID
 		left join `seronetdb-Vaccine_Response`.Accrual_Participant_Info as demo ON
 			ptVisit.Research_Participant_ID=demo.Research_Participant_ID
-	)
+	),
 
+final as (
 #current status
 Select  -- count(distinct subject_level.Research_Participant_ID)
 	Visit_Info_ID, subject_level.Research_Participant_ID, subject_level.CBC, subject_level.Primary_Study_Cohort, 
@@ -125,11 +129,12 @@ Select  -- count(distinct subject_level.Research_Participant_ID)
         Else 'Single'
     End as Multiple_Single_Cancer,
     
-    subject_level.Cancer_Description_Or_ICD10_codes, subject_level.`Harmonized Cancer Name`, subject_level.Cured, subject_level.Treatment, 
+    subject_level.Cancer_Description_Or_ICD10_codes, subject_level.`Harmonized Cancer Name`, subject_level.Cured, 
+    GROUP_CONCAT(distinct subject_level.Treatment SEPARATOR ', ') as Treatment, 
     subject_level.Stop_Date_Duration_From_Index, subject_level.Treatment_type, subject_level.Vaccination_Status, 
     subject_level.`SARS-CoV-2_Vaccine_Type`, subject_level.`SARS-CoV-2_Vaccination_Date_Duration_From_Index`, Breakthrough_COVID, subject_level.
-    PCR_Test_Date_Duration_From_Index, subject_level.Rapid_Antigen_Test_Date_Duration_From_Index, subject_level.
-    Antibody_Test_Date_Duration_From_Index, subject_level.mysql_db_location
+    PCR_Test_Date_Duration_From_Index, subject_level.Rapid_Antigen_Test_Date_Duration_From_Index, 
+    subject_level.Antibody_Test_Date_Duration_From_Index, subject_level.mysql_db_location
 
 From subject_level
 	inner join
@@ -142,7 +147,9 @@ From subject_level
     and subject_level.Research_Participant_ID = SubMax.Research_Participant_ID
     
 group by subject_level.Research_Participant_ID
+)
 
+select * from final
 ;
 
 -- from `seronetdb-Vaccine_Response`.Cancer_Cohort as cChort

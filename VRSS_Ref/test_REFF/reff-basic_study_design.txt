@@ -1,0 +1,61 @@
+basic_study_design	Schema Version 3.36									
+Please do not delete or edit this column	"The basic study design template defines and annotates key elements of a study including the purpose, subject grouping, schedule of events, personnel, and references (weblinks, publications). Use the study_design_edit template to add additional information for a study after a study is defined in ImmPort. The basic study design template consists of several sections or compound templates. Some compound templates are required: study, arm_or_cohort, inclusion_exclusion, planned_visit, study_2_condition_or_disease, study_2_protocol, study_categorization, study_personnel.  Other compound templates are optional: study_file, study_link, and study_pubmed."									
+Column Name										
+										
+study										
+User Defined ID	Reference_Study									
+Brief Title	Reference_Study_title									
+Official Title	Reference_Study_title									
+Brief Description	Description									
+Description	Longer Description									
+Intervention Agent	"Vaccine 1, Vaccine 2"									
+Endpoints	Keywords									
+Sponsoring Organization	NCI									
+Age Unit	Years									
+Actual Start Date	1-Jan-2021									
+Hypothesis	Can we get all the blood									
+Objectives	To get all the blood									
+Target Enrollment	500									
+Minimum Age	18									
+Maximum Age	99									
+										
+study_categorization										
+Research Focus	Vaccine Response									
+										
+study_2_condition_or_disease										
+Condition Reported	COVID-19									
+										
+arm_or_cohort										
+User Defined ID	Name	Description	Type Reported							
+Reff-ARM1	Cancer	People with Cancer	Other							
+Reff-ARM2	AutoImmune	People with AutoImmune	Other							
+										
+study_personnel										
+User Defined ID	Honorific	Last Name	First Name	Suffixes	Organization	ORCID ID	Email	Title In Study	Role In Study	Site Name
+personnel1	Dr.	Smith	Joe		NCI		joe.smith@nih.gov	Manager	Manager	SeroNet
+										
+planned_visit										
+User Defined ID	Name	Order Number	Min Start Day	Max Start Day	Start Rule	End Rule				
+Reff-planned_visit-01	Blood and vitals - day 1	1	0	2						
+Reff-planned_visit-02	Blood and vitals - day 3	2	3	89						
+Reff-planned_visit-03	Blood and vitals - day 90	3	89	180						
+Reff-planned_visit-04	Blood and vitals - day 180 - give or take	4	180							
+										
+inclusion_exclusion										
+User Defined ID	Criterion	Criterion Category								
+Reff-INC1	Cancer	Inclusion								
+										
+study_2_protocol										
+Protocol ID	RFF_Protocol									
+										
+study_file										
+File Name	Description	Study File Type								
+										
+										
+study_link										
+Name	Value									
+										
+										
+study_pubmed										
+Pubmed ID	DOI	Title	Journal	Year	Month	Issue	Pages	Authors		
+										

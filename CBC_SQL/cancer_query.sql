@@ -5,7 +5,9 @@ Cancer_visits as (
 	Union
 	Select Visit_Info_ID from `seronetdb-Vaccine_Response`.Comorbidities_Names as CN
 		where Cancer_Description_Or_ICD10_codes not in ('Not Reported')
-		
+	Union
+    Select Visit_Info_ID from `seronetdb-Vaccine_Response`.Participant_Visit_Info as PVi
+		where Primary_Study_Cohort = 'Cancer'
  ),
 #'Cohort' as Data_location
 #'Comorbidities' as Data_location
@@ -20,10 +22,10 @@ subject_level as (
 			When ptVisit.Visit_Info_ID like '27_%' then 'UMN'
 			When ptVisit.Visit_Info_ID like '32_22%' then 'Midwestern'
 			When ptVisit.Visit_Info_ID like '32_%' then 'Arizona State University'
-			when ptVisit.Visit_Info_ID like '32_33%' then 'Dignity Health'
-			when ptVisit.Visit_Info_ID like '32_34%' then 'ValleyWise'
-			when ptVisit.Visit_Info_ID like '32_35%' then 'Columbia'
-			when ptVisit.Visit_Info_ID like '32_77%' then 'Phoenix Childrens Hospital'
+-- 			when ptVisit.Visit_Info_ID like '32_33%' then 'Dignity Health'
+-- 			when ptVisit.Visit_Info_ID like '32_34%' then 'ValleyWise'
+-- 			when ptVisit.Visit_Info_ID like '32_35%' then 'Columbia'
+-- 			when ptVisit.Visit_Info_ID like '32_77%' then 'Phoenix Childrens Hospital'
 			ELSE null
 		END as CBC,
 
@@ -113,9 +115,10 @@ subject_level as (
 			ptVisit.Visit_Info_ID=tHistory.Visit_Info_ID
 		left join `seronetdb-Vaccine_Response`.Accrual_Participant_Info as demo ON
 			ptVisit.Research_Participant_ID=demo.Research_Participant_ID
-)
+),
 
 #current status
+final as (
 Select  
 -- 	count(distinct subject_level.Research_Participant_ID) '#ofsubjets',
 -- 	count(distinct Visit_Info_ID) '#ofvisits'
@@ -137,7 +140,12 @@ Select
     Antibody_Test_Date_Duration_From_Index, subject_level.mysql_db_location
 
 From subject_level
+)
 
+select * from final
+-- Research_Participant_ID
+-- count( distinct Visit_Info_ID)
+-- count( distinct Research_Participant_ID)
 
 ;
 
