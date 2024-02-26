@@ -46,7 +46,7 @@ else:
 
 
 file_type = "json"
-DR_NUMBER = "DR50.1"
+DR_NUMBER = "DR50.2"
 
 #########################################
 ######### Taking in Inputs ##############
@@ -98,8 +98,7 @@ def create_short(PMID, user_input_path=False):
 
     registryToImmportDict = pd.read_csv(registryToImmportDict_file,
                                         header=None, 
-                                        index_col=0, 
-                                        squeeze=True).to_dict()
+                                        index_col=0).squeeze().to_dict()
 
     # ImmPort Templates (link to web?)
     PATH_basic_stdy_template = os.path.join("template", "basic_study_design.xlsx")
@@ -355,9 +354,7 @@ def create_short(PMID, user_input_path=False):
                     df['Measured Social Factor*'],
                     df['SARS-CoV-2 Symptoms*'],
                     df['Assessment_Clinical  and Demographic Data Provenance*'],
-                    # df['Assessment_Demographic Data Types Collected*'],
-                    df[df.columns[df.columns.str.startswith('Assessment_Demographic Data Types')]],
-
+                    df['Assessment_Demographic Data Types Collected*'],
                     df['SARS-CoV2 History*'],
                     df['SARS-CoV-2 Vaccine Type*'],
                     df['COVID-19 Disease Severity*'],
@@ -651,8 +648,7 @@ def create_short(PMID, user_input_path=False):
 
     registryToImmportDict = pd.read_csv(registryToImmportDict_file, 
                                         header=None, 
-                                        index_col=0, 
-                                        squeeze=True).to_dict()
+                                        index_col=0).squeeze().to_dict()
     # registryToImmportDict
     registryDict = {**vars(STUDY),
                     **vars(STUDY_CATEGORIZATION),

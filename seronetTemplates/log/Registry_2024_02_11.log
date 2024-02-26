@@ -1,0 +1,241 @@
+02/11/2024 11:13:13 PM 
+PMID: 37796985
+02/11/2024 11:17:11 PM 
+PMID: 37796985
+02/11/2024 11:20:42 PM 
+PMID: 37104089
+02/11/2024 11:20:42 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:20:42 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:20:42 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:20:42 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:20:42 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:20:42 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:20:42 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:20:42 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:20:42 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:20:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:20:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:20:49 PM INFO:: [User Change] SARS-CoV-2 Omicron variant BQ.1.1 SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BQ.1.1
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:20:49 PM INFO:: [Fuzzy] Closest Match Found. Changing uninfected => Uninfected
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:20:49 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:22:31 PM 
+PMID: 37104089
+02/11/2024 11:22:31 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:22:31 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:22:31 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:22:31 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:22:31 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:22:31 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:22:31 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:22:31 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:22:31 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:22:32 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:22:32 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:22:33 PM INFO:: [User Change] SARS-CoV-2 Omicron variant BQ.1.1 SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BQ.1.1
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:22:33 PM INFO:: [Fuzzy] Closest Match Found. Changing uninfected => Uninfected
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:22:33 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:23:44 PM 
+PMID: 37104089
+02/11/2024 11:23:44 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:23:44 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:23:44 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:23:44 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:23:44 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:23:44 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:23:44 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:23:44 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:23:44 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:23:45 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:23:45 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:23:54 PM INFO:: [User Change] SARS-CoV-2 Omicron variant BQ.1.1 SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BQ.1.1
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:23:54 PM INFO:: [Fuzzy] Closest Match Found. Changing uninfected => Uninfected
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:23:54 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:24:05 PM 
+PMID: 37104089
+02/11/2024 11:24:05 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:24:05 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:24:05 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:24:05 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:24:05 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:24:05 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:24:05 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:24:05 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:24:05 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:24:06 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:24:06 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:24:09 PM INFO:: [User Change] SARS-CoV-2 Omicron variant BQ.1.1 SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BQ.1.1
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:24:09 PM INFO:: [Fuzzy] Closest Match Found. Changing uninfected => Uninfected
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB.1 => SARS-CoV-2 Omicron variant XBB.1.5 : score 97
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant XBB-S486P => SARS-CoV-2 Omicron variant XBB : score 91
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BA.1.1 : score 94
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.1 : score 97
+02/11/2024 11:24:09 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron variant BA.2.75.2 D1199N => SARS-CoV-2 Omicron variant BA.2.75.2 : score 91
+02/11/2024 11:34:34 PM 
+PMID: 33692201
+02/11/2024 11:34:40 PM INFO:: [User Change] Not Specified => Not Applicable
+02/11/2024 11:34:40 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/11/2024 11:34:40 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/11/2024 11:34:40 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/11/2024 11:34:40 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/11/2024 11:34:40 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/11/2024 11:34:40 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/11/2024 11:34:40 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/11/2024 11:34:40 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/11/2024 11:37:46 PM 
+PMID: 33692201
+02/11/2024 11:37:50 PM INFO:: [User Change] Not Specified => Not Applicable
+02/11/2024 11:37:50 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/11/2024 11:37:50 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/11/2024 11:37:50 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/11/2024 11:37:50 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/11/2024 11:37:50 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/11/2024 11:37:50 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/11/2024 11:37:50 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/11/2024 11:37:50 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/11/2024 11:41:06 PM 
+PMID: 36882240
+02/11/2024 11:41:06 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:41:06 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:41:06 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:41:06 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:41:06 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:41:06 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:41:06 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:41:06 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:41:06 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:41:09 PM INFO:: [User Change] Not Specified => Not Applicable
+02/11/2024 11:44:25 PM 
+PMID: 35464463
+02/11/2024 11:44:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:44:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:44:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:44:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:44:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:44:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:45:28 PM INFO:: [User Change] Not Specified => Not Applicable
+02/11/2024 11:45:34 PM 
+PMID: 35464463
+02/11/2024 11:45:34 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:45:34 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:45:34 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:45:34 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:45:34 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:45:34 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:45:36 PM INFO:: [User Change] Not Specified => Not Applicable
+02/11/2024 11:48:20 PM 
+PMID: 34308124
+02/11/2024 11:48:20 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:48:20 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:48:20 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:48:24 PM INFO:: [User Change] Not Specified => Not Applicable
+02/11/2024 11:49:42 PM 
+PMID: 37872011
+02/11/2024 11:49:42 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:49:42 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/11/2024 11:49:42 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:49:42 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/11/2024 11:49:42 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:49:42 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/11/2024 11:55:25 PM 
+PMID: 33767426
+02/11/2024 11:55:25 PM [planned visit]: PMID33767426_visit-03 has reached character limit (243 > 125)

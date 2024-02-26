@@ -1,0 +1,294 @@
+02/12/2024 12:00:25 AM 
+PMID: 33767426
+02/12/2024 12:02:59 AM INFO:: [User Change] Not Specified => Not Applicable
+02/12/2024 12:03:32 AM 
+PMID: 35587682
+02/12/2024 12:03:32 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 12:04:19 AM 
+PMID: 35587682
+02/12/2024 12:04:19 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 12:05:34 AM 
+PMID: 35587682
+02/12/2024 12:05:34 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 12:08:40 AM 
+PMID: 35587682
+02/12/2024 12:08:40 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 12:08:40 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/12/2024 12:08:40 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/12/2024 12:10:57 AM 
+PMID: 35587682
+02/12/2024 12:10:57 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 12:10:57 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/12/2024 12:10:57 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/12/2024 12:12:23 AM 
+PMID: 35587682
+02/12/2024 12:12:23 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 12:12:23 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/12/2024 12:12:23 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/12/2024 12:14:14 AM 
+PMID: 35587682
+02/12/2024 12:14:14 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 12:14:14 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/12/2024 12:14:14 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/12/2024 12:16:49 AM 
+PMID: 37452024
+02/12/2024 12:16:49 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 12:16:49 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 12:16:49 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/12/2024 12:16:49 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/12/2024 12:16:49 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/12/2024 12:16:49 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/12/2024 12:16:52 AM INFO:: [User Change] Not Specified => Not Applicable
+02/12/2024 12:37:44 AM 
+PMID: 33692201
+02/12/2024 12:37:52 AM INFO:: [User Change] Not Specified => Not Applicable
+02/12/2024 12:37:52 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/12/2024 12:37:52 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/12/2024 12:37:52 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/12/2024 12:37:52 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/12/2024 12:37:52 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/12/2024 12:37:52 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/12/2024 12:37:52 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/12/2024 12:37:52 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+02/12/2024 02:05:37 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+02/12/2024 02:05:37 AM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+02/12/2024 02:05:37 AM [INFO]:: [Fuzzy] WIV-1 => WIV1 : score 89
+02/12/2024 02:05:37 AM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+02/12/2024 02:05:38 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/12/2024 02:05:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+02/12/2024 02:05:38 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+02/12/2024 02:05:42 AM INFO:: [User Change] Not Specified => Not Applicable
+02/12/2024 02:05:42 AM Previous Input: Virus Target, Not Specified => Not Applicable
+02/12/2024 02:05:43 AM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+02/12/2024 02:05:43 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+02/12/2024 02:05:43 AM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+02/12/2024 02:05:43 AM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+02/12/2024 02:05:43 AM [INFO]:: [Fuzzy] SARS-CoV-2 Delta (B.1.617.2) => SARS-CoV-2 Delta; B.1.617.2 : score 95
+02/12/2024 02:05:43 AM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+02/12/2024 02:05:43 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+02/12/2024 02:05:43 AM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+02/12/2024 02:05:43 AM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+02/12/2024 02:05:43 AM [INFO]:: [Fuzzy] SARS-CoV-2 Delta (B.1.617.2) => SARS-CoV-2 Delta; B.1.617.2 : score 95
+02/12/2024 02:05:43 AM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+02/12/2024 02:05:43 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+02/12/2024 02:05:43 AM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+02/12/2024 02:05:43 AM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+02/12/2024 02:05:43 AM [INFO]:: [Fuzzy] SARS-CoV-2 Delta (B.1.617.2) => SARS-CoV-2 Delta; B.1.617.2 : score 95
+02/12/2024 02:05:43 AM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+02/12/2024 02:05:43 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+02/12/2024 02:05:48 AM INFO:: [User Change] Covid-19 => COVID-19
+02/12/2024 02:07:00 AM INFO:: [User Change] Pneumonia => Streptococcus Pneumonia
+02/12/2024 02:07:00 AM Previous Input: Virus Target, Not Specified => Not Applicable
+02/12/2024 02:07:00 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+02/12/2024 02:07:00 AM Previous Input: Reported Health Condition, Covid-19 => COVID-19
+02/12/2024 02:07:00 AM Previous Input: Reported Health Condition, Pneumonia => Streptococcus Pneumonia
+02/12/2024 02:07:00 AM Previous Input: Virus Target, Not Specified => Not Applicable
+02/12/2024 02:07:01 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+02/12/2024 02:07:01 AM Previous Input: Reported Health Condition, Covid-19 => COVID-19
+02/12/2024 02:07:01 AM Previous Input: Virus Target, Not Specified => Not Applicable
+02/12/2024 02:07:01 AM Previous Input: Virus Target, Not Specified => Not Applicable
+02/12/2024 02:07:02 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/12/2024 02:07:02 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/12/2024 02:07:02 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/12/2024 02:07:02 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/12/2024 02:07:02 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/12/2024 02:07:02 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/12/2024 02:07:02 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/12/2024 02:07:02 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/12/2024 02:07:03 AM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+02/12/2024 02:07:03 AM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+02/12/2024 02:07:03 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/12/2024 02:07:29 AM INFO:: [User Change] Post-infection => Other
+02/12/2024 02:07:29 AM Previous Input: Biospecimen Collection Point, Post-infection => Other
+02/12/2024 02:14:18 AM No such comm target registered: jupyter.widget.control
+02/12/2024 02:14:18 AM No such comm: fe0d9398-612c-4c13-96f1-c1aaa97f0696
+02/12/2024 02:14:18 AM Current comms: []
+02/12/2024 11:08:52 AM 
+PMID: 37796985
+02/12/2024 11:11:44 AM 
+PMID: 37104089
+02/12/2024 11:11:44 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 11:11:44 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 11:11:44 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 11:11:44 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/12/2024 11:11:44 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/12/2024 11:11:44 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/12/2024 11:11:44 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/12/2024 11:11:44 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/12/2024 11:11:44 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/12/2024 11:11:53 AM INFO:: [User Change] SARS-CoV-2 Omicron variant BQ.1.1 SARS-CoV-2 Omicron variant CH.1.1 => SARS-CoV-2 Omicron variant BQ.1.1
+02/12/2024 11:11:53 AM INFO:: [Fuzzy] Closest Match Found. Changing uninfected => Uninfected
+02/12/2024 11:13:23 AM 
+PMID: 37494473
+02/12/2024 11:13:23 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 11:13:23 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 11:13:23 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 11:13:23 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/12/2024 11:13:23 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/12/2024 11:13:23 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/12/2024 11:13:23 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/12/2024 11:13:23 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/12/2024 11:13:23 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/12/2024 11:13:29 AM INFO:: [User Change] Not Specified => Not Applicable
+02/12/2024 11:13:44 AM INFO:: [User Change] Phage Immunoprecipitation sequencing (PhIP-seq) => Immunoprecipitation
+02/12/2024 11:14:17 AM 
+PMID: 37749254
+02/12/2024 11:14:18 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/12/2024 11:14:18 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/12/2024 11:14:44 AM INFO:: [User Change] Pangolin Coronavirus (PgCoV) => PgCoV (pangolin)
+02/12/2024 11:14:44 AM Previous Input: Virus Target, Pangolin Coronavirus (PgCoV) => PgCoV (pangolin)
+02/12/2024 11:14:44 AM Previous Input: Virus Target, Pangolin Coronavirus (PgCoV) => PgCoV (pangolin)
+02/12/2024 11:14:44 AM Previous Input: Virus Target, Pangolin Coronavirus (PgCoV) => PgCoV (pangolin)
+02/12/2024 11:14:44 AM Previous Input: Virus Target, Pangolin Coronavirus (PgCoV) => PgCoV (pangolin)
+02/12/2024 11:14:44 AM Previous Input: Virus Target, Pangolin Coronavirus (PgCoV) => PgCoV (pangolin)
+02/12/2024 11:14:44 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/12/2024 11:14:44 AM Previous Input: Virus Target, Pangolin Coronavirus (PgCoV) => PgCoV (pangolin)
+02/12/2024 11:15:03 AM 
+PMID: 37287128
+02/12/2024 11:15:03 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 11:15:03 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 11:15:03 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/12/2024 11:15:03 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/12/2024 11:15:03 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/12/2024 11:15:03 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/12/2024 11:15:08 AM INFO:: [User Change] Sickle cell disease => Sickle Cell Anemia
+02/12/2024 11:58:11 AM 
+PMID: 37494473
+02/12/2024 11:58:12 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 11:58:12 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 11:58:12 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+02/12/2024 11:58:12 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/12/2024 11:58:12 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/12/2024 11:58:12 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+02/12/2024 11:58:12 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/12/2024 11:58:12 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/12/2024 11:58:12 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+02/12/2024 11:58:15 AM INFO:: [User Change] Not Specified => Not Applicable
+02/12/2024 11:58:42 AM INFO:: [User Change] Phage Immunoprecipitation sequencing (PhIP-seq) => Sequencing
+02/12/2024 12:04:11 PM No such comm target registered: jupyter.widget.control
+02/12/2024 12:04:11 PM No such comm: 32b2c215-f637-410f-abb2-3a2c8f58dd53
+02/12/2024 12:04:11 PM Current comms: []
+02/12/2024 06:13:50 PM No such comm target registered: jupyter.widget.control
+02/12/2024 06:13:50 PM No such comm: e7228c80-91e8-4074-8cf7-5ac1b29f2464
+02/12/2024 06:13:50 PM Current comms: []
+02/13/2024 02:18:53 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+02/13/2024 02:18:53 AM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+02/13/2024 02:18:53 AM [INFO]:: [Fuzzy] WIV-1 => WIV1 : score 89
+02/13/2024 02:18:53 AM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+02/13/2024 02:18:54 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+02/13/2024 02:18:54 AM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+02/13/2024 02:18:54 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+02/13/2024 02:18:54 AM Previous Input: Virus Target, Not Specified => Not Applicable
+02/13/2024 02:18:55 AM Previous Input: Virus Target, Not Specified => Not Applicable
+02/13/2024 02:18:56 AM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+02/13/2024 02:18:56 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+02/13/2024 02:18:56 AM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+02/13/2024 02:18:56 AM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+02/13/2024 02:18:56 AM [INFO]:: [Fuzzy] SARS-CoV-2 Delta (B.1.617.2) => SARS-CoV-2 Delta; B.1.617.2 : score 95
+02/13/2024 02:18:56 AM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+02/13/2024 02:18:56 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+02/13/2024 02:18:56 AM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+02/13/2024 02:18:56 AM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+02/13/2024 02:18:56 AM [INFO]:: [Fuzzy] SARS-CoV-2 Delta (B.1.617.2) => SARS-CoV-2 Delta; B.1.617.2 : score 95
+02/13/2024 02:18:56 AM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+02/13/2024 02:18:56 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+02/13/2024 02:18:56 AM [INFO]:: [Fuzzy] SARS-CoV-2 Alpha (B.1.1.7) => SARS-CoV-2 Alpha; B.1.1.7 : score 94
+02/13/2024 02:18:56 AM [INFO]:: [Fuzzy] SARS-CoV-2 Beta (B.1.351) => SARS-CoV-2 Beta; B.1.351 : score 94
+02/13/2024 02:18:56 AM [INFO]:: [Fuzzy] SARS-CoV-2 Delta (B.1.617.2) => SARS-CoV-2 Delta; B.1.617.2 : score 95
+02/13/2024 02:18:56 AM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+02/13/2024 02:18:56 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+02/13/2024 02:18:56 AM Previous Input: Reported Health Condition, Covid-19 => COVID-19
+02/13/2024 02:18:56 AM Previous Input: Reported Health Condition, Pneumonia => Streptococcus Pneumonia
+02/13/2024 02:18:56 AM Previous Input: Virus Target, Not Specified => Not Applicable
+02/13/2024 02:19:56 AM INFO:: [User Change] Bone-marrow derived macrophages => Other
+02/13/2024 02:19:56 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+02/13/2024 02:19:56 AM Previous Input: Reported Health Condition, Covid-19 => COVID-19
+02/13/2024 02:19:56 AM Previous Input: Reported Health Condition, Pneumonia => Streptococcus Pneumonia
+02/13/2024 02:19:56 AM Previous Input: Virus Target, Not Specified => Not Applicable
+02/13/2024 02:19:56 AM Previous Input: Biospecimen Type, Bone-marrow derived macrophages => Other
+02/13/2024 02:19:56 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+02/13/2024 02:19:56 AM Previous Input: Reported Health Condition, Covid-19 => COVID-19
+02/13/2024 02:19:56 AM Previous Input: Virus Target, Not Specified => Not Applicable
+02/13/2024 02:19:57 AM Previous Input: Virus Target, Not Specified => Not Applicable
+02/13/2024 02:19:57 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/13/2024 02:19:57 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/13/2024 02:19:57 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/13/2024 02:19:57 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/13/2024 02:19:57 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/13/2024 02:19:57 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/13/2024 02:19:57 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/13/2024 02:19:57 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/13/2024 02:19:58 AM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+02/13/2024 02:19:58 AM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+02/13/2024 02:19:58 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+02/13/2024 02:19:58 AM Previous Input: Biospecimen Collection Point, Post-infection => Other
+02/13/2024 02:19:58 AM Previous Input: Biospecimen Collection Point, Post-infection => Other
+02/13/2024 03:12:18 AM No such comm target registered: jupyter.widget.control
+02/13/2024 03:12:18 AM No such comm: 2884fe05-3ea4-4ccf-8445-c38eccdf4941
+02/13/2024 03:12:18 AM Current comms: []
+02/13/2024 04:31:12 AM No such comm target registered: jupyter.widget.control
+02/13/2024 04:31:12 AM No such comm: 558b256c-32c4-48ba-8faf-c2ef22a6c5a9
+02/13/2024 04:31:12 AM Current comms: []
+02/13/2024 01:49:26 PM No such comm target registered: jupyter.widget.control
+02/13/2024 01:49:26 PM No such comm: 80a550a0-1ab5-4c02-9000-292f765c191b
+02/13/2024 01:49:26 PM Current comms: []
+02/13/2024 02:32:27 PM No such comm target registered: jupyter.widget.control
+02/13/2024 02:32:27 PM No such comm: e23cc16e-e652-4bf2-a8cc-52215252b4f8
+02/13/2024 02:32:27 PM Current comms: []
+02/14/2024 02:03:50 AM No such comm target registered: jupyter.widget.control
+02/14/2024 02:03:50 AM No such comm: 0e0962ff-770e-4634-9fed-e0a25f49a949
+02/14/2024 02:03:50 AM Current comms: []
+02/14/2024 04:54:44 AM No such comm target registered: jupyter.widget.control
+02/14/2024 04:54:44 AM No such comm: 84fe0d4c-1533-443b-8569-e7aa1ed21469
+02/14/2024 04:54:44 AM Current comms: []
+02/14/2024 11:01:48 AM No such comm target registered: jupyter.widget.control
+02/14/2024 11:01:48 AM No such comm: 6f4123fb-8518-42a7-b8f3-f23a95f46f3a
+02/14/2024 11:01:48 AM Current comms: []

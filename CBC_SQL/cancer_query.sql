@@ -142,11 +142,14 @@ Select
 From subject_level
 )
 
-select * from final
+select distinct *
+-- *
 -- Research_Participant_ID
 -- count( distinct Visit_Info_ID)
 -- count( distinct Research_Participant_ID)
-
+from final
+where Cancer_Description_Or_ICD10_codes like "%mul%"
+ 
 ;
 
 -- from `seronetdb-Vaccine_Response`.Cancer_Cohort as cChort

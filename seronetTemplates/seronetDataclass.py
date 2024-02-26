@@ -37,8 +37,7 @@ filler_words = ['of', 'a', 'at']
 
 STATES = pd.read_csv(os.path.join(".","dictionary", "States.csv"),
                      header=None,
-                     index_col=0,
-                     squeeze=True).to_dict()
+                     index_col=0).squeeze().to_dict()
 
 
 CD = os.getcwd()
@@ -502,17 +501,19 @@ class subject_type_human(DataClassJsonMixin):
 
             # changing SeroNet terms to ImmPort specific terms 
             for i, k in enumerate(self.Study_Location):
-                # if '|' in k:
-                k = k.split(' | ')
+                if ('|' in k) and (not pd.isnull(k)):
+                    k = k.split(' | ')
 
-                if isinstance(k , list) and len(k ) > 1:
-                    if len(set(k ).intersection(STATES)) < len(k ):
-                        self.Study_Location[i + 1] = 'Other'
-                    else:
-                        self.Study_Location[i + 1] = 'United States of America'
-                
-                elif k[0].strip().upper() in STATES.keys():
-                    self.Study_Location[i + 1] = f"US: {STATES.get(k[0].strip().upper())}"
+                    if isinstance(k , list) and len(k ) > 1:
+                        if len(set(k ).intersection(STATES)) < len(k ):
+                            self.Study_Location[i + 1] = 'Other'
+                        else:
+                            self.Study_Location[i + 1] = 'United States of America'
+                    
+                    elif k[0].strip().upper() in STATES.keys():
+                        self.Study_Location[i + 1] = f"US: {STATES.get(k[0].strip().upper())}"
+                else:
+                    self.Study_Location[i + 1] = k
 
 
 
