@@ -1,7 +1,14 @@
 import functions_CBC as ifxn
 import pandas as pd
-from os import path 
+from sys import platform
+from os import path, system
 import numpy as np
+
+if platform == "darwin":
+    system('clear')
+else:
+    system('cls')
+
 
 base_path='/Users/liualg/Documents/GitHub/SeroNet/VRSS_Ref'
 data_path=path.join(base_path,'data')
@@ -16,19 +23,27 @@ vrss_study = path.join(data_path,'vrss')
 def obtain_data(file,sname,base_dir=reference_study):
 	return pd.read_excel(path.join(base_dir,file+'.xlsx'),sheet_name=sname)
 
+#def get_col_data(file_name,sheet_name)
+
+
 
 def parse_dict(tmap):
 	s = tmap.split(':')
-	s_file=s[0].split('/')[0].strip() 
-	s_sheet=s[0].split('/')[1].strip()
+	s_file=s[0].split('/')[0].strip() # FILE NAME
+	s_sheet=s[0].split('/')[1].strip() # SHEET(s) NAME
 	if '^' not in tmap:
 		s_header=s[1].replace('^','').strip()
 	else:
-		s_header=s[1].split('^')[0].split('>')[0].strip()
-			
+		s_header=s[1].split('^')[0].split('>')[0].replace('*','').strip()
+
 	d_file = obtain_data(file=s_file,sname=s_sheet)
 
 	return d_file[s_header]
+
+
+def get_subject_id(col):
+	temp = col.split('_')
+	return ''.join(temp[0],temp[1])
 
 def get_condition(tmap):
 	s = tmap.split(':')[1]
@@ -54,6 +69,7 @@ def make_dict(Qcolumn, file):
 def grab_headers(file,base_dir=immport_templates):
 	return pd.read_excel(path.join(base_dir,file+'.xlsx'),header=None).iloc[[2]].values.flatten().tolist()
 
+# Reformat into ImmPort Templates 
 def create_template(nextRows,file_name,base_dir=immport_templates):
 	dfin = pd.read_excel(path.join(base_dir,file_name+'.xlsx'),header=None)
 
@@ -70,6 +86,8 @@ def get_ids_onCondition(ref_df):
 	s_file=s[0].split('/')[0].strip() 
 	s_sheet=s[0].split('/')[1].strip()
 	df = obtain_data(s_file, s_sheet)
+	print(con2,con2_test)
+	print(np.where(df[con1]==con2))
 	fdf = np.where((df[con1]==con1_test) & (df[con2]==con2_test))
 	if not fdf:
 		out = np.nan
@@ -113,35 +131,42 @@ for c in h:
 			matcher.append((c,test))
 
 		elif ':' in test:
-			add = parse_dict(test)
+			if '*' in test:
+				add = parse_dict(test)
+			else:
+				add = parse_dict(test)
 
 		elif '-' in test:
 			s1 = test.split('-')[1].strip()
 			add = [s1]*len(d_file)
+
+		elif 'code' in test:
+			add = match_(c)
 		else:
 			add=['']*len(d_file)
 
 	else:
 		add=['']*len(d_file)
 
-	#print(c,len(add))
+#	print(c,len(add))
 	temp[c] = add
 #print(temp)
 out= create_template(nextRows=temp, file_name=immportFile)
 # print(temp.shape)
 print(out)
-if matcher:
-	for i in range(len(matcher)):
-		matchings_ids = get_ids_onCondition(matcher[i][1])
-		if not matchings_ids:
-			print('is empty')
-			pass
-		else:
-			print('adding to data frame')
-
-	# for i in matcher:
-
-	# print('UGHHGHGHGHG')
-# 	for m in matcher:
-
+# if matcher:
+# 	for i in range(len(matcher)):
+# 		print(matcher[i][1])
+# 		matchings_ids = get_ids_onCondition(matcher[i][1])
+# 		print(matchings_ids)
+# 		if not matchings_ids:
+# 			print('is empty')
+# 			pass
+# 		else:
+# 			print('adding to data frame')
+	
+# 	if '|' in sheet_name:
+# 		sheet_name = s_sheet.split('|')
+# 	else:
+# 		sheet_name = [s_sheet]
 

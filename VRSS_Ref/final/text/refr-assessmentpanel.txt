@@ -1,0 +1,6 @@
+assessmentpanel	Schema Version 3.36	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6
+Please do not delete or edit this column						
+Column Name	User Defined ID	Study ID	Name Reported	Assessment Type	Status	CRF File Names
+	refr-Physical_Exam	Reference_Study	Physical Exam	Physical Exam		
+	refr-Coinfection	Reference_Study	Coinfection	Medical History		
+	refr-COVID19_Symptom_Status	Reference_Study	COVID-19 Symptom Status	Medical History		
