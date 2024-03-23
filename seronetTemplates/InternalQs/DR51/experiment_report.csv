@@ -1,0 +1,125 @@
+,Column Name,User Defined ID,Name,Description,Measurement Technique,Study ID,Protocol ID(s)
+0,-,PMID33767426_experimentID-01,Flow cytometry,-,Flow Cytometry,PMID33767426_study-01,PMID33767426_protocol-01
+1,-,PMID33767426_experimentID-02,Total RNA extraction and RT–qPCR,-,PCR,PMID33767426_study-01,PMID33767426_protocol-01
+2,-,PMID33767426_experimentID-03,Immunoprecipitation and immunoblot,-,Western Blot,PMID33767426_study-01,PMID33767426_protocol-01
+3,-,PMID33767426_experimentID-04,Microscopy,-,Microscopy,PMID33767426_study-01,PMID33767426_protocol-01
+4,-,PMID33767426_experimentID-05,Phospho-proteomics,-,Mass Spectrometry,PMID33767426_study-01,PMID33767426_protocol-01
+5,-,PMID33767426_experimentID-06,In vitro kinase assay,-,Chemiluminescent Assay,PMID33767426_study-01,PMID33767426_protocol-01
+6,-,PMID34133941_experimentID-01,Elisa,-,ELISA,PMID34133941_study-01,PMID34133941_protocol-01
+7,-,PMID34133941_experimentID-02,Pseudovirus neutralization assay,-,Pseudovirus Neutralization Assay,PMID34133941_study-01,PMID34133941_protocol-01
+8,-,PMID34133941_experimentID-03,IFN-γ ELISPOT,-,ELISPOT,PMID34133941_study-01,PMID34133941_protocol-01
+9,-,PMID34133941_experimentID-04,IL-4 ELISPOT,-,ELISPOT,PMID34133941_study-01,PMID34133941_protocol-01
+10,-,PMID34133941_experimentID-05,B cell immunophenotyping,-,Flow Cytometry,PMID34133941_study-01,PMID34133941_protocol-01
+11,-,PMID34133941_experimentID-06,Comparative pathology of vaccinated and unvaccinated animals,-,Histopathology,PMID34133941_study-01,PMID34133941_protocol-01
+12,-,PMID34688034_experimentID-01,ELISA RBD,-,ELISA,PMID34688034_study-01,PMID34688034_protocol-01
+13,-,PMID34688034_experimentID-02,ELISA Spike,-,ELISA,PMID34688034_study-01,PMID34688034_protocol-01
+14,-,PMID34688034_experimentID-03,Live SARS-CoV-2 microneutralization assay,-,Neutralizing Antibody Titer Assay,PMID34688034_study-01,PMID34688034_protocol-01
+15,-,PMID35764089_experimentID-01,"SARS-CoV-2 ELISA, pre-vaccination",-,ELISA,PMID35764089_study-01,PMID35764089_protocol-01
+16,-,PMID35764089_experimentID-02,"SARS-CoV-2 ELISA, post-vaccination",-,ELISA,PMID35764089_study-01,PMID35764089_protocol-01
+17,-,PMID35764089_experimentID-03,"Pseudovirus (PSV) Neutralization Assay, pre-vaccination",-,Pseudovirus Neutralization Assay,PMID35764089_study-01,PMID35764089_protocol-01
+18,-,PMID35764089_experimentID-04,"Pseudovirus (PSV) Neutralization Assay, post-vaccination",-,Pseudovirus Neutralization Assay,PMID35764089_study-01,PMID35764089_protocol-01
+19,-,PMID35764089_experimentID-05,"Spike megapool (spike MP), pre-vaccination",-,Flow Cytometry,PMID35764089_study-01,PMID35764089_protocol-01
+20,-,PMID35764089_experimentID-06,"Spike megapool (spike MP), post-vaccination",-,Flow Cytometry,PMID35764089_study-01,PMID35764089_protocol-01
+21,-,PMID35764089_experimentID-07,"Activation-induced markers (AIM) assay, pre-vaccination",-,Cell Mediated Immunoassay,PMID35764089_study-01,PMID35764089_protocol-01
+22,-,PMID35764089_experimentID-08,"Activation-induced markers (AIM) assay, post-vaccination",-,Cell Mediated Immunoassay,PMID35764089_study-01,PMID35764089_protocol-01
+23,-,PMID35764089_experimentID-09,"Intracellular cytokine staining (ICS), pre-vaccination",-,Flow Cytometry,PMID35764089_study-01,PMID35764089_protocol-01
+24,-,PMID35764089_experimentID-010,"Intracellular cytokine staining (ICS), post-vaccination",-,Flow Cytometry,PMID35764089_study-01,PMID35764089_protocol-01
+25,-,PMID35764089_experimentID-011,"Detection of SARS-CoV-2-specific memory B cells, pre-vaccination",-,Flow Cytometry,PMID35764089_study-01,PMID35764089_protocol-01
+26,-,PMID35764089_experimentID-012,"Detection of SARS-CoV-2-specific memory B cells, post-vaccination",-,Flow Cytometry,PMID35764089_study-01,PMID35764089_protocol-01
+27,-,PMID35605428_experimentID-01,SARS-CoV-2 test,-,PCR,PMID35605428_study-01,PMID35605428_protocol-01
+28,-,PMID35605428_experimentID-02,SARS-CoV-2 test,-,PCR,PMID35605428_study-01,PMID35605428_protocol-01
+29,-,PMID35605428_experimentID-03,"Anti-spike, anti-RBD and anti-N assay",-,Multiplex Immunoassay,PMID35605428_study-01,PMID35605428_protocol-01
+30,-,PMID35605428_experimentID-04,SARS-CoV-2 pseudovirus neutralisation assay,-,Pseudovirus Neutralization Assay,PMID35605428_study-01,PMID35605428_protocol-01
+31,-,PMID35605428_experimentID-05,"Anti-spike, anti-RBD and anti-N assay",-,Multiplex Immunoassay,PMID35605428_study-01,PMID35605428_protocol-01
+32,-,PMID35605428_experimentID-06,SARS-CoV-2 pseudovirus neutralisation assay,-,Pseudovirus Neutralization Assay,PMID35605428_study-01,PMID35605428_protocol-01
+33,-,PMID35605428_experimentID-07,"Anti-spike, anti-RBD and anti-N assay",-,Multiplex Immunoassay,PMID35605428_study-01,PMID35605428_protocol-01
+34,-,PMID35605428_experimentID-08,SARS-CoV-2 pseudovirus neutralisation assay,-,Pseudovirus Neutralization Assay,PMID35605428_study-01,PMID35605428_protocol-01
+35,-,PMID34594341_experimentID-01,ELISA to Detect Anti-SARS-CoV-2 Antibodies in Plasma Samples,-,ELISA,PMID34594341_study-01,PMID34594341_protocol-01
+36,-,PMID34594341_experimentID-02,Competition ELISA to Detect Antibodies That Block Binding of ACE2 to RBD,-,ELISA,PMID34594341_study-01,PMID34594341_protocol-01
+37,-,PMID34594341_experimentID-03,Real-Time PCR for Detection of SARS-CoV-2 RNA in Plasma Samples,-,PCR,PMID34594341_study-01,PMID34594341_protocol-01
+38,-,PMID34594341_experimentID-04,S-PLEX Direct Detection Assay,-,PCR,PMID34594341_study-01,PMID34594341_protocol-01
+39,-,PMID34861167_experimentID-01,Electrochemiluminescence (ECL) IgG binding assay,-,Chemiluminescent Assay,PMID34861167_study-01,PMID34861167_protocol-01
+40,-,PMID34861167_experimentID-02,Pseudovirus neutralization assay,-,Pseudovirus Neutralization Assay,PMID34861167_study-01,PMID34861167_protocol-01
+41,-,PMID34861167_experimentID-03,ACE2-variant RBD antibody blocking assays,-,ELISA,PMID34861167_study-01,PMID34861167_protocol-01
+42,-,PMID34861167_experimentID-04,SARS-CoV-2 variant genotyping,-,PCR,PMID34861167_study-01,PMID34861167_protocol-01
+43,-,PMID32678685_experimentID-01,RT-PCR,-,PCR,PMID32678685_study-01,PMID32678685_protocol-02
+44,-,PMID32678685_experimentID-02,Serologic testing for antibodies against the SARS-CoV-2 spike protein,-,ELISA,PMID32678685_study-01,PMID32678685_protocol-02
+45,-,PMID32941787_experimentID-01,Viral and Serological Testing,-,ELISA,PMID32941787_study-01,PMID32941787_protocol-01
+46,-,PMID32941787_experimentID-02,Viral and Serological Testing,-,ELISA,PMID32941787_study-01,PMID32941787_protocol-01
+47,-,PMID32941787_experimentID-03,IGH Library Prep and Sequencing,-,IgH Sequencing,PMID32941787_study-01,PMID32941787_protocol-01
+48,-,PMID32941787_experimentID-04,IGH Library Prep and Sequencing,-,IgH Sequencing,PMID32941787_study-01,PMID32941787_protocol-01
+49,-,PMID32941787_experimentID-05,ELISA Testing of mAbs,-,ELISA,PMID32941787_study-01,PMID32941787_protocol-01
+50,-,PMID32941787_experimentID-06,RT-PCR ,-,PCR,PMID32941787_study-01,PMID32941787_protocol-01
+51,-,PMID35857529_experimentID-01,Surface plasmon resonance (SPR) assays,-,Surface Plasmon Resonance,PMID35857529_study-01,PMID35857529_protocol-01
+52,-,PMID35857529_experimentID-02,Pseudotyped VSV neutralization assay - Post-vaccination,-,Pseudovirus Neutralization Assay,PMID35857529_study-01,PMID35857529_protocol-01
+53,-,PMID35857529_experimentID-03,Pseudotyped VSV neutralization assay - Convalescent,-,Pseudovirus Neutralization Assay,PMID35857529_study-01,PMID35857529_protocol-01
+54,-,PMID35857529_experimentID-04,Cell-cell Fusion Assay,-,Flow Cytometry,PMID35857529_study-01,PMID35857529_protocol-01
+55,-,PMID35857529_experimentID-05,Enzyme-linked immunosorbent assay (ELISA) - Post vaccination,-,ELISA,PMID35857529_study-01,PMID35857529_protocol-01
+56,-,PMID35857529_experimentID-06,Enzyme-linked immunosorbent assay (ELISA) - Convalescent,-,ELISA,PMID35857529_study-01,PMID35857529_protocol-01
+57,-,PMID33822097_experimentID-01,CCC and SARS-CoV-2 ELISA-Post-symptom onset,-,ELISA,PMID33822097_study-01,PMID33822097_protocol-02
+58,-,PMID33822097_experimentID-02,CCC and SARS-CoV-2 ELISA-Naïve,-,ELISA,PMID33822097_study-01,PMID33822097_protocol-02
+59,-,PMID33822097_experimentID-03,CCC and SARS-CoV-2 nucleocapsid ELISA-Naïve,-,ELISA,PMID33822097_study-01,PMID33822097_protocol-02
+60,-,PMID33822097_experimentID-04,Activation-induced cell marker (AIM) assays,-,Flow Cytometry,PMID33822097_study-01,PMID33822097_protocol-02
+61,-,PMID33822097_experimentID-05,Activation-induced cell marker (AIM) assays,-,Flow Cytometry,PMID33822097_study-01,PMID33822097_protocol-02
+62,-,PMID36480499_experimentID-01,SARS-CoV-2-nLUC viral neutralization assay,-,Neutralizing Antibody Titer Assay,PMID36480499_study-01,PMID36480499_protocol-01
+63,-,PMID33798476_experimentID-01,Indirect enzyme-linked immunosorbent assays,-,ELISA,PMID33798476_study-01,PMID33798476_protocol-01
+64,-,PMID33798476_experimentID-02,Microneutralization assay,-,Neutralizing Antibody Titer Assay,PMID33798476_study-01,PMID33798476_protocol-01
+65,-,PMID33798476_experimentID-03,Western blot,-,Western Blot,PMID33798476_study-01,PMID33798476_protocol-01
+66,-,PMID33798476_experimentID-04,Gene expression analysis,-,RNA Sequencing,PMID33798476_study-01,PMID33798476_protocol-01
+67,-,PMID34951746_experimentID-01,EUROIMMUN anti-SARS-CoV-2 IgG enzyme-linked immunosorbent assay (ELISA) ,-,ELISA,PMID34951746_study-01,PMID34951746_protocol-01
+68,-,PMID34951746_experimentID-02,MSD anti-spike IgG,-,ELISA,PMID34951746_study-01,PMID34951746_protocol-01
+69,-,PMID34951746_experimentID-03,Pseudoneutralization/ACE2 inhibition assay,-,Pseudovirus Neutralization Assay,PMID34951746_study-01,PMID34951746_protocol-01
+70,-,PMID34951746_experimentID-04,Neutralization assay,-,Neutralizing Antibody Titer Assay,PMID34951746_study-01,PMID34951746_protocol-01
+71,-,PMID34951746_experimentID-05,Quantitative RT-PCR,-,PCR,PMID34951746_study-01,PMID34951746_protocol-01
+72,-,PMID37264688_experimentID-01,Enzyme-linked immunosorbent assays (ELISA),-,ELISA,PMID37264688_study-01,PMID37264688_protocol-01
+73,-,PMID37264688_experimentID-02,Avidity enzyme-linked immunosorbent assays (chaotrope ELISA),-,ELISA,PMID37264688_study-01,PMID37264688_protocol-01
+74,-,PMID34862384_experimentID-01,Bead-based disruption assays,-,Multiplex Bead Array Assay,PMID34862384_study-01,PMID34862384_protocol-01
+75,-,PMID34862384_experimentID-02,Biolayer interferometry assay,-,Bio-layer Interferometry Assay,PMID34862384_study-01,PMID34862384_protocol-01
+76,-,PMID34862384_experimentID-03,X-ray crystallography,-,X-Ray Crystallography,PMID34862384_study-01,PMID34862384_protocol-01
+77,-,PMID34862384_experimentID-04,Anaphylactogenicity,-,Flow Cytometry,PMID34862384_study-01,PMID34862384_protocol-01
+78,-,PMID34862384_experimentID-05,Cryo-EM data collection and processing,-,Cryo-Electron Microscopy,PMID34862384_study-01,PMID34862384_protocol-01
+79,-,PMID36597886_experimentID-01,Elecsys ProBNP 2 STAT Immunoassay,-,Other,PMID36597886_study-01,PMID36597886_protocol-01
+80,-,PMID36597886_experimentID-02,Antigen-specific antibody titers assay,-,Single-Molecule Array (SIMOA),PMID36597886_study-01,PMID36597886_protocol-01
+81,-,PMID36597886_experimentID-03,Fc receptor binding assay,-,Multiplex Bead Array Assay,PMID36597886_study-01,PMID36597886_protocol-01
+82,-,PMID36597886_experimentID-04,Antibody-dependent complement deposition (ADCD) assay,-,Cell Mediated Immunoassay,PMID36597886_study-01,PMID36597886_protocol-01
+83,-,PMID36597886_experimentID-05,Antibody-dependent cellular phagocytosis (ADCP) assay,-,Cell Mediated Immunoassay,PMID36597886_study-01,PMID36597886_protocol-01
+84,-,PMID36597886_experimentID-06,Antibody-mediated neutrophil phagocytosis (ADNP) assay,-,Cell Mediated Immunoassay,PMID36597886_study-01,PMID36597886_protocol-01
+85,-,PMID36597886_experimentID-07,VirScan,-,Sequencing,PMID36597886_study-01,PMID36597886_protocol-01
+86,-,PMID36597886_experimentID-08,T cell analysis,-,Flow Cytometry,PMID36597886_study-01,PMID36597886_protocol-01
+87,-,PMID36597886_experimentID-09,Intracellular cytokine staining (ICS) assay,-,Flow Cytometry,PMID36597886_study-01,PMID36597886_protocol-01
+88,-,PMID36597886_experimentID-010,Array neutralization assay,-,Multiplex Bead Array Assay,PMID36597886_study-01,PMID36597886_protocol-01
+89,-,PMID36597886_experimentID-011,SARS-CoV-2 antigen assays,-,Single-Molecule Array (SIMOA),PMID36597886_study-01,PMID36597886_protocol-01
+90,-,PMID35102312_experimentID-01,Pseudovirus NAb assay,-,Pseudovirus Neutralization Assay,PMID35102312_study-01,PMID35102312_protocol-01
+91,-,PMID35102312_experimentID-02,ELISA,-,ELISA,PMID35102312_study-01,PMID35102312_protocol-01
+92,-,PMID35102312_experimentID-03,Enzyme-linked immunospot assay,-,ELISA,PMID35102312_study-01,PMID35102312_protocol-01
+93,-,PMID35102312_experimentID-04,Intracellular cytokine staining assay,-,Flow Cytometry,PMID35102312_study-01,PMID35102312_protocol-01
+94,-,PMID36208629_experimentID-01,Neutrophil purity flow cytometry,-,Flow Cytometry,PMID36208629_study-01,PMID36208629_protocol-01
+95,-,PMID36208629_experimentID-02,Cell-free DNA (cfDNA) quantification,-,Chemiluminescent Assay,PMID36208629_study-01,PMID36208629_protocol-01
+96,-,PMID36208629_experimentID-03,Smart-Seq2,-,RNA Sequencing,PMID36208629_study-01,PMID36208629_protocol-01
+97,-,PMID36208629_experimentID-04,Citrullinated histone H3 ELISA,-,ELISA,PMID36208629_study-01,PMID36208629_protocol-01
+98,-,PMID36208629_experimentID-05,Antibody subclass and isotype measurements,-,Multiplex Bead Array Assay,PMID36208629_study-01,PMID36208629_protocol-01
+99,-,PMID36208629_experimentID-06,Antibody-dependent neutrophil phagocytosis (ADNP) assay,-,Cell Mediated Immunoassay,PMID36208629_study-01,PMID36208629_protocol-01
+100,-,PMID36208629_experimentID-07,SARS-CoV-2 spike specific IgG and IgA isolation,-,ELISA,PMID36208629_study-01,PMID36208629_protocol-01
+101,-,PMID36208629_experimentID-08,Antibody-dependent neutrophil activation and ROS release ,-,Chemiluminescent Assay,PMID36208629_study-01,PMID36208629_protocol-01
+102,-,PMID36208629_experimentID-09,Neutrophil cell death imaging assay,-,Microscopy,PMID36208629_study-01,PMID36208629_protocol-01
+103,-,PMID36208629_experimentID-010,Neutrophil PMA-treatment time-lapse microscopy,-,Microscopy,PMID36208629_study-01,PMID36208629_protocol-01
+104,-,PMID36208629_experimentID-011,Neutrophil cell death induction and quantification,-,Cell Mediated Immunoassay,PMID36208629_study-01,PMID36208629_protocol-01
+105,-,PMID36208629_experimentID-012,Neutrophil degranulation assay,-,Flow Cytometry,PMID36208629_study-01,PMID36208629_protocol-01
+106,-,PMID37863065_experimentID-01,Meso Scale Discovery Assay,-,Chemiluminescent Assay,PMID37863065_study-01,PMID37863065_protocol-01
+107,-,PMID37863065_experimentID-02,RT-PCR,-,PCR,PMID37863065_study-01,PMID37863065_protocol-01
+108,-,PMID36192374_experimentID-01,Biolayer interferometry (BLI) binding assays,-,Bio-layer Interferometry Assay,PMID36192374_study-01,PMID36192374_protocol-01
+109,-,PMID36192374_experimentID-02,ELISA,-,ELISA,PMID36192374_study-01,PMID36192374_protocol-01
+110,-,PMID36192374_experimentID-03,Plaque reduction neutralization tests (PRNT),-,Plaque Reduction Neutralization Assay,PMID36192374_study-01,PMID36192374_protocol-01
+111,-,PMID36192374_experimentID-04,Western Blot,-,Western Blot,PMID36192374_study-01,PMID36192374_protocol-01
+112,-,PMID36192374_experimentID-05,Serum In Vitro Neutralization Assay,-,Pseudovirus Neutralization Assay,PMID36192374_study-01,PMID36192374_protocol-01
+113,-,PMID36192374_experimentID-06,Virus Plaque Assay,-,Virus Plaque Assay,PMID36192374_study-01,PMID36192374_protocol-01
+114,-,PMID36192374_experimentID-07,Histopathology,-,Histopathology,PMID36192374_study-01,PMID36192374_protocol-01
+115,-,PMID36192374_experimentID-08,Electron microscopy,-,Microscopy,PMID36192374_study-01,PMID36192374_protocol-01
+116,-,PMID36192374_experimentID-09,FACS S1 disassociation assay,-,Flow Cytometry,PMID36192374_study-01,PMID36192374_protocol-01
+117,-,PMID36192374_experimentID-010,Cryo-EM,-,Cryo-Electron Microscopy,PMID36192374_study-01,PMID36192374_protocol-01
+118,-,PMID37695910_experimentID-01,Negative Stain Electron Microscopy,-,Microscopy,PMID37695910_study-01,PMID37695910_protocol-01
+119,-,PMID37695910_experimentID-02,Fluorescence Binding Experiments,-,Liquid Chromatography,PMID37695910_study-01,PMID37695910_protocol-01
+120,-,PMID37695910_experimentID-03,NMR  Spectroscopy,-,NMR,PMID37695910_study-01,PMID37695910_protocol-01
+121,-,PMID37695910_experimentID-04,Pseudovirus Inhibition Assays,-,Pseudovirus Neutralization Assay,PMID37695910_study-01,PMID37695910_protocol-01
+122,-,PMID37695910_experimentID-05,SARS-CoV-2 Live Virus Neutralization Assays,-,Neutralizing Antibody Titer Assay,PMID37695910_study-01,PMID37695910_protocol-01
+123,-,PMID37695910_experimentID-06,SARS- CoV 2003 Live Virus Neutralization Assays.,-,Neutralizing Antibody Titer Assay,PMID37695910_study-01,PMID37695910_protocol-01

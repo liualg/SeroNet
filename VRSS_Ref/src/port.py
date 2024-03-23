@@ -97,6 +97,9 @@ def get_ids_onCondition(ref_df):
 	# ids = df['# Research_Participant_ID'][df[con1]==con1_test & df[con2]==con2_test]
 	return out
 
+def match_(field):
+	if field == 
+
 ## Reference Study Data ##
 # testing
 testing_data_CBC = obtain_data(file='testing_data_1.0.0',sname='Primary_Testing_Resutls( CBC)')

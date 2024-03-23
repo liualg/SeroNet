@@ -1,0 +1,62 @@
+,User Defined ID,Criterion,Criterion Category
+0,PMID33767426_inexcl-01,Not specified,inclusion
+1,PMID34133941_inexcl-01,SARS-CoV-2 Antibodies Measured,Inclusion
+2,PMID34688034_inexcl-01,Geriatric subjects,Inclusion
+3,PMID34688034_inexcl-02,Pediatric subjects,Exclusion
+4,PMID34688034_inexcl-03,SARS-CoV-2 Antibodies Measured,Inclusion
+5,PMID35764089_inexcl-01,Geriatric subjects,inclusion
+6,PMID35764089_inexcl-02,Pediatric subjects,Exclusion
+7,PMID35764089_inexcl-03,SARS-CoV-2 Antibodies Measured,inclusion
+8,PMID35764089_inexcl-04,Subjects who tested positive for RBD and neutralization antibodies at baseline,Exclusion
+9,PMID35764089_inexcl-05,Subjects with no baseline sample available and whose RBD and neutralization antibody reached the peak after first-dose immunization (indicative of memory from previous infection) and were nucleocapsid (NC) antibody-positive.,Exclusion
+10,PMID35764089_inexcl-06,Previously infected subjects,Exclusion
+11,PMID35605428_inexcl-01,Geriatric subjects,inclusion
+12,PMID35605428_inexcl-02,Pediatric subjects,exclusion
+13,PMID35605428_inexcl-03,SARS-CoV-2 Antibodies Measured,inclusion
+14,PMID34594341_inexcl-01,Geriatric subjects,Inclusion
+15,PMID34594341_inexcl-02,SARS-CoV-2 Antibodies Measured,Inclusion
+16,PMID34861167_inexcl-01,Geriatric subjects,Inclusion
+17,PMID34861167_inexcl-02,"Mongolian participants who had been fully vaccinated with one of four COVID vaccines: Pfizer/BioNTech, AstraZeneca, Sputnik V, and Sinopharm",Inclusion
+18,PMID34861167_inexcl-03,SARS-CoV-2 Antibodies Measured,Inclusion
+19,PMID32678685_inexcl-01,SARS-CoV-2 Antibodies Measured,Inclusion
+20,PMID32941787_inexcl-01,Geriatric subjects,Inclusion
+21,PMID32941787_inexcl-02,Pediatric subjects,Inclusion
+22,PMID32941787_inexcl-03,SARS-CoV-2 Antibodies Measured,Inclusion
+23,PMID32941787_inexcl-04,SARS-CoV-2 positive by PCR,Inclusion
+24,PMID32941787_inexcl-05,Hospitalized patients,Inclusion
+25,PMID35857529_inexcl-01,Geriatric subjects,Inclusion
+26,PMID35857529_inexcl-02,SARS-CoV-2 Antibodies Measured,Inclusion
+27,PMID33822097_inexcl-01,SARS-CoV-2 Antibodies Measured,Inclusion
+28,PMID36480499_inexcl-01,SARS-CoV-2 Antibodies Measured,Inclusion
+29,PMID36480499_inexcl-02,Geriatric subjects,Inclusion
+30,PMID36480499_inexcl-03,Pediatric subjects,Exclusion
+31,PMID33798476_inexcl-01,SARS-CoV-2 Antibodies Measured,Inclusion
+32,PMID33798476_inexcl-02,Pregnant subjects,Inclusion
+33,PMID33798476_inexcl-03,Pregnant women in inpatient setting,Inclusion
+34,PMID33798476_inexcl-04,RT-PCR seropositive non-pregnant women,Inclusion
+35,PMID34951746_inexcl-01,Geriatric subjects,Inclusion
+36,PMID34951746_inexcl-02,SARS-CoV-2 Antibodies Measured,Inclusion
+37,PMID34951746_inexcl-03,Boosted Solid organ transplant recipients without known prior infection.,Inclusion
+38,PMID34951746_inexcl-04,Participants with SARS-CoV-2 infection,Exclusion
+39,PMID37264688_inexcl-01,Geriatric subjects,Inclusion
+40,PMID37264688_inexcl-02,SARS-CoV-2 Antibodies Measured,Inclusion
+41,PMID37264688_inexcl-03,Natural infection confirmed by PCR.,Inclusion
+42,PMID34862384_inexcl-01,Not specified,Inclusion
+43,PMID36597886_inexcl-01,SARS-CoV-2 Antibodies Measured,Inclusion
+44,PMID36597886_inexcl-02,Pediatric subjects,Inclusion
+45,PMID36597886_inexcl-03,Adolescents with myocarditis after SARS-CoV-2 mRNA vaccination.,Inclusion
+46,PMID36597886_inexcl-04,Children with MIS-C,Inclusion
+47,PMID35102312_inexcl-01,SARS-CoV-2 Antibodies Measured,Inclusion
+48,PMID35102312_inexcl-02,Geriatric subjects,Inclusion
+49,PMID35102312_inexcl-03,Participants with SARS-CoV-2 infection or have a history of infection. ,Exclusion
+50,PMID35102312_inexcl-04,Participants received other COVID-19 vaccine,Exclusion
+51,PMID35102312_inexcl-05,Participants received immunosuppressive medications,Exclusion
+52,PMID36208629_inexcl-01,Pediatric subjects,Exclusion
+53,PMID36208629_inexcl-02,SARS-CoV-2 Antibodies Measured,Inclusion
+54,PMID36208629_inexcl-03,WHO disease severity scale used,Inclusion
+55,PMID37863065_inexcl-01,SARS-CoV-2 Antibodies Measured,Inclusion
+56,PMID37863065_inexcl-02,Geriatric subjects,Inclusion
+57,PMID37863065_inexcl-03,Lung cancer patients,Inclusion
+58,PMID37863065_inexcl-04,Pediatric subjects,Exclusion
+59,PMID36192374_inexcl-01,SARS-CoV-2 Antibodies Measured,Inclusion
+60,PMID37695910_inexcl-01,SARS-CoV-2 Antibodies Measured,Inclusion

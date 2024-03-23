@@ -1,0 +1,71 @@
+,User Defined ID,Name,Description,Type Reported
+0,PMID33767426_organism_subject-01,"C57BL/6J mice (WT, 000664)",C57BL/6J female mice 7–10 weeks old,Experimental Arm
+1,PMID33767426_organism_subject-02,STING-goldenticket (STINGgt/gt) mice (017537),STINGgt/gt female mice 7–10 weeks old,Experimental Arm
+2,PMID33767426_organism_subject-03,Primary human cells,"HUVECs (Lonza), NHDF,  HEK293T, A549, HeLa and L929 cells",Experimental Arm
+3,PMID33767426_organism_subject-04,Ifnar1-KO mice,Mice knockout for type I interferon (IFN) receptors (Ifnar-/-),Experimental Arm
+4,PMID34133941_organism_subject-01,Rhesus macaques immunized with 1 × 1011 viral particles,Rhesus macaques immunized with 1 × 1011 viral particles Ad26.COV2.S (N=5).,Vaccination
+5,PMID34133941_organism_subject-02,Rhesus macaques immunized with 5x1010 viral particles,Rhesus macaques immunized with 5x1010 viral particles Ad26.COV2.S (N=5).,Vaccination
+6,PMID34133941_organism_subject-03,Rhesus macaques immunized with 1.125x1010 viral particles,Rhesus macaques immunized with 1.125x1010 viral particles Ad26.COV2.S (N=5).,Vaccination
+7,PMID34133941_organism_subject-04,Rhesus macaques immunized with 2x109 viral particles,Rhesus macaques immunized with 2x109 viral particles Ad26.COV2.S (N=5).,Vaccination
+8,PMID34133941_organism_subject-05,Rhesus macaques sham immunized,Rhesus macaques sham immunized (N=10).,Sham Comparator Arm
+9,PMID34688034_human_subject-01,Participants in a longitudinal observational study,Participants in the longitudinal observational PARIS (Protection Associated with Rapid Immunity to SARS-CoV-2) study (n=30).,Observational
+10,PMID35764089_human_subject-01,Moderna Vaccine recipients,Subjects received mRNA-1273 and donated blood at different times post-vaccination (n=30).,Observational
+11,PMID35764089_human_subject-02,Pfizer/BioNTech Vaccine recipients,Subjects received BNT162b2 and donated blood at different times post-vaccination (n=30).,Observational
+12,PMID35764089_human_subject-03,Janssen Vaccine recipients,Subjects received Ad26.COV2.S and donated blood at different times post-vaccination (n=30).,Observational
+13,PMID35764089_human_subject-04,Novavax Vaccine recipients,Subjects received NVX-CoV2373 and donated blood at different times post-vaccination (n=12).,Observational
+14,PMID35605428_human_subject-01,HCW prior SARS-CoV-2,"Health Care workers with prior infection confirmed by PCR, antigen test, and/or detectable antibody levels to spike, RBD, and Nucleocapsid",Active Comparator Arm
+15,PMID35605428_human_subject-02,HCW SARS-CoV-2 naïve,Health Care Workers with no prior infection,Active Comparator Arm
+16,PMID35605428_human_subject-03,NH residents prior SARS-CoV-2,"Nursing home residents with prior infection confirmed by PCR, antigen test, and/or detectable antibody levels to spike, RBD, and Nucleocapsid",Active Comparator Arm
+17,PMID35605428_human_subject-04,NH residents SARS-CoV-2 naïve,Nursing home residents with no prior infection.,Active Comparator Arm
+18,PMID34594341_human_subject-01,COVID-19 convalescent plasma (CCP) donors,COVID-19 convalescent plasma (CCP) donors from the San Francisco Bay Area in California (n=93),Observational
+19,PMID34594341_human_subject-02,COVID-19 patients,COVID-19 patients admitted to Stanford Hospital (n=16),Observational
+20,PMID34861167_human_subject-01,Vaccinated mongolian participants,"Mongolian participants who had been fully vaccinated with one of four COVID vaccines: Pfizer/BioNTech (BNT162b2), AstraZeneca (ChAdOx1-S), Sputnik V (Gam-COVID-Vac), and Sinopharm (BBIBP-CorV). (n=196)",Observational
+21,PMID34861167_human_subject-02,Individuals with breakthrough infections,Participants who had a history of SARS-CoV-2 infection after vaccination (n=99),Observational
+22,PMID32678685_human_subject-01,Volunteer blood donor,"A volunteer's blood donor, healthy on the day of donation, who had detectable SARS-CoV-2 RNA levels in their blood at least 40 days after resolution of coronavirus disease 2019 (COVID-19)–like symptoms (n=1).",Observational
+23,PMID32941787_human_subject-01,COVID-19 Patient Samples,Patients admitted to Stanford Hospital with signs and symptoms of COVID-19 and confirmed SARS-CoV-2 infection (n=13),Observational
+24,PMID32941787_human_subject-02,Healthy Human Control Samples,Healthy adults with no signs or symptoms of acute illness or disease (n=114),Healthy Control
+25,PMID35857529_human_subject-01,One time COVID-19 infected samples,Individuals previously infected with  a Washington-1-like SARS-CoV-2 strain (n = 24),Observational
+26,PMID35857529_human_subject-02,2 doses of Moderna mRNA-1273,Subjects received two doses of Moderna mRNA-1273 vaccination (n = 14),Vaccination
+27,PMID35857529_human_subject-03,2 doses of Pfizer BNT162b2,Subjects received two doses of Pfizer BNT162b2 vaccination (n = 14),Vaccination
+28,PMID35857529_human_subject-04,Two doses of NVX-CoV2373,Subjects received two doses of NVX-CoV2373 vaccination (n = 10),Vaccination
+29,PMID35857529_human_subject-05,One dose of Ad26.COV2.S,Subjects received one dose of Ad26.COV2.S vaccination (n = 10),Vaccination
+30,PMID35857529_human_subject-06,Two doses of AZD1222,Subjects received two doses of AZD1222 (n = 16),Vaccination
+31,PMID35857529_human_subject-07,Two doses of Sputnik V,Subjects received two doses of Sputnik V vaccination (n = 12),Vaccination
+32,PMID35857529_human_subject-08,Two doses of Sinopharm BBIBPCorV,Subjects received two doses of Sinopharm BBIBPCorV vaccination (n = 12),Vaccination
+33,PMID35857529_human_subject-09,Three doses of Moderna mRNA-1273 or Pfizer BNT162b2,Subjects received three doses of Moderna mRNA-1273 or Pfizer BNT162b2 (n = 13),Vaccination
+34,PMID35857529_human_subject-10,Two doses NVX-CoV2373 + one dose of BNT162b2 or NVX-CoV2373,Subjects received Two doses NVX-CoV2373 + one dose of BNT162b2 or NVX-CoV2373 (n = 5),Vaccination
+35,PMID35857529_human_subject-11,One dose of Ad26.COV2.S + one dose of Ad26.COV2.S or BNT162b2,Subjects received one dose of Ad26.COV2.S + one dose of Ad26.COV2.S or BNT162b2 (N=14),Vaccination
+36,PMID35857529_human_subject-12,Two doses of AZD1222  + one dose of BNT162b2 or mRNA-1273,Subjects received two doses of AZD1222  + one dose of BNT162b2 or mRNA-1273 (n = 18),Vaccination
+37,PMID35857529_human_subject-13,Two doses of Sputnik V + one dose of AZD1222 or BNT162b2,Subjects received two doses of Sputnik V + one dose of AZD1222 or BNT162b2 (N=14),Vaccination
+38,PMID35857529_human_subject-14,Two doses of Sinopharm BBIBP-CorV + one dose of BNT162b2 or mRNA-1273,Subjects received two doses of Sinopharm BBIBP-CorV +one dose of BNT162b2 or mRNA-1273 (N=18),Vaccination
+39,PMID33822097_human_subject-01,Seronegative health care workers (NHCW).,"Seronegative health care workers from Miami cohort (n = 32), whose samples were collected in between Apr-Jun 2020.",Observational
+40,PMID33822097_human_subject-02,PCR positive health care workers (PHCW).,"PCR positive health care workers from Maimi cohort (n = 26), whose samples were collected in Aug 2020.",Observational
+41,PMID33822097_human_subject-03,Community volunteers (SIP).,"Community volunteers who were all seronegative and with no exposure to known infected persons from Miami cohort (n = 33), whose samples were collected in Jun 2020.",Observational
+42,PMID33822097_human_subject-04,Unexposed donors from San Diego (NSD).,"Asymptomatic unexposed and seronegative donors from San Diego cohort (NSD) (n = 15), whose samples were collected in between Mar-Jun 2020.",Observational
+43,PMID33822097_human_subject-05,COVID-19 seropositive subjects also from the San Diego region (COVID-19 SD).,"COVID-19 seropositive subjects from the San Diego cohort (COVID-19 SD) (n = 10), whose samples were collected in between Apr-Jul 2020.",Observational
+44,PMID36480499_human_subject-01,Non-CCP recipients,COVID-19 infected patients who did not received COVID-19 convalescent plasma (CCP) (N= 363),No Intervention Arm
+45,PMID36480499_human_subject-02,CCP EAP Recipients,COVID-19 infected patients who received COVID-19 convalescent plasma (CCP) as treatment (N= 163),Treatment Arm
+46,PMID33798476_human_subject-01,Pregnant cohort,Pregnant women who tested either positive (n = 22) or negative (n = 11) for SARS-CoV-2 before delivery at the Johns Hopkins Hospital.,Observational
+47,PMID33798476_human_subject-02,Nonpregnant cohort,Nonpregnant women who tested positive for SARS-CoV-2 at the Johns Hopkins Hospital (n = 17).,Observational
+48,PMID34951746_human_subject-01,Solid organ transplant recipients (SOTRs),Solid organ transplant recipients (SOTRs) initially received two doses of an mRNA-based vaccine and 70% of participants received a third mRNA vaccine dose and 30% received the Janssen Ad26.COV2.S vaccine (n = 47).,Observational
+49,PMID34951746_human_subject-02,Heathy controls,Heathy controls all received two doses of BNT162b2 vaccination (n = 15). ,Observational
+50,PMID37264688_human_subject-01,Healthy vaccinated individuals,Healthy individuals with the BNT162b2 vaccination (n = 53).,Observational
+51,PMID37264688_human_subject-02,Individuals with natural infection,Individuals with natural infection (n = 106).,Observational
+52,PMID37264688_human_subject-03,Healthy vaccinated individuals,Healthy individuals with the mRNA-1273 vaccine (n = 49),Healthy Control
+53,PMID34862384_organism_subject-01,Bone marrow-derived mast cells (BMMC),Mouse bone marrow-derived mast cell (BMMC) cultures from huFcεRIα transgenic mice.,Experimental Arm
+54,PMID34862384_organism_subject-02,Human basophils,Human basophils were collected from volunteers with grass allergies (n = 4).,Experimental Arm
+55,PMID36597886_human_subject-01,Postvaccine myocarditis cohort,Adolescents and young adults with vaccine-associated myocarditis (n = 16).,Observational
+56,PMID36597886_human_subject-02,Controls,Age-matched asymptomatic vaccinated control subjects (n = 45).,Observational
+57,PMID36597886_human_subject-03,Children with MIS-C with myocarditis,Children with multisystem inflammatory syndrome in children (MIS-C) with myocarditis were previously enrolled in the MGH Pediatric COVID-19 Biorepository (n = 10),Observational
+58,PMID35102312_human_subject-01,BNT162b2 vaccine group,Participants received BNT162b2 vaccination (n = 27).,Observational
+59,PMID35102312_human_subject-02,Ad26.COV2.S vaccine group,Participants received Ad26.COV2.S vaccination (n = 20).,Observational
+60,PMID36208629_human_subject-01,Patients that tested positive for COVID-19,Patients who presented to the Emergency Department that tested positive for COVID-19 (n=306).,Observational
+61,Patients that tested negative for COVID-19,Healthy Controls,Patients who presented to the Emergency Department that tested negative for COVID-19 (n=78) and were used as controls.,Negative Control
+62,Healthy donors,Healthy Controls,Healthy donors from which blood was collected (n=8).,Healthy Control
+63,PMID37863065_human_subject-01,Lung cancer patients,Lung cancer patients from New York City.,Observational
+64,PMID36192374_organism_subject-01,Peripheral B cells,Peripheral B cells from healthy donors were used to create non-immunized scFv-phage libraries.,Observational
+65,PMID36192374_organism_subject-02,Syrian golden hamsters,Syrian golden hamsters challenged with SARS-CoV-2 by the intranasal (IN) route on day 0. On day 1 post-challenge hamsters were treated with 5 mg/kg of monoclonal antibodies via intraperitoneal route (IP).,Treatment Arm
+66,PMID36192374_organism_subject-03,Control group of hamsters,Syrian golden hamsters challenged with SARS-CoV-2 by the intranasal (IN) route on day 0. On day 1 post-challenge hamsters received sterile PBS via the intraperitoneal route.,Negative Control
+67,PMID36192374_organism_subject-04,BALB/c mice,Mice were injected intraperitoneally with the appropriate concentration of each mAb combination 12 hours prior to infection. Mice were infected intranasally with SARS-CoV-2 MA or SARS-CoV-2 WT.,Treatment Arm
+68,PMID37695910_organism_subject-01,Vero E6 cells,Vero E6 cells were infected with the SARS-CoV-2 variants.,Experimental Arm
+69,PMID37695910_organism_subject-02,HEK293F- hACE2 cells,hACE2- expressing HEK293F cells infected with HIV- 1 pseudotyped with D614G spike.,Experimental Arm

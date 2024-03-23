@@ -1,0 +1,177 @@
+,File Name,Description,Study File Type
+0,PMID33767426_MOESM4_ESM.xlsx,siRNA and shRNA screening data for Fig 1. DAPK3 regulation of DNA-stimulated STING signaling. ,Study Data
+1,PMID33767426_MOESM5_ESM.xlsx,Tumor volume data of shRNA-transduced cells for Fig 2. Tumor-expressed DAPK3.,Study Data
+2,PMID33767426_MOESM6_ESM.xlsx,Immunoblot data for Fig 4. DAPK3 in STING K48-linked poly-ubiquitination.,Study Data
+3,PMID33767426_MOESM8_ESM.xlsx,Statistical source data for Fig 4. DAPK3 in STING K48-linked poly-ubiquitination.,Study Data
+4,PMID33767426_MOESM9_ESM.pdf,Immunoblot images - DAPK3 in STING K48-linked poly-ubiquitination.,Study Data
+5,PMID33767426_MOESM10_ESM.pdf,Immunoblot images - DAPK3 in STING K63-linked poly-ubiquitination.,Study Data
+6,PMID33767426_MOESM11_ESM.xlsx,Statistical source data - Truncated STING proteins and STING phosphorylation mutants. Heatmap data for Figure 6D,Study Data
+7,PMID33767426_MOESM12_ESM.pdf,Immunoblot images - Phospho-proteomic profiling of DAPK3 targets. qRT-PCR data for Figure 7H and i,Study Data
+8,PMID33767426_MOESM13_ESM.xlsx,Statistical source data for Fig 7 - DAPK3 phosphorylation of LMO7 and STING K63-linked poly-ubiquitination.,Study Data
+9,PMID33767426_MOESM14_ESM.pdf,Immunoblot images - DAPK3 phosphorylation of LMO7 and STING K63-linked poly-ubiquitination.,Study Data
+10,PMID33767426_MOESM15_ESM.xlsx,Statistical source data - induction of IFNB1/Ifnb1 and Interferon-stimulated genes in mouse tumor cell lines (MCA205 and B16F10). qRT-PCR data fir Figure 1c through 1o,Study Data
+11,PMID33767426_MOESM16_ESM.pdf,Immunoblot images - DAPK3 depletion in HUVEC and MCA205 and STING protein levels.,Study Data
+12,PMID33767426_MOESM17_ESM.xlsx,"Statistical source data - B16F10 tumors apoptosis, and tumor size. Tumor volume data for shRNA-transduced cells in mice for Figure 3.",Study Data
+13,PMID33767426_MOESM18_ESM.pdf,Immunoblot images - DAPK3 in STING K48-linked poly-ubiquitination.,Study Data
+14,PMID33767426_MOESM19_ESM.xlsx,Statistical source data - DAPK3 in STING K48-linked poly-ubiquitination. Immunoblot data for Figure 5.,Study Data
+15,PMID33767426_MOESM20_ESM.pdf,Immunoblot images - molecular mechanisms of DAPK3 regulation of STING.,Study Data
+16,PMID33767426_MOESM22_ESM.pdf,Immunoblot images - Immunoprecipitation of lysates from HEK293T transfected with Flag-tagged human STING.,Study Data
+17,PMID33767426_MOESM24_ESM.pdf,Immunoblot images - in vitro kinase assays of DAPK3 and TBK1.,Study Data
+18,PMID33767426_MOESM25_ESM.xlsx,Statistical source data - LMO7 phosphorylation on S863 in STING ubiquitination. qRT-PCR data of IFNB1 and CXCL10 in THP1-Blue ISG and HUVEC for extended Figure (I and J).,Study Data
+19,PMID33767426_MOESM26_ESM.pdf,Immunoblot images - TBK1 phosphorylation of LMO7 at other sites within amino acids 810–910 and amino acids 360–460 regions.,Study Data
+20,PMID33767426_v1.3.4.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.,Study Summary Description
+21,PMID33767426_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template.,JSON Summary Description
+22,PMID33767426_publication.pdf,Publication in PDF format. ,Study Data
+23,PMID34133941_mmc1.pdf,"Lung pathology scores for the individual pathology parameters, average score per group.",Study Data
+24,PMID34133941_Table S1.xlsx,"Lung pathology scores table for the individual pathology parameters, average score per group. Extracted from PMID34133941_mmc1.pdf.",Study Data
+25,SeroNet Data Sets PMID 34133941.xlsx,"Subject level data for ELISA, ELISPOT, BAL and NS sgRNA data and Neutralizing Antibody titer assays.",Study Data
+26,PMID34133941_v1.3.4.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.,Study Summary Description
+27,PMID34133941_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template.,JSON Summary Description
+28,PMID34133941_publication.pdf,Publication in PDF format. ,Study Data
+29,PMID34688034_Variants.xlsx,Absolute neutralization titers of sera from participants seronegative prior to vaccination and titers of sera from participants that received two doses of the Pfizer or the Moderna vaccine. Binding activity of post-mRNA vaccination sera against RBD and spike proteins of different Variants of Interest (VoIs) and Variants of Concern (VoCs). Demographics data of the participants.,Study Data
+30,PMID34688034_mmc1.pdf,"Supplementary tables with Information on viral isolates used in neutralization assays,information about the spike and RBD proteins used for the binding assays, and participant demographics.",Study Data
+31,PMID34688034_v1.3.6.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.,Study Summary Description
+32,PMID34688034_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template.,JSON Summary Description
+33,PMID34688034_publication.pdf,Publication in PDF format. ,Study Data
+34,PMID35764089_13_Results_CVS_JMT.xlsx,"Subject level demographics, Spike, RBD, and Nucleocapsid IgG responses, B cell responses, AIM, and ICS data.",Study Data
+35,PMID35764089_mmc1.pdf,"Tables with reagents used for AIM, ICS, and B cell assays.",Study Data
+36,PMID35764089_v1.3.4.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+37,PMID35764089_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+38,PMID35764089_publication.pdf,Publication in PDF format. ,Study Data
+39,PMID35605428_1-s2.0-S235239642200247X-mmc1.docx,"Supplemental Figure 1. Presentation of female and male Anti-spike, Anti-Receptor binding domain (RBD) levels and Neutralisation titres over time.",Study Data
+40,PMID35605428_deid_data_35605428.csv,"Subject level demographics and anti-spike, anti-Receptor binding domain and Neutralisation titre data, pre- and post-boost BNT162b2 mRNA vaccination in healthcare workers and nursing home residents.",Study Data
+41,PMID35605428_v1.3.2.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+42,PMID35605428_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+43,PMID35605428_publication.pdf,Publication in PDF format. ,Study Data
+44,PMID34594341_Data_Figure1.xlsx,"Subject level demographics, clinical data, and ELISA results for COVID-convalescent plasma (CCP) donors",Demographics
+45,PMID34594341_Data_Figure2_SupplementaryFigure2_4_5.xlsx,Subject level ELISA and PCR results for COVID-convalescent plasma (CCP) donors and recipients,Study Data
+46,PMID34594341_Data_SupplementaryFigure3.xlsx,Subject level ELISA results for COVID-convalescent plasma (CCP) donors,Study Data
+47,PMID34594341_demographics_CCP-treated.xlsx,Cohort level demographics and clinical characteristics of 16 CCP-treated COVID-19 patients.,Demographics
+48,PMID34594341_demographics_CCP donor.xlsx,Cohort level non-hospitalized CCP donor demographics and clinical characteristics.,Demographics
+49,PMID34594341_Image_5.pdf,"Viral N-antigenemia levels for all samples from COVID-19 patients correlated with RBD-specific IgG titers, RBD- specific IgG Absorbance OD450, N-specific IgG Absorbance OD450, and RBD- ACE2 blocking capacity. Levels of N-antigenemia in collected plasma from COVID-19 patients distinguished patients that received CCP before, during or after seroconversion.",Study Data
+50,PMID34594341_Image_1.pdf,"Measurements in three additional COVID-19 patients. Titers of SARS-CoV-2 RBD-specific IgG, IgM, and IgA, RBD-specific IgG titers, RBD-ACE2 blocking activity (in %), as well as levels of N-antigenemia, and RNAemia are shown for three patients for whom available sample timepoints were not suitable to assess whether the patients had seroconverted before CCP transfusion. Timepoint(s) of CCP transfusion are indicated by black arrows.",Study Data
+51,PMID34594341_Image_2.pdf,"Titers of SARS-CoV-2 RBD-specific, S1-specific and N-specific IgG, IgM, and IgA antibodies. Titers of SARS-CoV-2 RBD-specific, S1- specific and N-specific IgG, IgM, and IgA antibodies (Absorbance at OD450) plotted versus timepoint post symptom cessation.",Study Data
+52,PMID34594341_Image_4.pdf,"SARS-CoV-2 S1/N-specific antibody titers in COVID- 19 patients who received convalescent plasma. Levels of SARS-CoV-2 S1/N- specific IgG, IgM, and IgA antibodies (Absorbance at OD450) are shown for patients who received COVID-convalescent plasma (CCP) before (A), during (B), or after seroconversion (C). (D) Shows three patients for whom available sample timepoints were not suitable to assess if patients already seroconverted before CCP transfusion. Timepoint(s) of CCP transfusion indicated by black arrow.",Study Data
+53,PMID34594341_Image_3.pdf,"Titers of SARS-CoV-2 RBD-specific, S1-specific and N-specific IgG, IgM, and IgA antibodies for individual donors with multiple timepoints. Titers of SARS-CoV-2 RBD-specific, S1-specific and N-specific IgG, IgM, and IgA antibodies (Absorbance at OD450) plotted versus timepoint post symptom cessation for a selection of donors with > 3 samples.",Study Data
+54,PMID34594341_v1.3.4.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+55,PMID34594341_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+56,PMID34594341_publication.pdf,Publication in PDF format. ,Study Data
+57,PMID34861167_mmc1.pdf,"Figures S1: Showing concentrations of IgG antibodies specific for SARS-CoV-2 proteins, and correlations with ACE2 blocking and pseudotyped neutralization assays with Wuhan-Hu-1 antigens",Study Data
+58,PMID34861167_Demographic_and_ electrochemiluminescence_data.xlsx,Subject level demographic data and electrochemiluminescence data,Study Data
+59,PMID34861167_v1.3.7.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+60,PMID34861167_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+61,PMID34861167_publication.pdf,Publication in PDF format. ,Study Data
+62,PMID32678685_v1.3.7.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+63,PMID32678685_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+64,PMID32678685_publication.pdf,Publication in PDF format. ,Study Data
+65,PMID32941787_mmc1.pdf,"Supplemental information - Tables: 1, S1, S2, S3 (information on patient sample information, IgG and IgA subclass proportions, heavy and light chain sequence features for convergent monoclonal antibodies (mAbs) 2A, 4A, and PCR primer sequences and gDNA libraries). Figures: s1, s2, s3, s4 (Mean SHM percentage and unmutated clone fractions, IGHV usage in COVID-19 patients and healthy controls, IGHV gene and CDR-H3 features, Sequence logos of CDR-H3 AA residues from convergent IGHs in COVID-19 patients).",Study Data
+66,PMID32941787_tableS1_3.xlsx,"Table S1, S2, S3 extracted from PMID32941787_mmc1.pdf, includes  IgG and IgA subclass proportions, heavy and light chain sequence features for convergent monoclonal antibodies (mAbs) 2A and 4A, and PCR primer sequences and gDNA libraries.",Study Data
+67,PMID32941787_table1.xlsx,Table 1 extracted from PMID32941787_publication.pdf has subject level demographics and COVID-19 Patient Sample Information in DPSO.,Demographics
+68,PMID32941787_v1.3.7.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+69,PMID32941787_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+70,PMID32941787_publication.pdf,Publication in PDF format. ,Study Data
+71,PMID35857529_sm.pdf,"Supplementary material includes patients, methods, figures of Biolayer interferometry, neutralization curves, ELISA, and demographics data of enrolled plasma donors (Table S4).",Study Data
+72,PMID35857529_demographics.xlsx,Demographics data of enrolled vaccinated and infected plasma donors (Table S4). Kinetics of human ACE2 binding to immobilized SARS-CoV-2 RBDs determined by biolayer interferometry (Table S1). Extracted from PMID35857529_sm.pdf,Demographics
+73,PMID35857529_movie_s1.mp4,Movie of real-time cell-cell fusion captured every 30 minutes over a 24-hour period with effector cells expressing SARS-CoV-2 S with the G614 mutations.,Study Data
+74,PMID35857529_movie_s2.mp4,Movie of real-time cell-cell fusion captured every 30 minutes over a 24-hour period with effector cells expressing SARS-CoV-2 S with the Delta mutations.,Study Data
+75,PMID35857529_movie_s3.mp4,Movie of real-time cell-cell fusion captured every 30 minutes over a 24-hour period with effector cells expressing SARS-CoV-2 S with the BA.1 mutations.,Study Data
+76,PMID35857529_movie_s4.mp4,Movie of real-time cell-cell fusion captured every 30 minutes over a 24-hour period with effector cells expressing SARS-CoV-2 S with the BA.2 mutations.,Study Data
+77,PMID35857529_movie_s5.mp4,Movie of real-time cell-cell fusion captured every 30 minutes over a 24-hour period with effector cells expressing SARS-CoV-2 S with the BA.2.12.1 mutations.,Study Data
+78,PMID35857529_movie_s6.mp4,Movie of real-time cell-cell fusion captured every 30 minutes over a 24-hour period with effector cells expressing SARS-CoV-2 S with the BA.4/5 mutations.,Study Data
+79,PMID35857529_v1.3.4.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+80,PMID35857529_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+81,PMID35857529_publication.pdf,Publication in PDF format. ,Study Data
+82,PMID33822097_Raw data related to Figure 1.xlsx,"Serum ELISA titers to common cold coronaviruses (CCC) for Community volunteers (SIP), Seronegative health care workers (NHCW) and PCR positive health care workers (PHCW) participants; demographics of unexposed, seronegative donors (NSD) and COVID-19 donors (COVID-19 SD).",Study Data
+83,PMID33822097_Raw data related to Figure 2.xlsx,CD4+ T-cell immune responses to CCC epitopes from Shelter in Place (SIP) and cohorts of health care workers.,Study Data
+84,PMID33822097_Raw data related to Figure 3.xlsx,Reactivity of CD4+ T cells against CCC epitopes in the cohort from San Diego unexposed donors from San Diego (NSD) and COVID-19 SD.,Study Data
+85,PMID33822097_Raw data related to Figure 4.xlsx,"CD4+ T-cell response to SARS-CoV-2 epitopes in SIP, NHCW, PHCW participants.",Study Data
+86,PMID33822097_Raw data related to Figure 5.xlsx,"Cell frequency of HLA-DR+ /CD38+ in AIM+ cells or total CD4+ T cells in SIP, NHCW, PHCW participants.",Study Data
+87,PMID33822097_Raw data related to Figure 6.xlsx,"CD8+ T-cell response to SARS-CoV-2 epitopes in SIP, NHCW, PHCW participants.",Study Data
+88,PMID33822097_daSilvaAntunes_Supplementary_information.docx,Supplementary information includes data related to gating strategy for CD4+ T cell and CD8+ T cell AIM assays used in this study.,Study Data
+89,PMID33822097_Figure 1A.pzfx,Serum ELISA titers to SARS-CoV-2 spike receptor-binding domain protein.,Study Data
+90,PMID33822097_Figure 1B.pzfx,"Serum ELISA titers to CCC (HCoV-229E, HCoV-NL63, HCoV-HKU1, and HCoV-OC43) spike protein.",Study Data
+91,PMID33822097_Figure 2.pzfx,CD4+ T-cell immune responses to CCC epitopes in all cohorts,Study Data
+92,PMID33822097_Figure 3.pzfx,Reactivity of CD4+ T cells against CCC epitopes in an independent cohort from San Diego,Study Data
+93,PMID33822097_Figure 4.pzfx,CD4+ T-cell response to SARS-CoV-2 epitopes in all cohorts,Study Data
+94,PMID33822097_Figure 5.pzfx,CD4+ T-cell responses in all cohorts,Study Data
+95,PMID33822097_Figure 6.pzfx,CD8+ T-cell response to SARS-CoV-2 epitopes in all cohorts,Study Data
+96,PMID33822097_v1.3.4.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.,Study Summary Description
+97,PMID33822097_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.,JSON Summary Description
+98,PMID33822097_publication.pdf,Publication in PDF format. ,Study Data
+99,PMID36480499_Implementation Paper_For Seronet.xlsx,De-identified subject level data and demographics of the COVID-19 infected patients who received COVID-19 convalescent plasma (CCP) as treatment (N= 163); CCP collection data. ,Study Data
+100,PMID36480499_pone.s001.tiff,Figure of convalescent plasma (CCP) program timeline,Study Data
+101,PMID36480499_pone.s002.tif,Figure of time from admission to convalescent plasma (CCP) infusion EAP and EUA recipients at UNCMC and affiliates,Study Data
+102,PMID36480499_pone.s003.tif,Figure of comparisons of recipients factors of time from admission to convalescent plasma (CCP) infusion of EAP participants at UNCMC ,Study Data
+103,PMID36480499_pone.s004.tiff,Figure of UNC Health system Hospitals that participated in the convalescent plasma (CCP) EAP and EUA,Study Data
+104,PMID36480499_v1.3.8.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+105,PMID36480499_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+106,PMID36480499_publication.pdf,Publication in PDF format. ,Study Data
+107,PMID33798476_mmc2.mp4,"Video explains the graphs of IL1-B expression within 14 days or after of confirmed SARs-Cov-2 test, Anti-SARS-CoV-2 antibody in samples from pregnant and nonpregnant women; nAb levels in cord blood and maternal serum; association between time and antibody levels.",Study Data
+108,PMID33798476_covid-19 and pregnancy master sheet.xlsx,"Individual level demographics, antibody data and IL-1β, IL-6 expressions in maternal and cord blood samples of the participants.",Study Data
+109,PMID33798476 _Table2.xlsx,Cohort level demographics of pregnant and nonpregnant women. Extracted from PMID33798476_publication.pdf.,Demographics
+110,PMID33798476_v1.3.8.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+111,PMID33798476_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+112,PMID33798476_publication.pdf,Publication in PDF format. ,Study Data
+113,PMID34951746_demo_dose3_Ab.xlsx,Subject level demographics of vaccinated Solid organ transplant recipients (SOTRs) and healthy controls.,Demographics
+114,PMID34951746_dose3Ab_deidentified.xlsx,De-identified neutralizing antibody data against variants of concern in solid organ transplant recipients and healthy controls.,Study Data
+115,PMID34951746_live_virus_3dose_Ab.xlsx,Subject level live-virus neutralization values and area under the curve (AUC) against the vaccine strain and the Delta variant before and after a third vaccine dose in Solid organ transplant recipients (SOTRs) and in two-dose vaccinated healthy controls.,Study Data
+116,PMID34951746_mmc1-figs1.pdf,"Figure S1: Total SARS-CoV-2 S1 RBD, nucleocapsid and Spike specific IgG in fully mRNA vaccinated healthy controls and SOTRs before after a third dose of vaccine.",Study Data
+117,PMID34951746_mmc2-figs2.pdf,"Figure S2: Comparison of anti-S IgG levels between kidney transplants and other transplant recipients, between different age groups, sex, or type third dose received.",Study Data
+118,PMID34951746_mmc3-figs3.pdf,"Figure S3: Comparison of % ACE2 inhibition when stratifying the cohort by age, sex, or vaccine platform.",Study Data
+119,PMID34951746_mmc4-figs4.pdf,Figure S4: Inter assay correlation for both the vaccine strain and Delta variants among clinical (EUROIMMUN) and research (MSD) anti-spike IgG assays.,Study Data
+120,PMID34951746_mmc5-tables1.docx,Comparison of Clinical and Demographic Characteristics of the Parent SOTR SARS-CoV-2 Vaccine Cohort versus the Analytic Cohort (Supplemental Table 1).,Study Data
+121,PMID34951746_Table1.xlsx,Cohort level clinical and demographic characteristics of Solid organ transplant recipients (SOTRs) and healthy controls. Extracted from PMID34951746_publication.pdf.,Demographics
+122,PMID34951746_v1.3.8.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+123,PMID34951746_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+124,PMID34951746_publication.pdf,Publication in PDF format. ,Study Data
+125,PMID37264688_MSC 1 Data FNL paper.xlsx,Subject level demographics and geometric mean avidity (GMA) levels in infected and vaccinated participants. ,Study Data
+126,PMID37264688_Table1 demographics.csv,Cohort level demographics of the study participants. Extracted from the publication.,Demographics
+127,PMID37264688_Table 2 assay_data.csv,"Cohort level SARS-CoV-2 Spike IgG avidity results segregated by vaccine received and age over two time points, 1 month and 4 months after vaccination. Extracted from the publication",Study Data
+128,PMID37264688_Table 3.csv,"Cohort level geometric mean avidity (GMA) levels were segregated by vaccine, time point and sex. Extracted from the publication.",Study Data
+129,PMID37264688_v1.3.7.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+130,PMID37264688_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+131,PMID37264688_publication.pdf,Publication in PDF format. ,Study Data
+132,PMID34862384_ Supplementary Information.pdf,"Figures of expression and validation of omalizumab library and tables of kinetic data for IgE binding studies, curve fitting data for bead-based IgE disruption studies, data collection and refinement statistics crystallography, kinetic data for locked-complex binding studies, Cryo-EM data collection, conformational rearrangements and displacements of Cε2 domains.",Study Data
+133,PMID34862384_Source Data.xlsx,Raw data of Omalizumab disruptive potency is modulated by affinity and conformational flexibility.,Study Data
+134,PMID34862384_v1.3.7.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+135,PMID34862384_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+136,PMID34862384_publication.pdf,Publication in PDF format. ,Study Data
+137,PMID36597886_Data_Yonker_2022.xlsx,"Subject level systems serology data, antigen data and cytokine data of myocarditis cohort and control cohort.",Study Data
+138,PMID36597886_supp.xlsx,Clinical characteristics of adolescents and young adults presenting with post-vaccine myocarditis (Table S1) SARS-CoV-2 antigen assay quantitative data (Figure S10). PMID36597886_supp.xlsx extracted from PMID36597886_cir-147-867-s001.pdf,Demographics
+139,PMID36597886_cir-147-867-s001.pdf ,"Supplemental material includes detailed description of clinical cohorts, methods, and figures. Clinical characteristics of adolescents and young adults presenting with post-vaccine myocarditis (Table S1).",Study Data
+140,PMID36597886_v1.3.6.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+141,PMID36597886_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+142,PMID36597886_publication.pdf,Publication in PDF format. ,Study Data
+143,PMID35102312_Seronet2.xlsx,"Subject level Antibody responses, neutralizing antibody (NAb) titers and peptide spike-specific IFNγ CD8+ and CD4+ central memory (CD45RA-CD27+). Effector memory (CD45RA- CD27-) T cell responses at months 1 and 8 following final vaccination with Ad26.COV2.S or BNT162b2.",Study Data
+144,PMID35102312_Seronet_demographics.xlsx,Subject level demographics.,Demographics
+145,PMID35102312_ESM.xlsx,Peptide sequences for WA1/2020 and Omicron spike.,Study Data
+146,PMID35102312_v1.3.4.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors.,Study Summary Description
+147,PMID35102312_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template.,JSON Summary Description
+148,PMID35102312_publication.pdf,Publication in PDF format. ,Study Data
+149,PMID36208629_mmc1.pdf,"Figures S1 through S7 showing the estimation of sample purity, characterization of NMF clustering results, receptor expression and differential effect of IgG versus IgA on neutrophil effector functions, ligand-receptor interaction analysis for severe versus non-severe patients, cell-of-origin for plasma ligands utilizing single-cell RNA Seq data and neutrophil subtypes in BAL fluid, and predicting COVID-19 severity on Day 0 utilizing clinical data, neutrophil transcriptomics, and neutrophil-expressed plasma proteins.",Study Data
+150,PMID36208629_mmc2.xlsx,"Table S1. Subject level demographics, Clinical metadata, quality control, genomic parameters, CIBERSORTx, and COVID-19-positive versus -negative comparisons, related to Figures 1 and S1.",Study Data
+151,PMID36208629_mmc3.xlsx,"Table S2. NMF characterization, and severe versus non-severe comparisons, related to Figures 2, S2, and S3.",Study Data
+152,PMID36208629_mmc4.xlsx,"Table S3. Predicting COVID-19 severity on day 0, and acuity 1 versus acuity 2 comparisons, related to Figures 3, 4, and S3.",Study Data
+153,PMID36208629_mmc5.xlsx,"Table S4. Antibody profiling, and functional assays, related to Figures 5 and S4.",Study Data
+154,PMID36208629_mmc6.xlsx,"Table S5. Proteomics, ligand-receptor analysis, and final logistic regression model, related to Figures 6, 7, and S5–S7.",Study Data
+155,PMID36208629_mmc7.mp4,"Video S1. Healthy donor neutrophils in RPMI + PMA (positive control), related to Figure 5.",Study Data
+156,PMID36208629_mmc8.mp4,"Video S2. Healthy donor neutrophils in RPMI + PBS (untreated control), related to Figure 5.",Study Data
+157,PMID36208629_v1.3.6.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+158,PMID36208629_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+159,PMID36208629_publication.pdf,Publication in PDF format. ,Study Data
+160,PMID37863065_Seronet data deposit.xlsx,"Subject level demographics and Meso Scale Discovery Anti-Spike, Anti-Nucleocapsid titer levels of all the lung cancer patients.",Study Data
+161,PMID37863065-mmc1-SM.pdf,"Supplementary material includes description of methods. Figures of SARS-CoV-2 infection rate (Supplemental Figure S1); Anti-N, anti-S antibody half-life, anti-N Ab detection and, SARS-CoV-2 breakthrough infections cumulative incidence (Supplemental Figure S2). Patient demographics, clinical data, and documented SARS-CoV-2 vaccination and infection status at cohort level (Supplemental Table S1) and statistical analysis.",Study Data
+162,PMID37863065_Table S1.xlsx,"Cohort level patient demographics, clinical data, and documented SARS-CoV-2 vaccination and infection status. Extracted from PMID37863065-mmc1-SM.pdf.",Demographics
+163,PMID37863065_v1.3.8.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+164,PMID37863065_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+165,PMID37863065_publication.pdf,Publication in PDF format. ,Study Data
+166,PMID36192374_MOESM1_ESM.pdf,"Figures of Biolayer interferometry, Cryo-EM Processing pipeline for SARS-CoV-2 S-D614G complexed with Ab 12 Fab, pathological analysis of lungs of Syrian golden hamsters’ lungs after treatment. Tables of Criteria for lung histopathology scoring and IC50 values from in vitro variant neutralization.",Study Data
+167,PMID36192374_Source data.xlsx,"Individual level raw data of antibody binding ELISA, PRNT, western blot, viral loads in hamsters, pathology scores and in vitro neutralization against D614G, Alpha, Beta, Gamma, and Delta variants.",Study Data
+168,PMID36192374_v1.3.7.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+169,PMID36192374_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+170,PMID36192374_publication.pdf,Publication in PDF format. ,Study Data
+171,PMID37695910_SM.pdf,"Burkholderia oklahomensis agglutinin (BOA) EC50 values in SARS-CoV-2 and pseudovirus neutralization assays, figures of viral inhibition and NMR spectroscopy.",Study Data
+172,PMID37695910_Table S1.xlsx,BOA EC50 values of all variants in SARS-CoV-2 and pseudovirus neutralization assays. Extracted from PMID37695910_SM.pdf.,Study Data
+173,PMID37695910_v1.3.7.xlsm,Completed curation of the study into SeroNet Registry Template which includes SeroNet Study Descriptors,Study Summary Description
+174,PMID37695910_JSON.json,JSON format of completed curation of the study into SeroNet Registry Template,JSON Summary Description
+175,PMID37695910_publication.pdf,Publication in PDF format. ,Study Data

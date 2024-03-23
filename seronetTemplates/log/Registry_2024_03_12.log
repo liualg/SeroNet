@@ -1,0 +1,84 @@
+03/12/2024 03:41:11 PM 
+PMID: 36597886
+03/12/2024 03:41:11 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+03/12/2024 03:41:11 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+03/12/2024 03:41:11 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+03/12/2024 03:41:11 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+03/12/2024 03:41:11 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+03/12/2024 03:41:11 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+03/12/2024 03:41:11 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+03/12/2024 03:41:11 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+03/12/2024 03:41:11 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+03/12/2024 03:41:36 PM 
+PMID: 35102312
+03/12/2024 03:41:36 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+03/12/2024 03:41:36 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+03/12/2024 03:41:36 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+03/12/2024 03:41:36 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+03/12/2024 03:41:36 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+03/12/2024 03:41:36 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+03/12/2024 03:42:02 PM 
+PMID: 36208629
+03/12/2024 03:42:02 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+03/12/2024 03:42:02 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+03/12/2024 03:42:02 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+03/12/2024 03:42:02 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+03/12/2024 03:42:02 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+03/12/2024 03:42:02 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+03/12/2024 03:42:02 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+03/12/2024 03:42:02 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+03/12/2024 03:42:02 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+03/12/2024 03:42:33 PM INFO:: [User Change] Not Specified => Not Applicable
+03/12/2024 03:42:33 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+03/12/2024 03:42:33 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+03/12/2024 03:42:33 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+03/12/2024 03:42:33 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+03/12/2024 03:42:50 PM 
+PMID: 37863065
+03/12/2024 03:42:50 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+03/12/2024 03:42:50 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+03/12/2024 03:42:50 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+03/12/2024 03:42:58 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+03/12/2024 03:42:58 PM INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+03/12/2024 03:43:14 PM 
+PMID: 36192374
+03/12/2024 03:43:22 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+03/12/2024 03:43:22 PM [INFO]:: [Fuzzy] SARS-CoV-2 B.1.1.1 => SARS-CoV-2 B.1.2 : score 88
+03/12/2024 03:43:22 PM [INFO]:: [Fuzzy] SARS-CoV-2 A.23.1 => SARS-CoV-2 EG.5.1 : score 82
+03/12/2024 03:43:22 PM [INFO]:: [Fuzzy] SARS-CoV-2 R.1 => SARS-CoV-2 B.1.2 : score 87
+03/12/2024 03:43:22 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+03/12/2024 03:43:37 PM INFO:: [User Change] Histology Score => Histopathology
+03/12/2024 03:43:37 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+03/12/2024 03:43:37 PM [INFO]:: [Fuzzy] Cryo-Electron Microscopy => Cryo-Eectron Microscopy : score 98
+03/12/2024 03:44:17 PM 
+PMID: 37695910
+03/12/2024 03:45:21 PM INFO:: [User Change] SARS-CoV-2 Munich => SARS-CoV-2
+03/12/2024 04:34:53 PM 
+PMID: 34951746
+03/12/2024 04:34:53 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+03/12/2024 04:34:53 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+03/12/2024 04:34:53 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+03/12/2024 04:34:53 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+03/12/2024 04:34:53 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+03/12/2024 04:34:53 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+03/12/2024 04:40:56 PM 
+PMID: 35102312
+03/12/2024 04:40:56 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+03/12/2024 04:40:56 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+03/12/2024 04:40:56 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+03/12/2024 04:40:56 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+03/12/2024 04:40:56 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+03/12/2024 04:40:56 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+03/12/2024 05:10:57 PM 
+PMID: 36192374
+03/12/2024 05:10:58 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+03/12/2024 05:10:58 PM [INFO]:: [Fuzzy] SARS-CoV-2 B.1.1.1 => SARS-CoV-2 B.1.2 : score 88
+03/12/2024 05:10:58 PM [INFO]:: [Fuzzy] SARS-CoV-2 A.23.1 => SARS-CoV-2 EG.5.1 : score 82
+03/12/2024 05:10:58 PM [INFO]:: [Fuzzy] SARS-CoV-2 R.1 => SARS-CoV-2 B.1.2 : score 87
+03/12/2024 05:10:58 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+03/12/2024 05:10:58 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA10 => SARS-CoV-2 MA10 [mouse adapted]
+03/12/2024 05:10:58 PM [INFO]:: [Fuzzy] Cryo-Electron Microscopy => Cryo-Eectron Microscopy : score 98
+03/12/2024 05:11:10 PM 
+PMID: 37695910
+03/12/2024 05:13:18 PM 
+PMID: 37695910
