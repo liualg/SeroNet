@@ -46,7 +46,7 @@ else:
 
 
 file_type = "json"
-DR_NUMBER = "DR51"
+DR_NUMBER = "DR52.1"
 
 #########################################
 ######### Taking in Inputs ##############
@@ -77,7 +77,7 @@ def create_short(PMID, user_input_path=False):
 
         #File Paths
         BASE_DIR = seroFxn.get_box_dir(box_base, PMID)
-        # print(BASE_DIR)
+        print(BASE_DIR)
 
         try:
             df_path = glob(os.path.join(BASE_DIR,'templated_data',f'PMID{PMID}*eviewed.xlsm'))[0]
@@ -385,7 +385,7 @@ def create_short(PMID, user_input_path=False):
                     df['SARS-CoV2 History*'],
                     df['SARS-CoV-2 Vaccine Type*'],
                     df['COVID-19 Disease Severity*'],
-                    df['Post COVID-19 Symptoms'],
+                    df[df.columns[df.columns.str.startswith('Post COVID-19')]],
                     df['COVID-19 Complications']
                     )
 
@@ -427,7 +427,7 @@ def create_short(PMID, user_input_path=False):
                     df['SARS-CoV2 History*'],
                     df['SARS-CoV-2 Vaccine Type*'],
                     df['COVID-19 Disease Severity*'],
-                    df['Post COVID-19 Symptoms'],
+                    df[df.columns[df.columns.str.startswith('Post COVID-19')]],
                     df['COVID-19 Complications']
                 )
         
@@ -738,10 +738,10 @@ def create_short(PMID, user_input_path=False):
     # StudyTimeCollected should link back to the planned_visit.User_Defined_ID + planned_visit.Min_Start_Day
     '''
     reagentID = []
-    if (EXPERIMENTS):
-        print('yes')
-    else:
-        print('no')
+    # if (EXPERIMENTS):
+    #     print('yes')
+    # else:
+    #     print('no')
 
     if  EXPERIMENTS:
         # creating a map of the assay types to the SeroNet descriptors
@@ -871,47 +871,48 @@ def create_short(PMID, user_input_path=False):
 
     if SUBJECT_ORGANISM:  # Not sure how this plays out. Might need to do a mock one. Will it be 1 subject per study?
         species = SUBJECT_ORGANISM.User_Defined_ID
-        empty = ['']*len(species)
+        # print(SUBJECT_ORGANISM)
+        # empty = ['']*len(species)
 
-        if SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type.any():
-            vaccine_name, vaccine_type = seroFxn.get_vaccine(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type, VARS_TO_CLEAN)
+        # if SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type.any():
+        #     vaccine_name, vaccine_type = seroFxn.get_vaccine(SUBJECT_ORGANISM.SARS_CoV_2_Vaccine_Type, VARS_TO_CLEAN)
 
-        else:
-            vaccine_name = empty
-            vaccine_type = empty
+        # else:
+        #     vaccine_name = empty
+        #     vaccine_type = empty
 
-        # print ("SUBJECT_organism data")
-        SUBJECT_organism_df = pd.DataFrame({
-            'Column Name':empty,
-            'Subject ID': [f"PMID{PMID}_organism_subject-0{int(i+1)}" for i in range(len(species))], #SUBJECT_ORGANISM.User_Defined_ID, #
-            'Arm Or Cohort ID': SUBJECT_ORGANISM.User_Defined_ID, #I feel like this needs to be defined
-            'Gender': SUBJECT_ORGANISM.Sex_at_Birth,
-            'Min Subject Age': [STUDY_DETAILS.Minimum_Age]*len(species),
-            'Max Subject Age': [STUDY_DETAILS.Maximum_Age]*len(species),
-            'Age Unit': [STUDY_DETAILS.Age_Unit] * len(species),
-            'Age Event': SUBJECT_ORGANISM.Age_Event,
-            'Age Event Specify': empty,
-            'Subject Phenotype': empty, ## This does not exist
-            'Subject Location': SUBJECT_ORGANISM.Study_Location,
-            'Species': SUBJECT_ORGANISM.Species,
-            'Strain': SUBJECT_ORGANISM.Biosample_Types,
-            'Strain Characteristics': SUBJECT_ORGANISM.Strain_Characteristics,
-            'Result Separator Column': empty,
-            'Exposure Process Reported': ['unknown']*len(species),
-            'Exposure Material Reported': vaccine_name,
-            'Exposure Material ID': vaccine_type, 
-            'Disease Reported': [COD.Reported_Health_Condition[0]]*len(species), # also maybe not...
-            'Disease Ontology ID': empty,
-            'Disease Stage Reported': SUBJECT_ORGANISM.COVID_19_Disease_Severity
-        })
+        # # print ("SUBJECT_organism data")
+        # SUBJECT_organism_df = pd.DataFrame({
+        #     'Column Name':empty,
+        #     'Subject ID': [f"PMID{PMID}_organism_subject-0{int(i+1)}" for i in range(len(species))], #SUBJECT_ORGANISM.User_Defined_ID, #
+        #     'Arm Or Cohort ID': SUBJECT_ORGANISM.User_Defined_ID, #I feel like this needs to be defined
+        #     'Gender': SUBJECT_ORGANISM.Sex_at_Birth,
+        #     'Min Subject Age': [STUDY_DETAILS.Minimum_Age]*len(species),
+        #     'Max Subject Age': [STUDY_DETAILS.Maximum_Age]*len(species),
+        #     'Age Unit': [STUDY_DETAILS.Age_Unit] * len(species),
+        #     'Age Event': SUBJECT_ORGANISM.Age_Event,
+        #     'Age Event Specify': empty,
+        #     'Subject Phenotype': empty, ## This does not exist
+        #     'Subject Location': SUBJECT_ORGANISM.Study_Location,
+        #     'Species': SUBJECT_ORGANISM.Species,
+        #     'Strain': SUBJECT_ORGANISM.Biosample_Types,
+        #     'Strain Characteristics': SUBJECT_ORGANISM.Strain_Characteristics,
+        #     'Result Separator Column': empty,
+        #     'Exposure Process Reported': ['unknown']*len(species),
+        #     'Exposure Material Reported': vaccine_name,
+        #     'Exposure Material ID': vaccine_type, 
+        #     'Disease Reported': [COD.Reported_Health_Condition[0]]*len(species), # also maybe not...
+        #     'Disease Ontology ID': empty,
+        #     'Disease Stage Reported': SUBJECT_ORGANISM.COVID_19_Disease_Severity
+        # })
         
-            # loading experiment template and removing excess rows and columns
-        organism_ws = load_workbook(PATH_subject_organism)['subjectAnimals.txt']
-        organism_ws = seroFxn.remove_excess(organism_ws)
+        #     # loading experiment template and removing excess rows and columns
+        # organism_ws = load_workbook(PATH_subject_organism)['subjectAnimals.txt']
+        # organism_ws = seroFxn.remove_excess(organism_ws)
 
-        # adding df to bottom of ws
-        seroFxn.add_df(organism_ws, SUBJECT_organism_df, add_header = False)
-        SUBJECT_organism_df = pd.DataFrame(organism_ws.values).replace({None: '', 'None': ''})
+        # # adding df to bottom of ws
+        # seroFxn.add_df(organism_ws, SUBJECT_organism_df, add_header = False)
+        # SUBJECT_organism_df = pd.DataFrame(organism_ws.values).replace({None: '', 'None': ''})
 
         # saving df
         # SUBJECT_organism_df.to_csv(os.path.join(OUT_DIR,f'{SUBJ_ORGANISM_TEMPLATE}.txt'),
@@ -971,3 +972,8 @@ def create_short(PMID, user_input_path=False):
 
     # shutil.copyfile(output_file, os.path.join('.','DR46','JSON',f'PMID{PMID}_JSON.{file_type}'))
 
+
+
+
+# cate_short('12345678',user_input_path=True)
+# create_short('34242572',user_input_path=True)

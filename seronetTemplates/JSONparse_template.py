@@ -523,14 +523,34 @@ def parse_protocol(df, template):
        spanning multiple lines in the spread sheet.
     """
 
-    protocol = {}
-    protocol['protocol_id'] = parse_clean_sv(df, PROTOCOL_ID, 2)
-    protocol['protocol_file_name'] = parse_clean_sv(df, PROTOCOL_FILE_NAME, 2)
-    protocol['protocol_name'] = parse_clean_sv(df, PROTOCOL_NAME, 2)
-    protocol['protocol_description'] = parse_clean_sv(df, PROTOCOL_DESCRIPTION, 2)
-    protocol['protocol_type'] = parse_clean_sv(df, PROTOCOL_TYPE, 2)
-
+    protocol = []
+    prot= list(df.loc[PROTOCOL_ID])
+    # print(prot)
+    for idx, val in enumerate(prot[2:], start=2): 
+        if not pd.isna(val):
+            obj = {
+               "protocol_id": val,
+               "protocol_file_name": parse_clean_sv(df, PROTOCOL_FILE_NAME, idx),
+               "protocol_name": parse_clean_sv(df, PROTOCOL_NAME, idx),
+               "protocol_description":parse_clean_sv(df, PROTOCOL_DESCRIPTION, idx),
+               "protocol_type":check_spelling(parse_clean_sv(df, PROTOCOL_TYPE, idx),"protocol_type")
+            }
+            protocol.append(obj)
+        else:
+            pass
     template['protocol'] = protocol
+
+
+
+
+    # protocol = {}
+    # protocol['protocol_id'] = parse_clean_sv(df, PROTOCOL_ID, 2)
+    # protocol['protocol_file_name'] = parse_clean_sv(df, PROTOCOL_FILE_NAME, 2)
+    # protocol['protocol_name'] = parse_clean_sv(df, PROTOCOL_NAME, 2)
+    # protocol['protocol_description'] = parse_clean_sv(df, PROTOCOL_DESCRIPTION, 2)
+    # protocol['protocol_type'] = parse_clean_sv(df, PROTOCOL_TYPE, 2)
+
+    # template['protocol'] = protocol
 
 
 def parse_condition_or_disease(df, template):

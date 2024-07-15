@@ -1,0 +1,72 @@
+05/31/2024 10:33:20 AM 
+PMID: 12345678
+05/31/2024 10:33:20 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/31/2024 10:33:20 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/31/2024 10:33:20 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/31/2024 10:33:20 AM INFO:: [Fuzzy] Closest Match Found. Changing Immunosuppressive Disorder => Immunosuppressive Disorder 
+05/31/2024 10:33:20 AM [INFO]:: [Fuzzy] Lung Disease => Lung Disease
+ : score 96
+05/31/2024 10:33:23 AM INFO:: [User Change] Not Specified => Not Applicable
+05/31/2024 10:33:23 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/31/2024 10:33:23 AM INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/31/2024 10:33:23 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Lambda; => SARS-CoV-2 Lambda; C.37
+05/31/2024 10:33:23 AM [INFO]:: [Fuzzy] SARS-CoV-2 OmicrA micron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.3.1 : score 92
+05/31/2024 10:33:23 AM INFO:: [Fuzzy] Closest Match Found. Changing Not specified => Not Specified
+05/31/2024 10:33:23 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:23 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:23 AM INFO:: [Fuzzy] Closest Match Found. Changing spike => Full Length Spike Trimer
+05/31/2024 10:33:23 AM INFO:: [Fuzzy] Closest Match Found. Changing spike => Full Length Spike Trimer
+05/31/2024 10:33:23 AM INFO:: [Fuzzy] Closest Match Found. Changing RBD => Receptor Binding Domain (RBD)
+05/31/2024 10:33:23 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:23 AM INFO:: [Fuzzy] Closest Match Found. Changing spike => Full Length Spike Trimer
+05/31/2024 10:33:23 AM INFO:: [Fuzzy] Closest Match Found. Changing spike => Full Length Spike Trimer
+05/31/2024 10:33:23 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:34 AM INFO:: [User Change] HCoV-229E => SARS-CoV-2 B.1.13
+05/31/2024 10:33:34 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:34 AM INFO:: [User Change] HCoV-HKU1 => SARS-CoV-2 WA1/2020
+05/31/2024 10:33:34 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:35 AM INFO:: [User Change] HCoV-NL63 => CMV
+05/31/2024 10:33:35 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:35 AM INFO:: [User Change] HCoV-OC43 => CMV
+05/31/2024 10:33:35 AM [INFO]:: [Fuzzy] Multiplex flow immunoassay => Multiplex Immunoassay : score 85
+05/31/2024 10:33:35 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:35 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:35 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:35 AM [INFO]:: [Fuzzy] Multiplex flow immunoassay => Multiplex Immunoassay : score 85
+05/31/2024 10:33:35 AM [INFO]:: [Fuzzy] Multiplex flow immunoassay => Multiplex Immunoassay : score 85
+05/31/2024 10:33:35 AM INFO:: [Fuzzy] Closest Match Found. Changing CMV antigens => CMV Antigens
+05/31/2024 10:33:36 AM INFO:: [User Change] CMV antigens => SARS-CoV-2 Omicron variant BA.5
+05/31/2024 10:33:36 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:36 AM Previous Input: Virus Target, HCoV-229E => SARS-CoV-2 B.1.13
+05/31/2024 10:33:36 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:36 AM Previous Input: Virus Target, HCoV-HKU1 => SARS-CoV-2 WA1/2020
+05/31/2024 10:33:36 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:36 AM Previous Input: Virus Target, HCoV-NL63 => CMV
+05/31/2024 10:33:36 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:36 AM Previous Input: Virus Target, HCoV-OC43 => CMV
+05/31/2024 10:33:37 AM INFO:: [User Change] CMV virus lysate => CMV Antigens
+05/31/2024 10:33:37 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:37 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:37 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:37 AM INFO:: [Fuzzy] Closest Match Found. Changing spike => Full Length Spike Trimer
+05/31/2024 10:33:37 AM Previous Input: Virus Target, HCoV-229E => SARS-CoV-2 B.1.13
+05/31/2024 10:33:37 AM INFO:: [Fuzzy] Closest Match Found. Changing spike => Full Length Spike Trimer
+05/31/2024 10:33:37 AM Previous Input: Virus Target, HCoV-HKU1 => SARS-CoV-2 WA1/2020
+05/31/2024 10:33:37 AM INFO:: [Fuzzy] Closest Match Found. Changing spike => Full Length Spike Trimer
+05/31/2024 10:33:37 AM Previous Input: Virus Target, HCoV-NL63 => CMV
+05/31/2024 10:33:37 AM INFO:: [Fuzzy] Closest Match Found. Changing spike => Full Length Spike Trimer
+05/31/2024 10:33:37 AM Previous Input: Virus Target, HCoV-OC43 => CMV
+05/31/2024 10:33:38 AM INFO:: [User Change] hCMV => CMV Antigens
+05/31/2024 10:33:38 AM INFO:: [Fuzzy] Closest Match Found. Changing EBV early antigen diffuse => EBV Early Antigen Diffuse
+05/31/2024 10:33:38 AM INFO:: [Fuzzy] Closest Match Found. Changing EBV Nuclear antigen - 1 => EBV Nuclear Antigen - 1
+05/31/2024 10:33:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:38 AM INFO:: [Fuzzy] Closest Match Found. Changing hepatitis B Core Antigen => Hepatitis B Core Antigen
+05/31/2024 10:33:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:38 AM Previous Input: Virus Target, HCoV-229E => SARS-CoV-2 B.1.13
+05/31/2024 10:33:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:38 AM Previous Input: Virus Target, HCoV-HKU1 => SARS-CoV-2 WA1/2020
+05/31/2024 10:33:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:38 AM Previous Input: Virus Target, HCoV-NL63 => CMV
+05/31/2024 10:33:38 AM INFO:: [Fuzzy] Closest Match Found. Changing Full Length spike Trimer => Full Length Spike Trimer
+05/31/2024 10:33:38 AM Previous Input: Virus Target, HCoV-OC43 => CMV

@@ -1,0 +1,912 @@
+subjecthumans	Schema Version 3.36																				
+Please do not delete or edit this column																					
+Column Name	Subject ID	Arm Or Cohort ID	Gender	Min Subject Age	Max Subject Age	Age Unit	Age Event	Age Event Specify	Subject Phenotype	Subject Location	Ethnicity	Race	Race Specify	Description	Result Separator Column	Exposure Process Reported	Exposure Material Reported	Exposure Material ID	Disease Reported	Disease Ontology ID	Disease Stage Reported
+	14_107588	SeroNet_Reference_Study_human_subject-01	Male	48.389	48.389	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_108656	SeroNet_Reference_Study_human_subject-01	Female	56.0	56.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_115671	SeroNet_Reference_Study_human_subject-01	Female	55.7562	55.7562	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_120858	SeroNet_Reference_Study_human_subject-01	Female	42.0	42.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_122173	SeroNet_Reference_Study_human_subject-01	Male	45.4712	45.4712	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	14_123753	SeroNet_Reference_Study_human_subject-01	Female	46.7068	46.7068	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_127552	SeroNet_Reference_Study_human_subject-01	Male	45.0	45.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_136068	SeroNet_Reference_Study_human_subject-01	Male	37.3753	37.3753	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_143396	SeroNet_Reference_Study_human_subject-01	Female	33.0	33.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	14_148341	SeroNet_Reference_Study_human_subject-01	Male	58.1753	58.1753	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_160668	SeroNet_Reference_Study_human_subject-01	Female	22.0	22.0	Years	Age at enrollment			US: New York	Not Specified	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_166589	SeroNet_Reference_Study_human_subject-01	Male	35.0	35.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_171658	SeroNet_Reference_Study_human_subject-01	Female	49.0	49.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				no exposure					
+	14_175078	SeroNet_Reference_Study_human_subject-01	Male	45.0	45.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_177005	SeroNet_Reference_Study_human_subject-01	Male	30.0	30.0	Years	Age at enrollment			US: New York	Not Specified	White				no exposure					
+	14_183745	SeroNet_Reference_Study_human_subject-01	Female	31.0	31.0	Years	Age at enrollment			US: New York	Not Specified	Not Specified				no exposure					
+	14_185965	SeroNet_Reference_Study_human_subject-01	Male	56.0	56.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_186975	SeroNet_Reference_Study_human_subject-01	Male	33.0	33.0	Years	Age at enrollment			US: New York	Not Specified	Black or African American				no exposure					
+	14_188155	SeroNet_Reference_Study_human_subject-01	Male	53.0	53.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_194396	SeroNet_Reference_Study_human_subject-01	Male	37.252	37.252	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_208286	SeroNet_Reference_Study_human_subject-01	Male	26.0	26.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_212153	SeroNet_Reference_Study_human_subject-01	Female	31.0247	31.0247	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_213236	SeroNet_Reference_Study_human_subject-01	Male	58.3753	58.3753	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_217514	SeroNet_Reference_Study_human_subject-01	Male	54.0	54.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_218423	SeroNet_Reference_Study_human_subject-01	Male	30.0	30.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				no exposure					
+	14_225211	SeroNet_Reference_Study_human_subject-01	Male	32.0	32.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_239836	SeroNet_Reference_Study_human_subject-01	Female	60.1726	60.1726	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_241807	SeroNet_Reference_Study_human_subject-01	Female	56.0137	56.0137	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	14_249066	SeroNet_Reference_Study_human_subject-01	Female	56.0	56.0	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_254215	SeroNet_Reference_Study_human_subject-01	Male	37.0	37.0	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_256634	SeroNet_Reference_Study_human_subject-01	Male	49.0	49.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	14_259046	SeroNet_Reference_Study_human_subject-01	Male	37.6082	37.6082	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_261505	SeroNet_Reference_Study_human_subject-01	Female	32.0	32.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	14_263646	SeroNet_Reference_Study_human_subject-01	Female	58.0	58.0	Years	Age at enrollment			US: New York	Not Specified	White				no exposure					
+	14_265479	SeroNet_Reference_Study_human_subject-01	Male	32.0	32.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	14_269103	SeroNet_Reference_Study_human_subject-01	Male	27.8	27.8	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_270178	SeroNet_Reference_Study_human_subject-01	Female	33.0	33.0	Years	Age at enrollment			US: New York	Not Specified	Not Specified				no exposure					
+	14_278647	SeroNet_Reference_Study_human_subject-01	Male	37.0	37.0	Years	Age at enrollment			US: New York	Not Specified	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_285169	SeroNet_Reference_Study_human_subject-01	Female	27.0	27.0	Years	Age at enrollment			US: New York	Not Specified	Black or African American				no exposure					
+	14_286779	SeroNet_Reference_Study_human_subject-01	Female	28.0	28.0	Years	Age at enrollment			US: New York	Not Specified	White				no exposure					
+	14_287186	SeroNet_Reference_Study_human_subject-01	Female	37.0	37.0	Years	Age at enrollment			US: New York	Not Specified	Multiracial				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_301926	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	14_304474	SeroNet_Reference_Study_human_subject-01	Male	56.8438	56.8438	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_304492	SeroNet_Reference_Study_human_subject-01	Female	26.0	26.0	Years	Age at enrollment			US: New York	Not Specified	Not Specified				no exposure					
+	14_306348	SeroNet_Reference_Study_human_subject-01	Female	46.0	46.0	Years	Age at enrollment			US: New York	Not Specified	Not Specified				no exposure					
+	14_311544	SeroNet_Reference_Study_human_subject-01	Female	47.7671	47.7671	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_313928	SeroNet_Reference_Study_human_subject-01	Male	28.0	28.0	Years	Age at enrollment			US: New York	Not Specified	Black or African American				no exposure					
+	14_322676	SeroNet_Reference_Study_human_subject-01	Male	40.0	40.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_324493	SeroNet_Reference_Study_human_subject-01	Male	33.0	33.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_327086	SeroNet_Reference_Study_human_subject-01	Female	37.0	37.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American				no exposure					
+	14_334077	SeroNet_Reference_Study_human_subject-01	Not Specified	32.0	32.0	Years	Age at enrollment			US: New York	Not Specified	Not Specified				no exposure					
+	14_339154	SeroNet_Reference_Study_human_subject-01	Female	52.9315	52.9315	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_339339	SeroNet_Reference_Study_human_subject-01	Male	49.0	49.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_339739	SeroNet_Reference_Study_human_subject-01	Female	54.0	54.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_348651	SeroNet_Reference_Study_human_subject-01	Female	52.7699	52.7699	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	14_361741	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				no exposure					
+	14_362791	SeroNet_Reference_Study_human_subject-01	Female	48.0	48.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_367355	SeroNet_Reference_Study_human_subject-01	Male	49.0	49.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_368073	SeroNet_Reference_Study_human_subject-01	Male	54.8685	54.8685	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_373975	SeroNet_Reference_Study_human_subject-01	Female	23.0	23.0	Years	Age at enrollment			US: New York	Not Specified	Asian				no exposure					
+	14_374212	SeroNet_Reference_Study_human_subject-01	Female	20.0	20.0	Years	Age at enrollment			US: New York	Not Specified	Black or African American				no exposure					
+	14_379363	SeroNet_Reference_Study_human_subject-01	Female	56.0	56.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		4
+	14_382861	SeroNet_Reference_Study_human_subject-01	Female	29.0	29.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_384727	SeroNet_Reference_Study_human_subject-01	Male	34.0	34.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	14_385063	SeroNet_Reference_Study_human_subject-01	Male	33.8219	33.8219	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_391735	SeroNet_Reference_Study_human_subject-01	Male	38.9616	38.9616	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_392122	SeroNet_Reference_Study_human_subject-01	Male	32.0	32.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	14_399432	SeroNet_Reference_Study_human_subject-01	Female	30.789	30.789	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_403358	SeroNet_Reference_Study_human_subject-01	Female	21.0	21.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Multiracial				no exposure					
+	14_404768	SeroNet_Reference_Study_human_subject-01	Male	29.0	29.0	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_408074	SeroNet_Reference_Study_human_subject-01	Male	25.0	25.0	Years	Age at enrollment			US: New York	Not Specified	White				no exposure					
+	14_409279	SeroNet_Reference_Study_human_subject-01	Female	40.0986	40.0986	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_410477	SeroNet_Reference_Study_human_subject-01	Male	29.0	29.0	Years	Age at enrollment			US: New York	Not Specified	White				no exposure					
+	14_412766	SeroNet_Reference_Study_human_subject-01	Female	55.0	55.0	Years	Age at enrollment			US: New York	Not Specified	Black or African American				no exposure					
+	14_413507	SeroNet_Reference_Study_human_subject-01	Male	39.0	39.0	Years	Age at enrollment			US: New York	Not Specified	White				no exposure					
+	14_420792	SeroNet_Reference_Study_human_subject-01	Male	33.0	33.0	Years	Age at enrollment			US: New York	Not Specified	White				no exposure					
+	14_427801	SeroNet_Reference_Study_human_subject-01	Female	36.0	36.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_428897	SeroNet_Reference_Study_human_subject-01	Female	31.0	31.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_429588	SeroNet_Reference_Study_human_subject-01	Female	23.0	23.0	Years	Age at enrollment			US: New York	Not Specified	Asian				no exposure					
+	14_437688	SeroNet_Reference_Study_human_subject-01	Male	45.1863	45.1863	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_439218	SeroNet_Reference_Study_human_subject-01	Male	49.452	49.452	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_444128	SeroNet_Reference_Study_human_subject-01	Male	27.0	27.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_446374	SeroNet_Reference_Study_human_subject-01	Female	74.0	74.0	Years	Age at enrollment			US: New York	Not Specified	Black or African American				no exposure					
+	14_453592	SeroNet_Reference_Study_human_subject-01	Female	70.2657	70.2657	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_456907	SeroNet_Reference_Study_human_subject-01	Female	26.0	26.0	Years	Age at enrollment			US: New York	Not Specified	White				no exposure					
+	14_464837	SeroNet_Reference_Study_human_subject-01	Male	42.0	42.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	14_471327	SeroNet_Reference_Study_human_subject-01	Female	34.0	34.0	Years	Age at enrollment			US: New York	Not Specified	White				no exposure					
+	14_482383	SeroNet_Reference_Study_human_subject-01	Male	37.0	37.0	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_483903	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_491531	SeroNet_Reference_Study_human_subject-01	Female	28.0	28.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	14_491696	SeroNet_Reference_Study_human_subject-01	Male	23.0	23.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	14_493466	SeroNet_Reference_Study_human_subject-01	Female	33.0	33.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	14_495208	SeroNet_Reference_Study_human_subject-01	Female	23.0	23.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	14_499594	SeroNet_Reference_Study_human_subject-01	Male	27.9	27.9	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_500745	SeroNet_Reference_Study_human_subject-01	Male	36.0	36.0	Years	Age at enrollment			US: New York	Not Specified	Not Specified				no exposure					
+	14_507701	SeroNet_Reference_Study_human_subject-01	Female	58.3726	58.3726	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_512561	SeroNet_Reference_Study_human_subject-01	Female	22.0	22.0	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_513053	SeroNet_Reference_Study_human_subject-01	Male	45.0	45.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_528185	SeroNet_Reference_Study_human_subject-01	Male	54.8685	54.8685	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_529422	SeroNet_Reference_Study_human_subject-01	Female	64.0	64.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	14_533782	SeroNet_Reference_Study_human_subject-01	Male	32.0	32.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_536104	SeroNet_Reference_Study_human_subject-01	Female	30.0	30.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	14_541069	SeroNet_Reference_Study_human_subject-01	Male	56.8438	56.8438	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	14_562035	SeroNet_Reference_Study_human_subject-01	Female	44.0	44.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_562891	SeroNet_Reference_Study_human_subject-01	Male	32.0	32.0	Years	Age at enrollment			US: New York	Not Specified	Black or African American				no exposure					
+	14_563092	SeroNet_Reference_Study_human_subject-01	Female	23.3562	23.3562	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	14_568176	SeroNet_Reference_Study_human_subject-01	Female	28.0	28.0	Years	Age at enrollment			US: New York	Not Specified	Black or African American				no exposure					
+	14_569615	SeroNet_Reference_Study_human_subject-01	Female	26.0	26.0	Years	Age at enrollment			US: New York	Not Specified	Asian				no exposure					
+	14_571359	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: New York	Not Specified	Asian				no exposure					
+	14_573413	SeroNet_Reference_Study_human_subject-01	Female	50.8877	50.8877	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_582321	SeroNet_Reference_Study_human_subject-01	Male	39.0	39.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_587174	SeroNet_Reference_Study_human_subject-01	Female	32.5096	32.5096	Years	Age at enrollment			US: New York	Not Specified	Not Specified				no exposure					
+	14_588864	SeroNet_Reference_Study_human_subject-01	Female	32.0301	32.0301	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	14_591664	SeroNet_Reference_Study_human_subject-01	Female	24.3781	24.3781	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	14_594272	SeroNet_Reference_Study_human_subject-01	Female	63.9315	63.9315	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_597395	SeroNet_Reference_Study_human_subject-01	Male	56.0	56.0	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_603328	SeroNet_Reference_Study_human_subject-01	Male	23.6493	23.6493	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	14_607014	SeroNet_Reference_Study_human_subject-01	Male	39.0	39.0	Years	Age at enrollment			US: New York	Not Specified	White				no exposure					
+	14_616772	SeroNet_Reference_Study_human_subject-01	Male	23.0	23.0	Years	Age at enrollment			US: New York	Not Specified	Not Specified				no exposure					
+	14_620328	SeroNet_Reference_Study_human_subject-01	Male	38.7178	38.7178	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_628758	SeroNet_Reference_Study_human_subject-01	Male	62.6137	62.6137	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_629929	SeroNet_Reference_Study_human_subject-01	Male	35.0	35.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_636569	SeroNet_Reference_Study_human_subject-01	Female	27.0	27.0	Years	Age at enrollment			US: New York	Not Specified	Asian				no exposure					
+	14_639229	SeroNet_Reference_Study_human_subject-01	Male	46.0	46.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_639824	SeroNet_Reference_Study_human_subject-01	Male	25.0	25.0	Years	Age at enrollment			US: New York	Not Specified	Asian				no exposure					
+	14_647441	SeroNet_Reference_Study_human_subject-01	Female	32.0	32.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_649515	SeroNet_Reference_Study_human_subject-01	Male	50.1452	50.1452	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_653364	SeroNet_Reference_Study_human_subject-01	Female	51.0	51.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_654254	SeroNet_Reference_Study_human_subject-01	Male	75.4329	75.4329	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_658367	SeroNet_Reference_Study_human_subject-01	Female	40.9534	40.9534	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_670351	SeroNet_Reference_Study_human_subject-01	Female	55.0	55.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_672894	SeroNet_Reference_Study_human_subject-01	Male	57.0	57.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_675231	SeroNet_Reference_Study_human_subject-01	Male	40.2438	40.2438	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	14_681897	SeroNet_Reference_Study_human_subject-01	Male	28.0	28.0	Years	Age at enrollment			US: New York	Not Specified	White				no exposure					
+	14_683717	SeroNet_Reference_Study_human_subject-01	Female	27.4685	27.4685	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_685588	SeroNet_Reference_Study_human_subject-01	Female	35.0	35.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_693608	SeroNet_Reference_Study_human_subject-01	Male	55.0	55.0	Years	Age at enrollment			US: New York	Not Specified	White				no exposure					
+	14_698954	SeroNet_Reference_Study_human_subject-01	Female	52.0	52.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_705478	SeroNet_Reference_Study_human_subject-01	Male	31.0247	31.0247	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	14_713146	SeroNet_Reference_Study_human_subject-01	Female	32.0	32.0	Years	Age at enrollment			US: New York	Not Specified	Black or African American				no exposure					
+	14_719447	SeroNet_Reference_Study_human_subject-01	Female	48.0	48.0	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_720781	SeroNet_Reference_Study_human_subject-01	Male	34.6	34.6	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_722081	SeroNet_Reference_Study_human_subject-01	Male	56.0	56.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_724174	SeroNet_Reference_Study_human_subject-01	Female	69.0	69.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_741906	SeroNet_Reference_Study_human_subject-01	Male	48.1534	48.1534	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_743991	SeroNet_Reference_Study_human_subject-01	Male	47.0	47.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_747586	SeroNet_Reference_Study_human_subject-01	Male	46.6301	46.6301	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_752797	SeroNet_Reference_Study_human_subject-01	Female	36.0	36.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_753466	SeroNet_Reference_Study_human_subject-01	Female	28.0	28.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	14_754797	SeroNet_Reference_Study_human_subject-01	Male	48.0	48.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_758241	SeroNet_Reference_Study_human_subject-01	Female	23.0	23.0	Years	Age at enrollment			US: New York	Not Specified	White				no exposure					
+	14_761696	SeroNet_Reference_Study_human_subject-01	Male	24.0	24.0	Years	Age at enrollment			US: New York	Not Specified	Asian				no exposure					
+	14_776628	SeroNet_Reference_Study_human_subject-01	Male	21.0	21.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American				no exposure					
+	14_779347	SeroNet_Reference_Study_human_subject-01	Male	27.0	27.0	Years	Age at enrollment			US: New York	Not Specified	Black or African American				no exposure					
+	14_795323	SeroNet_Reference_Study_human_subject-01	Male	49.2384	49.2384	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_809758	SeroNet_Reference_Study_human_subject-01	Female	50.0	50.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Native Hawaiian or Other Pacific Islander				no exposure					
+	14_811101	SeroNet_Reference_Study_human_subject-01	Female	35.063	35.063	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_820803	SeroNet_Reference_Study_human_subject-01	Female	55.0	55.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	14_831542	SeroNet_Reference_Study_human_subject-01	Female	46.0	46.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Multiracial				no exposure					
+	14_833094	SeroNet_Reference_Study_human_subject-01	Female	41.0356	41.0356	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_836565	SeroNet_Reference_Study_human_subject-01	Female	41.0	41.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_841836	SeroNet_Reference_Study_human_subject-01	Female	51.0	51.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_845339	SeroNet_Reference_Study_human_subject-01	Male	43.548	43.548	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	14_852274	SeroNet_Reference_Study_human_subject-01	Male	62.1233	62.1233	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_860194	SeroNet_Reference_Study_human_subject-01	Female	36.3205	36.3205	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_860417	SeroNet_Reference_Study_human_subject-01	Female	52.9315	52.9315	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_861721	SeroNet_Reference_Study_human_subject-01	Female	26.0	26.0	Years	Age at enrollment			US: New York	Not Specified	Asian				no exposure					
+	14_864277	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: New York	Not Specified	White				no exposure					
+	14_873075	SeroNet_Reference_Study_human_subject-01	Female	31.0	31.0	Years	Age at enrollment			US: New York	Not Specified	White				no exposure					
+	14_873517	SeroNet_Reference_Study_human_subject-01	Female	26.8027	26.8027	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	14_875077	SeroNet_Reference_Study_human_subject-01	Male	31.0	31.0	Years	Age at enrollment			US: New York	Not Specified	Black or African American				no exposure					
+	14_881576	SeroNet_Reference_Study_human_subject-01	Male	57.0	57.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_884177	SeroNet_Reference_Study_human_subject-01	Female	33.0	33.0	Years	Age at enrollment			US: New York	Not Specified	White				no exposure					
+	14_896884	SeroNet_Reference_Study_human_subject-01	Female	34.0	34.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_900776	SeroNet_Reference_Study_human_subject-01	Male	38.0	38.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_906595	SeroNet_Reference_Study_human_subject-01	Female	30.0	30.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_910475	SeroNet_Reference_Study_human_subject-01	Female	39.0	39.0	Years	Age at enrollment			US: New York	Not Specified	Black or African American				no exposure					
+	14_918413	SeroNet_Reference_Study_human_subject-01	Female	44.8493	44.8493	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_931124	SeroNet_Reference_Study_human_subject-01	Male	24.3781	24.3781	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_949379	SeroNet_Reference_Study_human_subject-01	Female	23.211	23.211	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	14_950845	SeroNet_Reference_Study_human_subject-01	Male	39.1452	39.1452	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_967972	SeroNet_Reference_Study_human_subject-01	Female	26.0	26.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_973416	SeroNet_Reference_Study_human_subject-01	Female	48.0	48.0	Years	Age at enrollment			US: New York	Not Specified	Not Specified				no exposure					
+	14_974137	SeroNet_Reference_Study_human_subject-01	Female	40.0	40.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_981447	SeroNet_Reference_Study_human_subject-01	Female	37.7	37.7	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_988602	SeroNet_Reference_Study_human_subject-01	Female	65.0	65.0	Years	Age at enrollment			US: New York	Not Specified	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_991643	SeroNet_Reference_Study_human_subject-01	Female	29.0	29.0	Years	Age at enrollment			US: New York	Not Specified	Not Specified				no exposure					
+	14_994521	SeroNet_Reference_Study_human_subject-01	Male	38.0	38.0	Years	Age at enrollment			US: New York	Not Specified	Black or African American				no exposure					
+	14_994827	SeroNet_Reference_Study_human_subject-01	Female	53.0	53.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	14_999724	SeroNet_Reference_Study_human_subject-01	Male	45.1863	45.1863	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	27_100002	SeroNet_Reference_Study_human_subject-01	Male	59.0	59.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100003	SeroNet_Reference_Study_human_subject-01	Male	48.0	48.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	Multiracial				no exposure					
+	27_100004	SeroNet_Reference_Study_human_subject-01	Male	42.0	42.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100005	SeroNet_Reference_Study_human_subject-01	Female	58.0	58.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100006	SeroNet_Reference_Study_human_subject-01	Male	62.0	62.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100007	SeroNet_Reference_Study_human_subject-01	Male	55.0	55.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100008	SeroNet_Reference_Study_human_subject-01	Male	36.0	36.0	Years	Age at enrollment			US: Minnesota	Hispanic or Latino	Multiracial				no exposure					
+	27_100009	SeroNet_Reference_Study_human_subject-01	Male	62.0	62.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100010	SeroNet_Reference_Study_human_subject-01	Female	66.0	66.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100011	SeroNet_Reference_Study_human_subject-01	Male	46.0	46.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100012	SeroNet_Reference_Study_human_subject-01	Female	76.0	76.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100013	SeroNet_Reference_Study_human_subject-01	Female	23.0	23.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100015	SeroNet_Reference_Study_human_subject-01	Female	54.0	54.0	Years	Age at enrollment			US: Minnesota	Not Specified	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100016	SeroNet_Reference_Study_human_subject-01	Male	52.0	52.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100017	SeroNet_Reference_Study_human_subject-01	Female	53.0	53.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100018	SeroNet_Reference_Study_human_subject-01	Female	63.0	63.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100019	SeroNet_Reference_Study_human_subject-01	Female	50.0	50.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100020	SeroNet_Reference_Study_human_subject-01	Female	19.0	19.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100021	SeroNet_Reference_Study_human_subject-01	Female	28.0	28.0	Years	Age at enrollment			US: Minnesota	Hispanic or Latino	Multiracial				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100022	SeroNet_Reference_Study_human_subject-01	Female	49.0	49.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100023	SeroNet_Reference_Study_human_subject-01	Female	65.0	65.0	Years	Age at enrollment			US: Minnesota	Not Specified	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100024	SeroNet_Reference_Study_human_subject-01	Female	62.0	62.0	Years	Age at enrollment			US: Minnesota	Not Specified	White				no exposure					
+	27_100025	SeroNet_Reference_Study_human_subject-01	Female	35.0	35.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100026	SeroNet_Reference_Study_human_subject-01	Female	70.0	70.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100027	SeroNet_Reference_Study_human_subject-01	Female	37.0	37.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100028	SeroNet_Reference_Study_human_subject-01	Male	57.0	57.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100029	SeroNet_Reference_Study_human_subject-01	Male	78.0	78.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100030	SeroNet_Reference_Study_human_subject-01	Female	58.0	58.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100031	SeroNet_Reference_Study_human_subject-01	Female	49.0	49.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100032	SeroNet_Reference_Study_human_subject-01	Male	56.0	56.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100033	SeroNet_Reference_Study_human_subject-01	Male	50.0	50.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100034	SeroNet_Reference_Study_human_subject-01	Female	18.0	18.0	Years	Age at enrollment			US: Minnesota	Not Specified	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100035	SeroNet_Reference_Study_human_subject-01	Female	19.0	19.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100036	SeroNet_Reference_Study_human_subject-01	Female	75.0	75.0	Years	Age at enrollment			US: Minnesota	Not Specified	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100038	SeroNet_Reference_Study_human_subject-01	Female	52.0	52.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		4
+	27_100039	SeroNet_Reference_Study_human_subject-01	Female	58.0	58.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100040	SeroNet_Reference_Study_human_subject-01	Female	64.0	64.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100041	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100042	SeroNet_Reference_Study_human_subject-01	Male	64.0	64.0	Years	Age at enrollment			US: Minnesota	Not Specified	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		1
+	27_100043	SeroNet_Reference_Study_human_subject-01	Female	39.0	39.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100045	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100046	SeroNet_Reference_Study_human_subject-01	Female	68.0	68.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100047	SeroNet_Reference_Study_human_subject-01	Male	68.0	68.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100048	SeroNet_Reference_Study_human_subject-01	Female	32.0	32.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100049	SeroNet_Reference_Study_human_subject-01	Male	61.0	61.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	Black or African American				no exposure					
+	27_100051	SeroNet_Reference_Study_human_subject-01	Male	40.0	40.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100052	SeroNet_Reference_Study_human_subject-01	Female	47.0	47.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100053	SeroNet_Reference_Study_human_subject-01	Female	59.0	59.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100056	SeroNet_Reference_Study_human_subject-01	Female	41.0	41.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100061	SeroNet_Reference_Study_human_subject-01	Female	67.0	67.0	Years	Age at enrollment			US: Minnesota	Not Specified	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100077	SeroNet_Reference_Study_human_subject-01	Male	41.0	41.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100078	SeroNet_Reference_Study_human_subject-01	Male	50.0	50.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100079	SeroNet_Reference_Study_human_subject-01	Female	59.0	59.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100088	SeroNet_Reference_Study_human_subject-01	Male	26.0	26.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100090	SeroNet_Reference_Study_human_subject-01	Male	55.0	55.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100091	SeroNet_Reference_Study_human_subject-01	Female	54.0	54.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100092	SeroNet_Reference_Study_human_subject-01	Female	48.0	48.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100093	SeroNet_Reference_Study_human_subject-01	Female	64.0	64.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100101	SeroNet_Reference_Study_human_subject-01	Female	41.0	41.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100104	SeroNet_Reference_Study_human_subject-01	Male	58.0	58.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100107	SeroNet_Reference_Study_human_subject-01	Female	41.0	41.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	27_100112	SeroNet_Reference_Study_human_subject-01	Female	35.0	35.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100130	SeroNet_Reference_Study_human_subject-01	Male	67.0	67.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100132	SeroNet_Reference_Study_human_subject-01	Male	35.0	35.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100133	SeroNet_Reference_Study_human_subject-01	Female	39.0	39.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100134	SeroNet_Reference_Study_human_subject-01	Male	52.0	52.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100135	SeroNet_Reference_Study_human_subject-01	Female	56.0	56.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100136	SeroNet_Reference_Study_human_subject-01	Female	33.0	33.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		1
+	27_100137	SeroNet_Reference_Study_human_subject-01	Female	46.0	46.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100139	SeroNet_Reference_Study_human_subject-01	Male	72.0	72.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				no exposure					
+	27_100140	SeroNet_Reference_Study_human_subject-01	Male	41.0	41.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	27_100141	SeroNet_Reference_Study_human_subject-01	Male	47.0	47.0	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_111001	SeroNet_Reference_Study_human_subject-01	Male	44.0	44.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		1
+	32_111006	SeroNet_Reference_Study_human_subject-01	Female	44.0	44.0	Years	Age at enrollment			US: Arizona	Not Specified	Asian				no exposure					
+	32_111007	SeroNet_Reference_Study_human_subject-01	Male	23.0	23.0	Years	Age at enrollment			US: Arizona	Not Specified	Asian				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_111008	SeroNet_Reference_Study_human_subject-01	Male	34.0	34.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White				no exposure					
+	32_111009	SeroNet_Reference_Study_human_subject-01	Female	51.0	51.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_111010	SeroNet_Reference_Study_human_subject-01	Male	45.0	45.0	Years	Age at enrollment			US: Arizona	Not Specified	Not Specified				no exposure					
+	32_111011	SeroNet_Reference_Study_human_subject-01	Female	26.0	26.0	Years	Age at enrollment			US: Arizona	Not Specified	White				no exposure					
+	32_111012	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Asian				no exposure					
+	32_111013	SeroNet_Reference_Study_human_subject-01	Female	33.0	33.0	Years	Age at enrollment			US: Arizona	Not Specified	White				no exposure					
+	32_111014	SeroNet_Reference_Study_human_subject-01	Male	27.0	27.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Asian				no exposure					
+	32_111015	SeroNet_Reference_Study_human_subject-01	Male	61.0	61.0	Years	Age at enrollment			US: Arizona	Not Specified	White				no exposure					
+	32_111016	SeroNet_Reference_Study_human_subject-01	Female	20.0	20.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_111018	SeroNet_Reference_Study_human_subject-01	Female	25.0	25.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White				no exposure					
+	32_111019	SeroNet_Reference_Study_human_subject-01	Male	27.0	27.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_111020	SeroNet_Reference_Study_human_subject-01	Male	25.0	25.0	Years	Age at enrollment			US: Arizona	Not Specified	Not Specified				no exposure					
+	32_111021	SeroNet_Reference_Study_human_subject-01	Female	27.0	27.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Multiracial				no exposure					
+	32_111023	SeroNet_Reference_Study_human_subject-01	Male	23.0	23.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		1
+	32_111024	SeroNet_Reference_Study_human_subject-01	Female	41.0	41.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_111025	SeroNet_Reference_Study_human_subject-01	Male	25.0	25.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_111026	SeroNet_Reference_Study_human_subject-01	Female	32.0	32.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		1
+	32_111027	SeroNet_Reference_Study_human_subject-01	Female	33.0	33.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	American Indian or Alaska Native				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_111028	SeroNet_Reference_Study_human_subject-01	Female	46.0	46.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White				no exposure					
+	32_111029	SeroNet_Reference_Study_human_subject-01	Male	22.0	22.0	Years	Age at enrollment			US: Arizona	Not Specified	Native Hawaiian or Other Pacific Islander				no exposure					
+	32_111030	SeroNet_Reference_Study_human_subject-01	Female	19.0	19.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		1
+	32_111031	SeroNet_Reference_Study_human_subject-01	Male	34.0	34.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	American Indian or Alaska Native				no exposure					
+	32_111032	SeroNet_Reference_Study_human_subject-01	Female	28.0	28.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	American Indian or Alaska Native				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		1
+	32_111033	SeroNet_Reference_Study_human_subject-01	Male	28.0	28.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	American Indian or Alaska Native				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		1
+	32_111035	SeroNet_Reference_Study_human_subject-01	Female	26.0	26.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_111036	SeroNet_Reference_Study_human_subject-01	Female	63.0	63.0	Years	Age at enrollment			US: Arizona	Not Specified	White				no exposure					
+	32_111037	SeroNet_Reference_Study_human_subject-01	Female	20.0	20.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Not Specified				no exposure					
+	32_111038	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White				no exposure					
+	32_111044	SeroNet_Reference_Study_human_subject-01	Male	57.0	57.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_111045	SeroNet_Reference_Study_human_subject-01	Female	48.0	48.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_111046	SeroNet_Reference_Study_human_subject-01	Female	54.0	54.0	Years	Age at enrollment			US: Arizona	Not Specified	Black or African American				no exposure					
+	32_111047	SeroNet_Reference_Study_human_subject-01	Female	20.0	20.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		1
+	32_551004	SeroNet_Reference_Study_human_subject-01	Male	39.0	39.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Not Specified				no exposure					
+	32_551015	SeroNet_Reference_Study_human_subject-01	Male	28.0	28.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Black or African American				no exposure					
+	32_551020	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Multiracial				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551022	SeroNet_Reference_Study_human_subject-01	Male	50.0	50.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551028	SeroNet_Reference_Study_human_subject-01	Female	35.0	35.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	American Indian or Alaska Native				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551033	SeroNet_Reference_Study_human_subject-01	Male	25.0	25.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551034	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551037	SeroNet_Reference_Study_human_subject-01	Male	45.0	45.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White				no exposure					
+	32_551045	SeroNet_Reference_Study_human_subject-01	Male	40.0	40.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White				no exposure					
+	32_551046	SeroNet_Reference_Study_human_subject-01	Male	25.0	25.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Not Specified				no exposure					
+	32_551049	SeroNet_Reference_Study_human_subject-01	Male	38.0	38.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Asian				no exposure					
+	32_551051	SeroNet_Reference_Study_human_subject-01	Female	19.0	19.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		3
+	32_551054	SeroNet_Reference_Study_human_subject-01	Male	33.0	33.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Black or African American				no exposure					
+	32_551056	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551058	SeroNet_Reference_Study_human_subject-01	Female	47.0	47.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Not Specified				no exposure					
+	32_551060	SeroNet_Reference_Study_human_subject-01	Male	19.0	19.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Multiracial				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551061	SeroNet_Reference_Study_human_subject-01	Male	38.0	38.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Multiracial				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551064	SeroNet_Reference_Study_human_subject-01	Female	17.0	17.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551065	SeroNet_Reference_Study_human_subject-01	Female	16.0	16.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	32_551068	SeroNet_Reference_Study_human_subject-01	Male	41.0	41.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Multiracial				no exposure					
+	32_551069	SeroNet_Reference_Study_human_subject-01	Female	69.0	69.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551071	SeroNet_Reference_Study_human_subject-01	Female	52.0	52.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551072	SeroNet_Reference_Study_human_subject-01	Female	22.0	22.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551074	SeroNet_Reference_Study_human_subject-01	Male	18.0	18.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551075	SeroNet_Reference_Study_human_subject-01	Male	60.0	60.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551076	SeroNet_Reference_Study_human_subject-01	Male	28.0	28.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551078	SeroNet_Reference_Study_human_subject-01	Female	30.0	30.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551079	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	American Indian or Alaska Native				no exposure					
+	32_551080	SeroNet_Reference_Study_human_subject-01	Male	26.0	26.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551081	SeroNet_Reference_Study_human_subject-01	Female	15.0	15.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551082	SeroNet_Reference_Study_human_subject-01	Male	24.0	24.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551084	SeroNet_Reference_Study_human_subject-01	Female	51.0	51.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		3
+	32_551087	SeroNet_Reference_Study_human_subject-01	Male	39.0	39.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551091	SeroNet_Reference_Study_human_subject-01	Female	26.0	26.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551092	SeroNet_Reference_Study_human_subject-01	Female	26.0	26.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551093	SeroNet_Reference_Study_human_subject-01	Male	26.0	26.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551094	SeroNet_Reference_Study_human_subject-01	Male	40.0	40.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551095	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551097	SeroNet_Reference_Study_human_subject-01	Female	27.0	27.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551098	SeroNet_Reference_Study_human_subject-01	Male	38.0	38.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Multiracial				no exposure					
+	32_551101	SeroNet_Reference_Study_human_subject-01	Male	43.0	43.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551106	SeroNet_Reference_Study_human_subject-01	Female	20.0	20.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551109	SeroNet_Reference_Study_human_subject-01	Male	44.0	44.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551110	SeroNet_Reference_Study_human_subject-01	Female	64.0	64.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551111	SeroNet_Reference_Study_human_subject-01	Female	35.0	35.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551113	SeroNet_Reference_Study_human_subject-01	Male	44.0	44.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551115	SeroNet_Reference_Study_human_subject-01	Male	24.0	24.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551116	SeroNet_Reference_Study_human_subject-01	Female	52.0	52.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551118	SeroNet_Reference_Study_human_subject-01	Female	45.0	45.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551119	SeroNet_Reference_Study_human_subject-01	Male	19.0	19.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551120	SeroNet_Reference_Study_human_subject-01	Female	36.0	36.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551122	SeroNet_Reference_Study_human_subject-01	Female	25.0	25.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551123	SeroNet_Reference_Study_human_subject-01	Male	21.0	21.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Black or African American				no exposure					
+	32_551127	SeroNet_Reference_Study_human_subject-01	Female	23.0	23.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Multiracial				no exposure					
+	32_551129	SeroNet_Reference_Study_human_subject-01	Male	21.0	21.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Multiracial				no exposure					
+	32_551130	SeroNet_Reference_Study_human_subject-01	Female	27.0	27.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551132	SeroNet_Reference_Study_human_subject-01	Female	33.0	33.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551133	SeroNet_Reference_Study_human_subject-01	Female	41.0	41.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551134	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Not Specified				no exposure					
+	32_551135	SeroNet_Reference_Study_human_subject-01	Male	38.0	38.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Not Specified				no exposure					
+	32_551136	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551137	SeroNet_Reference_Study_human_subject-01	Male	36.0	36.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Multiracial				no exposure					
+	32_551138	SeroNet_Reference_Study_human_subject-01	Female	29.0	29.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Multiracial				no exposure					
+	32_551139	SeroNet_Reference_Study_human_subject-01	Male	35.0	35.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551140	SeroNet_Reference_Study_human_subject-01	Male	60.0	60.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551141	SeroNet_Reference_Study_human_subject-01	Male	30.0	30.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551142	SeroNet_Reference_Study_human_subject-01	Female	31.0	31.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551143	SeroNet_Reference_Study_human_subject-01	Female	29.0	29.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551144	SeroNet_Reference_Study_human_subject-01	Male	31.0	31.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551146	SeroNet_Reference_Study_human_subject-01	Female	40.0	40.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551148	SeroNet_Reference_Study_human_subject-01	Male	51.0	51.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551149	SeroNet_Reference_Study_human_subject-01	Male	51.0	51.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551152	SeroNet_Reference_Study_human_subject-01	Female	29.0	29.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551156	SeroNet_Reference_Study_human_subject-01	Male	21.0	21.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551157	SeroNet_Reference_Study_human_subject-01	Female	36.0	36.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551158	SeroNet_Reference_Study_human_subject-01	Female	18.0	18.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551159	SeroNet_Reference_Study_human_subject-01	Female	36.0	36.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551160	SeroNet_Reference_Study_human_subject-01	Male	19.0	19.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551162	SeroNet_Reference_Study_human_subject-01	Female	52.0	52.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551163	SeroNet_Reference_Study_human_subject-01	Male	32.0	32.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551165	SeroNet_Reference_Study_human_subject-01	Male	32.0	32.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551167	SeroNet_Reference_Study_human_subject-01	Female	36.0	36.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551168	SeroNet_Reference_Study_human_subject-01	Male	65.0	65.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551169	SeroNet_Reference_Study_human_subject-01	Female	43.0	43.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551170	SeroNet_Reference_Study_human_subject-01	Female	54.0	54.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White				no exposure					
+	32_551171	SeroNet_Reference_Study_human_subject-01	Male	54.0	54.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551172	SeroNet_Reference_Study_human_subject-01	Male	35.0	35.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551173	SeroNet_Reference_Study_human_subject-01	Female	39.0	39.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551174	SeroNet_Reference_Study_human_subject-01	Female	26.0	26.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551176	SeroNet_Reference_Study_human_subject-01	Female	41.0	41.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551177	SeroNet_Reference_Study_human_subject-01	Female	54.0	54.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551178	SeroNet_Reference_Study_human_subject-01	Male	42.0	42.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551179	SeroNet_Reference_Study_human_subject-01	Female	61.0	61.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551180	SeroNet_Reference_Study_human_subject-01	Male	33.0	33.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551181	SeroNet_Reference_Study_human_subject-01	Male	63.0	63.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551182	SeroNet_Reference_Study_human_subject-01	Male	21.0	21.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551183	SeroNet_Reference_Study_human_subject-01	Female	30.0	30.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551184	SeroNet_Reference_Study_human_subject-01	Male	18.0	18.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551185	SeroNet_Reference_Study_human_subject-01	Female	33.0	33.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Not Specified				no exposure					
+	32_551186	SeroNet_Reference_Study_human_subject-01	Female	48.0	48.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551187	SeroNet_Reference_Study_human_subject-01	Female	31.0	31.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White				no exposure					
+	32_551188	SeroNet_Reference_Study_human_subject-01	Male	53.0	53.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551189	SeroNet_Reference_Study_human_subject-01	Female	59.0	59.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551190	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551191	SeroNet_Reference_Study_human_subject-01	Female	47.0	47.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551192	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551193	SeroNet_Reference_Study_human_subject-01	Male	52.0	52.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551194	SeroNet_Reference_Study_human_subject-01	Male	37.0	37.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551195	SeroNet_Reference_Study_human_subject-01	Female	34.0	34.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551196	SeroNet_Reference_Study_human_subject-01	Female	29.0	29.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551197	SeroNet_Reference_Study_human_subject-01	Male	33.0	33.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551198	SeroNet_Reference_Study_human_subject-01	Female	36.0	36.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551201	SeroNet_Reference_Study_human_subject-01	Female	40.0	40.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551202	SeroNet_Reference_Study_human_subject-01	Female	35.0	35.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551204	SeroNet_Reference_Study_human_subject-01	Male	39.0	39.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551206	SeroNet_Reference_Study_human_subject-01	Male	18.0	18.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551207	SeroNet_Reference_Study_human_subject-01	Female	49.0	49.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551208	SeroNet_Reference_Study_human_subject-01	Male	41.0	41.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551209	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551210	SeroNet_Reference_Study_human_subject-01	Male	47.0	47.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551211	SeroNet_Reference_Study_human_subject-01	Female	18.0	18.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551212	SeroNet_Reference_Study_human_subject-01	Female	67.0	67.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551213	SeroNet_Reference_Study_human_subject-01	Male	47.0	47.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551214	SeroNet_Reference_Study_human_subject-01	Male	37.0	37.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551215	SeroNet_Reference_Study_human_subject-01	Male	19.0	19.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551216	SeroNet_Reference_Study_human_subject-01	Male	30.0	30.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551217	SeroNet_Reference_Study_human_subject-01	Male	20.0	20.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551219	SeroNet_Reference_Study_human_subject-01	Male	43.0	43.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551220	SeroNet_Reference_Study_human_subject-01	Female	34.0	34.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551221	SeroNet_Reference_Study_human_subject-01	Female	19.0	19.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	32_551222	SeroNet_Reference_Study_human_subject-01	Male	44.0	44.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551223	SeroNet_Reference_Study_human_subject-01	Female	42.0	42.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551224	SeroNet_Reference_Study_human_subject-01	Female	23.0	23.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551225	SeroNet_Reference_Study_human_subject-01	Female	23.0	23.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551226	SeroNet_Reference_Study_human_subject-01	Female	50.0	50.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551227	SeroNet_Reference_Study_human_subject-01	Male	22.0	22.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551228	SeroNet_Reference_Study_human_subject-01	Female	21.0	21.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White				no exposure					
+	32_551229	SeroNet_Reference_Study_human_subject-01	Male	25.0	25.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551230	SeroNet_Reference_Study_human_subject-01	Male	42.0	42.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551231	SeroNet_Reference_Study_human_subject-01	Male	43.0	43.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551232	SeroNet_Reference_Study_human_subject-01	Female	44.0	44.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551234	SeroNet_Reference_Study_human_subject-01	Female	27.0	27.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551235	SeroNet_Reference_Study_human_subject-01	Female	36.0	36.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551236	SeroNet_Reference_Study_human_subject-01	Male	50.0	50.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551237	SeroNet_Reference_Study_human_subject-01	Male	25.0	25.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551238	SeroNet_Reference_Study_human_subject-01	Female	20.0	20.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551239	SeroNet_Reference_Study_human_subject-01	Female	27.0	27.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551240	SeroNet_Reference_Study_human_subject-01	Female	18.0	18.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551241	SeroNet_Reference_Study_human_subject-01	Male	65.0	65.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Not Specified				no exposure					
+	32_551242	SeroNet_Reference_Study_human_subject-01	Female	41.0	41.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551244	SeroNet_Reference_Study_human_subject-01	Female	64.0	64.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551245	SeroNet_Reference_Study_human_subject-01	Male	56.0	56.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551246	SeroNet_Reference_Study_human_subject-01	Female	31.0	31.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551248	SeroNet_Reference_Study_human_subject-01	Female	74.0	74.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Black or African American				no exposure					
+	32_551249	SeroNet_Reference_Study_human_subject-01	Female	51.0	51.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551252	SeroNet_Reference_Study_human_subject-01	Male	27.0	27.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551253	SeroNet_Reference_Study_human_subject-01	Female	26.0	26.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551257	SeroNet_Reference_Study_human_subject-01	Female	18.0	18.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551258	SeroNet_Reference_Study_human_subject-01	Male	27.0	27.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551259	SeroNet_Reference_Study_human_subject-01	Male	25.0	25.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551260	SeroNet_Reference_Study_human_subject-01	Female	21.0	21.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551261	SeroNet_Reference_Study_human_subject-01	Female	22.0	22.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551263	SeroNet_Reference_Study_human_subject-01	Female	23.0	23.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551264	SeroNet_Reference_Study_human_subject-01	Male	27.0	27.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551265	SeroNet_Reference_Study_human_subject-01	Female	43.0	43.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551266	SeroNet_Reference_Study_human_subject-01	Male	46.0	46.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551267	SeroNet_Reference_Study_human_subject-01	Female	21.0	21.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551268	SeroNet_Reference_Study_human_subject-01	Male	54.0	54.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551270	SeroNet_Reference_Study_human_subject-01	Male	24.0	24.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551271	SeroNet_Reference_Study_human_subject-01	Male	46.0	46.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551273	SeroNet_Reference_Study_human_subject-01	Female	22.0	22.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551274	SeroNet_Reference_Study_human_subject-01	Male	36.0	36.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551275	SeroNet_Reference_Study_human_subject-01	Female	25.0	25.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551276	SeroNet_Reference_Study_human_subject-01	Male	30.0	30.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551277	SeroNet_Reference_Study_human_subject-01	Female	48.0	48.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551279	SeroNet_Reference_Study_human_subject-01	Male	58.0	58.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551280	SeroNet_Reference_Study_human_subject-01	Male	31.0	31.0	Years	Age at enrollment			US: Arizona	Not Specified	Multiracial				no exposure					
+	32_551281	SeroNet_Reference_Study_human_subject-01	Female	53.0	53.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551282	SeroNet_Reference_Study_human_subject-01	Male	62.0	62.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551283	SeroNet_Reference_Study_human_subject-01	Male	20.0	20.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551284	SeroNet_Reference_Study_human_subject-01	Male	33.0	33.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551286	SeroNet_Reference_Study_human_subject-01	Female	21.0	21.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551287	SeroNet_Reference_Study_human_subject-01	Male	21.0	21.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551288	SeroNet_Reference_Study_human_subject-01	Female	72.0	72.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551289	SeroNet_Reference_Study_human_subject-01	Female	27.0	27.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551290	SeroNet_Reference_Study_human_subject-01	Male	33.0	33.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551294	SeroNet_Reference_Study_human_subject-01	Male	22.0	22.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551295	SeroNet_Reference_Study_human_subject-01	Male	80.0	80.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551296	SeroNet_Reference_Study_human_subject-01	Female	48.0	48.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551299	SeroNet_Reference_Study_human_subject-01	Male	39.0	39.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551300	SeroNet_Reference_Study_human_subject-01	Female	52.0	52.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551301	SeroNet_Reference_Study_human_subject-01	Male	50.0	50.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551302	SeroNet_Reference_Study_human_subject-01	Male	19.0	19.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White				no exposure					
+	32_551303	SeroNet_Reference_Study_human_subject-01	Male	20.0	20.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551305	SeroNet_Reference_Study_human_subject-01	Female	29.0	29.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551307	SeroNet_Reference_Study_human_subject-01	Male	70.0	70.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551308	SeroNet_Reference_Study_human_subject-01	Female	68.0	68.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551309	SeroNet_Reference_Study_human_subject-01	Male	35.0	35.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551310	SeroNet_Reference_Study_human_subject-01	Female	47.0	47.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551313	SeroNet_Reference_Study_human_subject-01	Male	34.0	34.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551314	SeroNet_Reference_Study_human_subject-01	Female	29.0	29.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551315	SeroNet_Reference_Study_human_subject-01	Female	34.0	34.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551316	SeroNet_Reference_Study_human_subject-01	Male	37.0	37.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551318	SeroNet_Reference_Study_human_subject-01	Male	64.0	64.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551319	SeroNet_Reference_Study_human_subject-01	Male	50.0	50.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551320	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551321	SeroNet_Reference_Study_human_subject-01	Male	26.0	26.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551322	SeroNet_Reference_Study_human_subject-01	Male	27.0	27.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551323	SeroNet_Reference_Study_human_subject-01	Female	51.0	51.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551324	SeroNet_Reference_Study_human_subject-01	Male	56.0	56.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551325	SeroNet_Reference_Study_human_subject-01	Female	34.0	34.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551326	SeroNet_Reference_Study_human_subject-01	Female	64.0	64.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551327	SeroNet_Reference_Study_human_subject-01	Female	53.0	53.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551328	SeroNet_Reference_Study_human_subject-01	Female	53.0	53.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551331	SeroNet_Reference_Study_human_subject-01	Female	22.0	22.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551332	SeroNet_Reference_Study_human_subject-01	Female	54.0	54.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551333	SeroNet_Reference_Study_human_subject-01	Male	56.0	56.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551334	SeroNet_Reference_Study_human_subject-01	Male	43.0	43.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551337	SeroNet_Reference_Study_human_subject-01	Male	23.0	23.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551338	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551339	SeroNet_Reference_Study_human_subject-01	Male	34.0	34.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551342	SeroNet_Reference_Study_human_subject-01	Female	27.0	27.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551343	SeroNet_Reference_Study_human_subject-01	Male	32.0	32.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551361	SeroNet_Reference_Study_human_subject-01	Male	23.0	23.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551362	SeroNet_Reference_Study_human_subject-01	Male	33.0	33.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Not Specified				no exposure					
+	32_551364	SeroNet_Reference_Study_human_subject-01	Male	17.0	17.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551366	SeroNet_Reference_Study_human_subject-01	Male	51.0	51.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551367	SeroNet_Reference_Study_human_subject-01	Male	59.0	59.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551368	SeroNet_Reference_Study_human_subject-01	Female	25.0	25.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551369	SeroNet_Reference_Study_human_subject-01	Female	21.0	21.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551370	SeroNet_Reference_Study_human_subject-01	Female	55.0	55.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551372	SeroNet_Reference_Study_human_subject-01	Male	30.0	30.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551373	SeroNet_Reference_Study_human_subject-01	Male	20.0	20.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551374	SeroNet_Reference_Study_human_subject-01	Male	20.0	20.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551375	SeroNet_Reference_Study_human_subject-01	Male	55.0	55.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551376	SeroNet_Reference_Study_human_subject-01	Male	72.0	72.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551377	SeroNet_Reference_Study_human_subject-01	Female	50.0	50.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White				no exposure					
+	32_551378	SeroNet_Reference_Study_human_subject-01	Male	53.0	53.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551379	SeroNet_Reference_Study_human_subject-01	Female	22.0	22.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551380	SeroNet_Reference_Study_human_subject-01	Female	57.0	57.0	Years	Age at enrollment			US: Arizona	Not Specified	White				no exposure					
+	32_551381	SeroNet_Reference_Study_human_subject-01	Female	41.0	41.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551382	SeroNet_Reference_Study_human_subject-01	Male	40.0	40.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551383	SeroNet_Reference_Study_human_subject-01	Male	48.0	48.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551384	SeroNet_Reference_Study_human_subject-01	Female	16.0	16.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551385	SeroNet_Reference_Study_human_subject-01	Female	45.0	45.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551386	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551387	SeroNet_Reference_Study_human_subject-01	Male	27.0	27.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551388	SeroNet_Reference_Study_human_subject-01	Female	40.0	40.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551389	SeroNet_Reference_Study_human_subject-01	Female	59.0	59.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551391	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551392	SeroNet_Reference_Study_human_subject-01	Female	32.0	32.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551393	SeroNet_Reference_Study_human_subject-01	Female	34.0	34.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551394	SeroNet_Reference_Study_human_subject-01	Male	37.0	37.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American				no exposure					
+	32_551395	SeroNet_Reference_Study_human_subject-01	Female	44.0	44.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551396	SeroNet_Reference_Study_human_subject-01	Male	20.0	20.0	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Not Specified				no exposure					
+	32_551399	SeroNet_Reference_Study_human_subject-01	Female	31.0	31.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551400	SeroNet_Reference_Study_human_subject-01	Female	51.0	51.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551401	SeroNet_Reference_Study_human_subject-01	Male	47.0	47.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551402	SeroNet_Reference_Study_human_subject-01	Male	43.0	43.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551409	SeroNet_Reference_Study_human_subject-01	Female	52.0	52.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551410	SeroNet_Reference_Study_human_subject-01	Female	73.0	73.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551411	SeroNet_Reference_Study_human_subject-01	Male	54.0	54.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551412	SeroNet_Reference_Study_human_subject-01	Female	61.0	61.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551413	SeroNet_Reference_Study_human_subject-01	Male	20.0	20.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Multiracial				no exposure					
+	32_551414	SeroNet_Reference_Study_human_subject-01	Male	50.0	50.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551415	SeroNet_Reference_Study_human_subject-01	Female	60.0	60.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551416	SeroNet_Reference_Study_human_subject-01	Female	48.0	48.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551417	SeroNet_Reference_Study_human_subject-01	Male	40.0	40.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	32_551418	SeroNet_Reference_Study_human_subject-01	Female	50.0	50.0	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White				no exposure					
+	41_100009	SeroNet_Reference_Study_human_subject-01	Female	71.0	71.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100011	SeroNet_Reference_Study_human_subject-01	Female	26.0	26.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100012	SeroNet_Reference_Study_human_subject-01	Male	33.0	33.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American				no exposure					
+	41_100014	SeroNet_Reference_Study_human_subject-01	Female	67.0	67.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100015	SeroNet_Reference_Study_human_subject-01	Male	64.0	64.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100021	SeroNet_Reference_Study_human_subject-01	Male	28.0	28.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				no exposure					
+	41_100033	SeroNet_Reference_Study_human_subject-01	Male	25.0	25.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100057	SeroNet_Reference_Study_human_subject-01	Male	30.0	30.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100059	SeroNet_Reference_Study_human_subject-01	Female	28.0	28.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100062	SeroNet_Reference_Study_human_subject-01	Female	60.0	60.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100063	SeroNet_Reference_Study_human_subject-01	Male	28.0	28.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100064	SeroNet_Reference_Study_human_subject-01	Female	71.0	71.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100066	SeroNet_Reference_Study_human_subject-01	Male	30.0	30.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100069	SeroNet_Reference_Study_human_subject-01	Female	58.0	58.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100070	SeroNet_Reference_Study_human_subject-01	Male	22.0	22.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100071	SeroNet_Reference_Study_human_subject-01	Female	22.0	22.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100072	SeroNet_Reference_Study_human_subject-01	Male	19.0	19.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100074	SeroNet_Reference_Study_human_subject-01	Female	53.0	53.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100076	SeroNet_Reference_Study_human_subject-01	Male	56.0	56.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100077	SeroNet_Reference_Study_human_subject-01	Female	29.0	29.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100078	SeroNet_Reference_Study_human_subject-01	Male	49.0	49.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100079	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100080	SeroNet_Reference_Study_human_subject-01	Female	23.0	23.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100081	SeroNet_Reference_Study_human_subject-01	Female	45.0	45.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100083	SeroNet_Reference_Study_human_subject-01	Male	19.0	19.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				no exposure					
+	41_100085	SeroNet_Reference_Study_human_subject-01	Female	52.0	52.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100090	SeroNet_Reference_Study_human_subject-01	Female	54.0	54.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100091	SeroNet_Reference_Study_human_subject-01	Male	56.0	56.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100092	SeroNet_Reference_Study_human_subject-01	Male	19.0	19.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	41_100093	SeroNet_Reference_Study_human_subject-01	Female	36.0	36.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	41_100094	SeroNet_Reference_Study_human_subject-01	Male	19.0	19.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100096	SeroNet_Reference_Study_human_subject-01	Female	53.0	53.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100097	SeroNet_Reference_Study_human_subject-01	Female	43.0	43.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100098	SeroNet_Reference_Study_human_subject-01	Female	61.0	61.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100099	SeroNet_Reference_Study_human_subject-01	Female	49.0	49.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100100	SeroNet_Reference_Study_human_subject-01	Male	67.0	67.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100101	SeroNet_Reference_Study_human_subject-01	Female	45.0	45.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100102	SeroNet_Reference_Study_human_subject-01	Male	58.0	58.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100104	SeroNet_Reference_Study_human_subject-01	Male	46.0	46.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100105	SeroNet_Reference_Study_human_subject-01	Female	47.0	47.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100106	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100107	SeroNet_Reference_Study_human_subject-01	Female	21.0	21.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100108	SeroNet_Reference_Study_human_subject-01	Female	74.0	74.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100109	SeroNet_Reference_Study_human_subject-01	Male	39.0	39.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100110	SeroNet_Reference_Study_human_subject-01	Male	77.0	77.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100111	SeroNet_Reference_Study_human_subject-01	Male	33.0	33.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100112	SeroNet_Reference_Study_human_subject-01	Female	36.0	36.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100114	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100115	SeroNet_Reference_Study_human_subject-01	Male	25.0	25.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100116	SeroNet_Reference_Study_human_subject-01	Female	23.0	23.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100119	SeroNet_Reference_Study_human_subject-01	Female	41.0	41.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100120	SeroNet_Reference_Study_human_subject-01	Male	33.0	33.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				no exposure					
+	41_100121	SeroNet_Reference_Study_human_subject-01	Female	29.0	29.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100122	SeroNet_Reference_Study_human_subject-01	Female	33.0	33.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100123	SeroNet_Reference_Study_human_subject-01	Female	42.0	42.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100124	SeroNet_Reference_Study_human_subject-01	Male	35.0	35.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100125	SeroNet_Reference_Study_human_subject-01	Female	28.0	28.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100126	SeroNet_Reference_Study_human_subject-01	Female	62.0	62.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100127	SeroNet_Reference_Study_human_subject-01	Male	63.0	63.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100128	SeroNet_Reference_Study_human_subject-01	Male	64.0	64.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100132	SeroNet_Reference_Study_human_subject-01	Female	50.0	50.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100133	SeroNet_Reference_Study_human_subject-01	Male	38.0	38.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100135	SeroNet_Reference_Study_human_subject-01	Male	29.0	29.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100136	SeroNet_Reference_Study_human_subject-01	Male	26.0	26.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100138	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100139	SeroNet_Reference_Study_human_subject-01	Male	26.0	26.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100140	SeroNet_Reference_Study_human_subject-01	Male	45.0	45.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100144	SeroNet_Reference_Study_human_subject-01	Female	67.0	67.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		1
+	41_100145	SeroNet_Reference_Study_human_subject-01	Female	22.0	22.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100147	SeroNet_Reference_Study_human_subject-01	Female	21.0	21.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100148	SeroNet_Reference_Study_human_subject-01	Male	23.0	23.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100149	SeroNet_Reference_Study_human_subject-01	Female	52.0	52.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100150	SeroNet_Reference_Study_human_subject-01	Male	48.0	48.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100151	SeroNet_Reference_Study_human_subject-01	Male	42.0	42.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100152	SeroNet_Reference_Study_human_subject-01	Female	48.0	48.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100153	SeroNet_Reference_Study_human_subject-01	Female	30.0	30.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100154	SeroNet_Reference_Study_human_subject-01	Male	43.0	43.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Not Specified				no exposure					
+	41_100155	SeroNet_Reference_Study_human_subject-01	Male	57.0	57.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100158	SeroNet_Reference_Study_human_subject-01	Female	66.0	66.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100164	SeroNet_Reference_Study_human_subject-01	Male	28.0	28.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100167	SeroNet_Reference_Study_human_subject-01	Male	25.0	25.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100168	SeroNet_Reference_Study_human_subject-01	Male	47.0	47.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100169	SeroNet_Reference_Study_human_subject-01	Male	53.0	53.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100170	SeroNet_Reference_Study_human_subject-01	Female	33.0	33.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100171	SeroNet_Reference_Study_human_subject-01	Male	21.0	21.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100172	SeroNet_Reference_Study_human_subject-01	Female	42.0	42.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100175	SeroNet_Reference_Study_human_subject-01	Male	31.0	31.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100176	SeroNet_Reference_Study_human_subject-01	Male	55.0	55.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100178	SeroNet_Reference_Study_human_subject-01	Female	31.0	31.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100179	SeroNet_Reference_Study_human_subject-01	Female	39.0	39.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Multiracial				no exposure					
+	41_100181	SeroNet_Reference_Study_human_subject-01	Female	31.0	31.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100184	SeroNet_Reference_Study_human_subject-01	Female	27.0	27.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100185	SeroNet_Reference_Study_human_subject-01	Male	34.0	34.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100189	SeroNet_Reference_Study_human_subject-01	Male	60.0	60.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100190	SeroNet_Reference_Study_human_subject-01	Male	30.0	30.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Not Specified				no exposure					
+	41_100193	SeroNet_Reference_Study_human_subject-01	Male	22.0	22.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100194	SeroNet_Reference_Study_human_subject-01	Male	45.0	45.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100195	SeroNet_Reference_Study_human_subject-01	Male	31.0	31.0	Years	Age at enrollment			US: New York	Hispanic or Latino	American Indian or Alaska Native				no exposure					
+	41_100196	SeroNet_Reference_Study_human_subject-01	Male	38.0	38.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100197	SeroNet_Reference_Study_human_subject-01	Female	21.0	21.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100198	SeroNet_Reference_Study_human_subject-01	Female	34.0	34.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Multiracial				no exposure					
+	41_100202	SeroNet_Reference_Study_human_subject-01	Male	25.0	25.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100203	SeroNet_Reference_Study_human_subject-01	Female	25.0	25.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100207	SeroNet_Reference_Study_human_subject-01	Female	49.0	49.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100208	SeroNet_Reference_Study_human_subject-01	Male	52.0	52.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100209	SeroNet_Reference_Study_human_subject-01	Female	33.0	33.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100211	SeroNet_Reference_Study_human_subject-01	Male	19.0	19.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100212	SeroNet_Reference_Study_human_subject-01	Male	26.0	26.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100214	SeroNet_Reference_Study_human_subject-01	Male	59.0	59.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100216	SeroNet_Reference_Study_human_subject-01	Female	56.0	56.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100218	SeroNet_Reference_Study_human_subject-01	Male	65.0	65.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100222	SeroNet_Reference_Study_human_subject-01	Male	46.0	46.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100228	SeroNet_Reference_Study_human_subject-01	Female	31.0	31.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100230	SeroNet_Reference_Study_human_subject-01	Male	51.0	51.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100239	SeroNet_Reference_Study_human_subject-01	Male	32.0	32.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100240	SeroNet_Reference_Study_human_subject-01	Female	47.0	47.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100241	SeroNet_Reference_Study_human_subject-01	Female	23.0	23.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100242	SeroNet_Reference_Study_human_subject-01	Male	32.0	32.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100246	SeroNet_Reference_Study_human_subject-01	Female	35.0	35.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100249	SeroNet_Reference_Study_human_subject-01	Male	24.0	24.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100250	SeroNet_Reference_Study_human_subject-01	Female	53.0	53.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100251	SeroNet_Reference_Study_human_subject-01	Female	43.0	43.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				no exposure					
+	41_100253	SeroNet_Reference_Study_human_subject-01	Female	26.0	26.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Multiracial				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100254	SeroNet_Reference_Study_human_subject-01	Male	39.0	39.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		1
+	41_100255	SeroNet_Reference_Study_human_subject-01	Female	74.0	74.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100257	SeroNet_Reference_Study_human_subject-01	Female	51.0	51.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100258	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	41_100259	SeroNet_Reference_Study_human_subject-01	Male	56.0	56.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100263	SeroNet_Reference_Study_human_subject-01	Female	43.0	43.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100264	SeroNet_Reference_Study_human_subject-01	Female	20.0	20.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100270	SeroNet_Reference_Study_human_subject-01	Female	30.0	30.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	41_100274	SeroNet_Reference_Study_human_subject-01	Male	29.0	29.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100276	SeroNet_Reference_Study_human_subject-01	Male	37.0	37.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100278	SeroNet_Reference_Study_human_subject-01	Male	57.0	57.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100280	SeroNet_Reference_Study_human_subject-01	Male	27.0	27.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100285	SeroNet_Reference_Study_human_subject-01	Female	40.0	40.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100292	SeroNet_Reference_Study_human_subject-01	Female	43.0	43.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100295	SeroNet_Reference_Study_human_subject-01	Female	19.0	19.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100298	SeroNet_Reference_Study_human_subject-01	Female	18.0	18.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100300	SeroNet_Reference_Study_human_subject-01	Female	52.0	52.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100304	SeroNet_Reference_Study_human_subject-01	Female	56.0	56.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100306	SeroNet_Reference_Study_human_subject-01	Male	37.0	37.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100307	SeroNet_Reference_Study_human_subject-01	Female	22.0	22.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100313	SeroNet_Reference_Study_human_subject-01	Male	24.0	24.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100315	SeroNet_Reference_Study_human_subject-01	Male	54.0	54.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100320	SeroNet_Reference_Study_human_subject-01	Male	26.0	26.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100321	SeroNet_Reference_Study_human_subject-01	Female	27.0	27.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100322	SeroNet_Reference_Study_human_subject-01	Male	24.0	24.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100323	SeroNet_Reference_Study_human_subject-01	Female	20.0	20.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100332	SeroNet_Reference_Study_human_subject-01	Male	23.0	23.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100333	SeroNet_Reference_Study_human_subject-01	Female	46.0	46.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100336	SeroNet_Reference_Study_human_subject-01	Male	38.0	38.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100337	SeroNet_Reference_Study_human_subject-01	Female	32.0	32.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100371	SeroNet_Reference_Study_human_subject-01	Female	39.0	39.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100396	SeroNet_Reference_Study_human_subject-01	Not Specified	34.0	34.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Not Specified				no exposure					
+	41_100399	SeroNet_Reference_Study_human_subject-01	Female	49.0	49.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100409	SeroNet_Reference_Study_human_subject-01	Male	54.0	54.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100410	SeroNet_Reference_Study_human_subject-01	Female	20.0	20.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100428	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100430	SeroNet_Reference_Study_human_subject-01	Female	34.0	34.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100431	SeroNet_Reference_Study_human_subject-01	Male	46.0	46.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100434	SeroNet_Reference_Study_human_subject-01	Male	50.0	50.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100437	SeroNet_Reference_Study_human_subject-01	Female	53.0	53.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100438	SeroNet_Reference_Study_human_subject-01	Male	29.0	29.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100439	SeroNet_Reference_Study_human_subject-01	Female	29.0	29.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100446	SeroNet_Reference_Study_human_subject-01	Male	53.0	53.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100447	SeroNet_Reference_Study_human_subject-01	Male	52.0	52.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100450	SeroNet_Reference_Study_human_subject-01	Male	69.0	69.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100453	SeroNet_Reference_Study_human_subject-01	Female	49.0	49.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100457	SeroNet_Reference_Study_human_subject-01	Male	23.0	23.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100458	SeroNet_Reference_Study_human_subject-01	Male	45.0	45.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100461	SeroNet_Reference_Study_human_subject-01	Male	42.0	42.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American				no exposure					
+	41_100462	SeroNet_Reference_Study_human_subject-01	Female	32.0	32.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Multiracial				no exposure					
+	41_100466	SeroNet_Reference_Study_human_subject-01	Female	57.0	57.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100467	SeroNet_Reference_Study_human_subject-01	Female	34.0	34.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				no exposure					
+	41_100468	SeroNet_Reference_Study_human_subject-01	Male	34.0	34.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100469	SeroNet_Reference_Study_human_subject-01	Male	56.0	56.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100475	SeroNet_Reference_Study_human_subject-01	Female	50.0	50.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100476	SeroNet_Reference_Study_human_subject-01	Male	27.0	27.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Not Specified				no exposure					
+	41_100478	SeroNet_Reference_Study_human_subject-01	Male	25.0	25.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100479	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100480	SeroNet_Reference_Study_human_subject-01	Male	37.0	37.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100485	SeroNet_Reference_Study_human_subject-01	Female	34.0	34.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100486	SeroNet_Reference_Study_human_subject-01	Male	21.0	21.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100487	SeroNet_Reference_Study_human_subject-01	Female	37.0	37.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				no exposure					
+	41_100488	SeroNet_Reference_Study_human_subject-01	Male	36.0	36.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100490	SeroNet_Reference_Study_human_subject-01	Female	69.0	69.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100491	SeroNet_Reference_Study_human_subject-01	Male	38.0	38.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Native Hawaiian or Other Pacific Islander				no exposure					
+	41_100492	SeroNet_Reference_Study_human_subject-01	Female	31.0	31.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100493	SeroNet_Reference_Study_human_subject-01	Male	19.0	19.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100494	SeroNet_Reference_Study_human_subject-01	Male	19.0	19.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100495	SeroNet_Reference_Study_human_subject-01	Male	55.0	55.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Asian				no exposure					
+	41_100496	SeroNet_Reference_Study_human_subject-01	Female	41.0	41.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100497	SeroNet_Reference_Study_human_subject-01	Male	52.0	52.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100498	SeroNet_Reference_Study_human_subject-01	Female	25.0	25.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American				no exposure					
+	41_100499	SeroNet_Reference_Study_human_subject-01	Male	45.0	45.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100500	SeroNet_Reference_Study_human_subject-01	Male	25.0	25.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100501	SeroNet_Reference_Study_human_subject-01	Female	39.0	39.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100503	SeroNet_Reference_Study_human_subject-01	Male	38.0	38.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100505	SeroNet_Reference_Study_human_subject-01	Male	39.0	39.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Asian				no exposure					
+	41_100507	SeroNet_Reference_Study_human_subject-01	Male	30.0	30.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100510	SeroNet_Reference_Study_human_subject-01	Female	54.0	54.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100511	SeroNet_Reference_Study_human_subject-01	Male	55.0	55.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100512	SeroNet_Reference_Study_human_subject-01	Female	45.0	45.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100513	SeroNet_Reference_Study_human_subject-01	Male	58.0	58.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100514	SeroNet_Reference_Study_human_subject-01	Male	22.0	22.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100515	SeroNet_Reference_Study_human_subject-01	Male	25.0	25.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100535	SeroNet_Reference_Study_human_subject-01	Female	29.0	29.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American				no exposure					
+	41_100540	SeroNet_Reference_Study_human_subject-01	Female	30.0	30.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Native Hawaiian or Other Pacific Islander				no exposure					
+	41_100541	SeroNet_Reference_Study_human_subject-01	Female	53.0	53.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100542	SeroNet_Reference_Study_human_subject-01	Male	35.0	35.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100544	SeroNet_Reference_Study_human_subject-01	Female	32.0	32.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	American Indian or Alaska Native				no exposure					
+	41_100546	SeroNet_Reference_Study_human_subject-01	Male	42.0	42.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100547	SeroNet_Reference_Study_human_subject-01	Male	28.0	28.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100549	SeroNet_Reference_Study_human_subject-01	Male	49.0	49.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	41_100550	SeroNet_Reference_Study_human_subject-01	Female	43.0	43.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100552	SeroNet_Reference_Study_human_subject-01	Female	30.0	30.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				no exposure					
+	41_100553	SeroNet_Reference_Study_human_subject-01	Female	27.0	27.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100559	SeroNet_Reference_Study_human_subject-01	Female	27.0	27.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100560	SeroNet_Reference_Study_human_subject-01	Female	30.0	30.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100561	SeroNet_Reference_Study_human_subject-01	Male	24.0	24.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100562	SeroNet_Reference_Study_human_subject-01	Female	21.0	21.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100563	SeroNet_Reference_Study_human_subject-01	Female	55.0	55.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100564	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100565	SeroNet_Reference_Study_human_subject-01	Female	25.0	25.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100566	SeroNet_Reference_Study_human_subject-01	Male	36.0	36.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100567	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100568	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100569	SeroNet_Reference_Study_human_subject-01	Male	38.0	38.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100571	SeroNet_Reference_Study_human_subject-01	Female	42.0	42.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				no exposure					
+	41_100572	SeroNet_Reference_Study_human_subject-01	Male	29.0	29.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100574	SeroNet_Reference_Study_human_subject-01	Female	50.0	50.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100579	SeroNet_Reference_Study_human_subject-01	Male	69.0	69.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				no exposure					
+	41_100580	SeroNet_Reference_Study_human_subject-01	Female	60.0	60.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100581	SeroNet_Reference_Study_human_subject-01	Female	39.0	39.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	41_100582	SeroNet_Reference_Study_human_subject-01	Male	39.0	39.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100583	SeroNet_Reference_Study_human_subject-01	Female	40.0	40.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100584	SeroNet_Reference_Study_human_subject-01	Female	39.0	39.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100585	SeroNet_Reference_Study_human_subject-01	Female	26.0	26.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100586	SeroNet_Reference_Study_human_subject-01	Female	25.0	25.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100588	SeroNet_Reference_Study_human_subject-01	Female	43.0	43.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100600	SeroNet_Reference_Study_human_subject-01	Male	37.0	37.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		3
+	41_100601	SeroNet_Reference_Study_human_subject-01	Female	49.0	49.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100602	SeroNet_Reference_Study_human_subject-01	Female	51.0	51.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100603	SeroNet_Reference_Study_human_subject-01	Female	31.0	31.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	41_100604	SeroNet_Reference_Study_human_subject-01	Male	39.0	39.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100605	SeroNet_Reference_Study_human_subject-01	Male	58.0	58.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100607	SeroNet_Reference_Study_human_subject-01	Female	40.0	40.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100609	SeroNet_Reference_Study_human_subject-01	Female	50.0	50.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100610	SeroNet_Reference_Study_human_subject-01	Male	23.0	23.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100611	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100612	SeroNet_Reference_Study_human_subject-01	Male	51.0	51.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100617	SeroNet_Reference_Study_human_subject-01	Female	43.0	43.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100618	SeroNet_Reference_Study_human_subject-01	Male	29.0	29.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100635	SeroNet_Reference_Study_human_subject-01	Male	64.0	64.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100636	SeroNet_Reference_Study_human_subject-01	Female	57.0	57.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100637	SeroNet_Reference_Study_human_subject-01	Female	25.0	25.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100638	SeroNet_Reference_Study_human_subject-01	Female	25.0	25.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100639	SeroNet_Reference_Study_human_subject-01	Female	24.0	24.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100642	SeroNet_Reference_Study_human_subject-01	Female	23.0	23.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100643	SeroNet_Reference_Study_human_subject-01	Male	23.0	23.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100644	SeroNet_Reference_Study_human_subject-01	Female	43.0	43.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100645	SeroNet_Reference_Study_human_subject-01	Female	35.0	35.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100656	SeroNet_Reference_Study_human_subject-01	Male	32.0	32.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Multiracial				no exposure					
+	41_100657	SeroNet_Reference_Study_human_subject-01	Female	32.0	32.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100660	SeroNet_Reference_Study_human_subject-01	Male	21.0	21.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100662	SeroNet_Reference_Study_human_subject-01	Female	22.0	22.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Multiracial				no exposure					
+	41_100663	SeroNet_Reference_Study_human_subject-01	Female	19.0	19.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100664	SeroNet_Reference_Study_human_subject-01	Female	25.0	25.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100665	SeroNet_Reference_Study_human_subject-01	Male	63.0	63.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100672	SeroNet_Reference_Study_human_subject-01	Male	19.0	19.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100673	SeroNet_Reference_Study_human_subject-01	Female	48.0	48.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100674	SeroNet_Reference_Study_human_subject-01	Male	42.0	42.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100681	SeroNet_Reference_Study_human_subject-01	Male	24.0	24.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100682	SeroNet_Reference_Study_human_subject-01	Male	54.0	54.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100683	SeroNet_Reference_Study_human_subject-01	Female	30.0	30.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		4
+	41_100690	SeroNet_Reference_Study_human_subject-01	Female	37.0	37.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		2
+	41_100693	SeroNet_Reference_Study_human_subject-01	Male	21.0	21.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100694	SeroNet_Reference_Study_human_subject-01	Male	23.0	23.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100698	SeroNet_Reference_Study_human_subject-01	Male	21.0	21.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100699	SeroNet_Reference_Study_human_subject-01	Female	36.0	36.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Multiracial				no exposure					
+	41_100711	SeroNet_Reference_Study_human_subject-01	Female	32.0	32.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100712	SeroNet_Reference_Study_human_subject-01	Male	33.0	33.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100719	SeroNet_Reference_Study_human_subject-01	Male	32.0	32.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100721	SeroNet_Reference_Study_human_subject-01	Male	43.0	43.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100724	SeroNet_Reference_Study_human_subject-01	Female	57.0	57.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100726	SeroNet_Reference_Study_human_subject-01	Male	47.0	47.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100730	SeroNet_Reference_Study_human_subject-01	Male	64.0	64.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100737	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100738	SeroNet_Reference_Study_human_subject-01	Female	52.0	52.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100739	SeroNet_Reference_Study_human_subject-01	Female	33.0	33.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100740	SeroNet_Reference_Study_human_subject-01	Male	37.0	37.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100742	SeroNet_Reference_Study_human_subject-01	Female	20.0	20.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100743	SeroNet_Reference_Study_human_subject-01	Male	66.0	66.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100744	SeroNet_Reference_Study_human_subject-01	Female	35.0	35.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100745	SeroNet_Reference_Study_human_subject-01	Male	58.0	58.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100747	SeroNet_Reference_Study_human_subject-01	Female	20.0	20.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100748	SeroNet_Reference_Study_human_subject-01	Female	34.0	34.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100749	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100754	SeroNet_Reference_Study_human_subject-01	Female	42.0	42.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100755	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100756	SeroNet_Reference_Study_human_subject-01	Male	31.0	31.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100757	SeroNet_Reference_Study_human_subject-01	Male	45.0	45.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100770	SeroNet_Reference_Study_human_subject-01	Female	50.0	50.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100771	SeroNet_Reference_Study_human_subject-01	Male	19.0	19.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				no exposure					
+	41_100773	SeroNet_Reference_Study_human_subject-01	Male	28.0	28.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				no exposure					
+	41_100776	SeroNet_Reference_Study_human_subject-01	Male	68.0	68.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100777	SeroNet_Reference_Study_human_subject-01	Male	40.0	40.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100779	SeroNet_Reference_Study_human_subject-01	Female	22.0	22.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Not Specified				no exposure					
+	41_100781	SeroNet_Reference_Study_human_subject-01	Female	42.0	42.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				no exposure					
+	41_100782	SeroNet_Reference_Study_human_subject-01	Female	26.0	26.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100783	SeroNet_Reference_Study_human_subject-01	Female	33.0	33.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100784	SeroNet_Reference_Study_human_subject-01	Male	20.0	20.0	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American				no exposure					
+	41_100785	SeroNet_Reference_Study_human_subject-01	Female	19.0	19.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100787	SeroNet_Reference_Study_human_subject-01	Male	39.0	39.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100798	SeroNet_Reference_Study_human_subject-01	Female	51.0	51.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100799	SeroNet_Reference_Study_human_subject-01	Female	64.0	64.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Not Specified				no exposure					
+	41_100800	SeroNet_Reference_Study_human_subject-01	Female	37.0	37.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100801	SeroNet_Reference_Study_human_subject-01	Male	24.0	24.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100802	SeroNet_Reference_Study_human_subject-01	Female	39.0	39.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100804	SeroNet_Reference_Study_human_subject-01	Female	38.0	38.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100805	SeroNet_Reference_Study_human_subject-01	Male	37.0	37.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100806	SeroNet_Reference_Study_human_subject-01	Male	21.0	21.0	Years	Age at enrollment			US: New York	Hispanic or Latino	American Indian or Alaska Native				no exposure					
+	41_100808	SeroNet_Reference_Study_human_subject-01	Male	26.0	26.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100818	SeroNet_Reference_Study_human_subject-01	Male	65.0	65.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100819	SeroNet_Reference_Study_human_subject-01	Male	54.0	54.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100820	SeroNet_Reference_Study_human_subject-01	Male	27.0	27.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100821	SeroNet_Reference_Study_human_subject-01	Male	32.0	32.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100822	SeroNet_Reference_Study_human_subject-01	Male	23.0	23.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100824	SeroNet_Reference_Study_human_subject-01	Male	29.0	29.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100826	SeroNet_Reference_Study_human_subject-01	Female	44.0	44.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100827	SeroNet_Reference_Study_human_subject-01	Female	26.0	26.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100830	SeroNet_Reference_Study_human_subject-01	Male	22.0	22.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100832	SeroNet_Reference_Study_human_subject-01	Male	24.0	24.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100833	SeroNet_Reference_Study_human_subject-01	Male	21.0	21.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100834	SeroNet_Reference_Study_human_subject-01	Male	39.0	39.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		Post
+	41_100836	SeroNet_Reference_Study_human_subject-01	Female	50.0	50.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Not Specified				occurrence of infectious disease	SARS-CoV-2 ; NCBITaxon:2697049		COVID-19 ; DOID:0080600		5
+	41_100837	SeroNet_Reference_Study_human_subject-01	Male	32.0	32.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100840	SeroNet_Reference_Study_human_subject-01	Female	21.0	21.0	Years	Age at enrollment			US: New York	Hispanic or Latino	White				no exposure					
+	41_100841	SeroNet_Reference_Study_human_subject-01	Male	32.0	32.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100842	SeroNet_Reference_Study_human_subject-01	Female	27.0	27.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White				no exposure					
+	41_100844	SeroNet_Reference_Study_human_subject-01	Female	33.0	33.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American				no exposure					
+	41_100851	SeroNet_Reference_Study_human_subject-01	Female	33.0	33.0	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Not Specified				no exposure					

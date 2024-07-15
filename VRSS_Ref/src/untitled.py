@@ -4,7 +4,7 @@ from glob import glob
 file_dir='/Users/liualg/Documents/GitHub/SeroNet/VRSS_Ref/final'
 files = glob(file_dir+'/*.xlsx')
 out_dir='/Users/liualg/Documents/GitHub/SeroNet/VRSS_Ref/final/text'
-# print(files)
+print(files)
 
 for f in files:
 	name = f.split('/')[-1].split('.')[0]

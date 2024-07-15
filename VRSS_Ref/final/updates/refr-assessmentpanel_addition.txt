@@ -1,0 +1,4 @@
+assessmentpanel	Schema Version 3.36	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6
+Please do not delete or edit this column						
+Column Name	User Defined ID	Study ID	Name Reported	Assessment Type	Status	CRF File Names
+	refr-Prior_PCR	SeroNet_Reference_Study	Prior PCR Testing Results	Medical History		

@@ -1,0 +1,123 @@
+04/09/2024 10:04:30 AM 
+PMID: 35150638
+04/09/2024 10:04:30 AM [planned visit]: PMID35150638_visit-01 has reached character limit (135 > 125)
+04/09/2024 10:07:43 AM 
+PMID: 35150638
+04/09/2024 10:07:43 AM [planned visit]: PMID35150638_visit-01 has reached character limit (135 > 125)
+04/09/2024 10:08:00 AM 
+PMID: 35150638
+04/09/2024 10:08:00 AM [planned visit]: PMID35150638_visit-01 has reached character limit (135 > 125)
+04/09/2024 10:21:42 AM 
+PMID: 35150638
+04/09/2024 10:21:42 AM [planned visit]: PMID35150638_visit-01 has reached character limit (126 > 125)
+04/09/2024 10:22:19 AM 
+PMID: 35150638
+04/09/2024 10:22:19 AM [planned visit]: PMID35150638_visit-05 has reached character limit (143 > 125)
+04/09/2024 10:22:53 AM 
+PMID: 35150638
+04/09/2024 10:22:53 AM [planned visit]: PMID35150638_visit-05 has reached character limit (130 > 125)
+04/09/2024 10:23:23 AM 
+PMID: 35150638
+04/09/2024 10:23:23 AM [planned visit]: PMID35150638_visit-06 has reached character limit (195 > 125)
+04/09/2024 10:24:26 AM 
+PMID: 35150638
+04/09/2024 10:24:26 AM [planned visit]: PMID35150638_visit-06 has reached character limit (169 > 125)
+04/09/2024 10:29:49 AM 
+PMID: 35150638
+04/09/2024 10:30:55 AM INFO:: [User Change] Neogale vison => Aotus nancymaae
+04/09/2024 10:30:55 AM Previous Input: Species [ImmPort only], Neogale vison => Aotus nancymaae
+04/09/2024 10:30:55 AM [INFO]:: [Fuzzy] Full Length Spike Trimer S1 => Full Length Spike Trimer : score 94
+04/09/2024 10:31:08 AM 
+PMID: 34965855
+04/09/2024 10:31:08 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/09/2024 10:31:08 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/09/2024 10:31:08 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/09/2024 10:31:08 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:31:08 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:31:08 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:31:08 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:31:08 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:31:08 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:31:20 AM [INFO]:: [Fuzzy] Autoimmune disease => Autoimmune Disease : score 94
+04/09/2024 10:31:20 AM INFO:: [Fuzzy] Closest Match Found. Changing Systemic lupus erythematosus => Systemic Lupus Erythematosus
+04/09/2024 10:32:06 AM INFO:: [User Change] Not Specified => Not Applicable
+04/09/2024 10:32:06 AM INFO:: [Fuzzy] Closest Match Found. Changing Positive control => Positive Control
+04/09/2024 10:32:47 AM INFO:: [User Change] pre-pandemic => Pre-symptom onset
+04/09/2024 10:35:44 AM 
+PMID: 37465682
+04/09/2024 10:35:44 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/09/2024 10:35:44 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:35:44 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:35:44 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:35:44 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:35:46 AM 
+PMID: 36043176
+04/09/2024 10:35:46 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:35:46 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:35:46 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:35:46 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:35:46 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:35:46 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:37:20 AM 
+PMID: 36043176
+04/09/2024 10:37:20 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:37:20 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:37:20 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:37:20 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:37:20 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:37:20 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:38:16 AM 
+PMID: 34083451
+04/09/2024 10:38:16 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:38:16 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:39:12 AM INFO:: [User Change] Not Specified => Not Applicable
+04/09/2024 10:50:15 AM 
+PMID: 36043176
+04/09/2024 10:50:15 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:50:15 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:50:15 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:50:15 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:50:15 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:50:15 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:50:35 AM 
+PMID: 36043176
+04/09/2024 10:50:35 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:50:35 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:50:35 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:50:35 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:50:35 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:50:35 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:51:55 AM 
+PMID: 36043176
+04/09/2024 10:51:55 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:51:55 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:51:55 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:51:55 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:51:55 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:51:55 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:52:08 AM 
+PMID: 36043176
+04/09/2024 10:52:08 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:52:08 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:52:08 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:52:08 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:52:08 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:52:08 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:52:22 AM 
+PMID: 36043176
+04/09/2024 10:52:22 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:52:22 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:52:22 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 10:52:22 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:52:22 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:52:22 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 10:52:58 AM INFO:: [User Change] Not Specified => Not Applicable
+04/09/2024 10:53:01 AM INFO:: [User Change] Not Specified => Not Applicable
+04/09/2024 10:53:32 AM INFO:: [User Change] Single-Molecule Array (SIMOA) => Multiplex Bead Array Assay
+04/09/2024 02:10:44 PM 
+PMID: 37465682
+04/09/2024 02:10:44 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/09/2024 02:10:44 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 02:10:44 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/09/2024 02:10:44 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/09/2024 02:10:44 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates

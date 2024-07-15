@@ -1,0 +1,48 @@
+05/06/2024 09:25:00 AM 
+PMID: 35294809
+05/06/2024 09:25:00 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/06/2024 09:25:00 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/06/2024 09:25:00 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/06/2024 09:25:00 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/06/2024 09:25:00 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/06/2024 09:25:00 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/06/2024 09:25:00 AM Error:: [planned visit] Same order number used more than once
+05/06/2024 09:25:18 AM 
+PMID: 34214046
+05/06/2024 09:25:27 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/06/2024 09:25:27 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/06/2024 09:25:27 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/06/2024 09:25:27 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/06/2024 09:25:27 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/06/2024 09:25:27 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/06/2024 09:25:27 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/06/2024 09:25:27 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/06/2024 09:25:27 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/06/2024 09:25:27 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/06/2024 09:25:27 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/06/2024 09:25:27 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/06/2024 09:25:27 AM INFO:: [Fuzzy] Closest Match Found. Changing WIV1 => WIV1 (bat)
+05/06/2024 09:25:40 AM 
+PMID: 33947773
+05/06/2024 09:25:40 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/06/2024 09:25:40 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/06/2024 09:25:40 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/06/2024 09:25:59 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/06/2024 09:25:59 AM INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/06/2024 09:25:59 AM [INFO]:: [Fuzzy] Biolayer interferometry => Bio-layer Interferometry Assay : score 83
+05/06/2024 09:26:00 AM 
+PMID: 38022602
+05/06/2024 09:26:49 AM 
+PMID: 35607747
+05/06/2024 09:26:49 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/06/2024 09:26:49 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/06/2024 09:26:49 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/06/2024 09:26:49 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/06/2024 09:26:49 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/06/2024 09:26:49 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/06/2024 09:26:49 AM ERROR:: [planned visit] Check user defined ID
+05/06/2024 09:27:42 AM 
+PMID: 38620871
+05/06/2024 09:27:42 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/06/2024 09:27:42 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/06/2024 09:27:42 AM [planned visit]: PMID38620871_visit-06 has reached character limit (148 > 125)

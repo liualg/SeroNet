@@ -1,0 +1,51 @@
+04/10/2024 12:16:53 PM 
+PMID: 33292895
+04/10/2024 12:16:53 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/10/2024 12:16:53 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/10/2024 12:16:53 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/10/2024 12:16:53 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/10/2024 12:16:53 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/10/2024 12:16:53 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/10/2024 04:36:52 PM 
+PMID: 34188786
+04/10/2024 04:36:52 PM WARNING:: [inclusion exclusion] Changing Yes => Inclusion
+04/10/2024 04:36:52 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/10/2024 04:36:52 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/10/2024 04:36:52 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/10/2024 04:37:19 PM 
+PMID: 35480625
+04/10/2024 04:37:19 PM ERROR:: [inclusion exclusion] Redudant Unique ID
+04/10/2024 04:37:39 PM 
+PMID: 37771045
+04/10/2024 04:37:39 PM ERROR:: [arm_or_cohort] Arm type missing
+04/10/2024 04:42:40 PM 
+PMID: 34664972
+04/10/2024 04:42:40 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/10/2024 04:42:40 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/10/2024 04:42:40 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/10/2024 04:42:40 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/10/2024 04:42:40 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/10/2024 04:42:40 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/10/2024 04:42:40 PM [planned visit]: PMID34664972_visit-01 has reached character limit (140 > 125)
+04/10/2024 04:49:10 PM 
+PMID: 37672567
+04/10/2024 04:49:10 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/10/2024 04:49:10 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/10/2024 04:49:10 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/10/2024 04:49:10 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/10/2024 04:49:10 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/10/2024 04:49:10 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/10/2024 04:49:29 PM INFO:: [User Change] Not Specified => Not Applicable
+04/10/2024 04:49:29 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+04/10/2024 04:49:29 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+04/10/2024 04:49:29 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+04/10/2024 04:49:29 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+04/10/2024 04:49:29 PM INFO:: [Fuzzy] Closest Match Found. Changing Flow cytometry => Flow Cytometry
+04/10/2024 04:50:19 PM 
+PMID: 35480625
+04/10/2024 04:50:19 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/10/2024 04:50:19 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+04/10/2024 04:50:19 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/10/2024 04:50:19 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+04/10/2024 04:50:19 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+04/10/2024 04:50:19 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates

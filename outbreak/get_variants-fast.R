@@ -13,6 +13,30 @@ PANGO_DIR='/Users/liualg/Documents/GitHub/SeroNet/outbreak/_output-fast/'
 length(states)
 
 lineage_dat_dic = getCuratedLineages()
+df = as.data.frame(lineage_dat_dic)
+df2 = df[,c(1:23)]
+
+library(dplyr)
+glimpse(df2)
+
+for (i in c(1:23)){
+  df3 = df2[,c(i)]
+  write.table(df3,paste('/Users/liualg/Documents/GitHub/SeroNet/outbreak/last_col',i,'.',sep=''))
+  
+}
+df2[,c(3)]
+
+df2 <- apply(df2,2,as.character)
+
+
+df3 = df[,c(24)]
+
+#colnames(lineage_dat_dic) <- c(1:24)
+
+write.table(lineage_dat_dic, file = "mtcars.txt", sep = "\t",
+            row.names = TRUE, col.names = NA)
+
+
 # print(length(lineage_dat_dic))
   #matrix(unlist(lineage_dat_dic),ncol = length(lineage_dat_dic)[0], byrow = TRUE  ))
 # write.csv(lineage_dat_dic,'/Users/liualg/Documents/GitHub/SeroNet/outbreak/data_dic.csv')

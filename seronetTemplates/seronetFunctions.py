@@ -124,10 +124,10 @@ def get_vaccine(arrays, VARS_TO_CLEAN):
                 v_name = []
                 
                 # print(vaccines_per_sub)
-                if vaccines_per_sub.lower() not in VARS_TO_CLEAN+['other']: #checking to see if there is NA
+                if vaccines_per_sub.lower() not in VARS_TO_CLEAN+['other','Other']: #checking to see if there is NA
                     # print(vaccines_per_sub)
                     for each in vaccines_per_sub.split('|'):
-                        if each.strip().lower() not in VARS_TO_CLEAN+['other']:
+                        if each.strip().lower() not in VARS_TO_CLEAN+['other','Other']:
                             v_type.append(each.split(";")[1].strip())
                             v_name.append(each.split(";")[0].strip())
                         else:
@@ -149,7 +149,7 @@ def get_vaccine(arrays, VARS_TO_CLEAN):
             for i in arrays:
                 # print('############')
                 # print(f"*{i}*", type(i))
-                if i.lower().strip() == "other" or i.lower().strip() == "n/a":
+                if i.lower().strip() == "other" or i.lower().strip() == "n/a" or i.lower().strip() == "not specified":
                     vaccine_name.append(i.lower().strip())
                     vaccine_type.append(i.lower().strip())
                 else:

@@ -1,0 +1,99 @@
+06/13/2024 03:36:44 PM 
+PMID: 35977496
+06/13/2024 03:36:44 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+06/13/2024 03:36:44 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+06/13/2024 03:36:44 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+06/13/2024 03:36:44 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+06/13/2024 03:36:44 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+06/13/2024 03:36:44 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+06/13/2024 03:36:44 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+06/13/2024 03:36:44 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+06/13/2024 03:36:44 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+06/13/2024 03:36:44 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+06/13/2024 03:36:44 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+06/13/2024 03:36:44 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+06/13/2024 03:36:57 PM INFO:: [User Change] Not Specified => Not Applicable
+06/13/2024 05:30:28 PM 
+PMID: 12345678
+06/13/2024 05:30:28 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+06/13/2024 05:30:28 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+06/13/2024 05:30:28 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+06/13/2024 05:30:29 PM INFO:: [Fuzzy] Closest Match Found. Changing Immunosuppressive Disorder => Immunosuppressive Disorder 
+06/13/2024 05:30:29 PM [INFO]:: [Fuzzy] Lung Disease => Lung Disease
+ : score 96
+06/13/2024 05:30:31 PM INFO:: [User Change] Not Specified => Not Applicable
+06/13/2024 05:30:31 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+06/13/2024 05:30:31 PM INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+06/13/2024 05:30:31 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Lambda; => SARS-CoV-2 Lambda; C.37
+06/13/2024 05:30:31 PM [INFO]:: [Fuzzy] SARS-CoV-2 OmicrA micron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.3.1 : score 92
+06/13/2024 05:30:31 PM INFO:: [Fuzzy] Closest Match Found. Changing Not specified => Not Specified
+06/13/2024 05:30:35 PM INFO:: [User Change] Chemiluminescent Microparticle Immuno Assay (CMIA) => Chemiluminescent Assay
+06/13/2024 05:30:35 PM Previous Input: Assay Type, Chemiluminescent Microparticle Immuno Assay (CMIA) => Chemiluminescent Assay
+06/13/2024 05:30:36 PM INFO:: [User Change] Chemiluminescent immunoassay (CLIA) => Chemiluminescent Assay
+06/13/2024 05:30:36 PM INFO:: [Fuzzy] Closest Match Found. Changing CMV antigens => CMV Antigens
+06/13/2024 05:30:36 PM Previous Input: Assay Type, Chemiluminescent immunoassay (CLIA) => Chemiluminescent Assay
+06/13/2024 05:30:36 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+06/13/2024 05:30:43 PM INFO:: [User Change] p18 => Other
+06/13/2024 05:30:43 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:43 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:43 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:43 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:44 PM INFO:: [User Change] Electrochemiluminescence Immunoassay (eCLIA) => Chemiluminescent Assay
+06/13/2024 05:30:44 PM [INFO]:: [Fuzzy] Multiplex flow immunoassay => Multiplex Immunoassay : score 85
+06/13/2024 05:30:44 PM INFO:: [Fuzzy] Closest Match Found. Changing CMV antigens => CMV Antigens
+06/13/2024 05:30:44 PM [INFO]:: [Fuzzy] Multiplex flow immunoassay => Multiplex Immunoassay : score 85
+06/13/2024 05:30:44 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+06/13/2024 05:30:44 PM Previous Input: Assay Type, Chemiluminescent Microparticle Immuno Assay (CMIA) => Chemiluminescent Assay
+06/13/2024 05:30:44 PM [INFO]:: [Fuzzy] Core Antigen => Core antigen : score 92
+06/13/2024 05:30:44 PM Previous Input: Assay Type, Chemiluminescent Microparticle Immuno Assay (CMIA) => Chemiluminescent Assay
+06/13/2024 05:30:46 PM INFO:: [User Change] Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+06/13/2024 05:30:46 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing CMV antigens => CMV Antigens
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing CMV antigens => CMV Antigens
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Early Antigen Diffuse => EBV Early Antigen Diffuse
+06/13/2024 05:30:46 PM [INFO]:: [Fuzzy] Nuclear antigen – 1 => EBV Nuclear Antigen - 1 : score 81
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+06/13/2024 05:30:46 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+06/13/2024 05:30:46 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing CMV antigens => CMV Antigens
+06/13/2024 05:30:46 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+06/13/2024 05:30:46 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+06/13/2024 05:30:46 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Early Antigen Diffuse => EBV Early Antigen Diffuse
+06/13/2024 05:30:46 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Nuclear antigen - 1 => EBV Nuclear Antigen - 1
+06/13/2024 05:30:46 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+06/13/2024 05:30:46 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+06/13/2024 05:30:46 PM Previous Input: Assay Type, Chemiluminescent Microparticle Immuno Assay (CMIA) => Chemiluminescent Assay
+06/13/2024 05:30:46 PM [INFO]:: [Fuzzy] Core Antigen => Core antigen : score 92
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+06/13/2024 05:30:46 PM Previous Input: Assay Type, Electrochemiluminescence Immunoassay (eCLIA) => Chemiluminescent Assay
+06/13/2024 05:30:46 PM Previous Input: Assay Type, Electrochemiluminescence Immunoassay (eCLIA) => Chemiluminescent Assay

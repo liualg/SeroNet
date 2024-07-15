@@ -1,0 +1,4223 @@
+Visit_Info_ID,Cancer_Description_Or_ICD10_codes
+"27_200011 : B01",D69.6
+"27_200011 : F02",D48.9
+"27_200011 : F03","Not Reported"
+"27_200011 : F04","Not Reported"
+"27_200011 : F05","Not Reported"
+"27_200024 : B01",C81.90
+"27_200024 : F02",Z94.81
+"27_200024 : F03","Not Reported"
+"27_200024 : F04","Not Reported"
+"27_200054 : B01",Skin
+"27_200066 : B01",NULL
+"27_200066 : F02","Not Reported"
+"27_200068 : B01",R97.20
+"27_200068 : F02",Z85.46
+"27_200068 : F03","Not Reported"
+"27_200099 : B01",D23.5
+"27_200099 : F02","Not Reported"
+"27_200099 : F03","Not Reported"
+"27_200099 : F04","Not Reported"
+"27_200114 : B01",C44.92
+"27_200114 : F02","Not Reported"
+"27_200114 : F03","Not Reported"
+"27_200114 : F04","Not Reported"
+"27_200131 : B01",D48.5
+"27_200192 : B01",Z51.5
+"27_200192 : F02",C44.90
+"27_200192 : F03","Not Reported"
+"27_200192 : F04","Not Reported"
+"27_200192 : F05","Not Reported"
+"27_200222 : B01",C50.919
+"27_200222 : F02","Not Reported"
+"27_200222 : F03","Not Reported"
+"27_200222 : F04",C06.9
+"27_200230 : B01",NULL
+"27_200235 : B01",NULL
+"27_200235 : F02","Not Reported"
+"27_200250 : B01",NULL
+"27_200250 : F02","Not Reported"
+"27_200250 : F03","Not Reported"
+"27_200304 : B01",NULL
+"27_200304 : F02","Not Reported"
+"27_200318 : B01",C22.9
+"27_200318 : F02",C22
+"27_200318 : F03","Not Reported"
+"27_200318 : F04","Not Reported"
+"27_200318 : F05","Not Reported"
+"27_200318 : F06","Not Reported"
+"27_200327 : B01",C73
+"27_200327 : F02",C73
+"27_200327 : F03","Not Reported"
+"27_200327 : F04","Not Reported"
+"27_200346 : B01",R92.8
+"27_200346 : F02","Not Reported"
+"27_200346 : F03","Not Reported"
+"27_200346 : F04","Not Reported"
+"27_200347 : B01",Thyroid
+"27_200347 : F02","Not Reported"
+"27_200347 : F03","Not Reported"
+"27_200347 : F04","Not Reported"
+"27_200347 : F05","Not Reported"
+"27_200352 : B01",NULL
+"27_200352 : F02","Not Reported"
+"27_200352 : F03","Not Reported"
+"27_200371 : B01",NULL
+"27_200372 : B01",C54.1
+"27_200372 : F02",Z85.41
+"27_200372 : F03","Not Reported"
+"27_200372 : F04","Not Reported"
+"27_200379 : B01",NULL
+"27_200379 : F02","Not Reported"
+"27_200379 : F03","Not Reported"
+"27_200379 : F04","Not Reported"
+"27_200379 : F05","Not Reported"
+"27_200386 : B01",NULL
+"27_200386 : F02","Not Reported"
+"27_200386 : F03","Not Reported"
+"27_200386 : F04","Not Reported"
+"27_200386 : F05","Not Reported"
+"27_200395 : B01",NULL
+"27_200395 : F02","Not Reported"
+"27_200396 : B01",Z51.89
+"27_200396 : F02",D22.9
+"27_200407 : B01",NULL
+"27_200409 : B01",NULL
+"27_200409 : F02","Not Reported"
+"27_200429 : B01",Lymphoma
+"27_200484 : B01",NULL
+"27_200484 : F02","Not Reported"
+"27_200484 : F03","Not Reported"
+"27_200484 : F04","Not Reported"
+"27_200484 : F05","Not Reported"
+"27_200484 : F06","Not Reported"
+"27_200484 : F07","Not Reported"
+"27_200484 : F08","Not Reported"
+"27_200538 : B01",C22
+"27_200540 : B01",Z92.3
+"27_200540 : F02","Not Reported"
+"27_200540 : F03","Not Reported"
+"27_200540 : F04","Not Reported"
+"27_200540 : F05","Not Reported"
+"27_200540 : F06","Not Reported"
+"27_200543 : B01",NULL
+"27_200546 : B01",C62.90
+"27_200546 : F02",Z85.47
+"27_200546 : F03","Not Reported"
+"27_200584 : B01",C20
+"27_200584 : F02","Not Reported"
+"27_200584 : F03","Not Reported"
+"27_200584 : F04","Not Reported"
+"27_200584 : F05","Not Reported"
+"27_200584 : F06","Not Reported"
+"27_200646 : B01",Z80.3
+"27_200655 : B01",NULL
+"27_200655 : F02","Not Reported"
+"27_200655 : F03","Not Reported"
+"27_200655 : F04","Not Reported"
+"27_200655 : F05","Not Reported"
+"27_200656 : B01",NULL
+"27_200656 : F02","Not Reported"
+"27_200656 : F03","Not Reported"
+"27_200656 : F04","Not Reported"
+"27_200656 : F05","Not Reported"
+"27_200691 : B01",Z51.5
+"27_200691 : F02","Not Reported"
+"27_200691 : F03","Not Reported"
+"27_200691 : F04","Not Reported"
+"27_200695 : B01",NULL
+"27_200695 : F02","Not Reported"
+"27_200702 : B01",NULL
+"27_200702 : F02","Not Reported"
+"27_200702 : F03","Not Reported"
+"27_200706 : B01",NULL
+"27_200706 : F02","Not Reported"
+"27_200706 : F03","Not Reported"
+"27_200706 : F04","Not Reported"
+"27_200706 : F05","Not Reported"
+"27_200706 : F06","Not Reported"
+"27_200706 : F07","Not Reported"
+"27_200723 : B01",NULL
+"27_200723 : F02","Not Reported"
+"27_200723 : F03","Not Reported"
+"27_200723 : F04","Not Reported"
+"27_200723 : F05","Not Reported"
+"27_200723 : F06","Not Reported"
+"27_200724 : B01",C22
+"27_200724 : F02",D181
+"27_200724 : F03","Not Reported"
+"27_200724 : F04","Not Reported"
+"27_200724 : F05","Not Reported"
+"27_200724 : F06","Not Reported"
+"27_200730 : B01",C50.919
+"27_200730 : F02",Z85.3
+"27_200730 : F03","Not Reported"
+"27_200730 : F04","Not Reported"
+"27_200735 : B01",Esophageal
+"27_200738 : B01",Z80
+"27_200748 : B01",C43.52
+"27_200748 : F02","Not Reported"
+"27_200748 : F03",Z85.820
+"27_200752 : B01","Breast      ;   Breast Cancer Metastasized To Bones"
+"27_200779 : B01",Melanoma
+"27_200822 : B01",R92.8
+"27_200822 : F02",C50.912
+"27_200822 : F03","Not Reported"
+"27_200822 : F04","Not Reported"
+"27_200823 : B01",C44.41
+"27_200823 : F02",Z85.828
+"27_200823 : F03","Not Reported"
+"27_200824 : B01",D25.9
+"27_200824 : F02","Not Reported"
+"27_200824 : F03","Not Reported"
+"27_200824 : F04","Not Reported"
+"27_200824 : F05","Not Reported"
+"27_200824 : F06","Not Reported"
+"27_200824 : F07","Not Reported"
+"27_200864 : B01",R92.8
+"27_200864 : F02",C54.1
+"27_200864 : F03","Not Reported"
+"27_200864 : F04","Not Reported"
+"27_200894 : B01",K62.82
+"27_200894 : F02",K62.82
+"27_200894 : F03","Not Reported"
+"27_200894 : F04","Not Reported"
+"27_200929 : B01",R59.9
+"27_200942 : B01",R92.8
+"27_200942 : F02","Not Reported"
+"27_200942 : F03","Not Reported"
+"27_200942 : F04","Not Reported"
+"27_200942 : F05","Not Reported"
+"27_200986 : B01",R92.8
+"27_200986 : F02","Not Reported"
+"27_200986 : F03","Not Reported"
+"27_200986 : F04","Not Reported"
+"27_200986 : F05","Not Reported"
+"27_200987 : B01",NULL
+"27_200987 : F02","Not Reported"
+"27_200992 : B01",Z8610
+"27_200992 : F02",D22.9
+"27_200992 : F03","Not Reported"
+"27_200992 : F04","Not Reported"
+"27_200992 : F05","Not Reported"
+"27_200995 : B01",R92.30
+"27_200995 : F02","Not Reported"
+"27_200995 : F03",C50.912
+"27_201048 : B01","Merkel Cell Carcinoma"
+"27_201052 : B01",K62.82
+"27_201055 : B01",C80.1
+"27_201055 : F02",C34.32
+"27_201055 : F03","Not Reported"
+"27_201055 : F04","Not Reported"
+"27_201055 : F05","Not Reported"
+"27_201084 : B01",C54.1
+"27_201084 : F02",C96.4
+"27_201084 : F03","Not Reported"
+"27_201084 : F04","Not Reported"
+"27_201116 : B01",C22
+"27_201135 : B01",D48.5
+"27_201187 : B01",C50.919
+"27_201187 : F02","Not Reported"
+"27_201187 : F03","Not Reported"
+"27_201190 : B01",D22.9
+"27_201190 : F02","Not Reported"
+"27_201190 : F03",C50.911
+"27_201190 : F04","Not Reported"
+"27_201190 : F05","Not Reported"
+"27_201203 : B01",Lung
+"27_201203 : F02","Not Reported"
+"27_201226 : B01",Z51.5
+"27_201226 : F02",Z85.79
+"27_201226 : F03","Not Reported"
+"27_201231 : B01",R87.619
+"27_201231 : F02",C54.1
+"27_201231 : F03","Not Reported"
+"27_201254 : B01",D22.61
+"27_201254 : F02","Not Reported"
+"27_201254 : F03",Z80.3
+"27_201254 : F04","Not Reported"
+"27_201254 : F05","Not Reported"
+"27_201254 : F06","Not Reported"
+"27_201312 : B01",Z51.89
+"27_201312 : F02","Not Reported"
+"27_201312 : F03","Not Reported"
+"27_201312 : F04","Not Reported"
+"27_201352 : B01",NULL
+"27_201380 : B01",C53.9
+"27_201380 : F02",C53.9
+"27_201380 : F03","Not Reported"
+"27_201380 : F04","Not Reported"
+"27_201380 : F05","Not Reported"
+"27_201380 : F06","Not Reported"
+"27_201545 : B01",NULL
+"27_201586 : B01",NULL
+"27_201743 : B01",R87.612
+"27_201743 : F02","Not Reported"
+"27_201755 : B01",Breast
+"27_201775 : B01","Breast Cancer"
+"27_201775 : F02","Not Reported"
+"27_201775 : F03","Not Reported"
+"27_201775 : F04","Not Reported"
+"27_201777 : B01",C50.112
+"27_201777 : F02",Z79.811
+"27_201777 : F03","Not Reported"
+"27_201777 : F04","Not Reported"
+"27_201777 : F05","Not Reported"
+"27_201793 : B01",R87.610
+"27_201793 : F02","Not Reported"
+"27_201793 : F03","Not Reported"
+"27_201793 : F04","Not Reported"
+"27_201793 : F05","Not Reported"
+"27_201797 : B01",D23.4
+"27_201797 : F02",Z17
+"27_201797 : F03","Not Reported"
+"27_201797 : F04","Not Reported"
+"27_201797 : F05","Not Reported"
+"27_201812 : B01",Z85.43
+"27_201812 : F02","Not Reported"
+"27_201846 : B01","Breast Cancer"
+"27_201846 : F02","Not Reported"
+"27_201846 : F03","Not Reported"
+"27_201846 : F04","Not Reported"
+"27_201846 : F05","Not Reported"
+"27_201965 : B01",C09.9
+"27_201965 : F02",D181
+"27_201965 : F03","Not Reported"
+"27_201965 : F04","Not Reported"
+"27_202030 : B01",R92.8
+"27_202030 : F02","Not Reported"
+"27_202030 : F03","Not Reported"
+"27_202030 : F04","Not Reported"
+"27_202030 : F05","Not Reported"
+"27_202123 : B01",C50.919
+"27_202123 : F02","Not Reported"
+"27_202175 : B01",NULL
+"27_202175 : F02","Not Reported"
+"27_202175 : F03","Not Reported"
+"27_202175 : F04","Not Reported"
+"27_202175 : F05","Not Reported"
+"27_202234 : B01",NULL
+"27_202234 : F02","Not Reported"
+"27_202234 : F03","Not Reported"
+"27_202234 : F04","Not Reported"
+"27_202248 : B01",Z85.828
+"27_202248 : F02","Not Reported"
+"27_202248 : F03","Not Reported"
+"27_202248 : F04","Not Reported"
+"27_202260 : B01",Z80.3
+"27_202260 : F02",Z159
+"27_202260 : F03","Not Reported"
+"27_202262 : B01",NULL
+"27_202282 : B01",NULL
+"27_202282 : F02","Not Reported"
+"27_202282 : F03","Not Reported"
+"27_202282 : F04","Not Reported"
+"27_202282 : F05","Not Reported"
+"27_202282 : F06","Not Reported"
+"27_202288 : B01",NULL
+"27_202288 : F02","Not Reported"
+"27_202288 : F03","Not Reported"
+"27_202291 : B01",R87.610
+"27_202291 : F02","Not Reported"
+"27_202291 : F03",Z17
+"27_202521 : B01",K62.82
+"27_202521 : F02",R85.618
+"27_202521 : F03","Not Reported"
+"27_202605 : B01",D25.9
+"27_202605 : F02","Not Reported"
+"27_202605 : F03",D22.9
+"27_202694 : B01",NULL
+"27_202694 : F02","Not Reported"
+"27_202758 : B01",D48.5
+"27_202758 : F02",R97.20
+"27_202758 : F03","Not Reported"
+"27_202758 : F04","Not Reported"
+"27_202758 : F05","Not Reported"
+"27_202758 : F06","Not Reported"
+"27_202999 : B01",D22.9
+"27_202999 : F02","Not Reported"
+"27_202999 : F03",D36
+"27_203227 : B01",NULL
+"27_203227 : F02","Not Reported"
+"27_203328 : B01",NULL
+"27_203328 : F02","Not Reported"
+"27_203328 : F03","Not Reported"
+"27_203334 : B01",NULL
+"27_203334 : F02","Not Reported"
+"27_203506 : B01",R92.8
+"27_203506 : F02","Not Reported"
+"27_203506 : F03",C50.512
+"27_290004 : B01",D24.9
+"27_290004 : F02",Z151
+"27_290004 : F03","Not Reported"
+"27_300001 : B01",NULL
+"27_300001 : F02",D22.9
+"27_300001 : F03","Not Reported"
+"27_300001 : F04","Not Reported"
+"27_300001 : F05","Not Reported"
+"27_300001 : F06","Not Reported"
+"27_300007 : B01",Prostate
+"27_300007 : F02","Not Reported"
+"27_300007 : F03","Not Reported"
+"27_300007 : F04","Not Reported"
+"27_300007 : F05","Not Reported"
+"27_300012 : B01",R59.9
+"27_300012 : F02",Z85.46
+"27_300012 : F03","Not Reported"
+"27_300012 : F04","Not Reported"
+"27_300012 : F05","Not Reported"
+"27_300012 : F06","Not Reported"
+"27_300018 : B01",Z85.47
+"27_300018 : F02","Not Reported"
+"27_300018 : F03",Z85.828
+"27_300018 : F04","Not Reported"
+"27_300020 : B01",Z51.89
+"27_300020 : F02","Not Reported"
+"27_300020 : F03","Not Reported"
+"27_300020 : F04","Not Reported"
+"27_300020 : F05","Not Reported"
+"27_300020 : F06","Not Reported"
+"27_300021 : B01","Squamous Cell Carcinoma"
+"27_300022 : B01",Kidney
+"27_300022 : F02","Not Reported"
+"27_300023 : B01",NULL
+"27_300023 : F02","Not Reported"
+"27_300023 : F03","Not Reported"
+"27_300023 : F04","Not Reported"
+"27_300023 : F05","Not Reported"
+"27_300024 : B01",D69.6
+"27_300024 : F02","Not Reported"
+"27_300024 : F03","Not Reported"
+"27_300024 : F04",Z92.25
+"27_300024 : F05","Not Reported"
+"27_300024 : F06","Not Reported"
+"27_300024 : F07","Not Reported"
+"27_300025 : B01",Z80
+"27_300025 : F02","Not Reported"
+"27_300025 : F03","Not Reported"
+"27_300025 : F04","Not Reported"
+"27_300025 : F05","Not Reported"
+"27_300025 : F06","Not Reported"
+"27_300025 : F07",D47.Z1
+"27_300026 : B01",Breast
+"27_300026 : F02","Not Reported"
+"27_300029 : B01","Breast  Liver"
+"27_300029 : F02","Not Reported"
+"27_300029 : F03","Not Reported"
+"27_300029 : F04","Not Reported"
+"27_300031 : B01",NULL
+"27_300031 : F02","Not Reported"
+"27_300034 : B01",R92.8
+"27_300034 : F02",C50.412
+"27_300034 : F03","Not Reported"
+"27_300034 : F04","Not Reported"
+"27_300034 : F05","Not Reported"
+"27_300034 : F06","Not Reported"
+"27_300039 : B01",NULL
+"27_300039 : F02","Not Reported"
+"27_300039 : F03","Not Reported"
+"27_300039 : F04","Not Reported"
+"27_300039 : F05","Not Reported"
+"27_300039 : F06","Not Reported"
+"27_300040 : B01",NULL
+"27_300040 : F02","Not Reported"
+"27_300040 : F03","Not Reported"
+"27_300040 : F04","Not Reported"
+"27_300040 : F05","Not Reported"
+"27_300040 : F06","Not Reported"
+"27_300040 : F07","Not Reported"
+"27_300040 : F08","Not Reported"
+"27_300041 : B01",D23.9
+"27_300041 : F02","Not Reported"
+"27_300041 : F03","Not Reported"
+"27_300041 : F04",Z92.25
+"27_300041 : F05","Not Reported"
+"27_300041 : F06","Not Reported"
+"27_300041 : F07","Not Reported"
+"27_300041 : F08","Not Reported"
+"27_300042 : B01",NULL
+"27_300042 : F02","Not Reported"
+"27_300042 : F03","Not Reported"
+"27_300042 : F04","Not Reported"
+"27_300042 : F05","Not Reported"
+"27_300042 : F06","Not Reported"
+"27_300042 : F07","Not Reported"
+"27_300045 : B01",D72.119
+"27_300045 : F02",Z85.828
+"27_300045 : F03","Not Reported"
+"27_300045 : F04","Not Reported"
+"27_300045 : F05","Not Reported"
+"27_300045 : F06","Not Reported"
+"27_300045 : F07","Not Reported"
+"27_300046 : B01",C920
+"27_300046 : F02","Not Reported"
+"27_300046 : F03",D181
+"27_300046 : F04","Not Reported"
+"27_300046 : F05","Not Reported"
+"27_300047 : B01",C44.90
+"27_300047 : F02",C44.92
+"27_300047 : F03","Not Reported"
+"27_300047 : F04","Not Reported"
+"27_300059 : B01",Z92.25
+"27_300060 : B01",E08.3599
+"27_300060 : F02","Not Reported"
+"27_300060 : F03",D181
+"27_300060 : F04","Not Reported"
+"27_300060 : F05","Not Reported"
+"27_300060 : F06","Not Reported"
+"27_300067 : B01",NULL
+"27_300067 : F02","Not Reported"
+"27_300067 : F03","Not Reported"
+"27_300067 : F04","Not Reported"
+"27_300067 : F05","Not Reported"
+"27_300067 : F06","Not Reported"
+"27_300075 : B01",Z51.89
+"27_300075 : F02","Not Reported"
+"27_300075 : F03",Z8610
+"27_300075 : F04","Not Reported"
+"27_300075 : F05","Not Reported"
+"27_300075 : F06","Not Reported"
+"27_300075 : F07","Not Reported"
+"27_300079 : B01","Liver       Skin      &"
+"27_300079 : F02","Not Reported"
+"27_300084 : B01",D23.9
+"27_300084 : F02","Not Reported"
+"27_300084 : F03",D181
+"27_300088 : B01",NULL
+"27_300095 : B01","Squamous Cell Carcinoma"
+"27_300095 : F02",D12.2
+"27_300095 : F03","Not Reported"
+"27_300095 : F04","Not Reported"
+"27_300095 : F05","Not Reported"
+"27_300095 : F06","Not Reported"
+"27_300097 : B01",NULL
+"27_300097 : F02",R87.610
+"27_300097 : F03","Not Reported"
+"27_300097 : F04","Not Reported"
+"27_300097 : F05","Not Reported"
+"27_300097 : F06","Not Reported"
+"27_300097 : F07","Not Reported"
+"27_300098 : B01",D12
+"27_300098 : F02",D181
+"27_300098 : F03","Not Reported"
+"27_300098 : F04","Not Reported"
+"27_300098 : F05","Not Reported"
+"27_300098 : F06","Not Reported"
+"27_300098 : F07","Not Reported"
+"27_300098 : F08","Not Reported"
+"27_300101 : B01",D47.2
+"27_300101 : F02",C44.519
+"27_300101 : F03","Not Reported"
+"27_300101 : F04","Not Reported"
+"27_300101 : F05","Not Reported"
+"27_300101 : F06","Not Reported"
+"27_300102 : B01",D05.11
+"27_300102 : F02",D22.9
+"27_300102 : F03","Not Reported"
+"27_300102 : F04","Not Reported"
+"27_300102 : F05","Not Reported"
+"27_300102 : F06","Not Reported"
+"27_300121 : B01",NULL
+"27_300121 : F02","Not Reported"
+"27_300121 : F03","Not Reported"
+"27_300121 : F04","Not Reported"
+"27_300122 : B01",Z85.828
+"27_300122 : F02",D04.62
+"27_300122 : F03","Not Reported"
+"27_300122 : F04","Not Reported"
+"27_300122 : F05","Not Reported"
+"27_300126 : B01",R92.8
+"27_300126 : F02","Not Reported"
+"27_300126 : F03",Z17
+"27_300126 : F04","Not Reported"
+"27_300126 : F05","Not Reported"
+"27_300126 : F06","Not Reported"
+"27_300132 : B01",C22
+"27_300132 : F02",C22
+"27_300132 : F03","Not Reported"
+"27_300132 : F04","Not Reported"
+"27_300132 : F05","Not Reported"
+"27_300132 : F06","Not Reported"
+"27_300135 : B01",D17.1
+"27_300135 : F02",C44.212
+"27_300135 : F03","Not Reported"
+"27_300135 : F04","Not Reported"
+"27_300135 : F05","Not Reported"
+"27_300135 : F06","Not Reported"
+"27_300138 : B01",Breast
+"27_300138 : F02","Not Reported"
+"27_300138 : F03","Not Reported"
+"27_300138 : F04","Not Reported"
+"27_300138 : F05","Not Reported"
+"27_300138 : F06","Not Reported"
+"27_300140 : B01",R97.20
+"27_300140 : F02",Z85.46
+"27_300140 : F03","Not Reported"
+"27_300140 : F04","Not Reported"
+"27_300140 : F05","Not Reported"
+"27_300146 : B01",C85.97
+"27_300146 : F02","Not Reported"
+"27_300146 : F03","Not Reported"
+"27_300146 : F04","Not Reported"
+"27_300146 : F05","Not Reported"
+"27_300146 : F06","Not Reported"
+"27_300146 : F07","Not Reported"
+"27_300149 : B01",B97.35
+"27_300149 : F02","Not Reported"
+"27_300149 : F03","Not Reported"
+"27_300149 : F04","Not Reported"
+"27_300149 : F05","Not Reported"
+"27_300149 : F06","Not Reported"
+"27_300158 : B01",C50.919
+"27_300158 : F02",Z85.828
+"27_300158 : F03","Not Reported"
+"27_300158 : F04","Not Reported"
+"27_300165 : B01",Kidney
+"27_300165 : F02","Not Reported"
+"27_300165 : F03","Not Reported"
+"27_300165 : F04","Not Reported"
+"27_300165 : F05","Not Reported"
+"27_300165 : F06","Not Reported"
+"27_300166 : B01",D22.9
+"27_300166 : F02","Not Reported"
+"27_300166 : F03","Not Reported"
+"27_300166 : F04",Z8607
+"27_300166 : F05","Not Reported"
+"27_300166 : F06","Not Reported"
+"27_300166 : F07","Not Reported"
+"27_300167 : B01",D63
+"27_300167 : F02",C920
+"27_300167 : F03","Not Reported"
+"27_300167 : F04","Not Reported"
+"27_300167 : F05","Not Reported"
+"27_300167 : F06","Not Reported"
+"27_300167 : F07","Not Reported"
+"27_300172 : B01",C43.9
+"27_300172 : F02","Not Reported"
+"27_300172 : F03",D22.9
+"27_300172 : F04","Not Reported"
+"27_300172 : F05","Not Reported"
+"27_300172 : F06","Not Reported"
+"27_300172 : F07","Not Reported"
+"27_300174 : B01",I82.C12
+"27_300174 : F02","Not Reported"
+"27_300174 : F03","Not Reported"
+"27_300174 : F04","Not Reported"
+"27_300174 : F05",D22.9
+"27_300174 : F06","Not Reported"
+"27_300174 : F07","Not Reported"
+"27_300174 : F08","Not Reported"
+"27_300179 : B01",D23.10
+"27_300179 : F02","Not Reported"
+"27_300179 : F03",C44.92
+"27_300179 : F04","Not Reported"
+"27_300179 : F05","Not Reported"
+"27_300179 : F06","Not Reported"
+"27_300180 : B01",D472
+"27_300180 : F02","Not Reported"
+"27_300180 : F03","Not Reported"
+"27_300180 : F04","Not Reported"
+"27_300180 : F05","Not Reported"
+"27_300204 : B01",NULL
+"27_300204 : F02","Not Reported"
+"27_300206 : B01",D69.6
+"27_300206 : F02","Not Reported"
+"27_300206 : F03","Not Reported"
+"27_300206 : F04","Not Reported"
+"27_300206 : F05","Not Reported"
+"27_300206 : F06","Not Reported"
+"27_300211 : B01",D69.59
+"27_300211 : F02","Not Reported"
+"27_300211 : F03",D181
+"27_300211 : F04","Not Reported"
+"27_300211 : F05","Not Reported"
+"27_300214 : B01",C44.301
+"27_300214 : F02",E08.37X1
+"27_300214 : F03","Not Reported"
+"27_300214 : F04","Not Reported"
+"27_300220 : B01",Z51.5
+"27_300220 : F02",Z8610
+"27_300220 : F03","Not Reported"
+"27_300220 : F04","Not Reported"
+"27_300230 : B01",NULL
+"27_300230 : F02","Not Reported"
+"27_300230 : F03","Not Reported"
+"27_300230 : F04","Not Reported"
+"27_300230 : F05","Not Reported"
+"27_300243 : B01",NULL
+"27_300243 : F02","Not Reported"
+"27_300243 : F03","Not Reported"
+"27_300243 : F04","Not Reported"
+"27_300243 : F05","Not Reported"
+"27_300243 : F06","Not Reported"
+"27_300256 : B01",NULL
+"27_300256 : F02","Not Reported"
+"27_300256 : F03","Not Reported"
+"27_300256 : F04","Not Reported"
+"27_300256 : F05","Not Reported"
+"27_300256 : F06","Not Reported"
+"27_300262 : B01",Z85.828
+"27_300262 : F02","Not Reported"
+"27_300262 : F03","Not Reported"
+"27_300262 : F04",C44.92
+"27_300262 : F05","Not Reported"
+"27_300262 : F06","Not Reported"
+"27_300262 : F07","Not Reported"
+"27_300266 : B01",Breast
+"27_300272 : B01",D48.5
+"27_300272 : F02",Z79.811
+"27_300272 : F03","Not Reported"
+"27_300272 : F04","Not Reported"
+"27_300272 : F05","Not Reported"
+"27_300290 : B01",NULL
+"27_300290 : F02","Not Reported"
+"27_300290 : F03","Not Reported"
+"27_300290 : F04","Not Reported"
+"27_300294 : B01",Z94.81
+"27_300294 : F02","Not Reported"
+"27_300294 : F03",Z92.21
+"27_300294 : F04","Not Reported"
+"27_300294 : F05","Not Reported"
+"27_300294 : F06","Not Reported"
+"27_300295 : B01",NULL
+"27_300297 : B01",D48.5
+"27_300297 : F02",C61
+"27_300297 : F03","Not Reported"
+"27_300297 : F04","Not Reported"
+"27_300297 : F05","Not Reported"
+"27_300297 : F06","Not Reported"
+"27_300297 : F07","Not Reported"
+"27_300300 : B01",Z85.828
+"27_300300 : F02","Not Reported"
+"27_300300 : F03","Not Reported"
+"27_300300 : F04",D22.9
+"27_300300 : F05","Not Reported"
+"27_300300 : F06","Not Reported"
+"27_300300 : F07","Not Reported"
+"27_300300 : F08","Not Reported"
+"27_300309 : B01",D181
+"27_300309 : F02","Not Reported"
+"27_300309 : F03",D69.6
+"27_300309 : F04","Not Reported"
+"27_300309 : F05","Not Reported"
+"27_300309 : F06","Not Reported"
+"27_300312 : B01",D23.5
+"27_300312 : F02","Not Reported"
+"27_300312 : F03",D48.4
+"27_300312 : F04","Not Reported"
+"27_300312 : F05","Not Reported"
+"27_300312 : F06","Not Reported"
+"27_300315 : B01",C22
+"27_300315 : F02","Not Reported"
+"27_300315 : F03","Not Reported"
+"27_300315 : F04",D22.9
+"27_300323 : B01",D25.9
+"27_300323 : F02",C54.1
+"27_300323 : F03","Not Reported"
+"27_300323 : F04","Not Reported"
+"27_300323 : F05","Not Reported"
+"27_300323 : F06","Not Reported"
+"27_300323 : F07","Not Reported"
+"27_300323 : F08","Not Reported"
+"27_300329 : B01",C921
+"27_300329 : F02",C921
+"27_300329 : F03","Not Reported"
+"27_300329 : F04","Not Reported"
+"27_300329 : F05","Not Reported"
+"27_300329 : F06","Not Reported"
+"27_300329 : F07","Not Reported"
+"27_300332 : B01",D69.6
+"27_300332 : F02","Not Reported"
+"27_300332 : F03","Not Reported"
+"27_300332 : F04","Not Reported"
+"27_300332 : F05","Not Reported"
+"27_300332 : F06",D69.6
+"27_300332 : F07","Not Reported"
+"27_300339 : B01",NULL
+"27_300339 : F02","Not Reported"
+"27_300339 : F03","Not Reported"
+"27_300339 : F04","Not Reported"
+"27_300348 : B01",NULL
+"27_300348 : F02","Not Reported"
+"27_300348 : F03","Not Reported"
+"27_300348 : F04","Not Reported"
+"27_300348 : F05","Not Reported"
+"27_300348 : F06","Not Reported"
+"27_300351 : B01",D23.9
+"27_300351 : F02","Not Reported"
+"27_300351 : F03","Not Reported"
+"27_300351 : F04","Not Reported"
+"27_300351 : F05","Not Reported"
+"27_300351 : F06","Not Reported"
+"27_300354 : B01",NULL
+"27_300354 : F02","Not Reported"
+"27_300354 : F03","Not Reported"
+"27_300355 : B01",NULL
+"27_300355 : F02","Not Reported"
+"27_300355 : F03","Not Reported"
+"27_300355 : F04","Not Reported"
+"27_300355 : F05","Not Reported"
+"27_300355 : F06","Not Reported"
+"27_300355 : F07","Not Reported"
+"27_300358 : B01","Diffused Large B Cell Lymphoma"
+"27_300358 : F02","Not Reported"
+"27_300358 : F03","Not Reported"
+"27_300358 : F04","Not Reported"
+"27_300358 : F05","Not Reported"
+"27_300358 : F06","Not Reported"
+"27_300359 : B01",NULL
+"27_300359 : F02","Not Reported"
+"27_300359 : F03","Not Reported"
+"27_300359 : F04","Not Reported"
+"27_300359 : F05","Not Reported"
+"27_300359 : F06","Not Reported"
+"27_300377 : B01",C50.919
+"27_300377 : F02",Z80.3
+"27_300377 : F03","Not Reported"
+"27_300377 : F04","Not Reported"
+"27_300377 : F05","Not Reported"
+"27_300377 : F06","Not Reported"
+"27_300377 : F07","Not Reported"
+"27_300377 : F08","Not Reported"
+"27_300388 : B01",NULL
+"27_300388 : F02","Not Reported"
+"27_300392 : B01",NULL
+"27_300392 : F02","Not Reported"
+"27_300394 : B01",NULL
+"27_300394 : F02","Not Reported"
+"27_300394 : F03","Not Reported"
+"27_300394 : F04","Not Reported"
+"27_300394 : F05","Not Reported"
+"27_300394 : F06","Not Reported"
+"27_300394 : F07","Not Reported"
+"27_300399 : B01",D69.6
+"27_300399 : F02",C900
+"27_300399 : F03","Not Reported"
+"27_300399 : F04","Not Reported"
+"27_300399 : F05","Not Reported"
+"27_300399 : F06","Not Reported"
+"27_300403 : B01",NULL
+"27_300403 : F02","Not Reported"
+"27_300403 : F03","Not Reported"
+"27_300403 : F04",R87.610
+"27_300403 : F05","Not Reported"
+"27_300408 : B01",R59
+"27_300408 : F02","Not Reported"
+"27_300408 : F03","Not Reported"
+"27_300408 : F04","Not Reported"
+"27_300424 : B01",Z80.42
+"27_300424 : F02","Not Reported"
+"27_300424 : F03",D22.9
+"27_300424 : F04","Not Reported"
+"27_300424 : F05","Not Reported"
+"27_300434 : B01",NULL
+"27_300434 : F02","Not Reported"
+"27_300434 : F03","Not Reported"
+"27_300434 : F04","Not Reported"
+"27_300435 : B01",Breast
+"27_300435 : F02","Not Reported"
+"27_300435 : F03","Not Reported"
+"27_300435 : F04","Not Reported"
+"27_300435 : F05","Not Reported"
+"27_300435 : F06","Not Reported"
+"27_300435 : F07","Not Reported"
+"27_300435 : F08","Not Reported"
+"27_300442 : B01",R59.9
+"27_300442 : F02","Not Reported"
+"27_300442 : F03","Not Reported"
+"27_300442 : F04",D47.2
+"27_300442 : F05","Not Reported"
+"27_300443 : B01",D47.2
+"27_300443 : F02",C900
+"27_300443 : F03","Not Reported"
+"27_300443 : F04","Not Reported"
+"27_300443 : F05","Not Reported"
+"27_300443 : F06","Not Reported"
+"27_300446 : B01",M84.521A
+"27_300446 : F02",Z94.81
+"27_300446 : F03","Not Reported"
+"27_300446 : F04","Not Reported"
+"27_300446 : F05","Not Reported"
+"27_300446 : F06","Not Reported"
+"27_300448 : B01","Mantle Cell Lymphoma        Squamous Cell Carcinoma       Basal Cell Carcinoma"
+"27_300448 : F02","Not Reported"
+"27_300448 : F03","Not Reported"
+"27_300448 : F04","Not Reported"
+"27_300448 : F05","Not Reported"
+"27_300450 : B01",NULL
+"27_300457 : B01",Breast
+"27_300457 : F02","Not Reported"
+"27_300457 : F03","Not Reported"
+"27_300458 : B01",NULL
+"27_300458 : F02","Not Reported"
+"27_300458 : F03","Not Reported"
+"27_300458 : F04","Not Reported"
+"27_300458 : F05","Not Reported"
+"27_300458 : F06","Not Reported"
+"27_300458 : F07","Not Reported"
+"27_300458 : F08","Not Reported"
+"27_300464 : B01",Breast
+"27_300464 : F02","Not Reported"
+"27_300472 : B01",C44.509
+"27_300472 : F02","Not Reported"
+"27_300472 : F03","Not Reported"
+"27_300472 : F04","Not Reported"
+"27_300472 : F05","Not Reported"
+"27_300472 : F06","Not Reported"
+"27_300474 : B01",C911
+"27_300474 : F02",C911
+"27_300474 : F03","Not Reported"
+"27_300474 : F04","Not Reported"
+"27_300480 : B01",NULL
+"27_300480 : F02","Not Reported"
+"27_300480 : F03","Not Reported"
+"27_300480 : F04","Not Reported"
+"27_300480 : F05","Not Reported"
+"27_300482 : B01",NULL
+"27_300482 : F02","Not Reported"
+"27_300488 : B01",C44.91
+"27_300488 : F02","Not Reported"
+"27_300488 : F03",D35.1
+"27_300488 : F04","Not Reported"
+"27_300488 : F05","Not Reported"
+"27_300488 : F06","Not Reported"
+"27_300488 : F07","Not Reported"
+"27_300489 : B01",N87.9
+"27_300489 : F02",K62.82
+"27_300489 : F03","Not Reported"
+"27_300489 : F04","Not Reported"
+"27_300489 : F05","Not Reported"
+"27_300505 : B01",NULL
+"27_300505 : F02","Not Reported"
+"27_300506 : B01",NULL
+"27_300506 : F02","Not Reported"
+"27_300506 : F03","Not Reported"
+"27_300506 : F04","Not Reported"
+"27_300506 : F05","Not Reported"
+"27_300506 : F06","Not Reported"
+"27_300523 : B01",NULL
+"27_300523 : F02","Not Reported"
+"27_300523 : F03","Not Reported"
+"27_300547 : B01",R87.619
+"27_300547 : F02","Not Reported"
+"27_300547 : F03","Not Reported"
+"27_300547 : F04","Not Reported"
+"27_300547 : F05","Not Reported"
+"27_300547 : F06","Not Reported"
+"27_300552 : B01",NULL
+"27_300552 : F02","Not Reported"
+"27_300552 : F03","Not Reported"
+"27_300552 : F04","Not Reported"
+"27_300552 : F05","Not Reported"
+"27_300552 : F06","Not Reported"
+"27_300552 : F07","Not Reported"
+"27_300567 : B01",D69.6
+"27_300567 : F02","Not Reported"
+"27_300567 : F03","Not Reported"
+"27_300567 : F04","Not Reported"
+"27_300567 : F05","Not Reported"
+"27_300567 : F06","Not Reported"
+"27_300568 : B01",R92.8
+"27_300568 : F02","Not Reported"
+"27_300568 : F03","Not Reported"
+"27_300568 : F04","Not Reported"
+"27_300568 : F05","Not Reported"
+"27_300568 : F06","Not Reported"
+"27_300568 : F07","Not Reported"
+"27_300576 : B01",NULL
+"27_300576 : F02","Not Reported"
+"27_300576 : F03","Not Reported"
+"27_300576 : F04","Not Reported"
+"27_300578 : B01",Z80.8
+"27_300578 : F02","Not Reported"
+"27_300578 : F03","Not Reported"
+"27_300578 : F04","Not Reported"
+"27_300578 : F05","Not Reported"
+"27_300578 : F06","Not Reported"
+"27_300580 : B01","Mantel Cell Lymphoma"
+"27_300580 : F02","Not Reported"
+"27_300580 : F03","Not Reported"
+"27_300580 : F04","Not Reported"
+"27_300589 : B01",NULL
+"27_300589 : F02","Not Reported"
+"27_300589 : F03","Not Reported"
+"27_300589 : F04","Not Reported"
+"27_300589 : F05","Not Reported"
+"27_300589 : F06","Not Reported"
+"27_300597 : B01",NULL
+"27_300597 : F02","Not Reported"
+"27_300603 : B01",C91.11
+"27_300603 : F02",C91.Z0
+"27_300603 : F03","Not Reported"
+"27_300603 : F04","Not Reported"
+"27_300603 : F05","Not Reported"
+"27_300603 : F06","Not Reported"
+"27_300603 : F07","Not Reported"
+"27_300603 : F08","Not Reported"
+"27_300608 : B01",D23.9
+"27_300608 : F02","Not Reported"
+"27_300608 : F03","Not Reported"
+"27_300608 : F04","Not Reported"
+"27_300608 : F05",D31.32
+"27_300608 : F06","Not Reported"
+"27_300608 : F07","Not Reported"
+"27_300611 : B01",R92.8
+"27_300611 : F02","Not Reported"
+"27_300611 : F03","Not Reported"
+"27_300611 : F04","Not Reported"
+"27_300611 : F05","Not Reported"
+"27_300611 : F06","Not Reported"
+"27_300613 : B01",GIST
+"27_300613 : F02","Not Reported"
+"27_300613 : F03","Not Reported"
+"27_300613 : F04","Not Reported"
+"27_300613 : F05","Not Reported"
+"27_300613 : F06","Not Reported"
+"27_300613 : F07","Not Reported"
+"27_300613 : F08","Not Reported"
+"27_300620 : B01",Lymphoma
+"27_300620 : F02","Not Reported"
+"27_300620 : F03","Not Reported"
+"27_300620 : F04","Not Reported"
+"27_300620 : F05","Not Reported"
+"27_300620 : F06","Not Reported"
+"27_300626 : B01",NULL
+"27_300626 : F02","Not Reported"
+"27_300626 : F03","Not Reported"
+"27_300626 : F04","Not Reported"
+"27_300626 : F05","Not Reported"
+"27_300626 : F06","Not Reported"
+"27_300626 : F07","Not Reported"
+"27_300626 : F08","Not Reported"
+"27_300651 : B01","Multiple Myeloma  Melanoma"
+"27_300651 : F02","Not Reported"
+"27_300651 : F03","Not Reported"
+"27_300651 : F04","Not Reported"
+"27_300651 : F05","Not Reported"
+"27_300657 : B01",D181
+"27_300657 : F02",Z80.1
+"27_300657 : F03","Not Reported"
+"27_300657 : F04","Not Reported"
+"27_300657 : F05","Not Reported"
+"27_300657 : F06","Not Reported"
+"27_300658 : B01",D12.6
+"27_300658 : F02","Not Reported"
+"27_300658 : F03",C50.111
+"27_300658 : F04","Not Reported"
+"27_300658 : F05","Not Reported"
+"27_300658 : F06","Not Reported"
+"27_300660 : B01",C22
+"27_300660 : F02","Not Reported"
+"27_300661 : B01",NULL
+"27_300661 : F02","Not Reported"
+"27_300661 : F03","Not Reported"
+"27_300661 : F04","Not Reported"
+"27_300661 : F05","Not Reported"
+"27_300680 : B01",NULL
+"27_300680 : F02","Not Reported"
+"27_300680 : F03","Not Reported"
+"27_300680 : F04","Not Reported"
+"27_300680 : F05","Not Reported"
+"27_300680 : F06","Not Reported"
+"27_300683 : B01",C73
+"27_300683 : F02","Not Reported"
+"27_300683 : F03","Not Reported"
+"27_300683 : F04",D12.2
+"27_300683 : F05","Not Reported"
+"27_300683 : F06","Not Reported"
+"27_300683 : F07","Not Reported"
+"27_300688 : B01",NULL
+"27_300688 : F02","Not Reported"
+"27_300688 : F03","Not Reported"
+"27_300688 : F04","Not Reported"
+"27_300688 : F05","Not Reported"
+"27_300688 : F06","Not Reported"
+"27_300708 : B01",Breast
+"27_300708 : F02","Not Reported"
+"27_300708 : F03","Not Reported"
+"27_300708 : F04","Not Reported"
+"27_300720 : B01",C67.9
+"27_300720 : F02",C67.8
+"27_300720 : F03","Not Reported"
+"27_300720 : F04","Not Reported"
+"27_300720 : F05","Not Reported"
+"27_300734 : B01",D17.39
+"27_300734 : F02",D12.3
+"27_300734 : F03","Not Reported"
+"27_300734 : F04","Not Reported"
+"27_300734 : F05","Not Reported"
+"27_300734 : F06","Not Reported"
+"27_300734 : F07","Not Reported"
+"27_300736 : B01",NULL
+"27_300741 : B01",Z51.5
+"27_300741 : F02","Not Reported"
+"27_300741 : F03","Not Reported"
+"27_300741 : F04","Not Reported"
+"27_300741 : F05","Not Reported"
+"27_300742 : B01",Z85.828
+"27_300742 : F02","Not Reported"
+"27_300742 : F03","Not Reported"
+"27_300742 : F04","Not Reported"
+"27_300742 : F05","Not Reported"
+"27_300742 : F06","Not Reported"
+"27_300742 : F07","Not Reported"
+"27_300746 : B01",D050
+"27_300746 : F02",D03.30
+"27_300746 : F03","Not Reported"
+"27_300746 : F04","Not Reported"
+"27_300746 : F05","Not Reported"
+"27_300746 : F06","Not Reported"
+"27_300746 : F07","Not Reported"
+"27_300754 : B01",Z80.41
+"27_300754 : F02",Z151
+"27_300754 : F03","Not Reported"
+"27_300754 : F04","Not Reported"
+"27_300754 : F05","Not Reported"
+"27_300754 : F06","Not Reported"
+"27_300754 : F07","Not Reported"
+"27_300756 : B01",Z85.828
+"27_300756 : F02",C56.9
+"27_300756 : F03","Not Reported"
+"27_300756 : F04","Not Reported"
+"27_300756 : F05","Not Reported"
+"27_300756 : F06","Not Reported"
+"27_300771 : B01",N87.9
+"27_300771 : F02",C54.1
+"27_300771 : F03","Not Reported"
+"27_300771 : F04","Not Reported"
+"27_300771 : F05","Not Reported"
+"27_300771 : F06","Not Reported"
+"27_300778 : B01",Z85.9
+"27_300778 : F02",Z92.3
+"27_300778 : F03","Not Reported"
+"27_300778 : F04","Not Reported"
+"27_300778 : F05","Not Reported"
+"27_300778 : F06","Not Reported"
+"27_300778 : F07","Not Reported"
+"27_300778 : F08","Not Reported"
+"27_300788 : B01",D69.6
+"27_300788 : F02",D22.9
+"27_300788 : F03","Not Reported"
+"27_300788 : F04","Not Reported"
+"27_300788 : F05","Not Reported"
+"27_300788 : F06","Not Reported"
+"27_300791 : B01",C50.911
+"27_300791 : F02",D181
+"27_300791 : F03","Not Reported"
+"27_300791 : F04","Not Reported"
+"27_300791 : F05","Not Reported"
+"27_300791 : F06","Not Reported"
+"27_300813 : B01",Z85.3
+"27_300813 : F02","Not Reported"
+"27_300814 : B01",C50.919
+"27_300814 : F02","Not Reported"
+"27_300814 : F03","Not Reported"
+"27_300814 : F04",Z85.3
+"27_300814 : F05","Not Reported"
+"27_300814 : F06","Not Reported"
+"27_300814 : F07","Not Reported"
+"27_300814 : F08","Not Reported"
+"27_300816 : B01",Z17
+"27_300816 : F02",Z17
+"27_300816 : F03","Not Reported"
+"27_300816 : F04","Not Reported"
+"27_300816 : F05","Not Reported"
+"27_300816 : F06","Not Reported"
+"27_300819 : B01",C50.919
+"27_300819 : F02","Not Reported"
+"27_300821 : B01",D22.9
+"27_300821 : F02","Not Reported"
+"27_300821 : F03",D22.9
+"27_300821 : F04","Not Reported"
+"27_300821 : F05","Not Reported"
+"27_300821 : F06","Not Reported"
+"27_300828 : B01","Kidney Cancer|Squamous Cell Carcinoma|Basal Cell Carcinoma"
+"27_300828 : F02","Not Reported"
+"27_300828 : F03","Not Reported"
+"27_300828 : F04","Not Reported"
+"27_300828 : F05","Not Reported"
+"27_300828 : F06","Not Reported"
+"27_300838 : B01",Z51.89
+"27_300838 : F02",C82.28
+"27_300838 : F03","Not Reported"
+"27_300838 : F04","Not Reported"
+"27_300838 : F05","Not Reported"
+"27_300838 : F06","Not Reported"
+"27_300838 : F07","Not Reported"
+"27_300844 : B01",NULL
+"27_300844 : F02","Not Reported"
+"27_300844 : F03","Not Reported"
+"27_300844 : F04","Not Reported"
+"27_300844 : F05","Not Reported"
+"27_300844 : F06","Not Reported"
+"27_300844 : F07","Not Reported"
+"27_300846 : B01",C920
+"27_300846 : F02",C920
+"27_300846 : F03","Not Reported"
+"27_300846 : F04","Not Reported"
+"27_300846 : F05","Not Reported"
+"27_300854 : B01",D23.5
+"27_300854 : F02","Not Reported"
+"27_300854 : F03",C50.212
+"27_300854 : F04","Not Reported"
+"27_300859 : B01",R97.20
+"27_300859 : F02",C901
+"27_300859 : F03","Not Reported"
+"27_300859 : F04","Not Reported"
+"27_300859 : F05","Not Reported"
+"27_300859 : F06","Not Reported"
+"27_300885 : B01",NULL
+"27_300885 : F02","Not Reported"
+"27_300885 : F03","Not Reported"
+"27_300885 : F04","Not Reported"
+"27_300885 : F05","Not Reported"
+"27_300885 : F06","Not Reported"
+"27_300887 : B01","Basal Cell Carcinoma|Squamous Cell Carcinoma"
+"27_300887 : F02","Not Reported"
+"27_300887 : F03","Not Reported"
+"27_300887 : F04","Not Reported"
+"27_300887 : F05","Not Reported"
+"27_300887 : F06","Not Reported"
+"27_300887 : F07","Not Reported"
+"27_300887 : F08","Not Reported"
+"27_300896 : B01",C81.90
+"27_300896 : F02",D48.9
+"27_300896 : F03","Not Reported"
+"27_300896 : F04","Not Reported"
+"27_300900 : B01",NULL
+"27_300900 : F02","Not Reported"
+"27_300900 : F03","Not Reported"
+"27_300900 : F04","Not Reported"
+"27_300900 : F05","Not Reported"
+"27_300900 : F06","Not Reported"
+"27_300910 : B01",Thyroid
+"27_300910 : F02","Not Reported"
+"27_300915 : B01",C88
+"27_300915 : F02","Not Reported"
+"27_300915 : F03",C88
+"27_300915 : F04","Not Reported"
+"27_300915 : F05","Not Reported"
+"27_300915 : F06","Not Reported"
+"27_300915 : F07","Not Reported"
+"27_300915 : F08","Not Reported"
+"27_300926 : B01","Chronic Myelogenous Leukemia  Basal Cell Lesions"
+"27_300926 : F02","Not Reported"
+"27_300926 : F03","Not Reported"
+"27_300926 : F04","Not Reported"
+"27_300926 : F05","Not Reported"
+"27_300926 : F06","Not Reported"
+"27_300927 : B01",Z92.25
+"27_300927 : F02",D47.Z1
+"27_300927 : F03","Not Reported"
+"27_300927 : F04","Not Reported"
+"27_300927 : F05","Not Reported"
+"27_300927 : F06","Not Reported"
+"27_300928 : B01",Z51.89
+"27_300928 : F02",D181
+"27_300928 : F03","Not Reported"
+"27_300928 : F04","Not Reported"
+"27_300931 : B01",C50.919
+"27_300931 : F02",C50.912
+"27_300931 : F03","Not Reported"
+"27_300931 : F04","Not Reported"
+"27_300931 : F05","Not Reported"
+"27_300931 : F06","Not Reported"
+"27_300939 : B01",R59.9
+"27_300939 : F02",C44.92
+"27_300939 : F03","Not Reported"
+"27_300939 : F04","Not Reported"
+"27_300939 : F05","Not Reported"
+"27_300939 : F06","Not Reported"
+"27_300944 : B01",NULL
+"27_300944 : F02","Not Reported"
+"27_300944 : F03","Not Reported"
+"27_300944 : F04","Not Reported"
+"27_300944 : F05","Not Reported"
+"27_300944 : F06","Not Reported"
+"27_300947 : B01",Z80.3
+"27_300947 : F02","Not Reported"
+"27_300947 : F03","Not Reported"
+"27_300947 : F04","Not Reported"
+"27_300947 : F05","Not Reported"
+"27_300953 : B01",NULL
+"27_300953 : F02","Not Reported"
+"27_300953 : F03","Not Reported"
+"27_300953 : F04","Not Reported"
+"27_300953 : F05","Not Reported"
+"27_300955 : B01",D181
+"27_300955 : F02","Not Reported"
+"27_300955 : F03",R59.9
+"27_300955 : F04","Not Reported"
+"27_300955 : F05","Not Reported"
+"27_300958 : B01",D69.49
+"27_300958 : F02","Not Reported"
+"27_300958 : F03","Not Reported"
+"27_300958 : F04","Not Reported"
+"27_300958 : F05","Not Reported"
+"27_300958 : F06","Not Reported"
+"27_300958 : F07","Not Reported"
+"27_300958 : F08","Not Reported"
+"27_300967 : B01",C50.912
+"27_300967 : F02",Z79.811
+"27_300967 : F03","Not Reported"
+"27_300967 : F04","Not Reported"
+"27_300967 : F05","Not Reported"
+"27_300967 : F06","Not Reported"
+"27_300967 : F07","Not Reported"
+"27_300972 : B01",R97.20
+"27_300972 : F02",R97.20
+"27_300972 : F03","Not Reported"
+"27_300972 : F04","Not Reported"
+"27_300972 : F05","Not Reported"
+"27_300972 : F06","Not Reported"
+"27_300972 : F07","Not Reported"
+"27_300973 : B01",D050
+"27_300973 : F02","Not Reported"
+"27_300973 : F03","Not Reported"
+"27_300973 : F04","Not Reported"
+"27_300973 : F05","Not Reported"
+"27_300973 : F06","Not Reported"
+"27_300973 : F07","Not Reported"
+"27_300976 : B01",D379
+"27_300976 : F02","Not Reported"
+"27_300976 : F03","Not Reported"
+"27_300976 : F04",Z85.818
+"27_300976 : F05","Not Reported"
+"27_300976 : F06","Not Reported"
+"27_300976 : F07","Not Reported"
+"27_300985 : B01","Breast - Phyllodes Tumor"
+"27_300985 : F02","Not Reported"
+"27_300985 : F03","Not Reported"
+"27_300985 : F04","Not Reported"
+"27_300985 : F05","Not Reported"
+"27_300988 : B01",Colon
+"27_300988 : F02","Not Reported"
+"27_300988 : F03","Not Reported"
+"27_300988 : F04","Not Reported"
+"27_300988 : F05","Not Reported"
+"27_300988 : F06","Not Reported"
+"27_300988 : F07","Not Reported"
+"27_301008 : B01",Z85.89
+"27_301008 : F02","Not Reported"
+"27_301008 : F03","Not Reported"
+"27_301008 : F04","Not Reported"
+"27_301008 : F05","Not Reported"
+"27_301009 : B01","Skin On Head"
+"27_301022 : B01",NULL
+"27_301022 : F02","Not Reported"
+"27_301025 : B01",NULL
+"27_301034 : B01",C50.911
+"27_301034 : F02",C50.911
+"27_301034 : F03","Not Reported"
+"27_301034 : F04","Not Reported"
+"27_301034 : F05","Not Reported"
+"27_301047 : B01","Breast Cancer"
+"27_301047 : F02","Not Reported"
+"27_301078 : B01",D23.70
+"27_301078 : F02","Not Reported"
+"27_301078 : F03","Not Reported"
+"27_301092 : B01",NULL
+"27_301092 : F02","Not Reported"
+"27_301094 : B01",NULL
+"27_301094 : F02","Not Reported"
+"27_301094 : F03","Not Reported"
+"27_301094 : F04","Not Reported"
+"27_301094 : F05","Not Reported"
+"27_301094 : F06","Not Reported"
+"27_301094 : F07","Not Reported"
+"27_301094 : F08","Not Reported"
+"27_301101 : B01",C50.919
+"27_301101 : F02","Not Reported"
+"27_301101 : F03","Not Reported"
+"27_301101 : F04","Not Reported"
+"27_301101 : F05",C50.911
+"27_301101 : F06","Not Reported"
+"27_301101 : F07","Not Reported"
+"27_301102 : B01",B97.7
+"27_301102 : F02","Not Reported"
+"27_301102 : F03",C50.811
+"27_301102 : F04","Not Reported"
+"27_301102 : F05","Not Reported"
+"27_301102 : F06","Not Reported"
+"27_301112 : B01",C18.9
+"27_301112 : F02","Not Reported"
+"27_301112 : F03","Not Reported"
+"27_301112 : F04","Not Reported"
+"27_301112 : F05","Not Reported"
+"27_301112 : F06",C61
+"27_301148 : B01",C61
+"27_301148 : F02","Not Reported"
+"27_301148 : F03","Not Reported"
+"27_301148 : F04","Not Reported"
+"27_301148 : F05","Not Reported"
+"27_301148 : F06",C61
+"27_301154 : B01",C50.919
+"27_301154 : F02",C44.321
+"27_301154 : F03","Not Reported"
+"27_301154 : F04","Not Reported"
+"27_301154 : F05","Not Reported"
+"27_301154 : F06","Not Reported"
+"27_301164 : B01",NULL
+"27_301164 : F02","Not Reported"
+"27_301178 : B01",C571
+"27_301178 : F02",C79.31
+"27_301178 : F03","Not Reported"
+"27_301178 : F04","Not Reported"
+"27_301178 : F05","Not Reported"
+"27_301178 : F06","Not Reported"
+"27_301178 : F07","Not Reported"
+"27_301178 : F08","Not Reported"
+"27_301185 : B01",D23.4
+"27_301185 : F02","Not Reported"
+"27_301185 : F03","Not Reported"
+"27_301185 : F04","Not Reported"
+"27_301185 : F05","Not Reported"
+"27_301185 : F06","Not Reported"
+"27_301202 : B01",C56.9
+"27_301202 : F02","Not Reported"
+"27_301202 : F03","Not Reported"
+"27_301202 : F04","Not Reported"
+"27_301202 : F05",C56.9
+"27_301202 : F06","Not Reported"
+"27_301239 : B01",D13.2
+"27_301239 : F02","Not Reported"
+"27_301239 : F03","Not Reported"
+"27_301239 : F04","Not Reported"
+"27_301239 : F05","Not Reported"
+"27_301277 : B01",R87.612
+"27_301277 : F02",Z8610
+"27_301277 : F03","Not Reported"
+"27_301277 : F04","Not Reported"
+"27_301277 : F05","Not Reported"
+"27_301277 : F06","Not Reported"
+"27_301290 : B01",C50.212
+"27_301290 : F02","Not Reported"
+"27_301290 : F03",C50.212
+"27_301290 : F04","Not Reported"
+"27_301290 : F05","Not Reported"
+"27_301314 : B01",NULL
+"27_301314 : F02","Not Reported"
+"27_301314 : F03","Not Reported"
+"27_301314 : F04","Not Reported"
+"27_301314 : F05","Not Reported"
+"27_301314 : F06","Not Reported"
+"27_301340 : B01",D25.9
+"27_301340 : F02","Not Reported"
+"27_301340 : F03","Not Reported"
+"27_301340 : F04","Not Reported"
+"27_301340 : F05",D25.9
+"27_301400 : B01",D25.9
+"27_301400 : F02","Not Reported"
+"27_301400 : F03",C571
+"27_301400 : F04","Not Reported"
+"27_301400 : F05","Not Reported"
+"27_301400 : F06","Not Reported"
+"27_301403 : B01",Z80.41
+"27_301403 : F02","Not Reported"
+"27_301403 : F03","Not Reported"
+"27_301403 : F04","Not Reported"
+"27_301403 : F05","Not Reported"
+"27_301418 : B01",NULL
+"27_301418 : F02","Not Reported"
+"27_301421 : B01",C01
+"27_301421 : F02",C01
+"27_301421 : F03","Not Reported"
+"27_301421 : F04","Not Reported"
+"27_301421 : F05","Not Reported"
+"27_301437 : B01",R87.619
+"27_301437 : F02",Z51.12
+"27_301437 : F03","Not Reported"
+"27_301437 : F04","Not Reported"
+"27_301437 : F05","Not Reported"
+"27_301437 : F06","Not Reported"
+"27_301440 : B01",Z80
+"27_301440 : F02","Not Reported"
+"27_301440 : F03",C88
+"27_301440 : F04","Not Reported"
+"27_301440 : F05","Not Reported"
+"27_301440 : F06","Not Reported"
+"27_301440 : F07","Not Reported"
+"27_301440 : F08","Not Reported"
+"27_301466 : B01",C50.812
+"27_301466 : F02",Z17
+"27_301466 : F03","Not Reported"
+"27_301466 : F04","Not Reported"
+"27_301466 : F05","Not Reported"
+"27_301486 : B01",D22.9
+"27_301486 : F02","Not Reported"
+"27_301486 : F03",C50.412
+"27_301486 : F04","Not Reported"
+"27_301486 : F05","Not Reported"
+"27_301486 : F06","Not Reported"
+"27_301488 : B01",D22.9
+"27_301488 : F02","Not Reported"
+"27_301488 : F03","Not Reported"
+"27_301488 : F04","Not Reported"
+"27_301488 : F05","Not Reported"
+"27_301488 : F06","Not Reported"
+"27_301488 : F07","Not Reported"
+"27_301494 : B01",NULL
+"27_301494 : F02","Not Reported"
+"27_301494 : F03","Not Reported"
+"27_301494 : F04","Not Reported"
+"27_301494 : F05","Not Reported"
+"27_301503 : B01",Breast
+"27_301504 : B01",NULL
+"27_301504 : F02","Not Reported"
+"27_301504 : F03","Not Reported"
+"27_301511 : B01",D49.4
+"27_301511 : F02",C67.8
+"27_301511 : F03","Not Reported"
+"27_301511 : F04","Not Reported"
+"27_301511 : F05","Not Reported"
+"27_301511 : F06","Not Reported"
+"27_301511 : F07","Not Reported"
+"27_301511 : F08","Not Reported"
+"27_301512 : B01",C50.411
+"27_301512 : F02",D23.10
+"27_301512 : F03","Not Reported"
+"27_301512 : F04","Not Reported"
+"27_301512 : F05","Not Reported"
+"27_301512 : F06","Not Reported"
+"27_301517 : B01",R87.613
+"27_301517 : F02",Z51.11
+"27_301517 : F03","Not Reported"
+"27_301517 : F04","Not Reported"
+"27_301517 : F05","Not Reported"
+"27_301521 : B01","Hairy Cell Leukemia"
+"27_301521 : F02","Not Reported"
+"27_301521 : F03","Not Reported"
+"27_301523 : B01","Bladder       Cll       Skin Squamous And Melanoma"
+"27_301525 : B01",C61
+"27_301525 : F02",C61
+"27_301525 : F03","Not Reported"
+"27_301525 : F04","Not Reported"
+"27_301525 : F05","Not Reported"
+"27_301525 : F06","Not Reported"
+"27_301525 : F07","Not Reported"
+"27_301526 : B01",Z85.828
+"27_301526 : F02",C54.1
+"27_301526 : F03","Not Reported"
+"27_301526 : F04","Not Reported"
+"27_301526 : F05","Not Reported"
+"27_301526 : F06","Not Reported"
+"27_301526 : F07","Not Reported"
+"27_301526 : F08","Not Reported"
+"27_301531 : B01",C50.919
+"27_301531 : F02","Not Reported"
+"27_301531 : F03",Z85.3
+"27_301531 : F04","Not Reported"
+"27_301531 : F05","Not Reported"
+"27_301534 : B01","Leukemia  Breast  Skin"
+"27_301534 : F02","Not Reported"
+"27_301534 : F03","Not Reported"
+"27_301534 : F04","Not Reported"
+"27_301534 : F05","Not Reported"
+"27_301546 : B01","Leukemia       Thyroid"
+"27_301546 : F02","Not Reported"
+"27_301546 : F03","Not Reported"
+"27_301546 : F04","Not Reported"
+"27_301546 : F05","Not Reported"
+"27_301546 : F06","Not Reported"
+"27_301564 : B01",NULL
+"27_301564 : F02","Not Reported"
+"27_301564 : F03","Not Reported"
+"27_301564 : F04","Not Reported"
+"27_301564 : F05","Not Reported"
+"27_301564 : F06","Not Reported"
+"27_301564 : F07","Not Reported"
+"27_301572 : B01",Z151
+"27_301572 : F02","Not Reported"
+"27_301572 : F03","Not Reported"
+"27_301572 : F04","Not Reported"
+"27_301572 : F05",Z159
+"27_301572 : F06","Not Reported"
+"27_301578 : B01",C50.511
+"27_301578 : F02",Z17.1
+"27_301578 : F03","Not Reported"
+"27_301578 : F04","Not Reported"
+"27_301578 : F05","Not Reported"
+"27_301578 : F06","Not Reported"
+"27_301584 : B01",C50.411
+"27_301584 : F02","Not Reported"
+"27_301584 : F03","Not Reported"
+"27_301584 : F04","Not Reported"
+"27_301584 : F05","Not Reported"
+"27_301584 : F06","Not Reported"
+"27_301599 : B01",Z85.3
+"27_301599 : F02","Not Reported"
+"27_301599 : F03",R59.9
+"27_301599 : F04","Not Reported"
+"27_301599 : F05","Not Reported"
+"27_301605 : B01",D12.6
+"27_301605 : F02","Not Reported"
+"27_301605 : F03","Not Reported"
+"27_301605 : F04","Not Reported"
+"27_301605 : F05","Not Reported"
+"27_301676 : B01","Condition Not Described"
+"27_301705 : B01",Z85.3
+"27_301705 : F02","Not Reported"
+"27_301705 : F03",C50.512
+"27_301705 : F04","Not Reported"
+"27_301705 : F05","Not Reported"
+"27_301705 : F06","Not Reported"
+"27_301735 : B01",R97.20
+"27_301735 : F02",C61
+"27_301735 : F03","Not Reported"
+"27_301735 : F04","Not Reported"
+"27_301736 : B01",R87.619
+"27_301736 : F02","Not Reported"
+"27_301736 : F03","Not Reported"
+"27_301736 : F04","Not Reported"
+"27_301736 : F05","Not Reported"
+"27_301736 : F06","Not Reported"
+"27_301739 : B01",D25.9
+"27_301739 : F02",C902
+"27_301739 : F03","Not Reported"
+"27_301739 : F04","Not Reported"
+"27_301739 : F05","Not Reported"
+"27_301739 : F06","Not Reported"
+"27_301739 : F07","Not Reported"
+"27_301739 : F08","Not Reported"
+"27_301741 : B01",NULL
+"27_301741 : F02","Not Reported"
+"27_301741 : F03","Not Reported"
+"27_301741 : F04","Not Reported"
+"27_301741 : F05","Not Reported"
+"27_301754 : B01",D49.4
+"27_301754 : F02","Not Reported"
+"27_301754 : F03","Not Reported"
+"27_301754 : F04","Not Reported"
+"27_301754 : F05","Not Reported"
+"27_301754 : F06","Not Reported"
+"27_301767 : B01",Breast
+"27_301767 : F02","Not Reported"
+"27_301779 : B01",C911
+"27_301779 : F02","Not Reported"
+"27_301779 : F03",Z92.21
+"27_301779 : F04","Not Reported"
+"27_301779 : F05","Not Reported"
+"27_301779 : F06","Not Reported"
+"27_301819 : B01",R92.8
+"27_301819 : F02",C50.912
+"27_301819 : F03","Not Reported"
+"27_301819 : F04","Not Reported"
+"27_301819 : F05","Not Reported"
+"27_301819 : F06","Not Reported"
+"27_301833 : B01",D12.5
+"27_301833 : F02",Z79.810
+"27_301833 : F03","Not Reported"
+"27_301833 : F04","Not Reported"
+"27_301833 : F05","Not Reported"
+"27_301833 : F06","Not Reported"
+"27_301836 : B01",C50.919
+"27_301836 : F02","Not Reported"
+"27_301836 : F03",D22.9
+"27_301836 : F04","Not Reported"
+"27_301836 : F05","Not Reported"
+"27_301851 : B01",C73
+"27_301851 : F02",C73
+"27_301851 : F03","Not Reported"
+"27_301851 : F04","Not Reported"
+"27_301851 : F05","Not Reported"
+"27_301851 : F06","Not Reported"
+"27_301863 : B01",D12.6
+"27_301863 : F02",Z17
+"27_301863 : F03","Not Reported"
+"27_301863 : F04","Not Reported"
+"27_301863 : F05","Not Reported"
+"27_301863 : F06","Not Reported"
+"27_301873 : B01",D05.90
+"27_301873 : F02",Z80.8
+"27_301873 : F03","Not Reported"
+"27_301873 : F04","Not Reported"
+"27_301873 : F05","Not Reported"
+"27_301876 : B01",Z17
+"27_301876 : F02",Z17
+"27_301876 : F03","Not Reported"
+"27_301876 : F04","Not Reported"
+"27_301876 : F05","Not Reported"
+"27_301876 : F06","Not Reported"
+"27_301898 : B01",C85.80
+"27_301898 : F02",C85.82
+"27_301898 : F03","Not Reported"
+"27_301898 : F04","Not Reported"
+"27_301898 : F05","Not Reported"
+"27_301898 : F06","Not Reported"
+"27_301955 : B01",NULL
+"27_301955 : F02","Not Reported"
+"27_301955 : F03","Not Reported"
+"27_301955 : F04","Not Reported"
+"27_301955 : F05","Not Reported"
+"27_301992 : B01",C50.919
+"27_301992 : F02",C50.919
+"27_301992 : F03","Not Reported"
+"27_301992 : F04","Not Reported"
+"27_301992 : F05","Not Reported"
+"27_301992 : F06","Not Reported"
+"27_301992 : F07","Not Reported"
+"27_301993 : B01",C62.91
+"27_301993 : F02",Z85.47
+"27_301993 : F03","Not Reported"
+"27_301993 : F04","Not Reported"
+"27_301993 : F05","Not Reported"
+"27_301993 : F06","Not Reported"
+"27_302012 : B01",NULL
+"27_302012 : F02","Not Reported"
+"27_302012 : F03","Not Reported"
+"27_302012 : F04","Not Reported"
+"27_302012 : F05","Not Reported"
+"27_302012 : F06","Not Reported"
+"27_302075 : B01",R97.8
+"27_302075 : F02",Z92.25
+"27_302075 : F03","Not Reported"
+"27_302075 : F04","Not Reported"
+"27_302090 : B01",Z51.89
+"27_302090 : F02","Not Reported"
+"27_302090 : F03","Not Reported"
+"27_302090 : F04",D22.9
+"27_302090 : F05","Not Reported"
+"27_302111 : B01",C54.1
+"27_302111 : F02",C54.1
+"27_302111 : F03","Not Reported"
+"27_302111 : F04","Not Reported"
+"27_302111 : F05","Not Reported"
+"27_302127 : B01",D12.4
+"27_302127 : F02",D12
+"27_302127 : F03","Not Reported"
+"27_302127 : F04","Not Reported"
+"27_302127 : F05","Not Reported"
+"27_302127 : F06","Not Reported"
+"27_302127 : F07","Not Reported"
+"27_302129 : B01",C50.112
+"27_302129 : F02",Z79.811
+"27_302129 : F03","Not Reported"
+"27_302129 : F04","Not Reported"
+"27_302129 : F05","Not Reported"
+"27_302328 : B01",R87.619
+"27_302328 : F02",Z17.1
+"27_302328 : F03","Not Reported"
+"27_302328 : F04","Not Reported"
+"27_302328 : F05","Not Reported"
+"27_302486 : B01",NULL
+"27_302486 : F02","Not Reported"
+"27_302486 : F03","Not Reported"
+"27_302486 : F04","Not Reported"
+"27_302486 : F05","Not Reported"
+"27_302511 : B01",Breast
+"27_302511 : F02","Not Reported"
+"27_302511 : F03","Not Reported"
+"27_302512 : B01",C81.90
+"27_302512 : F02",C44.519
+"27_302512 : F03","Not Reported"
+"27_302512 : F04","Not Reported"
+"27_302512 : F05","Not Reported"
+"27_302512 : F06","Not Reported"
+"27_302820 : B01","Synovial Sarcoma"
+"27_302820 : F02","Not Reported"
+"27_302820 : F03","Not Reported"
+"27_302820 : F04","Not Reported"
+"27_302820 : F05","Not Reported"
+"27_302961 : B01",D16.22
+"27_302961 : F02","Not Reported"
+"27_302961 : F03","Not Reported"
+"27_302961 : F04","Not Reported"
+"27_302961 : F05","Not Reported"
+"27_302961 : F06","Not Reported"
+"27_302961 : F07","Not Reported"
+"27_303017 : B01",Z80.8
+"27_303017 : F02","Not Reported"
+"27_303017 : F03","Not Reported"
+"27_303017 : F04","Not Reported"
+"27_303028 : B01",Z80.42
+"27_303028 : F02","Not Reported"
+"27_303028 : F03","Not Reported"
+"27_303028 : F04","Not Reported"
+"27_303028 : F05","Not Reported"
+"27_303028 : F06","Not Reported"
+"27_303044 : B01",NULL
+"27_303044 : F02","Not Reported"
+"27_303044 : F03","Not Reported"
+"27_303044 : F04","Not Reported"
+"27_303044 : F05","Not Reported"
+"27_303044 : F06","Not Reported"
+"27_303090 : B01",R92.8
+"27_303090 : F02","Not Reported"
+"27_303090 : F03","Not Reported"
+"27_303090 : F04","Not Reported"
+"27_303137 : B01",D23.9
+"27_303137 : F02","Not Reported"
+"27_303137 : F03","Not Reported"
+"27_303137 : F04",D22.9
+"27_303168 : B01",Z80
+"27_303168 : F02","Not Reported"
+"27_303168 : F03","Not Reported"
+"27_303168 : F04",D12.4
+"27_303168 : F05","Not Reported"
+"27_303168 : F06","Not Reported"
+"27_303194 : B01",NULL
+"27_303194 : F02","Not Reported"
+"27_303194 : F03","Not Reported"
+"27_303194 : F04","Not Reported"
+"27_303194 : F05","Not Reported"
+"27_303194 : F06","Not Reported"
+"27_303225 : B01",D22.9
+"27_303225 : F02","Not Reported"
+"27_303225 : F03","Not Reported"
+"27_303225 : F04","Not Reported"
+"27_303225 : F05","Not Reported"
+"27_303225 : F06",D22.9
+"27_303238 : B01",NULL
+"27_303238 : F02","Not Reported"
+"27_303238 : F03","Not Reported"
+"27_303238 : F04","Not Reported"
+"27_303238 : F05","Not Reported"
+"27_303238 : F06","Not Reported"
+"27_303238 : F07","Not Reported"
+"27_303238 : F08","Not Reported"
+"27_303340 : B01",D23.30
+"27_303340 : F02","Not Reported"
+"27_303340 : F03","Not Reported"
+"27_303340 : F04","Not Reported"
+"27_303340 : F05","Not Reported"
+"27_303340 : F06","Not Reported"
+"27_303415 : B01",D23.72
+"27_303415 : F02","Not Reported"
+"27_303415 : F03","Not Reported"
+"27_303415 : F04","Not Reported"
+"27_303415 : F05","Not Reported"
+"27_303421 : B01",D22.9
+"27_303421 : F02","Not Reported"
+"27_303421 : F03","Not Reported"
+"27_303421 : F04","Not Reported"
+"27_303421 : F05","Not Reported"
+"27_303423 : B01",NULL
+"27_303423 : F02","Not Reported"
+"27_303423 : F03","Not Reported"
+"27_303423 : F04","Not Reported"
+"27_303423 : F05","Not Reported"
+"27_303423 : F06","Not Reported"
+"27_303423 : F07","Not Reported"
+"27_303424 : B01",NULL
+"27_303424 : F02","Not Reported"
+"27_303424 : F03","Not Reported"
+"27_303424 : F04","Not Reported"
+"27_303424 : F05","Not Reported"
+"27_303424 : F06","Not Reported"
+"27_303424 : F07","Not Reported"
+"27_303493 : B01",C50.919
+"27_303493 : F02","Not Reported"
+"27_310001 : B01",R59
+"27_310001 : F02","Not Reported"
+"27_310001 : F03","Not Reported"
+"27_310001 : F04",C77.3
+"27_310001 : F05","Not Reported"
+"27_310001 : F06","Not Reported"
+"27_310001 : F07","Not Reported"
+"27_310023 : B01",Z85.51
+"27_310023 : F02","Not Reported"
+"27_310023 : F03","Not Reported"
+"27_310023 : F04",C80.1
+"27_310023 : F05","Not Reported"
+"27_310023 : F06","Not Reported"
+"27_310023 : F07","Not Reported"
+"27_310023 : F08","Not Reported"
+"27_310031 : B01",C54.1
+"27_310031 : F02",C54.1
+"27_310031 : F03","Not Reported"
+"27_310031 : F04","Not Reported"
+"27_310031 : F05","Not Reported"
+"27_310040 : B01",Z80.3
+"27_310040 : F02","Not Reported"
+"27_310040 : F03",D12
+"27_310040 : F04","Not Reported"
+"27_310126 : B01",C50.919
+"27_310126 : F02","Not Reported"
+"27_310126 : F03","Not Reported"
+"27_310126 : F04","Not Reported"
+"27_310126 : F05","Not Reported"
+"27_310126 : F06","Not Reported"
+"27_310126 : F07","Not Reported"
+"27_310126 : F08","Not Reported"
+"27_310229 : B01",D31.31
+"27_310229 : F02",C50.212
+"27_310229 : F03","Not Reported"
+"27_310229 : F04","Not Reported"
+"27_310229 : F05","Not Reported"
+"27_310229 : F06","Not Reported"
+"27_310243 : B01",C56.9
+"27_310243 : F02",C56.9
+"27_310243 : F03","Not Reported"
+"27_310243 : F04","Not Reported"
+"27_310243 : F05","Not Reported"
+"27_310243 : F06","Not Reported"
+"27_310312 : B01",C43.60
+"27_310312 : F02","Not Reported"
+"27_310312 : F03","Not Reported"
+"27_310312 : F04",Z85.820
+"27_310312 : F05","Not Reported"
+"27_400005 : B01",Ovarian
+"27_400006 : B01",C91.10
+"27_400006 : F02",C91.10
+"27_400006 : F03","Not Reported"
+"27_400006 : F04","Not Reported"
+"27_400006 : F05","Not Reported"
+"27_400006 : F06","Not Reported"
+"27_400016 : B01",C50.919
+"27_400016 : F02",D48.5
+"27_400016 : F03","Not Reported"
+"27_400016 : F04","Not Reported"
+"27_400016 : F05","Not Reported"
+"27_400017 : B01",Cll
+"27_400019 : B01",C840
+"27_400019 : F02","Not Reported"
+"27_400028 : B01",C50.911
+"27_400028 : F02","Not Reported"
+"27_400028 : F03","Not Reported"
+"27_400028 : F04","Not Reported"
+"27_400028 : F05","Not Reported"
+"27_400040 : B01",NULL
+"27_400042 : B01",Z51.89
+"27_400042 : F02","Not Reported"
+"27_400042 : F03",R97.20
+"27_400042 : F04","Not Reported"
+"27_400042 : F05","Not Reported"
+"27_400042 : F06","Not Reported"
+"27_400045 : B01",D69.6
+"27_400045 : F02","Not Reported"
+"27_400045 : F03","Not Reported"
+"27_400045 : F04",D181
+"27_400047 : B01",R92.8
+"27_400047 : F02","Not Reported"
+"27_400047 : F03","Not Reported"
+"27_400047 : F04","Not Reported"
+"27_400047 : F05","Not Reported"
+"27_400047 : F06","Not Reported"
+"27_400052 : B01","Melanoma       Endometrial"
+"27_400054 : B01",Skin
+"27_400054 : F02","Not Reported"
+"27_400054 : F03","Not Reported"
+"27_400056 : B01",NULL
+"27_400056 : F02","Not Reported"
+"27_400058 : B01",Z51.89
+"27_400058 : F02",R92.8
+"27_400058 : F03","Not Reported"
+"27_400058 : F04","Not Reported"
+"27_400058 : F05","Not Reported"
+"27_400059 : B01",NULL
+"27_400060 : B01",D69.6
+"27_400060 : F02","Not Reported"
+"27_400060 : F03","Not Reported"
+"27_400060 : F04",D49.2
+"27_400060 : F05","Not Reported"
+"27_400061 : B01",D69.6
+"27_400061 : F02","Not Reported"
+"27_400061 : F03","Not Reported"
+"27_400061 : F04","Not Reported"
+"27_400061 : F05","Not Reported"
+"27_400061 : F06","Not Reported"
+"27_400061 : F07","Not Reported"
+"27_400062 : B01",NULL
+"27_400064 : B01",NULL
+"27_400064 : F02","Not Reported"
+"27_400064 : F03","Not Reported"
+"27_400064 : F04","Not Reported"
+"27_400064 : F05","Not Reported"
+"27_400064 : F06","Not Reported"
+"27_400065 : B01",C61
+"27_400065 : F02",D181
+"27_400065 : F03","Not Reported"
+"27_400065 : F04","Not Reported"
+"27_400065 : F05","Not Reported"
+"27_400065 : F06","Not Reported"
+"27_400065 : F07","Not Reported"
+"27_400066 : B01",NULL
+"27_400067 : B01",C50.919
+"27_400067 : F02",Z85.820
+"27_400067 : F03","Not Reported"
+"27_400067 : F04","Not Reported"
+"27_400067 : F05","Not Reported"
+"27_400067 : F06","Not Reported"
+"27_400067 : F07","Not Reported"
+"27_400068 : B01",R59.1
+"27_400068 : F02","Not Reported"
+"27_400069 : B01",D22.5
+"27_400069 : F02","Not Reported"
+"27_400069 : F03","Not Reported"
+"27_400069 : F04",Z92.25
+"27_400069 : F05","Not Reported"
+"27_400077 : B01",R92.8
+"27_400077 : F02",C50.812
+"27_400077 : F03","Not Reported"
+"27_400077 : F04","Not Reported"
+"27_400077 : F05","Not Reported"
+"27_400078 : B01",Breast
+"27_400078 : F02","Not Reported"
+"27_400078 : F03","Not Reported"
+"27_400078 : F04","Not Reported"
+"27_400078 : F05","Not Reported"
+"27_400078 : F06","Not Reported"
+"27_400082 : B01",C61
+"27_400082 : F02","Not Reported"
+"27_400082 : F03","Not Reported"
+"27_400082 : F04","Not Reported"
+"27_400082 : F05","Not Reported"
+"27_400082 : F06","Not Reported"
+"27_400084 : B01",C73
+"27_400084 : F02","Not Reported"
+"27_400084 : F03","Not Reported"
+"27_400084 : F04","Not Reported"
+"27_400084 : F05","Not Reported"
+"27_400089 : B01","Multiple Myeloma"
+"27_400089 : F02","Not Reported"
+"27_400089 : F03","Not Reported"
+"27_400089 : F04","Not Reported"
+"27_400090 : B01","Condition Not Described"
+"27_400091 : B01",NULL
+"27_400092 : B01",NULL
+"27_400093 : B01","Non-Hodgkins Lymphoma"
+"27_400093 : F02","Not Reported"
+"27_400093 : F03","Not Reported"
+"27_400093 : F04","Not Reported"
+"27_400093 : F05","Not Reported"
+"27_400093 : F06","Not Reported"
+"27_400093 : F07","Not Reported"
+"27_400093 : F08","Not Reported"
+"27_400095 : B01","Kidney Cancer|Liver Cancer|Colon Cancer"
+"27_400095 : F02","Not Reported"
+"27_400095 : F03","Not Reported"
+"27_400095 : F04","Not Reported"
+"27_400095 : F05","Not Reported"
+"27_400095 : F06","Not Reported"
+"27_400096 : B01","Multiple Myeloma"
+"27_400098 : B01",C50.919
+"27_400098 : F02","Not Reported"
+"27_400098 : F03",Z85.3
+"27_400098 : F04","Not Reported"
+"27_400098 : F05","Not Reported"
+"27_400098 : F06","Not Reported"
+"27_400111 : B01","Breast Cancer"
+"27_400111 : F02",Z85.3
+"27_400111 : F03","Not Reported"
+"27_400111 : F04","Not Reported"
+"27_400112 : B01","Metastatic Breast Cancer"
+"27_400112 : F02","Not Reported"
+"27_400112 : F03","Not Reported"
+"27_400112 : F04","Not Reported"
+"27_400112 : F05","Not Reported"
+"27_400112 : F06","Not Reported"
+"27_400112 : F07","Not Reported"
+"27_400117 : B01",C44.721
+"27_400117 : F02","Not Reported"
+"27_400117 : F03","Not Reported"
+"27_400117 : F04","Not Reported"
+"27_400117 : F05","Not Reported"
+"27_400118 : B01",NULL
+"27_400118 : F02","Not Reported"
+"27_400118 : F03","Not Reported"
+"27_400118 : F04","Not Reported"
+"27_400118 : F05","Not Reported"
+"27_400119 : B01","Smoldering Multiple Myoloma"
+"27_400119 : F02","Not Reported"
+"27_400119 : F03","Not Reported"
+"27_400119 : F04","Not Reported"
+"27_400121 : B01",Endometrial
+"27_400121 : F02","Not Reported"
+"27_400121 : F03","Not Reported"
+"27_400121 : F04","Not Reported"
+"27_400121 : F05","Not Reported"
+"27_400125 : B01",R59
+"27_400125 : F02",C34.32
+"27_400125 : F03","Not Reported"
+"27_400125 : F04","Not Reported"
+"27_400125 : F05","Not Reported"
+"27_400125 : F06","Not Reported"
+"27_400130 : B01",C900
+"27_400130 : F02","Not Reported"
+"27_400130 : F03","Not Reported"
+"27_400130 : F04","Not Reported"
+"27_400130 : F05",D181
+"27_400132 : B01","Not Reported"
+"27_400132 : F02","Not Reported"
+"27_400132 : F03","Not Reported"
+"27_400132 : F04","Not Reported"
+"27_400132 : F05","Not Reported"
+"27_400132 : F06","Not Reported"
+"27_400132 : F07","Not Reported"
+"27_400132 : F08","Not Reported"
+"27_400136 : B01",Z80.3
+"27_400136 : F02",Z8610
+"27_400136 : F03","Not Reported"
+"27_400136 : F04","Not Reported"
+"27_400136 : F05","Not Reported"
+"27_400136 : F06","Not Reported"
+"27_400142 : B01",D69.6
+"27_400142 : F02","Not Reported"
+"27_400145 : B01",C34.90
+"27_400145 : F02",D22.9
+"27_400145 : F03","Not Reported"
+"27_400145 : F04","Not Reported"
+"27_400146 : B01",D23.30
+"27_400146 : F02",C22
+"27_400146 : F03","Not Reported"
+"27_400147 : B01",C73
+"27_400147 : F02",C18.9
+"27_400147 : F03","Not Reported"
+"27_400147 : F04","Not Reported"
+"27_400147 : F05","Not Reported"
+"27_400147 : F06","Not Reported"
+"27_400148 : B01","Non-Hodgkins Lymphoma|Breast Cancer"
+"27_400148 : F02","Not Reported"
+"27_400148 : F03","Not Reported"
+"27_400148 : F04","Not Reported"
+"27_400150 : B01",D49.2
+"27_400150 : F02","Not Reported"
+"27_400150 : F03",D22.9
+"27_400150 : F04","Not Reported"
+"27_400150 : F05","Not Reported"
+"27_400150 : F06","Not Reported"
+"27_400151 : B01",NULL
+"27_400164 : B01",C92.41
+"27_400164 : F02",C92.41
+"27_400164 : F03","Not Reported"
+"27_400164 : F04","Not Reported"
+"27_400168 : B01",D69.6
+"27_400168 : F02","Not Reported"
+"27_400168 : F03","Not Reported"
+"27_400168 : F04","Not Reported"
+"27_400168 : F05","Not Reported"
+"27_400168 : F06",D181
+"27_400168 : F07","Not Reported"
+"27_400169 : B01",NULL
+"27_400169 : F02","Not Reported"
+"27_400169 : F03","Not Reported"
+"27_400169 : F04","Not Reported"
+"27_400169 : F05","Not Reported"
+"27_400169 : F06","Not Reported"
+"27_400169 : F07","Not Reported"
+"27_400169 : F08","Not Reported"
+"27_400170 : B01",D46.9
+"27_400170 : F02",Z94.81
+"27_400170 : F03","Not Reported"
+"27_400171 : B01",D25.9
+"27_400171 : F02",C56.3
+"27_400171 : F03","Not Reported"
+"27_400178 : B01",Z80
+"27_400178 : F02",C78.7
+"27_400178 : F03","Not Reported"
+"27_400178 : F04","Not Reported"
+"27_400178 : F05","Not Reported"
+"27_400179 : B01",C50.912
+"27_400179 : F02","Not Reported"
+"27_400179 : F03","Not Reported"
+"27_400179 : F04","Not Reported"
+"27_400179 : F05",Z857
+"27_400179 : F06","Not Reported"
+"27_400179 : F07","Not Reported"
+"27_400181 : B01",D69.6
+"27_400181 : F02",C83.10
+"27_400181 : F03","Not Reported"
+"27_400181 : F04","Not Reported"
+"27_400181 : F05","Not Reported"
+"27_400181 : F06","Not Reported"
+"27_400185 : B01",NULL
+"27_400186 : B01",Z51.5
+"27_400186 : F02","Not Reported"
+"27_400186 : F03","Not Reported"
+"27_400186 : F04","Not Reported"
+"27_400186 : F05","Not Reported"
+"27_400186 : F06","Not Reported"
+"27_400188 : B01","Breast Cancer"
+"27_400188 : F02","Not Reported"
+"27_400188 : F03","Not Reported"
+"27_400188 : F04","Not Reported"
+"27_400188 : F05","Not Reported"
+"27_400191 : B01",C62.91
+"27_400191 : F02","Not Reported"
+"27_400191 : F03","Not Reported"
+"27_400191 : F04",Z85.828
+"27_400200 : B01",Lymphoma
+"27_400200 : F02","Not Reported"
+"27_400200 : F03","Not Reported"
+"27_400202 : B01",D69.6
+"27_400202 : F02","Not Reported"
+"27_400202 : F03","Not Reported"
+"27_400202 : F04","Not Reported"
+"27_400202 : F05","Not Reported"
+"27_400203 : B01",D05.11
+"27_400203 : F02","Not Reported"
+"27_400203 : F03","Not Reported"
+"27_400203 : F04","Not Reported"
+"27_400204 : B01",D22.9
+"27_400204 : F02","Not Reported"
+"27_400204 : F03","Not Reported"
+"27_400204 : F04",Z85.828
+"27_400209 : B01",NULL
+"27_400211 : B01","Basal Cell Carcinoma"
+"27_400211 : F02","Not Reported"
+"27_400211 : F03","Not Reported"
+"27_400211 : F04",C44.91
+"27_400211 : F05","Not Reported"
+"27_400211 : F06","Not Reported"
+"27_400211 : F07","Not Reported"
+"27_400211 : F08","Not Reported"
+"27_400212 : B01","Melanoma     ;Male Breast     ;Prostate     ;Basal Cell     ;Squamous Cell"
+"27_400212 : F02","Not Reported"
+"27_400218 : B01",NULL
+"27_400218 : F02","Not Reported"
+"27_400218 : F03","Not Reported"
+"27_400218 : F04","Not Reported"
+"27_400218 : F05","Not Reported"
+"27_400218 : F06","Not Reported"
+"27_400220 : B01",R59.9
+"27_400220 : F02","Not Reported"
+"27_400220 : F03",D12
+"27_400220 : F04","Not Reported"
+"27_400220 : F05","Not Reported"
+"27_400221 : B01",R92.30
+"27_400221 : F02","Not Reported"
+"27_400221 : F03","Not Reported"
+"27_400221 : F04","Not Reported"
+"27_400221 : F05","Not Reported"
+"27_400221 : F06","Not Reported"
+"27_400224 : B01",C64.9
+"27_400224 : F02","Not Reported"
+"27_400224 : F03","Not Reported"
+"27_400224 : F04","Not Reported"
+"27_400225 : B01",Z85.47
+"27_400225 : F02","Not Reported"
+"27_400225 : F03","Not Reported"
+"27_400225 : F04","Not Reported"
+"27_400226 : B01",C50.911
+"27_400226 : F02","Not Reported"
+"27_400226 : F03","Not Reported"
+"27_400226 : F04","Not Reported"
+"27_400226 : F05","Not Reported"
+"27_400226 : F06",C50.211
+"27_400226 : F07","Not Reported"
+"27_400228 : B01",D12.6
+"27_400228 : F02","Not Reported"
+"27_400228 : F03","Not Reported"
+"27_400228 : F04",Z92.25
+"27_400228 : F05","Not Reported"
+"27_400228 : F06","Not Reported"
+"27_400231 : B01",Breast
+"27_400231 : F02","Not Reported"
+"27_400231 : F03","Not Reported"
+"27_400231 : F04","Not Reported"
+"27_400231 : F05","Not Reported"
+"27_400234 : B01",Z85.3
+"27_400234 : F02","Not Reported"
+"27_400234 : F03","Not Reported"
+"27_400234 : F04","Not Reported"
+"27_400234 : F05","Not Reported"
+"27_400234 : F06","Not Reported"
+"27_400234 : F07","Not Reported"
+"27_400236 : B01","Colon/Rectal       Mds & Mgus"
+"27_400236 : F02","Not Reported"
+"27_400236 : F03","Not Reported"
+"27_400236 : F04","Not Reported"
+"27_400236 : F05","Not Reported"
+"27_400236 : F06","Not Reported"
+"27_400237 : B01",Pancreatic
+"27_400242 : B01",D48.5
+"27_400242 : F02",C44.629
+"27_400242 : F03","Not Reported"
+"27_400242 : F04","Not Reported"
+"27_400244 : B01",C50.919
+"27_400244 : F02","Not Reported"
+"27_400244 : F03",Z85.3
+"27_400244 : F04","Not Reported"
+"27_400244 : F05","Not Reported"
+"27_400244 : F06","Not Reported"
+"27_400244 : F07","Not Reported"
+"27_400250 : B01",C44.520
+"27_400250 : F02","Not Reported"
+"27_400250 : F03","Not Reported"
+"27_400250 : F04","Not Reported"
+"27_400251 : B01",C50.919
+"27_400251 : F02",C50.412
+"27_400251 : F03","Not Reported"
+"27_400251 : F04","Not Reported"
+"27_400251 : F05","Not Reported"
+"27_400251 : F06","Not Reported"
+"27_400251 : F07","Not Reported"
+"27_400257 : B01",D69.6
+"27_400257 : F02","Not Reported"
+"27_400257 : F03",D23.9
+"27_400257 : F04","Not Reported"
+"27_400259 : B01",NULL
+"27_400259 : F02","Not Reported"
+"27_400259 : F03","Not Reported"
+"27_400259 : F04","Not Reported"
+"27_400259 : F05","Not Reported"
+"27_400259 : F06","Not Reported"
+"27_400259 : F07","Not Reported"
+"27_400262 : B01",D23.9
+"27_400262 : F02","Not Reported"
+"27_400262 : F03",D181
+"27_400262 : F04","Not Reported"
+"27_400270 : B01",D23.60
+"27_400270 : F02","Not Reported"
+"27_400270 : F03","Not Reported"
+"27_400270 : F04","Not Reported"
+"27_400273 : B01",C50.919
+"27_400273 : F02","Not Reported"
+"27_400273 : F03","Not Reported"
+"27_400273 : F04","Not Reported"
+"27_400273 : F05","Not Reported"
+"27_400273 : F06","Not Reported"
+"27_400276 : B01",C50.912
+"27_400276 : F02",Z80
+"27_400276 : F03","Not Reported"
+"27_400276 : F04","Not Reported"
+"27_400276 : F05","Not Reported"
+"27_400277 : B01",C50.919
+"27_400277 : F02","Not Reported"
+"27_400277 : F03",C50.912
+"27_400277 : F04","Not Reported"
+"27_400277 : F05","Not Reported"
+"27_400277 : F06","Not Reported"
+"27_400277 : F07","Not Reported"
+"27_400283 : B01",NULL
+"27_400283 : F02","Not Reported"
+"27_400283 : F03","Not Reported"
+"27_400283 : F04","Not Reported"
+"27_400283 : F05","Not Reported"
+"27_400284 : B01",NULL
+"27_400284 : F02","Not Reported"
+"27_400284 : F03","Not Reported"
+"27_400284 : F04","Not Reported"
+"27_400284 : F05","Not Reported"
+"27_400284 : F06","Not Reported"
+"27_400285 : B01",Z80
+"27_400285 : F02","Not Reported"
+"27_400285 : F03",Z80
+"27_400285 : F04","Not Reported"
+"27_400289 : B01",D06.9
+"27_400289 : F02","Not Reported"
+"27_400289 : F03","Not Reported"
+"27_400289 : F04","Not Reported"
+"27_400289 : F05","Not Reported"
+"27_400292 : B01",G63
+"27_400292 : F02",G63
+"27_400292 : F03","Not Reported"
+"27_400292 : F04","Not Reported"
+"27_400292 : F05","Not Reported"
+"27_400293 : B01",D183
+"27_400293 : F02",C44.311
+"27_400293 : F03","Not Reported"
+"27_400293 : F04","Not Reported"
+"27_400293 : F05","Not Reported"
+"27_400300 : B01",D23.9
+"27_400300 : F02",Z85.3
+"27_400300 : F03","Not Reported"
+"27_400300 : F04","Not Reported"
+"27_400300 : F05","Not Reported"
+"27_400304 : B01",Skin
+"27_400304 : F02","Not Reported"
+"27_400304 : F03","Not Reported"
+"27_400304 : F04","Not Reported"
+"27_400304 : F05","Not Reported"
+"27_400304 : F06","Not Reported"
+"27_400304 : F07","Not Reported"
+"27_400306 : B01",NULL
+"27_400306 : F02","Not Reported"
+"27_400335 : B01",NULL
+"27_400336 : B01",D69.6
+"27_400336 : F02","Not Reported"
+"27_400336 : F03","Not Reported"
+"27_400340 : B01",R97.20
+"27_400340 : F02","Not Reported"
+"27_400340 : F03","Not Reported"
+"27_400340 : F04","Not Reported"
+"27_400370 : B01",D12
+"27_400370 : F02","Not Reported"
+"27_400370 : F03",D17
+"27_400384 : B01",R87.610
+"27_400384 : F02",C25
+"27_400384 : F03","Not Reported"
+"27_400384 : F04","Not Reported"
+"27_400384 : F05","Not Reported"
+"27_400385 : B01",R97.20
+"27_400385 : F02","Not Reported"
+"27_400390 : B01",C44.319
+"27_400390 : F02","Not Reported"
+"27_400390 : F03","Not Reported"
+"27_400390 : F04","Not Reported"
+"27_400390 : F05","Not Reported"
+"27_400390 : F06","Not Reported"
+"27_400391 : B01",R92
+"27_400391 : F02",D45
+"27_400391 : F03","Not Reported"
+"27_400391 : F04","Not Reported"
+"27_400406 : B01",D31.32
+"27_400406 : F02","Not Reported"
+"27_400406 : F03","Not Reported"
+"27_400451 : B01","Kidney Cancer|Prostate Cancer|Skin Cancer"
+"27_400451 : F02","Not Reported"
+"27_400451 : F03","Not Reported"
+"27_400451 : F04","Not Reported"
+"27_400452 : B01",D479
+"27_400452 : F02","Not Reported"
+"27_400453 : B01",R87.610
+"27_400453 : F02","Not Reported"
+"27_400455 : B01",NULL
+"27_400455 : F02","Not Reported"
+"27_400490 : B01",D69.6
+"27_400490 : F02","Not Reported"
+"27_400490 : F03",D69.6
+"27_400490 : F04","Not Reported"
+"27_400490 : F05","Not Reported"
+"27_400490 : F06","Not Reported"
+"27_400490 : F07","Not Reported"
+"27_400537 : B01",C22
+"27_400537 : F02",C22
+"27_400537 : F03","Not Reported"
+"27_400537 : F04","Not Reported"
+"27_400559 : B01",Cll
+"27_400559 : F02","Not Reported"
+"27_400559 : F03","Not Reported"
+"27_400559 : F04","Not Reported"
+"27_400559 : F05","Not Reported"
+"27_400559 : F06","Not Reported"
+"27_400565 : B01",D22.5
+"27_400565 : F02","Not Reported"
+"27_400565 : F03","Not Reported"
+"27_400565 : F04","Not Reported"
+"27_400565 : F05","Not Reported"
+"27_400565 : F06","Not Reported"
+"27_400573 : B01",NULL
+"27_400573 : F02","Not Reported"
+"27_400573 : F03","Not Reported"
+"27_400573 : F04","Not Reported"
+"27_400573 : F05","Not Reported"
+"27_400575 : B01",D25.9
+"27_400575 : F02","Not Reported"
+"27_400575 : F03","Not Reported"
+"27_400582 : B01",D12.6
+"27_400582 : F02","Not Reported"
+"27_400582 : F03","Not Reported"
+"27_400583 : B01",NULL
+"27_400586 : B01",NULL
+"27_400586 : F02","Not Reported"
+"27_400586 : F03","Not Reported"
+"27_400586 : F04","Not Reported"
+"27_400618 : B01",R59.9
+"27_400618 : F02","Not Reported"
+"27_400618 : F03","Not Reported"
+"27_400618 : F04","Not Reported"
+"27_400618 : F05","Not Reported"
+"27_400618 : F06","Not Reported"
+"27_400618 : F07","Not Reported"
+"27_400634 : B01",D22.9
+"27_400634 : F02","Not Reported"
+"27_400634 : F03","Not Reported"
+"27_400634 : F04","Not Reported"
+"27_400636 : B01","Non-Hodgkins Lymphoma"
+"27_400636 : F02","Not Reported"
+"27_400728 : B01",C56.1
+"27_400728 : F02",Z85.43
+"27_400728 : F03","Not Reported"
+"27_400728 : F04","Not Reported"
+"27_400728 : F05","Not Reported"
+"27_400728 : F06","Not Reported"
+"27_400728 : F07","Not Reported"
+"27_400728 : F08","Not Reported"
+"27_400762 : B01",NULL
+"27_400762 : F02","Not Reported"
+"27_400762 : F03","Not Reported"
+"27_400762 : F04","Not Reported"
+"27_400792 : B01",R87.619
+"27_400792 : F02","Not Reported"
+"27_400792 : F03",R92.8
+"27_400792 : F04","Not Reported"
+"27_400792 : F05","Not Reported"
+"27_400792 : F06","Not Reported"
+"27_400792 : F07","Not Reported"
+"27_400835 : B01",Z92.25
+"27_400835 : F02",Z92.25
+"27_400835 : F03","Not Reported"
+"27_400835 : F04","Not Reported"
+"27_400835 : F05","Not Reported"
+"27_400835 : F06","Not Reported"
+"27_400835 : F07","Not Reported"
+"27_400835 : F08","Not Reported"
+"27_400847 : B01",D22.9
+"27_400847 : F02","Not Reported"
+"27_400847 : F03",D22.9
+"27_400863 : B01",NULL
+"27_400888 : B01",NULL
+"27_400888 : F02","Not Reported"
+"27_400888 : F03","Not Reported"
+"27_400888 : F04","Not Reported"
+"27_400901 : B01",NULL
+"27_400901 : F02","Not Reported"
+"27_400901 : F03","Not Reported"
+"27_400901 : F04","Not Reported"
+"27_400908 : B01","Breast Cancer"
+"27_400908 : F02","Not Reported"
+"27_400908 : F03","Not Reported"
+"27_400929 : B01","Non-Hodgkins Lymphoma"
+"27_400929 : F02","Not Reported"
+"27_400930 : B01",NULL
+"27_400930 : F02","Not Reported"
+"27_400941 : B01",D69.6
+"27_400941 : F02","Not Reported"
+"27_400941 : F03","Not Reported"
+"27_400941 : F04","Not Reported"
+"27_400941 : F05","Not Reported"
+"27_400950 : B01",NULL
+"27_400950 : F02","Not Reported"
+"27_400950 : F03","Not Reported"
+"27_400950 : F04","Not Reported"
+"27_400950 : F05",C54.1
+"27_400968 : B01",D69.59
+"27_400968 : F02","Not Reported"
+"27_400968 : F03","Not Reported"
+"27_400968 : F04","Not Reported"
+"27_400968 : F05","Not Reported"
+"27_400968 : F06","Not Reported"
+"27_400989 : B01",NULL
+"27_401002 : B01",C50.919
+"27_401002 : F02","Not Reported"
+"27_401002 : F03","Not Reported"
+"27_401002 : F04","Not Reported"
+"27_401002 : F05","Not Reported"
+"27_401002 : F06","Not Reported"
+"27_401014 : B01",R92.8
+"27_401014 : F02","Not Reported"
+"27_401014 : F03","Not Reported"
+"27_401014 : F04","Not Reported"
+"27_401014 : F05","Not Reported"
+"27_401014 : F06",C50.211
+"27_401018 : B01",D47.2
+"27_401018 : F02",D47.2
+"27_401018 : F03","Not Reported"
+"27_401018 : F04","Not Reported"
+"27_401018 : F05","Not Reported"
+"27_401018 : F06","Not Reported"
+"27_401018 : F07","Not Reported"
+"27_401046 : B01",NULL
+"27_401046 : F02","Not Reported"
+"27_401046 : F03","Not Reported"
+"27_401046 : F04","Not Reported"
+"27_401046 : F05","Not Reported"
+"27_401046 : F06","Not Reported"
+"27_401046 : F07","Not Reported"
+"27_401138 : B01",D48.7
+"27_401138 : F02",C49.21
+"27_401138 : F03","Not Reported"
+"27_401138 : F04","Not Reported"
+"27_401138 : F05","Not Reported"
+"27_401138 : F06","Not Reported"
+"27_401142 : B01",D36.7
+"27_401142 : F02","Not Reported"
+"27_401142 : F03","Not Reported"
+"27_401156 : B01",NULL
+"27_401156 : F02","Not Reported"
+"27_401156 : F03","Not Reported"
+"27_401161 : B01",Z80.3
+"27_401161 : F02","Not Reported"
+"27_401161 : F03","Not Reported"
+"27_401161 : F04","Not Reported"
+"27_401161 : F05","Not Reported"
+"27_401162 : B01",R59
+"27_401162 : F02","Not Reported"
+"27_401162 : F03","Not Reported"
+"27_401162 : F04","Not Reported"
+"27_401173 : B01",NULL
+"27_401173 : F02","Not Reported"
+"27_401188 : B01",NULL
+"27_401188 : F02","Not Reported"
+"27_401188 : F03","Not Reported"
+"27_401199 : B01",C73
+"27_401199 : F02",C73
+"27_401199 : F03","Not Reported"
+"27_401209 : B01",D69.6
+"27_401209 : F02","Not Reported"
+"27_401209 : F03","Not Reported"
+"27_401209 : F04","Not Reported"
+"27_401251 : B01",R87.610
+"27_401251 : F02","Not Reported"
+"27_401251 : F03","Not Reported"
+"27_401251 : F04","Not Reported"
+"27_401279 : B01",NULL
+"27_401279 : F02","Not Reported"
+"27_401280 : B01",D12.6
+"27_401280 : F02","Not Reported"
+"27_401280 : F03","Not Reported"
+"27_401280 : F04","Not Reported"
+"27_401280 : F05","Not Reported"
+"27_401300 : B01",D23.5
+"27_401300 : F02",D06.9
+"27_401300 : F03","Not Reported"
+"27_401312 : B01",D23.9
+"27_401312 : F02",D89.1
+"27_401312 : F03","Not Reported"
+"27_401325 : B01",Z80.3
+"27_401325 : F02",Z159
+"27_401325 : F03","Not Reported"
+"27_401345 : B01",R87.610
+"27_401345 : F02","Not Reported"
+"27_401345 : F03","Not Reported"
+"27_401357 : B01",R87.619
+"27_401357 : F02","Not Reported"
+"27_401357 : F03",R87.612
+"27_401357 : F04","Not Reported"
+"27_401357 : F05","Not Reported"
+"27_401362 : B01",NULL
+"27_401362 : F02",D22.9
+"27_401362 : F03","Not Reported"
+"27_401362 : F04","Not Reported"
+"27_401372 : B01",D69.6
+"27_401372 : F02","Not Reported"
+"27_401372 : F03","Not Reported"
+"27_401402 : B01",NULL
+"27_401402 : F02","Not Reported"
+"27_401402 : F03","Not Reported"
+"27_401433 : B01",D31.62
+"27_401433 : F02","Not Reported"
+"27_401433 : F03","Not Reported"
+"27_401453 : B01",NULL
+"27_401453 : F02","Not Reported"
+"27_401453 : F03","Not Reported"
+"27_401474 : B01",Z85.47
+"27_401474 : F02",C910
+"27_401474 : F03","Not Reported"
+"27_401474 : F04","Not Reported"
+"27_401479 : B01",D17.20
+"27_401479 : F02","Not Reported"
+"27_401493 : B01",NULL
+"27_401493 : F02","Not Reported"
+"27_401493 : F03","Not Reported"
+"27_401533 : B01",D12.2
+"27_401533 : F02",Z80.3
+"27_401533 : F03","Not Reported"
+"27_401533 : F04","Not Reported"
+"27_401544 : B01",Z80
+"27_401544 : F02","Not Reported"
+"27_401544 : F03","Not Reported"
+"27_401547 : B01",NULL
+"27_401547 : F02","Not Reported"
+"27_401547 : F03","Not Reported"
+"27_401548 : B01",NULL
+"27_401548 : F02","Not Reported"
+"27_401548 : F03","Not Reported"
+"27_401548 : F04","Not Reported"
+"27_401566 : B01",D183
+"27_401566 : F02","Not Reported"
+"27_401570 : B01",C61
+"27_401570 : F02","Not Reported"
+"27_401570 : F03",C61
+"27_401570 : F04","Not Reported"
+"27_401570 : F05","Not Reported"
+"27_401571 : B01",NULL
+"27_401571 : F02","Not Reported"
+"27_401574 : B01",D22.9
+"27_401574 : F02","Not Reported"
+"27_401574 : F03","Not Reported"
+"27_401576 : B01",NULL
+"27_401576 : F02","Not Reported"
+"27_401576 : F03","Not Reported"
+"27_401577 : B01",NULL
+"27_401577 : F02","Not Reported"
+"27_401578 : B01",D89.42
+"27_401578 : F02",D3A12
+"27_401578 : F03","Not Reported"
+"27_401580 : B01",D22.9
+"27_401580 : F02","Not Reported"
+"27_401580 : F03","Not Reported"
+"27_401581 : B01",R87.612
+"27_401581 : F02",D22.9
+"27_401581 : F03","Not Reported"
+"27_401581 : F04","Not Reported"
+"27_401582 : B01",D22.9
+"27_401582 : F02","Not Reported"
+"27_401582 : F03","Not Reported"
+"27_401585 : B01",R87.612
+"27_401585 : F02","Not Reported"
+"27_401585 : F03","Not Reported"
+"27_401585 : F04",D22.9
+"27_401585 : F05","Not Reported"
+"27_401585 : F06","Not Reported"
+"27_401586 : B01",NULL
+"27_401586 : F02","Not Reported"
+"27_401586 : F03","Not Reported"
+"27_401586 : F04","Not Reported"
+"27_401587 : B01",D31.32
+"27_401587 : F02",D31.32
+"27_401587 : F03","Not Reported"
+"27_401587 : F04","Not Reported"
+"27_401590 : B01",D23.9
+"27_401590 : F02",Z8610
+"27_401590 : F03","Not Reported"
+"27_401590 : F04","Not Reported"
+"27_401590 : F05","Not Reported"
+"27_401591 : B01",D69.59
+"27_401591 : F02",D69.6
+"27_401596 : B01",D25.1
+"27_401596 : F02","Not Reported"
+"27_401596 : F03","Not Reported"
+"27_401600 : B01",D48.5
+"27_401600 : F02","Not Reported"
+"27_401600 : F03",D181
+"27_401600 : F04","Not Reported"
+"27_401603 : B01",C44.311
+"27_401603 : F02",Z8610
+"27_401604 : B01",Z51.89
+"27_401604 : F02","Not Reported"
+"27_401604 : F03","Not Reported"
+"27_401604 : F04","Not Reported"
+"27_401605 : B01",NULL
+"27_401605 : F02","Not Reported"
+"27_401605 : F03","Not Reported"
+"27_401606 : B01",D69.6
+"27_401606 : F02","Not Reported"
+"27_401606 : F03","Not Reported"
+"27_401608 : B01",R92.8
+"27_401608 : F02","Not Reported"
+"27_401608 : F03","Not Reported"
+"27_401608 : F04","Not Reported"
+"27_401609 : B01",NULL
+"27_401609 : F02","Not Reported"
+"27_401616 : B01",D22.9
+"27_401616 : F02","Not Reported"
+"27_401616 : F03","Not Reported"
+"27_401633 : B01",NULL
+"27_401633 : F02","Not Reported"
+"27_401633 : F03","Not Reported"
+"27_401633 : F04","Not Reported"
+"27_401644 : B01",Breast
+"27_401644 : F02","Not Reported"
+"27_401644 : F03","Not Reported"
+"27_401657 : B01",NULL
+"27_401657 : F02","Not Reported"
+"27_401657 : F03","Not Reported"
+"27_401665 : B01",R59.9
+"27_401665 : F02","Not Reported"
+"27_401665 : F03","Not Reported"
+"27_401665 : F04","Not Reported"
+"27_401668 : B01",C61
+"27_401668 : F02",C61
+"27_401668 : F03","Not Reported"
+"27_401668 : F04","Not Reported"
+"27_401676 : B01",NULL
+"27_401676 : F02","Not Reported"
+"27_401676 : F03","Not Reported"
+"27_401677 : B01",NULL
+"27_401677 : F02","Not Reported"
+"27_401677 : F03","Not Reported"
+"27_401722 : B01",Z85.46
+"27_401722 : F02","Not Reported"
+"27_401722 : F03","Not Reported"
+"27_401722 : F04",Z85.46
+"27_401725 : B01",NULL
+"27_401725 : F02","Not Reported"
+"27_401726 : B01",NULL
+"27_401726 : F02","Not Reported"
+"27_401726 : F03","Not Reported"
+"27_401738 : B01",Z8618
+"27_401738 : F02","Not Reported"
+"27_401738 : F03","Not Reported"
+"27_401738 : F04",D07.1
+"27_401738 : F05","Not Reported"
+"27_401748 : B01",C50.919
+"27_401748 : F02",C50.919
+"27_401748 : F03","Not Reported"
+"27_401748 : F04","Not Reported"
+"27_401749 : B01",Z80
+"27_401749 : F02",C61
+"27_401749 : F03","Not Reported"
+"27_401749 : F04","Not Reported"
+"27_401749 : F05","Not Reported"
+"27_401749 : F06","Not Reported"
+"27_401751 : B01","Peritoneal Mesothelioma"
+"27_401754 : B01",Z85.828
+"27_401754 : F02","Not Reported"
+"27_401754 : F03","Not Reported"
+"27_401754 : F04","Not Reported"
+"27_401760 : B01",C61
+"27_401760 : F02",C79.51
+"27_401760 : F03","Not Reported"
+"27_401777 : B01",C61
+"27_401777 : F02",C61
+"27_401777 : F03","Not Reported"
+"27_401780 : B01",Z85.828
+"27_401780 : F02",D181
+"27_401780 : F03","Not Reported"
+"27_401780 : F04","Not Reported"
+"27_401785 : B01",D35.2
+"27_401785 : F02","Not Reported"
+"27_401785 : F03","Not Reported"
+"27_401785 : F04","Not Reported"
+"27_401785 : F05","Not Reported"
+"27_401786 : B01",R92.8
+"27_401786 : F02",D05.12
+"27_401786 : F03","Not Reported"
+"27_401786 : F04","Not Reported"
+"27_401786 : F05","Not Reported"
+"27_401787 : B01",D23.30
+"27_401789 : B01",Z92.25
+"27_401789 : F02",Z92.25
+"27_401789 : F03","Not Reported"
+"27_401789 : F04","Not Reported"
+"27_401789 : F05","Not Reported"
+"27_401790 : B01","Prostate      Melanoma"
+"27_401790 : F02","Not Reported"
+"27_401792 : B01",C900
+"27_401792 : F02","Not Reported"
+"27_401792 : F03","Not Reported"
+"27_401792 : F04",C901
+"27_401792 : F05","Not Reported"
+"27_401793 : B01",R92.8
+"27_401793 : F02",C85.99
+"27_401793 : F03","Not Reported"
+"27_401795 : B01",R59
+"27_401795 : F02","Not Reported"
+"27_401795 : F03","Not Reported"
+"27_401795 : F04","Not Reported"
+"27_401797 : B01",C61
+"27_401797 : F02",Z85.46
+"27_401797 : F03","Not Reported"
+"27_401799 : B01",Z85.828
+"27_401799 : F02",R92.2
+"27_401799 : F03","Not Reported"
+"27_401799 : F04","Not Reported"
+"27_401799 : F05","Not Reported"
+"27_401803 : B01",C61
+"27_401803 : F02",C61
+"27_401808 : B01",Z80
+"27_401808 : F02","Not Reported"
+"27_401809 : B01",NULL
+"27_401809 : F02","Not Reported"
+"27_401811 : B01",NULL
+"27_401811 : F02","Not Reported"
+"27_401811 : F03","Not Reported"
+"27_401814 : B01",D12.6
+"27_401814 : F02",Z8610
+"27_401814 : F03","Not Reported"
+"27_401814 : F04","Not Reported"
+"27_401815 : B01",C54.1
+"27_401815 : F02","Not Reported"
+"27_401815 : F03","Not Reported"
+"27_401815 : F04",C54.1
+"27_401815 : F05","Not Reported"
+"27_401817 : B01",NULL
+"27_401817 : F02","Not Reported"
+"27_401817 : F03","Not Reported"
+"27_401818 : B01",C73
+"27_401818 : F02","Not Reported"
+"27_401818 : F03","Not Reported"
+"27_401818 : F04",C73
+"27_401818 : F05","Not Reported"
+"27_401818 : F06","Not Reported"
+"27_401818 : F07","Not Reported"
+"27_401819 : B01",C50.919
+"27_401819 : F02",C50.412
+"27_401819 : F03","Not Reported"
+"27_401827 : B01",D181
+"27_401827 : F02","Not Reported"
+"27_401827 : F03","Not Reported"
+"27_401828 : B01",C61
+"27_401828 : F02",D181
+"27_401828 : F03","Not Reported"
+"27_401835 : B01",D23.9
+"27_401835 : F02","Not Reported"
+"27_401835 : F03","Not Reported"
+"27_401835 : F04","Not Reported"
+"27_401835 : F05","Not Reported"
+"27_401837 : B01",NULL
+"27_401837 : F02","Not Reported"
+"27_401837 : F03","Not Reported"
+"27_401837 : F04","Not Reported"
+"27_401837 : F05","Not Reported"
+"27_401838 : B01",NULL
+"27_401838 : F02","Not Reported"
+"27_401838 : F03","Not Reported"
+"27_401841 : B01",NULL
+"27_401841 : F02","Not Reported"
+"27_401841 : F03","Not Reported"
+"27_401841 : F04","Not Reported"
+"27_401843 : B01",NULL
+"27_401843 : F02","Not Reported"
+"27_401844 : B01",R92.8
+"27_401844 : F02",Z80.3
+"27_401844 : F03","Not Reported"
+"27_401844 : F04","Not Reported"
+"27_401844 : F05","Not Reported"
+"27_401844 : F06","Not Reported"
+"27_401846 : B01",D23.9
+"27_401846 : F02","Not Reported"
+"27_401849 : B01",C61
+"27_401849 : F02","Not Reported"
+"27_401850 : B01",NULL
+"27_401850 : F02",D181
+"27_401854 : B01",Z85.3
+"27_401854 : F02",Z80.42
+"27_401865 : B01",R87.610
+"27_401865 : F02","Not Reported"
+"27_401865 : F03",D181
+"27_401867 : B01",Z85.828
+"27_401867 : F02","Not Reported"
+"27_401873 : B01",D21.9
+"27_401873 : F02","Not Reported"
+"27_401873 : F03","Not Reported"
+"27_401874 : B01",D301
+"27_401874 : F02",C44.619
+"27_401874 : F03","Not Reported"
+"27_401877 : B01","Cll       Hodgkins Lymphoma"
+"27_401878 : B01",C50.912
+"27_401878 : F02","Not Reported"
+"27_401881 : B01",C50.919
+"27_401881 : F02",C50.919
+"27_401881 : F03","Not Reported"
+"27_401884 : B01",NULL
+"27_401884 : F02","Not Reported"
+"27_401884 : F03","Not Reported"
+"27_401884 : F04","Not Reported"
+"27_401890 : B01",C50.911
+"27_401890 : F02",C50.411
+"27_401891 : B01",D25.9
+"27_401891 : F02",Z85.828
+"27_401891 : F03","Not Reported"
+"27_401897 : B01",C73
+"27_401897 : F02","Not Reported"
+"27_401898 : B01",NULL
+"27_401898 : F02","Not Reported"
+"27_401898 : F03","Not Reported"
+"27_402088 : B01",D23.5
+"27_402088 : F02","Not Reported"
+"27_402088 : F03",D12.2
+"27_402088 : F04","Not Reported"
+"27_402088 : F05","Not Reported"
+"27_402121 : B01",Z51.5
+"27_402121 : F02","Not Reported"
+"27_402121 : F03","Not Reported"
+"27_402208 : B01",NULL
+"27_402208 : F02","Not Reported"
+"27_402208 : F03","Not Reported"
+"27_402208 : F04","Not Reported"
+"27_402208 : F05","Not Reported"
+"27_402208 : F06","Not Reported"
+"27_402208 : F07","Not Reported"
+"27_402208 : F08","Not Reported"
+"27_402209 : B01",NULL
+"27_402245 : B01",NULL
+"27_402245 : F02","Not Reported"
+"27_402245 : F03","Not Reported"
+"27_402245 : F04","Not Reported"
+"27_402245 : F05","Not Reported"
+"27_402256 : B01",R92.8
+"27_402256 : F02","Not Reported"
+"27_402280 : B01","Follicular Non-Hodgkins Lymphoma"
+"27_402280 : F02","Not Reported"
+"27_402280 : F03","Not Reported"
+"27_402280 : F04","Not Reported"
+"27_402280 : F05","Not Reported"
+"27_402287 : B01",NULL
+"27_402287 : F02","Not Reported"
+"27_402287 : F03","Not Reported"
+"27_402287 : F04","Not Reported"
+"27_402287 : F05","Not Reported"
+"27_402287 : F06","Not Reported"
+"27_402287 : F07","Not Reported"
+"27_402294 : B01",C83.32
+"27_402294 : F02","Not Reported"
+"27_402294 : F03",C82.99
+"27_402294 : F04","Not Reported"
+"27_402294 : F05","Not Reported"
+"27_402306 : B01",R59.9
+"27_402306 : F02","Not Reported"
+"27_402421 : B01",C50.919
+"27_402421 : F02","Not Reported"
+"27_402421 : F03",Z17.1
+"27_402459 : B01",B97.7
+"27_402459 : F02","Not Reported"
+"27_402518 : B01",D181
+"27_402518 : F02","Not Reported"
+"27_402518 : F03","Not Reported"
+"27_402518 : F04","Not Reported"
+"27_402524 : B01",C83.10
+"27_402524 : F02","Not Reported"
+"27_402577 : B01",D22.9
+"27_402577 : F02","Not Reported"
+"27_402586 : B01",C91.10
+"27_402586 : F02",D12.3
+"27_402586 : F03","Not Reported"
+"27_402661 : B01",D23.4
+"27_402661 : F02","Not Reported"
+"27_402661 : F03","Not Reported"
+"27_402661 : F04","Not Reported"
+"27_402661 : F05","Not Reported"
+"27_402731 : B01",D17.1
+"27_402731 : F02",D22.9
+"27_402731 : F03","Not Reported"
+"27_402731 : F04","Not Reported"
+"27_402731 : F05","Not Reported"
+"27_402734 : B01",NULL
+"27_402734 : F02","Not Reported"
+"27_402734 : F03","Not Reported"
+"27_402734 : F04","Not Reported"
+"27_402734 : F05","Not Reported"
+"27_402764 : B01",R92.8
+"27_402764 : F02",Z51.11
+"27_402764 : F03","Not Reported"
+"27_402764 : F04","Not Reported"
+"27_402817 : B01",Z80.3
+"27_402817 : F02","Not Reported"
+"27_402817 : F03",R92.8
+"27_402822 : B01",D22.9
+"27_402822 : F02","Not Reported"
+"27_402822 : F03","Not Reported"
+"27_402822 : F04",D36.11
+"27_402822 : F05","Not Reported"
+"27_402840 : B01",C61
+"27_402840 : F02","Not Reported"
+"27_402840 : F03","Not Reported"
+"27_402840 : F04","Not Reported"
+"27_402840 : F05","Not Reported"
+"27_402840 : F06","Not Reported"
+"27_402850 : B01",C80.2
+"27_402850 : F02","Not Reported"
+"27_402850 : F03","Not Reported"
+"27_402967 : B01",C80.2
+"27_402967 : F02","Not Reported"
+"27_402967 : F03","Not Reported"
+"27_402967 : F04","Not Reported"
+"27_403025 : B01",Z8618
+"27_403025 : F02","Not Reported"
+"27_403025 : F03","Not Reported"
+"27_403025 : F04","Not Reported"
+"27_403069 : B01",NULL
+"27_403069 : F02","Not Reported"
+"27_403069 : F03","Not Reported"
+"27_403069 : F04","Not Reported"
+"27_403069 : F05","Not Reported"
+"27_403136 : B01",R92.1
+"27_403136 : F02","Not Reported"
+"27_403136 : F03","Not Reported"
+"27_403136 : F04",D22.9
+"27_403136 : F05","Not Reported"
+"27_403136 : F06","Not Reported"
+"27_403156 : B01",N87
+"27_403156 : F02","Not Reported"
+"27_403156 : F03","Not Reported"
+"27_403156 : F04","Not Reported"
+"27_403163 : B01",B97.7
+"27_403163 : F02","Not Reported"
+"27_403163 : F03","Not Reported"
+"27_403163 : F04","Not Reported"
+"27_403163 : F05","Not Reported"
+"27_403169 : B01",R87.619
+"27_403169 : F02","Not Reported"
+"27_403169 : F03","Not Reported"
+"27_403169 : F04","Not Reported"
+"27_403169 : F05",R92.8
+"27_403215 : B01",D22.9
+"27_403215 : F02","Not Reported"
+"27_403215 : F03","Not Reported"
+"27_403215 : F04","Not Reported"
+"27_403215 : F05","Not Reported"
+"27_403215 : F06","Not Reported"
+"27_403216 : B01",NULL
+"27_403216 : F02","Not Reported"
+"27_403216 : F03","Not Reported"
+"27_403216 : F04","Not Reported"
+"27_403216 : F05","Not Reported"
+"27_403216 : F06","Not Reported"
+"27_403222 : B01",D23.30
+"27_403222 : F02",Z80.3
+"27_403222 : F03","Not Reported"
+"27_403260 : B01",NULL
+"27_403260 : F02","Not Reported"
+"27_403260 : F03","Not Reported"
+"27_403260 : F04","Not Reported"
+"27_403296 : B01",NULL
+"27_403296 : F02","Not Reported"
+"27_403296 : F03","Not Reported"
+"27_403296 : F04","Not Reported"
+"27_403301 : B01",NULL
+"27_403301 : F02","Not Reported"
+"27_403301 : F03","Not Reported"
+"27_403301 : F04","Not Reported"
+"27_403301 : F05","Not Reported"
+"27_403301 : F06","Not Reported"
+"27_403304 : B01",R92.8
+"27_403304 : F02","Not Reported"
+"27_403304 : F03","Not Reported"
+"27_403304 : F04","Not Reported"
+"27_403304 : F05","Not Reported"
+"27_403308 : B01",D22.9
+"27_403308 : F02",D48.5
+"27_403308 : F03","Not Reported"
+"27_403308 : F04","Not Reported"
+"27_403308 : F05","Not Reported"
+"27_403312 : B01",Z80.9
+"27_403312 : F02","Not Reported"
+"27_403312 : F03",Z151
+"27_403321 : B01",D22.30
+"27_403321 : F02","Not Reported"
+"27_403321 : F03","Not Reported"
+"27_403321 : F04","Not Reported"
+"27_403330 : B01",D181
+"27_403330 : F02","Not Reported"
+"27_403330 : F03","Not Reported"
+"27_403330 : F04","Not Reported"
+"27_403330 : F05","Not Reported"
+"27_403330 : F06","Not Reported"
+"27_403335 : B01",R59.9
+"27_403335 : F02","Not Reported"
+"27_403335 : F03","Not Reported"
+"27_403336 : B01",NULL
+"27_403336 : F02","Not Reported"
+"27_403336 : F03","Not Reported"
+"27_403336 : F04","Not Reported"
+"27_403336 : F05","Not Reported"
+"27_403338 : B01",Z80.49
+"27_403344 : B01",NULL
+"27_403344 : F02","Not Reported"
+"27_403344 : F03","Not Reported"
+"27_403344 : F04","Not Reported"
+"27_403344 : F05","Not Reported"
+"27_403356 : B01",NULL
+"27_403356 : F02","Not Reported"
+"27_403356 : F03","Not Reported"
+"27_403356 : F04","Not Reported"
+"27_403357 : B01",NULL
+"27_403357 : F02","Not Reported"
+"27_403357 : F03","Not Reported"
+"27_403357 : F04","Not Reported"
+"27_403378 : B01",D22.9
+"27_403378 : F02","Not Reported"
+"27_403378 : F03","Not Reported"
+"27_403378 : F04","Not Reported"
+"27_403378 : F05","Not Reported"
+"27_403391 : B01",R92.8
+"27_403391 : F02","Not Reported"
+"27_403391 : F03","Not Reported"
+"27_403391 : F04","Not Reported"
+"27_403391 : F05","Not Reported"
+"27_403391 : F06","Not Reported"
+"27_403391 : F07","Not Reported"
+"27_403406 : B01",Z80
+"27_403406 : F02","Not Reported"
+"27_403406 : F03","Not Reported"
+"27_403406 : F04","Not Reported"
+"27_403420 : B01",Z8618
+"27_403420 : F02","Not Reported"
+"27_403420 : F03","Not Reported"
+"27_403420 : F04","Not Reported"
+"27_403422 : B01",NULL
+"27_403422 : F02","Not Reported"
+"27_403426 : B01",NULL
+"27_403426 : F02","Not Reported"
+"27_403426 : F03","Not Reported"
+"27_403426 : F04","Not Reported"
+"27_403429 : B01",NULL
+"27_403429 : F02","Not Reported"
+"27_403429 : F03","Not Reported"
+"27_403429 : F04","Not Reported"
+"27_403429 : F05","Not Reported"
+"27_403437 : B01",Z80.3
+"27_403437 : F02","Not Reported"
+"27_403437 : F03","Not Reported"
+"27_403437 : F04","Not Reported"
+"27_403441 : B01",NULL
+"27_403441 : F02","Not Reported"
+"27_403441 : F03","Not Reported"
+"27_403441 : F04","Not Reported"
+"27_403441 : F05","Not Reported"
+"27_403442 : B01",D23.9
+"27_403442 : F02","Not Reported"
+"27_403442 : F03","Not Reported"
+"27_403442 : F04","Not Reported"
+"27_403442 : F05","Not Reported"
+"27_403450 : B01",NULL
+"27_403450 : F02","Not Reported"
+"27_403450 : F03","Not Reported"
+"27_403451 : B01",D22.9
+"27_403451 : F02",R92.8
+"27_403451 : F03","Not Reported"
+"27_403451 : F04","Not Reported"
+"27_403452 : B01",NULL
+"27_403452 : F02","Not Reported"
+"27_403452 : F03","Not Reported"
+"27_403452 : F04","Not Reported"
+"27_403452 : F05","Not Reported"
+"27_403455 : B01",R87.610
+"27_403455 : F02","Not Reported"
+"27_403455 : F03",Z85.42
+"27_403455 : F04","Not Reported"
+"27_403455 : F05","Not Reported"
+"27_403457 : B01",NULL
+"27_403457 : F02","Not Reported"
+"27_403458 : B01",D12.2
+"27_403458 : F02","Not Reported"
+"27_403463 : B01",N87
+"27_403463 : F02","Not Reported"
+"27_403468 : B01",D22.9
+"27_403468 : F02",Z151
+"27_403468 : F03","Not Reported"
+"27_403468 : F04","Not Reported"
+"27_403469 : B01",Z8610
+"27_403469 : F02","Not Reported"
+"27_403469 : F03",Z8610
+"27_403469 : F04","Not Reported"
+"27_403472 : B01",D25.9
+"27_403472 : F02",C18.7
+"27_403472 : F03","Not Reported"
+"27_403473 : B01",Z80
+"27_403473 : F02","Not Reported"
+"27_403473 : F03","Not Reported"
+"27_403473 : F04",D181
+"27_403473 : F05","Not Reported"
+"27_403490 : B01",D22.9
+"27_403490 : F02","Not Reported"
+"27_403502 : B01",D25.9
+"27_403502 : F02","Not Reported"
+"27_403502 : F03","Not Reported"
+"27_403502 : F04","Not Reported"
+"27_403540 : B01",D23.9
+"27_403540 : F02",C79.31
+"27_403572 : B01",C50.419
+"27_403572 : F02","Not Reported"
+"27_403572 : F03","Not Reported"
+"27_403592 : B01",Z17.1
+"27_403592 : F02",C50.812
+"27_403592 : F03","Not Reported"
+"27_403606 : B01",Z80
+"27_403606 : F02","Not Reported"
+"27_403625 : B01",D12.6
+"27_403625 : F02","Not Reported"
+"27_403669 : B01",D25.9
+"27_403669 : F02",C50.912
+"27_404404 : B01","Basal Cell Carcinoma|Kidney Cancer"
+"27_404404 : F02","Not Reported"
+"27_405504 : B01",D23.5
+"27_407704 : B01",R59.1
+"27_407704 : F02",D49.1
+"27_409005 : B01",C50.919
+"27_409005 : F02","Not Reported"
+"27_409005 : F03","Not Reported"
+"27_410010 : B01",Z51.5
+"27_410010 : F02","Not Reported"
+"27_410010 : F03","Not Reported"
+"27_410010 : F04","Not Reported"
+"27_410010 : F05","Not Reported"
+"27_410010 : F06","Not Reported"
+"27_410035 : B01",D69.6
+"27_410035 : F02","Not Reported"
+"27_410035 : F03","Not Reported"
+"27_410035 : F04","Not Reported"
+"27_410035 : F05","Not Reported"
+"27_410035 : F06","Not Reported"
+"27_410057 : B01",NULL
+"27_410057 : F02","Not Reported"
+"27_410057 : F03",C44.319
+"27_410057 : F04","Not Reported"
+"27_410057 : F05","Not Reported"
+"27_410065 : B01",Z51.5
+"27_410065 : F02",C44.329
+"27_410065 : F03","Not Reported"
+"27_410065 : F04","Not Reported"
+"27_410065 : F05","Not Reported"
+"27_410065 : F06","Not Reported"
+"27_410082 : B01",D69.6
+"27_410082 : F02",D181
+"27_410082 : F03","Not Reported"
+"27_410082 : F04","Not Reported"
+"27_410082 : F05","Not Reported"
+"27_410093 : B01",NULL
+"27_410093 : F02","Not Reported"
+"27_410109 : B01",C44.90
+"27_410109 : F02","Not Reported"
+"27_410109 : F03","Not Reported"
+"27_410109 : F04","Not Reported"
+"27_410109 : F05","Not Reported"
+"27_410118 : B01",R87.612
+"27_410118 : F02",D23.9
+"27_410118 : F03","Not Reported"
+"27_410120 : B01",Z51.5
+"27_410120 : F02","Not Reported"
+"27_410120 : F03","Not Reported"
+"27_410120 : F04",Z92.25
+"27_410120 : F05","Not Reported"
+"27_410120 : F06","Not Reported"
+"27_410120 : F07","Not Reported"
+"27_410120 : F08","Not Reported"
+"27_410139 : B01",Z85.828
+"27_410139 : F02","Not Reported"
+"27_410139 : F03","Not Reported"
+"27_410139 : F04","Not Reported"
+"27_410139 : F05","Not Reported"
+"27_410139 : F06","Not Reported"
+"27_410181 : B01",D47.2
+"27_410181 : F02",D181
+"27_410181 : F03","Not Reported"
+"27_410181 : F04","Not Reported"
+"27_410242 : B01",D32
+"27_410242 : F02","Not Reported"
+"27_410242 : F03",D32.9
+"27_410242 : F04","Not Reported"
+"27_410242 : F05","Not Reported"
+"27_410242 : F06","Not Reported"
+"27_410242 : F07","Not Reported"
+"27_410246 : B01",NULL
+"27_410278 : B01",D11.9
+"27_410278 : F02",Z94.84
+"27_410278 : F03","Not Reported"
+"27_410278 : F04","Not Reported"
+"27_410538 : B01",C81.90
+"27_410538 : F02",C50.919
+"27_410544 : B01",NULL
+"27_410544 : F02","Not Reported"
+"27_410706 : B01",D22.9
+"27_410706 : F02","Not Reported"
+"27_410706 : F03","Not Reported"
+"27_410706 : F04",D22.9
+"27_410718 : B01",NULL
+"27_410718 : F02","Not Reported"
+"27_410718 : F03","Not Reported"
+"27_410718 : F04","Not Reported"
+"27_410754 : B01",NULL
+"27_410754 : F02","Not Reported"
+"27_410754 : F03","Not Reported"
+"27_410754 : F04","Not Reported"
+"27_410754 : F05","Not Reported"
+"27_410754 : F06","Not Reported"
+"27_410754 : F07","Not Reported"
+"27_410760 : B01",C73
+"27_410760 : F02",C73
+"27_410760 : F03","Not Reported"
+"27_410760 : F04","Not Reported"
+"27_410760 : F05","Not Reported"
+"27_410950 : B01",NULL
+"27_410950 : F02","Not Reported"
+"27_410950 : F03","Not Reported"
+"27_410950 : F04",D31.32
+"27_410950 : F05","Not Reported"
+"27_410950 : F06","Not Reported"
+"27_411186 : B01","Hodgkins Lymphoma  Dec"
+"27_413102 : B01",R92.8
+"27_413102 : F02",Z80.3
+"27_413102 : F03","Not Reported"
+"27_413102 : F04","Not Reported"
+"27_413102 : F05","Not Reported"
+"27_413424 : B01",R87.612
+"27_413424 : F02","Not Reported"
+"27_413424 : F03","Not Reported"
+"27_413424 : F04","Not Reported"
+"27_413424 : F05",D22.9
+"27_413426 : B01",Z85.42
+"27_413426 : F02",C83.39
+"27_413435 : B01","Squamous Cell Carcinoma"
+"27_413435 : F02","Not Reported"
+"27_413435 : F03","Not Reported"
+"27_413435 : F04","Not Reported"
+"27_413435 : F05","Not Reported"
+"27_413435 : F06","Not Reported"
+"27_413437 : B01",Z80
+"27_413437 : F02","Not Reported"
+"27_413441 : B01",C902
+"27_413441 : F02",C902
+"27_413441 : F03","Not Reported"
+"27_413441 : F04","Not Reported"
+"27_413442 : B01",R92.8
+"27_413442 : F02",D48.5
+"27_413442 : F03","Not Reported"
+"27_413442 : F04","Not Reported"
+"27_413442 : F05","Not Reported"
+"27_413453 : B01",NULL
+"27_413453 : F02","Not Reported"
+"27_413453 : F03","Not Reported"
+"27_413453 : F04","Not Reported"
+"27_413455 : B01",Z80.42
+"27_413455 : F02",C18.1
+"27_413455 : F03","Not Reported"
+"27_413455 : F04","Not Reported"
+"27_413455 : F05","Not Reported"
+"27_413455 : F06","Not Reported"
+"27_413456 : B01",D22.9
+"27_413456 : F02","Not Reported"
+"27_413456 : F03",D181
+"27_413456 : F04","Not Reported"
+"27_413463 : B01",D23.60
+"27_413463 : F02","Not Reported"
+"27_413463 : F03","Not Reported"
+"27_413463 : F04","Not Reported"
+"27_413463 : F05","Not Reported"
+"27_413464 : B01",D23.9
+"27_413464 : F02","Not Reported"
+"27_413464 : F03","Not Reported"
+"27_413464 : F04","Not Reported"
+"27_413466 : B01",C50.919
+"27_413466 : F02","Not Reported"
+"27_413466 : F03",Z85.828
+"27_413466 : F04","Not Reported"
+"27_413466 : F05","Not Reported"
+"27_413466 : F06","Not Reported"
+"27_413469 : B01",NULL
+"27_413469 : F02","Not Reported"
+"27_413469 : F03","Not Reported"
+"27_413469 : F04","Not Reported"
+"27_413469 : F05","Not Reported"
+"27_413469 : F06","Not Reported"
+"27_413469 : F07","Not Reported"
+"27_413470 : B01",NULL
+"27_413470 : F02","Not Reported"
+"27_413470 : F03","Not Reported"
+"27_413470 : F04","Not Reported"
+"27_413470 : F05","Not Reported"
+"27_413471 : B01",D23.4
+"27_413471 : F02",R92.8
+"27_413471 : F03","Not Reported"
+"27_413471 : F04","Not Reported"
+"27_413471 : F05","Not Reported"
+"27_413474 : B01",NULL
+"27_413474 : F02","Not Reported"
+"27_413474 : F03","Not Reported"
+"27_413474 : F04","Not Reported"
+"27_413474 : F05","Not Reported"
+"27_413474 : F06","Not Reported"
+"27_413474 : F07","Not Reported"
+"27_413477 : B01",NULL
+"27_413477 : F02","Not Reported"
+"27_413477 : F03","Not Reported"
+"27_413477 : F04","Not Reported"
+"27_413477 : F05","Not Reported"
+"27_413480 : B01",D23.5
+"27_413480 : F02",D22.9
+"27_413480 : F03","Not Reported"
+"27_413480 : F04","Not Reported"
+"27_413480 : F05","Not Reported"
+"27_413482 : B01",D49.7
+"27_413482 : F02","Not Reported"
+"27_413482 : F03",D189
+"27_413482 : F04","Not Reported"
+"27_413492 : B01",NULL
+"27_413492 : F02",D48.5
+"27_413492 : F03","Not Reported"
+"27_413492 : F04","Not Reported"
+"27_413492 : F05","Not Reported"
+"27_413495 : B01",R59.9
+"27_413495 : F02","Not Reported"
+"27_413497 : B01",NULL
+"27_413497 : F02","Not Reported"
+"27_413502 : B01",R59.9
+"27_413502 : F02","Not Reported"
+"27_413502 : F03","Not Reported"
+"27_413502 : F04","Not Reported"
+"27_413502 : F05","Not Reported"
+"27_413502 : F06","Not Reported"
+"27_413503 : B01",Z92.25
+"27_413503 : F02","Not Reported"
+"27_413503 : F03","Not Reported"
+"27_413503 : F04","Not Reported"
+"27_413503 : F05","Not Reported"
+"27_413503 : F06","Not Reported"
+"27_413503 : F07","Not Reported"
+"27_413503 : F08","Not Reported"
+"27_413504 : B01",D25
+"27_413504 : F02","Not Reported"
+"27_413504 : F03","Not Reported"
+"27_413504 : F04","Not Reported"
+"27_413504 : F05","Not Reported"
+"27_413507 : B01",Blood
+"27_413511 : B01",C91.10
+"27_413511 : F02",C91.10
+"27_413511 : F03","Not Reported"
+"27_413512 : B01",NULL
+"27_413512 : F02","Not Reported"
+"27_413513 : B01","Breast Cancer"
+"27_413513 : F02","Not Reported"
+"27_413513 : F03","Not Reported"
+"27_413517 : B01",Z8610
+"27_413517 : F02","Not Reported"
+"27_413517 : F03","Not Reported"
+"27_413517 : F04","Not Reported"
+"27_413518 : B01",Z8610
+"27_413518 : F02","Not Reported"
+"27_413518 : F03","Not Reported"
+"27_413518 : F04","Not Reported"
+"27_413518 : F05","Not Reported"
+"27_413523 : B01",D12.6
+"27_413523 : F02","Not Reported"
+"27_413523 : F03","Not Reported"
+"27_413523 : F04","Not Reported"
+"27_413523 : F05","Not Reported"
+"27_413525 : B01",B97.7
+"27_413525 : F02","Not Reported"
+"27_413525 : F03","Not Reported"
+"27_413525 : F04","Not Reported"
+"27_413528 : B01",NULL
+"27_413528 : F02","Not Reported"
+"27_413528 : F03","Not Reported"
+"27_413536 : B01",D48.9
+"27_413536 : F02","Not Reported"
+"27_413536 : F03","Not Reported"
+"27_413536 : F04","Not Reported"
+"27_413539 : B01",R97.20
+"27_413539 : F02","Not Reported"
+"27_413539 : F03",Z80
+"27_413539 : F04","Not Reported"
+"27_413539 : F05","Not Reported"
+"27_413539 : F06","Not Reported"
+"27_413541 : B01",C50.919
+"27_413541 : F02",C49.22
+"27_413541 : F03","Not Reported"
+"27_413554 : B01",NULL
+"27_413554 : F02","Not Reported"
+"27_413554 : F03","Not Reported"
+"27_413554 : F04","Not Reported"
+"27_413558 : B01",Z85.828
+"27_413558 : F02",Z85.828
+"27_413558 : F03","Not Reported"
+"27_413558 : F04","Not Reported"
+"27_413558 : F05","Not Reported"
+"27_413560 : B01",R92.8
+"27_413560 : F02","Not Reported"
+"27_413560 : F03","Not Reported"
+"27_413560 : F04","Not Reported"
+"27_413560 : F05","Not Reported"
+"27_414562 : B01",C61
+"27_414562 : F02","Not Reported"
+"27_414562 : F03",Z85.46
+"27_414562 : F04","Not Reported"
+"27_414562 : F05","Not Reported"
+"27_414567 : B01",D17.9
+"27_414567 : F02","Not Reported"
+"27_414567 : F03","Not Reported"
+"27_414567 : F04","Not Reported"
+"27_414567 : F05","Not Reported"
+"27_414568 : B01",C54.1
+"27_414568 : F02","Not Reported"
+"27_414568 : F03","Not Reported"
+"27_414568 : F04","Not Reported"
+"27_414568 : F05","Not Reported"
+"27_414569 : B01",Breast
+"27_414569 : F02","Not Reported"
+"27_414571 : B01",C20
+"27_414571 : F02","Not Reported"
+"27_414571 : F03","Not Reported"
+"27_414571 : F04","Not Reported"
+"27_414571 : F05",C19
+"27_414572 : B01",D24.9
+"27_414572 : F02","Not Reported"
+"27_414572 : F03","Not Reported"
+"27_414572 : F04","Not Reported"
+"27_414572 : F05","Not Reported"
+"27_414572 : F06","Not Reported"
+"27_414573 : B01",D22.9
+"27_414573 : F02","Not Reported"
+"27_414573 : F03","Not Reported"
+"27_414573 : F04","Not Reported"
+"27_414573 : F05","Not Reported"
+"27_414582 : B01",NULL
+"27_414582 : F02","Not Reported"
+"27_414582 : F03","Not Reported"
+"27_414582 : F04","Not Reported"
+"27_414582 : F05","Not Reported"
+"27_414582 : F06","Not Reported"
+"27_414584 : B01",D18.1
+"27_414584 : F02","Not Reported"
+"27_414584 : F03","Not Reported"
+"27_414584 : F04",D18.1
+"27_414584 : F05","Not Reported"
+"27_414589 : B01",Z80
+"27_414589 : F02","Not Reported"
+"27_414589 : F03","Not Reported"
+"27_414589 : F04","Not Reported"
+"27_414589 : F05","Not Reported"
+"27_414589 : F06","Not Reported"
+"27_414595 : B01",NULL
+"27_414595 : F02","Not Reported"
+"27_414597 : B01",Z80
+"27_414600 : B01",NULL
+"27_414600 : F02","Not Reported"
+"27_414600 : F03","Not Reported"
+"27_414600 : F04","Not Reported"
+"27_414600 : F05","Not Reported"
+"27_414600 : F06","Not Reported"
+"27_414600 : F07","Not Reported"
+"27_414605 : B01",D25.1
+"27_414605 : F02","Not Reported"
+"27_414605 : F03","Not Reported"
+"27_414605 : F04","Not Reported"
+"27_414605 : F05","Not Reported"
+"27_414606 : B01",C91.10
+"27_414606 : F02",C91.10
+"27_414606 : F03","Not Reported"
+"27_414606 : F04","Not Reported"
+"27_414615 : B01",D22.9
+"27_414615 : F02","Not Reported"
+"27_414615 : F03","Not Reported"
+"27_414615 : F04","Not Reported"
+"27_414615 : F05","Not Reported"
+"27_414615 : F06","Not Reported"
+"27_414617 : B01",NULL
+"27_414617 : F02","Not Reported"
+"27_414617 : F03","Not Reported"
+"27_414618 : B01",R97.20
+"27_414618 : F02","Not Reported"
+"27_414618 : F03","Not Reported"
+"27_414618 : F04","Not Reported"
+"27_414618 : F05","Not Reported"
+"27_414619 : B01","Breast Cancer"
+"27_414619 : F02","Not Reported"
+"27_414619 : F03","Not Reported"
+"27_414619 : F04","Not Reported"
+"27_414619 : F05","Not Reported"
+"27_414626 : B01",D48.5
+"27_414626 : F02",D181
+"27_414626 : F03","Not Reported"
+"27_414626 : F04","Not Reported"
+"27_414626 : F05","Not Reported"
+"27_414629 : B01",NULL
+"27_414634 : B01",Z8610
+"27_414634 : F02",C61
+"27_414634 : F03","Not Reported"
+"27_414634 : F04","Not Reported"
+"27_414637 : B01",C54.1
+"27_414637 : F02",C55
+"27_414637 : F03","Not Reported"
+"27_414637 : F04","Not Reported"
+"27_414637 : F05","Not Reported"
+"27_414639 : B01",C54.1
+"27_414639 : F02",C54.1
+"27_414639 : F03","Not Reported"
+"27_414641 : B01",Z8610
+"27_414641 : F02","Not Reported"
+"27_414641 : F03","Not Reported"
+"27_414641 : F04","Not Reported"
+"27_414641 : F05","Not Reported"
+"27_414644 : B01",D23.9
+"27_414644 : F02","Not Reported"
+"27_414644 : F03","Not Reported"
+"27_414644 : F04","Not Reported"
+"27_414645 : B01",Z85.46
+"27_414645 : F02","Not Reported"
+"27_414645 : F03","Not Reported"
+"27_414645 : F04","Not Reported"
+"27_414645 : F05",Z80
+"27_414648 : B01",D23.9
+"27_414648 : F02","Not Reported"
+"27_414648 : F03","Not Reported"
+"27_414648 : F04","Not Reported"
+"27_414648 : F05","Not Reported"
+"27_414659 : B01",D22.9
+"27_414659 : F02","Not Reported"
+"27_414659 : F03","Not Reported"
+"27_414659 : F04","Not Reported"
+"27_414667 : B01",NULL
+"27_414667 : F02","Not Reported"
+"27_414667 : F03","Not Reported"
+"27_414667 : F04","Not Reported"
+"27_414667 : F05","Not Reported"
+"27_414670 : B01",C50.919
+"27_414670 : F02",Z80.3
+"27_414670 : F03","Not Reported"
+"27_414670 : F04","Not Reported"
+"27_414670 : F05","Not Reported"
+"27_414676 : B01",D23.9
+"27_414676 : F02",C54.1
+"27_414676 : F03","Not Reported"
+"27_414676 : F04","Not Reported"
+"27_414677 : B01",Z80.8
+"27_414677 : F02",C64.2
+"27_414677 : F03","Not Reported"
+"27_414677 : F04","Not Reported"
+"27_414677 : F05","Not Reported"
+"27_414677 : F06","Not Reported"
+"27_414678 : B01",D23.30
+"27_414678 : F02","Not Reported"
+"27_414678 : F03",D12
+"27_414678 : F04","Not Reported"
+"27_414678 : F05","Not Reported"
+"27_414684 : B01",R97.8
+"27_414684 : F02",C56.9
+"27_414684 : F03","Not Reported"
+"27_414684 : F04","Not Reported"
+"27_414684 : F05","Not Reported"
+"27_414684 : F06","Not Reported"
+"27_414686 : B01",D23.9
+"27_414686 : F02","Not Reported"
+"27_414686 : F03",D47.2
+"27_414686 : F04","Not Reported"
+"27_414686 : F05","Not Reported"
+"27_414688 : B01",NULL
+"27_414688 : F02","Not Reported"
+"27_414688 : F03","Not Reported"
+"27_414688 : F04","Not Reported"
+"27_414689 : B01",D17.30
+"27_414689 : F02","Not Reported"
+"27_414689 : F03","Not Reported"
+"27_414689 : F04","Not Reported"
+"27_414689 : F05","Not Reported"
+"27_414690 : B01",R97.20
+"27_414690 : F02",C830
+"27_414690 : F03","Not Reported"
+"27_414690 : F04","Not Reported"
+"27_414690 : F05","Not Reported"
+"27_414699 : B01",Z51.89
+"27_414699 : F02","Not Reported"
+"27_414699 : F03","Not Reported"
+"27_414699 : F04","Not Reported"
+"27_414702 : B01",NULL
+"27_414702 : F02","Not Reported"
+"27_414702 : F03","Not Reported"
+"27_414702 : F04","Not Reported"
+"27_414702 : F05","Not Reported"
+"27_414702 : F06","Not Reported"
+"27_414702 : F07","Not Reported"
+"27_414702 : F08","Not Reported"
+"27_414703 : B01",Z8610
+"27_414703 : F02",D181
+"27_414703 : F03","Not Reported"
+"27_414703 : F04","Not Reported"
+"27_414707 : B01",D479
+"27_414707 : F02","Not Reported"
+"27_414707 : F03",D181
+"27_414707 : F04","Not Reported"
+"27_414707 : F05","Not Reported"
+"27_414707 : F06","Not Reported"
+"27_414709 : B01",NULL
+"27_414709 : F02",D49.2
+"27_414709 : F03","Not Reported"
+"27_414709 : F04","Not Reported"
+"27_414709 : F05","Not Reported"
+"27_414720 : B01",Z80.3
+"27_414721 : B01",Z80
+"27_414721 : F02","Not Reported"
+"27_414721 : F03","Not Reported"
+"27_414721 : F04","Not Reported"
+"27_414721 : F05","Not Reported"
+"27_414721 : F06","Not Reported"
+"27_414721 : F07","Not Reported"
+"27_414723 : B01",R87.612
+"27_414723 : F02",R87.619
+"27_414723 : F03","Not Reported"
+"27_414723 : F04","Not Reported"
+"27_414726 : B01",D23.5
+"27_414726 : F02","Not Reported"
+"27_414726 : F03","Not Reported"
+"27_414726 : F04","Not Reported"
+"27_414726 : F05","Not Reported"
+"27_414726 : F06","Not Reported"
+"27_414733 : B01",Z80.8
+"27_414733 : F02","Not Reported"
+"27_414733 : F03","Not Reported"
+"27_414733 : F04",D181
+"27_414733 : F05","Not Reported"
+"27_414735 : B01",Z85.828
+"27_414735 : F02","Not Reported"
+"27_414735 : F03","Not Reported"
+"27_414735 : F04","Not Reported"
+"27_414742 : B01",Z80
+"27_414742 : F02","Not Reported"
+"27_414742 : F03","Not Reported"
+"27_414742 : F04","Not Reported"
+"27_414742 : F05","Not Reported"
+"27_414743 : B01",Z80
+"27_414743 : F02","Not Reported"
+"27_414744 : B01",NULL
+"27_414744 : F02","Not Reported"
+"27_414744 : F03","Not Reported"
+"27_414744 : F04","Not Reported"
+"27_414745 : B01",Z80.3
+"27_414745 : F02","Not Reported"
+"27_414745 : F03","Not Reported"
+"27_414745 : F04","Not Reported"
+"27_414745 : F05","Not Reported"
+"27_414745 : F06","Not Reported"
+"27_414746 : B01",D25.9
+"27_414746 : F02","Not Reported"
+"27_414746 : F03","Not Reported"
+"27_414746 : F04","Not Reported"
+"27_414746 : F05","Not Reported"
+"27_414748 : B01",D181
+"27_414748 : F02","Not Reported"
+"27_414748 : F03","Not Reported"
+"27_414748 : F04","Not Reported"
+"27_414753 : B01",NULL
+"27_414753 : F02","Not Reported"
+"27_414753 : F03","Not Reported"
+"27_414753 : F04","Not Reported"
+"27_414757 : B01",D22.9
+"27_414757 : F02","Not Reported"
+"27_414757 : F03","Not Reported"
+"27_414757 : F04","Not Reported"
+"27_414759 : B01",D23.5
+"27_414759 : F02","Not Reported"
+"27_414760 : B01",D22.9
+"27_414760 : F02","Not Reported"
+"27_414760 : F03","Not Reported"
+"27_414760 : F04","Not Reported"
+"27_414760 : F05","Not Reported"
+"27_414764 : B01",NULL
+"27_414764 : F02","Not Reported"
+"27_414764 : F03","Not Reported"
+"27_414767 : B01",D23.60
+"27_414767 : F02",R97.20
+"27_414769 : B01",Z8610
+"27_414769 : F02","Not Reported"
+"27_414769 : F03","Not Reported"
+"27_414769 : F04","Not Reported"
+"27_414769 : F05","Not Reported"
+"27_414772 : B01",NULL
+"27_414772 : F02","Not Reported"
+"27_414772 : F03","Not Reported"
+"27_414772 : F04","Not Reported"
+"27_414782 : B01",C54.9
+"27_414782 : F02","Not Reported"
+"27_414782 : F03","Not Reported"
+"27_414782 : F04",Z8607
+"27_414782 : F05","Not Reported"
+"27_414782 : F06","Not Reported"
+"27_414782 : F07","Not Reported"
+"27_414783 : B01",C50.919
+"27_414783 : F02",C50.919
+"27_414783 : F03","Not Reported"
+"27_414783 : F04","Not Reported"
+"27_414783 : F05","Not Reported"
+"27_414786 : B01",NULL
+"27_414786 : F02","Not Reported"
+"27_414786 : F03","Not Reported"
+"27_414786 : F04","Not Reported"
+"27_414787 : B01",Z8610
+"27_414787 : F02","Not Reported"
+"27_414787 : F03","Not Reported"
+"27_414787 : F04","Not Reported"
+"27_414787 : F05","Not Reported"
+"27_414788 : B01",R97.20
+"27_414788 : F02",R97.20
+"27_414788 : F03","Not Reported"
+"27_414788 : F04","Not Reported"
+"27_414788 : F05","Not Reported"
+"27_414789 : B01",D48.5
+"27_414789 : F02","Not Reported"
+"27_414789 : F03","Not Reported"
+"27_414789 : F04","Not Reported"
+"27_414789 : F05",Z80.42
+"27_414789 : F06","Not Reported"
+"27_414789 : F07","Not Reported"
+"27_414794 : B01",D22.9
+"27_414794 : F02","Not Reported"
+"27_414794 : F03","Not Reported"
+"27_414950 : B01",D12.6
+"27_414950 : F02",D12.6
+"27_414950 : F03","Not Reported"
+"27_414950 : F04","Not Reported"
+"27_414957 : B01",C921
+"27_414957 : F02",Z94.84
+"27_414960 : B01",C85.90
+"27_414960 : F02",Z94.81
+"27_414960 : F03","Not Reported"
+"27_414961 : B01",D46.9
+"27_414961 : F02",D46.9
+"27_414961 : F03","Not Reported"
+"27_414962 : B01",C910
+"27_414962 : F02",C911
+"27_414962 : F03","Not Reported"
+"27_414964 : B01",R59.1
+"27_414964 : F02","Not Reported"
+"27_414964 : F03",D22.9
+"27_414964 : F04","Not Reported"
+"27_414964 : F05","Not Reported"
+"27_414964 : F06","Not Reported"
+"27_414966 : B01",C50.511
+"27_414966 : F02",C50.511
+"27_414966 : F03","Not Reported"
+"27_414966 : F04","Not Reported"
+"27_414967 : B01",C62.90
+"27_414969 : B01",C50.919
+"27_414969 : F02",C50.911
+"27_414969 : F03","Not Reported"
+"27_414969 : F04","Not Reported"
+"27_414972 : B01",D12.3
+"27_414972 : F02",C61
+"27_414972 : F03","Not Reported"
+"27_414973 : B01",C81.29
+"27_414973 : F02","Not Reported"
+"27_414973 : F03","Not Reported"
+"27_414973 : F04","Not Reported"
+"27_414977 : B01",D31.32
+"27_414984 : B01",C81.90
+"27_414984 : F02",D22.9
+"27_414984 : F03","Not Reported"
+"27_414984 : F04","Not Reported"
+"27_414984 : F05","Not Reported"
+"27_414984 : F06","Not Reported"
+"27_414984 : F07","Not Reported"
+"27_414987 : B01",C43.62
+"27_414987 : F02",C50.411
+"27_414987 : F03","Not Reported"
+"27_414987 : F04","Not Reported"
+"27_414990 : B01",D12.5
+"27_414990 : F02",C830
+"27_414990 : F03","Not Reported"
+"27_414990 : F04","Not Reported"
+"27_414992 : B01",C61
+"27_414992 : F02","Not Reported"
+"27_414992 : F03","Not Reported"
+"27_414992 : F04","Not Reported"
+"27_414994 : B01",D45
+"27_414998 : B01",D22.9
+"27_414998 : F02",Z17
+"27_414998 : F03","Not Reported"
+"27_414998 : F04","Not Reported"
+"27_414998 : F05","Not Reported"
+"27_414998 : F06","Not Reported"
+"27_414999 : B01","Breast Cancer|Basal Cell Carcinoma|Thrombocytosis"
+"27_414999 : F02","Not Reported"
+"27_414999 : F03","Not Reported"
+"27_414999 : F04",C50.912
+"27_415004 : B01",D12
+"27_415004 : F02","Not Reported"
+"27_415004 : F03","Not Reported"
+"27_415005 : B01",C50.919
+"27_415005 : F02","Not Reported"
+"27_415005 : F03","Not Reported"
+"27_415007 : B01",Z85.43
+"27_415007 : F02",C56.2
+"27_415007 : F03","Not Reported"
+"27_415010 : B01",D23.9
+"27_415010 : F02","Not Reported"
+"27_415010 : F03","Not Reported"
+"27_415010 : F04","Not Reported"
+"27_415010 : F05","Not Reported"
+"27_415011 : B01",C50.412
+"27_415011 : F02","Not Reported"
+"27_415011 : F03","Not Reported"
+"27_415011 : F04","Not Reported"
+"27_415011 : F05","Not Reported"
+"27_415015 : B01",C73
+"27_415015 : F02","Not Reported"
+"27_415015 : F03",C73
+"27_415015 : F04","Not Reported"
+"27_415020 : B01",D29.22
+"27_415020 : F02",C67.8
+"27_415020 : F03","Not Reported"
+"27_415020 : F04","Not Reported"
+"27_415020 : F05","Not Reported"
+"27_415020 : F06","Not Reported"
+"27_415023 : B01","Thyroid Cancer"
+"27_415027 : B01",D25.9
+"27_415027 : F02",C7A90
+"27_415027 : F03","Not Reported"
+"27_415028 : B01",R97.20
+"27_415028 : F02",C61
+"27_415028 : F03","Not Reported"
+"27_415028 : F04","Not Reported"
+"27_415028 : F05","Not Reported"
+"27_415029 : B01",R59.1
+"27_415029 : F02",C56.9
+"27_415029 : F03","Not Reported"
+"27_415029 : F04","Not Reported"
+"27_415029 : F05","Not Reported"
+"27_415030 : B01",Z85.3
+"27_415030 : F02","Not Reported"
+"27_415030 : F03","Not Reported"
+"27_415031 : B01",R97.20
+"27_415031 : F02",C61
+"27_415031 : F03","Not Reported"
+"27_415031 : F04","Not Reported"
+"27_415031 : F05","Not Reported"
+"27_415038 : B01",D12.5
+"27_415038 : F02","Not Reported"
+"27_415038 : F03","Not Reported"
+"27_415038 : F04",D48.5
+"27_426621 : B01",D25.9
+"27_426621 : F02","Not Reported"
+"27_428824 : B01",D48.9
+"27_428824 : F02","Not Reported"
+"27_434434 : B01",D23.60
+"27_434434 : F02","Not Reported"
+"27_434434 : F03","Not Reported"
+"27_434434 : F04","Not Reported"
+"27_437734 : B01",R59
+"27_437734 : F02","Not Reported"
+"27_437734 : F03","Not Reported"
+"27_437734 : F04","Not Reported"
+"27_446644 : B01",C61
+"27_446644 : F02","Not Reported"
+"27_446644 : F03","Not Reported"
+"27_473374 : B01",Z85.3
+"27_473374 : F02","Not Reported"
+"27_473374 : F03","Not Reported"
+"27_478876 : B01",R59.9
+"27_478876 : F02","Not Reported"
+"27_478876 : F03","Not Reported"
+"27_479979 : B01",C62.90
+"27_479979 : F02","Not Reported"
+"27_479979 : F03","Not Reported"
+"27_481184 : B01",C37
+"27_481184 : F02",C37
+"27_482282 : B01",R92.8
+"27_483296 : B01",NULL
+"27_483296 : F02","Not Reported"
+"27_490002 : B01",C50.912
+"27_490002 : F02","Not Reported"
+"27_490002 : F03","Not Reported"
+"27_490002 : F04","Not Reported"
+"27_490004 : B01",C50.919
+"27_490004 : F02","Not Reported"
+"27_490004 : F03",C50.211
+"27_490004 : F04","Not Reported"
+"27_490006 : B01",C56.9
+"27_490006 : F02",Z92.21
+"27_490006 : F03","Not Reported"
+"27_490006 : F04","Not Reported"
+"27_490010 : B01",C81.90
+"27_490010 : F02","Not Reported"
+"27_490010 : F03",C839
+"27_490012 : B01",C920
+"27_490012 : F02",Z94.81
+"27_490012 : F03","Not Reported"
+"27_490015 : B01",D23.5
+"27_490015 : F02","Not Reported"
+"27_490015 : F03","Not Reported"
+"27_490016 : B01",D180
+"27_490016 : F02",C67
+"27_490016 : F03","Not Reported"
+"27_490019 : B01",C85.89
+"27_490019 : F02",Z92.3
+"27_490019 : F03","Not Reported"
+"27_490019 : F04","Not Reported"
+"27_490019 : F05","Not Reported"
+"27_490022 : B01",R59
+"27_490022 : F02",C82.38
+"27_490022 : F03","Not Reported"
+"27_490022 : F04","Not Reported"
+"27_490022 : F05","Not Reported"
+"27_490023 : B01",C18.2
+"27_490023 : F02","Not Reported"
+"27_490023 : F03","Not Reported"
+"27_490023 : F04",Z85.20
+"27_490024 : B01",C50.919
+"27_490024 : F02",C50.919
+"27_490024 : F03","Not Reported"
+"27_490024 : F04","Not Reported"
+"27_490024 : F05","Not Reported"
+"27_490028 : B01",NULL
+"27_490028 : F02","Not Reported"
+"27_490032 : B01",D25.9
+"27_490032 : F02","Not Reported"
+"27_490032 : F03","Not Reported"
+"27_490032 : F04","Not Reported"
+"27_490044 : B01",D48
+"27_490044 : F02",C41.2
+"27_490044 : F03","Not Reported"
+"27_490044 : F04","Not Reported"
+"27_490234 : B01",Prostate
+"27_490234 : F02","Not Reported"
+"27_490250 : B01",R97.20
+"27_490250 : F02",C61
+"27_490250 : F03","Not Reported"
+"27_490250 : F04","Not Reported"
+"27_490250 : F05","Not Reported"
+"27_490250 : F06","Not Reported"
+"27_490260 : B01",C77.9
+"27_490260 : F02",C01
+"27_490260 : F03","Not Reported"
+"27_490260 : F04","Not Reported"
+"27_490260 : F05","Not Reported"
+"27_490270 : B01",C50.919
+"27_490270 : F02",C50.919
+"27_490270 : F03","Not Reported"
+"27_490290 : B01",C18.1
+"27_490290 : F02",C18.1
+"27_490290 : F03","Not Reported"
+"27_490290 : F04","Not Reported"
+"27_490300 : B01",NULL
+"27_490310 : B01",Z80.3
+"27_490310 : F02","Not Reported"
+"27_490310 : F03","Not Reported"
+"27_490330 : B01",D17.20
+"27_490330 : F02","Not Reported"
+"27_490330 : F03","Not Reported"
+"27_490330 : F04","Not Reported"
+"27_490340 : B01",NULL
+"27_490350 : B01",NULL
+"27_490350 : F02","Not Reported"
+"27_490350 : F03","Not Reported"
+"27_490360 : B01",Z80.41
+"27_490360 : F02","Not Reported"
+"27_490360 : F03","Not Reported"
+"27_490360 : F04","Not Reported"
+"27_490390 : B01",D17.30
+"27_490390 : F02","Not Reported"
+"27_490390 : F03","Not Reported"
+"27_490390 : F04","Not Reported"
+"27_490420 : B01",NULL
+"27_490420 : F02","Not Reported"
+"27_490420 : F03","Not Reported"
+"27_490430 : B01",NULL
+"27_490430 : F02","Not Reported"
+"27_490430 : F03","Not Reported"
+"27_490430 : F04","Not Reported"
+"27_490430 : F05","Not Reported"
+"27_490440 : B01",NULL
+"27_490440 : F02","Not Reported"
+"27_490450 : B01",NULL
+"27_490450 : F02","Not Reported"
+"27_490450 : F03","Not Reported"
+"27_490470 : B01",NULL
+"27_490470 : F02","Not Reported"
+"27_490470 : F03","Not Reported"
+"27_490470 : F04","Not Reported"
+"27_490480 : B01",NULL
+"27_490480 : F02","Not Reported"
+"27_490480 : F03","Not Reported"
+"27_490480 : F04","Not Reported"
+"27_490500 : B01",Breast
+"27_490500 : F02","Not Reported"
+"27_490500 : F03","Not Reported"
+"27_490500 : F04","Not Reported"
+"27_490503 : B01",Z80.3
+"27_490503 : F02","Not Reported"
+"27_490503 : F03",D12.5
+"27_490530 : B01",D48.5
+"27_490530 : F02","Not Reported"
+"27_490530 : F03","Not Reported"
+"27_490530 : F04","Not Reported"
+"27_490550 : B01",NULL
+"27_490550 : F02","Not Reported"
+"27_490550 : F03","Not Reported"
+"27_490550 : F04","Not Reported"
+"27_490570 : B01",NULL
+"27_490570 : F02","Not Reported"
+"27_490570 : F03","Not Reported"
+"27_490580 : B01",NULL
+"27_490580 : F02","Not Reported"
+"27_490580 : F03","Not Reported"
+"27_490600 : B01",D12.2
+"27_490600 : F02","Not Reported"
+"27_490600 : F03","Not Reported"
+"27_490600 : F04","Not Reported"
+"27_490700 : B01",NULL
+"27_490700 : F02","Not Reported"
+"27_490700 : F03","Not Reported"
+"27_490707 : B01",Prostate
+"27_490730 : B01",NULL
+"27_490730 : F02","Not Reported"
+"27_490730 : F03",R92.8
+"27_490740 : B01",NULL
+"27_490740 : F02","Not Reported"
+"27_490740 : F03","Not Reported"
+"27_490740 : F04","Not Reported"
+"27_490750 : B01",NULL
+"27_490750 : F02","Not Reported"
+"27_490750 : F03","Not Reported"
+"27_490750 : F04","Not Reported"
+"27_490750 : F05","Not Reported"
+"27_490760 : B01",NULL
+"27_490760 : F02","Not Reported"
+"27_490760 : F03","Not Reported"
+"27_490789 : B01","Testicular Cancer|Prostate Cancer"
+"27_490789 : F02","Not Reported"
+"27_490789 : F03","Not Reported"
+"27_490789 : F04","Not Reported"
+"27_490789 : F05","Not Reported"
+"27_490810 : B01",NULL
+"27_490810 : F02","Not Reported"
+"27_490820 : B01",N87
+"27_490820 : F02","Not Reported"
+"27_490820 : F03","Not Reported"
+"27_490840 : B01",Z8610
+"27_490840 : F02","Not Reported"
+"27_490840 : F03","Not Reported"
+"27_490840 : F04","Not Reported"
+"27_490850 : B01",D48.5
+"27_490850 : F02","Not Reported"
+"27_490850 : F03",R92.8
+"27_490850 : F04","Not Reported"
+"27_490850 : F05","Not Reported"
+"27_490870 : B01",NULL
+"27_490870 : F02","Not Reported"
+"27_490960 : B01",NULL
+"27_490960 : F02","Not Reported"
+"27_490960 : F03","Not Reported"
+"27_490960 : F04","Not Reported"
+"27_490990 : B01",NULL
+"27_491000 : B01",NULL
+"27_491000 : F02","Not Reported"
+"27_491000 : F03",R92.8
+"27_491020 : B01",D22.9
+"27_491020 : F02","Not Reported"
+"27_491020 : F03","Not Reported"
+"27_491050 : B01",D17.30
+"27_491050 : F02",D48.119
+"27_491050 : F03","Not Reported"
+"27_491060 : B01",Z80
+"27_491060 : F02","Not Reported"
+"27_491060 : F03","Not Reported"
+"27_491060 : F04","Not Reported"
+"27_491060 : F05","Not Reported"
+"27_491090 : B01",R92.8
+"27_491090 : F02","Not Reported"
+"27_491090 : F03","Not Reported"
+"27_491100 : B01",Z85.820
+"27_491100 : F02","Not Reported"
+"27_491100 : F03","Not Reported"
+"27_491100 : F04","Not Reported"
+"27_491110 : B01",D35.4
+"27_491110 : F02",Z8610
+"27_491110 : F03","Not Reported"
+"27_491110 : F04","Not Reported"
+"27_491130 : B01",R87.610
+"27_491130 : F02","Not Reported"
+"27_491130 : F03","Not Reported"
+"27_491140 : B01",Z8610
+"27_491140 : F02","Not Reported"
+"27_491140 : F03","Not Reported"
+"27_491140 : F04","Not Reported"
+"27_491150 : B01",NULL
+"27_491150 : F02","Not Reported"
+"27_491160 : B01",NULL
+"27_491160 : F02","Not Reported"
+"27_491160 : F03","Not Reported"
+"27_491194 : B01",C73
+"27_491290 : B01",Z80.3
+"27_491290 : F02","Not Reported"
+"27_491290 : F03","Not Reported"
+"27_491290 : F04","Not Reported"
+"27_491290 : F05","Not Reported"
+"27_491300 : B01",D48.5
+"27_491300 : F02","Not Reported"
+"27_491310 : B01",D22.9
+"27_491310 : F02",C61
+"27_491310 : F03","Not Reported"
+"27_491330 : B01",NULL
+"27_491330 : F02","Not Reported"
+"27_491410 : B01",NULL
+"27_491410 : F02","Not Reported"
+"27_491410 : F03","Not Reported"
+"27_491410 : F04","Not Reported"
+"27_491410 : F05","Not Reported"
+"27_491420 : B01",Z80.42
+"27_491420 : F02",D22.9
+"27_491420 : F03","Not Reported"
+"27_491420 : F04","Not Reported"
+"27_491440 : B01",NULL
+"27_491440 : F02","Not Reported"
+"27_491440 : F03","Not Reported"
+"27_492002 : B01","Testicular Cancer"
+"27_492002 : F02","Not Reported"
+"27_492002 : F03","Not Reported"
+"27_492002 : F04","Not Reported"
+"27_492003 : B01",Z8538
+"27_492003 : F02","Not Reported"
+"27_492003 : F03",Z8538
+"27_492003 : F04","Not Reported"
+"27_492003 : F05","Not Reported"
+"27_492003 : F06","Not Reported"
+"27_492294 : B01",D23.5
+"27_492294 : F02","Not Reported"
+"27_492294 : F03",Z51.12
+"27_492294 : F04","Not Reported"
+"27_492294 : F05","Not Reported"
+"27_498894 : B01","Non Hodgkins Lymphoma|Hodgkins Lymphoma"
+"27_498894 : F02","Not Reported"
+"27_498894 : F03","Not Reported"
+"27_498894 : F04","Not Reported"

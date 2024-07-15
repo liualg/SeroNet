@@ -711,7 +711,7 @@ class planned_visit(DataClassJsonMixin):
             sys.exit("ERROR:: [planned visit] Same order number used more than once")
 
         for i, k in enumerate(self.Name):
-            if len(k) > 125:
+            if len(k) > 256: #125, someone added more characters
                 self.Name[i+1] = seroFxn.remove_whitespace(k)
 
                 logging.error(f"[planned visit]: {self.User_Defined_ID[i+1]} has reached character limit ({len(k)} > 125)")

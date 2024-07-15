@@ -1,0 +1,678 @@
+Visit_Info_ID,Cancer,ICD_10_Code
+"27_200024 : B01","Hodgkins Lymphoma",NULL
+"27_200054 : B01","Skin Cancer",NULL
+"27_200068 : B01","Prostate Cancer",NULL
+"27_200068 : B01","Skin Cancer",NULL
+"27_200099 : B01","Skin Cancer",NULL
+"27_200222 : B01","Breast Cancer",NULL
+"27_200318 : B01",Liver,NULL
+"27_200318 : B01","Liver cancer",NULL
+"27_200318 : B01","Liver Cancer",NULL
+"27_200327 : B01","Sebaceous Carcinoma",NULL
+"27_200327 : B01","Thyroid Cancer",NULL
+"27_200347 : B01","Thyroid Cancer",NULL
+"27_200372 : B01","Vaginal Cancer",NULL
+"27_200429 : B01",Lymphoma,NULL
+"27_200538 : B01","Liver Cancer",NULL
+"27_200546 : B01","Testicular Cancer",NULL
+"27_200546 : B01","Testicular Cancer",NULL
+"27_200584 : B01","Rectal Cancer",NULL
+"27_200724 : B01","Liver Cancer",NULL
+"27_200730 : B01","Breast Cancer",NULL
+"27_200730 : B01","Breast Cancer",NULL
+"27_200735 : B01","Esophageal Cancer",NULL
+"27_200738 : B01","Cervical Cancer",NULL
+"27_200738 : B01","Colon Cancer",NULL
+"27_200738 : B01","Lung Cancer",NULL
+"27_200748 : B01",Melanoma,NULL
+"27_200752 : B01","Breast Cancer",NULL
+"27_200822 : B01","Breast Cancer",NULL
+"27_200864 : B01",Uterine,NULL
+"27_200864 : B01","Uterine Cancer",NULL
+"27_200864 : B01","Uterine Cancer",NULL
+"27_200942 : B01","Breast Cancer",NULL
+"27_200992 : B01","Prostate Cancer",NULL
+"27_200995 : B01","Breast Cancer",NULL
+"27_201048 : B01","Merkel Cell Carcinoma",NULL
+"27_201055 : B01","Lung Cancer",NULL
+"27_201084 : B01","Endometrial Cancer",NULL
+"27_201084 : B01","Soft Tissue Sarcoma",NULL
+"27_201187 : B01","Breast Cancer",NULL
+"27_201190 : B01",Breast,NULL
+"27_201190 : B01","Breast Cancer",NULL
+"27_201203 : B01","Lung Cancer",NULL
+"27_201231 : B01","Endometrial Cancer",NULL
+"27_201312 : B01","Skin Cancer",NULL
+"27_201380 : B01","Cervical Cancer",NULL
+"27_201743 : B01","Breast Cancer",NULL
+"27_201755 : B01","Breast Cancer",NULL
+"27_201775 : B01","Breast Cancer",NULL
+"27_201777 : B01","Breast Cancer",NULL
+"27_201797 : B01","Breast Cancer",NULL
+"27_201812 : B01","Ovarian Cancer",NULL
+"27_201846 : B01","Breast Cancer",NULL
+"27_201846 : B01","Skin Cancer",NULL
+"27_201965 : B01","Oral Cancer",NULL
+"27_201965 : B01","Squamous Cell Carcinoma",NULL
+"27_202123 : B01","Breast Cancer",NULL
+"27_202291 : B01","Breast Cancer",NULL
+"27_202758 : B01","Prostate Cancer",NULL
+"27_202999 : B01","Breast Cancer",NULL
+"27_202999 : B01","Skin Cancer",NULL
+"27_203506 : B01","Breast Cancer",NULL
+"27_203506 : B01","Skin Cancer",NULL
+"27_290004 : B01","Chronic Myeloid Leukemia",NULL
+"27_300007 : B01","Prostate Cancer",NULL
+"27_300012 : B01",Prostate,NULL
+"27_300012 : B01","Prostate Cancer",NULL
+"27_300018 : B01","Kidney Cancer",NULL
+"27_300018 : B01","Skin Cancer",NULL
+"27_300018 : B01","Testicular Cancer",NULL
+"27_300021 : B01","Squamous Cell Carcinoma",NULL
+"27_300022 : B01","Kidney Cancer",NULL
+"27_300026 : B01","Breast Cancer",NULL
+"27_300029 : B01","Breast Cancer",NULL
+"27_300029 : B01","Liver Cancer",NULL
+"27_300034 : B01",Breast,NULL
+"27_300034 : B01","Breast Cancer",NULL
+"27_300034 : B01","Breast Cancer",NULL
+"27_300041 : B01","Breast Cancer",NULL
+"27_300041 : B01","Squamous Cell Carcinoma",NULL
+"27_300047 : B01","Skin Cancer",NULL
+"27_300059 : B01","Basal Cell Carcinoma",NULL
+"27_300059 : B01",Melanoma,NULL
+"27_300059 : B01","Squamous Cell Carcinoma",NULL
+"27_300079 : B01","Liver Cancer",NULL
+"27_300079 : B01","Skin Cancer",NULL
+"27_300095 : B01","Squamous Cell Carcinoma",NULL
+"27_300095 : B01","Squamous Cell Carcinoma",NULL
+"27_300098 : B01","Skin Cancer",NULL
+"27_300102 : B01","Breast Cancer",NULL
+"27_300126 : B01","Breast Cancer",NULL
+"27_300126 : B01",Melanoma,NULL
+"27_300132 : B01","Liver Cancer",NULL
+"27_300138 : B01",Breast,NULL
+"27_300138 : B01","Breast Cancer",NULL
+"27_300138 : B01","Breast Cancer",NULL
+"27_300140 : B01","Prostate Cancer",NULL
+"27_300146 : B01","Non-Hodgkin Lymphoma",NULL
+"27_300158 : B01","Breast Cancer",NULL
+"27_300158 : B01","Skin Cancer",NULL
+"27_300165 : B01","Kidney Cancer",NULL
+"27_300167 : B01",Leukemia,NULL
+"27_300172 : B01",Melanoma,NULL
+"27_300179 : B01","Skin Cancer",NULL
+"27_300180 : B01","Basal Cell Carcinoma",NULL
+"27_300180 : B01","Breast Cancer",NULL
+"27_300262 : B01","Basal Cell Carcinoma",NULL
+"27_300262 : B01","Squamous Cell Carcinoma",NULL
+"27_300266 : B01","Breast Cancer",NULL
+"27_300272 : B01","Breast Cancer",NULL
+"27_300272 : B01","Skin Cancer",NULL
+"27_300294 : B01",Leukemia,NULL
+"27_300297 : B01","Prostate Cancer",NULL
+"27_300297 : B01","Skin Cancer",NULL
+"27_300312 : B01","Encapsulated Lesions On Native Kidney - Kidney Removed",NULL
+"27_300312 : B01","Kidney Cancer",NULL
+"27_300315 : B01",Liver,NULL
+"27_300315 : B01","Liver Cancer",NULL
+"27_300315 : B01","Liver Cancer",NULL
+"27_300323 : B01",Endometrial,NULL
+"27_300323 : B01","Endometrial Cancer",NULL
+"27_300329 : B01",Leukemia,NULL
+"27_300358 : B01","Diffuse Large B-Cell Lymphoma",NULL
+"27_300358 : B01","Diffused Large B Cell Lymphoma",NULL
+"27_300377 : B01","Breast Cancer",NULL
+"27_300399 : B01","Multiple Myeloma",NULL
+"27_300435 : B01","Breast Cancer",NULL
+"27_300442 : B01",Melanoma,NULL
+"27_300442 : B01",Melanoma,NULL
+"27_300443 : B01",Lymphoma,NULL
+"27_300443 : B01",Myeloma,NULL
+"27_300446 : B01","Multiple Myeloma",NULL
+"27_300448 : B01","Basal Cell Carcinoma",NULL
+"27_300448 : B01","Mantle Cell Lymphoma",NULL
+"27_300448 : B01","Squamous Cell Carcinoma",NULL
+"27_300457 : B01","Breast Cancer",NULL
+"27_300464 : B01","Breast Cancer",NULL
+"27_300472 : B01","Breast Cancer",NULL
+"27_300474 : B01","Acute Lymphocytic Leukemia",NULL
+"27_300474 : B01",All,NULL
+"27_300488 : B01","Basal Cell Carcinoma",NULL
+"27_300488 : B01","Squamous Cell Carcinoma",NULL
+"27_300580 : B01","Mantle Cell Lymphoma",NULL
+"27_300603 : B01","Large Granular Lymphocyte Leukemia",NULL
+"27_300603 : B01","Large Granular Lymphocytic Leukemia",NULL
+"27_300603 : B01","Large Granular Lymphocytic Leukemia",NULL
+"27_300613 : B01",GIST,NULL
+"27_300620 : B01",Lymphoma,NULL
+"27_300620 : B01",Lymphoma,NULL
+"27_300651 : B01",Melanoma,NULL
+"27_300651 : B01","Multiple Myeloma",NULL
+"27_300658 : B01",Breast,NULL
+"27_300658 : B01","Breast Cancer",NULL
+"27_300660 : B01","Liver Cancer",NULL
+"27_300683 : B01","Thyroid Cancer",NULL
+"27_300708 : B01",Breast,NULL
+"27_300708 : B01","Breast Cancer",NULL
+"27_300708 : B01","Breast Cancer",NULL
+"27_300720 : B01","Bladder Cancer",NULL
+"27_300720 : B01","Prostate Cancer",NULL
+"27_300742 : B01","Squamous Cell Carcinoma",NULL
+"27_300756 : B01","Ovarian Cancer",NULL
+"27_300756 : B01","Skin Cancer",NULL
+"27_300771 : B01","Endometrial Cancer",NULL
+"27_300778 : B01","Pancreatic Cancer",NULL
+"27_300778 : B01","Pancreatic Cancer",NULL
+"27_300778 : B01","Pancreatic Neuroendocrine - Nonfunctional",NULL
+"27_300791 : B01","Breast Cancer",NULL
+"27_300813 : B01","Breast Cancer",NULL
+"27_300813 : B01","Skin Cancer",NULL
+"27_300814 : B01","Breast Cancer",NULL
+"27_300814 : B01",Melanoma,NULL
+"27_300816 : B01","Breast Cancer",NULL
+"27_300819 : B01","Breast Cancer",NULL
+"27_300819 : B01","Breast Uterine",NULL
+"27_300819 : B01","Uterine Cancer",NULL
+"27_300828 : B01","Basal Cell Carcinoma",NULL
+"27_300828 : B01","Kidney Cancer",NULL
+"27_300828 : B01","Squamous Cell Carcinoma",NULL
+"27_300838 : B01","Follicular Lymphoma",NULL
+"27_300838 : B01","Thyroid Cancer",NULL
+"27_300846 : B01","Acute Myeloid Leukemia",NULL
+"27_300846 : B01","Skin Cancer",NULL
+"27_300854 : B01","Breast Cancer",NULL
+"27_300859 : B01","Multiple Myeloma",NULL
+"27_300887 : B01","Basal Cell Carcinoma",NULL
+"27_300887 : B01","Squamous Cell Carcinoma",NULL
+"27_300896 : B01","Hodgkin Disease",NULL
+"27_300896 : B01","Hodgkin Lymphoma",NULL
+"27_300896 : B01","Hodgkins Lymphoma",NULL
+"27_300910 : B01","Thyroid Cancer",NULL
+"27_300915 : B01","Breast Cancer",NULL
+"27_300915 : B01",Lymphoma,NULL
+"27_300915 : B01","Lymphoma (Waldenstrom Macroglobulinemia)",NULL
+"27_300926 : B01","Basal Cell Carcinoma",NULL
+"27_300926 : B01","Chronic Myelogenous Leukemia",NULL
+"27_300931 : B01","Breast Cancer",NULL
+"27_300931 : B01","Breast Cancer",NULL
+"27_300947 : B01","Hodgkin Lymphoma",NULL
+"27_300947 : B01","Kidney Cancer",NULL
+"27_300967 : B01",Breast,NULL
+"27_300967 : B01","Breast Cancer",NULL
+"27_300967 : B01","Breast Cancer",NULL
+"27_300973 : B01","Breast Cancer",NULL
+"27_300976 : B01","Breast Cancer",NULL
+"27_300976 : B01","Oral Cancer",NULL
+"27_300985 : B01","Breast Cancer",NULL
+"27_300988 : B01","Colon Cancer",NULL
+"27_301008 : B01","Kaposi Sarcoma",NULL
+"27_301009 : B01","Skin Cancer",NULL
+"27_301009 : B01","Skin On Head",NULL
+"27_301009 : B01","Squamous Cell Carcinoma",NULL
+"27_301034 : B01","Breast Cancer",NULL
+"27_301047 : B01","Breast Cancer",NULL
+"27_301101 : B01","Breast Cancer",NULL
+"27_301101 : B01","Breast Cancer",NULL
+"27_301102 : B01","Breast Cancer",NULL
+"27_301112 : B01","Colon Cancer",NULL
+"27_301112 : B01","Skin Cancer",NULL
+"27_301148 : B01",Prostate,NULL
+"27_301148 : B01","Prostate Cancer",NULL
+"27_301154 : B01","Breast Cancer",NULL
+"27_301154 : B01","Squamous Cell Carcinoma",NULL
+"27_301178 : B01","Fallopian Tube Cancer",NULL
+"27_301202 : B01","Ovarian Cancer",NULL
+"27_301290 : B01","Breast Cancer",NULL
+"27_301400 : B01","Fallopian Tube Cancer",NULL
+"27_301421 : B01","Pharyngeal Cancer",NULL
+"27_301421 : B01",Pharynx,NULL
+"27_301437 : B01","Breast Cancer",NULL
+"27_301440 : B01","Lymphoplasmacytic Lymphoma",NULL
+"27_301466 : B01","Breast Cancer",NULL
+"27_301466 : B01","Breast Cancer",NULL
+"27_301486 : B01","Breast (Triple Negative)",NULL
+"27_301486 : B01","Breast Cancer",NULL
+"27_301503 : B01","Breast Cancer",NULL
+"27_301511 : B01","Bladder Cancer",NULL
+"27_301512 : B01","Breast Cancer",NULL
+"27_301512 : B01","Skin Cancer",NULL
+"27_301517 : B01","Breast Cancer",NULL
+"27_301521 : B01","Hairy Cell Leukemia",NULL
+"27_301523 : B01","Bladder Cancer",NULL
+"27_301523 : B01","Chronic Lymphocytic Leukemia",NULL
+"27_301523 : B01",Melanoma,NULL
+"27_301523 : B01","Squamous Cell Carcinoma",NULL
+"27_301525 : B01","Prostate Cancer",NULL
+"27_301526 : B01","Basal Cell Carcinoma",NULL
+"27_301526 : B01","Endometrial Cancer",NULL
+"27_301526 : B01",Melanoma,NULL
+"27_301531 : B01",Breast,NULL
+"27_301531 : B01","Breast Cancer",NULL
+"27_301534 : B01","Basal Cell Carcinoma",NULL
+"27_301534 : B01","Breast Cancer",NULL
+"27_301534 : B01",Leukemia,NULL
+"27_301546 : B01",Leukemia,NULL
+"27_301546 : B01","Thyroid Cancer",NULL
+"27_301572 : B01",Breast,NULL
+"27_301572 : B01","Breast Cancer",NULL
+"27_301578 : B01","Breast Cancer",NULL
+"27_301584 : B01","Breast Cancer",NULL
+"27_301599 : B01","Breast Cancer",NULL
+"27_301605 : B01","Breast Cancer",NULL
+"27_301676 : B01","Lung Cancer",NULL
+"27_301676 : B01","Rectal Cancer",NULL
+"27_301705 : B01","Breast Cancer",NULL
+"27_301735 : B01","Prostate Cancer",NULL
+"27_301739 : B01","Multiple Myeloma",NULL
+"27_301739 : B01","Thyroid Cancer",NULL
+"27_301754 : B01","Bladder Cancer",NULL
+"27_301767 : B01",Breast,NULL
+"27_301767 : B01","Breast Cancer",NULL
+"27_301767 : B01","Breast Cancer",NULL
+"27_301779 : B01",Leukemia,NULL
+"27_301779 : B01",Leukemia,NULL
+"27_301819 : B01","Breast Cancer",NULL
+"27_301833 : B01","Breast Cancer",NULL
+"27_301836 : B01","Breast Cancer",NULL
+"27_301836 : B01","Lung Cancer",NULL
+"27_301851 : B01","Medullary Thyroid Cancer",NULL
+"27_301863 : B01","Breast Cancer",NULL
+"27_301863 : B01","Thyroid Cancer",NULL
+"27_301873 : B01","Breast Cancer",NULL
+"27_301873 : B01","Ovarian Cancer",NULL
+"27_301873 : B01","Skin Cancer",NULL
+"27_301876 : B01","Breast Cancer",NULL
+"27_301898 : B01","Marginal Zone Lymphoma",NULL
+"27_301898 : B01","Skin Cancer",NULL
+"27_301992 : B01","Breast Cancer",NULL
+"27_301993 : B01",Testicular,NULL
+"27_301993 : B01","Testicular Cancer",NULL
+"27_302111 : B01",Endometrial,NULL
+"27_302111 : B01","Endometrial Cancer",NULL
+"27_302127 : B01",Melanoma,NULL
+"27_302127 : B01","Thyroid Cancer",NULL
+"27_302129 : B01","Breast Cancer",NULL
+"27_302328 : B01","Breast Cancer",NULL
+"27_302511 : B01",Breast,NULL
+"27_302511 : B01","Breast Cancer",NULL
+"27_302512 : B01","Breast Cancer",NULL
+"27_302512 : B01",MALT,NULL
+"27_302512 : B01","Mucosal Associated Lymphoid Tissue Lymphoma",NULL
+"27_302512 : B01","Non-Hodgkin Lymphoma",NULL
+"27_302512 : B01","Skin Cancer",NULL
+"27_302820 : B01","Soft Tissue Sarcoma",NULL
+"27_303493 : B01","Breast Cancer",NULL
+"27_310001 : B01","Breast Cancer",NULL
+"27_310023 : B01",Bladder,NULL
+"27_310023 : B01","Bladder Cancer",NULL
+"27_310031 : B01","Basal Cell Carcinoma",NULL
+"27_310031 : B01","Endometrial Cancer",NULL
+"27_310031 : B01",Melanoma,NULL
+"27_310040 : B01","Rectal Cancer",NULL
+"27_310126 : B01","Breast Cancer",NULL
+"27_310229 : B01",Breast,NULL
+"27_310229 : B01","Breast Cancer",NULL
+"27_310229 : B01","Breast Cancer",NULL
+"27_310243 : B01","Breast Cancer",NULL
+"27_310243 : B01","Ovarian Cancer",NULL
+"27_310312 : B01",Melanoma,NULL
+"27_400005 : B01","Ovarian Cancer",NULL
+"27_400006 : B01","Chronic Lymphocytic Leukemia",NULL
+"27_400006 : B01","Prostate Cancer",NULL
+"27_400016 : B01","Breast Cancer",NULL
+"27_400016 : B01","Breast Cancer",NULL
+"27_400017 : B01","Chronic Lymphocytic Leukemia",NULL
+"27_400017 : B01","Chronic Lymphocytic Leukemia",NULL
+"27_400017 : B01",Cll,NULL
+"27_400019 : B01","Breast Cancer",NULL
+"27_400028 : B01",Breast,NULL
+"27_400028 : B01","Breast Cancer",NULL
+"27_400047 : B01","Colon Cancer",NULL
+"27_400047 : B01","Skin Cancer",NULL
+"27_400052 : B01","Endometrial Cancer",NULL
+"27_400052 : B01",Melanoma,NULL
+"27_400054 : B01",Skin,NULL
+"27_400054 : B01","Skin Cancer",NULL
+"27_400065 : B01","Prostate Cancer",NULL
+"27_400067 : B01","Breast Cancer",NULL
+"27_400067 : B01",GIST,NULL
+"27_400067 : B01",Melanoma,NULL
+"27_400077 : B01","Breast Cancer",NULL
+"27_400078 : B01","Breast Cancer",NULL
+"27_400082 : B01","Prostate Cancer",NULL
+"27_400084 : B01","Medullary Thyroid Cancer",NULL
+"27_400089 : B01","Multiple Myeloma",NULL
+"27_400090 : B01","Breast Cancer",NULL
+"27_400090 : B01","Hodgkins Lymphoma",NULL
+"27_400090 : B01","Skin Cancer",NULL
+"27_400090 : B01","Thyroid Cancer",NULL
+"27_400093 : B01","Non-Hodgkin Lymphoma",NULL
+"27_400093 : B01","Non-Hodgkin Lymphoma",NULL
+"27_400095 : B01","Colon Cancer",NULL
+"27_400095 : B01","Kidney Cancer",NULL
+"27_400095 : B01","Liver Cancer",NULL
+"27_400096 : B01","Multiple Myeloma",NULL
+"27_400098 : B01",Breast,NULL
+"27_400098 : B01","Breast Cancer",NULL
+"27_400111 : B01",Breast,NULL
+"27_400111 : B01","Breast Cancer",NULL
+"27_400111 : B01","Breast Cancer",NULL
+"27_400112 : B01","Breast Cancer",NULL
+"27_400117 : B01","Kidney Cancer",NULL
+"27_400117 : B01","Squamous Cell Carcinoma",NULL
+"27_400119 : B01","Smoldering Multiple Myeloma",NULL
+"27_400119 : B01","Smoldering Multiple Myeloma",NULL
+"27_400119 : B01","Smoldering Multiple Myoloma",NULL
+"27_400121 : B01",Endometrial,NULL
+"27_400121 : B01","Endometrial Cancer",NULL
+"27_400125 : B01","Lung Cancer",NULL
+"27_400125 : B01","Skin Cancer",NULL
+"27_400130 : B01","Basal Cell Carcinoma",NULL
+"27_400130 : B01","Multiple Myeloma",NULL
+"27_400132 : B01","Non-Hodgkin Lymphoma",NULL
+"27_400136 : B01","Uterine Cancer",NULL
+"27_400142 : B01","Stomach Cancer",NULL
+"27_400146 : B01","Liver Cancer",NULL
+"27_400147 : B01","Colon Cancer",NULL
+"27_400147 : B01","Thyroid Cancer",NULL
+"27_400148 : B01","Breast Cancer",NULL
+"27_400148 : B01","Non-Hodgkin Lymphoma",NULL
+"27_400151 : B01","Skin Cancer",NULL
+"27_400164 : B01","Acute Promyelocytic Leukemia",NULL
+"27_400168 : B01","Skin Cancer",NULL
+"27_400170 : B01","Acute Myeloid Leukemia",NULL
+"27_400170 : B01","Myelodysplastic/Myeloproliferative Neoplasm",NULL
+"27_400170 : B01","Skin Cancer",NULL
+"27_400171 : B01","Ovarian Cancer",NULL
+"27_400178 : B01","Kidney Cancer",NULL
+"27_400178 : B01",Melanoma,NULL
+"27_400178 : B01","Thyroid Cancer",NULL
+"27_400179 : B01","Breast Cancer",NULL
+"27_400179 : B01","Pancreatic Cancer",NULL
+"27_400181 : B01",Lymphoma,NULL
+"27_400185 : B01",Lymphoma,NULL
+"27_400188 : B01","Breast Cancer",NULL
+"27_400191 : B01","Basal Cell Carcinoma",NULL
+"27_400191 : B01","Squamous Cell Carcinoma",NULL
+"27_400191 : B01","Testicular Cancer",NULL
+"27_400200 : B01",Lymphoma,NULL
+"27_400203 : B01","Breast Cancer",NULL
+"27_400204 : B01","Skin Cancer",NULL
+"27_400211 : B01","Basal Cell Carcinoma",NULL
+"27_400212 : B01","Basal Cell Carcinoma",NULL
+"27_400212 : B01","Breast Cancer",NULL
+"27_400212 : B01",Melanoma,NULL
+"27_400212 : B01","Prostate Cancer",NULL
+"27_400212 : B01","Squamous Cell Carcinoma",NULL
+"27_400221 : B01","Breast Cancer",NULL
+"27_400224 : B01","Brain Cancer",NULL
+"27_400224 : B01","Kidney Cancer",NULL
+"27_400224 : B01","Lung Cancer",NULL
+"27_400224 : B01",Melanoma,NULL
+"27_400225 : B01",Testicular,NULL
+"27_400225 : B01","Testicular Cancer",NULL
+"27_400226 : B01","Breast Cancer",NULL
+"27_400231 : B01","Breast Cancer",NULL
+"27_400234 : B01","Breast Cancer",NULL
+"27_400234 : B01","Thyroid Cancer",NULL
+"27_400236 : B01","Colorectal Cancer",NULL
+"27_400236 : B01","Monoclonal Gammopathy of Undetermined Significance",NULL
+"27_400237 : B01","Pancreatic Cancer",NULL
+"27_400242 : B01","Skin Cancer",NULL
+"27_400244 : B01","Basal Cell Carcinoma",NULL
+"27_400244 : B01","Breast Cancer",NULL
+"27_400250 : B01","Anal Cancer",NULL
+"27_400250 : B01","Skin Cancer",NULL
+"27_400251 : B01",Breast,NULL
+"27_400251 : B01","Breast Cancer",NULL
+"27_400273 : B01","Basal Cell Carcinoma",NULL
+"27_400273 : B01","Breast Cancer",NULL
+"27_400273 : B01","Hodgkin Lymphoma",NULL
+"27_400276 : B01",Breast,NULL
+"27_400276 : B01","Breast Cancer",NULL
+"27_400276 : B01","Breast Cancer",NULL
+"27_400277 : B01","Breast Cancer",NULL
+"27_400289 : B01","Breast Cancer",NULL
+"27_400300 : B01","Breast Cancer",NULL
+"27_400304 : B01",Skin,NULL
+"27_400304 : B01","Skin Cancer",NULL
+"27_400304 : B01","Skin Cancer",NULL
+"27_400306 : B01","Skin Cancer",NULL
+"27_400336 : B01","Prostate Cancer",NULL
+"27_400384 : B01","Pancreatic Cancer",NULL
+"27_400391 : B01","Myelodysplastic/Myeloproliferative Neoplasm",NULL
+"27_400451 : B01","Kidney Cancer",NULL
+"27_400451 : B01","Prostate Cancer",NULL
+"27_400451 : B01","Skin Cancer",NULL
+"27_400490 : B01","Basal Cell Carcinoma",NULL
+"27_400490 : B01","Squamous Cell Carcinoma",NULL
+"27_400537 : B01","Liver Cancer",NULL
+"27_400559 : B01","Chronic Lymphocytic Leukemia",NULL
+"27_400618 : B01",Carcinoid,NULL
+"27_400636 : B01","Non-Hodgkin Lymphoma",NULL
+"27_400908 : B01","Breast Cancer",NULL
+"27_400929 : B01","Non-Hodgkin Lymphoma",NULL
+"27_400968 : B01","Face Squamis Cell",NULL
+"27_400968 : B01","Squamous Cell Carcinoma",NULL
+"27_401002 : B01","Breast Cancer",NULL
+"27_401014 : B01",Breast,NULL
+"27_401014 : B01","Breast Cancer",NULL
+"27_401018 : B01","Breast Cancer",NULL
+"27_401018 : B01","Breast Cancer",NULL
+"27_401138 : B01","Lung Cancer",NULL
+"27_401138 : B01","Soft Tissue Cancer",NULL
+"27_401138 : B01","Soft Tissue Sarcoma",NULL
+"27_401162 : B01","Basal Cell Carcinoma",NULL
+"27_401199 : B01",Melanoma,NULL
+"27_401199 : B01","Papillary Thyroid Cancer",NULL
+"27_401300 : B01","Squamous Cell Carcinoma",NULL
+"27_401372 : B01","Skin Cancer",NULL
+"27_401474 : B01","Testicular Cancer",NULL
+"27_401474 : B01","Testicular Cancer",NULL
+"27_401570 : B01","Prostate Cancer",NULL
+"27_401578 : B01","Neuroendocrine Carcinoid",NULL
+"27_401603 : B01","Basal Cell Carcinoma",NULL
+"27_401644 : B01","Breast Cancer",NULL
+"27_401668 : B01",Melanoma,NULL
+"27_401668 : B01","Prostate Cancer",NULL
+"27_401722 : B01","Basal Cell Carcinoma",NULL
+"27_401722 : B01",Melanoma,NULL
+"27_401722 : B01","Prostate Cancer",NULL
+"27_401748 : B01",Breast,NULL
+"27_401748 : B01","Breast Cancer",NULL
+"27_401749 : B01","Prostate Cancer",NULL
+"27_401751 : B01","Malignant Mesothelioma",NULL
+"27_401754 : B01","Prostate Cancer",NULL
+"27_401754 : B01","Skin Cancer",NULL
+"27_401760 : B01","Prostate Cancer",NULL
+"27_401777 : B01","Prostate Cancer",NULL
+"27_401780 : B01","Prostate Cancer",NULL
+"27_401780 : B01","Skin Cancer",NULL
+"27_401785 : B01","Hodgkins Lymphoma",NULL
+"27_401786 : B01","Breast Cancer",NULL
+"27_401786 : B01","Skin Cancer",NULL
+"27_401790 : B01",Melanoma,NULL
+"27_401790 : B01","Prostate Cancer",NULL
+"27_401792 : B01","Lip Cancer",NULL
+"27_401792 : B01","Lung Cancer",NULL
+"27_401792 : B01",Myeloma,NULL
+"27_401793 : B01","Diffuse Large B-Cell Lymphoma",NULL
+"27_401795 : B01","Oral Cancer",NULL
+"27_401797 : B01","Prostate Cancer",NULL
+"27_401799 : B01","Basal Cell Carcinoma",NULL
+"27_401803 : B01","Chronic Lymphocytic Leukemia",NULL
+"27_401803 : B01","Prostate Cancer",NULL
+"27_401811 : B01","Breast Cancer",NULL
+"27_401814 : B01","Basal Cell Carcinoma",NULL
+"27_401815 : B01","Endometrial Cancer",NULL
+"27_401818 : B01","Skin Cancer",NULL
+"27_401818 : B01","Thyroid Cancer",NULL
+"27_401819 : B01","Breast Cancer",NULL
+"27_401828 : B01","Prostate Cancer",NULL
+"27_401844 : B01","Breast Cancer",NULL
+"27_401849 : B01","Prostate Cancer",NULL
+"27_401854 : B01","Breast Cancer",NULL
+"27_401854 : B01","Uterine Cancer",NULL
+"27_401867 : B01","Squamous Cell Carcinoma",NULL
+"27_401877 : B01","Chronic Lymphocytic Leukemia",NULL
+"27_401877 : B01","Hodgkin Lymphoma",NULL
+"27_401877 : B01","Hodgkins Lymphoma",NULL
+"27_401878 : B01","Breast Cancer",NULL
+"27_401881 : B01","Breast Cancer",NULL
+"27_401881 : B01","Breast Cancer",NULL
+"27_401890 : B01","Breast Cancer",NULL
+"27_401891 : B01","Basal Cell Carcinoma",NULL
+"27_401891 : B01","Breast Cancer",NULL
+"27_401897 : B01","Skin Cancer",NULL
+"27_401897 : B01","Thyroid Cancer",NULL
+"27_402256 : B01","Breast Cancer",NULL
+"27_402280 : B01","Follicular Lymphoma",NULL
+"27_402294 : B01","Non-Hodgkin Lymphoma",NULL
+"27_402294 : B01","Prostate Cancer",NULL
+"27_402421 : B01","Breast Cancer",NULL
+"27_402524 : B01","Mantle Cell Lymphoma",NULL
+"27_402577 : B01","Rectal Cancer",NULL
+"27_402586 : B01","Basal Cell Carcinoma",NULL
+"27_402586 : B01","Chronic Lymphocytic Leukemia",NULL
+"27_402661 : B01","Squamous Cell Carcinoma",NULL
+"27_402734 : B01","Basal Cell Carcinoma",NULL
+"27_402764 : B01",Breast,NULL
+"27_402764 : B01","Breast Cancer",NULL
+"27_402764 : B01","Breast Cancer",NULL
+"27_402840 : B01",Prostate,NULL
+"27_402840 : B01","Prostate Cancer",NULL
+"27_403455 : B01","Endometrial Cancer",NULL
+"27_403472 : B01","Colon Cancer",NULL
+"27_403473 : B01","Basal Cell Carcinoma",NULL
+"27_403540 : B01",Melanoma,NULL
+"27_403572 : B01","Breast Cancer",NULL
+"27_403592 : B01","Breast Cancer",NULL
+"27_403606 : B01","Breast Cancer",NULL
+"27_403625 : B01","Testicular Cancer",NULL
+"27_403669 : B01","Breast Cancer",NULL
+"27_404404 : B01","Basal Cell Carcinoma",NULL
+"27_404404 : B01","Kidney Cancer",NULL
+"27_409005 : B01","Breast Cancer",NULL
+"27_410278 : B01","B-cell Lymphoma",NULL
+"27_410278 : B01","Diffuse Large B-Cell Lymphoma",NULL
+"27_410278 : B01","Kidney Cancer",NULL
+"27_410538 : B01","Hodgkins Lymphoma",NULL
+"27_410760 : B01","Papillary Thyroid Cancer",NULL
+"27_411186 : B01","Hodgkins Lymphoma",NULL
+"27_413426 : B01","Basal Cell Carcinoma",NULL
+"27_413426 : B01",Lymphoma,NULL
+"27_413426 : B01","Uterine Cancer",NULL
+"27_413441 : B01","Multiple Myeloma",NULL
+"27_413455 : B01","Appendiceal Cancer",NULL
+"27_413466 : B01","Breast Cancer",NULL
+"27_413466 : B01","Skin Cancer",NULL
+"27_413480 : B01","Breast Cancer",NULL
+"27_413507 : B01","Blood Cancer",NULL
+"27_413511 : B01","Chronic Lymphocytic Leukemia",NULL
+"27_413511 : B01","Cutaneous T-cell lymphoma",NULL
+"27_413511 : B01","Skin Cancer",NULL
+"27_413513 : B01","Breast Cancer",NULL
+"27_413523 : B01",Prostate,NULL
+"27_413523 : B01","Prostate Cancer",NULL
+"27_413541 : B01","Breast Cancer",NULL
+"27_413541 : B01",Sarcoma,NULL
+"27_413558 : B01","Squamous Cell Carcinoma",NULL
+"27_414562 : B01","Prostate Cancer",NULL
+"27_414562 : B01","Prostate Cancer",NULL
+"27_414568 : B01","Endometrial Cancer",NULL
+"27_414568 : B01","Endometrial Cancer",NULL
+"27_414569 : B01","Breast Cancer",NULL
+"27_414571 : B01","Colon Cancer",NULL
+"27_414571 : B01","Skin Cancer",NULL
+"27_414606 : B01","Chronic Lymphocytic Leukemia",NULL
+"27_414619 : B01","Breast Cancer",NULL
+"27_414637 : B01","Endometrial Cancer",NULL
+"27_414639 : B01","Endometrial Cancer",NULL
+"27_414645 : B01","Prostate Cancer",NULL
+"27_414670 : B01","Follicular Lymphoma",NULL
+"27_414676 : B01","Colon Cancer",NULL
+"27_414676 : B01","Endometrial Cancer",NULL
+"27_414677 : B01","Kidney Cancer",NULL
+"27_414684 : B01","Intestinal Cancer",NULL
+"27_414684 : B01","Liver Cancer",NULL
+"27_414684 : B01","Ovarian Cancer",NULL
+"27_414689 : B01","Squamous Cell Carcinoma",NULL
+"27_414690 : B01","Prostate Cancer",NULL
+"27_414690 : B01","Slow Lymphocytic Lymphoma",NULL
+"27_414745 : B01","Basal Cell Carcinoma",NULL
+"27_414745 : B01","Skin Cancer",NULL
+"27_414783 : B01","Breast Cancer",NULL
+"27_414957 : B01","Acute Myeloid Leukemia",NULL
+"27_414960 : B01","Acute Myeloid Leukemia",NULL
+"27_414960 : B01",Lymphoma,NULL
+"27_414960 : B01","Thyroid Cancer",NULL
+"27_414961 : B01","Myelodysplastic Syn/Myeloprolif Neoplasm",NULL
+"27_414961 : B01","Myelodysplastic/Myeloproliferative Neoplasm",NULL
+"27_414961 : B01","Myelodysplastic/Myeloproliferative Neoplasm",NULL
+"27_414962 : B01","Acute Lymphocytic Leukemia",NULL
+"27_414966 : B01","Breast Cancer",NULL
+"27_414967 : B01","Testicular Cancer",NULL
+"27_414969 : B01","Breast Cancer",NULL
+"27_414972 : B01","Prostate Cancer",NULL
+"27_414973 : B01","Hodgkins Lymphoma",NULL
+"27_414977 : B01","Ovarian Cancer",NULL
+"27_414984 : B01","Hodgkins Lymphoma",NULL
+"27_414987 : B01","Breast Cancer",NULL
+"27_414987 : B01",Melanoma,NULL
+"27_414990 : B01",Lymphoma,NULL
+"27_414992 : B01","Prostate Cancer",NULL
+"27_414994 : B01","Myelodysplastic/Myeloproliferative Neoplasm",NULL
+"27_414998 : B01","Breast Cancer",NULL
+"27_414999 : B01","Basal Cell Carcinoma",NULL
+"27_414999 : B01","Breast Cancer",NULL
+"27_415004 : B01","Breast Cancer",NULL
+"27_415005 : B01","Breast Cancer",NULL
+"27_415005 : B01","Essential Thrombocytosis",NULL
+"27_415007 : B01","Ovarian Cancer",NULL
+"27_415010 : B01","Skin Cancer",NULL
+"27_415011 : B01","Breast Cancer",NULL
+"27_415015 : B01","Thyroid Cancer",NULL
+"27_415020 : B01","Bladder Cancer",NULL
+"27_415023 : B01","Thyroid Cancer",NULL
+"27_415027 : B01","Lung Cancer",NULL
+"27_415028 : B01","Prostate Cancer",NULL
+"27_415029 : B01","Ovarian Cancer",NULL
+"27_415030 : B01","Breast Cancer",NULL
+"27_415031 : B01","Prostate Cancer",NULL
+"27_428824 : B01","Skin Cancer",NULL
+"27_446644 : B01","Prostate Cancer",NULL
+"27_473374 : B01","Breast Cancer",NULL
+"27_473374 : B01","Cervical Cancer",NULL
+"27_479979 : B01","Testicular Cancer",NULL
+"27_481184 : B01","Thymus Cancer",NULL
+"27_490002 : B01","Breast Cancer",NULL
+"27_490004 : B01","Breast Cancer",NULL
+"27_490006 : B01","Ovarian Cancer",NULL
+"27_490010 : B01","Hodgkin Lymphoma",NULL
+"27_490010 : B01","Small Lymphocytic Lymphoma",NULL
+"27_490012 : B01",Leukemia,NULL
+"27_490016 : B01","Bladder Cancer",NULL
+"27_490019 : B01","Basal Cell Carcinoma",NULL
+"27_490019 : B01","Follicular Lymphoma",NULL
+"27_490019 : B01","Squamous Cell Carcinoma",NULL
+"27_490019 : B01","Testicular Cancer",NULL
+"27_490022 : B01",Lymphoma,NULL
+"27_490023 : B01","Appendiceal Cancer",NULL
+"27_490024 : B01","Breast Cancer",NULL
+"27_490044 : B01","Bone Cancer",NULL
+"27_490234 : B01","Prostate Cancer",NULL
+"27_490250 : B01","Prostate Cancer",NULL
+"27_490260 : B01","Oral Cancer",NULL
+"27_490260 : B01","Squamous Cell Carcinoma",NULL
+"27_490270 : B01","Breast Cancer",NULL
+"27_490290 : B01","Appendiceal Cancer",NULL
+"27_490500 : B01","Breast Cancer",NULL
+"27_490707 : B01","Prostate Cancer",NULL
+"27_490789 : B01","Prostate Cancer",NULL
+"27_490789 : B01","Testicular Cancer",NULL
+"27_490850 : B01","Squamous Cell Carcinoma",NULL
+"27_492002 : B01","Testicular Cancer",NULL
+"27_492003 : B01","Colon Cancer",NULL
+"27_498894 : B01","Hodgkin Lymphoma",NULL
+"27_498894 : B01","Non-Hodgkin Lymphoma",NULL

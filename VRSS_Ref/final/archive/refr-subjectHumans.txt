@@ -1,0 +1,912 @@
+subjecthumans	Schema Version 3.36	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8	Unnamed: 9	Unnamed: 10	Unnamed: 11	Unnamed: 12	Unnamed: 13	Unnamed: 14	Unnamed: 15	Unnamed: 16	Unnamed: 17	Unnamed: 18	Unnamed: 19	Unnamed: 20	Unnamed: 21
+Please do not delete or edit this column																					
+Column Name	Subject ID	Arm Or Cohort ID	Gender	Min Subject Age	Max Subject Age	Age Unit	Age Event	Age Event Specify	Subject Phenotype	Subject Location	Ethnicity	Race	Race Specify	Description	Result Separator Column	Exposure Process Reported	Exposure Material Reported	Exposure Material ID	Disease Reported	Disease Ontology ID	Disease Stage Reported
+	14_374212	refr-ARM1	Female	20	20	Years	Age at enrollment			US: New York	Not Specified	Black or African American									
+	14_403358	refr-ARM1	Female	21	21	Years	Age at enrollment			US: New York	Hispanic or Latino	Multiracial									
+	14_776628	refr-ARM1	Male	21	21	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American									
+	14_160668	refr-ARM1	Female	22	22	Years	Age at enrollment			US: New York	Not Specified	White									
+	14_512561	refr-ARM1	Female	22	22	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_373975	refr-ARM1	Female	23	23	Years	Age at enrollment			US: New York	Not Specified	Asian									
+	14_429588	refr-ARM1	Female	23	23	Years	Age at enrollment			US: New York	Not Specified	Asian									
+	14_491696	refr-ARM1	Male	23	23	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	14_495208	refr-ARM1	Female	23	23	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	14_616772	refr-ARM1	Male	23	23	Years	Age at enrollment			US: New York	Not Specified	Other	Other								
+	14_758241	refr-ARM1	Female	23	23	Years	Age at enrollment			US: New York	Not Specified	White									
+	14_949379	refr-ARM1	Female	23.211	23.211	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_563092	refr-ARM1	Female	23.3562	23.3562	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_603328	refr-ARM1	Male	23.6493	23.6493	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	14_361741	refr-ARM1	Female	24	24	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	14_571359	refr-ARM1	Female	24	24	Years	Age at enrollment			US: New York	Not Specified	Asian									
+	14_761696	refr-ARM1	Male	24	24	Years	Age at enrollment			US: New York	Not Specified	Asian									
+	14_864277	refr-ARM1	Female	24	24	Years	Age at enrollment			US: New York	Not Specified	White									
+	14_591664	refr-ARM1	Female	24.3781	24.3781	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_931124	refr-ARM1	Male	24.3781	24.3781	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_408074	refr-ARM1	Male	25	25	Years	Age at enrollment			US: New York	Not Specified	White									
+	14_639824	refr-ARM1	Male	25	25	Years	Age at enrollment			US: New York	Not Specified	Asian									
+	14_208286	refr-ARM1	Male	26	26	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	14_304492	refr-ARM1	Female	26	26	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_456907	refr-ARM1	Female	26	26	Years	Age at enrollment			US: New York	Not Reported	White									
+	14_569615	refr-ARM1	Female	26	26	Years	Age at enrollment			US: New York	Not Specified	Asian									
+	14_861721	refr-ARM1	Female	26	26	Years	Age at enrollment			US: New York	Not Specified	Asian									
+	14_967972	refr-ARM1	Female	26	26	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	14_873517	refr-ARM1	Female	26.8027	26.8027	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	14_285169	refr-ARM1	Female	27	27	Years	Age at enrollment			US: New York	Not Specified	Black or African American									
+	14_444128	refr-ARM1	Male	27	27	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_636569	refr-ARM1	Female	27	27	Years	Age at enrollment			US: New York	Not Specified	Asian									
+	14_779347	refr-ARM1	Male	27	27	Years	Age at enrollment			US: New York	Not Specified	Black or African American									
+	14_683717	refr-ARM1	Female	27.4685	27.4685	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	14_269103	refr-ARM1	Male	27.8	27.8	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_499594	refr-ARM1	Male	27.9	27.9	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_286779	refr-ARM1	Female	28	28	Years	Age at enrollment			US: New York	Not Specified	White									
+	14_313928	refr-ARM1	Male	28	28	Years	Age at enrollment			US: New York	Not Specified	Black or African American									
+	14_491531	refr-ARM1	Female	28	28	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_568176	refr-ARM1	Female	28	28	Years	Age at enrollment			US: New York	Not Specified	Black or African American									
+	14_681897	refr-ARM1	Male	28	28	Years	Age at enrollment			US: New York	Not Specified	White									
+	14_753466	refr-ARM1	Female	28	28	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	14_382861	refr-ARM1	Female	29	29	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	14_404768	refr-ARM1	Male	29	29	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_410477	refr-ARM1	Male	29	29	Years	Age at enrollment			US: New York	Not Specified	White									
+	14_991643	refr-ARM1	Female	29	29	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_177005	refr-ARM1	Male	30	30	Years	Age at enrollment			US: New York	Not Specified	White									
+	14_218423	refr-ARM1	Male	30	30	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	14_536104	refr-ARM1	Female	30	30	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_906595	refr-ARM1	Female	30	30	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_399432	refr-ARM1	Female	30.789	30.789	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_183745	refr-ARM1	Female	31	31	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_428897	refr-ARM1	Female	31	31	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_873075	refr-ARM1	Female	31	31	Years	Age at enrollment			US: New York	Not Specified	White									
+	14_875077	refr-ARM1	Male	31	31	Years	Age at enrollment			US: New York	Not Specified	Black or African American									
+	14_212153	refr-ARM1	Female	31.0247	31.0247	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_705478	refr-ARM1	Male	31.0247	31.0247	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_225211	refr-ARM1	Male	32	32	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	14_261505	refr-ARM1	Female	32	32	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	14_265479	refr-ARM1	Male	32	32	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	14_334077	refr-ARM1	Not Reported	32	32	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_392122	refr-ARM1	Male	32	32	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_533782	refr-ARM1	Male	32	32	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	14_562891	refr-ARM1	Male	32	32	Years	Age at enrollment			US: New York	Not Specified	Black or African American									
+	14_647441	refr-ARM1	Female	32	32	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_713146	refr-ARM1	Female	32	32	Years	Age at enrollment			US: New York	Not Specified	Black or African American									
+	14_588864	refr-ARM1	Female	32.0301	32.0301	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_587174	refr-ARM1	Female	32.5096	32.5096	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_143396	refr-ARM1	Female	33	33	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	14_186975	refr-ARM1	Male	33	33	Years	Age at enrollment			US: New York	Not Specified	Black or African American									
+	14_270178	refr-ARM1	Female	33	33	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_324493	refr-ARM1	Male	33	33	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_420792	refr-ARM1	Male	33	33	Years	Age at enrollment			US: New York	Not Specified	White									
+	14_493466	refr-ARM1	Female	33	33	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	14_884177	refr-ARM1	Female	33	33	Years	Age at enrollment			US: New York	Not Specified	White									
+	14_385063	refr-ARM1	Male	33.8219	33.8219	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	14_384727	refr-ARM1	Male	34	34	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	14_471327	refr-ARM1	Female	34	34	Years	Age at enrollment			US: New York	Not Specified	White									
+	14_896884	refr-ARM1	Female	34	34	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_720781	refr-ARM1	Male	34.6	34.6	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	14_166589	refr-ARM1	Male	35	35	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_629929	refr-ARM1	Male	35	35	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_685588	refr-ARM1	Female	35	35	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_811101	refr-ARM1	Female	35.063	35.063	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_427801	refr-ARM1	Female	36	36	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_500745	refr-ARM1	Male	36	36	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_752797	refr-ARM1	Female	36	36	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_860194	refr-ARM1	Female	36.3205	36.3205	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_254215	refr-ARM1	Male	37	37	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_278647	refr-ARM1	Male	37	37	Years	Age at enrollment			US: New York	Not Specified	White									
+	14_287186	refr-ARM1	Female	37	37	Years	Age at enrollment			US: New York	Not Specified	Multiracial									
+	14_327086	refr-ARM1	Female	37	37	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American									
+	14_482383	refr-ARM1	Male	37	37	Years	Age at enrollment			US: New York	Not Specified	Other	Other								
+	14_194396	refr-ARM1	Male	37.252	37.252	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_136068	refr-ARM1	Male	37.3753	37.3753	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_259046	refr-ARM1	Male	37.6082	37.6082	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_981447	refr-ARM1	Female	37.7	37.7	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_301926	refr-ARM1	Female	38	38	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	14_483903	refr-ARM1	Female	38	38	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_900776	refr-ARM1	Male	38	38	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_994521	refr-ARM1	Male	38	38	Years	Age at enrollment			US: New York	Not Specified	Black or African American									
+	14_620328	refr-ARM1	Male	38.7178	38.7178	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_391735	refr-ARM1	Male	38.9616	38.9616	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_413507	refr-ARM1	Male	39	39	Years	Age at enrollment			US: New York	Not Specified	White									
+	14_582321	refr-ARM1	Male	39	39	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_607014	refr-ARM1	Male	39	39	Years	Age at enrollment			US: New York	Not Specified	White									
+	14_910475	refr-ARM1	Female	39	39	Years	Age at enrollment			US: New York	Not Specified	Black or African American									
+	14_950845	refr-ARM1	Male	39.1452	39.1452	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	14_322676	refr-ARM1	Male	40	40	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_974137	refr-ARM1	Female	40	40	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	14_409279	refr-ARM1	Female	40.0986	40.0986	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_675231	refr-ARM1	Male	40.2438	40.2438	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_658367	refr-ARM1	Female	40.9534	40.9534	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	14_836565	refr-ARM1	Female	41	41	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_833094	refr-ARM1	Female	41.0356	41.0356	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_120858	refr-ARM1	Female	42	42	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_464837	refr-ARM1	Male	42	42	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	14_845339	refr-ARM1	Male	43.548	43.548	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American									
+	14_562035	refr-ARM1	Female	44	44	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_918413	refr-ARM1	Female	44.8493	44.8493	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_127552	refr-ARM1	Male	45	45	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_175078	refr-ARM1	Male	45	45	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_513053	refr-ARM1	Male	45	45	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_437688	refr-ARM1	Male	45.1863	45.1863	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	14_999724	refr-ARM1	Male	45.1863	45.1863	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_122173	refr-ARM1	Male	45.4712	45.4712	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_306348	refr-ARM1	Female	46	46	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_639229	refr-ARM1	Male	46	46	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_831542	refr-ARM1	Female	46	46	Years	Age at enrollment			US: New York	Hispanic or Latino	Multiracial									
+	14_747586	refr-ARM1	Male	46.6301	46.6301	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_123753	refr-ARM1	Female	46.7068	46.7068	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_743991	refr-ARM1	Male	47	47	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_311544	refr-ARM1	Female	47.7671	47.7671	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_362791	refr-ARM1	Female	48	48	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_719447	refr-ARM1	Female	48	48	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_754797	refr-ARM1	Male	48	48	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_973416	refr-ARM1	Female	48	48	Years	Age at enrollment			US: New York	Not Specified	Other	Other								
+	14_741906	refr-ARM1	Male	48.1534	48.1534	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_107588	refr-ARM1	Male	48.389	48.389	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_171658	refr-ARM1	Female	49	49	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	14_256634	refr-ARM1	Male	49	49	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_339339	refr-ARM1	Male	49	49	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_367355	refr-ARM1	Male	49	49	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_795323	refr-ARM1	Male	49.2384	49.2384	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	14_439218	refr-ARM1	Male	49.452	49.452	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_809758	refr-ARM1	Female	50	50	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Native Hawaiian or Other Pacific Islander									
+	14_649515	refr-ARM1	Male	50.1452	50.1452	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_573413	refr-ARM1	Female	50.8877	50.8877	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American									
+	14_653364	refr-ARM1	Female	51	51	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_841836	refr-ARM1	Female	51	51	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_698954	refr-ARM1	Female	52	52	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_348651	refr-ARM1	Female	52.7699	52.7699	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_339154	refr-ARM1	Female	52.9315	52.9315	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_860417	refr-ARM1	Female	52.9315	52.9315	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_188155	refr-ARM1	Male	53	53	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_994827	refr-ARM1	Female	53	53	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_217514	refr-ARM1	Male	54	54	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_339739	refr-ARM1	Female	54	54	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_368073	refr-ARM1	Male	54.8685	54.8685	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_528185	refr-ARM1	Male	54.8685	54.8685	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_412766	refr-ARM1	Female	55	55	Years	Age at enrollment			US: New York	Not Specified	Black or African American									
+	14_670351	refr-ARM1	Female	55	55	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_693608	refr-ARM1	Male	55	55	Years	Age at enrollment			US: New York	Not Specified	White									
+	14_820803	refr-ARM1	Female	55	55	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_115671	refr-ARM1	Female	55.7562	55.7562	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	14_108656	refr-ARM1	Female	56	56	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_185965	refr-ARM1	Male	56	56	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_249066	refr-ARM1	Female	56	56	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_379363	refr-ARM1	Female	56	56	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_597395	refr-ARM1	Male	56	56	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_722081	refr-ARM1	Male	56	56	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_241807	refr-ARM1	Female	56.0137	56.0137	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	14_304474	refr-ARM1	Male	56.8438	56.8438	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_541069	refr-ARM1	Male	56.8438	56.8438	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_672894	refr-ARM1	Male	57	57	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_881576	refr-ARM1	Male	57	57	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_263646	refr-ARM1	Female	58	58	Years	Age at enrollment			US: New York	Not Specified	White									
+	14_148341	refr-ARM1	Male	58.1753	58.1753	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_507701	refr-ARM1	Female	58.3726	58.3726	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_213236	refr-ARM1	Male	58.3753	58.3753	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_239836	refr-ARM1	Female	60.1726	60.1726	Years	Age at enrollment			US: New York	Not Specified	Unknown									
+	14_852274	refr-ARM1	Male	62.1233	62.1233	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_628758	refr-ARM1	Male	62.6137	62.6137	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_594272	refr-ARM1	Female	63.9315	63.9315	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	14_529422	refr-ARM1	Female	64	64	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_988602	refr-ARM1	Female	65	65	Years	Age at enrollment			US: New York	Not Specified	Other	Other								
+	14_724174	refr-ARM1	Female	69	69	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_453592	refr-ARM1	Female	70.2657	70.2657	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	14_446374	refr-ARM1	Female	74	74	Years	Age at enrollment			US: New York	Not Specified	Black or African American									
+	14_654254	refr-ARM1	Male	75.4329	75.4329	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	27_100034	refr-ARM1	Female	18	18	Years	Age at enrollment			US: Minnesota	Not Reported	White									
+	27_100020	refr-ARM1	Female	19	19	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100035	refr-ARM1	Female	19	19	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100013	refr-ARM1	Female	23	23	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100045	refr-ARM1	Female	24	24	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100088	refr-ARM1	Male	26	26	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100021	refr-ARM1	Female	28	28	Years	Age at enrollment			US: Minnesota	Hispanic or Latino	Multiracial									
+	27_100048	refr-ARM1	Female	32	32	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100136	refr-ARM1	Female	33	33	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	Black or African American									
+	27_100025	refr-ARM1	Female	35	35	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100112	refr-ARM1	Female	35	35	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100132	refr-ARM1	Male	35	35	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100008	refr-ARM1	Male	36	36	Years	Age at enrollment			US: Minnesota	Hispanic or Latino	Multiracial									
+	27_100027	refr-ARM1	Female	37	37	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100041	refr-ARM1	Female	38	38	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100043	refr-ARM1	Female	39	39	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100133	refr-ARM1	Female	39	39	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100051	refr-ARM1	Male	40	40	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100056	refr-ARM1	Female	41	41	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100077	refr-ARM1	Male	41	41	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100101	refr-ARM1	Female	41	41	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100107	refr-ARM1	Female	41	41	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100140	refr-ARM1	Male	41	41	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100004	refr-ARM1	Male	42	42	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100011	refr-ARM1	Male	46	46	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100137	refr-ARM1	Female	46	46	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100052	refr-ARM1	Female	47	47	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100141	refr-ARM1	Male	47	47	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100003	refr-ARM1	Male	48	48	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	Multiracial									
+	27_100092	refr-ARM1	Female	48	48	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100022	refr-ARM1	Female	49	49	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100031	refr-ARM1	Female	49	49	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100019	refr-ARM1	Female	50	50	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100033	refr-ARM1	Male	50	50	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100078	refr-ARM1	Male	50	50	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100016	refr-ARM1	Male	52	52	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100038	refr-ARM1	Female	52	52	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100134	refr-ARM1	Male	52	52	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100017	refr-ARM1	Female	53	53	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100015	refr-ARM1	Female	54	54	Years	Age at enrollment			US: Minnesota	Not Reported	White									
+	27_100091	refr-ARM1	Female	54	54	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100007	refr-ARM1	Male	55	55	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100090	refr-ARM1	Male	55	55	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100032	refr-ARM1	Male	56	56	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100135	refr-ARM1	Female	56	56	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100028	refr-ARM1	Male	57	57	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100005	refr-ARM1	Female	58	58	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100030	refr-ARM1	Female	58	58	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100039	refr-ARM1	Female	58	58	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100104	refr-ARM1	Male	58	58	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100002	refr-ARM1	Male	59	59	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100053	refr-ARM1	Female	59	59	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100079	refr-ARM1	Female	59	59	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100049	refr-ARM1	Male	61	61	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	Black or African American									
+	27_100006	refr-ARM1	Male	62	62	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100009	refr-ARM1	Male	62	62	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100024	refr-ARM1	Female	62	62	Years	Age at enrollment			US: Minnesota	Not Reported	White									
+	27_100018	refr-ARM1	Female	63	63	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100040	refr-ARM1	Female	64	64	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100042	refr-ARM1	Male	64	64	Years	Age at enrollment			US: Minnesota	Not Reported	White									
+	27_100093	refr-ARM1	Female	64	64	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100023	refr-ARM1	Female	65	65	Years	Age at enrollment			US: Minnesota	Not Reported	White									
+	27_100010	refr-ARM1	Female	66	66	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100061	refr-ARM1	Female	67	67	Years	Age at enrollment			US: Minnesota	Not Reported	White									
+	27_100130	refr-ARM1	Male	67	67	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100046	refr-ARM1	Female	68	68	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100047	refr-ARM1	Male	68	68	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100026	refr-ARM1	Female	70	70	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100139	refr-ARM1	Male	72	72	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100036	refr-ARM1	Female	75	75	Years	Age at enrollment			US: Minnesota	Not Specified	White									
+	27_100012	refr-ARM1	Female	76	76	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	27_100029	refr-ARM1	Male	78	78	Years	Age at enrollment			US: Minnesota	Not Hispanic or Latino	White									
+	32_551241	refr-ARM1	Male	-1	-1	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Not Reported									
+	32_551286	refr-ARM1	Female	-1	-1	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551287	refr-ARM1	Male	-1	-1	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551081	refr-ARM1	Female	15	15	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551065	refr-ARM1	Female	16	16	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551384	refr-ARM1	Female	16	16	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551064	refr-ARM1	Female	17	17	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551364	refr-ARM1	Male	17	17	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551074	refr-ARM1	Male	18	18	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Other	Other								
+	32_551158	refr-ARM1	Female	18	18	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551184	refr-ARM1	Male	18	18	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551206	refr-ARM1	Male	18	18	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551211	refr-ARM1	Female	18	18	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551240	refr-ARM1	Female	18	18	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551257	refr-ARM1	Female	18	18	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111030	refr-ARM1	Female	19	19	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White									
+	32_551051	refr-ARM1	Female	19	19	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Black or African American									
+	32_551060	refr-ARM1	Male	19	19	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Multiracial									
+	32_551119	refr-ARM1	Male	19	19	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551160	refr-ARM1	Male	19	19	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551215	refr-ARM1	Male	19	19	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551221	refr-ARM1	Female	19	19	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551302	refr-ARM1	Male	19	19	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White									
+	32_111016	refr-ARM1	Female	20	20	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111037	refr-ARM1	Female	20	20	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Other	Other								
+	32_111047	refr-ARM1	Female	20	20	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Not Reported									
+	32_551106	refr-ARM1	Female	20	20	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551217	refr-ARM1	Male	20	20	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551238	refr-ARM1	Female	20	20	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551283	refr-ARM1	Male	20	20	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551303	refr-ARM1	Male	20	20	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551373	refr-ARM1	Male	20	20	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551374	refr-ARM1	Male	20	20	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551396	refr-ARM1	Male	20	20	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Other	Other								
+	32_551413	refr-ARM1	Male	20	20	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Multiracial									
+	32_551123	refr-ARM1	Male	21	21	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Black or African American									
+	32_551129	refr-ARM1	Male	21	21	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Multiracial									
+	32_551156	refr-ARM1	Male	21	21	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551182	refr-ARM1	Male	21	21	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551228	refr-ARM1	Female	21	21	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White									
+	32_551260	refr-ARM1	Female	21	21	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551267	refr-ARM1	Female	21	21	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551369	refr-ARM1	Female	21	21	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111029	refr-ARM1	Male	22	22	Years	Age at enrollment			US: Arizona	Not Specified	Native Hawaiian or Other Pacific Islander									
+	32_551072	refr-ARM1	Female	22	22	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551227	refr-ARM1	Male	22	22	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551261	refr-ARM1	Female	22	22	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551273	refr-ARM1	Female	22	22	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551294	refr-ARM1	Male	22	22	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551331	refr-ARM1	Female	22	22	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551379	refr-ARM1	Female	22	22	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111007	refr-ARM1	Male	23	23	Years	Age at enrollment			US: Arizona	Not Reported	Asian									
+	32_111023	refr-ARM1	Male	23	23	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551127	refr-ARM1	Female	23	23	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Multiracial									
+	32_551224	refr-ARM1	Female	23	23	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551225	refr-ARM1	Female	23	23	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551263	refr-ARM1	Female	23	23	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551337	refr-ARM1	Male	23	23	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551361	refr-ARM1	Male	23	23	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111012	refr-ARM1	Female	24	24	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Asian									
+	32_111038	refr-ARM1	Female	24	24	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White									
+	32_551020	refr-ARM1	Female	24	24	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Multiracial									
+	32_551082	refr-ARM1	Male	24	24	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551095	refr-ARM1	Female	24	24	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Other	Other								
+	32_551115	refr-ARM1	Male	24	24	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551136	refr-ARM1	Female	24	24	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551190	refr-ARM1	Female	24	24	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551270	refr-ARM1	Male	24	24	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551320	refr-ARM1	Female	24	24	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111018	refr-ARM1	Female	25	25	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White									
+	32_111020	refr-ARM1	Male	25	25	Years	Age at enrollment			US: Arizona	Not Reported	Not Reported									
+	32_111025	refr-ARM1	Male	25	25	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551033	refr-ARM1	Male	25	25	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551046	refr-ARM1	Male	25	25	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Other	Other								
+	32_551122	refr-ARM1	Female	25	25	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551229	refr-ARM1	Male	25	25	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551237	refr-ARM1	Male	25	25	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551259	refr-ARM1	Male	25	25	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551275	refr-ARM1	Female	25	25	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551368	refr-ARM1	Female	25	25	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111011	refr-ARM1	Female	26	26	Years	Age at enrollment			US: Arizona	Not Reported	White									
+	32_111035	refr-ARM1	Female	26	26	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551080	refr-ARM1	Male	26	26	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551091	refr-ARM1	Female	26	26	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551092	refr-ARM1	Female	26	26	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551093	refr-ARM1	Male	26	26	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Black or African American									
+	32_551174	refr-ARM1	Female	26	26	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551253	refr-ARM1	Female	26	26	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551321	refr-ARM1	Male	26	26	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111014	refr-ARM1	Male	27	27	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Asian									
+	32_111019	refr-ARM1	Male	27	27	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111021	refr-ARM1	Female	27	27	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Multiracial									
+	32_551097	refr-ARM1	Female	27	27	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551130	refr-ARM1	Female	27	27	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551234	refr-ARM1	Female	27	27	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551239	refr-ARM1	Female	27	27	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551252	refr-ARM1	Male	27	27	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551258	refr-ARM1	Male	27	27	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551264	refr-ARM1	Male	27	27	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551289	refr-ARM1	Female	27	27	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551322	refr-ARM1	Male	27	27	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551342	refr-ARM1	Female	27	27	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551387	refr-ARM1	Male	27	27	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111032	refr-ARM1	Female	28	28	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	American Indian or Alaska Native									
+	32_111033	refr-ARM1	Male	28	28	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	American Indian or Alaska Native									
+	32_551015	refr-ARM1	Male	28	28	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Black or African American									
+	32_551076	refr-ARM1	Male	28	28	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551138	refr-ARM1	Female	29	29	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Multiracial									
+	32_551143	refr-ARM1	Female	29	29	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551152	refr-ARM1	Female	29	29	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551196	refr-ARM1	Female	29	29	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551305	refr-ARM1	Female	29	29	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551314	refr-ARM1	Female	29	29	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551078	refr-ARM1	Female	30	30	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551141	refr-ARM1	Male	30	30	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551183	refr-ARM1	Female	30	30	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551216	refr-ARM1	Male	30	30	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551276	refr-ARM1	Male	30	30	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551372	refr-ARM1	Male	30	30	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551142	refr-ARM1	Female	31	31	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551144	refr-ARM1	Male	31	31	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551187	refr-ARM1	Female	31	31	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White									
+	32_551246	refr-ARM1	Female	31	31	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551280	refr-ARM1	Male	31	31	Years	Age at enrollment			US: Arizona	Not Specified	Multiracial									
+	32_551399	refr-ARM1	Female	31	31	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111026	refr-ARM1	Female	32	32	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551163	refr-ARM1	Male	32	32	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551165	refr-ARM1	Male	32	32	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551343	refr-ARM1	Male	32	32	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551392	refr-ARM1	Female	32	32	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111013	refr-ARM1	Female	33	33	Years	Age at enrollment			US: Arizona	Not Reported	White									
+	32_111027	refr-ARM1	Female	33	33	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	American Indian or Alaska Native									
+	32_551054	refr-ARM1	Male	33	33	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Black or African American									
+	32_551132	refr-ARM1	Female	33	33	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551180	refr-ARM1	Male	33	33	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551185	refr-ARM1	Female	33	33	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Other	Other								
+	32_551197	refr-ARM1	Male	33	33	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551284	refr-ARM1	Male	33	33	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551290	refr-ARM1	Male	33	33	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551362	refr-ARM1	Male	33	33	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Other	Other								
+	32_111008	refr-ARM1	Male	34	34	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White									
+	32_111031	refr-ARM1	Male	34	34	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	American Indian or Alaska Native									
+	32_551195	refr-ARM1	Female	34	34	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551220	refr-ARM1	Female	34	34	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551313	refr-ARM1	Male	34	34	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551315	refr-ARM1	Female	34	34	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551325	refr-ARM1	Female	34	34	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551339	refr-ARM1	Male	34	34	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551393	refr-ARM1	Female	34	34	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551028	refr-ARM1	Female	35	35	Years	Age at enrollment			US: Arizona	Hispanic or Latino	American Indian or Alaska Native									
+	32_551111	refr-ARM1	Female	35	35	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551139	refr-ARM1	Male	35	35	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551172	refr-ARM1	Male	35	35	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551202	refr-ARM1	Female	35	35	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551309	refr-ARM1	Male	35	35	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551120	refr-ARM1	Female	36	36	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551137	refr-ARM1	Male	36	36	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Multiracial									
+	32_551157	refr-ARM1	Female	36	36	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551159	refr-ARM1	Female	36	36	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551167	refr-ARM1	Female	36	36	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551198	refr-ARM1	Female	36	36	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551235	refr-ARM1	Female	36	36	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551274	refr-ARM1	Male	36	36	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551194	refr-ARM1	Male	37	37	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551214	refr-ARM1	Male	37	37	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551316	refr-ARM1	Male	37	37	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551394	refr-ARM1	Male	37	37	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551034	refr-ARM1	Female	38	38	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551049	refr-ARM1	Male	38	38	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Asian									
+	32_551056	refr-ARM1	Female	38	38	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551061	refr-ARM1	Male	38	38	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Multiracial									
+	32_551079	refr-ARM1	Female	38	38	Years	Age at enrollment			US: Arizona	Hispanic or Latino	American Indian or Alaska Native									
+	32_551098	refr-ARM1	Male	38	38	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Multiracial									
+	32_551134	refr-ARM1	Female	38	38	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Other	Other								
+	32_551135	refr-ARM1	Male	38	38	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Other	Other								
+	32_551192	refr-ARM1	Female	38	38	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551209	refr-ARM1	Female	38	38	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551338	refr-ARM1	Female	38	38	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551386	refr-ARM1	Female	38	38	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551391	refr-ARM1	Female	38	38	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551004	refr-ARM1	Male	39	39	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Unknown									
+	32_551087	refr-ARM1	Male	39	39	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551173	refr-ARM1	Female	39	39	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551204	refr-ARM1	Male	39	39	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551299	refr-ARM1	Male	39	39	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551045	refr-ARM1	Male	40	40	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White									
+	32_551094	refr-ARM1	Male	40	40	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White									
+	32_551146	refr-ARM1	Female	40	40	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551201	refr-ARM1	Female	40	40	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551382	refr-ARM1	Male	40	40	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551388	refr-ARM1	Female	40	40	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551417	refr-ARM1	Male	40	40	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111024	refr-ARM1	Female	41	41	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551068	refr-ARM1	Male	41	41	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Multiracial									
+	32_551133	refr-ARM1	Female	41	41	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551176	refr-ARM1	Female	41	41	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551208	refr-ARM1	Male	41	41	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551242	refr-ARM1	Female	41	41	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551381	refr-ARM1	Female	41	41	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551178	refr-ARM1	Male	42	42	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551223	refr-ARM1	Female	42	42	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551230	refr-ARM1	Male	42	42	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551101	refr-ARM1	Male	43	43	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551169	refr-ARM1	Female	43	43	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551219	refr-ARM1	Male	43	43	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551231	refr-ARM1	Male	43	43	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551265	refr-ARM1	Female	43	43	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551334	refr-ARM1	Male	43	43	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551402	refr-ARM1	Male	43	43	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111001	refr-ARM1	Male	44	44	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111006	refr-ARM1	Female	44	44	Years	Age at enrollment			US: Arizona	Not Reported	Asian									
+	32_551109	refr-ARM1	Male	44	44	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551113	refr-ARM1	Male	44	44	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551222	refr-ARM1	Male	44	44	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551232	refr-ARM1	Female	44	44	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551395	refr-ARM1	Female	44	44	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111010	refr-ARM1	Male	45	45	Years	Age at enrollment			US: Arizona	Not Reported	Not Reported									
+	32_551037	refr-ARM1	Male	45	45	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White									
+	32_551118	refr-ARM1	Female	45	45	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551385	refr-ARM1	Female	45	45	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111028	refr-ARM1	Female	46	46	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White									
+	32_551266	refr-ARM1	Male	46	46	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551271	refr-ARM1	Male	46	46	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551058	refr-ARM1	Female	47	47	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Other	Other								
+	32_551191	refr-ARM1	Female	47	47	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551210	refr-ARM1	Male	47	47	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551213	refr-ARM1	Male	47	47	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551310	refr-ARM1	Female	47	47	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551401	refr-ARM1	Male	47	47	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111045	refr-ARM1	Female	48	48	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551186	refr-ARM1	Female	48	48	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551277	refr-ARM1	Female	48	48	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551296	refr-ARM1	Female	48	48	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551383	refr-ARM1	Male	48	48	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551416	refr-ARM1	Female	48	48	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551207	refr-ARM1	Female	49	49	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551022	refr-ARM1	Male	50	50	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White									
+	32_551226	refr-ARM1	Female	50	50	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551236	refr-ARM1	Male	50	50	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551301	refr-ARM1	Male	50	50	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551319	refr-ARM1	Male	50	50	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551377	refr-ARM1	Female	50	50	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White									
+	32_551414	refr-ARM1	Male	50	50	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551418	refr-ARM1	Female	50	50	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111009	refr-ARM1	Female	51	51	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551084	refr-ARM1	Female	51	51	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Other	Other								
+	32_551148	refr-ARM1	Male	51	51	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551149	refr-ARM1	Male	51	51	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551249	refr-ARM1	Female	51	51	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551323	refr-ARM1	Female	51	51	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551366	refr-ARM1	Male	51	51	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551400	refr-ARM1	Female	51	51	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551071	refr-ARM1	Female	52	52	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551116	refr-ARM1	Female	52	52	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Black or African American									
+	32_551162	refr-ARM1	Female	52	52	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551193	refr-ARM1	Male	52	52	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551300	refr-ARM1	Female	52	52	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551409	refr-ARM1	Female	52	52	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551188	refr-ARM1	Male	53	53	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551281	refr-ARM1	Female	53	53	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551327	refr-ARM1	Female	53	53	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551328	refr-ARM1	Female	53	53	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551378	refr-ARM1	Male	53	53	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111046	refr-ARM1	Female	54	54	Years	Age at enrollment			US: Arizona	Not Reported	Black or African American									
+	32_551170	refr-ARM1	Female	54	54	Years	Age at enrollment			US: Arizona	Hispanic or Latino	White									
+	32_551171	refr-ARM1	Male	54	54	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551177	refr-ARM1	Female	54	54	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551268	refr-ARM1	Male	54	54	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551332	refr-ARM1	Female	54	54	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551411	refr-ARM1	Male	54	54	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551370	refr-ARM1	Female	55	55	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551375	refr-ARM1	Male	55	55	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551245	refr-ARM1	Male	56	56	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551324	refr-ARM1	Male	56	56	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551333	refr-ARM1	Male	56	56	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111044	refr-ARM1	Male	57	57	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551380	refr-ARM1	Female	57	57	Years	Age at enrollment			US: Arizona	Not Reported	White									
+	32_551279	refr-ARM1	Male	58	58	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551189	refr-ARM1	Female	59	59	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551367	refr-ARM1	Male	59	59	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551389	refr-ARM1	Female	59	59	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551075	refr-ARM1	Male	60	60	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551140	refr-ARM1	Male	60	60	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551415	refr-ARM1	Female	60	60	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111015	refr-ARM1	Male	61	61	Years	Age at enrollment			US: Arizona	Not Reported	White									
+	32_551179	refr-ARM1	Female	61	61	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551412	refr-ARM1	Female	61	61	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551282	refr-ARM1	Male	62	62	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_111036	refr-ARM1	Female	63	63	Years	Age at enrollment			US: Arizona	Not Reported	White									
+	32_551181	refr-ARM1	Male	63	63	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551110	refr-ARM1	Female	64	64	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551244	refr-ARM1	Female	64	64	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551318	refr-ARM1	Male	64	64	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551326	refr-ARM1	Female	64	64	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551168	refr-ARM1	Male	65	65	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551212	refr-ARM1	Female	67	67	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551308	refr-ARM1	Female	68	68	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551069	refr-ARM1	Female	69	69	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551307	refr-ARM1	Male	70	70	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	Black or African American									
+	32_551288	refr-ARM1	Female	72	72	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551376	refr-ARM1	Male	72	72	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551410	refr-ARM1	Female	73	73	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	32_551248	refr-ARM1	Female	74	74	Years	Age at enrollment			US: Arizona	Hispanic or Latino	Black or African American									
+	32_551295	refr-ARM1	Male	80	80	Years	Age at enrollment			US: Arizona	Not Hispanic or Latino	White									
+	41_100298	refr-ARM1	Female	18	18	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100072	refr-ARM1	Male	19	19	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100083	refr-ARM1	Male	19	19	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	41_100092	refr-ARM1	Male	19	19	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100094	refr-ARM1	Male	19	19	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100211	refr-ARM1	Male	19	19	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100295	refr-ARM1	Female	19	19	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100493	refr-ARM1	Male	19	19	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100494	refr-ARM1	Male	19	19	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100663	refr-ARM1	Female	19	19	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100672	refr-ARM1	Male	19	19	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100771	refr-ARM1	Male	19	19	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	41_100785	refr-ARM1	Female	19	19	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100264	refr-ARM1	Female	20	20	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100323	refr-ARM1	Female	20	20	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100410	refr-ARM1	Female	20	20	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100742	refr-ARM1	Female	20	20	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100747	refr-ARM1	Female	20	20	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100784	refr-ARM1	Male	20	20	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American									
+	41_100107	refr-ARM1	Female	21	21	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100147	refr-ARM1	Female	21	21	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100171	refr-ARM1	Male	21	21	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100197	refr-ARM1	Female	21	21	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	41_100486	refr-ARM1	Male	21	21	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100562	refr-ARM1	Female	21	21	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100660	refr-ARM1	Male	21	21	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100693	refr-ARM1	Male	21	21	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100698	refr-ARM1	Male	21	21	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100806	refr-ARM1	Male	21	21	Years	Age at enrollment			US: New York	Hispanic or Latino	American Indian or Alaska Native									
+	41_100833	refr-ARM1	Male	21	21	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100840	refr-ARM1	Female	21	21	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100070	refr-ARM1	Male	22	22	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100071	refr-ARM1	Female	22	22	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100145	refr-ARM1	Female	22	22	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100193	refr-ARM1	Male	22	22	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100307	refr-ARM1	Female	22	22	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100514	refr-ARM1	Male	22	22	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100662	refr-ARM1	Female	22	22	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Multiracial									
+	41_100779	refr-ARM1	Female	22	22	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100830	refr-ARM1	Male	22	22	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100080	refr-ARM1	Female	23	23	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	41_100116	refr-ARM1	Female	23	23	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100148	refr-ARM1	Male	23	23	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100241	refr-ARM1	Female	23	23	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100332	refr-ARM1	Male	23	23	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100457	refr-ARM1	Male	23	23	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100610	refr-ARM1	Male	23	23	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100642	refr-ARM1	Female	23	23	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100643	refr-ARM1	Male	23	23	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100694	refr-ARM1	Male	23	23	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100822	refr-ARM1	Male	23	23	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100106	refr-ARM1	Female	24	24	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100114	refr-ARM1	Female	24	24	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	41_100249	refr-ARM1	Male	24	24	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100258	refr-ARM1	Female	24	24	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100313	refr-ARM1	Male	24	24	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100322	refr-ARM1	Male	24	24	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100428	refr-ARM1	Female	24	24	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100561	refr-ARM1	Male	24	24	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100567	refr-ARM1	Female	24	24	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100568	refr-ARM1	Female	24	24	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100611	refr-ARM1	Female	24	24	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100639	refr-ARM1	Female	24	24	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100681	refr-ARM1	Male	24	24	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100801	refr-ARM1	Male	24	24	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100832	refr-ARM1	Male	24	24	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	41_100033	refr-ARM1	Male	25	25	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	41_100115	refr-ARM1	Male	25	25	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100167	refr-ARM1	Male	25	25	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100202	refr-ARM1	Male	25	25	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100203	refr-ARM1	Female	25	25	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100478	refr-ARM1	Male	25	25	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100498	refr-ARM1	Female	25	25	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American									
+	41_100500	refr-ARM1	Male	25	25	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100515	refr-ARM1	Male	25	25	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100565	refr-ARM1	Female	25	25	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100586	refr-ARM1	Female	25	25	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100637	refr-ARM1	Female	25	25	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100638	refr-ARM1	Female	25	25	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100664	refr-ARM1	Female	25	25	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100011	refr-ARM1	Female	26	26	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100136	refr-ARM1	Male	26	26	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100139	refr-ARM1	Male	26	26	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100212	refr-ARM1	Male	26	26	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	41_100253	refr-ARM1	Female	26	26	Years	Age at enrollment			US: New York	Hispanic or Latino	Multiracial									
+	41_100320	refr-ARM1	Male	26	26	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100585	refr-ARM1	Female	26	26	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100782	refr-ARM1	Female	26	26	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100808	refr-ARM1	Male	26	26	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100827	refr-ARM1	Female	26	26	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100184	refr-ARM1	Female	27	27	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100280	refr-ARM1	Male	27	27	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100321	refr-ARM1	Female	27	27	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	41_100476	refr-ARM1	Male	27	27	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Other	Other								
+	41_100553	refr-ARM1	Female	27	27	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100559	refr-ARM1	Female	27	27	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100820	refr-ARM1	Male	27	27	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100842	refr-ARM1	Female	27	27	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100021	refr-ARM1	Male	28	28	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	41_100059	refr-ARM1	Female	28	28	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100063	refr-ARM1	Male	28	28	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100125	refr-ARM1	Female	28	28	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100164	refr-ARM1	Male	28	28	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100547	refr-ARM1	Male	28	28	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100773	refr-ARM1	Male	28	28	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	41_100077	refr-ARM1	Female	29	29	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100121	refr-ARM1	Female	29	29	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100135	refr-ARM1	Male	29	29	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100274	refr-ARM1	Male	29	29	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	41_100438	refr-ARM1	Male	29	29	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100439	refr-ARM1	Female	29	29	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100535	refr-ARM1	Female	29	29	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American									
+	41_100572	refr-ARM1	Male	29	29	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100618	refr-ARM1	Male	29	29	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100824	refr-ARM1	Male	29	29	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100057	refr-ARM1	Male	30	30	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100066	refr-ARM1	Male	30	30	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100153	refr-ARM1	Female	30	30	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100190	refr-ARM1	Male	30	30	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Other	Other								
+	41_100270	refr-ARM1	Female	30	30	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100507	refr-ARM1	Male	30	30	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100540	refr-ARM1	Female	30	30	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Native Hawaiian or Other Pacific Islander									
+	41_100552	refr-ARM1	Female	30	30	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	41_100560	refr-ARM1	Female	30	30	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	41_100683	refr-ARM1	Female	30	30	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100175	refr-ARM1	Male	31	31	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100178	refr-ARM1	Female	31	31	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100181	refr-ARM1	Female	31	31	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100195	refr-ARM1	Male	31	31	Years	Age at enrollment			US: New York	Hispanic or Latino	American Indian or Alaska Native									
+	41_100228	refr-ARM1	Female	31	31	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	41_100492	refr-ARM1	Female	31	31	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100603	refr-ARM1	Female	31	31	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100756	refr-ARM1	Male	31	31	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100239	refr-ARM1	Male	32	32	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100242	refr-ARM1	Male	32	32	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100337	refr-ARM1	Female	32	32	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100462	refr-ARM1	Female	32	32	Years	Age at enrollment			US: New York	Hispanic or Latino	Multiracial									
+	41_100544	refr-ARM1	Female	32	32	Years	Age at enrollment			US: New York	Not Hispanic or Latino	American Indian or Alaska Native									
+	41_100656	refr-ARM1	Male	32	32	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Multiracial									
+	41_100657	refr-ARM1	Female	32	32	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100711	refr-ARM1	Female	32	32	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100719	refr-ARM1	Male	32	32	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100821	refr-ARM1	Male	32	32	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100837	refr-ARM1	Male	32	32	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100841	refr-ARM1	Male	32	32	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100012	refr-ARM1	Male	33	33	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American									
+	41_100111	refr-ARM1	Male	33	33	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100120	refr-ARM1	Male	33	33	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	41_100122	refr-ARM1	Female	33	33	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100170	refr-ARM1	Female	33	33	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100209	refr-ARM1	Female	33	33	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100712	refr-ARM1	Male	33	33	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100739	refr-ARM1	Female	33	33	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100783	refr-ARM1	Female	33	33	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100844	refr-ARM1	Female	33	33	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100851	refr-ARM1	Female	33	33	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Other	Other								
+	41_100185	refr-ARM1	Male	34	34	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100198	refr-ARM1	Female	34	34	Years	Age at enrollment			US: New York	Hispanic or Latino	Multiracial									
+	41_100396	refr-ARM1	Other	34	34	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Unknown									
+	41_100430	refr-ARM1	Female	34	34	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100467	refr-ARM1	Female	34	34	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	41_100468	refr-ARM1	Male	34	34	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100485	refr-ARM1	Female	34	34	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100748	refr-ARM1	Female	34	34	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100124	refr-ARM1	Male	35	35	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100246	refr-ARM1	Female	35	35	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100542	refr-ARM1	Male	35	35	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100645	refr-ARM1	Female	35	35	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100744	refr-ARM1	Female	35	35	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100093	refr-ARM1	Female	36	36	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100112	refr-ARM1	Female	36	36	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100488	refr-ARM1	Male	36	36	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100566	refr-ARM1	Male	36	36	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100699	refr-ARM1	Female	36	36	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Multiracial									
+	41_100276	refr-ARM1	Male	37	37	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100306	refr-ARM1	Male	37	37	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100480	refr-ARM1	Male	37	37	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100487	refr-ARM1	Female	37	37	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	41_100600	refr-ARM1	Male	37	37	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100690	refr-ARM1	Female	37	37	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100740	refr-ARM1	Male	37	37	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100800	refr-ARM1	Female	37	37	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100805	refr-ARM1	Male	37	37	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100079	refr-ARM1	Female	38	38	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100133	refr-ARM1	Male	38	38	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100138	refr-ARM1	Female	38	38	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100196	refr-ARM1	Male	38	38	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100336	refr-ARM1	Male	38	38	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	41_100479	refr-ARM1	Female	38	38	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100491	refr-ARM1	Male	38	38	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Native Hawaiian or Other Pacific Islander									
+	41_100503	refr-ARM1	Male	38	38	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100564	refr-ARM1	Female	38	38	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100569	refr-ARM1	Male	38	38	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100737	refr-ARM1	Female	38	38	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100749	refr-ARM1	Female	38	38	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100755	refr-ARM1	Female	38	38	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100804	refr-ARM1	Female	38	38	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100109	refr-ARM1	Male	39	39	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100179	refr-ARM1	Female	39	39	Years	Age at enrollment			US: New York	Hispanic or Latino	Multiracial									
+	41_100254	refr-ARM1	Male	39	39	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100371	refr-ARM1	Female	39	39	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100501	refr-ARM1	Female	39	39	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100505	refr-ARM1	Male	39	39	Years	Age at enrollment			US: New York	Hispanic or Latino	Asian									
+	41_100581	refr-ARM1	Female	39	39	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100582	refr-ARM1	Male	39	39	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100584	refr-ARM1	Female	39	39	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	41_100604	refr-ARM1	Male	39	39	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100787	refr-ARM1	Male	39	39	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100802	refr-ARM1	Female	39	39	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100834	refr-ARM1	Male	39	39	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100285	refr-ARM1	Female	40	40	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100583	refr-ARM1	Female	40	40	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100607	refr-ARM1	Female	40	40	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100777	refr-ARM1	Male	40	40	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100119	refr-ARM1	Female	41	41	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100496	refr-ARM1	Female	41	41	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100123	refr-ARM1	Female	42	42	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100151	refr-ARM1	Male	42	42	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100172	refr-ARM1	Female	42	42	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	41_100461	refr-ARM1	Male	42	42	Years	Age at enrollment			US: New York	Hispanic or Latino	Black or African American									
+	41_100546	refr-ARM1	Male	42	42	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100571	refr-ARM1	Female	42	42	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	41_100674	refr-ARM1	Male	42	42	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100754	refr-ARM1	Female	42	42	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100781	refr-ARM1	Female	42	42	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	41_100097	refr-ARM1	Female	43	43	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100154	refr-ARM1	Male	43	43	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Unknown									
+	41_100251	refr-ARM1	Female	43	43	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	41_100263	refr-ARM1	Female	43	43	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100292	refr-ARM1	Female	43	43	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100550	refr-ARM1	Female	43	43	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100588	refr-ARM1	Female	43	43	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100617	refr-ARM1	Female	43	43	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100644	refr-ARM1	Female	43	43	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100721	refr-ARM1	Male	43	43	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100826	refr-ARM1	Female	44	44	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100081	refr-ARM1	Female	45	45	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100101	refr-ARM1	Female	45	45	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100140	refr-ARM1	Male	45	45	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100194	refr-ARM1	Male	45	45	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100458	refr-ARM1	Male	45	45	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100499	refr-ARM1	Male	45	45	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100512	refr-ARM1	Female	45	45	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100757	refr-ARM1	Male	45	45	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100104	refr-ARM1	Male	46	46	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100222	refr-ARM1	Male	46	46	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100333	refr-ARM1	Female	46	46	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100431	refr-ARM1	Male	46	46	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100105	refr-ARM1	Female	47	47	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100168	refr-ARM1	Male	47	47	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	41_100240	refr-ARM1	Female	47	47	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100726	refr-ARM1	Male	47	47	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100150	refr-ARM1	Male	48	48	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100152	refr-ARM1	Female	48	48	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100673	refr-ARM1	Female	48	48	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100078	refr-ARM1	Male	49	49	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100099	refr-ARM1	Female	49	49	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100207	refr-ARM1	Female	49	49	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100399	refr-ARM1	Female	49	49	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100453	refr-ARM1	Female	49	49	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100549	refr-ARM1	Male	49	49	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100601	refr-ARM1	Female	49	49	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100132	refr-ARM1	Female	50	50	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100434	refr-ARM1	Male	50	50	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100475	refr-ARM1	Female	50	50	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100574	refr-ARM1	Female	50	50	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100609	refr-ARM1	Female	50	50	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	41_100770	refr-ARM1	Female	50	50	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100836	refr-ARM1	Female	50	50	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Other	Other								
+	41_100230	refr-ARM1	Male	51	51	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100257	refr-ARM1	Female	51	51	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100602	refr-ARM1	Female	51	51	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100612	refr-ARM1	Male	51	51	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	41_100798	refr-ARM1	Female	51	51	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100085	refr-ARM1	Female	52	52	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100149	refr-ARM1	Female	52	52	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100208	refr-ARM1	Male	52	52	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100300	refr-ARM1	Female	52	52	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100447	refr-ARM1	Male	52	52	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100497	refr-ARM1	Male	52	52	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100738	refr-ARM1	Female	52	52	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100074	refr-ARM1	Female	53	53	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100096	refr-ARM1	Female	53	53	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100169	refr-ARM1	Male	53	53	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100250	refr-ARM1	Female	53	53	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100437	refr-ARM1	Female	53	53	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100446	refr-ARM1	Male	53	53	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100541	refr-ARM1	Female	53	53	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100090	refr-ARM1	Female	54	54	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100315	refr-ARM1	Male	54	54	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100409	refr-ARM1	Male	54	54	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100510	refr-ARM1	Female	54	54	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100682	refr-ARM1	Male	54	54	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100819	refr-ARM1	Male	54	54	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100176	refr-ARM1	Male	55	55	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100495	refr-ARM1	Male	55	55	Years	Age at enrollment			US: New York	Hispanic or Latino	Asian									
+	41_100511	refr-ARM1	Male	55	55	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100563	refr-ARM1	Female	55	55	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100076	refr-ARM1	Male	56	56	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100091	refr-ARM1	Male	56	56	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100216	refr-ARM1	Female	56	56	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100259	refr-ARM1	Male	56	56	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100304	refr-ARM1	Female	56	56	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100469	refr-ARM1	Male	56	56	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100155	refr-ARM1	Male	57	57	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100278	refr-ARM1	Male	57	57	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100466	refr-ARM1	Female	57	57	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100636	refr-ARM1	Female	57	57	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	41_100724	refr-ARM1	Female	57	57	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100069	refr-ARM1	Female	58	58	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100102	refr-ARM1	Male	58	58	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100513	refr-ARM1	Male	58	58	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100605	refr-ARM1	Male	58	58	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100745	refr-ARM1	Male	58	58	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100214	refr-ARM1	Male	59	59	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100062	refr-ARM1	Female	60	60	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100189	refr-ARM1	Male	60	60	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100580	refr-ARM1	Female	60	60	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100098	refr-ARM1	Female	61	61	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100126	refr-ARM1	Female	62	62	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100127	refr-ARM1	Male	63	63	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100665	refr-ARM1	Male	63	63	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100015	refr-ARM1	Male	64	64	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100128	refr-ARM1	Male	64	64	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100635	refr-ARM1	Male	64	64	Years	Age at enrollment			US: New York	Hispanic or Latino	Unknown									
+	41_100730	refr-ARM1	Male	64	64	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100799	refr-ARM1	Female	64	64	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Other	Other								
+	41_100218	refr-ARM1	Male	65	65	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100818	refr-ARM1	Male	65	65	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100158	refr-ARM1	Female	66	66	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100743	refr-ARM1	Male	66	66	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Black or African American									
+	41_100014	refr-ARM1	Female	67	67	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100100	refr-ARM1	Male	67	67	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100144	refr-ARM1	Female	67	67	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100776	refr-ARM1	Male	68	68	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100450	refr-ARM1	Male	69	69	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100490	refr-ARM1	Female	69	69	Years	Age at enrollment			US: New York	Hispanic or Latino	White									
+	41_100579	refr-ARM1	Male	69	69	Years	Age at enrollment			US: New York	Not Hispanic or Latino	Asian									
+	41_100009	refr-ARM1	Female	71	71	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100064	refr-ARM1	Female	71	71	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100108	refr-ARM1	Female	74	74	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									
+	41_100255	refr-ARM1	Female	74	74	Years	Age at enrollment			US: New York	Hispanic or Latino	Other	Other								
+	41_100110	refr-ARM1	Male	77	77	Years	Age at enrollment			US: New York	Not Hispanic or Latino	White									

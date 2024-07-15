@@ -1,0 +1,179 @@
+[ {
+  "sectionHeader" : "1 ImmPort Data Upload Templates Use",
+  "paragraphs" : [ "This guide describes the structure and use of the ImmPort data upload templates.\n          For each template, the purpose, structure (e.g. column headers), and data entry rules are\n          described.", "For additional information about the ImmPort Data Upload workflow, please see the\n          ImmPort data upload user's guide and tutorials\n          (http://immport.niaid.nih.gov/immportWeb/experimental/displayDataSubmitHome.do).", "It is recommended that you open the Adobe Reader bookmarks option to see a list\n          of the templates.", "Each template includes a Schema Version tag. It is used by the ImmPort Data\n          Package Validator and Upload Processing software to ensure the current version of the\n          template is being used. The Schema version refers to the database schema structure and\n          content (in particular the preferred terms and reference data). These version tags should\n          not be modified by the user. ", "As a reminder, the spreadsheet versions of the templates are provided for benefit\n          of the data providers to enable display of comments and lists in the spreadsheet. The\n          templates uploaded to ImmPort should be saved as tab-delimited text files. Template names\n          should match the names as they appear on the ImmPort web pages. File names are not case\n          sensitive. However, downloading templates from a web browser may cause your computer to\n          append a suffix to the file name and this will prevent ImmPort from recognizing a template\n          name." ]
+}, {
+  "sectionHeader" : "2 ImmPort Data Upload Packages",
+  "paragraphs" : [ "The ImmPort data upload workflow is intended to be incremental or modular. You\n          can send one or a few ImmPort upload templates and associated files (e.g. protocols or\n          results) in a data upload package ZIP archive. Or, you can send in many templates and\n          associated files. The order of uploading templates (study before subject or subject before\n          study?) is determined by what descriptive data is referenced within a template and\n          therefore what dependencies exist for an uploaded template to be successfully processed.\n          For example, successfully uploading a subject template requires that a protocol and study\n          arm be referenced, so both the protocol and study design template need to be in the same\n          ZIP archive as the subject template or already uploaded and processed in ImmPort.\n          Individual files contained in the package cannot exceed 2 GBytes (2^31-1 = 2,147,483,647\n          bytes) in size." ]
+}, {
+  "sectionHeader" : "3 ImmPort Data Model Overview",
+  "paragraphs" : [ "ImmPort's model for handling research data is to organize information into\n          metadata or descriptive categories. Each category has its own template (or suite of\n          templates). The metadata categories and their functions are as follows: ", "Study: Studies provide the context and organization of a research effort. Studies\n          organize subjects into groups (e.g. arms or cohorts) based on phenotype and/or treatment.\n          The planned visit schedule provides a guide as to the temporal relationship between\n          samples and encounters (i.e is the sample taken before or after a treatment). If the\n          research includes seasonally variable treatments (e.g seasonal influenza vaccine), a\n          separate study should be created for each season.", "Subjects: Subjects may be patients or animals from which samples are taken for\n          analysis. Two .xls templates (one for human and one for animal subjects) are available for\n          recording subject information. In these files, treatment protocols used on the subjects\n          can also be listed as well as many other details. Subjects are assigned to a single group\n          (arm or cohort) within a study and maybe linked to multiple studies.", "Biological Samples: Describe the types of samples taken from subjects or cell\n          culture and processed for the experiment (i.e. organs, tissue, blood, plasma, cell culture\n          name, etc.), when the samples were taken in the course of a study and protocols used in\n          the sample collection, processing, and/or treatment. Samples are linked to a single\n          study.", "Experiments: Describe the measurement technique of the experiment and the links\n          to protocols used in the experiment.", "Experiment Samples: The biological samples analyzed in an experiment are linked\n          to the assay reagent, protocol and results via the experiment sample record. Several\n          different template files are available for listing sample details for different assay\n          approaches. An experiment sample should be linked to a single biological\n          sample.", "Treatments: Describe the experimental conditions for specific biosamples or\n          experiment samples. Treatments link to experiment samples as well as biosamples if\n          needed.", "Protocols: Describe the methods and procedures in studies, subject\n          recruitment/treatment, sample collection/preparation/treatment and experiments. Protocols\n          may be PDF files, Word documents, Excel or other file types.", "Reagents: Provide detailed information about the reagents used in an experiment.\n          Since different analysis platforms employ very different reagents, several different\n          template files are available for listing reagent details for different assay\n          approaches." ],
+  "table" : {
+    "tableColumns" : [ "Field Name", "Description" ],
+    "rows" : [ {
+      "Description" : "The Description field provides a detailed description of the column of the Template",
+      "Field Name" : "Description:"
+    }, {
+      "Description" : "The Required Field can either have the values Yes or No. Yes means the user must enter data for this column. No means it is optional for the user to enter data for this column.",
+      "Field Name" : "Required:"
+    }, {
+      "Description" : "The Lookup Field can either have the values \"None\" or \"Please refer to Appendix A - {Name of the Lookup table}\". \"None\" means this column does not have a pre-defined set of values and no dropdown will be available in the template. \"Please refer to Appendix A - {Name of the Lookup table}\" means that this column has a pre-defined set of values and a drop-down will be available for the user to select from in the template. The user can click on the \"Please refer to Appendix A-{Name of the Lookup}\" link in the LookupField and it will take you to the section in Appendix A where the values for the corresponding lookup table are listed.",
+      "Field Name" : "Lookup:"
+    }, {
+      "Description" : "The Comment Field text will be displayed in the template as a comment for the corresponding column. This field provides more information on what kind of data needs to be set for the column",
+      "Field Name" : "Comment:"
+    }, {
+      "Description" : "The Database Table Field is the name of the database table which will store the data entered for this column by the user in the template.",
+      "Field Name" : "Database Table:"
+    }, {
+      "Description" : "The Database Column Field is the name of the column in the ImmPort database which will store the data entered for this column by the user in the template.",
+      "Field Name" : "Database Column:"
+    }, {
+      "Description" : "The Database Type Field is the data type of the column in the ImmPort database which will store the data entered for this column by the user in the template.",
+      "Field Name" : "Database Type:"
+    } ],
+    "tableTitle" : "Explanation of the Fields used to describe the Columns of the Template."
+  }
+}, {
+  "sectionHeader" : "4 Template File Loading Order",
+  "paragraphs" : [ "ImmPort loads the template files in a specified loading order that is specified\n          below in the following table." ],
+  "table" : {
+    "tableColumns" : [ "Template File Loading Order" ],
+    "rows" : [ {
+      "Template File Loading Order" : "protocols.txt"
+    }, {
+      "Template File Loading Order" : "reagents.array.txt"
+    }, {
+      "Template File Loading Order" : "reagents.elisa.txt"
+    }, {
+      "Template File Loading Order" : "reagents.elispot.txt"
+    }, {
+      "Template File Loading Order" : "reagents.mbaa.txt"
+    }, {
+      "Template File Loading Order" : "reagents.flow_cytometry.txt"
+    }, {
+      "Template File Loading Order" : "reagents.hai.txt"
+    }, {
+      "Template File Loading Order" : "reagents.cytof.txt"
+    }, {
+      "Template File Loading Order" : "reagents.neutralizing_antibody_titer.txt"
+    }, {
+      "Template File Loading Order" : "reagents.pcr.txt"
+    }, {
+      "Template File Loading Order" : "reagents.sequencing.txt"
+    }, {
+      "Template File Loading Order" : "reagents.virus_neutralization.txt"
+    }, {
+      "Template File Loading Order" : "reagents.hla_typing.txt"
+    }, {
+      "Template File Loading Order" : "reagents.kir_typing.txt"
+    }, {
+      "Template File Loading Order" : "reagents.other.txt"
+    }, {
+      "Template File Loading Order" : "reagent_sets.txt"
+    }, {
+      "Template File Loading Order" : "treatments.txt"
+    }, {
+      "Template File Loading Order" : "basic_study_design.txt"
+    }, {
+      "Template File Loading Order" : "subjectanimals.txt"
+    }, {
+      "Template File Loading Order" : "subjecthumans.txt"
+    }, {
+      "Template File Loading Order" : "study_design_edit.txt"
+    }, {
+      "Template File Loading Order" : "adverseevents.txt"
+    }, {
+      "Template File Loading Order" : "interventions.txt"
+    }, {
+      "Template File Loading Order" : "assessmentpanel.txt"
+    }, {
+      "Template File Loading Order" : "assessmentcomponent.txt"
+    }, {
+      "Template File Loading Order" : "assessments.txt"
+    }, {
+      "Template File Loading Order" : "biosamples.txt"
+    }, {
+      "Template File Loading Order" : "labtestpanels.txt"
+    }, {
+      "Template File Loading Order" : "labtests.txt"
+    }, {
+      "Template File Loading Order" : "labtest_results.txt"
+    }, {
+      "Template File Loading Order" : "experiments.txt"
+    }, {
+      "Template File Loading Order" : "controlsamples.txt"
+    }, {
+      "Template File Loading Order" : "standardcurves.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.flow_cytometry.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.cytof.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.gene_expression_array.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.genotyping_array.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.hla.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.image_histology.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.kir.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.mbaa.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.rna_sequencing.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.other.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.mass_spectrometry_metabolomics.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.mass_spectrometry_proteomics.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.elisa.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.elispot.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.hai.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.virus_neutralization.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.neutralizing_antibody_titer.txt"
+    }, {
+      "Template File Loading Order" : "experimentsamples.qrt-pcr.txt"
+    }, {
+      "Template File Loading Order" : "immuneexposure.txt"
+    }, {
+      "Template File Loading Order" : "publicrepositories.txt"
+    }, {
+      "Template File Loading Order" : "elisa_results.txt"
+    }, {
+      "Template File Loading Order" : "elispot_results.txt"
+    }, {
+      "Template File Loading Order" : "hai_results.txt"
+    }, {
+      "Template File Loading Order" : "pcr_results.txt"
+    }, {
+      "Template File Loading Order" : "virus_neutralization_results.txt"
+    }, {
+      "Template File Loading Order" : "hla_typing.txt"
+    }, {
+      "Template File Loading Order" : "kir_typing.txt"
+    }, {
+      "Template File Loading Order" : "rna_seq_results.txt"
+    }, {
+      "Template File Loading Order" : "mass_spectrometry_metabolomic_results.txt"
+    }, {
+      "Template File Loading Order" : "mass_spectrometry_proteomic_results.txt"
+    }, {
+      "Template File Loading Order" : "mbaa_results.txt"
+    }, {
+      "Template File Loading Order" : "fcm_derived_data.txt"
+    }, {
+      "Template File Loading Order" : "cytof_derived_data.txt"
+    } ],
+    "tableTitle" : "Template Loading Order"
+  }
+}, {
+  "sectionHeader" : null,
+  "paragraphs" : [ "The next section describes each data upload template." ]
+} ]

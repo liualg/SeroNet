@@ -1,0 +1,465 @@
+05/07/2024 11:15:17 AM 
+PMID: 34214046
+05/07/2024 11:15:17 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 11:15:17 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 11:15:17 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 11:15:17 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 11:15:17 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 11:15:17 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 11:15:17 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 11:15:17 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 11:15:17 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 11:15:17 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 11:15:17 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 11:15:17 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 11:15:17 AM INFO:: [Fuzzy] Closest Match Found. Changing WIV1 => WIV1 (bat)
+05/07/2024 11:17:12 AM 
+PMID: 34726473
+05/07/2024 11:17:23 AM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/07/2024 11:17:23 AM INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/07/2024 11:17:23 AM [INFO]:: [Fuzzy] SARS-CoV-2 MA15 => SARS-CoV-2 R.1 : score 83
+05/07/2024 11:17:23 AM [INFO]:: [Fuzzy] Biolayer interferometry => Bio-layer Interferometry Assay : score 83
+05/07/2024 11:17:23 AM [INFO]:: [Fuzzy] SARS-CoV-2 MA15 => SARS-CoV-2 R.1 : score 83
+05/07/2024 11:17:23 AM [INFO]:: [Fuzzy] SARS-CoV-2 MA15 => SARS-CoV-2 R.1 : score 83
+05/07/2024 11:19:19 AM 
+PMID: 35294809
+05/07/2024 11:19:19 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/07/2024 11:19:19 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/07/2024 11:19:19 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/07/2024 11:19:19 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/07/2024 11:19:19 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/07/2024 11:19:19 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/07/2024 11:19:19 AM Error:: [planned visit] Same order number used more than once
+05/07/2024 11:19:57 AM 
+PMID: 35294809
+05/07/2024 11:19:57 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/07/2024 11:19:57 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/07/2024 11:19:57 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/07/2024 11:19:57 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/07/2024 11:19:57 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/07/2024 11:19:57 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/07/2024 11:20:05 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 11:21:44 AM INFO:: [User Change] Covid-19 => COVID-19
+05/07/2024 11:21:44 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 11:21:44 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 11:21:44 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 11:22:59 AM 
+PMID: 35294809
+05/07/2024 11:22:59 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/07/2024 11:22:59 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/07/2024 11:22:59 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/07/2024 11:22:59 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/07/2024 11:22:59 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/07/2024 11:22:59 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/07/2024 11:22:59 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 11:23:07 AM INFO:: [User Change] Covid-19 => COVID-19
+05/07/2024 11:23:07 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 11:23:07 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 11:23:07 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 11:24:14 AM 
+PMID: 38022602
+05/07/2024 11:26:16 AM 
+PMID: 38022602
+05/07/2024 11:26:16 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/07/2024 11:26:16 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/07/2024 11:26:16 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/07/2024 11:26:16 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/07/2024 11:26:16 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/07/2024 11:26:16 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/07/2024 11:26:16 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/07/2024 11:26:16 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/07/2024 11:26:16 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/07/2024 11:26:16 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/07/2024 11:26:16 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/07/2024 11:26:16 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/07/2024 11:26:42 AM [INFO]:: [Fuzzy] Health Control => Healthy Control : score 97
+05/07/2024 11:26:42 AM INFO:: [Fuzzy] Closest Match Found. Changing vaccination => Vaccination
+05/07/2024 11:26:42 AM [INFO]:: [Fuzzy] Health Control => Healthy Control : score 97
+05/07/2024 11:26:42 AM INFO:: [Fuzzy] Closest Match Found. Changing plasma => Plasma
+05/07/2024 11:33:28 AM 
+PMID: 38022602
+05/07/2024 11:33:28 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/07/2024 11:33:28 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/07/2024 11:33:28 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/07/2024 11:33:28 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+05/07/2024 11:33:28 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/07/2024 11:33:28 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/07/2024 11:33:28 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/07/2024 11:33:28 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/07/2024 11:33:28 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/07/2024 11:33:28 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/07/2024 11:33:28 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/07/2024 11:33:28 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/07/2024 11:33:29 AM [INFO]:: [Fuzzy] Health Control => Healthy Control : score 97
+05/07/2024 11:33:29 AM INFO:: [Fuzzy] Closest Match Found. Changing vaccination => Vaccination
+05/07/2024 11:33:29 AM [INFO]:: [Fuzzy] Health Control => Healthy Control : score 97
+05/07/2024 11:33:29 AM INFO:: [Fuzzy] Closest Match Found. Changing plasma => Plasma
+05/07/2024 12:08:08 PM 
+PMID: 34705477
+05/07/2024 12:15:27 PM 
+PMID: 34705477
+05/07/2024 12:16:35 PM 
+PMID: 34726473
+05/07/2024 12:16:35 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/07/2024 12:16:35 PM INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/07/2024 12:16:35 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA15 => SARS-CoV-2 MA15 [mouse adapted]
+05/07/2024 12:16:35 PM [INFO]:: [Fuzzy] Biolayer interferometry => Bio-layer Interferometry Assay : score 83
+05/07/2024 12:16:35 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA15 => SARS-CoV-2 MA15 [mouse adapted]
+05/07/2024 12:16:35 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 MA15 => SARS-CoV-2 MA15 [mouse adapted]
+05/07/2024 12:33:16 PM 
+PMID: 34739850
+05/07/2024 12:33:16 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/07/2024 12:33:16 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+05/07/2024 12:33:16 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/07/2024 12:33:16 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+05/07/2024 12:33:16 PM Error:: [planned visit] Same order number used more than once
+05/07/2024 01:54:36 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 01:54:36 PM [INFO]:: [Fuzzy] pregnancy => Pregnancy : score 89
+05/07/2024 01:54:36 PM INFO:: [Fuzzy] Closest Match Found. Changing Cord Blood => Cord blood
+05/07/2024 01:55:32 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 01:55:32 PM [INFO]:: [Fuzzy] pregnancy => Pregnancy : score 89
+05/07/2024 01:55:32 PM INFO:: [Fuzzy] Closest Match Found. Changing Cord Blood => Cord blood
+05/07/2024 01:55:35 PM [INFO]:: [Fuzzy] pregnancy => Pregnancy : score 89
+05/07/2024 01:55:35 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 01:55:35 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 01:55:35 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 01:55:35 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 01:55:35 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 01:55:35 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 01:55:35 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 01:55:35 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 01:55:44 PM INFO:: [User Change] Unknown => Other
+05/07/2024 01:55:48 PM INFO:: [User Change] Other => Other Race
+05/07/2024 01:55:54 PM INFO:: [User Change] Not Specified => Not Applicable
+05/07/2024 01:55:55 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 01:55:55 PM [INFO]:: [Fuzzy] pregnancy => Pregnancy : score 89
+05/07/2024 01:55:55 PM Previous Input: Race, Other => Other Race
+05/07/2024 01:55:57 PM [INFO]:: [Fuzzy] pregnancy => Pregnancy : score 89
+05/07/2024 01:55:57 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 01:55:57 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 01:55:59 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 01:59:25 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 01:59:25 PM [INFO]:: [Fuzzy] pregnancy => Pregnancy : score 89
+05/07/2024 01:59:25 PM INFO:: [Fuzzy] Closest Match Found. Changing Cord Blood => Cord blood
+05/07/2024 01:59:25 PM [INFO]:: [Fuzzy] pregnancy => Pregnancy : score 89
+05/07/2024 01:59:25 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 01:59:25 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 01:59:25 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 01:59:25 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 01:59:25 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 01:59:25 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 01:59:25 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 01:59:25 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 01:59:25 PM Previous Input: Ethnicity, Unknown => Other
+05/07/2024 01:59:25 PM Previous Input: Race, Other => Other Race
+05/07/2024 01:59:25 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 01:59:25 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 01:59:25 PM [INFO]:: [Fuzzy] pregnancy => Pregnancy : score 89
+05/07/2024 01:59:25 PM Previous Input: Race, Other => Other Race
+05/07/2024 01:59:26 PM [INFO]:: [Fuzzy] pregnancy => Pregnancy : score 89
+05/07/2024 01:59:26 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 01:59:26 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 01:59:26 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 01:59:26 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 01:59:26 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 01:59:26 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 01:59:26 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 01:59:26 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+05/07/2024 01:59:26 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+05/07/2024 01:59:26 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+05/07/2024 01:59:26 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+05/07/2024 01:59:26 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+05/07/2024 01:59:26 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+05/07/2024 01:59:28 PM [INFO]:: [Fuzzy] pregnancy => Pregnancy : score 89
+05/07/2024 01:59:28 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 01:59:28 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 01:59:28 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 01:59:28 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 01:59:28 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+05/07/2024 01:59:28 PM [INFO]:: [Fuzzy] SARS-CoV-2 Omicron (B.1.1.529) => SARS-CoV-2 Omicron; B.1.1.529 : score 95
+05/07/2024 01:59:29 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 01:59:29 PM [INFO]:: [Fuzzy] pregnancy => Pregnancy : score 89
+05/07/2024 01:59:31 PM [INFO]:: [Fuzzy] pregnancy => Pregnancy : score 89
+05/07/2024 01:59:31 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 01:59:33 PM [INFO]:: [Fuzzy] pregnancy => Pregnancy : score 89
+05/07/2024 01:59:33 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 01:59:34 PM [INFO]:: [Fuzzy] pregnancy => Pregnancy : score 89
+05/07/2024 01:59:34 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 01:59:35 PM [INFO]:: [Fuzzy] pregnancy => Pregnancy : score 89
+05/07/2024 01:59:36 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 01:59:36 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 01:59:36 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 01:59:36 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 01:59:36 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 01:59:36 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 01:59:36 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 01:59:36 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 01:59:36 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:51:23 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 02:51:23 PM INFO:: [Fuzzy] Closest Match Found. Changing Vaccine response => Vaccine Response
+05/07/2024 02:51:23 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 02:51:23 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 02:51:23 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 02:51:23 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 02:51:23 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 02:51:23 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 02:51:50 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 02:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing Vaccine response => Vaccine Response
+05/07/2024 02:51:50 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 02:51:50 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 02:51:50 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 02:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 02:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 02:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 02:51:51 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 02:51:56 PM INFO:: [User Change] Covid-19 => COVID-19
+05/07/2024 02:51:57 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 02:51:57 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 02:51:57 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+05/07/2024 02:51:57 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+05/07/2024 02:51:57 PM [INFO]:: [Fuzzy] SARS COV-2 => SARS-CoV-2 : score 80
+05/07/2024 02:51:57 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+05/07/2024 02:51:57 PM [INFO]:: [Fuzzy] SARS COV-2 => SARS-CoV-2 : score 80
+05/07/2024 02:51:57 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+05/07/2024 02:51:57 PM [INFO]:: [Fuzzy] SARS COV-2 => SARS-CoV-2 : score 80
+05/07/2024 02:51:57 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+05/07/2024 02:51:57 PM [INFO]:: [Fuzzy] SARS COV-2 => SARS-CoV-2 : score 80
+05/07/2024 02:52:55 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 02:52:55 PM INFO:: [Fuzzy] Closest Match Found. Changing Vaccine response => Vaccine Response
+05/07/2024 02:52:55 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 02:52:55 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 02:52:55 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 02:52:55 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 02:52:55 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 02:52:55 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 02:52:55 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 02:52:55 PM Previous Input: Reported Health Condition, Covid-19 => COVID-19
+05/07/2024 02:52:55 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 02:52:55 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 02:52:55 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+05/07/2024 02:52:55 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+05/07/2024 02:52:55 PM [INFO]:: [Fuzzy] SARS COV-2 => SARS-CoV-2 : score 80
+05/07/2024 02:52:55 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+05/07/2024 02:52:55 PM [INFO]:: [Fuzzy] SARS COV-2 => SARS-CoV-2 : score 80
+05/07/2024 02:52:55 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+05/07/2024 02:52:55 PM [INFO]:: [Fuzzy] SARS COV-2 => SARS-CoV-2 : score 80
+05/07/2024 02:52:55 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+05/07/2024 02:52:55 PM [INFO]:: [Fuzzy] SARS COV-2 => SARS-CoV-2 : score 80
+05/07/2024 02:52:55 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 02:52:55 PM INFO:: [Fuzzy] Closest Match Found. Changing Vaccine response => Vaccine Response
+05/07/2024 02:52:55 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 02:52:55 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 02:52:55 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 02:52:55 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 02:52:55 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 02:52:55 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 02:53:24 PM INFO:: [User Change] Supplemental Data => Study Data
+05/07/2024 02:53:24 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 02:53:24 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 02:53:25 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 02:53:25 PM Previous Input: Reported Health Condition, Covid-19 => COVID-19
+05/07/2024 02:53:25 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:25 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:25 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:25 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:25 PM Previous Input: Race, Other => Other Race
+05/07/2024 02:53:25 PM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/07/2024 02:53:38 PM INFO:: [User Change] Not Specified => Unknown
+05/07/2024 02:53:45 PM INFO:: [User Change] Not Specified => Unknown
+05/07/2024 02:53:45 PM INFO:: [Fuzzy] Closest Match Found. Changing serum => Serum
+05/07/2024 02:53:45 PM [INFO]:: [Fuzzy] blood => Blood : score 80
+05/07/2024 02:53:45 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:45 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:45 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:45 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:45 PM INFO:: [Fuzzy] Closest Match Found. Changing serum => Serum
+05/07/2024 02:53:45 PM [INFO]:: [Fuzzy] blood => Blood : score 80
+05/07/2024 02:53:45 PM INFO:: [Fuzzy] Closest Match Found. Changing serum => Serum
+05/07/2024 02:53:45 PM [INFO]:: [Fuzzy] blood => Blood : score 80
+05/07/2024 02:53:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Clinical research => Clinical Research
+05/07/2024 02:53:46 PM Previous Input: Reported Health Condition, Covid-19 => COVID-19
+05/07/2024 02:53:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:46 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:46 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:46 PM [INFO]:: [Fuzzy] SARS-COV-2 => SARS-CoV-2 : score 90
+05/07/2024 02:53:46 PM [INFO]:: [Fuzzy] SARS-COV-2 => SARS-CoV-2 : score 90
+05/07/2024 02:53:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:46 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:46 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:46 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:46 PM [INFO]:: [Fuzzy] SARS-COV-2 => SARS-CoV-2 : score 90
+05/07/2024 02:53:47 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 02:53:47 PM Previous Input: Reported Health Condition, Covid-19 => COVID-19
+05/07/2024 02:53:47 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:47 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:47 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:47 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:47 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/07/2024 02:53:47 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/07/2024 02:53:47 PM INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/07/2024 02:53:47 PM [INFO]:: [Fuzzy] SARS-CoV-2; B.1.526.2 => SARS-CoV-2 B.1.2 : score 86
+05/07/2024 02:53:47 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Theta; p.3 => SARS-CoV-2 Theta; P.3
+05/07/2024 02:53:47 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 02:53:47 PM [INFO]:: [Fuzzy] Oxford–AstraZeneca COVID-19 vaccine; VO:0005158 => Moderna COVID-19 vaccine; VO:0005157 : score 77
+05/07/2024 02:53:47 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 02:53:47 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 02:53:47 PM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+05/07/2024 02:53:47 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:47 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:47 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:47 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 02:53:47 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/07/2024 02:53:47 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/07/2024 02:53:47 PM INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/07/2024 02:53:47 PM [INFO]:: [Fuzzy] SARS-CoV-2; B.1.526.2 => SARS-CoV-2 B.1.2 : score 86
+05/07/2024 02:53:47 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Theta; p.3 => SARS-CoV-2 Theta; P.3
+05/07/2024 02:53:48 PM Previous Input: Reported Health Condition, Covid-19 => COVID-19
+05/07/2024 02:53:48 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 02:53:49 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 02:53:50 PM [INFO]:: [Fuzzy] Autoimmune disease => Autoimmune Disease : score 94
+05/07/2024 02:53:50 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 02:53:50 PM INFO:: [Fuzzy] Closest Match Found. Changing Positive control => Positive Control
+05/07/2024 02:53:50 PM INFO:: [Fuzzy] Closest Match Found. Changing pre-pandemic => Pre-pandemic
+05/07/2024 04:23:51 PM No such comm target registered: jupyter.widget.control
+05/07/2024 04:23:51 PM No such comm: 4a1ff645-97f6-45c1-a7d5-2b8b23a87b3e
+05/07/2024 04:23:51 PM Current comms: []
+05/07/2024 04:58:43 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 04:58:43 PM INFO:: [Fuzzy] Closest Match Found. Changing Vaccine response => Vaccine Response
+05/07/2024 04:58:43 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 04:58:43 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 04:58:43 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 04:58:43 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 04:58:43 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 04:58:43 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 04:58:43 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 04:58:43 PM Previous Input: Reported Health Condition, Covid-19 => COVID-19
+05/07/2024 04:58:43 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 04:58:43 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 04:58:43 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+05/07/2024 04:58:43 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+05/07/2024 04:58:43 PM [INFO]:: [Fuzzy] SARS COV-2 => SARS-CoV-2 : score 80
+05/07/2024 04:58:43 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+05/07/2024 04:58:43 PM [INFO]:: [Fuzzy] SARS COV-2 => SARS-CoV-2 : score 80
+05/07/2024 04:58:43 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+05/07/2024 04:58:43 PM [INFO]:: [Fuzzy] SARS COV-2 => SARS-CoV-2 : score 80
+05/07/2024 04:58:43 PM INFO:: [Fuzzy] Closest Match Found. Changing other => Other
+05/07/2024 04:58:43 PM [INFO]:: [Fuzzy] SARS COV-2 => SARS-CoV-2 : score 80
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing Vaccine response => Vaccine Response
+05/07/2024 04:58:44 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing nucleocapsid => Nucleocapsid
+05/07/2024 04:58:44 PM Previous Input: Study File Type [ImmPort only] and JSON Summary Description, Supplemental Data => Study Data
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 04:58:44 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 04:58:44 PM Previous Input: Reported Health Condition, Covid-19 => COVID-19
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM Previous Input: Race, Other => Other Race
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing Not Specified => Not specified
+05/07/2024 04:58:44 PM Previous Input: SARS-CoV2 History, Not Specified => Unknown
+05/07/2024 04:58:44 PM Previous Input: COVID-19 Disease Severity, Not Specified => Unknown
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing serum => Serum
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] blood => Blood : score 80
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing serum => Serum
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] blood => Blood : score 80
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing serum => Serum
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] blood => Blood : score 80
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing Clinical research => Clinical Research
+05/07/2024 04:58:44 PM Previous Input: Reported Health Condition, Covid-19 => COVID-19
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] SARS-COV-2 => SARS-CoV-2 : score 90
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] SARS-COV-2 => SARS-CoV-2 : score 90
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] SARS-COV-2 => SARS-CoV-2 : score 90
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 04:58:44 PM Previous Input: Reported Health Condition, Covid-19 => COVID-19
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] SARS-CoV-2; B.1.526.2 => SARS-CoV-2 B.1.2 : score 86
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Theta; p.3 => SARS-CoV-2 Theta; P.3
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] Oxford–AstraZeneca COVID-19 vaccine; VO:0005158 => Moderna COVID-19 vaccine; VO:0005157 : score 77
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing Nasal Swab => Nasal Swab or Nose Specimen
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] SARS-CoV-2; B.1.526.2 => SARS-CoV-2 B.1.2 : score 86
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Theta; p.3 => SARS-CoV-2 Theta; P.3
+05/07/2024 04:58:44 PM Previous Input: Reported Health Condition, Covid-19 => COVID-19
+05/07/2024 04:58:44 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+05/07/2024 04:58:44 PM [INFO]:: [Fuzzy] Autoimmune disease => Autoimmune Disease : score 94
+05/07/2024 04:58:44 PM Previous Input: Virus Target, Not Specified => Not Applicable
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing Positive control => Positive Control
+05/07/2024 04:58:44 PM INFO:: [Fuzzy] Closest Match Found. Changing pre-pandemic => Pre-pandemic
+05/07/2024 05:32:16 PM No such comm target registered: jupyter.widget.control
+05/07/2024 05:32:16 PM No such comm: 325bdbfd-3a19-4221-b223-3e422b834eb6
+05/07/2024 05:32:16 PM Current comms: []
+05/07/2024 05:36:22 PM No such comm target registered: jupyter.widget.control
+05/07/2024 05:36:22 PM No such comm: e2d84ab8-32c8-409a-829c-caf6259bbc07
+05/07/2024 05:36:22 PM Current comms: []
+05/08/2024 01:52:29 AM No such comm target registered: jupyter.widget.control
+05/08/2024 01:52:29 AM No such comm: ce569d0e-e803-49e5-b339-d2c062b991f0
+05/08/2024 01:52:29 AM Current comms: []
+05/08/2024 05:29:47 PM No such comm target registered: jupyter.widget.control
+05/08/2024 05:29:47 PM No such comm: 25224b75-4d0c-4ea2-8225-8c28a6cfc5cf
+05/08/2024 05:29:47 PM Current comms: []
+05/08/2024 08:28:24 PM No such comm target registered: jupyter.widget.control
+05/08/2024 08:28:24 PM No such comm: cf372f10-b05a-4866-b6f2-d7f9520f7f19
+05/08/2024 08:28:24 PM Current comms: []
+05/09/2024 02:03:13 AM No such comm target registered: jupyter.widget.control
+05/09/2024 02:03:13 AM No such comm: 6e714169-973c-48d3-9b3e-879e88301695
+05/09/2024 02:03:13 AM Current comms: []
+05/09/2024 05:00:11 PM No such comm target registered: jupyter.widget.control
+05/09/2024 05:00:11 PM No such comm: 4718c930-875e-40ce-a75d-3d5b5e400b53
+05/09/2024 05:00:11 PM Current comms: []
+05/09/2024 06:00:33 PM No such comm target registered: jupyter.widget.control
+05/09/2024 06:00:33 PM No such comm: 249eb451-1176-49d5-8044-9c23d8f75fdd
+05/09/2024 06:00:33 PM Current comms: []
+05/09/2024 07:34:54 PM No such comm target registered: jupyter.widget.control
+05/09/2024 07:34:54 PM No such comm: 095bc6f5-ac1b-4cc6-a55d-c29487986369
+05/09/2024 07:34:54 PM Current comms: []
+05/10/2024 05:27:00 PM No such comm target registered: jupyter.widget.control
+05/10/2024 05:27:00 PM No such comm: c01ad628-46bc-42ce-be3d-9726d62e9f03
+05/10/2024 05:27:00 PM Current comms: []
+05/10/2024 05:41:20 PM No such comm target registered: jupyter.widget.control
+05/10/2024 05:41:20 PM No such comm: 28235256-39ab-478c-96f2-91ac8e47d808
+05/10/2024 05:41:20 PM Current comms: []
+05/11/2024 12:18:20 AM No such comm target registered: jupyter.widget.control
+05/11/2024 12:18:20 AM No such comm: 6cccd6c9-290d-4ca3-ba6d-4594a33d52f9
+05/11/2024 12:18:20 AM Current comms: []
+05/11/2024 01:35:25 AM No such comm target registered: jupyter.widget.control
+05/11/2024 01:35:25 AM No such comm: 67518279-d0b3-4513-8553-2dfe66ffa123
+05/11/2024 01:35:25 AM Current comms: []
+05/12/2024 08:15:47 PM No such comm target registered: jupyter.widget.control
+05/12/2024 08:15:47 PM No such comm: a7b7331a-cca8-46e6-8dcf-eb9727749263
+05/12/2024 08:15:47 PM Current comms: []

@@ -1,0 +1,4 @@
+treatments	Schema Version 3.36	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6	Unnamed: 7	Unnamed: 8	Unnamed: 9	Unnamed: 10
+Please do not delete or edit this column										
+Column Name	User Defined ID	Name	Use Treatment?	Amount Value	Amount Unit	Duration Value	Duration Unit	Temperature Value	Temperature Unit	Comments
+	refr-no_treatments	No Treatments Reported	No							
