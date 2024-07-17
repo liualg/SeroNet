@@ -200,10 +200,10 @@ class condition_or_disease(DataClassJsonMixin):
     ImmPortNAME: str = 'study_2_condition_or_disease'
 
     def __post_init__(self):
-        for i, k in enumerate(self.Reported_Health_Condition):
-            object.__setattr__(self, 'Reported_Health_Condition', [k.replace('\n', '').replace('\t', '') for i, k in
-                                                                   enumerate(self.Reported_Health_Condition)])
         if self.Reported_Health_Condition:
+            # for i, k in enumerate(self.Reported_Health_Condition):
+            #     object.__setattr__(self, 'Reported_Health_Condition', [k.replace('\n', '').replace('\t', '') for i, k in
+            #                                                        enumerate(self.Reported_Health_Condition)])
             self.Reported_Health_Condition = seroFxn.replace_delimiter(self.Reported_Health_Condition)
 
 @dataclass

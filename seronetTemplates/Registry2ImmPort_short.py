@@ -517,7 +517,7 @@ def create_short(PMID, user_input_path=False):
     basic_stdy_template = load_workbook(PATH_pmid_basic_stdy_template)
     bst_ws = basic_stdy_template['basic_study_design.txt']
 
-    se = seroFxn.get_sections(bst_ws, ImmPortClassNames)
+    se = seroFxn.get_sections(bst_ws, ImmPortClassNames) # getting all the sections of the se numbers
 
     #########################################
     ######### Basic Study Template ##########
@@ -581,11 +581,13 @@ def create_short(PMID, user_input_path=False):
 
     #making a temp workbook to store each section. This will be turned into df
 
-    # This is the first part of the df
+    # This is the first part of the df. Creating an index of where the field is in the dataframe.
+    # 7/15/24 this is a weird way to doing it, not sure why i did it this way... now that the template is 
+    # changing, I need to space it differently..
     for i in bst_ws.iter_rows(values_only = True,
                               max_row = se[2]+1):
         temp_ws.append(i)
-        
+
     # Starting at Arm or Cohort  
     # print(usr_id, name, description, type_report)
     AOC = seroClass.arm_or_cohort(
@@ -666,25 +668,44 @@ def create_short(PMID, user_input_path=False):
             registryDict['SARS-CoV-2_Vaccine_Type'] = list(set((' | '.join(registryDict['SARS-CoV-2_Vaccine_Type'])).split(' | ')))
 
 
-            # print('########',"\n",registryDict['SARS-CoV-2_Vaccine_Type'])
-
+    # Werid patch to fix multiple condition field. Something changed on ImmPort side, and they longer support 
+    # ' | ' spaced text. Instead they want multiple rows. So going to see how many " | " there are in reg_key = 
+    # Reported_Health_Condition and then adding the number to the range statement... well shall see if that works 
+    numbHealthCon = registryDict.get('Reported_Health_Condition')[0].count('|')
+    
     # Looping through ImmPort Template to get the correct order of the 'study' section
-    for se_number in range(se[0],se[3]):    
-     
+    # Where Column A (frist column in df) should be empty due to ImmPort template format
+    # Where Column B has the data
+    se_number = se[0]
+    while se_number in range(se[0],se[3]+numbHealthCon):
         if temp_ws["A"][se_number].value != None and registryToImmportDict.get(temp_ws["A"][se_number].value) != None:
             
             # Using a mapping key + using info in our classes to map the data
             reg_key = registryToImmportDict.get(temp_ws["A"][se_number].value).strip().replace(' ',"_").replace('*',"")
             try:
-                # If input is a list, we will turn it into a string (since it cant be a list)
-                if type(registryDict.get(reg_key)) == list:
+                # print(reg_key)
+                ## If input is a list, we will turn it into a string (since it cant be a list)
+                if reg_key == "Reported_Health_Condition" and numbHealthCon > 1:
+                    temp_ws.insert_rows(se_number+2, amount=numbHealthCon)
+                    for n, i in enumerate(registryDict.get(reg_key)[0].split('|')):
+                        temp_ws["B"][se_number + n].value = i.strip()
+                        temp_ws["A"][se_number + n].value = "Condition Reported"
+                    se_number += numbHealthCon + 1
+
+                elif type(registryDict.get(reg_key)) == list:
                     temp_ws["B"][se_number].value = ', '.join(registryDict.get(reg_key))
+                    se_number += 1
                 else:
                     temp_ws["B"][se_number].value = registryDict.get(reg_key)
+                    se_number += 1
 
             except:
+                se_number += 1
                 print(f"{reg_key} did not work")
-                
+        else:
+            se_number += 1
+
+    
 
 
     bsd = pd.DataFrame(temp_ws.values).replace({None: '', 'None': ''})
