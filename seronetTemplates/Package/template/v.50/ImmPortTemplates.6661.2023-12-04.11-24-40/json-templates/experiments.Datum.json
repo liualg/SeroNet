@@ -1,0 +1,27 @@
+{
+  "$schema":"http://json-schema.org/draft-04/schema",
+  "title":"experiments.json template schema",
+  "description":"The experiments template is a legacy template that defines and annotates the mechanistic assays performed on samples. The function of this template is also captured in the experiment samples template. This template will continue to be supported for the foreseeable future to support backward compatibility.",
+  "type":"object",
+  "properties":{
+    "userDefinedId":{
+    "type":"string","maxLength":100
+    },
+    "name":{
+    "type":"string","maxLength":500
+    },
+    "description":{
+    "type":"string","maxLength":4000
+    },
+    "measurementTechnique":{
+    "type":"string","enum":["10x feature barcode (CRISPR screening)","16S rRNA gene sequencing","1D Gel","2D Gel","Array","B cell receptor repertoire sequencing assay","Bulk RNA-seq assay","Cell Culture","Cell Mediated Immunoassay","Chemiluminescent Assay","Circular Dichroism","CITE-Seq","CRISPR Screening","CyTOF","Cytokine Assay","Cytometric Bead Array Assay","DNA methylation profiling assay","DNA microarray","ELISA","ELISPOT","EMSA","Exome Sequencing","Flow Cytometry","Fluorescent Antibody Procedure","GC_MS","Genotyping Assay","Hemagglutination Inhibition","Histological Assay","HLA Typing","HPLC","IgH Sequencing","Immune Repertoire Deep Sequencing","Immunoblot","Immunohistochemistry","Immunoprecipitation","in situ Hybridization","Intracellular Cytokine Stain Flow Cytometric Assay","Iontrap_MS","KIR Typing","Lateral Flow Assay","LC_MS","Line Probe Assay","Liquid Chromatography","Luminex xMAP","Mass Spectrometry","Meso Scale Discovery ECL","Methylation Sequencing","Microneutralization Assay","microRNA profiling assay","Microscopy","Mixed Lymphocyte Reaction","Molecular Cloning","MS_MS","Multiplex Bead Array Assay","Multiplex Immunoassay","Nanostring","Nanostring nCounter miRNA expression assay","Neuraminidase Inhibition Assay","Neutralizing Antibody Titer Assay","NMR","Northern Blot","Not Specified","Olink assay","Other","PCR","phage display binding assay","Plaque Reduction Neutralization Assay","Protein microarray","Pseudovirus Neutralization Assay","Q-PCR","Real time polymerase chain reaction assay","RNA sequencing","Rnase Protection Assay","SARS-CoV-2 Virus Sequencing","scRNA-seq","Sequencing","Single-Molecule Array (SIMOA)","SNP microarray","SOMAscan assay","Southern Blot","Spectral Flow Cytometry","Surface Plasmon Resonance","T cell receptor repertoire sequencing assay","TCID50","Transcription profiling assay","Transcription profiling by array","Transcription Profiling by NanoString","Virus Neutralization","Virus Plaque Assay","Western Blot","Whole Genome Sequencing","Whole Virome Sequencing Assay","Yeast Two Hybrid"]
+    },
+    "studyId":{
+    "type":"string"
+    },
+    "protocolIds":{
+    "type":"array","items":{"type":"string"}
+    }
+    },
+  "required":["userDefinedId","name","measurementTechnique","studyId","protocolIds"]
+}

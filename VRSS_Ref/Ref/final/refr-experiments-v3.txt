@@ -1,0 +1,44 @@
+experiments	Schema Version 3.36	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6
+Please do not delete or edit this column						
+Column Name	User Defined ID	Name	Description	Measurement Technique	Study ID	Protocol ID(s)
+	12_101	SARS-CoV-2 Spike IgG Assay	"SARS-CoV-2 Virus, Spike"	ELISA	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	12_102	SARS-CoV-2 Spike IgM Assay	"SARS-CoV-2 Virus, Spike"	ELISA	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	12_103	SARS-CoV-2 Nucleocapsid IgG Assay	"SARS-CoV-2 Virus, Nucleocapsid"	ELISA	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	12_104	SARS-CoV-2 Nucleocapsid IgM Assay	"SARS-CoV-2 Virus, Nucleocapsid"	ELISA	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	14_010	"COVID-SeroKlir, Kantaro Semi-Quantitative SARS-CoV-2 IgG Antibody Kit"	"SARS-CoV-2 Virus, Full Length Spike, Spike, RBD"	ELISA	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	14_020	Abbott Alinity m SARS-CoV-2 Assay	"SARS-CoV-2 Virus, Spike"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	14_050	Abbott ARCHITECT anti-HBc Assay	"Hepatitis B Virus, Core Antigen"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	14_070	LIAISON CMV IgG Assay	"Cytomegalovirus, CMV antigens"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	14_080	LIAISON VCA IgG Assay (EBV)	"Epstein-Barr Virus, Viral Capsid Antigen , p18"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	14_090	CBC LDT	"HCoV-229E, HCoV-HKU1, HCoV-NL63, HCoV-OC43, Spike"	ELISA	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	27_501	Elecsys Anti-SARS-CoV-2 S Immunoassay	"SARS-CoV-2 Virus, Spike, RBD"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	27_502	SARS-CoV-2 Spike IgG Assay	"SARS-CoV-2 Virus, Spike, RBD"	ELISA	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	27_503	SARS-CoV-2 Spike IgM Assay	"SARS-CoV-2 Virus, Spike, RBD"	ELISA	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	27_504	BioPlex 2200 ToRC IgM Kit	"Cytomegalovirus, CMV antigens"	Multiplex Immunoassay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	27_505	BioPlex 2200 EBV IgG Assay	"Epstein-Barr Virus, Viral Capsid Antigen "	Multiplex Immunoassay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	27_506	Abbott ARCHITECT anti-HBc Assay	"Hepatitis B Virus, Core Antigen"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	27_507	Abbott ARCHITECT HIV Ag/Ab Combo Assay	"HIV, HIV 1 and HIV 2 antigens"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	27_508	Geenius HIV 1/2 Supplemental Assay	"HIV, HIV 1 and HIV 2 antigens"	lateral flow assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	27_509	LIAISON VCA IgG Assay (EBV)	"Epstein-Barr Virus, Viral Capsid Antigen "	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	27_510	LIAISON CMV IgG Assay	"Cytomegalovirus, CMV antigens"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	27_511	CBC LDT	"HCoV-229E, HCoV-HKU1, HCoV-NL63, HCoV-OC43, Spike, RBD"	ELISA	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	32_035	Abbott ARCHITECT CMV IgG Assay	"Cytomegalovirus, CMV antigens"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	32_040	BioPlex 2200 EBV IgG Assay	"Epstein-Barr Virus, Early Antigen Diffuse, Viral Capsid Antigen, Nuclear antigen - 1"	Multiplex Immunoassay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	32_047	ACCESS SARS -CoV-2 IgM Assay	"SARS-CoV-2 Virus, Spike, RBD"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	32_048	ACCESS SARS -CoV-2 IgG Assay	"SARS-CoV-2 Virus, Spike, RBD"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	32_060	CBC LDT	"HCoV-229E, Nucleocapsid"	ELISA	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	32_065	CBC LDT	"HCoV-HKU1, Nucleocapsid"	ELISA	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	32_070	CBC LDT	"HCoV-NL63, Nucleocapsid"	ELISA	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	32_075	CBC LDT	"HCoV-OC43, Nucleocapsid"	ELISA	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	41_468	LIAISON CMV IgG Assay	"Cytomegalovirus, CMV antigens"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	41_470	LIAISON VCA IgM Assay (EBV)	"Epstein-Barr Virus, Viral Capsid Antigen "	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	41_472	LIAISON VCA IgG Assay (EBV)	"Epstein-Barr Virus, Viral Capsid Antigen "	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	41_474	LIAISON VCA IgG Assay (EBV)	"Epstein-Barr Virus, Early Antigen Diffuse"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	41_476	LIAISON VCA IgG Assay (EBV)	"Epstein-Barr Virus, Nuclear antigen - 1"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	41_481	LIAISON SARS-CoV-2 S1/S2 IgG Assay	"SARS-CoV-2 Virus, Spike, S1/S2"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	41_483	LIAISON SARS-CoV-2 IgM Assay	"SARS-CoV-2 Virus, Spike, SD"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	41_485	Abbott ARCHITECT anti-HBc Kit	"Hepatitis B Virus, Core Antigen"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	41_486	CBC LDT	"HCoV-229E, HCoV-NL63, HCoV-HKU1, HCoV-OC43, Spike, RBD"	ELISA	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	41_487	Elecsys Anti-SARS-CoV-2 S Immunoassay	"SARS-CoV-2 Virus, Nucleocapsid, Nucleocapsid (N) antigen"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	41_488	Elecsys Anti-SARS-CoV-2 S Immunoassay	"SARS-CoV-2 Virus, Spike, RBD"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18
+	41_491	RESEARCH COVID IGG XL	"SARS-CoV-2 Virus, Spike, recombinant trimeric SARS-CoV-2 spike protein"	Chemiluminescent Assay	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18

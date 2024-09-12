@@ -1,0 +1,14 @@
+41_487 - missing data
+
+Update Assay 
+	 - update data files 
+	 - update JSON
+	 - update excel template 
+	 - update experiment.v2 file 
+
+Study name = v2.2
+
+
+If CBC data update not ready before 14th, remove the CBC data about seasonal COVID
+
+Have David and Renuka do a sanity check on on new data 

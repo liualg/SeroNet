@@ -1,0 +1,34 @@
+09/06/2024 12:31:31 PM 
+PMID: 36781879 ####################
+09/06/2024 12:31:31 PM ERROR:: [Subject human] Check user defined ID
+09/06/2024 12:32:22 PM 
+PMID: 37520727 ####################
+09/06/2024 12:33:17 PM 
+PMID: 36880581 ####################
+09/06/2024 12:33:25 PM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+09/06/2024 12:33:42 PM INFO:: [User Change] SARS‐CoV‐2 strain MA10 => SARS-CoV-2 WA1/2020
+09/06/2024 12:33:42 PM Previous Input: Virus Target, SARS‐CoV‐2 strain MA10 => SARS-CoV-2 WA1/2020
+09/06/2024 12:33:42 PM Previous Input: Virus Target, SARS‐CoV‐2 strain MA10 => SARS-CoV-2 WA1/2020
+09/06/2024 12:33:42 PM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2021 => SARS-CoV-2 WA1/2020 : score 95
+09/06/2024 12:33:42 PM Previous Input: Virus Target, SARS‐CoV‐2 strain MA10 => SARS-CoV-2 WA1/2020
+09/06/2024 12:34:03 PM INFO:: [User Change] Viral Titer => Virus Neutralization
+09/06/2024 12:34:03 PM Previous Input: Virus Target, SARS‐CoV‐2 strain MA10 => SARS-CoV-2 WA1/2020
+09/06/2024 12:34:16 PM 
+PMID: 36781879 ####################
+09/06/2024 12:34:16 PM ERROR:: [Subject human] Check user defined ID
+09/06/2024 12:38:25 PM 
+PMID: 37514950 ####################
+09/06/2024 12:38:25 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/06/2024 12:38:25 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/06/2024 12:38:25 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/06/2024 12:38:25 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/06/2024 12:38:25 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/06/2024 12:38:25 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/06/2024 12:38:27 PM INFO:: [User Change] Not Specified => Not Applicable
+09/06/2024 12:51:40 PM 
+PMID: 38900738 ####################
+09/06/2024 12:51:40 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/06/2024 12:51:40 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/06/2024 12:51:40 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/06/2024 12:51:56 PM INFO:: [User Change] Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/06/2024 12:51:56 PM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination

@@ -1,0 +1,11 @@
+
+
+NEW ACCEPT May 17: 
+33666169 - 
+	- arrays must all be same length
+
+34003112 - 
+	- arrays must all be same length
+
+33622794 - may 17th - Script works
+	- Race (MULTIPLE RACES)

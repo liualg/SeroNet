@@ -36,14 +36,14 @@ def check_input(pmid):
             return False
 
     
-def get_box_dir(box_dir, pmid):
-    box_base = os.path.abspath(os.path.expanduser(os.path.expandvars(box_dir)))
+def traverse_dir(dir, pmid, depth=3):
+    box_base = os.path.abspath(os.path.expanduser(os.path.expandvars(dir)))
     depth = 3
 
     for dirpath, dirnames, filenames in os.walk(box_base):
         if dirpath[len(box_base):].count(os.sep) < depth:
             if "PMID_"+pmid in dirnames:
-                return(os.path.join(dirpath,"PMID_"+pmid))
+                return os.path.join(dirpath,"PMID_"+pmid)
 
 
 # Return start index for each section in the SeroNet Registry Template 

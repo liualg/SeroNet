@@ -1,0 +1,4 @@
+experiments	Schema Version 3.36	Unnamed: 2	Unnamed: 3	Unnamed: 4	Unnamed: 5	Unnamed: 6
+Please do not delete or edit this column						
+Column Name	User Defined ID	Name	Description	Measurement Technique	Study ID	Protocol ID(s)
+	14_090	CBC LDT	"HCoV-229E, HCoV-HKU1, HCoV-NL63, HCoV-OC43, Spike, RBD"	ELISA	SeroNet_Reference_Study	SeroNet_Reference_Study_protocol-18

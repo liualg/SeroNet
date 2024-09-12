@@ -26,7 +26,7 @@ cp ./1_0000_SeroNet_Diagram-3x4.jpg ./Package/1_0000_SeroNet_Diagram-3x4.jpg
 cp ./README.txt ./Package/README.txt
 
 # JSON  
-cp ./JSONcreateSuggestions.py ./Package/JSONcreateSuggestions.py
+#cp ./JSONcreateSuggestions.py ./Package/JSONcreateSuggestions.py
 cp ./JSONparse_template.py ./Package/JSONparse_template.py
 cp ./JSONparseRegistryTemplate.py ./Package/JSONparseRegistryTemplate.py
 

@@ -63,7 +63,8 @@ class study(DataClassJsonMixin):
 
     def __post_init__(self):
         PMID = re.findall("\d{8}",self.Study_Identifier)[0]
-        logging.info(f"\nPMID: {PMID}")
+        # PMID = re.findall("X{4}",self.Study_Identifier)[0]
+        logging.info(f"\nPMID: {PMID} ####################")
         self.Study_Identifier = seroFxn.remove_whitespace(self.Study_Identifier)
         self.Study_Name = seroFxn.remove_whitespace(self.Study_Name)
         self.Publication_Title = seroFxn.remove_whitespace(self.Publication_Title)

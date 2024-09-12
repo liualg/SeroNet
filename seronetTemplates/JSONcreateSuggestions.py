@@ -8,10 +8,6 @@ import os
 import glob
 import json
 
-import nltk
-from nltk.corpus import stopwords
-
-import ssl
 try:
      _create_unverified_https_context = ssl._create_unverified_context
 except AttributeError:
