@@ -252,3 +252,540 @@ PMID: 36880581 ####################
 09/12/2024 10:55:15 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2021 => SARS-CoV-2 WA1/2020 : score 95
 09/12/2024 10:55:15 AM Previous Input: Virus Target, SARS‐CoV‐2 strain MA10 => SARS-CoV-2 MA10 [mouse adapted]
 09/12/2024 10:55:15 AM Previous Input: Virus Target, SARS‐CoV‐2 strain MA10 => SARS-CoV-2 MA10 [mouse adapted]
+09/12/2024 11:08:09 AM 
+PMID: 37777967 ####################
+09/12/2024 11:08:09 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 11:08:09 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 11:08:09 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 11:08:09 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 11:08:09 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 11:08:09 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 11:08:09 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 11:08:09 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 11:08:09 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 11:15:14 AM 
+PMID: 38900738 ####################
+09/12/2024 11:15:14 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 11:15:14 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 11:15:14 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 11:15:14 AM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination
+09/12/2024 11:17:16 AM 
+PMID: 38900738 ####################
+09/12/2024 11:17:16 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 11:17:16 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 11:17:16 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 11:17:17 AM INFO:: [Fuzzy] Closest Match Found. Changing Post-Vaccination => Post-vaccination
+09/12/2024 12:46:28 PM 
+PMID: 37819267 ####################
+09/12/2024 12:46:28 PM ERROR:: [protocols] Protocol information is missing
+09/12/2024 12:53:12 PM 
+PMID: 36625657 ####################
+09/12/2024 12:53:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:53:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:53:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:53:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:53:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:53:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:53:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:53:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:53:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:53:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:53:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:53:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:53:12 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 12:53:12 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 12:53:12 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 12:53:12 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 12:53:12 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 12:53:12 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 12:53:12 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 12:53:12 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 12:55:18 PM 
+PMID: 36625657 ####################
+09/12/2024 12:55:18 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:55:18 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:55:18 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:55:18 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:55:18 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:55:18 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:55:18 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:55:18 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:55:18 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:55:18 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:55:18 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:55:18 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:55:18 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 12:55:18 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 12:55:18 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 12:55:18 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 12:55:18 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 12:55:18 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 12:55:18 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 12:55:18 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 12:57:20 PM 
+PMID: 36000735 ####################
+09/12/2024 12:57:20 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:57:20 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:57:20 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:57:20 PM Error:: [planned visit] Same order number used more than once
+09/12/2024 12:58:03 PM 
+PMID: 38112467 ####################
+09/12/2024 12:58:03 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:58:03 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:58:03 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:58:03 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:58:03 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:58:03 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:58:03 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:58:03 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:58:03 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:58:03 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:58:03 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:58:03 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:58:03 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:58:03 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:58:03 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:58:03 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:58:03 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:58:03 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:03 PM 
+PMID: 38112467 ####################
+09/12/2024 12:59:03 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:03 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:03 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:03 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:03 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:03 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:03 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:03 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:03 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:03 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:03 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:03 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:03 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:03 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:03 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:03 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:03 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:03 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:18 PM 
+PMID: 38112467 ####################
+09/12/2024 12:59:18 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:18 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:18 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:18 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:18 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:18 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:18 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:18 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:18 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:18 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:18 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:18 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:18 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:18 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:18 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:18 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:18 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:18 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:38 PM 
+PMID: 38112467 ####################
+09/12/2024 12:59:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:38 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 12:59:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:38 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 12:59:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 12:59:38 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:13:15 PM 
+PMID: 38112467 ####################
+09/12/2024 01:13:15 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:13:15 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:13:15 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:13:15 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:13:15 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:13:15 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:13:15 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:13:15 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:13:15 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:13:15 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:13:15 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:13:15 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:13:15 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:13:15 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:13:15 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:13:15 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:13:15 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:13:15 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:15:46 PM 
+PMID: 38112467 ####################
+09/12/2024 01:15:46 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:15:46 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:15:46 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:15:46 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:15:46 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:15:46 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:15:46 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:15:46 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:15:46 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:15:46 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:15:46 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:15:46 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:15:46 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:15:46 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:15:46 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:15:46 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:15:46 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:15:46 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:16:37 PM 
+PMID: 38112467 ####################
+09/12/2024 01:16:37 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:16:37 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:16:37 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:16:37 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:16:37 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:16:37 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:16:37 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:16:37 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:16:37 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:16:37 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:16:37 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:16:37 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:16:37 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:16:37 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:16:37 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:16:37 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:16:37 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:16:37 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:17:12 PM 
+PMID: 38112467 ####################
+09/12/2024 01:17:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:17:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:17:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:17:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:17:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:17:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 01:17:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:17:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:17:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:17:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:17:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:17:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 01:17:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:17:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:17:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:17:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:17:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 01:17:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:08:21 PM 
+PMID: 36322776 ####################
+09/12/2024 02:08:21 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:08:21 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:08:21 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:08:21 PM Error:: [planned visit] Same order number used more than once
+09/12/2024 02:08:48 PM 
+PMID: 36000735 ####################
+09/12/2024 02:08:48 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:08:48 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:08:48 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:28:56 PM 
+PMID: 39052608 ####################
+09/12/2024 02:28:56 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:28:56 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:28:56 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:28:56 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:28:56 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:28:56 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:28:56 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:28:56 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:28:56 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:28:56 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:28:56 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:28:56 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:28:56 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:28:56 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:28:56 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:28:56 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:28:56 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:28:56 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:28:56 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:28:56 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:28:56 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:28:56 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:28:56 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:28:56 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:42:56 PM 
+PMID: 39052608 ####################
+09/12/2024 02:42:56 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:42:56 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:42:56 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:42:56 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:42:56 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:42:56 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:42:56 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:42:56 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:42:56 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:42:56 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:42:56 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:42:56 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:42:57 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:42:57 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:42:57 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:42:57 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:42:57 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:42:57 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:42:57 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:42:57 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:42:57 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:42:57 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:42:57 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:42:57 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:43:24 PM 
+PMID: 36322776 ####################
+09/12/2024 02:43:24 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:43:24 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:43:24 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:43:33 PM 
+PMID: 36913381 ####################
+09/12/2024 02:43:39 PM INFO:: [User Change] Not Specified => Not Applicable
+09/12/2024 02:44:21 PM 
+PMID: 36913381 ####################
+09/12/2024 02:44:22 PM INFO:: [User Change] Not Specified => Not Applicable
+09/12/2024 02:44:30 PM 
+PMID: 36322776 ####################
+09/12/2024 02:44:30 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:44:30 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:44:30 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:44:42 PM INFO:: [User Change] Not Specified => Not Applicable
+09/12/2024 02:46:12 PM 
+PMID: 38112467 ####################
+09/12/2024 02:46:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:46:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:46:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:46:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:46:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:46:12 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:46:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:46:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:46:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:46:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:46:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:46:12 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:46:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:46:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:46:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:46:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:46:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:46:12 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:56:26 PM 
+PMID: 39052608 ####################
+09/12/2024 02:56:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:56:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:56:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:56:26 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 02:56:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:56:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:56:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:56:26 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 02:56:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:56:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:56:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:56:26 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 02:56:27 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:56:27 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:56:27 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:56:27 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:56:27 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:56:27 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:56:27 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:56:27 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:56:27 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:56:27 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:56:27 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 02:56:27 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 03:16:44 PM 
+PMID: 36000735 ####################
+09/12/2024 03:16:44 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 03:16:44 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 03:16:44 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 04:19:41 PM 
+PMID: 12345678 ####################
+09/12/2024 04:19:41 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 04:19:41 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 04:19:41 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 04:19:41 PM INFO:: [Fuzzy] Closest Match Found. Changing Immunosuppressive Disorder => Immunosuppressive Disorder 
+09/12/2024 04:19:41 PM [INFO]:: [Fuzzy] Lung Disease => Lung Disease
+ : score 96
+09/12/2024 04:19:43 PM INFO:: [User Change] Not Specified => Not Applicable
+09/12/2024 04:19:43 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+09/12/2024 04:19:43 PM INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+09/12/2024 04:19:43 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Lambda; => SARS-CoV-2 Lambda; C.37
+09/12/2024 04:19:43 PM [INFO]:: [Fuzzy] SARS-CoV-2 OmicrA micron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.3.1 : score 92
+09/12/2024 04:19:43 PM INFO:: [Fuzzy] Closest Match Found. Changing Not specified => Not Specified
+09/12/2024 04:19:45 PM INFO:: [User Change] Chemiluminescent Microparticle Immuno Assay (CMIA) => Chemiluminescent Assay
+09/12/2024 04:19:45 PM Previous Input: Assay Type, Chemiluminescent Microparticle Immuno Assay (CMIA) => Chemiluminescent Assay
+09/12/2024 04:19:46 PM INFO:: [User Change] Chemiluminescent immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:19:46 PM INFO:: [Fuzzy] Closest Match Found. Changing CMV antigens => CMV Antigens
+09/12/2024 04:19:46 PM Previous Input: Assay Type, Chemiluminescent immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:19:46 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+09/12/2024 04:19:51 PM INFO:: [User Change] p18 => Other
+09/12/2024 04:19:51 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:51 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:51 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:51 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:53 PM INFO:: [User Change] Electrochemiluminescence Immunoassay (eCLIA) => Chemiluminescent Assay
+09/12/2024 04:19:53 PM [INFO]:: [Fuzzy] Multiplex flow immunoassay => Multiplex Immunoassay : score 85
+09/12/2024 04:19:53 PM INFO:: [Fuzzy] Closest Match Found. Changing CMV antigens => CMV Antigens
+09/12/2024 04:19:53 PM [INFO]:: [Fuzzy] Multiplex flow immunoassay => Multiplex Immunoassay : score 85
+09/12/2024 04:19:53 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+09/12/2024 04:19:53 PM Previous Input: Assay Type, Chemiluminescent Microparticle Immuno Assay (CMIA) => Chemiluminescent Assay
+09/12/2024 04:19:53 PM [INFO]:: [Fuzzy] Core Antigen => Core antigen : score 92
+09/12/2024 04:19:53 PM Previous Input: Assay Type, Chemiluminescent Microparticle Immuno Assay (CMIA) => Chemiluminescent Assay
+09/12/2024 04:19:55 PM INFO:: [User Change] Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+09/12/2024 04:19:55 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing CMV antigens => CMV Antigens
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing CMV antigens => CMV Antigens
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing Early Antigen Diffuse => EBV Early Antigen Diffuse
+09/12/2024 04:19:55 PM [INFO]:: [Fuzzy] Nuclear antigen – 1 => EBV Nuclear Antigen - 1 : score 81
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+09/12/2024 04:19:55 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:19:55 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing CMV antigens => CMV Antigens
+09/12/2024 04:19:55 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+09/12/2024 04:19:55 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+09/12/2024 04:19:55 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing Early Antigen Diffuse => EBV Early Antigen Diffuse
+09/12/2024 04:19:55 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing Nuclear antigen - 1 => EBV Nuclear Antigen - 1
+09/12/2024 04:19:55 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:19:55 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:19:55 PM Previous Input: Assay Type, Chemiluminescent Microparticle Immuno Assay (CMIA) => Chemiluminescent Assay
+09/12/2024 04:19:55 PM [INFO]:: [Fuzzy] Core Antigen => Core antigen : score 92
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:19:55 PM Previous Input: Assay Type, Electrochemiluminescence Immunoassay (eCLIA) => Chemiluminescent Assay
+09/12/2024 04:19:55 PM Previous Input: Assay Type, Electrochemiluminescence Immunoassay (eCLIA) => Chemiluminescent Assay
+09/12/2024 04:19:55 PM Previous Input: Assay Type, Chemiluminescent immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:51:40 PM 
+PMID: 12345678 ####################
+09/12/2024 04:51:40 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+09/12/2024 04:51:40 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+09/12/2024 04:51:40 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+09/12/2024 04:51:40 PM INFO:: [Fuzzy] Closest Match Found. Changing Immunosuppressive Disorder => Immunosuppressive Disorder 
+09/12/2024 04:51:40 PM [INFO]:: [Fuzzy] Lung Disease => Lung Disease
+ : score 96
+09/12/2024 04:51:41 PM INFO:: [User Change] Not Specified => Not Applicable
+09/12/2024 04:51:41 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Epsilon; B.1.427 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+09/12/2024 04:51:41 PM INFO:: [Fuzzy] Closest Match Found. Changing B.1.429 => SARS-CoV-2 Epsilon; B.1.427 / B.1.429
+09/12/2024 04:51:41 PM INFO:: [Fuzzy] Closest Match Found. Changing SARS-CoV-2 Lambda; => SARS-CoV-2 Lambda; C.37
+09/12/2024 04:51:41 PM [INFO]:: [Fuzzy] SARS-CoV-2 OmicrA micron variant CA.3.1 => SARS-CoV-2 Omicron variant CA.3.1 : score 92
+09/12/2024 04:51:41 PM INFO:: [Fuzzy] Closest Match Found. Changing Not specified => Not Specified
+09/12/2024 04:51:42 PM INFO:: [User Change] Chemiluminescent Microparticle Immuno Assay (CMIA) => Chemiluminescent Assay
+09/12/2024 04:51:42 PM Previous Input: Assay Type, Chemiluminescent Microparticle Immuno Assay (CMIA) => Chemiluminescent Assay
+09/12/2024 04:51:43 PM INFO:: [User Change] Chemiluminescent immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:51:43 PM INFO:: [Fuzzy] Closest Match Found. Changing CMV antigens => CMV Antigens
+09/12/2024 04:51:43 PM Previous Input: Assay Type, Chemiluminescent immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:51:43 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+09/12/2024 04:51:48 PM INFO:: [User Change] p18 => Other
+09/12/2024 04:51:48 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:48 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:48 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:48 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:49 PM INFO:: [User Change] Electrochemiluminescence Immunoassay (eCLIA) => Chemiluminescent Assay
+09/12/2024 04:51:49 PM [INFO]:: [Fuzzy] Multiplex flow immunoassay => Multiplex Immunoassay : score 85
+09/12/2024 04:51:49 PM INFO:: [Fuzzy] Closest Match Found. Changing CMV antigens => CMV Antigens
+09/12/2024 04:51:49 PM [INFO]:: [Fuzzy] Multiplex flow immunoassay => Multiplex Immunoassay : score 85
+09/12/2024 04:51:49 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+09/12/2024 04:51:49 PM Previous Input: Assay Type, Chemiluminescent Microparticle Immuno Assay (CMIA) => Chemiluminescent Assay
+09/12/2024 04:51:49 PM [INFO]:: [Fuzzy] Core Antigen => Core antigen : score 92
+09/12/2024 04:51:49 PM Previous Input: Assay Type, Chemiluminescent Microparticle Immuno Assay (CMIA) => Chemiluminescent Assay
+09/12/2024 04:51:50 PM INFO:: [User Change] Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+09/12/2024 04:51:50 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing CMV antigens => CMV Antigens
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing CMV antigens => CMV Antigens
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing Early Antigen Diffuse => EBV Early Antigen Diffuse
+09/12/2024 04:51:50 PM [INFO]:: [Fuzzy] Nuclear antigen – 1 => EBV Nuclear Antigen - 1 : score 81
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+09/12/2024 04:51:50 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:51:50 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing CMV antigens => CMV Antigens
+09/12/2024 04:51:50 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+09/12/2024 04:51:50 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing Viral Capsid Antigen => EBV Viral Capsid Antigen
+09/12/2024 04:51:50 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing Early Antigen Diffuse => EBV Early Antigen Diffuse
+09/12/2024 04:51:50 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing Nuclear antigen - 1 => EBV Nuclear Antigen - 1
+09/12/2024 04:51:50 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:51:50 PM Previous Input: Assay Type, Chemiluminescence Immunoassay (CLIA) => Chemiluminescent Assay
+09/12/2024 04:51:50 PM Previous Input: Assay Type, Chemiluminescent Microparticle Immuno Assay (CMIA) => Chemiluminescent Assay
+09/12/2024 04:51:50 PM [INFO]:: [Fuzzy] Core Antigen => Core antigen : score 92
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+09/12/2024 04:51:50 PM Previous Input: Assay Type, Electrochemiluminescence Immunoassay (eCLIA) => Chemiluminescent Assay
+09/12/2024 04:51:50 PM Previous Input: Assay Type, Electrochemiluminescence Immunoassay (eCLIA) => Chemiluminescent Assay
+09/12/2024 04:51:50 PM Previous Input: Assay Type, Chemiluminescent immunoassay (CLIA) => Chemiluminescent Assay

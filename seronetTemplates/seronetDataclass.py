@@ -62,7 +62,7 @@ class study(DataClassJsonMixin):
     NAME: str = 'study'
 
     def __post_init__(self):
-        PMID = re.findall("\d{8}",self.Study_Identifier)[0]
+        PMID = re.findall("\d{8}|\w{8}",self.Study_Identifier)[0]
         # PMID = re.findall("X{4}",self.Study_Identifier)[0]
         logging.info(f"\nPMID: {PMID} ####################")
         self.Study_Identifier = seroFxn.remove_whitespace(self.Study_Identifier)
@@ -129,7 +129,7 @@ class study_file(DataClassJsonMixin):
         if len(self.File_Name) != len(self.Study_File_Type):
             logging.error("[file names]: Missing value")
             sys.exit("ERROR:: [file names]: Check for missing values")
-        # CHANGE JSON FILE TYPE
+
         for i, k in enumerate(self.File_Name):
             if 'JSON' in k:
                 self.Study_File_Type[i+1] = 'JSON Summary Description'
@@ -198,6 +198,7 @@ class protocols(DataClassJsonMixin):
 class condition_or_disease(DataClassJsonMixin):
     """1 Column to the right"""
     Reported_Health_Condition: str = None
+    # ImmPort_Reported_COD: 
     ImmPortNAME: str = 'study_2_condition_or_disease'
 
     def __post_init__(self):
@@ -715,8 +716,8 @@ class planned_visit(DataClassJsonMixin):
             if len(k) > 256: #125, someone added more characters
                 self.Name[i+1] = seroFxn.remove_whitespace(k)
 
-                logging.error(f"[planned visit]: {self.User_Defined_ID[i+1]} has reached character limit ({len(k)} > 125)")
-                sys.exit(f"[planned visit]: {self.User_Defined_ID[i+1]} has reached character limit ({len(k)} > 125)")
+                logging.error(f"[planned visit]: {self.User_Defined_ID[i+1]} has reached character limit ({len(k)} > 256)")
+                sys.exit(f"[planned visit]: {self.User_Defined_ID[i+1]} has reached character limit ({len(k)} > 256)")
 
 
 

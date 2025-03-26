@@ -1,0 +1,291 @@
+11/27/2024 09:51:34 AM 
+PMID: 23456789 ####################
+11/27/2024 09:51:34 AM ERROR:: [protocols] Protocol information is missing
+11/27/2024 09:51:58 AM 
+PMID: 23456789 ####################
+11/27/2024 09:51:58 AM ERROR:: [protocols] Protocol information is missing
+11/27/2024 09:52:28 AM 
+PMID: 23456789 ####################
+11/27/2024 09:52:28 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 09:52:28 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 09:52:28 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 09:52:28 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 09:52:28 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 09:52:28 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 09:52:28 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 09:52:28 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 09:52:28 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 09:52:28 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 09:52:28 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 09:52:28 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 09:52:28 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 09:52:28 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 09:52:28 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 09:52:28 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 09:52:28 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 09:52:28 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 09:52:28 AM [INFO]:: [Fuzzy] Lung Disease => Lung Disease
+ : score 96
+11/27/2024 09:52:28 AM [INFO]:: [Fuzzy] Acute Liver Disease => Liver Disease : score 81
+11/27/2024 09:52:28 AM INFO:: [Fuzzy] Closest Match Found. Changing Immunosuppressive Disorder => Immunosuppressive Disorder 
+11/27/2024 09:52:28 AM INFO:: [Fuzzy] Closest Match Found. Changing Viral Infection => Cytomegaloviral Infection
+11/27/2024 09:52:28 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 09:52:28 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 09:52:28 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 09:52:28 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 09:52:28 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 09:52:28 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 09:52:28 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 09:56:25 AM 
+PMID: 23456789 ####################
+11/27/2024 09:56:25 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 09:56:25 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 09:56:25 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 09:56:25 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 09:56:25 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 09:56:25 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 09:56:25 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 09:56:25 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 09:56:25 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 09:56:25 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 09:56:25 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 09:56:25 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 09:56:25 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 09:56:25 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 09:56:25 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 09:56:25 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 09:56:25 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 09:56:25 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 09:56:25 AM [INFO]:: [Fuzzy] Lung Disease => Lung Disease
+ : score 96
+11/27/2024 09:56:25 AM [INFO]:: [Fuzzy] Acute Liver Disease => Liver Disease : score 81
+11/27/2024 09:56:25 AM INFO:: [Fuzzy] Closest Match Found. Changing Immunosuppressive Disorder => Immunosuppressive Disorder 
+11/27/2024 09:56:25 AM INFO:: [Fuzzy] Closest Match Found. Changing Viral Infection => Cytomegaloviral Infection
+11/27/2024 09:56:25 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 09:56:25 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 09:56:25 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 09:56:25 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 09:56:25 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 09:56:25 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 09:56:25 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 10:00:08 AM 
+PMID: 23456789 ####################
+11/27/2024 10:00:08 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:00:08 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:00:08 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:00:08 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:00:08 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:00:08 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:00:08 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:00:08 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:00:08 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:00:08 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:00:08 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:00:08 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:00:08 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:00:08 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:00:08 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:00:08 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:00:08 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:00:08 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:00:08 AM [INFO]:: [Fuzzy] Lung Disease => Lung Disease
+ : score 96
+11/27/2024 10:00:08 AM [INFO]:: [Fuzzy] Acute Liver Disease => Liver Disease : score 81
+11/27/2024 10:00:08 AM INFO:: [Fuzzy] Closest Match Found. Changing Immunosuppressive Disorder => Immunosuppressive Disorder 
+11/27/2024 10:00:08 AM INFO:: [Fuzzy] Closest Match Found. Changing Viral Infection => Cytomegaloviral Infection
+11/27/2024 10:00:08 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 10:00:08 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 10:00:08 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 10:00:08 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 10:00:08 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 10:00:08 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 10:00:08 AM [INFO]:: [Fuzzy] Pfizer-BioNTech SARS-CoV-2 XBB.1.5; O:0020216 => Pfizer-BioNTech SARS-CoV-2 XBB.1.5; VO:0020216 : score 99
+11/27/2024 10:10:38 AM 
+PMID: 35085183 ####################
+11/27/2024 10:11:56 AM 
+PMID: 35085183 ####################
+11/27/2024 10:11:56 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:11:56 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:11:56 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:11:56 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:11:56 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:11:56 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:11:56 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:11:56 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:11:56 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:12:23 AM 
+PMID: 35085183 ####################
+11/27/2024 10:12:23 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:12:23 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:12:23 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:12:23 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:12:23 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:12:23 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:12:23 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:12:23 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:12:23 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:12:27 AM INFO:: [User Change] Covid-19 => COVID-19
+11/27/2024 10:12:29 AM INFO:: [User Change] Not Specified => Not Applicable
+11/27/2024 10:12:29 AM INFO:: [Fuzzy] Closest Match Found. Changing Johnson & Johnson => Johnson & Johnson SARS-CoV-2 vaccine
+11/27/2024 10:12:33 AM INFO:: [User Change] Moderna => Moderna SARS-CoV-2 vaccine
+11/27/2024 10:12:35 AM INFO:: [User Change] Pfizer-BioNTech => Pfizer-BioNTech SARS-CoV-2 vaccine
+11/27/2024 10:12:35 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+11/27/2024 10:12:35 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+11/27/2024 10:12:37 AM INFO:: [User Change] Other => Other Race
+11/27/2024 10:12:37 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+11/27/2024 10:12:37 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+11/27/2024 10:12:37 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+11/27/2024 10:13:12 AM 
+PMID: 35085183 ####################
+11/27/2024 10:13:12 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:13:12 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:13:12 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:13:12 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:13:12 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:13:12 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:13:12 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:13:12 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:13:12 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:13:14 AM INFO:: [User Change] Covid-19 => COVID-19
+11/27/2024 10:13:15 AM INFO:: [User Change] Not Specified => Not Applicable
+11/27/2024 10:13:15 AM INFO:: [Fuzzy] Closest Match Found. Changing Johnson & Johnson => Johnson & Johnson SARS-CoV-2 vaccine
+11/27/2024 10:13:16 AM INFO:: [User Change] Moderna => Moderna SARS-CoV-2 vaccine
+11/27/2024 10:13:17 AM INFO:: [User Change] Pfizer-BioNTech => Pfizer-BioNTech SARS-CoV-2 vaccine
+11/27/2024 10:13:17 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+11/27/2024 10:13:17 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+11/27/2024 10:13:18 AM INFO:: [User Change] Other => Other Race
+11/27/2024 10:13:18 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+11/27/2024 10:13:18 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+11/27/2024 10:13:18 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+11/27/2024 10:15:20 AM 
+PMID: 35090596 ####################
+11/27/2024 10:15:20 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:15:20 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:15:20 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:15:26 AM INFO:: [User Change] Covid-19 => COVID-19
+11/27/2024 10:15:26 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2024 10:15:26 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2024 10:15:26 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2024 10:15:26 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2024 10:15:28 AM INFO:: [User Change] Pfizer-BioNTech => Pfizer-BioNTech SARS-CoV-2 vaccine
+11/27/2024 10:15:29 AM INFO:: [User Change] Moderna => Moderna SARS-CoV-2 vaccine
+11/27/2024 10:15:29 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+11/27/2024 10:15:29 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+11/27/2024 10:16:00 AM INFO:: [User Change] B.1.1.7(alpha) => SARS-CoV-2 Alpha; B.1.1.7
+11/27/2024 10:16:05 AM INFO:: [User Change] B.1.351 (beta) => SARS-CoV-2 Beta; B.1.351
+11/27/2024 10:16:07 AM INFO:: [User Change] P.1 (gamma) => SARS-CoV-2 Gamma; P.1
+11/27/2024 10:16:10 AM INFO:: [User Change] B.1.617.2 (delta) => SARS-CoV-2 Delta; B.1.617.2
+11/27/2024 10:16:55 AM 
+PMID: 35090596 ####################
+11/27/2024 10:16:55 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:16:55 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:16:55 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:17:01 AM INFO:: [User Change] Covid-19 => COVID-19
+11/27/2024 10:17:01 AM INFO:: [Fuzzy] Closest Match Found. Changing HCoVs - Seasonal (OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2024 10:17:01 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2024 10:17:01 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2024 10:17:01 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E) => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2024 10:17:04 AM INFO:: [User Change] Pfizer-BioNTech => Pfizer-BioNTech SARS-CoV-2 vaccine
+11/27/2024 10:17:05 AM INFO:: [User Change] Moderna => Moderna SARS-CoV-2 vaccine
+11/27/2024 10:17:05 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+11/27/2024 10:17:05 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+11/27/2024 10:17:09 AM INFO:: [User Change] B.1.1.7(alpha) => SARS-CoV-2 Alpha; B.1.1.7
+11/27/2024 10:17:12 AM INFO:: [User Change] B.1.351 (beta) => SARS-CoV-2 Beta; B.1.351
+11/27/2024 10:17:14 AM INFO:: [User Change] P.1 (gamma) => SARS-CoV-2 Gamma; P.1
+11/27/2024 10:17:16 AM INFO:: [User Change] B.1.617.2 (delta) => SARS-CoV-2 Delta; B.1.617.2
+11/27/2024 10:17:44 AM INFO:: [User Change] B.526 (Iota) => SARS-CoV-2 Eta / Iota; B.1.525 / B.1.526
+11/27/2024 10:17:46 AM INFO:: [User Change] B.1.617.1 (kappa) => SARS-CoV-2 Kappa; B.1.617.1
+11/27/2024 10:18:02 AM INFO:: [User Change] P.2 (zeta) => SARS-CoV-2 Zeta; P.2
+11/27/2024 10:18:02 AM Previous Input: Virus Target, B.1.1.7(alpha) => SARS-CoV-2 Alpha; B.1.1.7
+11/27/2024 10:18:02 AM Previous Input: Virus Target, B.1.351 (beta) => SARS-CoV-2 Beta; B.1.351
+11/27/2024 10:18:02 AM Previous Input: Virus Target, P.1 (gamma) => SARS-CoV-2 Gamma; P.1
+11/27/2024 10:18:02 AM Previous Input: Virus Target, B.1.617.2 (delta) => SARS-CoV-2 Delta; B.1.617.2
+11/27/2024 10:18:02 AM Previous Input: Virus Target, B.526 (Iota) => SARS-CoV-2 Eta / Iota; B.1.525 / B.1.526
+11/27/2024 10:18:02 AM Previous Input: Virus Target, B.1.617.1 (kappa) => SARS-CoV-2 Kappa; B.1.617.1
+11/27/2024 10:18:02 AM Previous Input: Virus Target, P.2 (zeta) => SARS-CoV-2 Zeta; P.2
+11/27/2024 10:18:02 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2024 10:18:02 AM INFO:: [Fuzzy] Closest Match Found. Changing OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2024 10:18:02 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2024 10:18:02 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2024 10:18:02 AM INFO:: [Fuzzy] Closest Match Found. Changing HKU-1 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2024 10:18:02 AM INFO:: [Fuzzy] Closest Match Found. Changing OC43 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2024 10:18:02 AM INFO:: [Fuzzy] Closest Match Found. Changing NL63 => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2024 10:18:02 AM INFO:: [Fuzzy] Closest Match Found. Changing 229E => HCoVs - Seasonal (OC43, HKU-1, NL63, 229E)
+11/27/2024 10:52:56 AM 
+PMID: 35174389 ####################
+11/27/2024 10:52:56 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:52:56 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:52:56 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:52:56 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 10:52:56 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:52:56 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:52:56 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:52:56 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 10:52:56 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:52:56 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:52:56 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:52:56 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 10:52:59 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+11/27/2024 10:52:59 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+11/27/2024 10:52:59 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004988 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 97
+11/27/2024 10:52:59 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004989 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 97
+11/27/2024 10:52:59 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004990 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 94
+11/27/2024 10:52:59 AM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+11/27/2024 10:52:59 AM [INFO]:: [Fuzzy] SARS-CoV-2 Wuhan / 2020 => SARS-CoV-2 Wuhan/2020 : score 95
+11/27/2024 11:18:50 AM 
+PMID: 35764643 ####################
+11/27/2024 11:18:50 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 11:18:50 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 11:18:50 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 11:18:50 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 11:18:50 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 11:18:50 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 11:18:50 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 11:18:50 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 11:18:50 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 11:18:57 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+11/27/2024 11:18:57 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+11/27/2024 11:18:57 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+11/27/2024 11:18:57 AM [INFO]:: [Fuzzy] Moderna COVID-19 vaccine ; VO:0005157 => Moderna COVID-19 vaccine; VO:0005157 : score 99
+11/27/2024 11:18:57 AM [INFO]:: [Fuzzy] Pfizer BioNTech COVID-19 vaccine ; VO:0004987 => Pfizer BioNTech COVID-19 vaccine; VO:0004987 : score 99
+11/27/2024 11:18:57 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+11/27/2024 11:18:57 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+11/27/2024 11:18:57 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+11/27/2024 11:18:57 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+11/27/2024 11:18:57 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+11/27/2024 11:18:57 AM [INFO]:: [Fuzzy] SARS-CoV-2 WA1/2020 (D614 variant) => SARS-CoV-2 WA1/2020 (D614G variant) : score 99
+11/27/2024 11:26:46 AM 
+PMID: 35857583 ####################
+11/27/2024 11:26:46 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 11:26:46 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 11:26:46 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 11:26:46 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 11:26:46 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 11:26:46 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 11:26:46 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 11:26:46 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 11:26:46 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 11:26:51 AM [INFO]:: [Fuzzy] ​JSON Summary Description => JSON Summary Description : score 94
+11/27/2024 11:53:20 AM 
+PMID: 36000735 ####################
+11/27/2024 11:53:20 AM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 11:53:20 AM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 11:53:20 AM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 12:01:41 PM 
+PMID: 38022602 ####################
+11/27/2024 12:01:41 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 12:01:41 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 12:01:41 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 12:01:41 PM WARNING:: [Sex_at_Birth] Changing 'male | female' to 'other'
+11/27/2024 12:01:41 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 12:01:41 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 12:01:41 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 12:01:41 PM Warning:: [Race] Changing 'Race' to 'other' and moving data to [Race Specify]
+11/27/2024 12:01:41 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 12:01:41 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 12:01:41 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 12:01:41 PM Warning:: [Ethnicity] Changing list to other in ImmPort Templates
+11/27/2024 12:01:54 PM [INFO]:: [Fuzzy] Health Control => Healthy Control : score 97
+11/27/2024 12:01:54 PM INFO:: [Fuzzy] Closest Match Found. Changing vaccination => Vaccination
+11/27/2024 12:01:54 PM [INFO]:: [Fuzzy] Health Control => Healthy Control : score 97
+11/27/2024 12:01:54 PM INFO:: [Fuzzy] Closest Match Found. Changing plasma => Plasma

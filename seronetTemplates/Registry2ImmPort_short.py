@@ -46,7 +46,7 @@ else:
 
 
 file_type = "json"
-DR_NUMBER = "52.2"
+DR_NUMBER = "55.1"
 
 #########################################
 ######### Taking in Inputs ##############
@@ -71,13 +71,14 @@ def create_short(PMID, user_input_path=False):
 		if platform == "darwin":
 			box_base = "~/Library/CloudStorage/Box-Box/SeroNet Curation/SeroNet Public Data"
 			drive = "/Users/liualg/Library/CloudStorage/OneDrive-SharedLibraries-NationalInstitutesofHealth"
-			share_point = os.path.join(drive,"NCI-SeroNet - SeroNet Public Data Sharing - SeroNet Public Data Sharing")
+			share_point = os.path.join(drive,"NCI-SeroNet - SeroNet Public Data Curation RESTRICTED")
 		else: 
 			print("User has windows")
 			share_point = os.path.join("Users",os.getlogin(), "OneDrive-SharedLibraries-NationalInstitutesofHealth", "NCI-SeroNet - SeroNet Public Data Sharing - SeroNet Public Data Sharing")
 
 		#File Paths
-		cloud_drive = box_base
+		cloud_drive = share_point
+		print(os.path.isdir(cloud_drive))
 		BASE_DIR = seroFxn.traverse_dir(cloud_drive, PMID)
 		if os.path.isdir(BASE_DIR):
 
@@ -657,14 +658,19 @@ def create_short(PMID, user_input_path=False):
 	registryToImmportDict = pd.read_csv(registryToImmportDict_file, 
 										header=None, 
 										index_col=0).squeeze().to_dict()
+	# We can change the condition or diseases here to check what we need
+	# print(COD)
+	# print(**vars(COD))
 	# registryToImmportDict
+
+	#
 	registryDict = {**vars(STUDY),
 					**vars(STUDY_CATEGORIZATION),
 					**vars(STUDY_DESIGN),
 					**vars(STUDY_DETAILS),
 					**vars(STUDY_PUBMED),
 					**vars(COD)}
-
+	# print(registryDict)
 	registryDict['SARS-CoV-2_Vaccine_Type'] = ['N/A']
 
 	if len([x for x in vaccine_name if x not in VARS_TO_CLEAN]) != 0:
@@ -678,6 +684,7 @@ def create_short(PMID, user_input_path=False):
 	# ' | ' spaced text. Instead they want multiple rows. So going to see how many " | " there are in reg_key = 
 	# Reported_Health_Condition and then adding the number to the range statement... well shall see if that works 
 	numbHealthCon = registryDict.get('Reported_Health_Condition')[0].count('|')
+	# print(numbHealthCon)
 	
 	# Looping through ImmPort Template to get the correct order of the 'study' section
 	# Where Column A (frist column in df) should be empty due to ImmPort template format
@@ -691,7 +698,7 @@ def create_short(PMID, user_input_path=False):
 			try:
 				# print(reg_key)
 				## If input is a list, we will turn it into a string (since it cant be a list)
-				if reg_key == "Reported_Health_Condition" and numbHealthCon > 1:
+				if reg_key == "Reported_Health_Condition" and numbHealthCon > 0: #here (lol i counted wrong)
 					temp_ws.insert_rows(se_number+2, amount=numbHealthCon)
 					for n, i in enumerate(registryDict.get(reg_key)[0].split('|')):
 						temp_ws["B"][se_number + n].value = i.strip()
@@ -970,7 +977,7 @@ def create_short(PMID, user_input_path=False):
 	# shutil.copyfile(os.path.join(CD,"template","xImmPortFillerDocuments","ExperimentalDataInStudyFilesTab.txt"), os.path.join(OUT_DIR,"ExperimentalDataInStudyFilesTab.txt"))
 	shutil.copy(df_path, OUT_DIR)
 
-	for filename in glob(os.path.join(CD,(BASE_DIR),"submitted_data", '*.*')):
+	for filename in glob(os.path.join(CD,escape(BASE_DIR),"submitted_data", '*.*')):
 		shutil.copy(filename, OUT_DIR)
 
 	print("\n")
@@ -1001,5 +1008,5 @@ def create_short(PMID, user_input_path=False):
 
 
 
-# create_short('12345678',user_input_path=True)
-#create_short('XXXX',user_input_path=True)
+# create_short('LongStud',user_input_path=True)
+# create_short('XXXX',user_input_path=True)
