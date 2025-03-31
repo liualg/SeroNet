@@ -39,7 +39,7 @@ import warnings
 
 warnings.simplefilter("ignore")
 
-if platform == "darwin":
+if platform == "darwin":  ## EDIT
 	os.system('clear')
 else:
 	os.system('cls')
@@ -68,18 +68,20 @@ def create_short(PMID, user_input_path=False):
 	else:
 		# Using Box directory
 		# finding correct Box Base
-		if platform == "darwin":
-			box_base = "~/Library/CloudStorage/Box-Box/SeroNet Curation/SeroNet Public Data"
-			drive = "/Users/liualg/Library/CloudStorage/OneDrive-SharedLibraries-NationalInstitutesofHealth"
-			share_point = os.path.join(drive,"NCI-SeroNet - SeroNet Public Data Curation RESTRICTED")
-		else: 
-			print("User has windows")
-			share_point = os.path.join("Users",os.getlogin(), "OneDrive-SharedLibraries-NationalInstitutesofHealth", "NCI-SeroNet - SeroNet Public Data Sharing - SeroNet Public Data Sharing")
+		# if platform == "darwin":
+		# 	box_base = "~/Library/CloudStorage/Box-Box/SeroNet Curation/SeroNet Public Data"
+		# 	drive = "/Users/liualg/Library/CloudStorage/OneDrive-SharedLibraries-NationalInstitutesofHealth"
+		# 	share_point = os.path.join(drive,"NCI-SeroNet - SeroNet Public Data Curation RESTRICTED")
+		# else: 
+		# 	print("User has windows")
+		# 	share_point = os.path.join("Users",os.getlogin(), "OneDrive-SharedLibraries-NationalInstitutesofHealth", "NCI-SeroNet - SeroNet Public Data Sharing - SeroNet Public Data Sharing")
 
-		#File Paths
-		cloud_drive = share_point
-		print(os.path.isdir(cloud_drive))
-		BASE_DIR = seroFxn.traverse_dir(cloud_drive, PMID)
+		# #File Paths
+		# cloud_drive = share_point
+		# print(os.path.isdir(cloud_drive))
+		# BASE_DIR = seroFxn.traverse_dir(cloud_drive, PMID)
+		curation_path, data_path = seroFxn.find_onedrive()
+		BASE_DIR = seroFxn.traverse_dir(data_path, PMID)
 		if os.path.isdir(BASE_DIR):
 
 			try:
@@ -1009,4 +1011,4 @@ def create_short(PMID, user_input_path=False):
 
 
 # create_short('LongStud',user_input_path=True)
-# create_short('XXXX',user_input_path=True)
+# create_short('TESTER',user_input_path=True)

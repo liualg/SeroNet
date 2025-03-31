@@ -1,26 +1,68 @@
-Activating Script:
+Author: Alexander Liu
+-------------------------------------
+-------------- NOTES ----------------
+-------------------------------------
+>>  indicates code
+>   indicates expcted output
+(Windows)   indicates operating system
+(Mac--os)   indicates operating system
 
-1. installation
+-------------------------------------
+-------------------------------------
 
-1.1 install python
-Navigate to:
-https://www.python.org/downloads/
+* What this file has
 
-Download newest version
+This folder contains the scripts, training video, and links to related documents to SeroNet's ETL scripts. The files was
 
-1.2 Checking if basic requirements are met
-Check if Python is installed.
- Open command prompt
- 'python --version'
-  > Python x.y.z
+* Folder Structure
 
-Check if PIP is installed.
- In command prompt
- 'pip --version'
- > pip x.y.z from /foo/bar/lib/python3.8/site-packages/pip (python 3.8)
+SeroNet scripts has two main areas. Offical scripts (Offical Uplaod Scripts) and General Scripts (Helpful Curation Scripts). 
 
-2.  install requirements.txt
- pip install -r software.txt 
+Offical scripts contains all files need to upload data to ImmPort for general curation, updates, parsing data into ImmPort subject level information. These files will have documentation and have supporting SOPs to get everything running smoothly.  
 
-3. Run script
- python createTemplate.py
+General Scripts contains everything else! These are scripts that I developed to pull data a little quicker from the web, to navigate ImmPorts API, Folder creations, ... etc. All files are aptly named -- documentation will be limited on these files, as these were bits of code that I found helpful while working on curation. 
+
+
+* How to get started
+
+Download your own copy of the script from teams onto your local computer 
+
+Everything written here is in python. Please install the latest version of python. 
+This is pythons offical website: https://www.python.org/downloads/
+
+Once the file is downloaded, open it up and click through installation guide. 
+
+Upon completetion, please open up command prompt/shell to check that python is correctly install. 
+(Windows / Mac--os)>>   python --version
+(Windows / Mac--os)>    Python x.x.x
+
+Check to see if PIP is installed. 
+(Windows / Mac--os)>>   pip3 --version
+(Windows / Mac--os)>    pip3 xx.x from /Library/Frameworks/Python.framework/Versions/../../pip (python 3.12)
+
+
+Find the requiremnts.txt file and change your current directory to where it is located. For this example the script is located in the Download directory still. 
+(Windows)>> cd %USERPROFILE%\Downloads\Package
+(Mac--os)>> cd ~/Downloads/Package
+
+Install the requrements needed
+(Windows / Mac--os)>>   pip install -r requiremnts.txt
+
+You are now ready to run your script! Look for a run_me.py file
+Example if you wanted to run the ImmPort template generation script
+(Windows / Mac--os)>>   python createTemplates.py
+
+To run the script without the gui you can use:
+(Windows / Mac--os)>>   python createTemplates.py --Dev T --PMID xxxxxxxx
+
+
+Detailed instructions will be in each folder. 
+
+
+* Where users can get help with your project
+Alexander Liu - alexander.g.liu001+NIH@gmail.com
+Patrick Breads - patrick.breads@NIH.gov
+
+
+* Who maintains and contributes to the project
+Please contact current project manager for information on current people who maintain and contributes to the project

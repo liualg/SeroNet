@@ -21,6 +21,7 @@ Once the files and packages have downloaded, check to make sure the box path [lo
 
 To run the script, please type 'python createTemplates.py' and enter the PMID into the pop-up window. 
 
+For more instructions, please refer to instructions.txt 
 
 Acknowledgements: 
 SeroNet Team - Elaine Freund, Renuka Vepachedu, David Abraham, Patrick Breads

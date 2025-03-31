@@ -28,7 +28,7 @@ import warnings
 
 warnings.simplefilter("ignore")
 
-try:
+try: ## UDPATE
     os.system('clear')
 except:
     os.system('cls')
@@ -43,18 +43,21 @@ def create_basic(PMID):
     sheet_name = 'SeroNet Registry Template'
     map_sheet = 'Registry Definitions'
 
+    curation_path, data_path = seroFxn.find_onedrive()
+    # # Using Box directory
+    # # finding correct Box Base
+    # if platform == "darwin":
+    #   box_base = "~/Library/CloudStorage/Box-Box/SeroNet Curation/SeroNet Public Data"
+    #   drive = "/Users/liualg/Library/CloudStorage/OneDrive-SharedLibraries-NationalInstitutesofHealth"
+    #   share_point = os.path.join(drive,"NCI-SeroNet - SeroNet Public Data Curation RESTRICTED")
+    # else: 
+    #   print("User has windows")
+    #   share_point = os.path.join("Users",os.getlogin(), "OneDrive-SharedLibraries-NationalInstitutesofHealth", "NCI-SeroNet - SeroNet Public Data Sharing - SeroNet Public Data Sharing")
 
-    # finding correct Box Base
-    if platform == "darwin":
-        box_base = "~/Library/CloudStorage/Box-Box/SeroNet Public Data"
-    else: 
-        print("User has windows")
-        box_base = os.path.join("Users",os.getlogin(), "Box")
-
-
-    #File Paths
-    BASE_DIR = seroFxn.get_box_dir(box_base, PMID)
-
+    # #File Paths
+    # cloud_drive = share_point
+    # print(os.path.isdir(cloud_drive))
+    BASE_DIR = seroFxn.traverse_dir(data_path, PMID)
 
     try:
         df_path = glob(os.path.join(BASE_DIR,'templated_data',f'PMID{PMID}*.xlsm'))[0]

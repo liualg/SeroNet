@@ -38,9 +38,9 @@ cp ./InternalQs.ipynb ./Package/InternalQs.ipynb
 cp ./createPackage.sh ./Package/createPackage.sh
 
 pipreqs ./Package/
-mv ./Package/requirements.txt ./Package/software.txt
+mv ./Package/requirements.txt ./Package/requirements.txt
 
-zip -r ./Package_v1.3.6.zip ./Package
+zip -r ./Package_v1.4.4.zip ./Package
 rm -r ./Package
 
 

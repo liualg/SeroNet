@@ -83,16 +83,8 @@ def create_full(PMID):
 
 
     # finding correct Box Base
-    if platform == "darwin":
-        box_base = "~/Library/CloudStorage/Box-Box/SeroNet Public Data"
-    else: 
-        print("User has windows")
-        box_base = os.path.join("Users",os.getlogin(), "Box")
-
-
-    #File Paths
-    BASE_DIR = seroFxn.get_box_dir(box_base, PMID)
-    print(BASE_DIR)
+    curation_path, data_path = seroFxn.find_onedrive()
+    BASE_DIR = seroFxn.traverse_dir(data_path, PMID)
 
     try:
         df_path = glob(os.path.join(BASE_DIR,'templated_data',f'PMID{PMID}*eviewed.xlsm'))[0]

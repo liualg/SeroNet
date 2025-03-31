@@ -7,6 +7,7 @@ from datetime import datetime
 import glob
 from fuzzywuzzy import fuzz
 from openpyxl import load_workbook
+import seronetFunctions as seroFxn
 
 import datetime as dt
 import logging
@@ -150,15 +151,19 @@ json_seronet_dict = dict(
 )
 
 ## creating dictionary of correct spelling from most recent template
-try:
-    try:
-        wb = load_workbook(
-            glob.glob("/Users/liualg/Library/CloudStorage/OneDrive-SharedLibraries-NationalInstitutesofHealth/NCI-FNL SeroNet Team - Curation channel/*.xlsm")[0],
-                          )
-    except:
-        wb = load_workbook(
-            glob.glob("/Users/liualg/Library/CloudStorage/OneDrive-NationalInstitutesofHealth/Curation channel/*.xlsm")[0],
-                          )
+curation_path, data_path = seroFxn.find_onedrive()
+temp = os.path.join(curation_path,"*")
+print(os.path.isdir(temp))
+print(glob.glob(glob.escape(temp)))
+# print(curation_path,data_path,sep="\n")
+
+try: ## EDIT
+    curation_path, data_path = seroFxn.find_onedrive()
+    print(curation_path)
+    wb = load_workbook(
+        glob.glob(os.path.join(glob.escape(curation_path),"*.xlsm"))[0],
+                      )
+
 except:
     sys.exit("Workbook not loaded correctly") 
 

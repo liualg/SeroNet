@@ -10,6 +10,11 @@ This script is compatibale with Registry Version v.1.2.3
 This script is compatibale with Registry Version v.1.3.5
 
 '''
+import os
+from glob import escape, glob
+from sys import platform
+import getpass
+from pathlib import Path
 
 import pandas as pd 
 import numpy as np
@@ -22,6 +27,30 @@ from dataclasses import dataclass, field
 import openpyxl
 from openpyxl import load_workbook, Workbook
 from openpyxl.utils.dataframe import dataframe_to_rows
+
+# Getting paths without user input
+
+def find_onedrive():
+    USER=getpass.getuser()
+    # print(USER)
+
+    if platform == "linux" or platform == "linux2":
+        print("NOT SUPPORTED. Please edit PATH_SETUP.py as you see fit")
+
+    elif platform == "darwin":
+        ONEDRIVE = os.path.join("/Users",USER,"Library","CloudStorage","OneDrive-SharedLibraries-NationalInstitutesofHealth")
+        CURATION =os.path.join(ONEDRIVE,"NCI-FNL SeroNet Team - Curation channel")
+        DATA = os.path.join(ONEDRIVE,"NCI-SeroNet - SeroNet Public Data Curation RESTRICTED")
+
+    elif platform == "win32":
+        ONEDRIVE =os.path.join("c:/", "Users",USER,"OneDrive - National Institutes of Health")
+        CURATION =os.path.join(ONEDRIVE,"Curation channel")
+        DATA = os.path.join(ONEDRIVE,"SeroNet Public Data Curation RESTRICTED")
+
+    else:
+        sys.exit("ERROR:: What OS are you using?")
+
+    return CURATION, DATA
 
 # find file dir to save files base off PMID
 def check_input(pmid):
